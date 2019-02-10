@@ -79,7 +79,7 @@ Google Health supports only a [limited set of entities](http://code.google.com/a
 
 Here are some illustrative CCR figures from Dr. Waldren’s presentation (see end of article).
 
-[![image](http://healthblog.vitraag.com/wp-content/uploads/2009/10/image_thumb4.png)](http://healthblog.vitraag.com/wp-content/uploads/2009/10/image7.png) [![image](http://healthblog.vitraag.com/wp-content/uploads/2009/10/image_thumb5.png)](http://healthblog.vitraag.com/wp-content/uploads/2009/10/image8.png)
+[![image]({{site.images}}/2009/10/image_thumb4.png)]({{site.images}}/2009/10/image7.png) [![image]({{site.images}}/2009/10/image_thumb5.png)]({{site.images}}/2009/10/image8.png)
 
 Using the SNOMED-CT concepts one can write the Systolic Blood pressure reading in CCR as the following (**UPDATE**: Well-formatted the CCR to include source, object-id and actors, thanks to Matt Wagner):
 

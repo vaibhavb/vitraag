@@ -24,4 +24,4 @@ If you are already using the community supported HealthVault Java Library, I wou
 
 **Looking forward to comments, feedback and contributions!**
 
-[![image](http://healthblog.vitraag.com/wp-content/uploads/2009/12/image1.png)](http://healthvaultjavalib.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=35562)
+[![image]({{site.images}}/2009/12/image1.png)](http://healthvaultjavalib.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=35562)

@@ -12,7 +12,7 @@ categories:
 - Vocabularies
 ---
 
-I have [previously posted](http://healthblog.vitraag.com/2009/07/understanding-vocabularies-2-healthvault-recommendations/) about Understanding Health Ontologies and Standards. In this post I’ll focus on SNOMED-CT ([Systematized Nomenclature of Medicine Clinical Terms](http://en.wikipedia.org/wiki/SNOMED_CT)). SNOMED-CT is the most comprehensive vocabulary to express clinical terms - it spans languages, specialties and geographic borders.
+I have [previously posted](http://www.vitraag.com/2009/07/understanding-vocabularies-2-healthvault-recommendations/) about Understanding Health Ontologies and Standards. In this post I’ll focus on SNOMED-CT ([Systematized Nomenclature of Medicine Clinical Terms](http://en.wikipedia.org/wiki/SNOMED_CT)). SNOMED-CT is the most comprehensive vocabulary to express clinical terms - it spans languages, specialties and geographic borders.
 
  
 
@@ -30,7 +30,7 @@ To give you a taste here is an example of Blood pressure reading represented usi
 
  
 
-[![Ontology_Mapping](http://healthblog.vitraag.com/wp-content/uploads/2009/10/Ontology_Mapping_thumb.png)](http://healthblog.vitraag.com/wp-content/uploads/2009/10/Ontology_Mapping.png)
+[![Ontology_Mapping]({{site.images}}/2009/10/Ontology_Mapping_thumb.png)]({{site.images}}/2009/10/Ontology_Mapping.png)
 
  
 
@@ -60,7 +60,7 @@ Once you are through with registration and have an account, start by downloading
   * Social context : 2 codes in total
  
 
-[![Snomed_Subset](http://healthblog.vitraag.com/wp-content/uploads/2009/10/Snomed_Subset_thumb.png)](http://healthblog.vitraag.com/wp-content/uploads/2009/10/Snomed_Subset.png)
+[![Snomed_Subset]({{site.images}}/2009/10/Snomed_Subset_thumb.png)]({{site.images}}/2009/10/Snomed_Subset.png)
 
  
 
@@ -68,7 +68,7 @@ We can use [BCP](http://msdn.microsoft.com/en-us/library/ms162802.aspx) to copy 
 
  
 
-[![Snomed_Snowflake](http://healthblog.vitraag.com/wp-content/uploads/2009/10/Snomed_Snowflake_thumb.png)](http://healthblog.vitraag.com/wp-content/uploads/2009/10/Snomed_Snowflake.png)
+[![Snomed_Snowflake]({{site.images}}/2009/10/Snomed_Snowflake_thumb.png)]({{site.images}}/2009/10/Snomed_Snowflake.png)
 
  
 

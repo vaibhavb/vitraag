@@ -114,7 +114,7 @@ Check out a simple (HelloHV application) running on Windows Azure [here](http://
 
 
 
-[![image](http://healthblog.vitraag.com/wp-content/uploads/2009/10/image_thumb1.png)](http://healthblog.vitraag.com/wp-content/uploads/2009/10/image4.png)
+[![image]({{site.images}}/2009/10/image_thumb1.png)]({{site.images}}/2009/10/image4.png)
 
 
 
