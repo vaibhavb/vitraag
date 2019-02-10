@@ -1,0 +1,50 @@
+---
+author: vitraag
+comments: true
+date: 2011-05-02 07:44:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2011/05/02/47th-latitude/
+slug: 47th-latitude
+title: 47th Latitude
+wordpress_id: 491
+categories:
+- writings
+---
+
+[![Chicago]({{site.images}}/2011/05/Chicago_thumb.jpg)]({{site.images}}/2011/05/Chicago.jpg)
+
+ 
+
+Another installment of pic and a poem inspired by [Kuzu kuzu](http://www.youtube.com/watch?v=Ew2o0DnXpCI) by Tarkan
+
+ 
+
+<blockquote>  
+> 
+> “The weather swallows
+> 
+>    
+> 
+> It’s a herd of those clouds that follow
+> 
+>    
+> 
+> It is the drop of rain that precedes another
+> 
+>    
+> 
+> The skyline might change
+> 
+>    
+> 
+> But 47th latitude remains the same
+> 
+>    
+> 
+> It’s the weather that follows
+> 
+>    
+> 
+> Kuzu kuzu, its Karma, its constant”
+> 
+> </blockquote>

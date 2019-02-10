@@ -1,0 +1,14 @@
+---
+author: vitraag
+comments: true
+date: 2005-06-02 22:39:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2005/06/02/19/
+slug: '19'
+title: Microfinance
+wordpress_id: 1059
+categories:
+- finance
+---
+
+[The Microfinance Revolution: Sustainable Finance for the Poor](http://www.amazon.com/exec/obidos/tg/detail/-/0821345249/002-0187646-1030462?v=glance) presents the modern thoery of Microfinance. Typically to answer questions like why to lend out to poor and what is the guarantee that the small money lent will be repaid by the poor. A list of detailed research paper about the same appears [here](http://www.microfinance.com/). Scoring to lend!! Why would some poor person give money which was lent. I would say only if the money which he got made him some profit! My idea of economy is something is profitable only if it makes a profit for the consumer.

@@ -1,0 +1,82 @@
+---
+author: vitraag
+comments: true
+date: 2008-05-04 05:41:36+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2008/05/03/welcome/
+slug: welcome
+title: Lets see what sticks!
+wordpress_id: 7
+categories:
+- About
+---
+
+Welcome!  This is the landing page of various projects [Vaibhav ](http://www.vitraag.com/resume.html)keeps working on. He is  not sure which of these ventures will hatch and get wings but **the art of start** demands going through things until you make meaning!
+
+
+
+
+Do check out -
+
+
+
+
+**Current Active Projects :**
+
+
+
+
+
+
+  1. vMudi : [http://www.vmudi.com](http://www.vmudi.com): A mood game!
+
+
+  2. HealthBlog:[ http://healthblog.vitraag.com](http://healthblog.vitraag.com): A blogging excursion in HealthCare IT.: A blogging excursion in HealthCare IT.
+
+
+  3. Programming HealthCare Silos: [http://silosbook.vitraag.com](http://silosbook.vitraag.com) - A book introducing HealthCare IT to Web 2.0 Programmers.
+
+
+  4. Karkhana: [http://thekarkhana.vitraag.com](http://thekarkhana.vitraag.com)
+
+
+  5. WiseVoter: [http://www.wisevoter.org](http://www.wisevoter.org)
+
+
+
+
+**Dormant Projects:**
+
+
+
+
+
+
+  1. A data analysis toolkit / framework for services.
+
+
+  2. Reemedix: [http://www.reemedix.com](http://www.reemedix.com/): An approach to achieve clinical groupware.
+
+
+  3. HealthAssist: [http://healthassist.reemedix.com - ](http://healthassist.reemedix.com)Converse with your Health data!
+
+
+  4. Wines Of East: [http://www.winesofeast.com](http://www.winesofeast.com)
+
+
+
+
+**Deadpool Project(s):**
+
+
+
+
+
+
+  1. Nip.am: [http://nip.am](http://nip.am) - A socially conscious URL Shortener.
+
+
+  2. FitLive: [http://fitlive.dreamhosters.com](http://fitlive.dreamhosters.com)
+
+
+

@@ -1,0 +1,132 @@
+---
+author: vitraag
+comments: true
+date: 2009-02-08 04:08:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2009/02/07/walkme-and-2009/
+slug: walkme-and-2009
+title: WalkMe and 2009!
+wordpress_id: 155
+categories:
+- family
+- festivals
+- writings
+---
+
+ 
+
+Dear Friend and Well-wisher :
+
+
+  
+
+
+ 
+
+ 
+
+Hope things are going great with you. Things have been pretty busy and hectic since start of this year, haven’t even gotten a chance to send my [usual](http://vitraag.blogspot.com/2007/12/welcome-2008.html) welcoming new year email. I thought I will combine that email with another element – [WalkMe](https://apps.healthvault.com/app4/hvdefault.aspx).
+
+
+  
+
+
+ 
+
+ 
+
+WalkMe was started sometime in December as a skunk works projects with some colleagues of mine. Our management liked it and last week we released it as  a “Sandbox for Microsoft HealthVault” project. I’m really glad that this effort is seeing light of the day, I would love if you give a go and provide us feedback. Perhaps, put the widgets on our blog, twitter or facebook.
+
+
+  
+
+
+ 
+
+   
+
+   
+
+ 
+
+So – take out your pedometers (or use Manual entry), take [WalkMe](https://apps.healthvault.com/app4/Default.aspx) for a stroll… and walk with us!
+  
+[
+  
+](https://apps.healthvault.com/walkme)[![](https://vitraagblog.files.wordpress.com/2009/02/e2397-walkme-snapshot.jpg)](http://apps.healthvault.com/walkme)
+  
+[
+  
+](https://apps.healthvault.com/app4/Default.aspx)
+
+2008 – started with an [India trip](http://flickr.com/photos/vaibhavb/tags/indiatrip2008/). Myself, my sister and Maris had a great time visiting India. Unlike previous trips this time we kept some time to travel in India, and went around to Delhi, Jaipur and Agra – the quintessential golden Triangle.  We had all kinds of experience – loved Jaipur, hated Agra and Delhi was alrite J.  2008 – end with travel as well ! Infact the same group J, myself, Vaidehi and Maris were in [Mexico](http://vitraag.blogspot.com/2009/01/mexico-trip.html) from Christmas to Jan 7th. It was an amazing trip –we went from Mexico City, to Morelia to Zihuatenejo – loved the culture, crafts and the climate J. In August, my parents [visited us](http://vitraag.blogspot.com/2008/08/ma-and-bapu-in-seattle-week-one.html) for a couple of Months– we had great time showing them around in Washington, British Canada, California and the East coast.
+  
+
+
+
+  
+
+
+ 
+
+ 
+
+I didn’t get to climb a lot last summer. However I was able to get up [Mt. Baker](http://vitraag.blogspot.com/2008/07/mt-baker-climb.html), try some [ice climbing](http://vitraag.blogspot.com/2008/09/ice-climbing-newb.html) and go for a back packing trip along [Olympic coast](http://vitraag.blogspot.com/2008/06/backpacking-south-olympics.html). I also managed to finish the ride from [Seattle to Portland](http://vitraag.blogspot.com/2008/07/ride-report-stp-2008.html) with absolute zero training J. This year – I’m planning to improve on this front and try and be outdoors a little more. So do remind me that every now and then when you see me working too hard or spending too much time on computer.
+
+
+  
+
+
+ 
+
+ 
+
+On the work front it was really hectic and successful year. I was able to do some [open source](http://healthblog.vitraag.com/topics/open-source/) at Microsoft – help in a Ruby, PHP and Java library for your platform. I represented these libraries and effort in OSCON 2008. After write quite a few post about how to write libraries and code for HealthVault, my blog is featured on our MSDN [homepage](http://msdn.microsoft.com/healthvault).  WalkMe is  my small drop in the next step of bringing helping bring some eyes ball and viral effect for HealthVault.
+
+
+  
+
+
+ 
+
+ 
+
+On the education and entrepreneurship areas – I finished my 9 month Certificate in Business Development course from UW (I started [winesofeast](http://www.winesofeast.com/) of out of that course in April). I’m also delving in idea of creating a [venture fund](http://www.thekarkhana.com/) for startups focused on bringing change in India, currently we are looking for board of advisors if you have a recommendation please drop me a line.
+
+ 
+
+ 
+
+
+  
+
+
+Wont bore with much more, I’m going to put list all of my writings and activities for 2008 on my blog [here](http://vitraag.blogspot.com/2009/02/welcome-2009-month-and-7-days-later.html).
+
+ 
+
+ 
+
+Please do drop me a line and let me know how things are goings. Sorry I couldn’t be personal as much as I would have loved. So wishing you great little less than 11 months of 2009 ahead and keep in touch!
+
+ 
+
+ 
+
+
+  
+
+
+Cheers,
+
+ 
+
+Vaibhav
+
+ 
+
+   
+
+ 
+
+[](http://apps.healthvault.com/app4)

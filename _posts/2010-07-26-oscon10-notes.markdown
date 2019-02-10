@@ -1,0 +1,68 @@
+---
+author: vitraag
+comments: true
+date: 2010-07-26 19:41:31+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2010/07/26/oscon10-notes/
+slug: oscon10-notes
+title: OSCON’10 Notes
+wordpress_id: 278
+categories:
+- HealthVault
+---
+
+Over four days from July 20-23, I had great fun connecting 1:1 with a some of the influencers in Healthcare IT and learning about new technologies on the horizon (Asynchronous programming, Scala, Go, Android, ..) at the Open Source Conference in Portland.
+
+ 
+
+**_So how did my talk go?          
+_**My [talk](http://www.oscon.com/oscon2010/public/schedule/detail/15292) went reasonably smooth, overall I was happy with what I could put together in limited time. According to the polls and some in person conversations people seemed to like the fact that I attempted to break it down with a technical deep dive, especially taking time to go deeper on on-the-wire protocols and standards.
+
+ 
+
+UPDATE: The talk was recorded by Robert Wood Johnson foundation and you can view it online -- [http://bit.ly/silos-talk-video](http://bit.ly/silos-talk-video).
+
+ 
+
+**_OSCON Healthcare Track          
+_**I attended most of the talks at OSCON HealthCare [track](http://www.oscon.com/oscon2010/public/schedule/topic/Health). This was the first Healthcare track at the conference, in my opinion it turned out splendid! Andy Oram has a good summary of the [first](http://radar.oreilly.com/2010/07/day-one-of-the-health-care-it.html), [second](http://radar.oreilly.com/2010/07/vista-scenarios-and-other-cont.html) & [third](http://radar.oreilly.com/2010/07/wrap-up-of-the-health-care-it.html) day, and Fred Totter has links to [interviews](http://www.fredtrotter.com/2010/07/26/nhin-and-others-at-oscon/) of some of the presenters. Over the three days of Healthcare track I learnt a lot about various NHIN and VistA projects.
+
+ 
+
+**_Sessions          
+_**In addition, I attended a few session and a couple of tutorials. I’ll summarize some of them below with key take-away or interesting links :
+
+ 
+
+  
+  * **Cloud computing – “Situation Normal, Everything Must change”:** If nothing else I would highly recommend watching [this](http://www.youtube.com/watch?v=5Oyf4vvJyy4&feature=PlayList&p=12696FB0B040FA53&playnext_from=PL&index=39) key-note, no new content but the [Simon Wardley](http://radar.oreilly.com/simon/) is very effective in communicating his point about Cloud computing and managing technology in general. 
+   
+  * **Asynchronous Programming** – I learnt a lot about nginx web-server and the principles behind [node.js](http://nodejs.org/). Ilya’s [talk](http://www.oscon.com/oscon2010/public/schedule/detail/13709) was specific to Ruby but learnt a lot about the perf gain PostRank has gotten owing to Asychcrony. He was gracious to have lunch with me and one of interesting things he mention was use of [AMQP](http://www.amqp.org/confluence/download/attachments/720900/amqp0-8.pdf). AMQP is near real-time (low latency, high throughput) general purpose message standard used by most of the guys on Wall-street! An open source implementation of the same is RabbitMQ. 
+   
+  * **[Another Go at Language Design: ](http://www.oscon.com/oscon2010/public/schedule/detail/14760)**Since I’m a compiler wonk and systems’ programmer, it was great to see Rob Pike’s presentation on Go language and specially see the fast Go compilers, most optimizations are owing to managing the dependencies for linking. 
+   
+  * jQuery – The presentation on [jQuery](http://assets.en.oreilly.com/1/event/45/Cooking%20with%20jQuery%20Presentation.pdf) was very detailed even for a novice. I particularly liked the show-casing of selectors to write succinct iavascript code. 
+   
+  * Graph Database – [Neo4j](http://neo4j.org/) : At fore front in the NoSQL camp Neo4j offers up to 1000x performance gain over relational database for implementing applications like a social network. Key different from RDBMS is that the Graph itself is the main index! 
+   
+  * Android: I learnt a quite a bit about Google Android and their development methodology. Android developers in general focus a lot on remove perceivable slowness from the application (called “Jank” in Google lingo).Anything which takes more than 200ms to process is considered bad. A good rule of thumb to prevent “Jank” is to never stall the event loop. To spur further Android excitement Google gave away the soon to be de-commissioned Nexus one devices in one of their workshops.
+   
+  * [**Open stack**](http://openstack.org/):Open source system for creating Amazon EC2-like clouds. In fact this project is open sourcing of the RackSpace cloud system.**__**
+   
+  * An interesting [project](http://xmlvm.org/overview/) to cross-compile Android projects to iPhone. 
+ 
+
+**_Birds of feather session on Healthcare Standards          
+_**I participated in the [BOF](http://www.oscon.com/oscon2010/public/schedule/detail/15598) on Healthcare Standards.
+
+ 
+
+The conversation started by highlighting the classic problem of how people who have been in the industry want semantic interoperability and how the new entrants in the area want simple systems. I contribute to this conversation by pointing out that if standards get developed with industrial strength open implementations they are more tend to be more sane (read NHIN-D).
+
+ 
+
+The conversation then drifted towards terminologies. Everyone in the room was outraged with CPT and AMA’s greed J. David Riley (head of NHIN project) added to the conversation saying that ICD-10 procedures are designed to replace CPT. I contributed to the conversation detailing how it’s difficult to develop a coherent system with all the different vocabularies with different licensing requirement and incomplete mappings to each other. David was then gracious to detail a project done in the federal government where they attempted to come up with a common terminology service by inventing something akin to OIDs for each terminology. He is hoping that he can open source those terminologies sometime soon. Brian Bhelendorf then added to the conversation asking how can we enable or create open source terminologies. I was suggested that may be can do something like RxNorm to create a uniform mapping system which the terminology licensors can adopt. There was more discussion on this topic, no one felt that UMLS was adequate.
+
+ 
+
+PS: I’ll update the this post with more links and thought-blocks as I remember :).

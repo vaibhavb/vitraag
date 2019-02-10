@@ -1,0 +1,39 @@
+- name: Health IT
+  faclass: fas fa-medkit fa-3x
+  description: This section has all the posts related to Microsoft HealthVault, Health Data Standards, YouBase.io, etc.
+
+- name: Computer Science & Security
+  faclass: fas fa-shield-alt fa-3x
+  description: This section has all the posts related to Programming, Shape Security, Cyber Defenders and Open Source Software.
+
+- name: Snow Boarding
+  faclass: fas fa-snowflake fa-3x
+  description: This section has all the posts related to Snowboarding, Skiing, Ski-Share, and Backcountry.
+
+- name: Mountaineering
+  faclass: fas fa-mountain fa-3x
+  description: This section has all the posts related to Hiking, Camping and Mountaineering.
+
+- name: Cycling
+  faclass: fas fa-bicycle fa-3x
+  description: This section has all the posts related to Cylcing, Bicycle and Motorcyle Touring.
+
+- name: Dancing
+  faclass: fas fa-music fa-3x
+  description: This section has all the posts related to dancing - Salsa, Fusion and Blues, and music making - Ableton Live etal.
+
+- name: Writing & Poems
+  faclass: fas fa-newspaper fa-3x
+  description: This section has all my poetry, writing, and long forms.
+
+- name: Travels
+  faclass: fas fa-globe-asia fa-3x
+  description: This section details my travels & trip experiences to over 30 countries.
+
+- name: Art
+  faclass: fab fa-artstation fa-3x
+  description: This section has list and writings on my art works as part of various art co-ops.
+
+- name: Public Speaking
+  faclass: fab fa-speakap fa-3x
+  description: This section has list and notes on all my public speaking and conference presentations.

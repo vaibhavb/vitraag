@@ -1,0 +1,14 @@
+---
+author: vitraag
+comments: true
+date: 2005-06-27 20:58:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2005/06/27/21/
+slug: '21'
+title: FitDay
+wordpress_id: 1061
+categories:
+- workouts
+---
+
+Wohoo! starting to keep my[FitDay.com - Public Journal](http://www.fitday.com/WebFit/PublicJournals.html?Owner=vaibhavb). Its a nice tool to monitor your health. Thanks, Ujjwal.

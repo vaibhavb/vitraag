@@ -1,0 +1,35 @@
+---
+author: vitraag
+comments: true
+date: 2013-03-03 22:41:27+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2013/03/03/at-himss-2013/
+slug: at-himss-2013
+title: At HIMSS 2013
+wordpress_id: 389
+categories:
+- HealthVault
+---
+
+[HIMSS ](http://www.himssconference.org)2011 was my first big healthcare industry conference. The trade show is one of a kind and the largest gathering of folks interested in HealthCare IT in United States. In 2012, I attended the conference virtually and this year I’m back on the show floor. This is a coming out event for the product I have been working on at Optum – **Optum Direct**! Optum Direct is a secure messaging platform built on the ONC sponsored Direct Standard. If you want to know more, stop by our booth #7041 on the show floor I would love to show it in action. Additionally, our early adopter customer Santa Cruz HIE & [Physicians Medical Group](http://pmgscc.com/) is showcasing this product with connectivity to [Microsoft HealthVault](http://www.microsoft.com/health/en-us/products/Pages/healthvault.aspx) and others in the interoperability showcase.
+
+Having said above, among a plethora of [sessions](http://www.himssconference.org/GenInfo/Content.aspx?ItemNumber=612&navItemNumber=760) and events I’m looking forward to following events at the conference -
+
+
+
+	
+  * [Interoperability Showcase](http://www.himssconference.org/Exhibition/EventsListTopic.aspx?MetaDataID=445&navItemNumber=702) : A real-life standards play in action!
+
+	
+  * Brian Ahier’s - Developing Trust in the Health Internet as a Platform
+
+	
+  * ONC’s HIE Seminar
+
+	
+  * Exhibit Show floor buzzed with words like – ICD-10, Meaningful Use, ACO, etc.
+
+
+Editor of my book – [Programmable Self with HealthVault](http://www.enablingprogrammableself.com), [Andy Oram](http://radar.oreilly.com/andyo/) will be covering the conference along with others for O’Reilly. Brian Ahier has a good [preview](http://radar.oreilly.com/2012/02/preview-of-himss-2012.html) of the coverage.
+
+If you are at the conference or are virtual (@ #HIMSS13) please drop me a note as I would love to connect!

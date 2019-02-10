@@ -1,0 +1,18 @@
+---
+author: vitraag
+comments: true
+date: 2005-05-09 02:26:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2005/05/08/16/
+slug: '16'
+title: Photos!
+wordpress_id: 1057
+categories:
+- misc
+---
+
+[Infinite Photos](http://pg.photos.yahoo.com/ph/vbzpanacea/my_photos) thats my collection and if you can browse them all i have equal number of them else where!!! Like all other mortals i'm having a tough time keeping my media (photos, videos, music), writings, emails, blogs, wikis, yahoogroups, msngroups and bookmarks away from fragmentation and at one nice location!! It would be really nice if there way to aggregrate all of them in some fashion where my family, friends, co-workers and aquaintances would view and collaborate on them.
+
+The two most important factors for this to happen is that the medium has to be quick and easy to use. I can setup my home page to point and aggregate all of it its fast for me and works but i wont be able to collaborate on this. And yep it doesn't scale.
+
+So well come to new age phenomena... fragmentation of the golden egg!!! Every one agrees that the inet is the hen which gives a golden egg but unfortunately there are too many stake-holders for this golden egg or as rappers might put it too many daddy's for a little chusa....:)

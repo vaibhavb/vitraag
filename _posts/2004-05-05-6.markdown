@@ -1,0 +1,14 @@
+---
+author: vitraag
+comments: true
+date: 2004-05-05 05:06:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2004/05/04/6/
+slug: '6'
+title: Hi! from Microsoft
+wordpress_id: 1003
+categories:
+- Microsoft
+---
+
+Another day @ Microsoft. Daily trouble and new discoveries. Lets see where are we going:).

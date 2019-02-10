@@ -1,0 +1,17 @@
+---
+author: vitraag
+comments: true
+date: 2008-07-18 20:26:55+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2008/07/18/oscon-2008/
+slug: oscon-2008
+title: OSCON 2008
+wordpress_id: 38
+categories:
+- HealthVault
+---
+
+I will be partially attending [OSCON 2008 ](http://en.oreilly.com/oscon2008/public/content/home)in Portland, next week. If you are around and want to say hi feel free to [holler ](http://twitter.com/vaibhavb)or [message](mailto://vaibhavb@gmail.com) or leave a comment here. This is my first time to OSCON and I have heard great things about it and i'm looking forward to the [state of onion](http://en.oreilly.com/oscon2008/public/schedule/detail/4871). [Microsoft ](http://www.microsoft.com/opensource/)is one of the Diamond sponsors -  [Sam Ramji ](http://en.oreilly.com/oscon2008/public/schedule/speaker/27454) is talking about Open Source Heros and[ John Lam](http://en.oreilly.com/oscon2008/public/schedule/speaker/2810) is delving in to IronRuby. This will be an oppurtunity for us at HealthVault to evaluate and see how we can move the state of art of our [Java](http://www.codeplex.com/HealthVaultJavaLib), [Ruby ](http://rubyforge.org/projects/rubyhealthvault/)and [PHP ](https://sourceforge.net/projects/healthvaultphp/)libraries by interacting with the opensource community and discover possible way to enhance our [open-ness](http://blogs.msdn.com/familyhealthguy/archive/2008/04/14/opening-up-the-vault.aspx).
+[
+![OSCON 2008](http://assets.en.oreilly.com/1/event/12/oscon2008_banner_500x62.gif)
+](http://conferences.oreilly.com/oscon)

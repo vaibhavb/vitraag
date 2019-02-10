@@ -1,192 +1,30 @@
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vaibhav Bhandari Homepage</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
-  </head>
-  <body>
-<section class="section">
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="http://www.about.me/vaibhavb">
-        <i class="fas fa-user-circle fa-5x"></i>
-        &nbsp;&nbsp;Vaibhav Bhandari
-      </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-    </div>
-
-    <div id="navbarBasic" class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item">
-            <a class="navbar-item" href="http://www.about.me/vaibhavb">About</a>
-          <a class="navbar-item" href="http://vitraagblog.wordpress.com">Blog</a>
-          <a class="navbar-item" href="https://www.linkedin.com/in/vaibhavb">Resume</a>
-          <a class="navbar-item" href="https://www.github.com/vaibhavb">Ethics Statement</a>
-          <a class="navbar-item" href="http://data.world/vaibhavb">Data</a>
-          <a class="navbar-item" href="mailto:vaibhavb@gmail.com">Contact</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-</section>
-
+---
+layout: default
+title: Vaibhav Bhandari Homepage
+---
 <section>
   <div class="container">
   <div class="row columns is-multiline">
- 
-  
-  <div class="column is-one-third">
-    <div class="card">
-      <header class="card-header">
-        <p class="card-header-title">Health IT</p>
-        <i class="fas fa-medkit fa-3x"></i>
-      </header>
-      <div class="card-content">
-        <div class="content">
-          This section has all the posts related to Microsoft HealthVault, Health Data Standards, YouBase.io, etc.
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="column is-one-third">
-      <div class="card">
-        <header class="card-header">
-          <p class="card-header-title">Computer Science & Security</p>
-          <i class="fas fa-shield-alt fa-3x"></i>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            This section has all the posts related to Programming, Shape Security, Cyber Defenders and Open Source Software.
-          </div>
-        </div>
-      </div>
-    </div>
-
+  {% for cat in site.data.indexcategories %}  
     <div class="column is-one-third">
       <div class="card">
-      <header class="card-header">
-        <p class="card-header-title">Snow Boarding</p>
-        <i class="fas fa-snowflake fa-3x"></i>
-      </header>
-      <div class="card-content">
-        <div class="content">
-          This section has all the posts related to Snowboarding, Skiing, Ski-Share, and Backcountry.
-        </div>
-      </div>
-     </div>
-  </div>
-
-  <div class="column is-one-third">
-      <div class="card">
-    <header class="card-header">
-      <p class="card-header-title">Mountaineering</p>
-      <i class="fas fa-mountain fa-3x"></i>
-    </header>
-    <div class="card-content">
-      <div class="content">
-        This section has all the posts related to Hiking, Camping and Mountaineering.
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="column is-one-third">
-    <div class="card">
-    <header class="card-header">
-      <p class="card-header-title">Cycling</p>
-      <i class="fas fa-bicycle fa-3x"></i>
-    </header>
-    <div class="card-content">
-      <div class="content">
-        This section has all the posts related to Cylcing, Bicycle and Motorcyle Touring.
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="column is-one-third">
-    <div class="card">
-    <header class="card-header">
-      <p class="card-header-title">Dancing</p>
-      <i class="fas fa-music fa-3x"></i>
-    </header>
-    <div class="card-content">
-      <div class="content">
-        This section has all the posts related to dancing - Salsa, Fusion and Blues, and music making - Ableton Live etal.
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="column is-one-third">
-    <div class="card">
-      <header class="card-header">
-        <p class="card-header-title">Writing & Poems</p>
-        <i class="fas fa-newspaper fa-3x"></i>
-      </header>
-      <div class="card-content">
-        <div class="content">
-          This section has all my poetry, writing, and long forms.
-        </div>
-      </div>
-    </div>
-</div>
-
-<div class="column is-one-third">
-    <div class="card">
         <header class="card-header">
-          <p class="card-header-title">Travels</p>
-          <i class="fas fa-globe-asia fa-3x"></i>
+          <p class="card-header-title">{{cat.name}}</p>
+          <i class="{{cat.faclass}}"></i>
         </header>
         <div class="card-content">
           <div class="content">
-            This section details my travels & trip experiences to over 30 countries.
+            {{cat.description}}
           </div>
         </div>
       </div>
-</div>
-
-<div class="column is-one-third">
-    <div class="card">
-        <header class="card-header">
-          <p class="card-header-title">Art</p>
-          <i class="fab fa-artstation fa-3x"></i>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            This section has list and writings on my art works as part of various art co-ops.
-          </div>
-        </div>
-      </div>
-</div>
-
-<div class="column is-one-third">
-    <div class="card">
-        <header class="card-header">
-          <p class="card-header-title">Public Speaking</p>
-          <i class="fab fa-speakap fa-3x"></i>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            This section has list and notes on all my public speaking and conference presentations.
-          </div>
-        </div>
-      </div>
-  </div>
+    </div>
+  {% endfor %}
 </div>
 </div>
 </section>
+
+<hr/>
 
 <section>
   <div class="container">
@@ -196,22 +34,51 @@
         </header>
         <div class="card-content">
           <div class="content">
-            <div><a href="https://vitraagblog.wordpress.com/category/ramblings/asha/" style="font-size: 106.38020833333%; padding: 1px; margin: 1px;" title="asha (11)">asha</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/asp-net/" style="font-size: 101.82291666667%; padding: 1px; margin: 1px;" title="ASP.NET (6)">ASP.NET</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/backpacking/" style="font-size: 100.91145833333%; padding: 1px; margin: 1px;" title="backpacking (5)">backpacking</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/cycling/" style="font-size: 126.43229166667%; padding: 1px; margin: 1px;" title="cycling (33)">cycling</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/family/" style="font-size: 110.02604166667%; padding: 1px; margin: 1px;" title="family (15)">family</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/festivals/" style="font-size: 104.55729166667%; padding: 1px; margin: 1px;" title="festivals (9)">festivals</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/finance/" style="font-size: 100.91145833333%; padding: 1px; margin: 1px;" title="finance (5)">finance</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/healthit/" style="font-size: 110.9375%; padding: 1px; margin: 1px;" title="HealthIT (16)">HealthIT</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/healthvault/" style="font-size: 141.015625%; padding: 1px; margin: 1px;" title="HealthVault (49)">HealthVault</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/hobbies/" style="font-size: 101.82291666667%; padding: 1px; margin: 1px;" title="hobbies (6)">hobbies</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/india/" style="font-size: 100.91145833333%; padding: 1px; margin: 1px;" title="india (5)">india</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/jainism/" style="font-size: 103.64583333333%; padding: 1px; margin: 1px;" title="jainism (8)">jainism</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/libar/" style="font-size: 100.91145833333%; padding: 1px; margin: 1px;" title="Libar (5)">Libar</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/meta-programming/" style="font-size: 100%; padding: 1px; margin: 1px;" title="meta-programming (4)">meta-programming</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/misc/" style="font-size: 109.11458333333%; padding: 1px; margin: 1px;" title="misc (14)">misc</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/mobile/" style="font-size: 102.734375%; padding: 1px; margin: 1px;" title="Mobile (7)">Mobile</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/mountaineering/" style="font-size: 110.9375%; padding: 1px; margin: 1px;" title="mountaineering (16)">mountaineering</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/news/" style="font-size: 110.02604166667%; padding: 1px; margin: 1px;" title="News (15)">News</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/open-source/" style="font-size: 110.02604166667%; padding: 1px; margin: 1px;" title="Open Source (15)">Open Source</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/programming/" style="font-size: 103.64583333333%; padding: 1px; margin: 1px;" title="Programming (8)">Programming</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/" style="font-size: 275%; padding: 1px; margin: 1px;" title="ramblings (196)">ramblings</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/rockclimbing/" style="font-size: 100.91145833333%; padding: 1px; margin: 1px;" title="rockclimbing (5)">rockclimbing</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/rubyonrails/" style="font-size: 104.55729166667%; padding: 1px; margin: 1px;" title="RubyOnRails (9)">RubyOnRails</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/salsa/" style="font-size: 102.734375%; padding: 1px; margin: 1px;" title="salsa (7)">salsa</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/tourofsouthindia/" style="font-size: 104.55729166667%; padding: 1px; margin: 1px;" title="tourofsouthindia (9)">tourofsouthindia</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/travel/" style="font-size: 105.46875%; padding: 1px; margin: 1px;" title="travel (10)">travel</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/vacation/" style="font-size: 100.91145833333%; padding: 1px; margin: 1px;" title="vacation (5)">vacation</a> <a href="https://vitraagblog.wordpress.com/category/healthblog/vocabularies/" style="font-size: 101.82291666667%; padding: 1px; margin: 1px;" title="Vocabularies (6)">Vocabularies</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/workouts/" style="font-size: 104.55729166667%; padding: 1px; margin: 1px;" title="workouts (9)">workouts</a> <a href="https://vitraagblog.wordpress.com/category/ramblings/writings/" style="font-size: 121.875%; padding: 1px; margin: 1px;" title="writings (28)">writings</a> </div>
+           {% for category in site.categories %}
+           <span class="tag">
+              <a href="#{{ category | first | slugify }}"
+                  style="font-size: {{ category | last | size  |  times: 4 | plus: 80 }}%">
+                      {{ category[0] | replace:'-', ' ' }} <sup>({{ category | last | size }})</sup>
+              </a>
+          </span>
+           {% endfor %}
           </div>
         </div>
       </div>
   </div>
-</section>
 
-<footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      If you dig the site find me on <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-3x"></i>Twitter</a> or <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-3x"></i>GitHub.</a>
-    </p>
-   <p>
-   <p class="credit">Last Updated Feb 6, 2019</p>
+  <div class="container">
+      <div class="card is-full">
+            <header class="card-header">
+              <p class="card-header-title">Tags</p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+               {% for tag in site.tags %}
+               <span class="tag">
+                  <a href="/tag/{{ tag | first | slugify }}/"
+                      style="font-size: {{ tag | last | size  |  times: 4 | plus: 80 }}%">
+                          {{ tag[0] | replace:'-', ' ' }} <sup>({{ tag | last | size }})</sup>
+                  </a>
+              </span>
+               {% endfor %}
+              </div>
+            </div>
+          </div>
   </div>
-</footer>
 
-</body>
-</html>
+  <hr/>
+  <div class="container content">
+    {% for tag in site.categories %} 
+      <h2 id="{{ tag[0] | slugify }}"class="title is-4"> {{ tag[0] | capitalize}} <sup>{{ tag | last | size }}</sup></h2>
+      <ul>
+        {% for post in tag[1] %}
+        <li>  
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <span class="has-text-weight-light"> - Posted on {{ post.date | date: "%B %-d, %Y" }}</span>
+        </li>  
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</section>

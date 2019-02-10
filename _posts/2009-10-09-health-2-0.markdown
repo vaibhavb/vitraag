@@ -1,0 +1,32 @@
+---
+author: vitraag
+comments: true
+date: 2009-10-09 00:07:40+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2009/10/08/health-2-0/
+slug: health-2-0
+title: Health 2.0
+wordpress_id: 167
+categories:
+- News
+---
+
+I overviewed the [Health 2.0 2009 conference](http://www.health2con.com/) largely through [twitter](http://search.twitter.com/search?q=%23health2con). Here are my key takeaways:
+
+ 
+
+  
+  * HealthCare needs to become more consumer: All innovation will be driven through this domain, [PatientsLikeMe](http://www.patientslikeme.com/) & [CureTogether](http://www.curetogether.com/) are prime examples. 
+   
+  * [Keas](http://www.keas.com) launched as a platform for Care plans – I took it for a spin love the way you can create action items! Not as intuitive as Mint but not really a good analogy either. 
+   
+  * [Health 2.0 Accelerator](http://www.health2con.com/) – A lot of media towards this effort of trying a create a platform (yet again) to add for value for the end consumer using the better together model. Here is a [Demo Video](http://vimeo.com/6970242).
+   
+  * Public Health Media: [Microsoft’s H1N1 Center](http://apps.healthvault.com/app5), [Google Flu Trends](http://www.google.org/flutrends/)
+   
+  * Mobile: WebMD [iPhone App](http://www.webmd.com/mobile)
+   
+  * Physician’s Office: [NPDigest.com](http://www.npdigest.com) – open source groupware for a clinic. 
+ 
+
+Please add your thought about the conference through the comments.

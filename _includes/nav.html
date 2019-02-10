@@ -1,0 +1,25 @@
+<section class="section">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="http://www.about.me/vaibhavb">
+          <i class="fas fa-user-circle fa-5x"></i>
+          &nbsp;&nbsp;Vaibhav Bhandari
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+      </div>
+  
+      <div id="navbarBasic" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            {% for item in site.data.navigation %}
+              <a class="navbar-item" href="{{item.link}}">{{item.name}}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>

@@ -1,1 +1,16 @@
-theme: jekyll-theme-tactile
+# Site settings
+title: Vaibhav Bhandari Homepage
+author: Vaibhav Bhandari
+email: vaibhavb@gmail.com
+description: Vaibhav Bhandari Homepage
+baseurl: ""
+images: "/assets/images"
+url: "https://www.vitraag.com"
+
+#Exclude
+exclude: [Gemfile, Gemfile.lock]
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+

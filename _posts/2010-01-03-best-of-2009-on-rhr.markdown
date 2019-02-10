@@ -1,0 +1,72 @@
+---
+author: vitraag
+comments: true
+date: 2010-01-03 01:13:30+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2010/01/02/best-of-2009-on-rhr/
+slug: best-of-2009-on-rhr
+title: Best of 2009 !
+wordpress_id: 238
+categories:
+- News
+---
+
+Happy new year!! I’m summarizing the Best of 2009 on Reviving the Health Revolution blog -
+
+
+
+
+[**Understanding Health IT Standards**](http://healthblog.vitraag.com/topics/vocabularies/)      
+In April I started a series which aims at helping a programmer understand Health IT standards. I aim to develop this series further in 2010 and I’m also working on a compilation of essays on Health IT, you are encouraged to provide feedback [here](http://spreadsheets.google.com/viewform?hl=en&formkey=dEJOQUsyb0hvWndlNVBPNzdlcEwtU0E6MA). 
+
+
+
+
+The series so far talks about [Vocabularies](http://healthblog.vitraag.com/2009/04/understanding-vocabularies-wait-what-did-you-say/), [HealthVault Data Types in context of various Health IT Standards](http://healthblog.vitraag.com/2009/07/understanding-vocabularies-2-healthvault-recommendations/), [SNOMED-CT](http://healthblog.vitraag.com/2009/10/understanding-snomed-ct/), [CCR](http://healthblog.vitraag.com/2009/10/understanding-ccr/).
+
+
+
+
+[**WalkMe**](http://apps.healthvault.com/walkme)**        
+**I started the year with posting about [WalkMe](http://healthblog.vitraag.com/2009/02/walkme-walk-with-your-friends/), and followed in July with a [detailed post](http://healthblog.vitraag.com/2009/07/syncing-with-healthvault-the-walkme-way/) about data syncing architecture of this application. This simple walking application is now tracking over 2 million steps! If you want to add a live pedometer signature to your outlook e-mail follow [this](http://healthblog.vitraag.com/2009/07/sharing-your-walkme-pedometer-using-e-mail-signature/) post. Future features and development of this application is primarily driven by user [feedback](http://walkme.uservoice.com/pages/11683-general). 
+
+
+
+
+**HealthVault Applications using ASP.NET MVC and on Windows Azure       
+**In July I did a [post](http://healthblog.vitraag.com/2009/07/talking-to-healthvault-via-aspnet-mvc-1/) showing how one use ASP.NET MVC framework for developing HealthVault applications. The HealthVault .NET SDK is primarily geared towards ASP.NET Webforms.
+
+
+
+
+In October I [wrote](http://healthblog.vitraag.com/2009/10/healthvault-apps-on-windows-azure/) about how one can deploy HealthVault applications on Windows Azure! This is has been a very popular article, check out some live samples running on Windows Azure [here](http://hvsamples.cloudapp.net/).
+
+
+
+
+**Flu Management       
+**In April I post about Ushahidi’s Crisis management application for [Swine Flu](http://healthblog.vitraag.com/2009/04/swine-flu-crisis-management/). In October [I blogged](http://healthblog.vitraag.com/2009/10/guns-germs-and-steel/) in detailed about Microsoft’s Flu Management center and my little Flu widget.
+
+
+
+
+[**HealthVault XML APIs**](http://healthblog.vitraag.com/2009/03/working-with-healthvault-xml-apis/)**        
+**The HealthVault .NET SDK serves majority of HealthVault partners but last year we saw increase in adoption of our XML APIs consuming it through the [Java SDK](http://healthblog.vitraag.com/2009/12/enhanced-healthvault-java-library/), Python SDK , Ruby Wrapper or the raw XML layers. The [series](http://healthblog.vitraag.com/2009/03/working-with-healthvault-xml-apis/) on working with XML layer is a good starting point.
+
+
+
+
+**Connected Health Conference**      
+For those of you who missed this conference in June, you can catch up [here](http://healthblog.vitraag.com/2009/06/microsoft-connected-health-conference-cover-it-live/).
+
+
+
+
+**Programming Techniques & Data Analysis     
+**[Functional Programming](http://healthblog.vitraag.com/2009/12/f-functional-approach/), [Memoization](http://healthblog.vitraag.com/2009/12/memoization/) .. ring a bell? Well I plan on dwelling more on programming techniques and data analysis in 2010.
+
+
+Feel free to let me know you top post for 2009, in comments.
+
+
+[custome essay](http://essay4less.com/custom_essays)

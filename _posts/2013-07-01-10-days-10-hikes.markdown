@@ -1,0 +1,114 @@
+---
+author: vitraag
+comments: true
+date: 2013-07-01 16:49:42+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2013/07/01/10-days-10-hikes/
+slug: 10-days-10-hikes
+title: 10 days, 10 hikes
+wordpress_id: 871
+categories:
+- mountaineering
+- workouts
+---
+
+Its lovely Seattle Summer, and I’m planning to take do an interesting challenge! See if I can do 10 hikes in 10 days!
+
+ <!-- more -->
+<table cellpadding="0" cellspacing="0" border="1" width="570" ><tbody >     <tr >       
+<td width="99" valign="top" >**Date**
+</td>        
+<td width="153" valign="top" >**Hike**
+</td>        
+<td width="194" valign="top" >**Description**
+</td>        
+<td width="122" valign="top" >**Route Statistics**
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 1, 2013
+</td>        
+<td width="153" valign="top" >[Tiger Mountain](http://www.wta.org/go-hiking/hikes/west-tiger-3)
+</td>        
+<td width="194" valign="top" >Starting with an easy quick hike.
+</td>        
+<td width="122" valign="top" >5 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 2, 2013
+</td>        
+<td width="153" valign="top" >[Rattlesnake Ledge](http://www.wta.org/go-hiking/hikes/rattle-snake-ledge)
+</td>        
+<td width="194" valign="top" >Lovely views!
+</td>        
+<td width="122" valign="top" >4 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 3, 2013
+</td>        
+<td width="153" valign="top" >[Twin Falls](http://www.wta.org/go-hiking/hikes/twin-falls-state-park)
+</td>        
+<td width="194" valign="top" >Waterfall!
+</td>        
+<td width="122" valign="top" >3 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 4, 2013
+</td>        
+<td width="153" valign="top" >Avalanche Lake
+</td>        
+<td width="194" valign="top" >Glacier National Park
+</td>        
+<td width="122" valign="top" >5 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 5, 2013
+</td>        
+<td width="153" valign="top" >Granite Cr
+</td>        
+<td width="194" valign="top" >Glacier National Park
+</td>        
+<td width="122" valign="top" >5 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 6, 2013
+</td>        
+<td width="153" valign="top" >Many Glacier
+</td>        
+<td width="194" valign="top" >Glacier National Park
+</td>        
+<td width="122" valign="top" >8 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 7, 2013
+</td>        
+<td width="153" valign="top" >Apikuni Falls
+</td>        
+<td width="194" valign="top" >Glacier National Park
+</td>        
+<td width="122" valign="top" >2 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 8, 2013
+</td>        
+<td width="153" valign="top" >[Cedar Butte](http://www.wta.org/go-hiking/hikes/cedar-butte)
+</td>        
+<td width="194" valign="top" >
+</td>        
+<td width="122" valign="top" >5 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 9, 2013
+</td>        
+<td width="153" valign="top" >[Talapus and Olallie Lakes](http://www.wta.org/go-hiking/hikes/talapus-lake)
+</td>        
+<td width="194" valign="top" >
+</td>        
+<td width="122" valign="top" >6 miles
+</td>     </tr>      <tr >       
+<td width="99" valign="top" >July 10, 2013
+</td>        
+<td width="153" valign="top" >[Mt. Washington](http://www.wta.org/go-hiking/hikes/mount-washington-1)
+</td>        
+<td width="194" valign="top" >
+</td>        
+<td width="122" valign="top" >4 miles
+</td>     </tr>   </tbody></table>  
+
+Send me a note if you want to join any of these days!
+
+
+
+**Images**
+Hike #10:
+[![20130712-180417.jpg]({{site.images}}/2013/07/20130712-180417.jpg)]({{site.images}}/2013/07/20130712-180417.jpg)

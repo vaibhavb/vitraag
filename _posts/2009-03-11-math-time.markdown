@@ -1,0 +1,20 @@
+---
+author: vitraag
+comments: true
+date: 2009-03-11 08:02:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2009/03/11/math-time/
+slug: math-time
+title: Math time!
+wordpress_id: 156
+categories:
+- misc
+---
+
+Well in the modern age of digital slavery, there are hardly times when something keep our intellectual curiosity engaged instead of fueling our attraction to yet another distraction, be it IM, Facebook, twitter or TV!  
+  
+I was delighted to notice that CBS is feeding our mathematical curiosity through, Numb3rs, [http://www.cbs.com/primetime/numb3rs/](http://www.cbs.com/primetime/numb3rs/). Its also great to see Wolfram fueling this - [http://blog.wolfram.com/2009/02/24/are-you-a-math-genius/](http://blog.wolfram.com/2009/02/24/are-you-a-math-genius/).  
+  
+I intend to solve the puzzles. Here is the first one - You have a 7 liter bottle, an 11 liter bottle, and a bathtub filled with water. How can 2 liters of water be measured into the smaller bottle?  
+  
+Update (May 4, 2009): [Project Euler](http://www.projecteuler.net) has a good set of problems around number theory, it will be fun to solve them!

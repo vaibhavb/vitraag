@@ -1,0 +1,31 @@
+---
+author: vitraag
+comments: true
+date: 2012-06-25 05:13:10+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2012/06/24/libar/
+slug: libar
+title: Libar
+wordpress_id: 592
+categories:
+- mixology
+---
+
+Recently I started experimenting with the art of cocktail making at Libar! This post is a summary of where we are with it! We have tried about 30 cocktails over last 9 weeks! Thanks to Heidi and Jody, we've made many delicious cocktails over past few weeks. This post is about organizing and cataloging our favorites. Over time we want to make a [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AgluoM8OffBCdC0tRmVtVlNoWTBMSXJTazRBZjBERFE) of recipes and [catalogue](https://www.facebook.com/media/set/?set=a.10151082533029120.493407.500014119&type=3) the pictures. I would love to have patrons [rate](https://docs.google.com/spreadsheet/viewform?formkey=dC0tRmVtVlNoWTBMSXJTazRBZjBERFE6MQ#gid=2) ([http://bit.ly/rate-libar](http://bit.ly/rate-libar)) the cocktails but I’m still struggling with an easy way to do a better rating system.
+
+[![]({{site.images}}/2012/06/578048_10150936055054120_500014119_11633854_716799751_n1.jpg)]({{site.images}}/2012/06/578048_10150936055054120_500014119_11633854_716799751_n1.jpg)
+
+<!-- more -->
+<table>
+<thead>
+    <tr><td >Drink</td><td>Date First Made</td><td>Recipe</td><td>Rating</td></tr>
+</thead>
+<tbody>
+{% for item in site.data.libardrinks %}
+<tr>
+<td >{{item.name}} <span><img src="{{site.images}}/{{item.image}}" style="width:250px"/></span></td>
+<td>{{item.date}}</td>
+<td>{{item.recipe}}</td>
+<td>{{item.rating}}</td></tr>
+{% endfor %}
+</table>

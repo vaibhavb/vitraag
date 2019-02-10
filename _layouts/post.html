@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <title>{{page.title}}</title>
+  </head>
+<body>
+{% include nav.html %}
+
+<div class="container">
+  <h1 class="title is-3">{{page.title}}</h1>
+  <h2 class="subtitle is-6">Posted On {{page.date | date_to_rfc822}}. Filed in {{page.categories | join: ', '}}. By {{site.author}}.</h2>
+  <div class="content">
+    {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>

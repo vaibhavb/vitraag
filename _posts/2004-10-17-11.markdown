@@ -1,0 +1,16 @@
+---
+author: vitraag
+comments: true
+date: 2004-10-17 00:24:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2004/10/16/11/
+slug: '11'
+title: Legos!
+wordpress_id: 1053
+categories:
+- hardware hacking
+---
+
+Lego Mindstrom in .NET
+
+Check:[http://www.dcl.hpi.uni-potsdam.de/research/lego.NET/](http://www.dcl.hpi.uni-potsdam.de/research/lego.NET/). I have done a lego networking protocol and software development this brings back the old toy memories !!

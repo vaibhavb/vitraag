@@ -1,0 +1,64 @@
+---
+author: vitraag
+comments: true
+date: 2007-12-31 22:41:00+00:00
+layout: post
+link: https://vitraagblog.wordpress.com/2007/12/31/welcome-2008/
+slug: welcome-2008
+title: Welcome 2008!!
+wordpress_id: 82
+categories:
+- life occasions
+---
+
+[![](http://bp0.blogger.com/_Jc7k7_ysg2g/R3lwKtmPPYI/AAAAAAAAAJ0/5JmfyuhkZi0/s320/HappyNewYear2008.jpg)](http://bp0.blogger.com/_Jc7k7_ysg2g/R3lwKtmPPYI/AAAAAAAAAJ0/5JmfyuhkZi0/s1600-h/HappyNewYear2008.jpg)Dear Friend:  
+  
+Just wanted to take a moment and reflect on the year in past, look forward to the coming year and share it with you! In past I sent a greeting card to friends and family on the new years'. This year I'm sending note in form my year book, a summary of my blog posts and just a blurb about what i have been up to - Hope you find it an interesting read and have words of wisdom/advice for me to share here!! Wish you a happy new year, and may 2008 fulfill all your dreams!!!  
+  
+2007 has been quite an eventful year for me with lot of up and downs! The year started with a fabulous [trip to India](http://vitraag.blogspot.com/2007/02/fun-times-in-india.html) and [UK](http://vitraag.blogspot.com/2007/01/feeling-smarter-in-oxford.html). Back in Seattle i tried to buy a place and fortunately didnt succeed in it but moved to a amazing airy apartment in Capitol Hill. Did plan a lot to do snowboarding but never found time for it, neither for Whistler trip. However i went snowboarding on Dec 27 this year just get out of that jinx :).  
+  
+The summer as amazing fun - I started to [lead ](http://vitraag.blogspot.com/2007/04/lead-on-traditional-rock-climbing.html)on [Rock climbs](http://vitraag.blogspot.com/2007/07/star-chek-and-climbing-in-squamish.html)!. Biked to [Portland with](http://vitraag.blogspot.com/2007/07/stp2007-and-new-bicyclist.html) (my sweetheart) for Asha, it was amazing to see her pick up biking long distance so quickly. However on our next trip to Vancouver (RSVP) she met a terrible accident on RSVP. After her [graduation ](http://vitraag.blogspot.com/2007/05/proud-graduate.html)in May, Vaidehi (my sister) moved to Bay Area to work for Cisco, I visited her in July to make sure she is settled and after much back and forth decision we bought a nice car for her. During the same time i was trying also to do a small project/startup - A health tool [FitLive ](http://fitlive.dreamhosters.com/)and a simple facebook application [IOU ](http://iou.dreamhosters.com/)resulted in collaboration with my artist friend Eddie.  In Fall I decided to move to a new team. It was a little stressful time trying to finish all my obligations to Windows Mobile (I completed my feature for the next version which will allow the updating operating system to update itself on those devices) and move to Microsoft [HealthVault](http://healthvault.com/). The great part about Fall was i joined the Certificate Program in Business Development at UW and really enjoyed it. I continuing the Business development for [wineofeast ](http://www.winesofeast.com/)throught it! Continuing the stress and vigor of Fall- Winter so far has been really busy for me - in my one month at Microsoft HealthVault i have already managed and coordinate one release of the [SDK ](http://blogs.msdn.com/healthvault/archive/2007/12/21/holiday-release-of-healthvault-sdk.aspx)- have a pretty active [health blog](http://healthblog.vitraag.com/) as well. I'm saying goodbye to 2007 from Bay Area from Vaidehi's place - I'm happy to she her really settled in the place and is doing great!!  
+  
+From what it looks 2008 is going to be a challenging year for me! I will atleast try to get more snowboarding in the winter/spring and probably help Maris a little in her basic climbing and do a little more climbing in summer. Right now I'm looking forward to upcoming trip to India with Vaidehi and Maris. We are planning to visit the golden triangle and then go for cousins wedding. I'm not sure how 2008 will unfold, if my Maris & friends will convince me to join a startup in Seattle, or friends/family in Bay Area will make me move here or I will set out for a around the world trip ....  
+  
+Wish you happy new year!!!  
+  
+regards,  
+Vaibhav  
+  
+My 2007 Blogs  
+  
+Personal  
+http://vitraag.blogspot.com/2007/01/feeling-smarter-in-oxford.html  
+http://vitraag.blogspot.com/2007/02/fun-times-in-india.html  
+http://vitraag.blogspot.com/2007/02/london-longings.html  
+http://vitraag.blogspot.com/2007/04/tulip-festival-and-airshow.html  
+http://vitraag.blogspot.com/2007/04/lead-on-traditional-rock-climbing.html  
+http://vitraag.blogspot.com/2007/05/proud-graduate.html  
+http://vitraag.blogspot.com/2007/05/turtles-and-double-turns-advanced-salsa.html  
+http://vitraag.blogspot.com/2007/05/finishing-vancouver-marathon-in-style.html  
+http://vitraag.blogspot.com/2007/06/fitlive-coming-soon.html  
+http://vitraag.blogspot.com/2007/06/backpacking-with-mountain-lions.html  
+http://vitraag.blogspot.com/2007/07/star-chek-and-climbing-in-squamish.html  
+http://vitraag.blogspot.com/2007/07/stp2007-and-new-bicyclist.html  
+http://vitraag.blogspot.com/2007/07/support-my-206-mile-journey-to-portland.html  
+http://vitraag.blogspot.com/2007/08/simple-facebook-app-iou.html  
+http://vitraag.blogspot.com/2007/08/personal-finance.html  
+http://vitraag.blogspot.com/2007/11/budgeting-to-be-millionaire-in-seven.html  
+http://vitraag.blogspot.com/2007/11/market-research.html  
+http://vitraag.blogspot.com/2007/11/setting-up-home-office.html  
+http://vitraag.blogspot.com/2007/12/last-year-almost-gone-reflection-time.html  
+http://vitraag.blogspot.com/2007/12/planning-india-trip.html  
+http://vitraag.blogspot.com/2007/12/happy-birthday-maris.html  
+  
+  
+HealthBlog  
+http://healthblog.vitraag.com/2007/12/querying-healthvault-with-where-clauses.html  
+http://healthblog.vitraag.com/2007/12/microsoft-common-user-interface.html  
+http://healthblog.vitraag.com/2007/12/adding-health-vault-search-box.html  
+http://healthblog.vitraag.com/2007/12/microsofts-peter-neupert-voted-1-it.html  
+http://healthblog.vitraag.com/2007/12/healthvault-as-discussed-by-bill.html  
+http://healthblog.vitraag.com/2007/12/working-wih-health-vault.html  
+http://healthblog.vitraag.com/2007/12/health-vault-devices-windows-portable.html  
+http://healthblog.vitraag.com/2007/12/search-engine-optimization-for-health.html  
+http://healthblog.vitraag.com/2007/12/my-first-health-vault-application-with.html
