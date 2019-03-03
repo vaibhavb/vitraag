@@ -32,7 +32,7 @@
 
 - name: Art
   faclass: fab fa-artstation fa-3x
-  description: This section has list and writings on my art works as part of various art co-ops.
+  description: This section has list and writings on my [art](/art/) works as part of various art co-ops.
 
 - name: Public Speaking
   faclass: fab fa-speakap fa-3x
