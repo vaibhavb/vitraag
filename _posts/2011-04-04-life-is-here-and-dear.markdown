@@ -11,26 +11,11 @@ categories:
 - writings
 ---
 
-[![Resurrection-Poem]({{site.images}}/2011/04/Resurrection-Poem_thumb.jpg)]({{site.images}}/2011/04/Resurrection-Poem.jpg) Another installment of a pic and a poem : 
+[![resurrection-poem]({{site.images}}/2011/04/resurrection-poem_thumb.jpg)]({{site.images}}/2011/04/resurrection-poem.jpg) Another installment of a pic and a poem : 
 
- 
-
- 
-
+<pre>
 “Life is here and dear
-
- 
-
-<blockquote>  
-> 
-> Death is about an imminent
-> 
->    
-> 
-> Resurrection is a promise
-> 
->    
-> 
-> Come hope at the altar and be surprised!”
-> 
-> </blockquote>
+Death is about an imminent 
+Resurrection is a promise 
+Come hope at the altar and be surprised!”
+</pre>
