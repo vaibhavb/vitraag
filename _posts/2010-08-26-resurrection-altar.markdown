@@ -20,23 +20,23 @@ The point of this post is our art project – Resurrection Altar!
 
 Time for pictures. These are all the making of, pictures!
 
-[![IMG_0363]({{site.images}}/2010/08/IMG_0363_thumb.jpg)]({{site.images}}/2010/08/IMG_0363.jpg)
+[![img_0363]({{site.images}}/2010/08/img_0363_thumb.jpg)]({{site.images}}/2010/08/img_0363.jpg)
 
 Fig 1. A 20x30inch Poster – our camp sign during the day!
 
-[![IMG_0362]({{site.images}}/2010/08/IMG_0362_thumb.jpg)]({{site.images}}/2010/08/IMG_0362.jpg)
+[![img_0362]({{site.images}}/2010/08/img_0362_thumb.jpg)]({{site.images}}/2010/08/img_0362.jpg)
 
 Fig  2. Altar camp sign – This sign will illuminate at Night
 
-[![IMG_0364]({{site.images}}/2010/08/IMG_0364_thumb.jpg)]({{site.images}}/2010/08/IMG_0364.jpg)
+[![img_0364]({{site.images}}/2010/08/img_0364_thumb.jpg)]({{site.images}}/2010/08/img_0364.jpg)
 
 Fig 3. Rangoli Design – The Jain Map of Universe. We will make a stencil out of this.
 
-[![IMG_0365]({{site.images}}/2010/08/IMG_0365_thumb.jpg)]({{site.images}}/2010/08/IMG_0365.jpg)
+[![img_0365]({{site.images}}/2010/08/img_0365_thumb.jpg)]({{site.images}}/2010/08/img_0365.jpg)
 
 Fig 4. Rangoli Design – we will make a stencil out of this.
 
-[![IMG_0366]({{site.images}}/2010/08/IMG_0366_thumb.jpg)]({{site.images}}/2010/08/IMG_0366.jpg)
+[![img_0366]({{site.images}}/2010/08/img_0366_thumb.jpg)]({{site.images}}/2010/08/img_0366.jpg)
 
 Fig 5. The AltarCross.
 
