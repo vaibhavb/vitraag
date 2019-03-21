@@ -11,7 +11,7 @@ categories:
 - writings
 ---
 
-[![st.helens]({{site.images}}/2011/04/st.-helens_thumb.jpg)]({{site.images}}/2011/04/st.-helens.jpg)
+[![st.helens]({{site.images}}/2011/04/st-helens_thumb.jpg)]({{site.images}}/2011/04/st-helens.jpg)
 
 Another installment of a pic and a poem inspired by White Horse, Taylor Swift:
 

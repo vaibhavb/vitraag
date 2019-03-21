@@ -10,7 +10,7 @@ wordpress_id: 432
 categories:
 - writings
 ---
-[![mt.baker]({{site.images}}/2011/03/Mt.Baker_thumb.jpg)]({{site.images}}/2011/03/mt.baker.jpg)
+[![mt.baker]({{site.images}}/2011/03/mt-baker_thumb.jpg)]({{site.images}}/2011/03/mt-baker.jpg)
 
 Another installment of a pic and a poem -
 <pre>

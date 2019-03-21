@@ -11,7 +11,7 @@ categories:
 - writings
 ---
 
-[![cinco]({{site.images}}/2011/05/Cinco_thumb.jpg)]({{site.images}}/2011/05/cinco.jpg)
+[![cinco]({{site.images}}/2011/05/cinco_thumb.jpg)]({{site.images}}/2011/05/cinco.jpg)
 
 Inspired by Chan Chan -
 
