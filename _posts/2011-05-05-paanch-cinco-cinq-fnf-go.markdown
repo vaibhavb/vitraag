@@ -11,38 +11,16 @@ categories:
 - writings
 ---
 
- 
-
-[![Cinco]({{site.images}}/2011/05/Cinco_thumb.jpg)]({{site.images}}/2011/05/Cinco.jpg)
-
- 
+[![cinco]({{site.images}}/2011/05/Cinco_thumb.jpg)]({{site.images}}/2011/05/cinco.jpg)
 
 Inspired by Chan Chan -
 
- 
-
+<pre> 
 “Its about numbers, 
-
- 
-
 Its about numbers of the members
-
- 
-
 Fünf are the elements
-
- 
-
 Paanch are the pandavas
-
- 
-
 Cinq is good
-
- 
-
 Go Cinco Go
-
- 
-
 Ich Ni San Chi Go!”
+</pre>

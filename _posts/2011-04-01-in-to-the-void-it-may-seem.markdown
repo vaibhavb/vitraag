@@ -11,36 +11,15 @@ categories:
 - writings
 ---
 
-[![Leavenworth-WA]({{site.images}}/2011/04/Leavenworth-WA_thumb1.jpg)]({{site.images}}/2011/04/Leavenworth-WA1.jpg)
-
- 
+[![leavenworth-wa]({{site.images}}/2011/04/leavenworth-wa_thumb1.jpg)]({{site.images}}/2011/04/leavenworth-wa1.jpg)
 
 Another installment of a pic and a poem --
 
- 
-
-<blockquote>  
-> 
-> “For soaring the heights of exuberation
-> 
-> </blockquote>
-
- 
-
+<pre>
+“For soaring the heights of exuberation
 Each step requires deep concentration
-
- 
-
 In to the void it may seem
-
- 
-
-<blockquote>  
-> 
-> But each nubbin and each step-up pushes your belief!”
-> 
-> </blockquote>
-
- 
+But each nubbin and each step-up pushes your belief!”
+</pre> 
 
 --

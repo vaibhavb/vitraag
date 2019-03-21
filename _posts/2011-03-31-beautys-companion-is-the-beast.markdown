@@ -10,35 +10,14 @@ wordpress_id: 432
 categories:
 - writings
 ---
+[![mt.baker]({{site.images}}/2011/03/Mt.Baker_thumb.jpg)]({{site.images}}/2011/03/mt.baker.jpg)
 
- 
-
-[![Mt.Baker]({{site.images}}/2011/03/Mt.Baker_thumb.jpg)]({{site.images}}/2011/03/Mt.Baker_.jpg)Another installment of a pic and a poem -
-
- 
-
+Another installment of a pic and a poem -
+<pre>
 “Beauty’s companion is the beast
-
- 
-
 There is hunger preceding a real feast
-
- 
-
 White complements black and so does yin with yang
-
- 
-
 Life’s battles are small and big
-
- 
-
 But with every victory there is a smile to be had
-
- 
-
-<blockquote>  
-> 
-> And with every summit there is a grandeur to be imbibed!”
-> 
-> </blockquote>
+And with every summit there is a grandeur to be imbibed!”
+</pre>

@@ -11,20 +11,18 @@ categories:
 - writings
 ---
 
-[![Heidi-BurningMan-2010]({{site.images}}/2011/03/Heidi-BurningMan-2010_thumb1.jpg)]({{site.images}}/2011/03/Heidi-BurningMan-20101.jpg)
+[![heidi-burningman-2010]({{site.images}}/2011/03/heidi-burningman-2010_thumb1.jpg)]({{site.images}}/2011/03/heidi-burningman-20101.jpg)
 
 I’m thinking of starting a series of post where every morning or every other morning I randomly pick out an old picture   from my collection and spend a few minutes writing my thoughts around when I took the picture, the place, the time      and  some more random context. Eventually I’m hoping to post a quite a few pictures of my childhood, my hometown and growing up. I always feel very lucky to have lived through immensely rich and varied life experiences from growing up in a small town to climbing mountains or cycling coasts!
 
 So here is to the first installment a picture from Burning Man 2010 :
 
-
-<blockquote>“There are times in life
+<pre>
+“There are times in life
 When the climes are ripe
 However blue you might feel
 Under the desert sky just past night
-The color pink might be just right!”</blockquote>
+The color pink might be just right!”
+</pre>
 
-
-
-
-<blockquote>Thoughts, ideas, comments please share on….!</blockquote>
+Thoughts, ideas, comments please share on….!

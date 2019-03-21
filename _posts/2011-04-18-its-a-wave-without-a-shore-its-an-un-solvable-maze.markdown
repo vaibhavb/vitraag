@@ -11,48 +11,19 @@ categories:
 - writings
 ---
 
-[![ItsAMaze]({{site.images}}/2011/04/ItsAMaze_thumb.jpg)]({{site.images}}/2011/04/ItsAMaze.jpg)
-
- 
+[![itsamaze]({{site.images}}/2011/04/itsamaze_thumb.jpg)]({{site.images}}/2011/04/itsamaze.jpg)
 
 Another installment of pic and poem, inspired by Caravan to Timbuktu by Pt. Hariprasad Chaurasia
 
- 
-
+<pre> 
 “It’s a maze
-
- 
-
 You wake up in a gaze
-
- 
-
 To be part of the maze
-
- 
-
 This one does not have a start nor an end
-
- 
-
 But you are part of the maze
-
- 
-
 There are lines and corners
-
- 
-
 Make a left or right
-
- 
-
 Caravan or ride alone
-
- 
-
 It’s a wave without a shore
-
- 
-
 Its an un-solvable maze”
+</pre>

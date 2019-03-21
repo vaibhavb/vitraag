@@ -11,36 +11,15 @@ categories:
 - writings
 ---
 
-[![Huh what @ Work]({{site.images}}/2011/05/Huh-what-Work_thumb.jpg)]({{site.images}}/2011/05/Huh-what-Work.jpg)
-
- 
+[![Huh what @ Work]({{site.images}}/2011/05/huh-what-work_thumb.jpg)]({{site.images}}/2011/05/huh-what-work.jpg)
 
 Inspired by [Männer sind schweine](http://www.youtube.com/watch?v=4DJ0Inxfmyk) -
 
- 
-
-<blockquote>  
-> 
-> “ Wir brauchen ein Fest
-> 
->    
-> 
-> Winter leads to Spring
-> 
->    
-> 
-> Spring to Summer
-> 
->    
-> 
-> It’s the troughs and mountains
-> 
->    
-> 
-> Snow and Water
-> 
->    
-> 
-> Es ist ein Fest!”
-> 
-> </blockquote>
+<pre> 
+“Wir brauchen ein Fest
+Winter leads to Spring
+Spring to Summer
+It’s the troughs and mountains
+Snow and Water
+Es ist ein Fest!”
+</pre>

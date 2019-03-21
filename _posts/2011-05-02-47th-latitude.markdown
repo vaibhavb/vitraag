@@ -11,40 +11,16 @@ categories:
 - writings
 ---
 
-[![Chicago]({{site.images}}/2011/05/Chicago_thumb.jpg)]({{site.images}}/2011/05/Chicago.jpg)
-
- 
+[![chicago]({{site.images}}/2011/05/chicago_thumb.jpg)]({{site.images}}/2011/05/chicago.jpg)
 
 Another installment of pic and a poem inspired by [Kuzu kuzu](http://www.youtube.com/watch?v=Ew2o0DnXpCI) by Tarkan
 
- 
-
-<blockquote>  
-> 
-> “The weather swallows
-> 
->    
-> 
-> It’s a herd of those clouds that follow
-> 
->    
-> 
-> It is the drop of rain that precedes another
-> 
->    
-> 
-> The skyline might change
-> 
->    
-> 
-> But 47th latitude remains the same
-> 
->    
-> 
-> It’s the weather that follows
-> 
->    
-> 
-> Kuzu kuzu, its Karma, its constant”
-> 
-> </blockquote>
+<pre>
+“The weather swallows
+It’s a herd of those clouds that follow
+It is the drop of rain that precedes another
+The skyline might change
+But 47th latitude remains the same
+It’s the weather that follows
+Kuzu kuzu, its Karma, its constant”
+</pre>

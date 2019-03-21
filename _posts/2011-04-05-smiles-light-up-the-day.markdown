@@ -11,32 +11,16 @@ categories:
 - writings
 ---
 
-[![TajMahal]({{site.images}}/2011/04/TajMahal_thumb.jpg)]({{site.images}}/2011/04/TajMahal.jpg)Another installment of a pic and a poem :
+[![tajmahal]({{site.images}}/2011/04/tajmahal_thumb.jpg)]({{site.images}}/2011/04/tajmahal.jpg)
 
- 
+Another installment of a pic and a poem :
 
+<pre>
 “Smiles light up the day
-
- 
-
 Taj Mahal is lit by morning rays
-
- 
-
 It’s a unique creation you might say
-
- 
-
 A hope near the river, a dedication to love
-
- 
-
 May be its an impulse to highlight the mundane
-
- 
-
 A masterpiece to celebrate the cliché
-
- 
-
 Let smiles light up the day!”
+</pre>

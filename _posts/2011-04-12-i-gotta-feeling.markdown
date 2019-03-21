@@ -11,32 +11,15 @@ categories:
 - writings
 ---
 
-[![TOSI-Dinner-Poem]({{site.images}}/2011/04/TOSI-Dinner-Poem_thumb.jpg)]({{site.images}}/2011/04/TOSI-Dinner-Poem.jpg)
-
- 
+[![tosi-dinner-poem]({{site.images}}/2011/04/tosi-dinner-poem_thumb.jpg)]({{site.images}}/2011/04/tosi-dinner-poem.jpg)
 
 Another installment of pic and poem, inspired by [I Gotta Feeling](http://www.youtube.com/watch?v=uSD4vsh1zDA), by Black Eyed Peas -
 
- 
-
+<pre> 
 “There is rice, and rasam
-
- 
-
 There is poddi and pickle
-
- 
-
 Food on a banana leaf is a tradition from the south
-
- 
-
 Makes for a growing appetite and a water mouth
-
- 
-
 A morsel of delicious food in company of compassionate kindling
-
- 
-
 Makes for a good good night, I gotta a feeling!
+</pre>

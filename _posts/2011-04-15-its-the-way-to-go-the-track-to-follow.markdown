@@ -10,37 +10,18 @@ wordpress_id: 473
 categories:
 - writings
 ---
+[![kelkheim]({{site.images}}/2011/04/kelkheim_thumb.jpg)]({{site.images}}/2011/04/kelkheim.jpg)
 
-[![Kelkheim]({{site.images}}/2011/04/Kelkheim_thumb.jpg)]({{site.images}}/2011/04/Kelkheim.jpg)Another installment of a pic and a poem, this time inspired by [Even better than the real thing](http://www.youtube.com/watch?v=Yrch66gdjjk) by U2 --
+Another installment of a pic and a poem, this time inspired by [Even better than the real thing](http://www.youtube.com/watch?v=Yrch66gdjjk) by U2 --
 
- 
-
+<pre>
 “Don't quit trying,
-
- 
-
 Else you will face tyranny
-
- 
-
 Face straight and chin up
-
- 
-
 Is the way to go
-
- 
-
 Whether there is way or a wall
-
- 
-
 Its the way to go, the track to follow
-
- 
-
 And get even better than the real thing
-
- 
-
 Its the way to go, the track to follow”
+</pre>
+

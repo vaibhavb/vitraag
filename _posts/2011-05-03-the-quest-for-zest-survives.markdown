@@ -11,30 +11,14 @@ categories:
 - writings
 ---
 
-[![SeattleToSFBikeRide]({{site.images}}/2011/05/SeattleToSFBikeRide_thumb.jpg)]({{site.images}}/2011/05/SeattleToSFBikeRide.jpg)
-
- 
+[![seattletosfbikeride]({{site.images}}/2011/05/seattletosfbikeride_thumb.jpg)]({{site.images}}/2011/05/seattletosfbikeride.jpg)
 
 Pic and poem inspired by Flute Fantasy, DJ Nasha --
 
- 
-
- 
-
+<pre> 
 “ As the fogs withers
-
- 
-
 And the sun shimmers
-
- 
-
 Rubber hits the asphalt
-
- 
-
 A stroke at a time the journey evolves
-
- 
-
 The quest for zest survives”
+</pre>
