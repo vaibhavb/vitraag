@@ -1,0 +1,11 @@
+body {
+    border-top: 10px solid salmon;
+    border-bottom: 10px solid salmon;
+    border-left: 0;
+    border-right: 0;
+    border-image: linear-gradient(to right, #00d1b2, salmon) 1 stretch;
+}
+
+body, html {
+    background-color:  hsl(0, 0%, 95%);
+}

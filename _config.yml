@@ -3,9 +3,9 @@ title: Vaibhav Bhandari Homepage
 author: Vaibhav Bhandari
 email: vaibhavb@gmail.com
 description: Vaibhav Bhandari Homepage
-baseurl: ""
+baseurl: "/"
 images: "/assets/images"
-url: "https://www.vitraag.com"
+url: "https://www.vitraag.com/"
 
 #Exclude
 exclude: [Gemfile, Gemfile.lock]
