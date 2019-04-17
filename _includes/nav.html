@@ -1,25 +1,40 @@
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
 <nav class="navbar" role="navigation" aria-label="main navigation">
- <div class="container is-fluid">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="{{site.url}}">
-      <i class="fas fa-home fa-3x"></i>
-      &nbsp;&nbsp;Vaibhav Bhandari
-    </a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-  </div>
-
-  <div id="navMenu" class="navbar-menu">
-    <div class="navbar-end">
-      <div class="navbar-item">
-        {% for item in site.data.navigation %}
-          <a class="navbar-item" href="{{item.link}}">{{item.name}}</a>
-        {% endfor %}
-      </div>
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}">
+            <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+            <!--<img src="{{site.url}}{{site.baseurl}}assets/images/logo-title.png" alt="Do no harm"> -->
+            <title class="navbar-item" href="{{site.url}}{{site.baseurl}}">Vaibhav Bhandari</title>
+        </a>
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
     </div>
-  </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a href="http://www.about.me/vaibhavb" class="navbar-item">About</a>
+            <a href="https://www.medium.com/@vaibhavb" class="navbar-item">Blog</a>
+            <a href="https://www.dropbox.com/s/4pyuj5emaa5igfv/Vaibhav%20Bhandari%20-%202019%20-%20Formatted.pdf?dl=0" class="navbar-item">Resume</a>
+            <a href="https://www.github.com/vaibhavb" class="navbar-item">Ethics Statement</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Projects</a>
+                <div class="navbar-dropdown">
+                  <a href="" class="navbar-item">Programmable Self</a>
+                  <a href="{{ site.bootcamp }}" class="navbar-item">Bootcamp</a>
+                  <a href="https://www.github.com/vaibhavb" class="navbar-item">Project Lira</a>
+                  <a href="http://www.wisevoter.org" class="navbar-item">WiseVoter</a>
+                  <a href="https://www.goodreads.com/vaibhavb" class="navbar-item">Book Reviews</a>
+                </div>
+              </div>
+            <a href=" https://data.world/vaibhavb" class="navbar-item">Data</a>
+            <a href="mailto:vaibhavb@gmail.com" class="navbar-item">Contact & Collaboration</a>
+          </div>
+        </div>
   </div>
 </nav>
+<br/>
