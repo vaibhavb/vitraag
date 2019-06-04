@@ -8,7 +8,7 @@ images: "/assets/images"
 url: "https://www.vitraag.com/"
 
 #Exclude
-exclude: [Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*]
 
 # Build settings
 markdown: kramdown

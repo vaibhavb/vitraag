@@ -1,3 +1,6 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
 body {
     border-top: 0px solid salmon;
     border-bottom: 0px solid salmon;
@@ -9,4 +12,3 @@ body {
 body, html {
     background-color:  hsl(0, 0%, 95%);
 }
-

@@ -1,0 +1,29 @@
+{
+  "name": "mybulma",
+  "version": "0.0.1",
+  "description": "My Implementation of bulma",
+  "main": "assets/sass/mybulma.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url assets/sass/mybulma.scss assets/css/mybulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhavb/vitraag.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Vaibhav Bhandari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaibhavb/vitraag/issues"
+  },
+  "homepage": "https://github.com/vaibhavb/vitraag#readme",
+  "devDependencies": {
+    "bulma": "^0.7.5",
+    "node-sass": "^4.12.0"
+  }
+}
