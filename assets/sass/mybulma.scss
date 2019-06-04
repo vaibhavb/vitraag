@@ -10,5 +10,52 @@ body {
 }
 
 body, html {
-    background-color:  hsl(0, 0%, 95%);
+    background-color:  hsl(0, 0%, 98%);
 }
+
+.has-same-height .card {
+    height: 320px;
+    overflow: hidden;
+  }
+  
+  .card-content h3 {
+    text-align: center;
+  }
+  
+  .table-profile td,
+  th {
+    border: none !important;
+  }
+  
+  .table-profile td:first-of-type {
+    font-weight: bold;
+  }
+  
+  .skills-content .media {
+    margin: 0 !important;
+    padding: 4px !important;
+    border: 0 !important;
+  }
+  
+  .skills-content .progress {
+    height: 8px !important;
+  }
+  
+  .custom-tags {
+    text-align: center !important;
+    display: block;
+  }
+  
+  .portfolio-container .card {
+    margin-bottom: 1em;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 5em;
+  }
+
+  .section-content p {
+    margin-top: 1em;
+  }

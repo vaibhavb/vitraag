@@ -1,0 +1,88 @@
+# - name: Health IT
+#   faclass: fas fa-medkit fa-3x
+#   description: This section has all the posts related to Microsoft HealthVault, Health Data Standards, YouBase.io, etc.
+
+# - name: Computer Science & Security
+#   faclass: fas fa-shield-alt fa-3x
+#   description: This section has all the posts related to Programming, Shape Security, Cyber Defenders and Open Source Software.
+
+# - name: Snow Boarding
+#   faclass: fas fa-snowflake fa-3x
+#   description: This section has all the posts related to Snowboarding, Skiing, Ski-Share, and Backcountry.
+
+# - name: Mountaineering
+#   faclass: fas fa-mountain fa-3x
+#   description: This section has all the posts related to Hiking, Camping and Mountaineering.
+
+# - name: Cycling
+#   faclass: fas fa-bicycle fa-3x
+#   description: This section has all the posts related to Cylcing, Bicycle and Motorcyle Touring.
+
+# - name: Dancing
+#   faclass: fas fa-music fa-3x
+#   description: This section has all the posts related to dancing - Salsa, Fusion and Blues, and music making - Ableton Live etal.
+
+# - name: Writing & Poems
+#   faclass: fas fa-newspaper fa-3x
+#   description: This section has all my poetry, writing, and long forms.
+
+- title: Book
+  subtitle: HealthVault
+  image: book.png
+  titletags:
+    - Microsoft
+    - HealthIT
+  description: My book.
+  moreinfo: http://www.amazon.com
+  read: http://www.amazon.com
+
+- title: Cyber Security
+  subtitle: Educator
+  faclass: fab fa-artstation fa-1x
+  tags:
+    - Evergreen College
+    - Merritt College
+    - Santa Teresa Highschool
+  image:
+  description: As part of Lib13's work on creating Cyber Defenders, I worked on creating several cyber security education programs.
+
+- title: Blockchain
+  subtitle: 
+  faclass: fab fa-artstation fa-1x
+  tags:
+    - Startup
+  image:
+  description: As part of Lib13's work on helping with YouBase.io, I worked on creating the first blockchain healthcare solution.
+
+- title: Project Lira
+  subtitle: 
+  image: 
+  iswip: true
+  faclass: fas fa-globe fa-1x
+  moreinfo: https://www.github.com/vaibhavb
+  description: This section details my travels & trip experiences to over 30 countries.
+
+- title: WiseVoter
+  subtitle: 
+  image: 
+  iswip: true
+  faclass: fas fa-globe fa-1x
+  moreinfo: https://www.wisevoter.org
+  description: 
+
+- title: Art
+  subtitle:
+  iswip: true
+  faclass: fab fa-artstation fa-1x
+  description: This section has list and writings on my [art](/art/) works as part of various art co-ops.
+
+- title: Papers & Public Speaking
+  subtitle: 
+  faclass: fab fa-speakap fa-1x
+  description: Author of 3 US-Patents and an O'Reilly publication book, details on Google [Scholar](https://scholar.google.com/citations?hl=en&user=3UVU5zgAAAAJ). This section has list and notes on all my public speaking and conference presentations.
+
+- title: Book Reviews
+  subtitle:
+  faclass: fas fa-book
+  description: 
+  moreinfo: https://www.goodreads.com/vaibhavb

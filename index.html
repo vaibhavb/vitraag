@@ -1,31 +1,8 @@
 ---
-layout: default
+layout: frontpage
 title: Vaibhav Bhandari Homepage
 ---
-<section>
-  <div class="container">
-  <div class="row columns is-multiline">
-  {% for cat in site.data.indexcategories %}  
-    <div class="column is-one-third">
-      <div class="card">
-        <header class="card-header">
-          <p class="card-header-title">{{cat.name}}</p>
-          <i class="{{cat.faclass}}"></i>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            {{cat.description | markdownify}}
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-</div>
-</div>
-</section>
-
 <hr/>
-
 <section>
   <div class="container">
   <div class="card is-full">
@@ -46,7 +23,6 @@ title: Vaibhav Bhandari Homepage
         </div>
       </div>
   </div>
-
   <div class="container">
       <div class="card is-full">
             <header class="card-header">
@@ -57,7 +33,7 @@ title: Vaibhav Bhandari Homepage
                {% for tag in site.tags %}
                <span class="tag">
                   <a href="/tag/{{ tag | first | slugify }}/"
-                      style="font-size: {{ tag | last | size  |  times: 4 | plus: 80 }}%">
+                      style="font-size:{{ tag | last | size  |  times: 4 | plus: 80 }}%">
                           {{ tag[0] | replace:'-', ' ' }} <sup>({{ tag | last | size }})</sup>
                   </a>
               </span>
@@ -66,7 +42,6 @@ title: Vaibhav Bhandari Homepage
             </div>
           </div>
   </div>
-
   <hr/>
   <div class="container content">
     {% for tag in site.categories %} 

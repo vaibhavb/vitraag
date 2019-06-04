@@ -1,15 +1,16 @@
 <!---------------------------------------------------->  
 <!--               Navbar Section                   -->  
 <!---------------------------------------------------->  
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="container is-fluid">
     <div class="navbar-brand">
-        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}">
-            <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
-            <!--<img src="{{site.url}}{{site.baseurl}}assets/images/logo-title.png" alt="Do no harm"> -->
-            <title class="navbar-item" href="{{site.url}}{{site.baseurl}}">Vaibhav Bhandari</title>
-        </a>
-        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+        <!--
+          <a class="navbar-item" href="{{site.url}}{{site.baseurl}}">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="{{site.url}}{{site.baseurl}}">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
@@ -17,24 +18,44 @@
     </div>
         <div class="navbar-menu" id="navMenu" >
           <div class="navbar-end">
-            <a href="http://www.about.me/vaibhavb" class="navbar-item">About</a>
-            <a href="https://www.medium.com/@vaibhavb" class="navbar-item">Blog</a>
-            <a href="https://www.dropbox.com/s/4pyuj5emaa5igfv/Vaibhav%20Bhandari%20-%202019%20-%20Formatted.pdf?dl=0" class="navbar-item">Resume</a>
-            <a href="https://www.github.com/vaibhavb" class="navbar-item">Ethics Statement</a>
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Projects</a>
-                <div class="navbar-dropdown">
-                  <a href="" class="navbar-item">Programmable Self</a>
-                  <a href="{{ site.bootcamp }}" class="navbar-item">Bootcamp</a>
-                  <a href="https://www.github.com/vaibhavb" class="navbar-item">Project Lira</a>
-                  <a href="http://www.wisevoter.org" class="navbar-item">WiseVoter</a>
-                  <a href="https://www.goodreads.com/vaibhavb" class="navbar-item">Book Reviews</a>
-                </div>
-              </div>
-            <a href=" https://data.world/vaibhavb" class="navbar-item">Data</a>
-            <a href="mailto:vaibhavb@gmail.com" class="navbar-item">Contact & Collaboration</a>
+            <a class="navbar-item" href="#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="#resume">
+                <span class="icon">
+                  <i class="fas fa-file-alt"></i>
+                </span>
+                <span>Resume</span>
+            </a>
+            <a class="navbar-item" href="#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <a class="navbar-item" href="#blog">
+              <span class="icon">
+                <i class="fab fa-medium"></i>
+              </span>
+              <span>Blog</span>
+            </a>
+            <a class="navbar-item" href="#ethics">
+                <span class="icon">
+                  <i class="fas fa-file-alt"></i>
+                </span>
+                <span>Ethics</span>
+            </a>
+            <a class="navbar-item" href="#contact">
+                  <span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span>Contact</span>
+              </a>
           </div>
         </div>
   </div>
 </nav>
-<br/>
+
