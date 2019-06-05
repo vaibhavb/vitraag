@@ -6967,7 +6967,7 @@ body, html {
   background-color: #fafafa; }
 
 .has-same-height .card {
-  height: 360px;
+  height: 380px;
   overflow: hidden; }
 
 .card-content h3 {
@@ -6986,7 +6986,7 @@ th {
   border: 0 !important; }
 
 .skills-content .progress {
-  height: 8px !important; }
+  height: 12px !important; }
 
 .custom-tags {
   text-align: center !important;
