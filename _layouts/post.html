@@ -8,14 +8,38 @@
 <body>
 {% include nav.html %}
 
-<div class="container">
-  <h1 class="title is-3">{{page.title}}</h1>
-  <h2 class="subtitle is-6 is-small">Posted On {{page.date | date_to_rfc822}}. Filed in {{page.categories | join: ', '}}. By {{site.author}}.</h2>
-  <div class="content">
-    {{ content }}
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+          <h1 class="title">{{page.title}}</h1>
+      </div>
   </div>
-</div>
+</section>
 
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">{{page.title}}</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">{{site.author}}</span>
+                              <span class="tag is-rounded">{{page.date | date: "%c"}}</span>
+                              <span class="tag is-rounded is-warning">{{page.categories | join: ', '}}</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    {{content}}
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
 <hr/>
 <section>
 <div class="container">
