@@ -2,7 +2,7 @@
 date: 2004-05-05 05:06:00+00:00
 layout: post
 title: Art Projects
-permalink: /art/
+permalink: /art/test
 categories:
 - art
 ---
