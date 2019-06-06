@@ -1,18 +1,35 @@
 ---
 layout: report
-title: Weekly Finance Report
+title: Monthly Finance Report
 permalink: /finance/
 aside:
-    - General
-        - Dashboard
-        - Customers
-    - Administration
-        - Team Settings
-            - Manage your team
-                - Members
-                - Plugins
-        - Invitations
-        - Authentication
+    metrics:
+        - name: Transactions
+          value: 100
+        - name: Income
+          value: 5k
+        - name: Expense
+          value: 3k
+        - name: Investments
+          value: 2k
+    menuitems:
+        - label: Monthly Finances 
+          list: 
+            - label: Dashboard
+              link: 
+            - label: Customers
+              link:
+        - label: Review Items
+          list:
+            - label: Business
+              link:
+            - label: Vendors
+              link: 
+            - label: Recurring
+              link: 
+    fincat:
+        - HSA
+        - 
 categories:
 - finance
 ---
@@ -20,54 +37,27 @@ categories:
         <div class="columns">
             <div class="column is-3 ">
                 <aside class="menu is-hidden-mobile">
+                {% for menu in page.aside.menuitems %}
                     <p class="menu-label">
-                        General
+                        {{menu.label}}
                     </p>
                     <ul class="menu-list">
-                        <li><a class="is-active">Dashboard</a></li>
-                        <li><a>Customers</a></li>
+                    {% for item in menu.list %}
+                        <li><a href='{{item.link}}'>{{item.label}}</a></li>
+                    {% endfor %}
                     </ul>
-                    <p class="menu-label">
-                        Administration
-                    </p>
-                    <ul class="menu-list">
-                        <li><a>Team Settings</a></li>
-                        <li>
-                            <a>Manage Your Team</a>
-                            <ul>
-                                <li><a>Members</a></li>
-                                <li><a>Plugins</a></li>
-                                <li><a>Add a member</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Invitations</a></li>
-                        <li><a>Cloud Storage Environment Settings</a></li>
-                        <li><a>Authentication</a></li>
-                    </ul>
-                    <p class="menu-label">
-                        Transactions
-                    </p>
-                    <ul class="menu-list">
-                        <li><a>Payments</a></li>
-                        <li><a>Transfers</a></li>
-                        <li><a>Balance</a></li>
-                    </ul>
+                {% endfor %}
                 </aside>
             </div>
             <div class="column is-9">
-                <nav class="breadcrumb" aria-label="breadcrumbs">
-                    <ul>
-                        <li><a href="../">Bulma</a></li>
-                        <li><a href="../">Templates</a></li>
-                        <li><a href="../">Examples</a></li>
-                        <li class="is-active"><a href="#" aria-current="page">Admin</a></li>
-                    </ul>
-                </nav>
+                <div class="container">
+                    <a href="{{site.url}}/finances/?month=1" class="tag is-info">Jan</a>
+                </div>
                 <section class="hero is-info welcome is-small">
                     <div class="hero-body">
                         <div class="container">
                             <h1 class="title">
-                                Hello, Admin.
+                                Hello, Vaibhav.
                             </h1>
                             <h2 class="subtitle">
                                 I hope you are having a great day!
@@ -75,32 +65,16 @@ categories:
                         </div>
                     </div>
                 </section>
-                <section class="info-tiles">
+                <section class="info-tiles" id="dashboard">
                     <div class="tile is-ancestor has-text-centered">
+                    {% for metric in page.aside.metrics %}
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title">439k</p>
-                                <p class="subtitle">Users</p>
+                                <p class="title">{{metric.value}}</p>
+                                <p class="subtitle">{{metric.name}}</p>
                             </article>
                         </div>
-                        <div class="tile is-parent">
-                            <article class="tile is-child box">
-                                <p class="title">59k</p>
-                                <p class="subtitle">Products</p>
-                            </article>
-                        </div>
-                        <div class="tile is-parent">
-                            <article class="tile is-child box">
-                                <p class="title">3.4k</p>
-                                <p class="subtitle">Open Orders</p>
-                            </article>
-                        </div>
-                        <div class="tile is-parent">
-                            <article class="tile is-child box">
-                                <p class="title">19</p>
-                                <p class="subtitle">Exceptions</p>
-                            </article>
-                        </div>
+                    {% endfor %}
                     </div>
                 </section>
                 <div class="columns">
@@ -111,10 +85,10 @@ categories:
                                     Events
                                 </p>
                                 <a href="#" class="card-header-icon" aria-label="more options">
-                  <span class="icon">
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
-                  </span>
-                </a>
+                                    <span class="icon">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </span>
+                                </a>
                             </header>
                             <div class="card-table">
                                 <div class="content">
@@ -193,9 +167,9 @@ categories:
                                         <span class="icon is-medium is-left">
                                             <i class="fa fa-search"></i>
                                             </span>
-                                                                <span class="icon is-medium is-right">
+                                            <span class="icon is-medium is-right">
                                             <i class="fa fa-check"></i>
-                                            </span>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -230,3 +204,5 @@ categories:
             </div>
         </div>
     </div>
+
+<div id="react"></div>

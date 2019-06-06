@@ -12,7 +12,7 @@ title: Vaibhav Bhandari Homepage
         <div class="card-content">
           <div class="content">
            {% for category in site.categories %}
-           <span class="tag">
+           <span class="tag is-info">
               <a href="#{{ category | first | slugify }}"
                   style="font-size: {{ category | last | size  |  times: 4 | plus: 80 }}%">
                       {{ category[0] | replace:'-', ' ' }} <sup>({{ category | last | size }})</sup>
@@ -31,7 +31,7 @@ title: Vaibhav Bhandari Homepage
             <div class="card-content">
               <div class="content">
                {% for tag in site.tags %}
-               <span class="tag">
+               <span class="tag is-warning">
                   <a href="/tag/{{ tag | first | slugify }}/"
                       style="font-size:{{ tag | last | size  |  times: 4 | plus: 80 }}%">
                           {{ tag[0] | replace:'-', ' ' }} <sup>({{ tag | last | size }})</sup>

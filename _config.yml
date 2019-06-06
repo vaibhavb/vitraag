@@ -8,7 +8,7 @@ images: "/assets/images"
 url: "https://www.vitraag.com/"
 
 #Exclude
-exclude: [Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*]
+exclude: [Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*, assets/webpack]
 include: [_pages]
 
 # Build settings
