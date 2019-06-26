@@ -38,12 +38,12 @@
 
 - title: Cyber Security
   subtitle: Educator
+  image: cybersecurity-hero.jpeg
   faclass: fas fa-shield-alt
   tags:
     - Evergreen College
     - Merritt College
     - Santa Teresa Highschool
-  image:
   description: As part of Lib13's work on creating Cyber Defenders, I worked on creating several cyber security education programs.
 
 - title: Blockchain
@@ -51,7 +51,7 @@
   faclass: fab fa-artstation fa-1x
   tags:
     - Startup
-  image:
+  image: youbase-hero.png
   description: As part of Lib13's work on helping with YouBase.io, I worked on creating the first blockchain healthcare solution.
 
 - title: Project Lira
