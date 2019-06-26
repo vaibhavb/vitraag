@@ -60,7 +60,7 @@
   iswip: true
   faclass: fas fa-globe fa-1x
   moreinfo: https://www.github.com/vaibhavb
-  description: This section details my travels & trip experiences to over 30 countries.
+  description: Lira is a demonstration of domain driven voice first programming environment. The domain knowledge of Lira is around the idea of loading data sets and working with them domain specific data science modalities.
 
 - title: WiseVoter
   subtitle: 
@@ -83,8 +83,17 @@
   faclass: fab fa-speakap fa-1x
   description: Author of 3 US-Patents and an O'Reilly publication book, details on Google [Scholar](https://scholar.google.com/citations?hl=en&user=3UVU5zgAAAAJ). This section has list and notes on all my public speaking and conference presentations.
 
-- title: Book Reviews
+- title: Travels
+  subtitle: 
+  image: travel-hero.png
+  iswip: true
+  faclass: fas fa-globe fa-1x
+  moreinfo: https://www.vitraag.com/#travel
+  description: This section details my travels & trip experiences to over 30 countries.
+
+- title: Outdoors
   subtitle:
+  image: outdoors-hero.jpg
   faclass: fas fa-book
   description: 
-  moreinfo: https://www.goodreads.com/vaibhavb
+  moreinfo: https://www.vitraag.com/#Rockclimbing
