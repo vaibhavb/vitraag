@@ -64,7 +64,7 @@
 
 - title: WiseVoter
   subtitle: 
-  image: 
+  image: wisevoter-hero.png
   iswip: true
   faclass: fas fa-globe fa-1x
   moreinfo: https://www.wisevoter.org
@@ -72,12 +72,14 @@
 
 - title: Art
   subtitle:
+  image: greenfairy-hero.png
   iswip: true
   faclass: fab fa-artstation fa-1x
   description: This section has list and writings on my [art](/art/) works as part of various art co-ops.
 
 - title: Papers & Public Speaking
   subtitle: 
+  image: oscon-hero.png
   faclass: fab fa-speakap fa-1x
   description: Author of 3 US-Patents and an O'Reilly publication book, details on Google [Scholar](https://scholar.google.com/citations?hl=en&user=3UVU5zgAAAAJ). This section has list and notes on all my public speaking and conference presentations.
 
