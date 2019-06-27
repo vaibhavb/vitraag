@@ -1,7 +1,7 @@
 ---
 author: vitraag
 comments: true
-date: 2018-07-24 03:30:49+00:00
+date: 2019-06-26 23:19:49+00:00
 layout: post
 link: https://medium.com/@vaibhavb/a-journey-to-summit-mt-shasta-trip-report-54002b8a75b4
 slug: a-journey-to-summit-mt-shasta-trip-report
@@ -88,4 +88,5 @@ Our next group is going up the mountain this weekend (June 28), please wish them
 
 Additionally, we are super fortunate to have gotten a great education and be in the place we are — we are lucky, not all of us are that lucky. Please consider supporting Asha and donating to one of the climbers [fundraising climbs](https://ta.ashanet.org/siliconvalley/marathon/runnernet/public.php?2019TASVS1050).
 
-![[Donate to Asha for Education](https://ta.ashanet.org/siliconvalley/marathon/runnernet/public.php?2019TASVS1050)](https://cdn-images-1.medium.com/max/2000/1*0Qcqzhr1DmMx6pAPyFyTag.png)*[Donate to Asha for Education](https://ta.ashanet.org/siliconvalley/marathon/runnernet/public.php?2019TASVS1050)*
+![[Donate to Asha for Education](https://ta.ashanet.org/siliconvalley/marathon/runnernet/public.php?2019TASVS1050)](https://cdn-images-1.medium.com/max/2000/1*0Qcqzhr1DmMx6pAPyFyTag.png)
+*[Donate to Asha for Education](https://ta.ashanet.org/siliconvalley/marathon/runnernet/public.php?2019TASVS1050)*
