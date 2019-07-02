@@ -65,6 +65,7 @@ categories:
                         </div>
                     </div>
                 </section>
+                <div id="react"></div>
                 <section class="info-tiles" id="dashboard">
                     <div class="tile is-ancestor has-text-centered">
                     {% for metric in page.aside.metrics %}
@@ -82,7 +83,7 @@ categories:
                         <div class="card events-card">
                             <header class="card-header">
                                 <p class="card-header-title">
-                                    Events
+                                    Transactions
                                 </p>
                                 <a href="#" class="card-header-icon" aria-label="more options">
                                     <span class="icon">
@@ -94,46 +95,6 @@ categories:
                                 <div class="content">
                                     <table class="table is-fullwidth is-striped">
                                         <tbody>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="5%"><i class="fa fa-bell-o"></i></td>
-                                                <td>Lorum ipsum dolem aire</td>
-                                                <td><a class="button is-small is-primary" href="#">Action</a></td>
-                                            </tr>
                                             <tr>
                                                 <td width="5%"><i class="fa fa-bell-o"></i></td>
                                                 <td>Lorum ipsum dolem aire</td>
@@ -152,7 +113,7 @@ categories:
                         <div class="card">
                             <header class="card-header">
                                 <p class="card-header-title">
-                                    Inventory Search
+                                    Merchant Search
                                 </p>
                                 <a href="#" class="card-header-icon" aria-label="more options">
                                     <span class="icon">
@@ -177,7 +138,7 @@ categories:
                         <div class="card">
                             <header class="card-header">
                                 <p class="card-header-title">
-                                    User Search
+                                    Location Search
                                 </p>
                                 <a href="#" class="card-header-icon" aria-label="more options">
                   <span class="icon">
@@ -205,4 +166,3 @@ categories:
         </div>
     </div>
 
-<div id="react"></div>
