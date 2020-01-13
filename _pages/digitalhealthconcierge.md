@@ -25,7 +25,7 @@ categories:
                 </div>
                 <div class="column is-one-third">
                         <div class="has-text-centered is-right">
-                            <img style="height: 315px !important" src="{{site.url}}{{site.baseurl}}/assets/images/projects/digitalhealthconcierge-poster.png"/>
+                            <img style="height: 500px !important" src="{{site.url}}{{site.baseurl}}/assets/images/projects/digitalhealthconcierge-poster.png"/>
                         </div>
                 </div>
             </div>
@@ -64,6 +64,7 @@ categories:
 <!--End mc_embed_signup-->
     </div>
 </div>
+<hr/>
 <section>
     <div class="container">
             <div class="columns is-multiline is-mobile is-centered">
@@ -71,5 +72,21 @@ categories:
                             <img src="{{site.url}}{{site.baseurl}}/assets/images/projects/digitalhealthconcierge-poster.png"/>
                     </div>
             </div>
+    </div>
+</section>
+<hr/>
+<section>
+    <div class="container">
+      <h1 class="title is-4">What tasks can a digital health conceirge, help with?</h1>  
+      <p>This is just a short list but expect more as we grow: </p>
+      <ol>
+        <li>Reconciliation of health records</li>
+        <li>Medical billing issues</li>
+        <li>Find best prices for your prescriptions</li>
+      </ol>
+      <p>Can you think of any others? Tweet out with hashtag #digitalhealthconcierge</p>
+      <hr/>
+      <h1 class="title is-4">How can I become a Digital Health Conceirge?</h1>
+      <p>We are working with academic and industry partners to outline a curriculum, and we intend to make one available as well. Please check back here for more soon or sign-up above. </p>
     </div>
 </section>
