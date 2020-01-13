@@ -77,7 +77,7 @@ categories:
 <hr/>
 <section>
     <div class="container">
-      <h1 class="title is-4">What tasks can a digital health conceirge, help with?</h1>  
+      <h1 class="title is-4">What tasks can a digital health conceirge help with?</h1>  
       <p>This is just a short list but expect more as we grow: </p>
       <ol>
         <li>Reconciliation of health records</li>
