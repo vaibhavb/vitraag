@@ -23,14 +23,11 @@ categories:
                             <a class="button is-medium is-warning" href="mailto:info@digitalhealthconcierge.com">Our Curriculum (coming soon!)</a>
                     </div>
                 </div>
-                <!--
-                <div class="column is-two-third">
+                <div class="column is-one-third">
                         <div class="has-text-centered is-right">
-                            <iframe style="height: 315px !important"
-                            width="560" height="315" src="https://www.youtube-nocookie.com/embed/dd3foFeO5xo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <img style="height: 315px !important" src="{{site.url}}{{site.baseurl}}/assets/images/projects/digitalhealthconcierge-poster.png"/>
                         </div>
                 </div>
-                -->
             </div>
         </div>
     </div>
@@ -67,3 +64,12 @@ categories:
 <!--End mc_embed_signup-->
     </div>
 </div>
+<section>
+    <div class="container">
+            <div class="columns is-multiline is-mobile is-centered">
+                    <div class="column is-half">
+                            <img src="{{site.url}}{{site.baseurl}}/assets/images/projects/digitalhealthconcierge-poster.png"/>
+                    </div>
+            </div>
+    </div>
+</section>
