@@ -15,7 +15,7 @@ categories:
                         Digital Health Concierge!
                     </h1>
                     <h1 class="subtitle is-6 is-hackathon-h3">
-                        Get involved with our Digital Concierge Community, our goal is to train and create an intentional community of digital health experts who help people make sense of their health data and assist them in health related crisis.
+                        Get involved with our Digital Concierge Community and become a digital health investigator, our goal is to train and create an intentional community of digital health experts who help people make sense of their health data and assist them in health related crisis.
                     </h1>
                     <div class="buttons is-large">
                             <a class="button is-medium is-danger" href="mailto:info@digitalhealthconcierge.com">Sponsor Us!</a>
@@ -79,14 +79,15 @@ categories:
     <div class="container">
       <h1 class="title is-4">What tasks can a digital health conceirge help with?</h1>  
       <p>This is just a short list but expect more as we grow: </p>
+      Anything investigative, but here is a start!
       <ol>
         <li>Reconciliation of health records</li>
         <li>Medical billing issues</li>
         <li>Find best prices for your prescriptions</li>
       </ol>
-      <p>Can you think of any others? Tweet out with hashtag #digitalhealthconcierge</p>
+      <p>Can you think of any others? Tweet out with hashtag #digitalhealthinvestigator</p>
       <hr/>
-      <h1 class="title is-4">How can I become a Digital Health Conceirge?</h1>
+      <h1 class="title is-4">How can I become a Digital Health Investigative Conceirge?</h1>
       <p>We are working with academic and industry partners to outline a curriculum, and we intend to make one available as well. Please check back here for more soon or sign-up above. </p>
     </div>
 </section>
