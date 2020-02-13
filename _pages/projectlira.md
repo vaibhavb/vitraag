@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02 05:06:00+00:00
-layout: post
+layout: default
 title: Art Projects
 permalink: /code/lira
 categories:
