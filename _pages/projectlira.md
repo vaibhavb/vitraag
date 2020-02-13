@@ -25,7 +25,7 @@ categories:
                 </div>
                 <div class="column is-one-third">
                         <div class="has-text-centered is-right">
-                            <img style="height: 500px !important" src="{{site.url}}{{site.baseurl}}/assets/images/projects/projectlira.png"/>
+                            <img style="height: 500px !important" src="{{site.url}}{{site.baseurl}}/assets/images/projects/conceptlira-poster.jpg"/>
                         </div>
                 </div>
             </div>
