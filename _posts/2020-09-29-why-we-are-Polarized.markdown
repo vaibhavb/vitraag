@@ -5,7 +5,7 @@ date: 2020-09-29 17:03:09:00+00:00
 layout: post
 link: https://medium.com/@vaibhavb/book-inklings-why-were-polarized-c87e5f061ca6
 slug: book-inklings-why-were-polarized
-title: Book Inklings: Why We're Polarized
+title: Book Inklings - Why We Are Polarized
 categories:
 - books
 - politics
