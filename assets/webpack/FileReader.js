@@ -34,10 +34,10 @@ class FileReader extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="FileUpload">
         <br/>
         <div className="container">
-        <div className="hero is-info">React App is working!</div>
+        <div className="button is-info">React App is working!</div>
         <h2>Import CSV File!</h2>
         <input
           className="csv-input"
@@ -53,7 +53,6 @@ class FileReader extends React.Component {
         <button onClick={this.importCSV}> Upload now!</button>
       </div>
       <br/>
-        <Transactions title="List of Transactions" data={this.state.data}/>
       </div>
     );
   }

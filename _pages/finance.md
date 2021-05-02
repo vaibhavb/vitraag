@@ -25,7 +25,7 @@ aside:
               link:
             - label: Vendors
               link: 
-            - label: Recurring
+            - label: Recurring Bills
               link: 
     fincat:
         - HSA
@@ -60,12 +60,11 @@ categories:
                                 Hello, Vaibhav.
                             </h1>
                             <h2 class="subtitle">
-                                I hope you are having a great day!
+                                I hope you are having a great day. Good Morning!
                             </h2>
                         </div>
                     </div>
                 </section>
-                <div id="react"></div>
                 <section class="info-tiles" id="dashboard">
                     <div class="tile is-ancestor has-text-centered">
                     {% for metric in page.aside.metrics %}
@@ -92,6 +91,9 @@ categories:
                                 </a>
                             </header>
                             <div class="card-table">
+                                <!-- React App is working -->
+                                <div id="react">
+                                </div>
                                 <div class="content">
                                     <table class="table is-fullwidth is-striped">
                                         <tbody>
