@@ -8,10 +8,21 @@ images: "/assets/images"
 url: "https://www.vitraag.com/"
 
 #Exclude
-exclude: [Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*, assets/webpack]
+exclude: [Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*, assets/webpack, _includes/notes_graph.json]
 include: [_pages]
 
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+safe: false
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:slug/
+
+defaults:
+  - scope:
+      path: "_notes/**/*.md"
+    values:
+      layout: "note"
