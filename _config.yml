@@ -9,7 +9,7 @@ url: "https://www.vitraag.com/"
 
 #Exclude
 exclude: [Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*, assets/webpack, _includes/notes_graph.json]
-include: [_pages]
+include: [_pages, _kk]
 
 # Build settings
 markdown: kramdown
