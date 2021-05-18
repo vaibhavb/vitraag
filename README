@@ -1,5 +1,22 @@
 # About
 Homepage
 
-# Todo list
-1. Add information for projects
+# Todo list [Updated 05/17/2021]
+
+0. Cleanup 
+[ ] Add 
+
+1. Document
+[ ] CSS Setup
+-- Using 
+[ ] Javascript setup with Babel, Webpack
+[ ] 
+
+2. Add information for projects
+
+
+# Setup
+
+```
+npm run start
+```
