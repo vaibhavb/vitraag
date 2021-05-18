@@ -6,6 +6,8 @@ permalink: /recipes/
 categories:
 - recipes
 ---
+# Book In Progress
+* [Kamal's Kitchen](/kk/salad/)
 
 # List of Favorite Recipes:
 * Dal Khichada (Rajasthani)
