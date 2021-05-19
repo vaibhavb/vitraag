@@ -2,7 +2,7 @@
 date: 2020-05-02 05:06:00+00:00
 layout: notes
 title: Summary Notes
-permalink: /weekly/week17
+permalink: /weekly
 categories:
 - weekly summary
 ---
