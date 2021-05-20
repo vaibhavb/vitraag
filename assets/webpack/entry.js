@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom';
 import Transactions from './Transactions';
-import "../tailwind/site.css";
 
 var transaction_data = [{
   "Date": "2/12/2021", 

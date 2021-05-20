@@ -8,9 +8,11 @@
     "js-build": "webpack --mode development",
     "js-watch": "npm run js-build -- --watch",
     "css-build": "node-sass assets/sass/mybulma.scss assets/css/mybulma.css",
+    "csst-build": "postcss assets/tailwind/site.css -o assets/css/site.css",
     "css-watch": "npm run css-build -- --watch",
+    "csst-watch": "npm run csst-build -- --watch",
     "serve": "bundle exec jekyll serve --livereload",
-    "start": "npm-run-all --parallel css-watch js-watch serve"
+    "start": "npm-run-all --parallel css-watch csst-watch js-watch serve"
   },
   "repository": {
     "type": "git",
@@ -33,11 +35,12 @@
     "autoprefixer": "^10.2.5",
     "babel-loader": "^8.2.2",
     "bulma": "^0.9.2",
-    "css-loader": "^5.2.4",
+    "css-loader": "^5.2.5",
     "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "papaparse": "^5.3.0",
     "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^5.3.0",
     "react": "^17.0.1",
