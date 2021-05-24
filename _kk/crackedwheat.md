@@ -1,11 +1,11 @@
 ---
-title: Salads
-subtitle: Lunch
+title: Cracked Wheat
+subtitle: Healthy Desserts
 layout: kk
-tag: Lunch
+tag: Desserts 
 author: Kamal Bhandari
-permalink: /kk/salad/
-photo-1: ../../assets/images/kk/recipes/salad.jpg
+permalink: /kk/crackedwheat/
+photo-1: ../../assets/images/kk/recipes/crackedwheat.jpg
 ---
 
 This is kamal's kitchen, release v0.1 mother's day!

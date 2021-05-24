@@ -1,3 +1,13 @@
+---
+title: Start
+subtitle: Recipes for Everyone
+layout: kk
+tag: All Ocassions
+author: Kamal Bhandari
+permalink: /kk/start/
+photo-1: ../../assets/images/kk/kamal.jpg
+---
+
 #Kamals Kitchen
 
 ## Tools
@@ -17,7 +27,12 @@
 ## Recipes
 ### Breakfast
 ### Lunch
+#### [Salad](/salad)
+
 ### Dinner
+
+### Sweets
+#### [CrackedWheat](/crackedwheat)
 ### Ocassions
 - Jain Fasting
 - Rajasthani Festivals
