@@ -62,8 +62,7 @@ typings/
 
 #generated site
 _site
-
 +.DS_STORE
 .DS_Store
-
 .jekyll-cache
+.obsidian

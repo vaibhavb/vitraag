@@ -1,5 +1,7 @@
 ---
 nav:
+  - title: Home
+    link: https://www.vitrrag.com/
   - title: Tools
     link: 
   - title: Pantry
@@ -65,6 +67,10 @@ footer:
                   </div>
                   <div class="text-base font-normal mx-2">·</div>
                   <div>{{page.tag}}</div>
+                  <div class="text-base font-normal mx-2">·</div>
+                  <div>
+                    <span>Calories</span><span class="text-red-600 px-4">{{page.calories}}</span>
+                  </div>
                 </div>
                 <hr class="w-16 border-gray-300 hidden sm:block">
               </div>
@@ -74,9 +80,9 @@ footer:
                   <img src="https://source.unsplash.com/random" alt="" class="w-6 h-6 rounded-full mr-2 bg-gray-100">
                   Recipe by {{page.author}}
                 </p>
-                <button type="button" class="bg-violet-100 text-violet-700 text-base font-semibold px-6 py-2 rounded-lg">Snip It!</button>
+                <button type="button" class="bg-gray-300 text-green-700 text-base font-semibold px-6 py-2 rounded-lg">Snip It!</button>
                 <div class="content">
-                  {{content }}
+                  {{content | markdownify}}
                 </div>
               </div>
               <div class="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-3">
