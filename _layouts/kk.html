@@ -1,7 +1,9 @@
 ---
 nav:
-  - title: Home
+  - title: Vitraag
     link: https://www.vitraag.com/
+  - title: KK Home
+    link: https://www.vitraag.com/kk/intro
   - title: Tools
     link: 
   - title: Pantry
@@ -91,7 +93,12 @@ footer:
                     <img src="{{page.photo-1}}" alt="" class="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg" />
                   </div>
                   <div class="relative hidden md:block">
-                    <img src="https://source.unsplash.com/random" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
+                    {% if page.photo-2 %}
+                    <img src="{{page.photo-2}}" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
+                    {% else %}
+                    <img src="https://source.unsplash.com/random" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />  
+                    {% endif %}
+                    
                   </div>
                   <div class="relative hidden md:block">
                     <img src="https://source.unsplash.com/random" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
