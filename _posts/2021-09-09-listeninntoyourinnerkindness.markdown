@@ -1,7 +1,7 @@
 ---
 author: vitraag
 comments: true
-date: 2020-09-09 17:03:09:00+00:00
+date: 2021-09-09 17:03:09:00+00:00
 layout: post
 link: https://vaibhavb.medium.com/listen-inn-radical-kindness-c07aaec1a370
 slug: listen-in-to-your-inner-kindness
