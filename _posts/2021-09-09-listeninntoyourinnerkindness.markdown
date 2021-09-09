@@ -7,9 +7,8 @@ link: https://vaibhavb.medium.com/listen-inn-radical-kindness-c07aaec1a370
 slug: listen-in-to-your-inner-kindness
 title: Listen In To Your Inner Kindness
 categories:
-- Mindfulness
-- Paryushan
-- Art
+- shyamapana
+- art
 ---
 This week I got an opportunity to record a menu item with the Alameda county library’s project called Listen Inn. It’s an innovative program to engage the general population in pandemic times on the pulse of universal truths like the Moon cycle. The people behind it (@andrea and team) are creative, compassionate, and kind souls!
 
