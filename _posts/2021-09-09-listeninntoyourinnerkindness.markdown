@@ -13,7 +13,7 @@ categories:
 ---
 This week I got an opportunity to record a menu item with the Alameda county library’s project called Listen Inn. It’s an innovative program to engage the general population in pandemic times on the pulse of universal truths like the Moon cycle. The people behind it (@andrea and team) are creative, compassionate, and kind souls!
 
-![Listen Inn](https://miro.medium.com/max/615/1*iaPmXXwdp8cFiLTbFT45zw.png)
+![Listen Inn](https://miro.medium.com/max/1078/1*EfAn3434lfDcNM_rlM78rA.png)
 
 #Radical kindness is not so radical after all!
 The start of fall marks a lot of traditions, most signaling new beginnings full of compassion and hope. Be them the Jewish Rosh Hashanah, Jain Paryushan ([Festival of Forgiveness](http://www.vitraag.com/2011/09/02/festival-of-forgiveness-2011/)), Hindu Ganesh Chaturthi, or Modern Radical (Kindness challenges). So I chose to highlight kindness in this project.
@@ -24,7 +24,7 @@ I’ve been reading a lot this week about scientific work on compassion and kind
 To celebrate the new moon and the start of fall, I recorded a short poem from Robert William Service titled Compassion.
 
 ![Compassion by Rober William Service]()
-
+```
 A beggar in the street I saw,
 Who held a hand like withered claw,
 As cold as clay;
@@ -61,3 +61,4 @@ And stretch a hand to those in need,
 Bird, beast or man.*
 
 Robert William Service
+```
