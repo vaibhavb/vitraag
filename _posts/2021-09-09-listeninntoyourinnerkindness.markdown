@@ -22,7 +22,7 @@ I’ve been reading a lot this week about scientific work on compassion and kind
 #Compassion — The Poem
 To celebrate the new moon and the start of fall, I recorded a short poem from Robert William Service titled Compassion.
 
-![Compassion by Rober William Service]()
+![Compassion by Rober William Service](https://miro.medium.com/max/700/1*VXHwFAXTU6gaGSdMOay5GA@2x.jpeg)
 ```
 A beggar in the street I saw,
 Who held a hand like withered claw,
