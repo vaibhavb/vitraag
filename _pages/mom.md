@@ -36,9 +36,9 @@ categories:
                     </h1>
                     <p class="is-6">
                         <ul>
-                            <li><a href="" target="_blank">Photo Journey</a></li>
-                            <li><a href="/kk/salad/">Recipe Book</a></li>
-                            <li>Stroke Education</li>
+                            <li><a href="https://vitraag.notion.site/Moms-Gratitude-Ceremony-f8eeae50a88c46e9aa5a691f4895d1fa" target="_blank">Photo Journey</a></li>
+                            <li><a href="/kk/salad/">Recipe Book</a><a href="https://vitraag.notion.site/Mom-Recipe-Book-30d011c181de42f48945eccd4b53fae3" target="_blank">Notion Pages</a></li>
+                            <li><a href="https://vitraag.notion.site/Stroke-Education-533de88c6da34ccea889bd3c97230eff" target="_blank">Stroke Education</a></li>
                         </ul>
                     </p>
                 </div>
