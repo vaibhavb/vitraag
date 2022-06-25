@@ -20,6 +20,17 @@ categories:
                     <div class="buttons is-large">
                             <a class="button is-medium is-danger" href="https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1">Survivor Anniversary Zoom Call Link</a>
                     </div>
+                    <h1 class="title is-middle is-4">
+                        Agenda
+                    </h1>
+                    <p class="is-6">
+                        <ul>
+                            <li>5:00pm Meditation</li>
+                            <li>6:00pm Sound Healing</li>
+                            <li>7:00pm Sermon Living in Modern Age</li>
+                            <li>7:30pm Onwards Dinner</li>
+                        </ul>
+                    <p>
                 </div>
                 <div class="column is-one-third">
                         <div class="has-text-centered is-right">
