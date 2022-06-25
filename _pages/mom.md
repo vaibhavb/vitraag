@@ -25,12 +25,12 @@ categories:
                     </h1>
                     <p class="is-6">
                         <ul>
-                            <li>5:00pm Meditation</li>
-                            <li>6:00pm Sound Healing</li>
-                            <li>7:00pm Sermon Living in Modern Age</li>
+                            <li>5:00pm Guided Meditation(s)</li>
+                            <li>5:45pm Sound Healing</li>
+                            <li>6:45pm Sermon - Living in Modern Age</li>
                             <li>7:30pm Onwards Dinner</li>
                         </ul>
-                    <p>
+                    </p>
                 </div>
                 <div class="column is-one-third">
                         <div class="has-text-centered is-right">
