@@ -4,7 +4,7 @@ layout: default
 title: Mom's Stroke Journey
 permalink: /kamal/
 categories:
-- code
+- family
 ---
 <div class="hero is-info is-medium has-background">
     <div class="hero-body">
@@ -29,6 +29,16 @@ categories:
                             <li>5:45pm Sound Healing</li>
                             <li>6:45pm Sermon - Living in Modern Age</li>
                             <li>7:30pm Onwards Dinner</li>
+                        </ul>
+                    </p>
+                    <h1 class="title is-middle is-4">
+                        *Links*
+                    </h1>
+                    <p class="is-6">
+                        <ul>
+                            <li><a href="" target="_blank">Photo Journey</a></li>
+                            <li><a href="/kk/salad/">Recipe Book</a></li>
+                            <li>Stroke Education</li>
                         </ul>
                     </p>
                 </div>
