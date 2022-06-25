@@ -18,7 +18,7 @@ categories:
                         On Staturday Jun 24, 2022 we will do a short event to celebrate Mom's stroke recovery from 5-8pm PST followed by a dinner.
                     </h1>
                     <div class="buttons is-large">
-                            <a class="button is-medium is-danger" href="https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1">Survivor Anniversary Zoom Call Link</a>
+                            <a class="button is-medium is-danger" href="https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1">Gratitude Ceremony Zoom Call Link</a>
                     </div>
                     <h1 class="title is-middle is-4">
                         Agenda
