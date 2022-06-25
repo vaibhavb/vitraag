@@ -21,7 +21,7 @@ categories:
                             <a class="button is-medium is-danger" href="https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1">Gratitude Ceremony Zoom Call Link</a>
                     </div>
                     <h1 class="title is-middle is-4">
-                        Agenda
+                        Agenda*
                     </h1>
                     <p class="is-6">
                         <ul>
