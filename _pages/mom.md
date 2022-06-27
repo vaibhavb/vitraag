@@ -43,6 +43,17 @@ categories:
                             </ul>
                         </p>
                     </div>
+                    <div>
+                        <h1 class="title is-middle is-4">
+                            Recording
+                        </h1>
+                        <p class="is-6">
+                            <ul>
+                                <li><a href="https://www.youtube.com/watch?v=xtas-lVSTl0" target="_blank">Sound Healing</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=iI6_DeaIyrU" target="_blank">Manglik</a></li>
+                            </ul>
+                        </p>
+                    </div>
                 </div>
                 <div class="column is-one-third">
                         <div class="has-text-centered is-right">
