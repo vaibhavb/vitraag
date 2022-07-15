@@ -65,3 +65,4 @@ _site
 .DS_Store
 .jekyll-cache
 .obsidian
+node_modules
