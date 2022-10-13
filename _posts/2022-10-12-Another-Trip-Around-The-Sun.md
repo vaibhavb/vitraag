@@ -10,7 +10,7 @@ categories:
 - books
 ---
 
-First of all, thank you for all the heart-warming blessings and regards on my birthday. Its touching to see your birthday notes, and when you do send me a note mention a line or two about what connects us. I would love to strengthen the bond which connects us.
+First of all, thank you for all the heart-warming blessings and regards on my birthday. Its touching to see your birthday notes, and when you do send me a note mention a line or two about what makes it special. I would love to strengthen the bond which connects us.
 
 Several of my friends have started traditions by asking friends and family to share a memory, a moment, a quirky info clip or a touching deed. I would love to know from you about a common bond which connects us -- be it art, be it outdoors, be it geeky hobbies or be it love for mixology. 
 
