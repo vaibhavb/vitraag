@@ -1,17 +1,12 @@
 # About
 Homepage of Vaibhav Bhandari
 
-# Todo list [Updated 28/06/2022]
+# Next Item List [Updated 10/13/2022]
+* Is it possible to have multiple themes on the same homepage?
+* Make sure you can view blogs by Month and then by Category
+* Enable ability to write content in Notion, stage before creating a blogpost
 
-0. Cleanup 
-[ ] Do website refactoring
-1. Document
-[ ] CSS Setup
-[ ] Javascript setup with Babel, Webpack
-[ ] 
-2. Create a scalable mono-repo, and define sub-modules
-
-# Setup
+# How to run?
 ```
 npm run start
 ```
