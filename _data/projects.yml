@@ -1,0 +1,11 @@
+- name: Programmable Self with Microsoft HealthVault
+  date-started: 01-01-2011
+  status: complete
+  blogpost-category: quantified-self
+- name: Cycling Tour of South India
+  date-started: 12-01-2010
+  status: complete
+  blogpost-category: tourofsouthindia
+- name: Project Lira
+  date-started: 01-01-2019
+  page: /code/lira
