@@ -259,6 +259,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
   webrick (~> 1.7)
 
 BUNDLED WITH
