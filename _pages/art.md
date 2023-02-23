@@ -4,7 +4,7 @@ layout: post
 title: Art Projects
 permalink: /art/
 categories:
-- art
+    - art
 ---
 
 # List of Art Projects:

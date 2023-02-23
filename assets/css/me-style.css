@@ -1,0 +1,42 @@
+/*! me.css v0.0.1 | Self License | github.com/vaibhavb/me */
+/* colors, font, layout */
+
+body {
+  margin: 0;
+}
+main {
+  background: #eb7b73;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #e3eb73;
+  font-family: "Labrada", serif;
+  font-size: 2rem;
+  margin: 0px;
+}
+.card {
+  background-color: #ffffff;
+  padding: 32px;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+}
+.content {
+  color: #000000;
+  font-size: 20px;
+  margin-top: 8px;
+}
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 140px;
+}
+.links {
+  margin: auto;
+}
+a {
+  margin: 8px;
+}
