@@ -3,6 +3,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 main {
   background: #eb7b73;
@@ -19,10 +20,10 @@ main {
 }
 .card {
   background-color: #ffffff;
-  padding: 32px;
-  width: 400px;
+  padding: 2rem;
+  width: 20rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 .content {
   color: #000000;
@@ -30,13 +31,13 @@ main {
   margin-top: 8px;
 }
 img {
-  width: 140px;
-  height: 140px;
-  border-radius: 140px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
 }
 .links {
   margin: auto;
 }
 a {
-  margin: 8px;
+  margin: 0.5rem;
 }
