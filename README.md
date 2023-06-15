@@ -13,5 +13,6 @@ npm run start
 ```
 
 # TODO List
-[] Delete the nodes application
-[] 
+[x] Delete the nodes application
+[] Fix images in all the blog files
+[]
