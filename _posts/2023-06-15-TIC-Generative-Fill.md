@@ -15,4 +15,4 @@ I'm starting to compile things i create on a more regular basis. Lots of people 
 
 So fresh off the photoshop beta version is this generative fill i created with the Adobe Photoshop. Its super easy to [extend the canvas](https://helpx.adobe.com/photoshop/using/generative-fill.html#apply-genai-fill) and then add an object trex in scene and then add a man playing music! 
 
-![Generative Fill](https://www.vitraag.com/2023/generative-fill.png)
+![Generative Fill](https://www.vitraag.com/assets/images/2023/generative-fill.png)
