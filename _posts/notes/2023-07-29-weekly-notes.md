@@ -9,7 +9,12 @@ categories:
 - weekly-reading
 ---
 # From Code to Kitchen: A Week in Reads
-This week, I've delved into a diverse mix of resources that have really got me thinking, ranging from foundational texts in the world of computer science, to insightful Substack writers, and a handful of more personal readings. Here's a look at what's been on my reading list:
+This week, I've delved into a diverse mix of resources that have really got me thinking, ranging from foundational texts in the world of computer science, to insightful Substack writers, and a handful of more personal readings. 
+
+![Sunset](https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0fGVufDB8fDB8f)
+
+
+Here's a look at what's been on my reading list:
 
 ## July 26, 2023
 * **Mindstorms** by Seymour Papert is a seminal text in the field of education and computing. I've been revisiting the [first edition](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf) and its powerful ideas still resonate today. 
