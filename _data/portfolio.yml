@@ -32,7 +32,7 @@
   titletags:
     - Microsoft
     - HealthIT
-  description: My book.
+  description: My book outlines ways to take control of personal health data.
   moreinfo: http://www.amazon.com
   read: http://www.amazon.com
 
@@ -56,11 +56,11 @@
 
 - title: Project Lira
   subtitle: 
-  image: 
+  image: conceptlira-poster.jpg
   iswip: true
   faclass: fas fa-globe fa-1x
   moreinfo: https://www.github.com/vaibhavb
-  description: Lira is a demonstration of domain driven voice first programming environment. The domain knowledge of Lira is around the idea of loading data sets and working with them domain specific data science modalities.
+  description: Lira is a demonstration of domain driven voice first programming environment with help of large language models. The domain knowledge of Lira is around the idea of voice driven data science.
 
 - title: WiseVoter
   subtitle: 
@@ -68,7 +68,7 @@
   iswip: true
   faclass: fas fa-globe fa-1x
   moreinfo: https://www.wisevoter.org
-  description: 
+  description: WiseVoter is a community project to educate voters on their representatives.
 
 - title: Art
   subtitle:
@@ -95,5 +95,5 @@
   subtitle:
   image: outdoors-hero.jpg
   faclass: fas fa-book
-  description: 
+  description: I love to to hike, bicycle, trek and mountain climb.
   moreinfo: https://www.vitraag.com/#Rockclimbing

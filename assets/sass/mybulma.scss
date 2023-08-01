@@ -60,3 +60,15 @@ body, html {
   .section-content p {
     margin-top: 1em;
   }
+
+  .image-container{
+      display: flex;
+      justify-content: center; /* Aligns items on the horizontal line (in this case center) */
+      align-items: center; /* Aligns items on the vertical line (in this case center) */
+  }
+
+  .image-container img{
+    max-height: 300px; /* Adjust this value according to your needs */
+    width: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures that the entire image is visible */
+}
