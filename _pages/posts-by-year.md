@@ -26,7 +26,7 @@ categories:
   <li>
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% for category in post.categories%} <span class="tag is-primary"><a href="/index.html/#{{ category | slugify }}">{{category}}</a></span> {%endfor%}
+    {% for category in post.categories%} <span class="tag is-primary"><a href="/index.html#{{ category | slugify }}">{{category}}</a></span> {%endfor%}
     {% for tag in post.tags%} <span class="tag is-secondary">{{tag}}</span>{%endfor%}
   </li>
 

@@ -72,3 +72,11 @@ body, html {
     width: auto; /* Maintains aspect ratio */
     object-fit: contain; /* Ensures that the entire image is visible */
 }
+
+/* Offset for id targets */
+:target::before {
+  content: "";
+  display: block;
+  height: 70px; /* Same height as header */
+  margin: -70px 0 0; /* Same height as header */
+}
