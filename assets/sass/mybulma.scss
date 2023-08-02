@@ -80,3 +80,29 @@ body, html {
   height: 70px; /* Same height as header */
   margin: -70px 0 0; /* Same height as header */
 }
+
+.heatmap {
+  justify-content: center;
+  display: flex;
+}
+
+.heatmap .grid {
+  display: flex;
+  flex-direction: column;
+}
+.heatmap .week {
+  display: flex;
+  flex-direction: row;
+}
+.heatmap .commit {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+}
+.heatmap .day {
+  background: grey;
+  color: yellowgreen;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+}

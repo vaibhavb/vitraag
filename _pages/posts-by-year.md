@@ -3,10 +3,20 @@ date: 2022-10-17 05:06:00+00:00
 layout: default
 title: Blog Posts
 permalink: /posts-by-year/
+js: heatmap.js
 categories:
 - blog
 ---
+{% if page.js %}
+  <script src="/assets/js/{{ page.js }}"></script>
+{% endif %}
+
 <div class="content" style="padding-top: 4rem;margin-left: 1rem;">
+  <!-- experimental heatmap-->
+  <div class="heatmap">
+    <div id="commit-graph" class="grid"></div>
+  </div>
+
 {% assign counter = 0 %}
 {% for post in site.posts %}
   {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
