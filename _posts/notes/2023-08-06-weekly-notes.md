@@ -48,4 +48,13 @@ Welcome back to another edition of Weekly Notes! I've gathered some interesting 
 ## Sunday, Aug 6
 - [Apple Admits There Is a Smartphone Slowdown Ahead of iPhone 15 Debut](https://www.bloomberg.com/news/newsletters/2023-08-06/apple-iphone-15-comes-amid-us-sales-slowdown-tim-cook-q3-earnings-comments-lkzfs14u): Apple's CEO, Tim Cook, acknowledges the upcoming smartphone slowdown ahead of the iPhone 15 debut.
 
+## Architecture decisions in Neon
+In an enlightening blog post titled "Architecture decisions in Neon," Neon.tech shares their approach to making architectural decisions in their software. The post provides valuable insights into their decision-making process, emphasizing the importance of considering trade-offs, scalability, and maintainability. [_Read More_](https://neon.tech/blog/architecture-decisions-in-neon#fn-3)
+
+## Query Language Understood by SQLite
+If you've ever worked with SQLite, you might have wondered about the query language it uses. Well, wonder no more! The official SQLite documentation provides a beautiful language definition that explains the syntax and semantics of SQLite's query language. [_Read More_](https://www.sqlite.org/lang.html)
+
+## *Pro Tip of the Week*: Staying Afloat in Deep Water
+If you've ever found yourself in deep water and wished you could stay afloat effortlessly, then you're in luck! This week's *Pro Tip* is a YouTube video that teaches the skill of water treading. Developed by [Skill You Need](https://skillsyouneed.com), this instructional video demonstrates techniques that can help you stay afloat and even save your life. [_Watch the Video_](https://m.youtube.com/watch?v=btm5k5Sh-LY&feature=youtu.be)
+
 I hope you find these links as intriguing and informative as I did. Stay curious and keep exploring!
