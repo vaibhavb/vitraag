@@ -42,9 +42,7 @@ Welcome back to another edition of Weekly Notes! I've gathered some interesting 
 
 ## More on LLMs
 - [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/): Learn about securing LLM (Large Language Models!) systems against prompt injection in this technical blog post.
-
 - [Catching up on the weird world of LLMs](https://simonwillison.net/2023/Aug/3/weird-world-of-llms/): Explore the intriguing world of LLMs (Lisp-like Macro systems) in this informative blog post.
-
 - [Gorilla —- ApI completions](https://twitter.com/svpino/status/1684967719504945321?s=12&t=eKlUFsAeUsm0H4Ny_spTBw): Check out this tweet about API completions from the Gorilla project.
 
 ## Sunday, Aug 6
