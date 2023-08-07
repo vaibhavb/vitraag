@@ -8,8 +8,6 @@ title: Weekly Notes - Exploring LLMs and More
 categories:
 - weekly-reading
 ---
-# Weekly Notes: Exploring LLMs and More
-
 Welcome back to another edition of Weekly Notes! I've gathered some interesting links from the past week that I found worth exploring. From tech news to Python conferences, let's dive in!
 
 ![Weekly Notes](https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
