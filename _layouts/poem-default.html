@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css">
+    <!-- Custom template-->
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/pico-custom.css" />
+    <title>{{page.title}}</title>
+  </head>
+<body>
+    <header class="container">
+        <hgroup>
+          <h1>The Green Fairy Peoms</h1>
+          <h2>List of all Green Fairy Favorites</h2>
+        </hgroup>
+        <nav>
+          <ul>
+            <li>
+              <details role="list">
+                <summary aria-haspopup="listbox">Favorite Poems!</summary>
+                <ul role="listbox" id="poetry-list"></ul>
+              </details>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- ./ Header -->
+
+
+    <main class="container">
+        {{content}}
+    </main>
+
+    <!-- Minimal theme switcher -->
+<script src="{{site.url}}{{site.baseurl}}/assets/js/minimal-poetry.js"></script>
+</body>
+</html>
