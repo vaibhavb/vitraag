@@ -1,9 +1,114 @@
 :root {
     --font-family: "Open Sans", sans-serif;
+    --spacing: 0.25rem;
   }
 
-  h2 {
+h2 {
     --font-size: 1.5rem;
     --typography-spacing-vertical: 0.5rem;
     --color: #FF6F61;
+}
+
+.sidebar {
+  height: 100%;
+  padding-left: 1rem;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #070707df;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px; /* Space for hamburger menu */
+}
+
+.sidebar h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar.active {
+  width: 300px; /* Width when the sidebar is active */
+}
+
+.sidebar a:hover {
+  color: #f6f1f1;
+}
+
+.hamburger-menu {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #f55e5e;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.content {
+  margin-left: 310px;
+  padding: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+hr {
+  margin-bottom: 3rem;
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, red, rgb(26, 255, 0), rgb(0, 53, 128));
+}
+
+pre code .highlight {
+  font-family: 'open sans', sans-serif;
+  font-size: 1rem;
+  display: block;
+  background: rgb(234, 156, 156);
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0;
+}
+
+/* Media query for mobile devices */
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 0; /* Hidden on mobile */
+    transition: 0.5s;
   }
+
+  .sidebar.active {
+    width: 300px; /* Width when the sidebar is active */
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  .sidebar.active + .content {
+    margin-left: 310px; /* To match the width of the sidebar when active */
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+
+
+

@@ -22,7 +22,7 @@ To say that for destruction ice
 Is also great
 And would suffice.
 ```
-
+---
 ## The Bagpipe Who Didn't Say No
 By Shel Silverstein
 ```
@@ -69,7 +69,7 @@ Just walk up and say, "Hello, there,"
 And politely ask the bagpipe if this story's really so.
 I assure you, darling children, the bagpipe won't say "No.”
 ```
-
+---
 ## We'll find our way home
 By Vitaliv Hayda
 ```
@@ -82,3 +82,4 @@ Tech layoffs make the dream hard to make.
 LA strikers too, can't afford the roam,
 Maybe next year, we'll find our way home
 ```
+---

@@ -103,6 +103,18 @@ const themeSwitcher = {
     },
   };
 
-  // Init
+const hamburgerMenu = {
+  init() {
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.querySelector('.sidebar').classList.toggle('active');
+    });
+  }
+};
+
+document.addEventListener('DOMContentLoaded' ,() => {
   themeSwitcher.init();
   poetryDropdown.init();
+  hamburgerMenu.init();
+});
+  
+  

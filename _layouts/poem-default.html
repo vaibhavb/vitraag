@@ -10,25 +10,23 @@
   </head>
 <body>
     <header class="container">
+      <button id="menu-toggle" class="hamburger-menu" aria-label="Open Menu">&#9776;</button>
         <hgroup>
           <h1>The Green Fairy Poems</h1>
           <h2>List of all Green Fairy Favorites</h2>
         </hgroup>
-        <nav>
-          <ul>
-            <li>
-              <details role="list">
-                <summary aria-haspopup="listbox">Favorite Poems!</summary>
-                <ul role="listbox" id="poetry-list"></ul>
-              </details>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <!-- ./ Header -->
+    </header>
+    <!-- ./ Header -->
 
-
-    <main class="container">
+    <aside class="sidebar" role="complementary">
+      <h2>Menu!</h2>
+      <nav role="navigation">
+        <ul role="list" id="poetry-list">
+        </ul>
+      </nav>
+    </aside>
+    
+    <main class="container" role="main">
         {{content}}
     </main>
 
