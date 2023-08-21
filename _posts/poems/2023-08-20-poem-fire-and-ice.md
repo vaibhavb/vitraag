@@ -70,7 +70,7 @@ And politely ask the bagpipe if this story's really so.
 I assure you, darling children, the bagpipe won't say "No.”
 ```
 
-## Non Burn of 2023
+## We'll find our way home
 By Vitaliv Hayda
 ```
 In the desert where flames dance high,
