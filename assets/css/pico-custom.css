@@ -1,0 +1,9 @@
+:root {
+    --font-family: "Open Sans", sans-serif;
+  }
+
+  h2 {
+    --font-size: 1.5rem;
+    --typography-spacing-vertical: 0.5rem;
+    --color: #FF6F61;
+  }
