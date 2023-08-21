@@ -69,3 +69,16 @@ Just walk up and say, "Hello, there,"
 And politely ask the bagpipe if this story's really so.
 I assure you, darling children, the bagpipe won't say "No.”
 ```
+
+## Non Burn of 2023
+By Vitaliv Hayda
+```
+In the desert where flames dance high,
+Last year's vibe made many say goodbye.
+Economy's down, no cash for the sand,
+Influencers left for some other brand.
+Every-other-year burners take a break,
+Tech layoffs make the dream hard to make.
+LA strikers too, can't afford the roam,
+Maybe next year, we'll find our way home
+```
