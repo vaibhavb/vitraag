@@ -11,7 +11,7 @@ categories:
 
 I feel like I should write a short story about all the hallucinations I had during my weekend stay at the hospital. 🏥
 
-So, let me close my eyes and recount this tale. This weekend, I found myself in the hospital—a daunting experience for a first-timer—but I'm on the road to recovery and back home, facing life and its financial challenges head-on.
+So, let me close my eyes and recount this tale. This weekend, I found myself in the hospital—a daunting experience for a first-timer—but I'm on the road to recovery and back home, facing life and its challenges head-on.
 
 ![Faces](https://images.unsplash.com/photo-1506755594592-349d12a7c52a?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
