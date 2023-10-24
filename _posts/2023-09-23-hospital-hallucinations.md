@@ -11,6 +11,8 @@ categories:
 
 I feel like I should write a short story about all the hallucinations I had during my weekend stay at the hospital. 🏥
 
+![Hospital Experience](/assets/images/2023/10-23-hospital/hospital-experience.png)
+
 So, let me close my eyes and recount this tale. This weekend, I found myself in the hospital—a daunting experience for a first-timer—but I'm on the road to recovery and back home, facing life and its challenges head-on.
 
 ![Faces](https://images.unsplash.com/photo-1506755594592-349d12a7c52a?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
@@ -27,11 +29,15 @@ In one vivid image, I saw myself as a malevolent, Satanic figure—spewing curse
 
 One idea resonated with me: the notion that we come into this world alone and will leave it in the same way. This thought anchored me during these rapid-fire visions.
 
+![Hospital Portal](/assets/images/2023/10-23-hospital/hospital-portal.png)
+
 Another portal showed snippets from various thinkers: "Cogito, ergo sum" ("I think, therefore I am"), "Miles to go before I sleep," and others, in languages spanning from Hindi to Urdu to Marathi.
 
 ![Memories](https://images.unsplash.com/photo-1531845116688-48819b3b68d9?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 Yet another image was a whirlwind of memories, loved ones, voices—much like a fidget spinner of my life's experiences and interactions. It was astonishing to see my life flash before my eyes in such a kaleidoscopic manner.
+
+![Hospital Questions](/assets/images/2023/10-23-hospital/hospital-questions.png)
 
 And then there was a portal filled with questions—questions about who I am, where I'm going, and even existential and theological dilemmas.
 
