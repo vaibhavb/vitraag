@@ -6,7 +6,7 @@ layout: post
 slug: a-tribute-to-charlie-munger
 title: A Tribute to Charlie Munger
 categories:
-- llm-security
+- mental-models
 ---
 This post is a tribute to legacy of intellect of Charlie Munger. His witty one-lines and lectures on mental models will always remain inspirational.
 
