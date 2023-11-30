@@ -10,7 +10,7 @@ categories:
 ---
 This post is a tribute to legacy of intellect of Charlie Munger. His witty one-lines and lectures on mental models will always remain inspirational.
 
-![Tribute to Charlie Munger](/assets/images/2023/2023-11-29-Charlie-Munger.jpg){: width="400px" height="400px"}
+![Tribute to Charlie Munger](/assets/images/2023/2023-11-29-charlie-munger.jpg){: width="400px" height="400px"}
 
 ## Why We Need Mental Models for Complex Systems:
 Mental models, as epitomized by Charlie Munger, are essential in our quest to understand and navigate the complexities of the world. These simple yet profound tools offer clarity in decision-making, help us grasp the interconnectedness of various elements, and provide adaptability in diverse situations. They reduce cognitive overload in complex scenarios, making them indispensable in both business and personal realms.

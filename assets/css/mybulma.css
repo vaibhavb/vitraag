@@ -5030,7 +5030,7 @@ button.dropdown-item.is-active {
 }
 .navbar.is-fixed-bottom, .navbar.is-fixed-top {
   left: 0;
-  position: fixed;
+  position: sticky;
   right: 0;
   z-index: 30;
 }
