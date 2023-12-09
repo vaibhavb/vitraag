@@ -7,6 +7,7 @@ slug: llm-security-research
 title: LLM Security Research and Resources
 categories:
 - llm-security
+- security
 ---
 # LLM Security Research and Resources
 
