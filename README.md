@@ -2,6 +2,7 @@
 Homepage of Vaibhav Bhandari
 
 # Next Item List [Updated 12/30/2023]
+* Add /books area 
 * Implement /travel page: its should have travels by year, category (location, hiking, climbing, motorcycle, etc.)
 * Implement related posts by using embeddings based semantic similarity.
 * Re-org
