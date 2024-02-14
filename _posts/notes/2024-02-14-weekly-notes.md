@@ -32,12 +32,12 @@ Dive into a labyrinth of technology and innovation, where code weaves through th
 ## LLM
 - **2024-02-08** - [GitHub - deepseek-ai/DeepSeek-Math - #llm](https://github.com/deepseek-ai/DeepSeek-Math) - DeepSeek Math integrates AI for solving complex mathematical problems, showcasing AI's potential in academia.
 - **2024-02-12** - [Interview with Founder of Grok - #llm](https://x.com/chamath/status/1754641005851328553?s=12&t=eKlUFsAeUsm0H4Ny_spTBw) - Insights into Grok's philosophy from its founder, highlighting the fusion of technology and human understanding.
-- **2024-02-12** - [Model & API Hosts Analysis | Artificial Analysis - #llm](https://artificialanalysis.ai/) - Delve into the intricacies of model and API hosting in the realm of artificial intelligence.
+- **2024-02-12** - [Model & API Hosts Analysis - Artificial Analysis - #llm](https://artificialanalysis.ai/) - Delve into the intricacies of model and API hosting in the realm of artificial intelligence.
 
 ## Security
 - **2024-02-08** - [Rust Won't Save Us: An Analysis of 2023's Known Exploited Vulnerabilities – Horizon3.ai - #security #teaching](https://www.horizon3.ai/analysis-of-2023s-known-exploited-vulnerabilities/?utm_source=tldrinfosec) - A critical examination of Rust's impact on software security vulnerabilities.
 - **2024-02-13** - [OSINT for Crisis Management - Dieter Stroobants 🇬🇧 - YouTube - #security #osint #workshop](https://www.youtube.com/watch?v=YAb5oa4IJd0) - Leveraging open-source intelligence for effective crisis management strategies.
-- **2024-02-13** - [About the security posture dashboard  |  Google Kubernetes Engine (GKE)  |  Google Cloud - #security #cloud](https://cloud.google.com/kubernetes-engine/docs/concepts/about-security-posture-dashboard?authuser=1&hl=en) - Google's initiative to enhance security measures in Kubernetes environments.
+- **2024-02-13** - [About the security posture dashboard -  Google Kubernetes Engine (GKE)  |  Google Cloud - #security #cloud](https://cloud.google.com/kubernetes-engine/docs/concepts/about-security-posture-dashboard?authuser=1&hl=en) - Google's initiative to enhance security measures in Kubernetes environments.
 
 
 
