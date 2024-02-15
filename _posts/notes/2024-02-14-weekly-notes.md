@@ -1,7 +1,7 @@
 ---
 author: vitraag
 comments: true
-date: 2024-02-14 00:09:14+00:00
+date: 2024-02-15 01:09:45+00:00
 layout: post
 slug: lots-of-code-and-more
 title: Lots of Code and More
