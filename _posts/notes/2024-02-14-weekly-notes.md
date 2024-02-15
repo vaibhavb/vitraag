@@ -37,7 +37,7 @@ Dive into a labyrinth of technology and innovation, where code weaves through th
 ## Security
 - **2024-02-08** - [Rust Won't Save Us: An Analysis of 2023's Known Exploited Vulnerabilities – Horizon3.ai - #security #teaching](https://www.horizon3.ai/analysis-of-2023s-known-exploited-vulnerabilities/?utm_source=tldrinfosec) - A critical examination of Rust's impact on software security vulnerabilities.
 - **2024-02-13** - [OSINT for Crisis Management - Dieter Stroobants 🇬🇧 - YouTube - #security #osint #workshop](https://www.youtube.com/watch?v=YAb5oa4IJd0) - Leveraging open-source intelligence for effective crisis management strategies.
-- **2024-02-13** - [About the security posture dashboard -  Google Kubernetes Engine (GKE)  |  Google Cloud - #security #cloud](https://cloud.google.com/kubernetes-engine/docs/concepts/about-security-posture-dashboard?authuser=1&hl=en) - Google's initiative to enhance security measures in Kubernetes environments.
+- **2024-02-13** - [About the security posture dashboard -  Google Kubernetes Engine (GKE)  =  Google Cloud - #security #cloud](https://cloud.google.com/kubernetes-engine/docs/concepts/about-security-posture-dashboard?authuser=1&hl=en) - Google's initiative to enhance security measures in Kubernetes environments.
 
 
 
