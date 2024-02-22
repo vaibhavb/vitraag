@@ -68,4 +68,4 @@ _site
 node_modules
 
 #swp file
-.swp
+**/*.swp
