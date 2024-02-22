@@ -8,7 +8,6 @@ title: Kubernetes The Beast
 categories:
     - cloud
     - code
-    - TIL
 ---
 Over last week I ended up creating a kubernetes setup with following:
  
