@@ -19,38 +19,41 @@ categories:
   <!-- experimental worldmap-->
   <div id="map" style="height: 400px;"></div>
 
-{% assign counter = 0 %}
 {% assign previous_year = "" %} <!-- Initialize as an empty string for comparison -->
+{% assign posts_counted = false %}
 
 {% for post in site.posts %}
   {% if post.categories contains 'travel' or post.categories contains 'mountaineering' or post.categories contains 'cycling' %}
     {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% assign counter = counter | plus: 1 %}
-
     {% if current_year != previous_year %}
-      <!-- Close the previous list only if it's not the first iteration -->
-      {% if previous_year != "" %}
-        <div class="tag is-danger">Total posts {{ counter }}</div>
-        </ul>
+      {% if posts_counted %}
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in {{ previous_year }}: {{ counter }}</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
         {% assign counter = 0 %} <!-- Reset counter for the new year -->
+        {% assign posts_counted = false %}
       {% endif %}
-
       <h3>Archive of travel posts from {{ current_year }}</h3>
       <ul>
       {% assign previous_year = current_year %}
     {% endif %}
 
+    {% assign counter = counter | plus: 1 %}
+    {% assign posts_counted = true %}
+
     <li>
       <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      {% for category in post.categories %} <span class="tag is-primary"><a href="/index.html#{{ category | slugify }}">{{ category }}</a></span> {% endfor %}
-      {% for tag in post.tags %} <span class="tag is-secondary">{{ tag }}</span> {% endfor %}
+      {% for category in post.categories %}<span class="tag is-primary"><a href="/index.html#{{ category | slugify }}">{{ category }}</a></span>{% endfor %}
+      {% for tag in post.tags %}<span class="tag is-secondary">{{ tag }}</span>{% endfor %}
     </li>
   {% endif %}
 
   {% if forloop.last %}
-    <!-- This ensures the closing tags are added after the last post -->
-    <div class="tag is-danger">Total posts {{ counter }}</div>
+    <!-- Handle the last post correctly, ensuring the counter for the last year is displayed -->
+    {% if posts_counted %}
+      <div class="tag is-danger">Total posts in {{ previous_year }}: {{ counter }}</div>
+    {% endif %}
     </ul>
   {% endif %}
 {% endfor %}
