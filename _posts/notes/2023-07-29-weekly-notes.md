@@ -6,7 +6,7 @@ layout: post
 slug: from-code-to-kitchen-a-week-in-reads
 title: From Code to Kitchen - A Week in Reads
 categories:
-- weekly-reading
+  - weekly-reading
 ---
 This week, I've delved into a diverse mix of resources that have really got me thinking, ranging from foundational texts in the world of computer science, to insightful Substack writers, and a handful of more personal readings. 
 
@@ -32,3 +32,4 @@ Here's a look at what's been on my reading list:
 * On a more serious note, I read through the guide on [Brain Cancer for the Newly Diagnosed](https://virtualtrials.org/Guide/BrainTumorGuidev12.pdf?fbclid=IwAR0gEVQBVJR7QSV840JdVdlYj-zKTNDNIlAFMSMNPDakZMmu5vej9rJK5xk_aem_AeyFSF30lvMls_vAz6znrhAivbaY1L6AV_pWzRm2QzEOgPvwcpqGdd7t0IMLseFpBZE). It's important to stay informed about these serious issues.
 
 That's it for this week. I'll be back next week with more insights and explorations from my reading journey. Happy reading to you too!
+

@@ -6,7 +6,7 @@ layout: post
 slug: weekly-notes-exploring-llms-and-more
 title: Weekly Notes - Exploring LLMs and More
 categories:
-- weekly-reading
+  - weekly-reading
 ---
 Welcome back to another edition of Weekly Notes! I've gathered some interesting links from the past week that I found worth exploring. From tech news to Python conferences, let's dive in!
 
