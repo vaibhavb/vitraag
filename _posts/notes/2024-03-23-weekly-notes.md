@@ -14,7 +14,7 @@ categories:
 - [2024-03-17] - [Apollo 3-4 in. x 20 ft. White PEX-B Pipe APPW2034 - The Home Depot](https://www.homedepot.com/p/Apollo-3-4-in-x-20-ft-White-PEX-B-Pipe-APPW2034/301541211) - Discover the artistic potential of PEX-B pipes in home improvement projects.
 - [2024-03-19] - [(3) Hoping for insights and ideas on LED lighting a Mutant Vehicle - BurningMan](https://www.reddit.com/r/BurningMan/comments/1536h4a/hoping_for_insights_and_ideas_on_led_lighting_a/) - A quest for enlightenment... or at least for lighting a mutant vehicle.
 - [2024-03-19] - [Addressable LED Controllers, Drivers, and Related Products - Google Sheets](https://docs.google.com/spreadsheets/d/10pHG7_VIVltyqJK1Y0T5g3Iq6YJV2MnhMp3UcAVB-GA/edit#gid=248280587) - The ultimate spreadsheet for controlling the light and darkness.
-- [2024-03-19] - [Online 3D Printing Service | Custom 3D Printed Parts - JLC3DP](https://jlc3dp.com/) - Where your wildest 3D dreams come to life, layer by layer.
+- [2024-03-19] - [Online 3D Printing Service Custom 3D Printed Parts - JLC3DP](https://jlc3dp.com/) - Where your wildest 3D dreams come to life, layer by layer.
 - [2024-03-20] - [RGB Lighting for Commercial and DIY Projects - Wired Watts.com](https://www.wiredwatts.com/) - A guide to making your life as colorful as a disco.
 
 ## Code
