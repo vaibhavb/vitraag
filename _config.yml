@@ -9,7 +9,7 @@ url: "https://www.vitraag.com/"
 
 #Exclude
 exclude: [vendor, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*, assets/webpack, _includes/notes_graph.json]
-include: [_pages, _kk]
+include: [_pages, _kamals_kitchen]
 
 # Build settings
 markdown: kramdown
@@ -20,6 +20,9 @@ collections:
   notes:
     output: true
     permalink: /notes/:slug/
+  kamals_kitchen:
+    output: true
+    permalink: /kk/:slug/
 
 defaults:
   - scope:
