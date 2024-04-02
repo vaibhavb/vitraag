@@ -1,11 +1,11 @@
 ---
 title: Salads
 subtitle: Lunch
-layout: kk
+layout: kk_recipe
 tag: Lunch
 author: Kamal Bhandari
 permalink: /kk/salad/
-photo-1: ../../assets/images/kk/recipes/salad.jpg
+photo_1: ../../assets/images/kk/recipes/salad.jpg
 ---
 
 This is kamal's kitchen, release v0.1 mother's day!
