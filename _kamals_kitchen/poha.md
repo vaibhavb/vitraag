@@ -1,14 +1,14 @@
 ---
 title: Poha
-subtitle: Default breakfast
-layout: kk_recipe
+subtitle: Breakfast
+layout: kk
 tag:
   - Lunch
   - breakfast
   - jain
 author: Kamal Bhandari
 permalink: /kk/poha/
-photo_1: ../../assets/images/kk/recipes/Poha.jpeg
+photo-1: ../../assets/images/kk/recipes/Poha.jpeg
 ---
 
 This is kamal's kitchen, release v0.1 mother's day!
