@@ -8,7 +8,8 @@ slug: naked-ape
 title: Naked Ape!
 wordpress_id: 1087
 categories:
-- Books
+- books
+- book-review
 ---
 
 In an effort to link all my online sites, I'm importing posts from some other places. Naked Ape is a book i read a couple of years.  

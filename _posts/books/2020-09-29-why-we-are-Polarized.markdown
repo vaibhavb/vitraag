@@ -7,8 +7,8 @@ link: https://medium.com/@vaibhavb/book-inklings-why-were-polarized-c87e5f061ca6
 slug: book-inklings-why-were-polarized
 title: Book Inklings - Why We Are Polarized
 categories:
-- Books
-- Politics
+- books
+- book-review
 ---
 Last week I read two books — Supreme Inequality and Why We’re Polarized in order understand the current American political landscape. This article covers some of my inklings about Why We’re Polarized. The book is well researched, written in an engaging way and uncovers some fundamental issues with American political system.
 
