@@ -18,8 +18,6 @@ Book review of {{page.title}} by {{page.book-author}}
 In "Good Leaders Ask Great Questions," renowned leadership expert John C. Maxwell delves into the art and science of asking questions, demonstrating how this skill is essential for effective leadership. Maxwell combines his extensive experience with practical insights to help leaders at all levels improve their questioning abilities, enhance communication, and foster a culture of curiosity and continuous improvement within their organizations.
 
 ## Main Intent
-The primary purpose of the book is to emphasize the critical role that asking great questions plays in effective leadership. Maxwell argues that leaders who ask the right questions can unlock potential, drive innovation, and build stronger relationships with their teams. The book provides a roadmap for developing this crucial skill, offering strategies and examples to help leaders ask better questions and listen more effectively.
-
 ## Major Topics Covered
 1. **The Importance of Questions in Leadership**
    - Why questions are a powerful tool for leaders
