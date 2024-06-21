@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator><link href="https://www.vitraag.com//feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.vitraag.com//" rel="alternate" type="text/html" /><updated>2024-06-21T07:26:53+00:00</updated><id>https://www.vitraag.com//feed.xml</id><title type="html">Vaibhav Bhandari Homepage</title><subtitle>Vaibhav Bhandari Homepage</subtitle><author><name>Vaibhav Bhandari</name></author><entry><title type="html">Planning for Mt. Langley</title><link href="https://www.vitraag.com//2024/06/20/planning-mt-langley/" rel="alternate" type="text/html" title="Planning for Mt. Langley" /><published>2024-06-20T21:47:49+00:00</published><updated>2024-06-20T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/06/20/planning-mt-langley</id><content type="html" xml:base="https://www.vitraag.com//2024/06/20/planning-mt-langley/"><![CDATA[<p>We are planning to hike Mt. Langley via the new army pass, next weekend (July 28-30). Its a target hike for Asha for Education’s Climbing program.</p>
+
+<p>Following heading are some of the planning items which I will update over next few days, to assist with our trip.</p>
+
+<h2 id="before-going">Before Going</h2>
+<ul>
+  <li>Talk to the ranger station at Mt. Langley Forest Service Department</li>
+  <li>Check weather forecast at Mt. Langley Weather Forecast</li>
+</ul>
+
+<h2 id="route">Route</h2>
+
+<p><img src="/assets/images/2024/langleyhike-2024.jpg" alt="Langley Route" width="400px" height="400px" align="center" /></p>
+
+<p>Will possibly choose new Army pass (~ 23 miles) since the snow on it will be likely less than old Army pass (~19 miles). This will add some additional mileage to the trip. We will camp at the Long Lake – Base of New Army pass. The hike to base is mostly easy and flat.</p>
+
+<ul>
+  <li>Day 1 we hike about 9 miles with elevation gain of about 1000ft</li>
+  <li>Day 2 we hike 17 miles &amp; elevation gain of about 4900ft</li>
+</ul>
+
+<p>We start from <a href="https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20692">Cottonwood Lakes Walk In Campground</a>, <a href="https://www.google.com/maps/place/Cottonwood+Lakes+Walk+in+Campground/@36.4528607,-118.1714253,17z/">Google Maps</a></p>
+
+<h2 id="packing-list">Packing List</h2>
+<ul>
+  <li>Repel 100</li>
+  <li>Headlights</li>
+  <li>Packout bag</li>
+  <li>Nalgene</li>
+  <li><a href="https://www.amazon.com/Traction-Crampons-Stainless-Climbing-Mountaineering/dp/B07H4BL4KL">Microspikes</a></li>
+</ul>
+
+<h4 id="tips">Tips</h4>
+<ul>
+  <li>Read AllTrails Trip <a href="https://www.alltrails.com/trail/us/california/mount-langley">reports</a></li>
+  <li>Download the GPX file on to the GPS device, that way you can check ocassionally to see if you are on track. If you don’t have GPS the GAIA GPS app is the best app.</li>
+</ul>
+
+<h4 id="links">Links</h4>
+<ul>
+  <li><a href="https://www.fs.usda.gov/recarea/inyo/recreation/outdoorlearning/recarea/?recid=20698&amp;actid=120">Mt. Langley Forest Service Department</a></li>
+  <li><a href="https://www.mountain-forecast.com/peaks/Mount-Langley/forecasts/4275">Weather Forecast</a></li>
+  <li><a href="https://www.amazon.com/Traction-Crampons-Stainless-Climbing-Mountaineering/dp/B07H4BL4KL">Microspikes</a></li>
+</ul>]]></content><author><name>vitraag</name></author><category term="mountaineering" /><category term="hiking" /><summary type="html"><![CDATA[We are planning to hike Mt. Langley via the new army pass, next weekend (July 28-30). Its a target hike for Asha for Education’s Climbing program.]]></summary></entry><entry><title type="html">Desktop Setup</title><link href="https://www.vitraag.com//2024/06/18/desktop-setup/" rel="alternate" type="text/html" title="Desktop Setup" /><published>2024-06-18T21:47:49+00:00</published><updated>2024-06-18T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/06/18/desktop-setup</id><content type="html" xml:base="https://www.vitraag.com//2024/06/18/desktop-setup/"><![CDATA[<h2 id="shortcuts">Shortcuts</h2>
+<p>Training yourself to navigate and command as much of the operating system through hotkeys is the path to mastery of your mac</p>
+
+<h3 id="navigating-inbuilt">Navigating (inbuilt)</h3>
+<p>| Hotkey | Function |
+|——–|———-|
+| Super + Space | Type app to launch |
+| Super + W | Close app |
+| Super + 1/2/3/4 | Jump to workspace |
+| Alt + 1/2/3/.. | Jump to dock app |
+| Ctrl + 1/2/3/.. | Jump to browser tab |</p>
+
+<h3 id="tiling-w-rectangle">Tiling (w/ Rectangle)</h3>
+<p>| Hotkey | Function |
+|——–|———-|
+| F11 | Go full screen |
+| Shift + F11 | Go full screen w/ title bar |
+| Super + Left arrow | Fill left half |
+| Super + Right arrow | Fill right half |
+| Super + Up arrow | Fill full screen |
+| Super + T | Tiling overlay |
+| Super + T W S | Fill center vertical |
+| Super + T Q A | Fill left vertical |
+| Super + T E D | Fill right vertical |
+| Super + T Q Q | Fill upper left |
+| Super + T A A | Fill lower left |</p>
+
+<h3 id="terminal-w-zellij">Terminal (w/ Zellij)</h3>
+<p>| Hotkey | Function |
+|——–|———-|
+| Ctrl + P N | New vertical pane |
+| Ctrl + P D | New horizontal pane |</p>]]></content><author><name>vitraag</name></author><category term="code" /><summary type="html"><![CDATA[Shortcuts Training yourself to navigate and command as much of the operating system through hotkeys is the path to mastery of your mac]]></summary></entry><entry><title type="html">Symbolic AI</title><link href="https://www.vitraag.com//2024/06/17/symbolic-ai/" rel="alternate" type="text/html" title="Symbolic AI" /><published>2024-06-17T21:47:49+00:00</published><updated>2024-06-17T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/06/17/symbolic-ai</id><content type="html" xml:base="https://www.vitraag.com//2024/06/17/symbolic-ai/"><![CDATA[<p>##Concepts</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Strategy</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Divide-and-conquer</td>
+      <td>Learn multiple theories each of which specializes to fit part of the data very well</td>
+    </tr>
+    <tr>
+      <td>Occam’s Razor</td>
+      <td>Avoid overfitting by minimizing description length, which can include replacing fitted constants by simple integers or fractions.</td>
+    </tr>
+    <tr>
+      <td>Unification</td>
+      <td>Try unifying learned theories by introducing parameters</td>
+    </tr>
+    <tr>
+      <td>Lifelong Learning</td>
+      <td>Remember learned solutions and try them on future problems</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="references">References</h2>
+<ol>
+  <li>AI for Physics, Physics for AI</li>
+  <li>Symbolic AI - Early work of</li>
+  <li>U of Washington -</li>
+</ol>]]></content><author><name>vitraag</name></author><category term="ai" /><summary type="html"><![CDATA[##Concepts]]></summary></entry><entry><title type="html">Herbs and Supplments</title><link href="https://www.vitraag.com//2024/06/15/herbs-and-supplements/" rel="alternate" type="text/html" title="Herbs and Supplments" /><published>2024-06-15T21:47:49+00:00</published><updated>2024-06-15T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/06/15/herbs-and-supplements</id><content type="html" xml:base="https://www.vitraag.com//2024/06/15/herbs-and-supplements/"><![CDATA[<p>##Herbs</p>
+
+<p><a href="https://protocol.bryanjohnson.com/">Blueprint protocol</a>,</p>
+
+<h2 id="content-of-bryan-johnsons-supplements">Content of Bryan Johnson’s Supplements</h2>
+
+<p>Blueprint by Bryan Johnson features 26 critical multi-nutrients per serving, meticulously crafted to support your body’s optimal function. This supplement offers clinical trial equivalent doses, ensuring maximum potency and efficacy. The Essential Capsules are designed to revolutionize your approach to health and wellness. Each capsule is formulated with a powerhouse blend of ingredients chosen for their remarkable benefits. From Nicotinamide Riboside Chloride (NR) to Boron Glycinate, Calcium L-5-Methyltetrahydrofolate (L-5-MTHF-Ca) to Lactobacillus Acidophilus, every component plays a crucial role in enhancing your overall well-being.</p>
+
+<p>With ingredients like Lithium Orotate to uplift mood, Potassium Iodate to prevent iodine deficiency, and Rhodiola extract to support brain function, these capsules cover a wide spectrum of health needs. Essential vitamins such as B1, B2, B3, B5, B6, B7, and B12, alongside Vitamin D Veg D3 and Vitamin E, provide comprehensive nutritional support. The formula goes beyond basic vitamins and minerals, incorporating Glucoraphanin to mimic the benefits of cruciferous vegetables and Ubiquinol to prevent CoQ10 deficiency. Zinc Citrate supports hormone production, while Fisetin and Genistein offer unique antioxidant properties. By committing to clinical trial equivalent doses, Blueprint ensures maximum potency and efficacy with every serving, setting a new standard in health supplements. Whether enhancing energy levels, supporting the immune system, or optimizing cognitive function, these capsules provide a comprehensive solution. Embrace the unparalleled benefits of Blueprint and elevate your health beyond mediocrity.</p>
+
+<h2 id="skin">Skin</h2>
+<p><a href="https://www.amazon.com/dp/B00P1INPWG">Tea Tree Oil</a> helps with antibiotic properties.</p>
+
+<h2 id="teeth">Teeth</h2>
+
+<h2 id="hair">Hair</h2>
+<p>Products <a href="https://gr-7.uk/">GR-7</a> and <a href="https://hairmayraki.com/anti-grey-hair-color-restoring-treatment/">Mayraki</a> - they increase the Melanin production.</p>
+
+<h2 id="to-try-later">To Try Later</h2>
+<ul>
+  <li>[Free Testosterone Index]</li>
+  <li><a href="https://minicircle.io/our-therapies/">Gene Therapy</a> - #expensive</li>
+</ul>
+
+<h2 id="references">References:</h2>
+<ul>
+  <li><a href="https://protocol.bryanjohnson.com/">Blueprint by Bryan Johnson</a></li>
+</ul>]]></content><author><name>vitraag</name></author><category term="health" /><summary type="html"><![CDATA[##Herbs]]></summary></entry><entry><title type="html">WiseVoter Update</title><link href="https://www.vitraag.com//2024/05/27/wisevoter-update/" rel="alternate" type="text/html" title="WiseVoter Update" /><published>2024-05-27T21:47:49+00:00</published><updated>2024-05-27T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/05/27/wisevoter-update</id><content type="html" xml:base="https://www.vitraag.com//2024/05/27/wisevoter-update/"><![CDATA[<h2 id="wisevoter-updates">WiseVoter Updates</h2>
+
+<p>I made a number of updates to WiseVoter in last few days:</p>
+
+<ul>
+  <li>The articles are now powered by an AI authoring system <a href="https://exposai.wisevoter.org">exposai</a></li>
+  <li>Updated the date to include all the 8000+ contestants for the General elections, the scripts now use a better way to scrape data from myneta.org</li>
+</ul>
+
+<p>Check the article on criminals in <a href="https://www.wisevoter.org/analysis/criminals">maharastra</a> and <a href="https://www.wisevoter.org/analysis/delhi-dilemma">delhi</a></p>]]></content><author><name>vitraag</name></author><category term="javascript" /><category term="code" /><category term="projects" /><summary type="html"><![CDATA[WiseVoter Updates]]></summary></entry><entry><title type="html">Memorial Day May Links</title><link href="https://www.vitraag.com//2024/05/27/memorial-day-may-links/" rel="alternate" type="text/html" title="Memorial Day May Links" /><published>2024-05-27T17:45:55+00:00</published><updated>2024-05-27T17:45:55+00:00</updated><id>https://www.vitraag.com//2024/05/27/memorial-day-may-links</id><content type="html" xml:base="https://www.vitraag.com//2024/05/27/memorial-day-may-links/"><![CDATA[<p>This week I read a lot, made a photoshop project and dwelved in to system’s programmings.</p>
+
+<p><img src="https://plus.unsplash.com/premium_photo-1681730983346-d0d919fbcd1f?q=80&amp;w=2832&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="2024 May 27 Topics" /></p>
+
+<h2 id="code">#code</h2>
+<ul>
+  <li>2024-05-21 - <a href="https://github.com/naklecha/llama3-from-scratch">GitHub - naklecha-llama3-from-scratch</a>
+Implementing llama3 one matrix multiplication at a time.</li>
+  <li>2024-05-21 - <a href="https://github.com/openai/evals/blob/main/docs/build-eval.md">evals-docs-build-eval.md at main · openai-evals</a>
+Instructions for building evals with OpenAI tools.</li>
+  <li>2024-05-22 - <a href="https://x.com/virattt/status/1793040764441620855?s=46&amp;t=eKlUFsAeUsm0H4Ny_spTBw">virat on X - Step 1. Collect data- https-t.co-ymeHFXC8oD</a>
+Quick steps to collect and prep data for analysis.</li>
+  <li>2024-05-23 - <a href="https://www.brendangregg.com/blog/2021-08-27/slack-crashes-secret-stderr.html">Slack’s Secret STDERR Messages</a>
+Exploration of Slack’s secret STDERR messages and their implications.</li>
+  <li>2024-05-23 - <a href="https://gist.github.com/dhh/159b129f511f76db3ae8adb463f70d05">linux-setup.sh</a>
+Script for setting up a Linux development environment.</li>
+  <li>2024-05-24 - <a href="https://world.hey.com/dhh/linux-as-the-new-developer-default-at-37signals-ef0823b7">Linux as the new developer default at 37signals</a>
+Discussing Linux as the default OS for developers at 37signals.</li>
+  <li>2024-05-26 - <a href="https://www.youtube.com/watch?v=iTic6EV4DP8&amp;t=101s">The mechanics of VIRTUAL MEMORY - YouTube</a>
+Detailed video on the mechanics of virtual memory.</li>
+  <li>2024-05-26 - <a href="https://pdos.csail.mit.edu/6.S081/2019/tools.html">6.S081 - Fall 2019</a>
+MIT course resources for systems programming.</li>
+  <li>2024-05-26 - <a href="https://dev.to/tingwei628/how-to-build-xv6-riscv-on-mac-31kn">How to build xv6-riscv on mac - DEV Community</a>
+Guide on building xv6-riscv on a Mac.</li>
+  <li>2024-05-26 - <a href="https://github.com/francisrstokes/githublog/blob/main/2022/6/15/rolling-your-own-crypto-aes.md">githublog-2022-6-15-rolling-your-own-crypto-aes.md at main · francisrstokes-githublog</a>
+Instructions for creating your own AES cryptography implementation.</li>
+  <li>2024-05-26 - <a href="https://github.com/microsoft/MS-DOS/">microsoft-MS-DOS</a>
+The original source code of MS-DOS versions 1.25, 2.0, and 4.0.</li>
+  <li>2024-05-26 - <a href="https://github.com/mit-pdos/xv6-riscv">mit-pdos-xv6-riscv</a>
+Xv6 operating system for RISC-V.</li>
+  <li>2024-05-27 - <a href="https://drewdevault.com/">Drew DeVault’s blog</a>
+Blog posts on various coding topics and industry insights.</li>
+  <li>2024-05-27 - <a href="https://bellard.org/ts_zip/">ts_zip - Text Compression using Large Language Models</a>
+A new method for text compression utilizing large language models.</li>
+</ul>
+
+<h2 id="llm">#llm</h2>
+<ul>
+  <li>2024-05-23 - <a href="https://x.com/virattt/status/1793423661204119999">virat on X - Dataset- https-t.co-0aWxAwv3ls</a>
+Access to a dataset for training language models.</li>
+  <li>2024-05-24 - <a href="https://colab.research.google.com/gist/virattt/af36fd12480827da3f8427169b3348cb/finetuning-pythia-70m.ipynb#scrollTo=9h0fp5Ufprxo">finetuning-pythia-70m.ipynb - Colab</a>
+Colab notebook for fine-tuning the Pythia 70m model.</li>
+  <li>2024-05-21 - <a href="https://x.com/alexreibman/status/1792685001408155844?s=46&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Alex Reibman 🖇️ on X - Google and OpenAI are at war</a>
+Insights from a hackathon comparing Google’s Gemini 1.5 and OpenAI’s GPT-4o.</li>
+</ul>
+
+<h2 id="education">#education</h2>
+<ul>
+  <li>2024-05-28 - <a href="https://www.asdrp.org/">Home - ASDRP - Aspiring Scholars Directed Research Program - Fremont, CA</a>
+Information on a directed research program for aspiring scholars.</li>
+</ul>
+
+<h2 id="job">#job</h2>
+<ul>
+  <li>2024-05-22 - <a href="https://x.com/benln/status/1792936531356705068?s=46&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Ben Lang on X - Here’s a list of 22 early-stage startups</a>
+List of 22 early-stage startups hiring for remote roles.</li>
+</ul>
+
+<h2 id="career">#career</h2>
+<ul>
+  <li>2024-05-28 - <a href="https://www.joinprospect.com/lists/az-ai?twclid=2-5cylqu0c62eqik85pfog4g9a&amp;utm_source=twitter&amp;utm_medium=cpc&amp;utm_campaign=best_a16z_ai">Top Andreessen-Horowitz backed AI startups - Prospect</a>
+Top AI startups backed by Andreessen Horowitz.</li>
+</ul>
+
+<h2 id="inspiration">#inspiration</h2>
+<ul>
+  <li>2024-05-24 - <a href="https://aaronfrancis.com/">Aaron Francis</a>
+Homepage of Aaron Francis, sharing his projects and ideas.</li>
+</ul>
+
+<h2 id="yoga">#yoga</h2>
+<ul>
+  <li>2024-05-26 - <a href="https://www.youtube.com/watch?v=Y1SL70mDLOw">How to Jump Through in Ashtanga Yoga with Laruga Glaser - YouTube</a>
+Tutorial on jump throughs in Ashtanga Yoga.</li>
+</ul>
+
+<h2 id="personal">#personal</h2>
+<ul>
+  <li>2024-05-25 - <a href="https://www.bose.com/p/portable-pa/s1-pro-wireless-pa-system/S1PROP-SPEAKERWIRELESS.html">S1 Pro+ Wireless PA System – Portable PA System - Bose</a>
+Overview of the Bose S1 Pro+ wireless PA system.</li>
+</ul>
+
+<h2 id="learn">#learn</h2>
+<ul>
+  <li>2024-05-22 - <a href="https://www.microsoft.com/en-us/cloudskillschallenge/build/registration/2024?ocid=build24_csc_past-email_wwl#choose-your-challenge">Registration - Microsoft Learn Challenge- Build Edition</a>
+Registration details for Microsoft’s Learn Challenge - Build Edition.</li>
+</ul>
+
+<h2 id="promptengineering">#promptengineering</h2>
+<ul>
+  <li>2024-05-21 - <a href="https://cookbook.openai.com/articles/related_resources">Related resources from around the web - OpenAI Cookbook</a> Compilation of related resources for prompt engineering.</li>
+  <li>2024-05-21 - <a href="https://x.com/alexreibman/status/1792685001408155844?s=46&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Alex Reibman 🖇️ on X - Google and OpenAI are at war</a>
+Insights from a hackathon comparing Google’s Gemini 1.5 and OpenAI’s GPT-4o.</li>
+</ul>]]></content><author><name>vitraag</name></author><category term="weekly-reading" /><summary type="html"><![CDATA[This week I read a lot, made a photoshop project and dwelved in to system’s programmings.]]></summary></entry><entry><title type="html">May Motions And Mysteries</title><link href="https://www.vitraag.com//2024/05/20/may-motions-and-mysteries/" rel="alternate" type="text/html" title="May Motions And Mysteries" /><published>2024-05-20T17:45:55+00:00</published><updated>2024-05-20T17:45:55+00:00</updated><id>https://www.vitraag.com//2024/05/20/may-motions-and-mysteries</id><content type="html" xml:base="https://www.vitraag.com//2024/05/20/may-motions-and-mysteries/"><![CDATA[<p>This week I’m writing a lot about AI updates, and links to things like fine-tuning, AI courses, and NeoVom!</p>
+
+<p><img src="https://images.unsplash.com/photo-1590091810319-741094e8db85?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="2024 May 20 Topics" /></p>
+
+<h2 id="hardware">#hardware</h2>
+<ul>
+  <li><strong>[2024-05-15] <a href="https://github.com/BSidesSF/badge-2024">BSidesSF-badge-2024: BSidesSF 2024 Electronic Badge</a></strong><br />
+Discover the cutting-edge electronic badge from BSidesSF 2024.</li>
+  <li><strong>[2024-05-15] <a href="https://github.com/BasedHardware/openglass">BasedHardware-OpenGlass: Turn any glasses into AI-powered smart glasses</a></strong><br />
+Transform your ordinary glasses into smart AI-powered eyewear.</li>
+  <li><strong>[2024-05-16] <a href="https://github.com/OwlAIProject/Owl">OwlAIProject-Owl: A personal wearable AI that runs locally</a></strong><br />
+A personal wearable AI that operates independently without the cloud.</li>
+  <li><strong>[2024-05-16] <a href="https://www.makershed.com/products/synth-a-sette">Synth-a-Sette</a></strong><br />
+A synthesizer built into a cassette tape, merging retro tech with modern sound.</li>
+</ul>
+
+<h2 id="llm">#llm</h2>
+<ul>
+  <li><strong>[2024-05-16] <a href="https://github.com/karpathy/llm.c/discussions/344">State of the Union - May 3, 2024</a></strong><br />
+Discussion on the current state of large language models.</li>
+  <li><strong>[2024-05-16] <a href="https://arxiv.org/abs/2203.02155">[2203.02155] Training language models to follow instructions with human feedback</a></strong><br />
+A paper on improving LLMs using human feedback during training.</li>
+  <li><strong>[2024-05-18] <a href="https://haticeozbolat17.medium.com/bertscore-and-rouge-two-metrics-for-evaluating-text-summarization-systems-6337b1d98917">BERTScore and ROUGE: Two Metrics for Evaluating Text Summarization Systems</a></strong><br />
+Explores metrics for evaluating text summarization performance.</li>
+  <li><strong>[2024-05-18] <a href="https://www.cerebras.net/blog/fine-tuning-language-models-using-direct-preference-optimization">Fine-Tuning Language Models Using Direct Preference Optimization</a></strong><br />
+Discusses fine-tuning LLMs with preference-based optimization.</li>
+  <li><strong>[2024-05-18] <a href="https://github.com/OpenAccess-AI-Collective/axolotl">GitHub - OpenAccess-AI-Collective/axolotl: Go ahead and axolotl questions</a></strong><br />
+An open-access project focused on Q&amp;A using AI.</li>
+  <li><strong>[2024-05-18] <a href="https://phoenix.arize.com/">Home - Phoenix</a></strong><br />
+A platform for optimizing AI performance and data quality.</li>
+  <li><strong>[2024-05-18] <a href="https://docs.ragas.io/en/stable/">Introduction - Ragas</a></strong><br />
+A guide to using Ragas for LLM applications.</li>
+  <li><strong>[2024-05-20] <a href="https://github.com/dair-ai/Prompt-Engineering-Guide">GitHub - dair-ai/Prompt-Engineering-Guide: 🐙 Guides, papers, lecture, notebooks and resources for prompt engineering</a></strong><br />
+Comprehensive guide on prompt engineering for LLMs.</li>
+  <li><strong>[2024-05-20] <a href="https://maven.com/parlance-labs/fine-tuning?utm_campaign=893989&amp;utm_medium=partner&amp;utm_source=instructor">Mastering LLMs: End-to-End Fine-Tuning and Deployment</a></strong><br />
+A course on fine-tuning and deploying large language models.</li>
+  <li><strong>[2024-05-20] <a href="https://arxiv.org/abs/2305.18290">[2305.18290] Direct Preference Optimization: Your Language Model is Secretly a Reward Model</a></strong><br />
+Paper revealing LLMs as implicit reward models during optimization.</li>
+</ul>
+
+<h2 id="entrepreneurship">#entrepreneurship</h2>
+<ul>
+  <li><strong>[2024-05-16] <a href="https://www.lennysnewsletter.com/p/the-art-of-the-pivot-part-2-how-why">The art of the pivot, part 2: How, why and when to pivot</a></strong><br />
+Insights on when and how startups should pivot.</li>
+</ul>
+
+<h2 id="health">#health</h2>
+<ul>
+  <li><strong>[2024-05-16] <a href="https://mynucleus.com/the-science">The science - Nucleus Genomics</a></strong><br />
+Explores the science behind genetic testing and personalized health.</li>
+  <li><strong>[2024-05-17] <a href="https://www.gethealthie.com/healthie-pricing">Healthie Pricing: EHR Software Plans for All</a></strong><br />
+Pricing plans for comprehensive EHR software solutions.</li>
+  <li><strong>[2024-05-17] <a href="https://www.modernhealthcare.com/">Modern Healthcare News Today</a></strong><br />
+Latest news and updates in the healthcare industry.</li>
+  <li><strong>[2024-05-17] <a href="https://www.udap.org/">UDAP - Unified Data Access Profiles</a></strong><br />
+Standardized profiles for accessing and sharing healthcare data.</li>
+</ul>
+
+<h2 id="design">#design</h2>
+<ul>
+  <li><strong>[2024-05-16] <a href="https://www.latent.space/p/sim-ai">WebSim, WorldSim, and The Summer of Simulative AI</a></strong><br />
+Discussion on simulation in AI design and research.</li>
+</ul>
+
+<h2 id="code">#code</h2>
+<ul>
+  <li><strong>[2024-05-16] <a href="https://wezfurlong.org/wezterm/index.html">WezTerm - Wez’s Terminal Emulator</a></strong><br />
+A powerful and customizable terminal emulator.</li>
+  <li><strong>[2024-05-17] <a href="https://hexdocs.pm/phoenix/installation.html#elixir-1-14-or-later">Installation - Phoenix v1.7.12</a></strong><br />
+Guide to installing Phoenix, an Elixir web framework.</li>
+  <li><strong>[2024-05-19] <a href="https://www.youtube.com/watch?v=X9xq4-AzGSI">(20) VIM isn’t about speed - YouTube</a></strong><br />
+Video discussing the true advantages of using VIM.</li>
+  <li><strong>[2024-05-20] <a href="https://zellij.dev/about/">About Zellij</a></strong><br />
+Overview of Zellij, a terminal workspace for developers.</li>
+  <li><strong>[2024-05-20] <a href="https://www.youtube.com/watch?v=qZO9A5F6BZs">Vim As You Editor - Advanced Motions P1 - YouTube</a></strong><br />
+Advanced tutorial on using VIM for efficient text editing.</li>
+  <li><strong>[2024-05-20] <a href="https://www.youtube.com/embed/N93cTbtLCIM">Zero to IDE with LazyVim - YouTube</a></strong><br />
+Learn how to set up a complete IDE environment using LazyVim.</li>
+</ul>
+
+<h2 id="japantrip">#japantrip</h2>
+<ul>
+  <li><strong>[2024-05-17] <a href="https://www.artchitectours.com/tour/tours-in-tokyo/">Architecture tours in Tokyo - Artchitectours</a></strong><br />
+Explore Tokyo’s architectural marvels with guided tours.</li>
+</ul>
+
+<h2 id="book">#book</h2>
+<ul>
+  <li><strong>[2024-05-17] <a href="https://mitpress.mit.edu/9780262220699/concepts-techniques-and-models-of-computer-programming/">Concepts, Techniques, and Models of Computer Programming</a></strong><br />
+Comprehensive book on computer programming concepts and models.</li>
+</ul>
+
+<h2 id="other">#other</h2>
+<ul>
+  <li><strong>[2024-05-20] <a href="https://docs.google.com/document/u/0/d/1QFR3scxuGSY848qA7JDYEHI2uVB7f5nzIj_jIH7ihZQ/mobilebasic#heading=h.31l6mvjtliw7">20240413 Startup Principles</a></strong><br />
+Document outlining essential startup principles.</li>
+  <li><strong>[2024-05-20] <a href="https://www.answer.ai/posts/2023-12-12-launch.html">Answer.AI - A new old kind of R&amp;D lab</a></strong><br />
+Introduction to Answer.AI, an innovative R&amp;D lab.</li>
+  <li><strong>[2024-05-20] <a href="https://huggingface.co/autotrain">AutoTrain - Hugging Face</a></strong><br />
+Tool by Hugging Face for automating the training of machine learning models.</li>
+</ul>]]></content><author><name>vitraag</name></author><category term="weekly-reading" /><summary type="html"><![CDATA[This week I’m writing a lot about AI updates, and links to things like fine-tuning, AI courses, and NeoVom!]]></summary></entry><entry><title type="html">Co-intelligence</title><link href="https://www.vitraag.com//2024/05/20/co-intelligence/" rel="alternate" type="text/html" title="Co-intelligence" /><published>2024-05-20T17:31:16+00:00</published><updated>2024-05-20T17:31:16+00:00</updated><id>https://www.vitraag.com//2024/05/20/co-intelligence</id><content type="html" xml:base="https://www.vitraag.com//2024/05/20/co-intelligence/"><![CDATA[<p>Book review of Co-intelligence by Ethan Mollick</p>
+
+<p><img src="https://www.vitraag.com//assets/images/books/co-intelligence.jpg" alt="Co-intelligence" width="300px" /></p>
+
+<h2 id="introduction">Introduction</h2>
+<p>In an era where artificial intelligence (AI) is transforming industries and daily lives, <em>Co-Intelligence</em> by Ethan Mollick provides a critical exploration of how we can and should collaborate with AI. Mollick urges us to see AI not as a mere tool but as a co-worker, co-teacher, and coach, deeply integrated into our professional and educational spheres. Through real-time examples and thought-provoking insights, this book underscores the imperative of mastering the skill of working alongside intelligent machines.</p>
+
+<h2 id="main-intent-of-the-book">Main Intent of the Book</h2>
+<p>The primary purpose of <em>Co-Intelligence</em> is to guide readers in understanding and leveraging the profound impact of AI on business and education. Mollick aims to demonstrate the potential of AI to enhance human capabilities and foster a collaborative relationship between humans and machines. He emphasizes the necessity of engaging with AI thoughtfully to harness its benefits without compromising our identity and values.</p>
+
+<h2 id="major-topics-covered">Major Topics Covered</h2>
+<ol>
+  <li><strong>AI as a Co-worker</strong>: Mollick discusses how AI can augment human productivity and innovation in the workplace, providing examples of AI-driven enhancements in various industries.</li>
+  <li><strong>AI in Education</strong>: The book explores the role of AI in transforming educational practices, from personalized learning to AI-powered tutoring systems.</li>
+  <li><strong>Real-time Examples of AI</strong>: Mollick includes numerous case studies and examples of AI applications currently in use, illustrating its diverse capabilities and impacts.</li>
+  <li><strong>Ethical Considerations</strong>: A significant portion of the book is dedicated to the ethical challenges of AI, such as bias, privacy concerns, and the risk of dependency.</li>
+  <li><strong>Future of Human-AI Collaboration</strong>: The author speculates on the future landscape of AI integration, advocating for a balanced approach that maximizes benefits while mitigating risks.</li>
+  <li><strong>Practical Strategies for AI Mastery</strong>: Mollick provides actionable advice on how individuals and organizations can effectively incorporate AI into their operations and learning processes.</li>
+</ol>
+
+<h2 id="useful-prompt-topics">Useful Prompt Topics</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prompt</th>
+      <th>Audience</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Idea Generation Prompt</td>
+      <td>General</td>
+      <td>Facilitate brainstorming and creative thinking.</td>
+    </tr>
+    <tr>
+      <td>Summaries with Chain of Density</td>
+      <td>General</td>
+      <td>Create detailed and comprehensive summaries.</td>
+    </tr>
+    <tr>
+      <td>Causal Explainer</td>
+      <td>General</td>
+      <td>Explain causal relationships in various contexts.</td>
+    </tr>
+    <tr>
+      <td>Product Launch Prompt</td>
+      <td>General</td>
+      <td>Assist in planning and executing product launches.</td>
+    </tr>
+    <tr>
+      <td>Academic Paper Creator</td>
+      <td>General</td>
+      <td>Aid in writing academic papers.</td>
+    </tr>
+    <tr>
+      <td>General Tutor</td>
+      <td>Students, Teachers</td>
+      <td>Provide tutoring and educational support.</td>
+    </tr>
+    <tr>
+      <td>AI Mentor Gives Feedback</td>
+      <td>Students, Teachers</td>
+      <td>Offer feedback on AI outputs to improve learning.</td>
+    </tr>
+    <tr>
+      <td>AI Student</td>
+      <td>Students, Teachers</td>
+      <td>Enable students to evaluate AI outputs and provide teaching inputs.</td>
+    </tr>
+    <tr>
+      <td>Negotiation Simulator</td>
+      <td>Business Professionals</td>
+      <td>Simulate negotiation scenarios to improve skills.</td>
+    </tr>
+    <tr>
+      <td>Team After Action Review</td>
+      <td>Business Professionals</td>
+      <td>Conduct reviews of team actions and performance.</td>
+    </tr>
+    <tr>
+      <td>Team Charter</td>
+      <td>Business Professionals</td>
+      <td>Create a charter for team projects and collaborations.</td>
+    </tr>
+    <tr>
+      <td>Class Reflection Aid</td>
+      <td>Teachers, Students</td>
+      <td>Assist in reflecting on class activities and learning outcomes.</td>
+    </tr>
+    <tr>
+      <td>Devil’s Advocate</td>
+      <td>Business Professionals, Educators</td>
+      <td>Challenge ideas and promote critical thinking.</td>
+    </tr>
+    <tr>
+      <td>Team Premortem</td>
+      <td>Business Professionals</td>
+      <td>Conduct premortem analysis to anticipate and prevent potential issues.</td>
+    </tr>
+    <tr>
+      <td>Simulation Creator</td>
+      <td>General</td>
+      <td>Create simulations for various purposes.</td>
+    </tr>
+    <tr>
+      <td>Project Ideas for Class</td>
+      <td>Teachers</td>
+      <td>Generate project ideas for classroom activities.</td>
+    </tr>
+    <tr>
+      <td>Quiz Creator</td>
+      <td>Teachers</td>
+      <td>Create quizzes for educational purposes.</td>
+    </tr>
+    <tr>
+      <td>Active learning co-creator</td>
+      <td>Teachers</td>
+      <td>Develop active learning activities and materials.</td>
+    </tr>
+    <tr>
+      <td>Syllabus co-creator</td>
+      <td>Teachers</td>
+      <td>Assist in creating syllabi for courses.</td>
+    </tr>
+    <tr>
+      <td>Co-develop an explanation for any topic</td>
+      <td>General</td>
+      <td>Co-develop explanations for various topics.</td>
+    </tr>
+    <tr>
+      <td>Structured Prompt Designer</td>
+      <td>General</td>
+      <td>Design structured prompts for various applications.</td>
+    </tr>
+    <tr>
+      <td>Lesson Crafter</td>
+      <td>Teachers</td>
+      <td>Craft lessons and educational content.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="conclusion">Conclusion</h2>
+<p><em>Co-Intelligence</em> delivers a powerful message about the future of human-AI collaboration. Ethan Mollick challenges us to utilize AI’s enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide-ranging, thought-provoking, and optimistic, the book reveals the promise and power of this new era, urging us to embrace AI as a partner in achieving unprecedented growth and innovation.</p>
+
+<p>By understanding and implementing the insights from <em>Co-Intelligence</em>, readers can position themselves at the forefront of this transformative era, equipped with the knowledge and strategies to thrive alongside intelligent machines.</p>]]></content><author><name>vitraag</name></author><category term="book-review" /><category term="books" /><summary type="html"><![CDATA[Book review of Co-intelligence by Ethan Mollick]]></summary></entry><entry><title type="html">May The Fourteenth Be With You!</title><link href="https://www.vitraag.com//2024/05/14/may-the-fourteenth-be-with-you/" rel="alternate" type="text/html" title="May The Fourteenth Be With You!" /><published>2024-05-14T21:00:36+00:00</published><updated>2024-05-14T21:00:36+00:00</updated><id>https://www.vitraag.com//2024/05/14/may-the-fourteenth-be-with-you</id><content type="html" xml:base="https://www.vitraag.com//2024/05/14/may-the-fourteenth-be-with-you/"><![CDATA[<p>A lot happened in last couple of weeks - BSides, RSA, Hackathon and a trip to San Diego. These biweekly links include a dump from all that! Happy Spring!</p>
+
+<p><img src="https://images.unsplash.com/photo-1588453647769-c977f58e9db8?q=80&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="2024 May 14 Topics" /></p>
+
+<h2 id="life">#life</h2>
+<ul>
+  <li><strong>2024-04-30 - Human Immortality Using LLMs</strong> - <a href="https://danielmiessler.com/p/human-immortality-using-llms">Read here</a>
+    <ul>
+      <li>A deep dive into how large language models could potentially extend human life by preserving our consciousness digitally.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="code">#code</h2>
+<ul>
+  <li><strong>2024-04-30 - Pydantic Logfire - Uncomplicated observability</strong> - <a href="https://pydantic.dev/logfire">Read here</a>
+    <ul>
+      <li>Discover how Pydantic Logfire simplifies logging and observability for developers.</li>
+    </ul>
+  </li>
+  <li><strong>2024-04-30 - Create Rubric App</strong> - <a href="https://twitter.com/rubriclabs/status/1719812696575529220?s=46&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Read here</a>
+    <ul>
+      <li>A one-command solution to setting up AI projects with complete type safety.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-03 - Valgrind: About</strong> - <a href="https://valgrind.org/info/">Read here</a>
+    <ul>
+      <li>An overview of Valgrind, a programming tool for memory debugging, leak detection, and profiling.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-04 - Lecture 1 - Programming Paradigms (Stanford)</strong> - <a href="https://m.youtube.com/watch?si=ssGfekhk_QZm4nDs&amp;v=Ps8jOj7diA0&amp;feature=youtu.be">Read here</a>
+    <ul>
+      <li>Kickstart your programming journey with Stanford’s lecture on programming paradigms.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Node-Based UIs in React – React Flow</strong> - <a href="https://reactflow.dev/">Read here</a>
+    <ul>
+      <li>Learn about creating interactive node-based user interfaces in React.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - Destructuring assignment - JavaScript</strong> - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">Read here</a>
+    <ul>
+      <li>A handy guide to using destructuring assignment in JavaScript.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Low-level IR in Mojo - Modular Docs</strong> - <a href="https://docs.modular.com/mojo/notebooks/BoolMLIR">Read here</a>
+    <ul>
+      <li>Explore the intricacies of low-level intermediate representation in Mojo.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="llm">#llm</h2>
+<ul>
+  <li><strong>2024-04-30 - Capabilities of Gemini Models in Medicine</strong> - <a href="https://arxiv.org/abs/2404.18416">Read here</a>
+    <ul>
+      <li>Analyzing the impact and capabilities of Gemini models in the medical field.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-03 - LLM Research Findings - Prompt Engineering Guide</strong> - <a href="https://www.promptingguide.ai/research">Read here</a>
+    <ul>
+      <li>Comprehensive findings and techniques in prompt engineering for large language models.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - AutoML Solutions - Google Cloud</strong> - <a href="https://cloud.google.com/automl">Read here</a>
+    <ul>
+      <li>Simplify machine learning model training without needing in-depth ML expertise.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - MLflow</strong> - <a href="https://mlflow.org/">Read here</a>
+    <ul>
+      <li>An open-source platform for managing the end-to-end machine learning lifecycle.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Defog.ai</strong> - <a href="https://defog.ai/sqlcoder-demo/">Read here</a>
+    <ul>
+      <li>A demo of Defog.ai’s SQLCoder for generating SQL queries using AI.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - BasedHardware/Friend: AI wearable with 24h+ battery</strong> - <a href="https://github.com/BasedHardware/Friend">Read here</a>
+    <ul>
+      <li>Meet Friend, an AI wearable designed to last over 24 hours on a single charge.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - Meta Hackathon - Event Details [Hackers]</strong> - <a href="https://cerebralvalley.notion.site/Meta-Hackathon-Event-Details-Hackers-2732d46e36fc4f1dadb61f5ac422a239#fb1138ee4577449eb1814172820c86ea">Read here</a>
+    <ul>
+      <li>All you need to know about the upcoming Meta Hackathon.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - OpenGlass - Devpost</strong> - <a href="https://devpost.com/software/openglass">Read here</a>
+    <ul>
+      <li>Learn about OpenGlass, a new project showcased on Devpost.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - Vapi - Voice AI for developers.</strong> - <a href="https://vapi.ai/">Read here</a>
+    <ul>
+      <li>Discover Vapi, a voice AI tool designed for developers.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="security">#security</h2>
+<ul>
+  <li><strong>2024-05-02 - Atomic Red Team - Red Canary</strong> - <a href="https://redcanary.com/atomic-red-team/">Read here</a>
+    <ul>
+      <li>A comprehensive guide to using Atomic Red Team for security testing.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-04 - Open Cybersecurity Schema Framework</strong> - <a href="https://github.com/ocsf">Read here</a>
+    <ul>
+      <li>Explore the framework for creating a unified cybersecurity schema.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-04 - Substation</strong> - <a href="https://github.com/brexhq/substation">Read here</a>
+    <ul>
+      <li>A toolkit for security analytics and data pipelines in the cloud.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Ciphers and Codes</strong> - <a href="https://rumkin.com/tools/cipher/">Read here</a>
+    <ul>
+      <li>Dive into the world of ciphers and codes with this online tool.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Exploit Education - Andrew Griffiths’ Exploit Education</strong> - <a href="https://exploit.education/">Read here</a>
+    <ul>
+      <li>A platform for learning about various security exploits.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Ludus</strong> - <a href="https://docs.ludus.cloud/">Read here</a>
+    <ul>
+      <li>A detailed look into Ludus, a cloud-based security platform.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Privacy bill summary</strong> - <a href="https://www.commerce.senate.gov/services/files/E7D2864C-64C3-49D3-BC1E-6AB41DE863F5">Read here</a>
+    <ul>
+      <li>A summary of recent privacy legislation.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - GPTFUZZER</strong> - <a href="https://arxiv.org/abs/2309.10253">Read here</a>
+    <ul>
+      <li>An innovative approach to red teaming large language models using auto-generated jailbreak prompts.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-06 - Universal computation by attention</strong> - <a href="https://twitter.com/ctjlewis/status/1786948443472339247">Read here</a>
+    <ul>
+      <li>Insights into running cellular automata and other programs using Claude 3 Opus.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - RSA Conference 2024 – Announcements Summary (Day 1)</strong> - <a href="https://www.securityweek.com/rsa-conference-2024-announcements-summary-day-1/?utm_source=tldrinfosec">Read here</a>
+    <ul>
+      <li>Key highlights and announcements from the first day of RSA Conference 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - Red Teaming Suite - Enkrypt AI</strong> - <a href="https://enkryptai-redteaming-demo.vercel.app/">Read here</a>
+    <ul>
+      <li>Explore Enkrypt AI’s red teaming suite for advanced security testing.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Certificate ID - Semgrep Academy</strong> - <a href="https://academy.semgrep.dev/certificates/bn3s4umj37">Read here</a>
+    <ul>
+      <li>Verify your security expertise with a Semgrep Academy certificate.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Cloud Village CTF for RSA 24</strong> - <a href="https://cloudvillagectf.instasecure.io/">Read here</a>
+    <ul>
+      <li>Participate in the Cloud Village CTF challenge at RSA 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - GitHub - PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook</strong> - <a href="https://github.com/PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook">Read here</a>
+    <ul>
+      <li>A comprehensive guide to using ChatGPT for cybersecurity tasks.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - quipqiup - cryptoquip and cryptogram solver</strong> - <a href="https://www.quipqiup.com/#google_vignette">Read here</a>
+    <ul>
+      <li>Solve your favorite cryptoquips and cryptograms online.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Analyzing the vulnerability landscape in Q1 2024</strong> - <a href="https://securelist.com/vulnerability-report-q1-2024/112554/">Read here</a>
+    <ul>
+      <li>A detailed analysis of the vulnerability landscape for the first quarter of 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Google fixes fifth Chrome zero-day exploited in attacks this year</strong> - <a href="https://www.bleepingcomputer.com/news/security/google-fixes-fifth-chrome-zero-day-vulnerability-exploited-in-attacks-in-2024/?utm_source=tldrinfosec">Read here</a>
+    <ul>
+      <li>Google addresses another zero-day vulnerability in Chrome, marking the fifth fix this year.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Malicious Go Binary Delivered via Steganography in PyPI</strong> - <a href="https://blog.phylum.io/malicious-go-binary-delivered-via-steganography-in-pypi/?utm_source=tldrinfosec">Read here</a>
+    <ul>
+      <li>An exploration of how malicious Go binaries are being distributed through steganography in PyPI.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="education">#education</h2>
+<ul>
+  <li><strong>2024-05-03 - Innovation through prompting - by Ethan Mollick</strong> - <a href="https://www.oneusefulthing.org/p/innovation-through-prompting">Read here</a>
+    <ul>
+      <li>Ethan Mollick discusses how prompting can drive innovation and creativity in education.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="art">#art</h2>
+<ul>
+  <li><strong>2024-05-02 - Derivative</strong> - <a href="https://derivative.ca/">Read here</a>
+    <ul>
+      <li>A platform for creating interactive and generative art.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="machinelearning">#machinelearning</h2>
+<ul>
+  <li><strong>2024-05-05 - Titanic - Machine Learning from Disaster</strong> - <a href="https://www.kaggle.com/competitions/titanic">Read here</a>
+    <ul>
+      <li>A Kaggle competition to build predictive models using data from the Titanic disaster.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="careers">#careers</h2>
+<ul>
+  <li><strong>2024-05-09 - AI Security Posture Management - Wiz</strong> - <a href="https://www.wiz.io/solutions/ai-security-posture-management">Read here</a>
+    <ul>
+      <li>Enhance your career with insights into AI security posture management.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - Current Opportunities - Blackwell Security</strong> - <a href="https://blackwellsecurity.com/company/careers/current-opportunities/">Read here</a>
+    <ul>
+      <li>Discover current job opportunities at Blackwell Security.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Job Hunt Like a Hacker, With Jason Blanchard</strong> - <a href="https://streamyard.com/watch/nDNNFTcSjHEq">Read here</a>
+    <ul>
+      <li>Learn unconventional job hunting techniques from Jason Blanchard.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="data">#data</h2>
+<ul>
+  <li><strong>2024-05-09 - Inversion - Mental Model - by Michał Poczwardowski</strong> - <a href="https://read.perspectiveship.com/p/inversion?utm_source=tldrwebdev">Read here</a>
+    <ul>
+      <li>A thought-provoking piece on mental models and their application in data analysis.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - Weeknotes: Llama 3, AI for Data Journalism, llm-evals and datasette-secrets</strong> - <a href="https://simonwillison.net/2024/Apr/23/weeknotes/?utm_source=substack&amp;utm_medium=email">Read here</a>
+    <ul>
+      <li>Weekly notes covering the latest in AI for data journalism and more.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bsidessf">#bsidessf</h2>
+<ul>
+  <li><strong>2024-05-10 - Cloud Village CTF for BSidesSF 2024</strong> - <a href="https://ctf.cloud-village.org/challenges#hello%20there!-1">Read here</a>
+    <ul>
+      <li>Test your cybersecurity skills with the Cloud Village CTF at BSidesSF 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - GitHub - yaelwrites/Big-Ass-Data-Broker-Opt-Out-List</strong> - <a href="https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List">Read here</a>
+    <ul>
+      <li>Opt out of data broker lists with this comprehensive guide.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Ludus</strong> - <a href="https://ludus.cloud/">Read here</a>
+    <ul>
+      <li>Explore Ludus, a cloud-based platform featured at BSidesSF.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="rsa">#rsa</h2>
+<ul>
+  <li><strong>2024-05-10 - API Security Mini Course</strong> - <a href="https://academy.semgrep.dev/courses/api-security-mini-course">Read here</a>
+    <ul>
+      <li>A mini course on API security from Semgrep Academy.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Cloud Village CTF for RSA 24</strong> - <a href="https://cloudvillagectf.instasecure.io/">Read here</a>
+    <ul>
+      <li>Participate in the Cloud Village CTF at RSA 2024.</li>
+    </ul>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>**2024-05-10 - College Day</td>
+          <td>RSA Conference** - <a href="https://www.rsaconference.com/usa/programs/college-day">Read here</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Highlights from College Day at the RSA Conference.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Enkrypt AI unveils LLM Safety Leaderboard</strong> - <a href="https://wire19.com/enkrypt-ai-unveils-llm-safety-leaderboard-to-enable-safe-gen-ai-adoption/">Read here</a>
+    <ul>
+      <li>Enkrypt AI’s new leaderboard aims to help enterprises adopt AI safely.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Gandalf - Lakera</strong> - <a href="https://rsac.lakera.ai/">Read here</a>
+    <ul>
+      <li>Test your prompting skills against Gandalf to reveal secret information.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - GitHub - PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook</strong> - <a href="https://github.com/PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook">Read here</a>
+    <ul>
+      <li>A detailed guide to leveraging ChatGPT for cybersecurity purposes.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - MLflow</strong> - <a href="https://your-docusaurus-site.example.com/">Read here</a>
+    <ul>
+      <li>Learn how MLflow integrates with RSA to enhance machine learning workflows.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Overview - RSA 2024</strong> - <a href="https://resources.sei.cmu.edu/news-events/events/rsa/">Read here</a>
+    <ul>
+      <li>An overview of the RSA 2024 conference.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Splunk SOAR</strong> - <a href="https://www.splunk.com/en_us/products/splunk-security-orchestration-and-automation.html">Read here</a>
+    <ul>
+      <li>Discover Splunk’s SOAR platform for security orchestration and automation.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Threat Modeling Platform for AppSec &amp; DevSecOps - Devici</strong> - <a href="https://devici.com/platform">Read here</a>
+    <ul>
+      <li>A new platform for threat modeling in application and development security.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="aillm">#aillm</h2>
+<ul>
+  <li><strong>2024-05-10 - AVID-2023-V009</strong> - <a href="https://avidml.org/database/AVID-2023-V009/">Read here</a>
+    <ul>
+      <li>A comprehensive entry on AI vulnerability data for 2023.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bsidesf">#bsidesf</h2>
+<ul>
+  <li><strong>2024-05-10 - quipqiup</strong> - <a href="https://www.quipqiup.com/#google_vignette">Read here</a>
+    <ul>
+      <li>Solve cryptograms and cryptoquips with quipqiup, featured at BSidesSF.</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>vitraag</name></author><category term="weekly-reading" /><summary type="html"><![CDATA[A lot happened in last couple of weeks - BSides, RSA, Hackathon and a trip to San Diego. These biweekly links include a dump from all that! Happy Spring!]]></summary></entry><entry><title type="html">Good Leaders Ask Great Questions</title><link href="https://www.vitraag.com//2024/05/14/good-leaders-ask-great-questions/" rel="alternate" type="text/html" title="Good Leaders Ask Great Questions" /><published>2024-05-14T21:00:36+00:00</published><updated>2024-05-14T21:00:36+00:00</updated><id>https://www.vitraag.com//2024/05/14/good-leaders-ask-great-questions</id><content type="html" xml:base="https://www.vitraag.com//2024/05/14/good-leaders-ask-great-questions/"><![CDATA[<p>Book review of Good Leaders Ask Great Questions by John C. Maxwell</p>
+
+<p><img src="https://www.vitraag.com//assets/images/books/good-leaders-ask-great-questions.jpg" alt="Good Leaders Ask Great Questions" width="300px" /></p>
+
+<h2 id="introduction">Introduction</h2>
+<p>In “Good Leaders Ask Great Questions,” renowned leadership expert John C. Maxwell delves into the art and science of asking questions, demonstrating how this skill is essential for effective leadership. Maxwell combines his extensive experience with practical insights to help leaders at all levels improve their questioning abilities, enhance communication, and foster a culture of curiosity and continuous improvement within their organizations.</p>
+
+<h2 id="main-intent">Main Intent</h2>
+<h2 id="major-topics-covered">Major Topics Covered</h2>
+<ol>
+  <li><strong>The Importance of Questions in Leadership</strong>
+    <ul>
+      <li>Why questions are a powerful tool for leaders</li>
+      <li>How questions foster learning and growth</li>
+      <li>The impact of questions on team dynamics and organizational culture</li>
+    </ul>
+  </li>
+  <li><strong>Types of Questions Leaders Should Ask</strong>
+    <ul>
+      <li>Questions to ask themselves</li>
+      <li>Questions to ask their teams</li>
+      <li>Questions to ask their mentors and advisors</li>
+    </ul>
+  </li>
+  <li><strong>Developing a Questioning Mindset</strong>
+    <ul>
+      <li>Cultivating curiosity and a desire to learn</li>
+      <li>Overcoming the fear of asking questions</li>
+      <li>Encouraging a questioning culture within the organization</li>
+    </ul>
+  </li>
+  <li><strong>Practical Tips for Asking Great Questions</strong>
+    <ul>
+      <li>Techniques for crafting effective questions</li>
+      <li>Strategies for active listening and follow-up</li>
+      <li>Common pitfalls to avoid when asking questions</li>
+    </ul>
+  </li>
+  <li><strong>Real-Life Examples and Case Studies</strong>
+    <ul>
+      <li>Stories of successful leaders who excel at asking questions</li>
+      <li>Lessons learned from leaders who failed to ask the right questions</li>
+      <li>Practical applications of questioning techniques in various leadership contexts</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="sample-questions-from-the-book">Sample Questions from the Book</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Topic</strong></th>
+      <th><strong>Questions</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Questions to Ask Yourself</strong></td>
+      <td>- What is my biggest asset?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- What is my biggest liability?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- What opportunities am I currently overlooking?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- How can I improve my personal growth?</td>
+    </tr>
+    <tr>
+      <td><strong>Questions to Ask Your Team</strong></td>
+      <td>- What do you need from me to be successful?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- What are we doing that you think we should stop doing?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- What should we start doing that we are not currently doing?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- How can we improve our processes?</td>
+    </tr>
+    <tr>
+      <td><strong>Questions to Ask Your Mentors</strong></td>
+      <td>- What is the greatest lesson you have learned in your career?</td>
+    </tr>
+    <tr>
+      <td><strong>and Advisors</strong></td>
+      <td>- What advice would you give someone in my position?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- How do you handle setbacks and failures?</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>- What are the key habits of successful leaders?</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>“Good Leaders Ask Great Questions” underscores the transformative power of asking the right questions. Maxwell’s central message is clear: effective leadership is not just about having the right answers but about having the courage and curiosity to ask the right questions. By embracing a questioning mindset, leaders can drive innovation, build stronger relationships, and create a culture of continuous improvement within their organizations.</p>]]></content><author><name>vitraag</name></author><category term="book-review" /><category term="books" /><summary type="html"><![CDATA[Book review of Good Leaders Ask Great Questions by John C. Maxwell]]></summary></entry></feed>
