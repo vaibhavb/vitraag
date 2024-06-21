@@ -3,7 +3,7 @@ author: vitraag
 comments: true
 date: 2024-06-20T21:47:49Z
 layout: post
-slug:planning-mt-langley 
+slug: planning-mt-langley 
 title: Planning Mt. Langley
 categories:
     - mountaineering
