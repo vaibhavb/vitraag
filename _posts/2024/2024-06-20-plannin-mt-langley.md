@@ -4,16 +4,24 @@ comments: true
 date: 2024-06-20T21:47:49Z
 layout: post
 slug: planning-mt-langley 
-title: Planning Mt. Langley
+title: Planning for Mt. Langley
 categories:
     - mountaineering
     - hiking
 prompt: |
     
 ---
-### Route
+We are planning to hike Mt. Langley via the new army pass, next weekend (July 28-30). Its a target hike for Asha for Education's Climbing program.
 
-![Langley Route]((/assets/images/2024/langleyhike-2024.jpg){: width="400px" height="400px" align="center"})
+Following heading are some of the planning items which I will update over next few days, to assist with our trip.
+
+## Before Going
+- Talk to the ranger station at Mt. Langley Forest Service Department
+- Check weather forecast at Mt. Langley Weather Forecast 
+
+## Route
+
+![Langley Route](/assets/images/2024/langleyhike-2024.jpg){: width="400px" height="400px" align="center"}
 
 Will possibly choose new Army pass (~ 23 miles) since the snow on it will be likely less than old Army pass (~19 miles). This will add some additional mileage to the trip. We will camp at the Long Lake -- Base of New Army pass. The hike to base is mostly easy and flat.
 
@@ -22,26 +30,22 @@ Will possibly choose new Army pass (~ 23 miles) since the snow on it will be lik
 
 We start from [Cottonwood Lakes Walk In Campground](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20692), [Google Maps](https://www.google.com/maps/place/Cottonwood+Lakes+Walk+in+Campground/@36.4528607,-118.1714253,17z/)
 
-### Packing List
+## Packing List
 - Repel 100
 - Headlights
 - Packout bag
 - Nalgene
-- [[Microspikes]]
+- [Microspikes](https://www.amazon.com/Traction-Crampons-Stainless-Climbing-Mountaineering/dp/B07H4BL4KL)
 
-### Tips
+#### Tips
 - Read AllTrails Trip [reports](https://www.alltrails.com/trail/us/california/mount-langley)
 - Download the GPX file on to the GPS device, that way you can check ocassionally to see if you are on track. If you don't have GPS the GAIA GPS app is the best app.
-- 
+ 
 
-### Links
-[Mt. Langley Forest Service Department](https://www.fs.usda.gov/recarea/inyo/recreation/outdoorlearning/recarea/?recid=20698&actid=120)
-[Weather Forecast](https://www.mountain-forecast.com/peaks/Mount-Langley/forecasts/4275)
-[Microspikes](https://www.amazon.com/Traction-Crampons-Stainless-Climbing-Mountaineering/dp/B07H4BL4KL)
-
-### Before Going
-- Talk to the ranger station at [[Mt. Langley Forest Service Department]] 
-- Check weather forecast at [[Mt. Langley Weather Forecast]] 
+#### Links
+- [Mt. Langley Forest Service Department](https://www.fs.usda.gov/recarea/inyo/recreation/outdoorlearning/recarea/?recid=20698&actid=120)
+- [Weather Forecast](https://www.mountain-forecast.com/peaks/Mount-Langley/forecasts/4275)
+- [Microspikes](https://www.amazon.com/Traction-Crampons-Stainless-Climbing-Mountaineering/dp/B07H4BL4KL)
 
 
 
