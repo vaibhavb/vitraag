@@ -40,6 +40,6 @@ Training yourself to navigate and command as much of the operating system throug
 ### Terminal (w/ Zellij)
 | Hotkey | Function |
 |--------|----------|
-| Ctrl + P N | New vertical pane |
+| Ctrl + P N | New vertical pane   |
 | Ctrl + P D | New horizontal pane |
-
+| F10        | Go full Screen      |

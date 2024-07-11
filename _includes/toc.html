@@ -1,0 +1,67 @@
+<div id="toc"></div>
+
+<style>
+    #toc {
+        position: fixed;
+        left: 20px;
+        top: 100px; /* Adjust this value based on your layout */
+        background: #f8f8f8;
+        padding: 15px;
+        border-radius: 5px;
+        max-width: 250px;
+        max-height: 80vh;
+        overflow-y: auto;
+        z-index: 1000;
+    }
+    #toc ul {
+        list-style-type: none;
+        padding-left: 15px;
+    }
+    #toc > ul {
+        padding-left: 0;
+    }
+    #toc li {
+        margin-bottom: 5px;
+        font-size: 0.9em;
+    }
+    #toc a {
+        text-decoration: none;
+        color: #333;
+    }
+    #toc a:hover {
+        text-decoration: underline;
+    }
+    @media (max-width: 1215px) { /* Adjust based on Bulma's widescreen breakpoint */
+        #toc {
+            display: none; /* Hide ToC on smaller screens */
+        }
+    }
+    .toc-wrapper {
+        position: relative;
+    }
+    .content-wrapper {
+        margin-left: 0; /* Ensure content stays centered */
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toc = document.getElementById('toc');
+    const headers = document.querySelectorAll('.content h1, .content h2, .content h3, .content h4, .content h5, .content h6');
+    const tocList = document.createElement('ul');
+
+    headers.forEach(header => {
+        const listItem = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = header.textContent;
+        link.href = '#' + header.id;
+        listItem.appendChild(link);
+        tocList.appendChild(listItem);
+
+        // Indentation based on header level
+        listItem.style.marginLeft = (parseInt(header.tagName.charAt(1)) - 1) * 10 + 'px';
+    });
+
+    toc.appendChild(tocList);
+});
+</script>
