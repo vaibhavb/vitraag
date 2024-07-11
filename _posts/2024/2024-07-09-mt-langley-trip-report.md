@@ -4,7 +4,7 @@ comments: true
 date: 2024-07-09T21:47:49Z
 layout: post
 slug: mt-langley-trip-report 
-title: Mt. Langley Trip Report - lots of firsts!
+title: Mt. Langley Trip Report - Lots of Firsts!
 categories:
     - mountaineering
     - hiking
