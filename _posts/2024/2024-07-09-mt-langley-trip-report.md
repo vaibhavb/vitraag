@@ -21,7 +21,7 @@ This post is a trip report to summarize not just our journey but also the traini
 
 {% include image.html url="/assets/images/2024/langley/langley-all.jpg" desc="Team Asha On Top Of Mt. Langley 14,032ft" %}
 
-## Why ?
+## What make this special ?
 ### Why Langley?
 We have done other 14ers like [Mt. Shasta](https://www.vitraag.com/2019/06/26/a-journey-to-summit-mt-shasta-trip-report/) as part of Asha for Education's Silicon Valley hiking program, the 14er is typically the first big mountain hiked by the participant. To make this goal accessible to more diverse beginner participants and also to enable it for later in life atheles we chose Mt. Langley sitting at [14,032 ft](https://en.wikipedia.org/wiki/Mount_Langley). The mountain is less technical without any glaciers but also a testament to the beauty of Mother nature with amazing views and lakes. A perfect goal encompassing strenousity and beauty!
 
