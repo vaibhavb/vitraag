@@ -21,7 +21,7 @@ This post is a trip report to summarize not just our journey but also the traini
 
 {% include image.html url="/assets/images/2024/langley/langley-all.jpg" desc="Team Asha On Top Of Mt. Langley 14,032ft" %}
 
-Additionally, i'm hoping this post encourages you to donate and support Team Asha Hiking Program.
+Additionally, i'm hoping this post encourages you to donate to and support Team Asha Hiking Program.
 [![Support the climbs, support education through Asha](/assets/images/2024/langley/donate.png)](https://sv.ashanet.org/team-asha-hiking-2024/)
 
 
