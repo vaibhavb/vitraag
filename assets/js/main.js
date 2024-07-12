@@ -1,15 +1,11 @@
-
-document.addEventListener('DOMContentLoaded', () => {
+function activateBurger(){
     var burger = document.querySelector('.navbar-burger');
     var menu = document.querySelector('#'+burger.dataset.target);
     burger.addEventListener('click', function() {
         burger.classList.toggle('is-active');
         menu.classList.toggle('is-active');
     });
-    burger.addEventListener('touchstart', function(e) {
-    e.preventDefault(); // Prevent default touch behavior
-    console.log('Burger touched');
-    burger.classList.toggle('is-active');
-    menu.classList.toggle('is-active');
-}, false);
-  });
+}
+
+document.addEventListener('DOMContentLoaded', () => activateBurger());
+window.onload = activateBurger();
