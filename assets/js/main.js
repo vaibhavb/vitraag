@@ -7,5 +7,5 @@ function activateBurger(){
     });
 }
 
-document.addEventListener('DOMContentLoaded', () => activateBurger());
-window.onload = activateBurger();
+document.addEventListener('DOMContentLoaded', activateBurger);
+window.onload = activateBurger;
