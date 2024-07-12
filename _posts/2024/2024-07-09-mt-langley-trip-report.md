@@ -25,7 +25,7 @@ This post is a trip report to summarize not just our journey but also the traini
 ### Why Langley?
 We have done other 14ers like [Mt. Shasta](https://www.vitraag.com/2019/06/26/a-journey-to-summit-mt-shasta-trip-report/) as part of Asha for Education's Silicon Valley hiking program, the 14er is typically the first big mountain hiked by the participant. To make this goal accessible to more diverse beginner participants and also to enable it for later in life atheles we chose Mt. Langley sitting at [14,032 ft](https://en.wikipedia.org/wiki/Mount_Langley). The mountain is less technical without any glaciers but also a testament to the beauty of Mother nature with amazing views and lakes. A perfect goal encompassing strenousity and beauty!
 
-{% include image.html url="/assets/images/2024/langley/langley-lake.jpg" desc="Mt. Langley Lake #2" %}
+{% include image.html url="/assets/images/2024/langley/langley-lake-main.jpg" desc="Mt. Langley Lake #2" %}
 
 ### Why Asha?
 [Asha for Education](https://www.ashanet.org) is a 501(c)(3) organization, with an audacious goal to enable universal primary education in India by 2047! It works with a network for 50+ chapters world wide of primarily volunteers and no full-time staff to enable it!
@@ -49,7 +49,7 @@ Based on quick melt and route beta from other climbers we choose new Army pass, 
 ## The Journey
 The drive from Bay Area to Langley trailhead is about 9 hrs! Thanks to Shishir, I had a great company on the way and we could share the drive.
 
-{%include image.html url="/assets/images/2024/langley/langley-drive.jpg" desc="Bhel at Trailhead"%}
+{%include image.html url="/assets/images/2024/langley/langley-drive.jpg" desc="Long Drive!"%}
 
 Most of us camped at the Trailhead on Friday. Part of the joy camping with a big group of Indians are amazing treats. Thanks to the participants we had a fun bhel puri the evening! Everyone seemed in great shape so we retired about 9pm to get some rest.
 
