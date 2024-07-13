@@ -48,7 +48,7 @@ We also made sure that participants are familiar with their equipment, and espec
 ## The Route
 {%include image.html url="/assets/images/2024/langleyhike-2024.jpg" desc="Langley Route" %}
 
-Based on quick melt and route beta from other climbers, we chose New Army Pass to go up Mt. Langley. As you will see in the figure below, the traditional route from Old Army Pass is also possible, but it's very steep and has not been maintained. We camped at Long Lake. Our Day 1 was about 8 miles with an elevation gain of about 1000ft, and on Day 2 we hiked 17 miles with an elevation gain of about 4900ft.
+Based on quick melt and route beta from our [planning research](https://www.vitraag.com/2024/06/20/planning-mt-langley/) and other climbers, we chose New Army Pass to go up Mt. Langley. As you will see in the figure below, the traditional route from Old Army Pass is also possible, but it's very steep and has not been maintained. We camped at Long Lake. Our Day 1 was about 8 miles with an elevation gain of about 1000ft, and on Day 2 we hiked 17 miles with an elevation gain of about 4900ft.
 
 ## The Journey
 The drive from Bay Area to Langley trailhead is about 9 hrs! Thanks to Shishir, I had great company on the way and we could share the drive.
