@@ -116,6 +116,6 @@ Additionally, we are super fortunate to have gotten a great education and be in 
 - [Mt. Langley Forest Service Department](https://www.fs.usda.gov/recarea/inyo/recreation/outdoorlearning/recarea/?recid=20698&actid=120)
 - [Weather Forecast](https://www.mountain-forecast.com/peaks/Mount-Langley/forecasts/4275)
 - [Microspikes](https://www.amazon.com/Traction-Crampons-Stainless-Climbing-Mountaineering/dp/B07H4BL4KL)
-
-
+- [Mt. Shasta Trip report](https://www.vitraag.com/2019/06/26/a-journey-to-summit-mt-shasta-trip-report/) 
+- [My Langley planning research](https://www.vitraag.com/2024/06/20/planning-mt-langley/) 
 
