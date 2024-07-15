@@ -25,7 +25,7 @@ Additionally, i'm hoping this post encourages you to donate to and support Team 
 [![Support the climbs, support education through Asha](/assets/images/2024/langley/donate.png)](https://sv.ashanet.org/team-asha-hiking-2024/)
 
 
-## What make this special ?
+## What makes this special ?
 ### Why Langley?
 We have done other 14ers like [Mt. Shasta](https://www.vitraag.com/2019/06/26/a-journey-to-summit-mt-shasta-trip-report/) as part of Asha for Education's Silicon Valley hiking program. The 14er is typically the first big mountain hiked by the participant. To make this goal accessible to more diverse beginner participants and also to enable it for later-in-life athletes, we chose Mt. Langley, sitting at [14,032 ft](https://en.wikipedia.org/wiki/Mount_Langley). The mountain is less technical without any glaciers but also a testament to the beauty of Mother Nature with amazing views and lakes. A perfect goal encompassing strenuousness and beauty!
 
