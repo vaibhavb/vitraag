@@ -3,8 +3,8 @@ author: vitraag
 comments: true
 date: 2024-07-16T21:47:49Z
 layout: post
-slug: ai-security-vuln-assessment
-title: AI Security Vuln Assessment
+slug: aisec-prompts
+title: AI Security Prompt Engineering - Vuln Assessment
 categories:
     - ai
     - security
