@@ -63,7 +63,7 @@ This post covers some interesting problem areas at the intersection of AI and Se
   Design an AI system that can analyze the behavior of unknown files and processes to detect and classify new or evolving malware threats.
 
 ## Security of *AI*
-- [Prompt Engineering]()
+- [Prompt Engineering](https://www.vitraag.com/2023/11/24/llm-security-research/)
 - **Secure AI Model Development and Deployment**
   Develop a framework and set of tools to ensure the secure development, testing, and deployment of AI models, protecting against adversarial attacks and data poisoning.
 
