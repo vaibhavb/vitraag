@@ -74,6 +74,8 @@ Use the following [zoom link](https://peralta-edu.zoom.us/j/9402327279) to join 
 https://peralta-edu.zoom.us/j/9402327279
 Topic: Getting Started with AI and Cyber Security
 
+Update:
+Recording is available [here](https://peralta-edu.zoom.us/rec/share/nGaiCnwbLRNJaYdJhziyJwyS_HtXqauRT2UeNCbKnm_ZJ8cEvezP6pBj_k3iH2qY.ARDQf4ocKOosO-vr)
 
 ## References
 

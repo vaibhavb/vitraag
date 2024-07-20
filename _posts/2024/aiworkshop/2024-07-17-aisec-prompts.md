@@ -10,6 +10,8 @@ categories:
     - security
     - workshop
 ---
+You can try the following prompts!
+
 # Doing Vulnerability Assessment with AI Tools
 
 Introduce ChatGPT in creating vulnerability and threat assessment plans, a crucial part of any cybersecurity strategy. And showcase MITRE ATT&CK framework.
