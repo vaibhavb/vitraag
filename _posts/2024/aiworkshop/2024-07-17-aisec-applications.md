@@ -15,6 +15,14 @@ categories:
 - nextjs application generate comments for a code
 
 # Demo gensh
-- show gensh
+Install gensh from [github](https://github.com/vaibhavb/gensh)
+
+- try the following
+```sh
+gensh
+gensh> "find your ip address"
+gensh> "find your ip address as a python program" | exec_python
+gensh> ?
+```
 
 
