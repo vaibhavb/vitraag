@@ -3,8 +3,8 @@ author: vitraag
 comments: true
 date: 2024-07-16T21:47:49Z
 layout: post
-slug: ai-security-problems
-title: AI Security Problems
+slug: aisec-potential problems
+title: AI Security Potential Problems
 categories:
     - ai
     - security
