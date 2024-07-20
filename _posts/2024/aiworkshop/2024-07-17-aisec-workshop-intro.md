@@ -17,8 +17,10 @@ Topics we will cover today:
   Take a moment to introduce yourself on [discord](https://discord.gg/WCgM7ddMyH)
 - [Potential Problems to Work on](https://www.vitraag.com/2024/07/16/aisec-potential-problems)
 - [Getting Started with OpenAI, Anthropic, Gemini](https://www.vitraag.com/2024/07/16/aisec-getting-started)
-- [Prompt engineering] (https://www.vitraag.com/2024/07/16/aisec-prompts)
-- [Writing AI Applications] (https://www.vitraag.com/2024/07/16/aisec-applications)
+- [Prompt engineering](https://www.vitraag.com/2024/07/16/aisec-prompts)
+- [Writing AI Applications](https://www.vitraag.com/2024/07/16/aisec-applications)
 
 
-# The recorded workshop is available [here](https://peralta-edu.zoom.us/rec/share/qa3988nBEj6wRdkr45B3gxWRs76KTsxNIl8FS7g1AlZ8b_DsnzRVPqywoDR39FIy.fK4utza38LAKJScb?startTime=1721426303000)
+# Workshop Recording
+
+The recorded workshop is available [here](https://peralta-edu.zoom.us/rec/share/qa3988nBEj6wRdkr45B3gxWRs76KTsxNIl8FS7g1AlZ8b_DsnzRVPqywoDR39FIy.fK4utza38LAKJScb?startTime=1721426303000)
