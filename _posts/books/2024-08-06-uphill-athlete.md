@@ -1,7 +1,7 @@
 ---
 author: vitraag
 comments: true
-date: 2024-07-15T17:31:16Z
+date: 2024-08-06T17:31:16Z
 layout: post
 slug: uphill-athlete 
 title: Training for the Uphill Athlete

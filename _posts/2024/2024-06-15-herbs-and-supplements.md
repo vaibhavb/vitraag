@@ -6,7 +6,7 @@ layout: post
 slug: herbs-and-supplements 
 title: Herbs and Supplments
 categories:
-    - health
+    - wellness
 prompt: |
     
 ---
@@ -30,7 +30,7 @@ Products [GR-7](https://gr-7.uk/) and [Mayraki](https://hairmayraki.com/anti-gre
 
 ## To Try Later
 - [Free Testosterone Index]
-- [Gene Therapy](https://minicircle.io/our-therapies/) - #expensive
+- [Gene Therapy](https://minicircle.io/our-therapies/)
 
 ## References:
 - [Blueprint by Bryan Johnson](https://protocol.bryanjohnson.com/)
