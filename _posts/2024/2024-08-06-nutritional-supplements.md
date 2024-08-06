@@ -7,7 +7,6 @@ slug: nutritional-supplements
 title: Nutritional Supplements
 categories:
     - nutrition 
-prompt: |
 ---
 # Nutritional Supplements
 Skepticism is the main thought I have had when it comes to nutritional supplements. However, based on blood tests and suspectibility to illnesses like cardio-vascular disease and diabetes following are some of the supplements. For each of them I mention, my basis for the research. However, I still need more evidence from blood tests to prove efficacy of any of them.
