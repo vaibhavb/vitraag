@@ -6,7 +6,7 @@ layout: post
 slug: nutritional-supplements 
 title: Nutritional Supplements
 categories:
-    - wellness
+    - nutrition 
 prompt: |
 ---
 # Nutritional Supplements

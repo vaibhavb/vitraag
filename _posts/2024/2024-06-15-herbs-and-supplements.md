@@ -6,7 +6,7 @@ layout: post
 slug: herbs-and-supplements 
 title: Herbs and Supplments
 categories:
-    - wellness
+    - nutrition 
 prompt: |
     
 ---
