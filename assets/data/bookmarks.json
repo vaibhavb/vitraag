@@ -1,5 +1,205 @@
 [
   {
+    "date": "2024-08-16",
+    "title": "Coding with voice dictation using Talon Voice",
+    "url": "https://www.joshwcomeau.com/blog/hands-free-coding/"
+  },
+  {
+    "date": "2024-08-16",
+    "title": "Harvard RSI Action --> The Mind/Body Approach --> What is RSI?",
+    "url": "http://www.rsi.deas.harvard.edu/mb_what_is.html"
+  },
+  {
+    "date": "2024-08-16",
+    "title": "Unofficial Talon Docs | Talon Wiki",
+    "url": "https://old.talon.wiki/unofficial_talon_docs/"
+  },
+  {
+    "date": "2024-08-16",
+    "title": "Unofficial Talon Docs | Talon Wiki",
+    "url": "https://old.talon.wiki/unofficial_talon_docs/"
+  },
+  {
+    "date": "2024-08-15",
+    "title": "Announcing the API Prize Winner and Open Source Mobile Patient App | Canvas Medical",
+    "url": "https://www.canvasmedical.com/articles/announcing-our-new-open-source-patient-experience"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "AWS Incident Manager - System Manager - LetsDefend",
+    "url": "https://app.letsdefend.io/training/lessons/aws-incident-manager-system-manager"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "Agenda - Open Sauce",
+    "url": "https://opensauce.com/agenda/"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "Current Market Valuation #investing",
+    "url": "https://www.currentmarketvaluation.com/"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "Don't Die Summit | San Francisco",
+    "url": "https://www.dontdiesummit.com/san-francisco?gad_source=1&gbraid=0AAAAAqvlMCvC504eFA7B00yyxBpDA5Ltq&gclid=Cj0KCQjwq_G1BhCSARIsACc7NxoK-ZyB0Qj_2cthfLm-Dust1uxAH52rLgD_w5NJVT_0timV53pDG1AaAq78EALw_wcB"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "GitHub - rhasspy/wyoming-satellite: Remote voice satellite using Wyoming protocol #do",
+    "url": "https://github.com/rhasspy/wyoming-satellite"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "Home | DanceSafe",
+    "url": "https://dancesafe.org/?fbclid=IwZXh0bgNhZW0CMTEAAR1W8BbBfWu7iT3Jam8tfJHKKMJwusjbtMKyzI2D3RGaWbUFW11umocwQr0_aem_6NeOxI4M0PrS7sE007cnIQ"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "Michael Burry Portfolio (2024 Q1) - Scion Asset Management Holdings 13F #investing",
+    "url": "https://valuesider.com/guru/michael-burry-scion-asset-management/portfolio"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "Proxmox VE - VMware Alternative Hypervisor",
+    "url": "https://www.netdevgroup.com/online/content/proxmox"
+  },
+  {
+    "date": "2024-08-14",
+    "title": "UL NO. 445: Vegas Dump, Legal Firm Hacks, AI Agent Ascension",
+    "url": "https://danielmiessler.com/p/ul-445?utm_source=danielmiessler.com&utm_medium=newsletter&utm_campaign=ul-no-445-vegas-dump-legal-firm-hacks-ai-agent-ascension&_bhlid=89313254297c9d3bfc53b8115a3f8b14c3cc9f14#notes"
+  },
+  {
+    "date": "2024-08-13",
+    "title": "Andrej Karpathy on X: \"SQL injection-like attack on LLMs with special tokens The decision by LLM tokenizers to parse special tokens in the input string (&lt;s&gt;, &lt;|endoftext|&gt;, etc.), while convenient looking, leads to footguns at best and LLM security vulnerabilities at worst, equivalent to SQL injection https://t.co/YQmWHfep6l\" / X",
+    "url": "https://x.com/karpathy/status/1823418177197646104?s=46"
+  },
+  {
+    "date": "2024-08-12",
+    "title": "AlphaPortfolio: Direct Construction Through Deep Reinforcement Learning and Interpretable AI by Lin William Cong, Ke Tang, Jingyuan Wang, Yang Zhang :: SSRN #finance",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3554486&utm_source=theaifinancefrontier.beehiiv.com&utm_medium=referral&utm_campaign=support-for-stock-trend-prediction-using-transformers-and-sentiment-analysis"
+  },
+  {
+    "date": "2024-08-12",
+    "title": "Anthropic AI has launched a limited bug bounty program offering rewards of up to $15K for jailbreaking an unreleased model. \n\nSource: Cointelegraph",
+    "url": "https://search.app/iNPKXdheRRS4eDN69"
+  },
+  {
+    "date": "2024-08-12",
+    "title": "False Base Station or IMSI Catcher: What You Need to Know - CableLabs #security",
+    "url": "https://www.cablelabs.com/blog/false-base-station-or-imsi-catcher-what-you-need-to-know/amp"
+  },
+  {
+    "date": "2024-08-12",
+    "title": "I gave AI full control over my database (postgres.new) - YouTube",
+    "url": "https://www.youtube.com/embed/ooWaPVvljlU"
+  },
+  {
+    "date": "2024-08-12",
+    "title": "Security Conversations: Ep3: Dave Aitel joins debate on nation-state hacking responsibilities on Apple Podcasts",
+    "url": "https://podcasts.apple.com/us/podcast/ep3-dave-aitel-joins-debate-on-nation-state-hacking/id1414525622?i=1000661263901"
+  },
+  {
+    "date": "2024-08-10",
+    "title": "Securing AI Apps with the OWASP Top Ten for Large Language Models",
+    "url": "https://www.rsaconference.com/Library/presentation/USA/2024/Securing%20AI%20Apps%20with%20the%20OWASP%20Top%20Ten%20for%20Large%20Language%20Models"
+  },
+  {
+    "date": "2024-08-09",
+    "title": "About - CyberMyte #security",
+    "url": "https://cybermyte.io/about/"
+  },
+  {
+    "date": "2024-08-09",
+    "title": "Hands-Free Coding | A hacker's guide to ditching the keyboard and mouse",
+    "url": "https://handsfreecoding.org/"
+  },
+  {
+    "date": "2024-08-09",
+    "title": "Mission Ashtanga | Mysore Style Ashtanga Yoga in San Francisco #yoga",
+    "url": "https://missionashtangayoga.com/"
+  },
+  {
+    "date": "2024-08-09",
+    "title": "Xata roadmap",
+    "url": "https://xata.io/roadmap"
+  },
+  {
+    "date": "2024-08-09",
+    "title": "home — atha #asthanga",
+    "url": "https://atha-room.com/home#/practice/"
+  },
+  {
+    "date": "2024-08-09",
+    "title": "home — atha #yoga",
+    "url": "https://atha-room.com/home#/practice/"
+  },
+  {
+    "date": "2024-08-08",
+    "title": "17 vulnerabilities in Sharp Multi-Function Printers - IT Security Research by Pierre #security",
+    "url": "https://pierrekim.github.io/blog/2024-06-27-sharp-mfp-17-vulnerabilities.html"
+  },
+  {
+    "date": "2024-08-08",
+    "title": "Admissions by source school | University of California #schools",
+    "url": "https://www.universityofcalifornia.edu/about-us/information-center/admissions-source-school"
+  },
+  {
+    "date": "2024-08-08",
+    "title": "All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more - Tristan Hume",
+    "url": "https://thume.ca/2023/12/02/tracing-methods/"
+  },
+  {
+    "date": "2024-08-08",
+    "title": "Home - The A11Y Project",
+    "url": "https://www.a11yproject.com/"
+  },
+  {
+    "date": "2024-08-08",
+    "title": "Overview | Sound Reactive LED Top Hat | Adafruit Learning System #art",
+    "url": "https://learn.adafruit.com/sound-reactive-led-top-hat/overview?fbclid=IwZXh0bgNhZW0CMTEAAR1Qrj4kX9K7dewwo0_X9syI6chLk8ywdn9fDkfM1xNzFrpU4IYnNsDbDIQ_aem_U8fRzrtQy2L11ugJOI_WRw"
+  },
+  {
+    "date": "2024-08-08",
+    "title": "x86re",
+    "url": "https://x86re.com/"
+  },
+  {
+    "date": "2024-08-07",
+    "title": "Ax framework ",
+    "url": "https://axllm.dev/"
+  },
+  {
+    "date": "2024-08-07",
+    "title": "CLIP: Connecting text and images | OpenAI",
+    "url": "https://openai.com/index/clip/"
+  },
+  {
+    "date": "2024-08-07",
+    "title": "Getting Started - Gumloop #feature-ideas ",
+    "url": "https://docs.gumloop.com/api-reference/getting-started"
+  },
+  {
+    "date": "2024-08-07",
+    "title": "GitHub - ax-llm/ax: Build LLM powered Agents and \"Agentic workflows\" based on the Stanford DSP paper.",
+    "url": "https://github.com/ax-llm/ax"
+  },
+  {
+    "date": "2024-08-07",
+    "title": "Paper page - MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine",
+    "url": "https://huggingface.co/papers/2408.02900"
+  },
+  {
+    "date": "2024-08-07",
+    "title": "Qdrant - Vector Database - Qdrant",
+    "url": "https://qdrant.tech/#"
+  },
+  {
+    "date": "2024-08-07",
+    "title": "Vespa - data + AI, online",
+    "url": "https://vespa.ai/"
+  },
+  {
     "date": "2024-08-06",
     "title": "\"Cursorless: A spoken language for editing code\" by Pokey Rule (Strange Loop 2023) - YouTube",
     "url": "https://www.youtube.com/watch?v=NcUJnmBqHTY"
@@ -13,6 +213,16 @@
     "date": "2024-08-06",
     "title": "How I Use \"AI\" #llm",
     "url": "https://nicholas.carlini.com/writing/2024/how-i-use-ai.html#simplify"
+  },
+  {
+    "date": "2024-08-06",
+    "title": "OpenAI: Introducing Structured Outputs in the API",
+    "url": "https://simonwillison.net/2024/Aug/6/openai-structured-outputs/"
+  },
+  {
+    "date": "2024-08-06",
+    "title": "sqlite-vec v0.1.0 Launch Party Notes - Google Docs",
+    "url": "https://docs.google.com/document/d/1INSMR45HKwm-MiYnP5YTIic_7IGyyEw-1SwwmP2zHxw/edit#heading=h.xyau1jyb6vyx"
   },
   {
     "date": "2024-08-04",
