@@ -12,6 +12,7 @@ categories:
     - hackathon
 ---
 # Merritt Secure AI Hackathon Recap
+![Merritt Hackathon Winners](https://photos.app.goo.gl/5Cxk3d5N8NswUEB9A){: width="400px" height="400px" align="center"}
 
 I'm thrilled to share the success of our recent Secure AI Hackathon! Here's a quick overview:
 
