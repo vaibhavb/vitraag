@@ -1,0 +1,44 @@
+name: Update Popular Posts
+
+on:
+  schedule:
+    # Runs at 01:00 UTC every day
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-popular-posts:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'
+
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+    - name: Install dependencies
+      run: |
+        cd data-runners
+        poetry install
+
+    - name: Run update script
+      env:
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+      run: |
+        cd data-runners
+        echo "$GOOGLE_APPLICATION_CREDENTIALS" > google_credentials.json
+        poetry run python update_popular_posts.py --key-file google_credentials.json --output ../_data/popular_posts.yml
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git add _data/popular_posts.yml
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update popular posts" && git push)
