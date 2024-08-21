@@ -17,6 +17,20 @@ categories:
     <div id="commit-graph" class="grid"></div>
   </div>
 
+  <!-- feature: popular posts -->
+  <h2>Popular Posts</h2>
+    <p>Last updated: {{ site.data.popular_posts.last_updated | date: "%Y-%m-%d %H:%M:%S %Z" }}</p>
+    <ul>
+    {% for post in site.data.popular_posts.posts %}
+      <li>
+        <a href="{{ post.path }}">{{ post.title }}</a>
+        ({{ post.pageviews }} views)
+      </li>
+    {% endfor %}
+    </ul>
+  <hr/>
+
+  <h2>Yearly Posts</h2>
 {% assign counter = 0 %}
 {% for post in site.posts %}
   {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}

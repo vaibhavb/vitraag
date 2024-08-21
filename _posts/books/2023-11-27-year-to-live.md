@@ -1,7 +1,7 @@
 ---
 author: vitraag
 comments: true
-date: 2023-11-27 00:09:14+00:00
+date: 2023-11-27 09:09:14+00:00
 layout: post
 slug: happy-reliving-a-year-to-live
 title: Happy Reliving! A Review of Stephen Levine's "A Year to Live"
