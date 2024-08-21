@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Spring Bouquet</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Spring Bouquet</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Spring Bouquet</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Tue Apr 30 23:15:21 2024</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>This week’s roundup takes you on a journey through the vibrant fields of security, coding, and travel. Whether you’re exploring groundbreaking security updates or taking a virtual trip to sunny California beaches, each article serves as a stepping stone to vast knowledge.</p>
+
+<p><img src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="2024 April 30 Topics" /></p>
+
+<h2 id="coding">#coding</h2>
+<ul>
+  <li>[2024-04-25] - <a href="https://github.com/adam-maj/tiny-gpu">GitHub - adam-maj/tiny-gpu: A minimal GPU design in Verilog to learn how GPUs work from the ground up</a><br />
+This project provides a hands-on learning experience for understanding GPU architecture using Verilog.</li>
+  <li>[2024-04-30] - <a href="https://pydantic.dev/logfire">Pydantic Logfire - Uncomplicated observability</a><br />
+Streamline your project’s observability with Pydantic Logfire, ensuring your code’s health is always in check.</li>
+  <li>[2024-04-30] - <a href="https://twitter.com/rubriclabs/status/1719812696575529220?s=46&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Rubric on X: “Introducing → create-rubric-app”</a><br />
+Revolutionize your AI project setup with a single command using create-rubric-app, enhancing full-stack development with type safety and modern tools.</li>
+</ul>
+
+<h2 id="investments">#investments</h2>
+<ul>
+  <li>[2024-04-24] - <a href="https://raincap.vc/">Rain Capital</a><br />
+Dive into the world of venture capital with Rain Capital, focusing on innovative security technology investments.</li>
+</ul>
+
+<h2 id="life">#life</h2>
+<ul>
+  <li>[2024-04-30] - <a href="https://danielmiessler.com/p/human-immortality-using-llms">Human Immortality Using LLMs</a><br />
+Explore the intriguing possibility of achieving human immortality through the application of language models.</li>
+</ul>
+
+<h2 id="llm">#llm</h2>
+<ul>
+  <li>[2024-04-29] - <a href="https://t.co/J0h7dwlf22?ssr=true">AI UX 2024 Demos: Public Directory</a><br />
+A collection of the latest user experience demos for AI applications, showcasing 2024’s innovative design approaches.</li>
+  <li>[2024-04-30] - <a href="https://twitter.com/RubricLabs/status/1719812696575529220">Rubric on X: “Introducing → create-rubric-app”</a><br />
+A new era for AI application development in React, incorporating AI agents for enhanced functionality.</li>
+  <li>[2024-04-30] - <a href="https://arxiv.org/abs/2404.18416">[2404.18416] Capabilities of Gemini Models in Medicine</a><br />
+An academic discussion on the use of Gemini Models in medical applications, detailing their potential and capabilities.</li>
+</ul>
+
+<h2 id="security">#security</h2>
+<ul>
+  <li>[2024-04-24] - <a href="https://medium.com/mitre-attack/attack-v15-26685f300acc">ATT&amp;CK v15 Brings the Action: Upgraded Detections, New Analytic Format, &amp; Cross-Domain Adversary Insights - Medium</a><br />
+MITRE’s latest release includes enhanced detection techniques and insights into adversary strategies across domains.</li>
+  <li>[2024-04-24] - <a href="https://github.com/OWASP/crAPI/blob/develop/docs/overview.md">crAPI/docs/overview.md at develop · OWASP/crAPI</a><br />
+Get acquainted with OWASP’s crAPI project, a comprehensive resource for understanding API security vulnerabilities.</li>
+</ul>
+
+<h2 id="travel">#travel</h2>
+<ul>
+  <li>[2024-04-28] - <a href="https://gatorbythebay.com/">Gator By The Bay May 9-12, 2024 - Live Music, Dance, Food, Fun!</a><br />
+Don’t miss this vibrant festival in San Diego, filled with live music, dance, and culinary delights.</li>
+  <li>[2024-04-28] - <a href="https://www.sandiego.org/explore/things-to-do/beaches-bays/la-jolla.aspx">Guide to La Jolla Beaches – La Jolla Shores, La Jolla Cove and Beyond!</a><br />
+Your ultimate guide to the beautiful beaches of La Jolla, perfect for your next sun-soaked adventure.</li>
+  <li>[2024-04-28] - <a href="https://www.trolleytours.com/san-diego/night-tour">San Diego Night Tours - See San Diego City Lights &amp; Skyline at Night</a><br />
+Experience the stunning city lights of San Diego with a captivating night tour.</li>
+  <li>[2024-04-28] - <a href="https://www.theflowerfields.com/">The Flower Fields - Carlsbad, CA</a><br />
+Explore the colorful expanses of Carlsbad’s flower fields, a visual feast for the eyes.</li>
+</ul>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

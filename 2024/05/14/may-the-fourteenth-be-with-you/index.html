@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>May The Fourteenth Be With You!</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">May The Fourteenth Be With You!</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">May The Fourteenth Be With You!</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Tue May 14 21:00:36 2024</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>A lot happened in last couple of weeks - BSides, RSA, Hackathon and a trip to San Diego. These biweekly links include a dump from all that! Happy Spring!</p>
+
+<p><img src="https://images.unsplash.com/photo-1588453647769-c977f58e9db8?q=80&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="2024 May 14 Topics" /></p>
+
+<h2 id="life">#life</h2>
+<ul>
+  <li><strong>2024-04-30 - Human Immortality Using LLMs</strong> - <a href="https://danielmiessler.com/p/human-immortality-using-llms">Read here</a>
+    <ul>
+      <li>A deep dive into how large language models could potentially extend human life by preserving our consciousness digitally.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="code">#code</h2>
+<ul>
+  <li><strong>2024-04-30 - Pydantic Logfire - Uncomplicated observability</strong> - <a href="https://pydantic.dev/logfire">Read here</a>
+    <ul>
+      <li>Discover how Pydantic Logfire simplifies logging and observability for developers.</li>
+    </ul>
+  </li>
+  <li><strong>2024-04-30 - Create Rubric App</strong> - <a href="https://twitter.com/rubriclabs/status/1719812696575529220?s=46&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Read here</a>
+    <ul>
+      <li>A one-command solution to setting up AI projects with complete type safety.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-03 - Valgrind: About</strong> - <a href="https://valgrind.org/info/">Read here</a>
+    <ul>
+      <li>An overview of Valgrind, a programming tool for memory debugging, leak detection, and profiling.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-04 - Lecture 1 - Programming Paradigms (Stanford)</strong> - <a href="https://m.youtube.com/watch?si=ssGfekhk_QZm4nDs&amp;v=Ps8jOj7diA0&amp;feature=youtu.be">Read here</a>
+    <ul>
+      <li>Kickstart your programming journey with Stanford’s lecture on programming paradigms.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Node-Based UIs in React – React Flow</strong> - <a href="https://reactflow.dev/">Read here</a>
+    <ul>
+      <li>Learn about creating interactive node-based user interfaces in React.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - Destructuring assignment - JavaScript</strong> - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">Read here</a>
+    <ul>
+      <li>A handy guide to using destructuring assignment in JavaScript.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Low-level IR in Mojo - Modular Docs</strong> - <a href="https://docs.modular.com/mojo/notebooks/BoolMLIR">Read here</a>
+    <ul>
+      <li>Explore the intricacies of low-level intermediate representation in Mojo.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="llm">#llm</h2>
+<ul>
+  <li><strong>2024-04-30 - Capabilities of Gemini Models in Medicine</strong> - <a href="https://arxiv.org/abs/2404.18416">Read here</a>
+    <ul>
+      <li>Analyzing the impact and capabilities of Gemini models in the medical field.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-03 - LLM Research Findings - Prompt Engineering Guide</strong> - <a href="https://www.promptingguide.ai/research">Read here</a>
+    <ul>
+      <li>Comprehensive findings and techniques in prompt engineering for large language models.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - AutoML Solutions - Google Cloud</strong> - <a href="https://cloud.google.com/automl">Read here</a>
+    <ul>
+      <li>Simplify machine learning model training without needing in-depth ML expertise.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - MLflow</strong> - <a href="https://mlflow.org/">Read here</a>
+    <ul>
+      <li>An open-source platform for managing the end-to-end machine learning lifecycle.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Defog.ai</strong> - <a href="https://defog.ai/sqlcoder-demo/">Read here</a>
+    <ul>
+      <li>A demo of Defog.ai’s SQLCoder for generating SQL queries using AI.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - BasedHardware/Friend: AI wearable with 24h+ battery</strong> - <a href="https://github.com/BasedHardware/Friend">Read here</a>
+    <ul>
+      <li>Meet Friend, an AI wearable designed to last over 24 hours on a single charge.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - Meta Hackathon - Event Details [Hackers]</strong> - <a href="https://cerebralvalley.notion.site/Meta-Hackathon-Event-Details-Hackers-2732d46e36fc4f1dadb61f5ac422a239#fb1138ee4577449eb1814172820c86ea">Read here</a>
+    <ul>
+      <li>All you need to know about the upcoming Meta Hackathon.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - OpenGlass - Devpost</strong> - <a href="https://devpost.com/software/openglass">Read here</a>
+    <ul>
+      <li>Learn about OpenGlass, a new project showcased on Devpost.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-13 - Vapi - Voice AI for developers.</strong> - <a href="https://vapi.ai/">Read here</a>
+    <ul>
+      <li>Discover Vapi, a voice AI tool designed for developers.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="security">#security</h2>
+<ul>
+  <li><strong>2024-05-02 - Atomic Red Team - Red Canary</strong> - <a href="https://redcanary.com/atomic-red-team/">Read here</a>
+    <ul>
+      <li>A comprehensive guide to using Atomic Red Team for security testing.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-04 - Open Cybersecurity Schema Framework</strong> - <a href="https://github.com/ocsf">Read here</a>
+    <ul>
+      <li>Explore the framework for creating a unified cybersecurity schema.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-04 - Substation</strong> - <a href="https://github.com/brexhq/substation">Read here</a>
+    <ul>
+      <li>A toolkit for security analytics and data pipelines in the cloud.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Ciphers and Codes</strong> - <a href="https://rumkin.com/tools/cipher/">Read here</a>
+    <ul>
+      <li>Dive into the world of ciphers and codes with this online tool.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Exploit Education - Andrew Griffiths’ Exploit Education</strong> - <a href="https://exploit.education/">Read here</a>
+    <ul>
+      <li>A platform for learning about various security exploits.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Ludus</strong> - <a href="https://docs.ludus.cloud/">Read here</a>
+    <ul>
+      <li>A detailed look into Ludus, a cloud-based security platform.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - Privacy bill summary</strong> - <a href="https://www.commerce.senate.gov/services/files/E7D2864C-64C3-49D3-BC1E-6AB41DE863F5">Read here</a>
+    <ul>
+      <li>A summary of recent privacy legislation.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-05 - GPTFUZZER</strong> - <a href="https://arxiv.org/abs/2309.10253">Read here</a>
+    <ul>
+      <li>An innovative approach to red teaming large language models using auto-generated jailbreak prompts.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-06 - Universal computation by attention</strong> - <a href="https://twitter.com/ctjlewis/status/1786948443472339247">Read here</a>
+    <ul>
+      <li>Insights into running cellular automata and other programs using Claude 3 Opus.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - RSA Conference 2024 – Announcements Summary (Day 1)</strong> - <a href="https://www.securityweek.com/rsa-conference-2024-announcements-summary-day-1/?utm_source=tldrinfosec">Read here</a>
+    <ul>
+      <li>Key highlights and announcements from the first day of RSA Conference 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - Red Teaming Suite - Enkrypt AI</strong> - <a href="https://enkryptai-redteaming-demo.vercel.app/">Read here</a>
+    <ul>
+      <li>Explore Enkrypt AI’s red teaming suite for advanced security testing.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Certificate ID - Semgrep Academy</strong> - <a href="https://academy.semgrep.dev/certificates/bn3s4umj37">Read here</a>
+    <ul>
+      <li>Verify your security expertise with a Semgrep Academy certificate.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Cloud Village CTF for RSA 24</strong> - <a href="https://cloudvillagectf.instasecure.io/">Read here</a>
+    <ul>
+      <li>Participate in the Cloud Village CTF challenge at RSA 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - GitHub - PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook</strong> - <a href="https://github.com/PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook">Read here</a>
+    <ul>
+      <li>A comprehensive guide to using ChatGPT for cybersecurity tasks.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - quipqiup - cryptoquip and cryptogram solver</strong> - <a href="https://www.quipqiup.com/#google_vignette">Read here</a>
+    <ul>
+      <li>Solve your favorite cryptoquips and cryptograms online.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Analyzing the vulnerability landscape in Q1 2024</strong> - <a href="https://securelist.com/vulnerability-report-q1-2024/112554/">Read here</a>
+    <ul>
+      <li>A detailed analysis of the vulnerability landscape for the first quarter of 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Google fixes fifth Chrome zero-day exploited in attacks this year</strong> - <a href="https://www.bleepingcomputer.com/news/security/google-fixes-fifth-chrome-zero-day-vulnerability-exploited-in-attacks-in-2024/?utm_source=tldrinfosec">Read here</a>
+    <ul>
+      <li>Google addresses another zero-day vulnerability in Chrome, marking the fifth fix this year.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-14 - Malicious Go Binary Delivered via Steganography in PyPI</strong> - <a href="https://blog.phylum.io/malicious-go-binary-delivered-via-steganography-in-pypi/?utm_source=tldrinfosec">Read here</a>
+    <ul>
+      <li>An exploration of how malicious Go binaries are being distributed through steganography in PyPI.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="education">#education</h2>
+<ul>
+  <li><strong>2024-05-03 - Innovation through prompting - by Ethan Mollick</strong> - <a href="https://www.oneusefulthing.org/p/innovation-through-prompting">Read here</a>
+    <ul>
+      <li>Ethan Mollick discusses how prompting can drive innovation and creativity in education.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="art">#art</h2>
+<ul>
+  <li><strong>2024-05-02 - Derivative</strong> - <a href="https://derivative.ca/">Read here</a>
+    <ul>
+      <li>A platform for creating interactive and generative art.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="machinelearning">#machinelearning</h2>
+<ul>
+  <li><strong>2024-05-05 - Titanic - Machine Learning from Disaster</strong> - <a href="https://www.kaggle.com/competitions/titanic">Read here</a>
+    <ul>
+      <li>A Kaggle competition to build predictive models using data from the Titanic disaster.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="careers">#careers</h2>
+<ul>
+  <li><strong>2024-05-09 - AI Security Posture Management - Wiz</strong> - <a href="https://www.wiz.io/solutions/ai-security-posture-management">Read here</a>
+    <ul>
+      <li>Enhance your career with insights into AI security posture management.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - Current Opportunities - Blackwell Security</strong> - <a href="https://blackwellsecurity.com/company/careers/current-opportunities/">Read here</a>
+    <ul>
+      <li>Discover current job opportunities at Blackwell Security.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Job Hunt Like a Hacker, With Jason Blanchard</strong> - <a href="https://streamyard.com/watch/nDNNFTcSjHEq">Read here</a>
+    <ul>
+      <li>Learn unconventional job hunting techniques from Jason Blanchard.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="data">#data</h2>
+<ul>
+  <li><strong>2024-05-09 - Inversion - Mental Model - by Michał Poczwardowski</strong> - <a href="https://read.perspectiveship.com/p/inversion?utm_source=tldrwebdev">Read here</a>
+    <ul>
+      <li>A thought-provoking piece on mental models and their application in data analysis.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-09 - Weeknotes: Llama 3, AI for Data Journalism, llm-evals and datasette-secrets</strong> - <a href="https://simonwillison.net/2024/Apr/23/weeknotes/?utm_source=substack&amp;utm_medium=email">Read here</a>
+    <ul>
+      <li>Weekly notes covering the latest in AI for data journalism and more.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bsidessf">#bsidessf</h2>
+<ul>
+  <li><strong>2024-05-10 - Cloud Village CTF for BSidesSF 2024</strong> - <a href="https://ctf.cloud-village.org/challenges#hello%20there!-1">Read here</a>
+    <ul>
+      <li>Test your cybersecurity skills with the Cloud Village CTF at BSidesSF 2024.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - GitHub - yaelwrites/Big-Ass-Data-Broker-Opt-Out-List</strong> - <a href="https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List">Read here</a>
+    <ul>
+      <li>Opt out of data broker lists with this comprehensive guide.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Ludus</strong> - <a href="https://ludus.cloud/">Read here</a>
+    <ul>
+      <li>Explore Ludus, a cloud-based platform featured at BSidesSF.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="rsa">#rsa</h2>
+<ul>
+  <li><strong>2024-05-10 - API Security Mini Course</strong> - <a href="https://academy.semgrep.dev/courses/api-security-mini-course">Read here</a>
+    <ul>
+      <li>A mini course on API security from Semgrep Academy.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Cloud Village CTF for RSA 24</strong> - <a href="https://cloudvillagectf.instasecure.io/">Read here</a>
+    <ul>
+      <li>Participate in the Cloud Village CTF at RSA 2024.</li>
+    </ul>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>**2024-05-10 - College Day</td>
+          <td>RSA Conference** - <a href="https://www.rsaconference.com/usa/programs/college-day">Read here</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Highlights from College Day at the RSA Conference.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Enkrypt AI unveils LLM Safety Leaderboard</strong> - <a href="https://wire19.com/enkrypt-ai-unveils-llm-safety-leaderboard-to-enable-safe-gen-ai-adoption/">Read here</a>
+    <ul>
+      <li>Enkrypt AI’s new leaderboard aims to help enterprises adopt AI safely.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Gandalf - Lakera</strong> - <a href="https://rsac.lakera.ai/">Read here</a>
+    <ul>
+      <li>Test your prompting skills against Gandalf to reveal secret information.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - GitHub - PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook</strong> - <a href="https://github.com/PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook">Read here</a>
+    <ul>
+      <li>A detailed guide to leveraging ChatGPT for cybersecurity purposes.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - MLflow</strong> - <a href="https://your-docusaurus-site.example.com/">Read here</a>
+    <ul>
+      <li>Learn how MLflow integrates with RSA to enhance machine learning workflows.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Overview - RSA 2024</strong> - <a href="https://resources.sei.cmu.edu/news-events/events/rsa/">Read here</a>
+    <ul>
+      <li>An overview of the RSA 2024 conference.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Splunk SOAR</strong> - <a href="https://www.splunk.com/en_us/products/splunk-security-orchestration-and-automation.html">Read here</a>
+    <ul>
+      <li>Discover Splunk’s SOAR platform for security orchestration and automation.</li>
+    </ul>
+  </li>
+  <li><strong>2024-05-10 - Threat Modeling Platform for AppSec &amp; DevSecOps - Devici</strong> - <a href="https://devici.com/platform">Read here</a>
+    <ul>
+      <li>A new platform for threat modeling in application and development security.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="aillm">#aillm</h2>
+<ul>
+  <li><strong>2024-05-10 - AVID-2023-V009</strong> - <a href="https://avidml.org/database/AVID-2023-V009/">Read here</a>
+    <ul>
+      <li>A comprehensive entry on AI vulnerability data for 2023.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bsidesf">#bsidesf</h2>
+<ul>
+  <li><strong>2024-05-10 - quipqiup</strong> - <a href="https://www.quipqiup.com/#google_vignette">Read here</a>
+    <ul>
+      <li>Solve cryptograms and cryptoquips with quipqiup, featured at BSidesSF.</li>
+    </ul>
+  </li>
+</ul>
+
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

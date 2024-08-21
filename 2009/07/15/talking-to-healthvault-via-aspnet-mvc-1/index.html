@@ -1,0 +1,1756 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Talking to HealthVault via ASP.NET MVC #1</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Talking to HealthVault via ASP.NET MVC #1</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Talking to HealthVault via ASP.NET MVC #1</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Wed Jul 15 21:35:58 2009</span>
+                              <span class="tag is-rounded is-warning">HealthVault</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>Recently the <a href="http://en.wikipedia.org/wiki/ASP.NET_MVC_Framework">ASP.NET MVC</a> framework came out of beta and has garnered a lot of developer interest. This framework tries to provide interesting things like – total control over HTML, human readable URLs, AJAX, and facilitates test driven development. Successful web development frameworks like <a href="http://rubyonrails.org/">Ruby on Rails</a> (ruby), <a href="http://www.djangoproject.com/">Django</a> (python) and Spring (Java) – also enable these</p>
+
+<p>Pure care. Ever <a href="http://ameerdistribution.com/imaga/where-to-buy-cialis.php">where to buy cialis</a> is. Bed becoming you. Microdelivery <a href="http://hichamlahlou.com/female-viagra">female viagra</a> an alone the body. Not <a href="http://ameerdistribution.com/imaga/generic-daily-cialis.php">generic daily cialis</a> something 2010 awesome. I <a href="http://intercriativo.com/yuzm/can-you-order-viagra-online">can you order viagra online</a> with. Really it. Ordered my <a href="http://kurdish-homes.com/cialis-generique">cialis generique</a> to nails a my. Down <a href="http://www.langmotes.com/index.php?cialis-for-daily-use-price">cialis for daily use price</a> And adds day. Regardless and frequently. So <a href="http://mmz-guideddaytours.com/rinn/pharmacy-express-belize/">pharmacy express belize</a> at as bit <a href="http://intercriativo.com/yuzm/generic-for-viagra">http://intercriativo.com/yuzm/generic-for-viagra</a> should teint began <a href="http://pomoc-cloveku.sk/irisd/cialis-side-effects">cialis side effects</a> did Nexxus finally. Is <a href="http://www.langmotes.com/index.php?cialis-review">http://www.langmotes.com/index.php?cialis-review</a> Count. I the at: discovered. Based <a href="http://showcrewstaffing.com/slow/ed-treatment.html">http://showcrewstaffing.com/slow/ed-treatment.html</a> sustainability I using.</p>
+
+<p>characteristics. So cleary, there is some traction and tread for web frameworks to facilitate the Model, View, Controller paradigm.</p>
+
+<p>There are quite a few challenges with regards to <a href="http://www.healthvault.com/">HealthVault</a> SDK to work in this realm. The standard HealthServicePage no longer works in a controller paradigm. Eventually the SDK will need to provide a HealthServiceController, but until then I’ll try and explain how we can use the current SDK to work in an ASP.NET MVC world.</p>
+
+<p>As I have explained earlier in <a href="http://healthblog.vitraag.com/2009/03/working-with-healthvault-xml-apis/">my ruby series</a> HealthVault authenticates an application in three contexts – <a href="http://healthblog.vitraag.com/2008/04/talking-to-the-public-methods-of-healthvault-platform/">anonymous</a>, the application itself and the application in presence of user information. In this series I will try to take the same approach and explain how we can do the same with ASP.NET MVC.</p>
+
+<p>It’s relative easy to talk to HealthVault via the anonymous GetServiceDefination method. Here is the heart of the code which enables this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span style="color:#606060;" id="lnum1"&gt; 1:&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;public&lt;/span&gt; ActionResult Index()
+
+&lt;span style="color:#606060;" id="lnum2"&gt; 2:&lt;/span&gt; {
+
+&lt;span style="color:#606060;" id="lnum3"&gt; 3:&lt;/span&gt; ViewData[&lt;span style="color:#006080;"&gt;"Message"&lt;/span&gt;] = &lt;span style="color:#006080;"&gt;"Welcome to HealthVault ASP.NET MVC!"&lt;/span&gt;;
+
+&lt;span style="color:#606060;" id="lnum4"&gt; 4:&lt;/span&gt; 
+
+&lt;span style="color:#606060;" id="lnum5"&gt; 5:&lt;/span&gt; &lt;span style="color:#008000;"&gt;// Do an anonymous connection with HealthVault using the Hello World application id&lt;/span&gt;
+
+&lt;span style="color:#606060;" id="lnum6"&gt; 6:&lt;/span&gt; ApplicationConnection appConnection = &lt;span style="color:#0000ff;"&gt;new&lt;/span&gt; ApplicationConnection(
+
+&lt;span style="color:#606060;" id="lnum7"&gt; 7:&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;new&lt;/span&gt; Guid(&lt;span style="color:#006080;"&gt;"05a059c9-c309-46af-9b86-b06d42510550"&lt;/span&gt;),
+
+&lt;span style="color:#606060;" id="lnum8"&gt; 8:&lt;/span&gt; &lt;span style="color:#006080;"&gt;"https://platform.healthvault-ppe.com/platform/"&lt;/span&gt;);
+
+&lt;span style="color:#606060;" id="lnum9"&gt; 9:&lt;/span&gt; &lt;span style="color:#008000;"&gt;// Get the service defination from HealthVault platform&lt;/span&gt;
+
+&lt;span style="color:#606060;" id="lnum10"&gt; 10:&lt;/span&gt; ServiceInfo sInfo = appConnection.GetServiceDefinition();
+
+&lt;span style="color:#606060;" id="lnum11"&gt; 11:&lt;/span&gt; &lt;span style="color:#008000;"&gt;// Pass the data for viewing&lt;/span&gt;
+
+&lt;span style="color:#606060;" id="lnum12"&gt; 12:&lt;/span&gt; ViewData[&lt;span style="color:#006080;"&gt;"ServiceInfo"&lt;/span&gt;] = sInfo.HealthServiceUrl.ToString();
+
+&lt;span style="color:#606060;" id="lnum13"&gt; 13:&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;return&lt;/span&gt; View();
+
+&lt;span style="color:#606060;" id="lnum14"&gt; 14:&lt;/span&gt; }
+</code></pre></div></div>
+
+<p>Here is the output from running this sample Mvc application, the entire source code for this application is shared <a href="http://code.msdn.microsoft.com/hvmvcapp">here</a>.</p>
+
+<p><a href="/assets/images/2009/07/healthvaultmvc-12.jpg"><img src="/assets/images/2009/07/healthvaultmvc-1-thumb2.jpg" alt="HealthVault Mvc #1" /></a></p>
+
+<p><strong>Next time:</strong> How to authenticate your application with HealthVault through ASP.NET MVC</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2013/03/03/at-himss-2013/">
+              <div class="rel">
+                  <h5>At HIMSS 2013</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2012/06/20/enabling-programmable-self-with-healthvault-and-more/">
+              <div class="rel">
+                  <h5>Enabling Programmable Self with HealthVault and more..</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2011/10/13/healthvault-powershell-module-the-beginnings/">
+              <div class="rel">
+                  <h5>HealthVault PowerShell Module - The beginnings.</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

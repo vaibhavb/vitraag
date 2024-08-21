@@ -1,0 +1,554 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>August Adventures</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">August Adventures</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">August Adventures</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Tue Aug  6 17:45:55 2024</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>So, I’ve been lazy in posting all my reading links for last few weeks. Last few weeks I ended up organizing a security hackathon, creating a homelab and working on some fun art project. I’ll write more about these soon. But for now the reading links are below:</p>
+
+<h2 id="security">#security</h2>
+<ul>
+  <li><strong>2024-07-16</strong> - <a href="https://www.youtube.com/watch?v=gTCZ-g-cbbE">Building my new PROXMOX lab - YouTube</a> - A video tutorial on setting up a new PROXMOX lab.</li>
+  <li><strong>2024-07-16</strong> - <a href="https://seedsecuritylabs.org/index.html">SEED Project</a> - Learn about the SEED project, which provides hands-on labs for teaching security concepts.</li>
+  <li><strong>2024-07-30</strong> - <a href="https://ambient.ai/">Prevent security incidents with computer vision intelligence - Ambient.ai</a> - Ambient.ai discusses using computer vision to prevent security incidents.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://github.com/Orange-Cyberdefense/GOAD">GitHub - Orange-Cyberdefense/GOAD: game of active directory</a> - A tool for simulating Active Directory environments for security training.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://rfhackers.com/">RF Hackers Sanctuary - @wctf</a> - A community resource for RF hackers, including challenges and tools.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://www.secureworks.com/research/transitive-trust">Transitive Trust and SSL/TLS Interception Proxies - Secureworks</a> - An article on the security implications of SSL/TLS interception proxies.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://github.com/hackgnar/ble_ctf/blob/master/docs/workshop_setup.md">ble_ctf/docs/workshop_setup.md at master - hackgnar/ble_ctf - GitHub</a> - Instructions for setting up a Bluetooth Low Energy Capture The Flag (BLE CTF) workshop.</li>
+</ul>
+
+<h2 id="health">#health</h2>
+<ul>
+  <li><strong>2024-07-17</strong> - <a href="https://near.blog/blueprint-1-0-review/">Blueprint 1.0 Review - near.blog</a> - A review of the Blueprint 1.0 health and wellness program.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://diyps.org/2023/04/14/how-i-use-llms-like-chatgpt-and-tips-for-getting-started/">How I Use LLMs like ChatGPT And Tips For Getting Started - DIYPS.org</a> - Insights on using large language models like ChatGPT in healthcare.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867523">Patient Perspectives on Large Language Model Responses to Patient Messages - SSRN</a> - A study on patient perspectives regarding LLM responses to their messages.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://pubmed.ncbi.nlm.nih.gov/37913954/">Pilot applications of GPT-4 in radiation oncology - PubMed</a> - Research on using GPT-4 for summarizing patient symptoms and chatbot applications in oncology.</li>
+</ul>
+
+<h2 id="investments">#investments</h2>
+<ul>
+  <li><strong>2024-07-18</strong> - <a href="https://www.maruet.com/investments">Investments - Maruet</a> - An overview of investment opportunities with Maruet.</li>
+  <li><strong>2024-07-21</strong> - <a href="https://calypsocopilot.com/">Calypso - Your AI-First Public Equities Copilot</a> - An AI tool designed to assist with public equities investments.</li>
+</ul>
+
+<h2 id="llm">#llm</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://www.datacomp.ai/dclm/">DataComp</a> - Information on DataComp, a competition for large language models.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://nicholas.carlini.com/writing/2024/how-i-use-ai.html#simplify">How I Use “AI” - Nicholas Carlini</a> - A personal account of how the author uses AI tools.</li>
+</ul>
+
+<h2 id="cs">#cs</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a> - A guide to self-studying computer science.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HyznrdDSSGM&amp;list=PLowKtXNTBypGqImE405J2565dvjafglHU">8-bit computer update - YouTube</a> - A video update on building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://eater.net/8bit/kits">Build an 8-bit computer - Ben Eater</a> - Instructions and kits for building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HaBMAD-Dr8M&amp;list=PLnAxReCloSeTJc8ZGogzjtCtXl_eE6yzA&amp;index=2">Logic gates - From transistors to logic gates NAND, AND, NOR, OR, NOT, XOR how computers work PART 1 - YouTube</a> - A tutorial on how logic gates work in computers.</li>
+</ul>
+
+<h2 id="healthcare">#healthcare</h2>
+<ul>
+  <li><strong>2024-07-24</strong> - <a href="https://diyps.org/2023/04/14/how-i-use-llms-like-chatgpt-and-tips-for-getting-started/">How I Use LLMs like ChatGPT And Tips For Getting Started - DIYPS.org</a> - Insights on using large language models like ChatGPT in healthcare.</li>
+</ul>
+
+<h2 id="ideas">#ideas</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://becknprotocol.io/">Home - Beckn protocol</a> - Information on the Beckn protocol, aimed at creating open digital commerce ecosystems.</li>
+</ul>
+
+<h2 id="code">#code</h2>
+<ul>
+  <li><strong>2024-08-03</strong> - <a href="https://simonwillison.net/2024/Jul/31/aider/">Aider</a> - A tool for AI-assisted code review and refactoring.</li>
+</ul>
+
+<h2 id="books">#books</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="toread">#toread</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="healthcare-1">#healthcare</h2>
+<ul>
+  <li><strong>2024-07-24</strong> - <a href="https://diyps.org/2023/04/14/how-i-use-llms-like-chatgpt-and-tips-for-getting-started/">How I Use LLMs like ChatGPT And Tips For Getting Started - DIYPS.org</a> - Insights on using large language models like ChatGPT in healthcare.</li>
+</ul>
+
+<h2 id="ideas-1">#ideas</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://becknprotocol.io/">Home - Beckn protocol</a> - Information on the Beckn protocol, aimed at creating open digital commerce ecosystems.</li>
+</ul>
+
+<h2 id="code-1">#code</h2>
+<ul>
+  <li><strong>2024-08-03</strong> - <a href="https://simonwillison.net/2024/Jul/31/aider/">Aider</a> - A tool for AI-assisted code review and refactoring.</li>
+</ul>
+
+<h2 id="books-1">#books</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="toread-1">#toread</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="llm-1">#llm</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://www.datacomp.ai/dclm/">DataComp</a> - Information on DataComp, a competition for large language models.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://nicholas.carlini.com/writing/2024/how-i-use-ai.html#simplify">How I Use “AI” - Nicholas Carlini</a> - A personal account of how the author uses AI tools.</li>
+</ul>
+
+<h2 id="cs-1">#cs</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a> - A guide to self-studying computer science.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HyznrdDSSGM&amp;list=PLowKtXNTBypGqImE405J2565dvjafglHU">8-bit computer update - YouTube</a> - A video update on building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://eater.net/8bit/kits">Build an 8-bit computer - Ben Eater</a> - Instructions and kits for building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HaBMAD-Dr8M&amp;list=PLnAxReCloSeTJc8ZGogzjtCtXl_eE6yzA&amp;index=2">Logic gates - From transistors to logic gates NAND, AND, NOR, OR, NOT, XOR how computers work PART 1 - YouTube</a> - A tutorial on how logic gates work in computers.</li>
+</ul>
+
+<h2 id="tech">#tech</h2>
+<ul>
+  <li><strong>2024-07-15</strong> - <a href="https://github.com/OpenBB-finance/openbb-agents/blob/main/getting_started.ipynb">OpenBB-finance/openbb-agents - GitHub</a> - A guide to getting started with OpenBB agents.</li>
+  <li><strong>2024-07-19</strong> - <a href="https://github.com/exo-explore/exo">GitHub - exo-explore/exo: Run your own AI cluster at home</a> - Instructions on running an AI cluster with everyday devices.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://tteck.github.io/Proxmox/">Proxmox VE Helper-Scripts</a> - Collection of helper scripts for managing Proxmox VE.</li>
+  <li><strong>2024-07-25</strong> - <a href="https://sre.google/sre-book/foreword/">Google - Site Reliability Engineering</a> - Foreword of the Google SRE book.</li>
+  <li><strong>2024-07-25</strong> - <a href="https://map.reventure.app/dashboard">Reventure App</a> - An app for exploring real estate investment opportunities.</li>
+  <li><strong>2024-07-26</strong> - <a href="https://www.udemy.com/course/proxmox-virtualization-environment-complete-training/?referralCode=8E7EAFD11C2389F89C11&amp;couponCode=ST3MT72524">Proxmox VE 8: A Comprehensive Virtualization Course 2024 - Udemy</a> - A comprehensive course on Proxmox VE 8.</li>
+  <li><strong>2024-07-27</strong> - <a href="https://0xinfection.github.io/reversing/">Introduction - Reverse Engineering</a> - Introduction to reverse engineering concepts.</li>
+  <li><strong>2024-07-27</strong> - <a href="https://www.smartmontools.org/">smartmontools</a> - A set of tools for monitoring storage devices using S.M.A.R.T.</li>
+  <li><strong>2024-07-30</strong> - <a href="https://arxiv.org/abs/2407.08708">Future-proof benchmark for vulnerability detection in the wild - arxiv.org</a> - A research paper on a benchmark for vulnerability detection.</li>
+  <li><strong>2024-08-01</strong> - <a href="https://www.raspberrypi.com/tutorials/running-pi-hole-on-a-raspberry-pi/">Block ads at home with Pi-hole - Raspberry Pi</a> - Tutorial on blocking ads with Pi-hole on a Raspberry Pi.</li>
+  <li><strong>2024-08-01</strong> - <a href="https://pimylifeup.com/raspberry-pi-proxmox/">How to Install Proxmox on the Raspberry Pi - Pi My Life Up</a> - A guide to installing Proxmox on a Raspberry Pi.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://alexgarcia.xyz/blog/2024/sqlite-lembed-init/index.html">Introducing sqlite-lembed: A SQLite extension for generating text embeddings locally - Alex Garcia’s Blog</a> - A blog post introducing a SQLite extension for generating text embeddings.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://frontpage.gcsu.edu/node/17110">Jain Studies students see the great and ancient temples of India - Front Page</a> - An article on Jain Studies students visiting ancient temples in India.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.wsj.com/lifestyle/workplace/american-workers-loneliness-research-35793dc4">The Loneliness of the American Worker - WSJ</a> - An article on research about loneliness among American workers.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://drive.google.com/file/d/1RhRowqbIJ6c6_C6roymO-dvlOkT9ONRj/view">Vegan Paryushan Cookbook (2024 Edition) - Google Drive</a> - A cookbook with vegan recipes for Paryushan.</li>
+  <li><strong>2024-08-03</strong> - <a href="https://www.ai2incubator.com/">AI2 Incubator</a> - Information on the AI2 Incubator program.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://chromewebstore.google.com/detail/youtube-summary-with-chat/nmmicjeknamkfloonkhhcjmomieiodli?pli=1">YouTube Summary with ChatGPT &amp; Claude - Chrome Web Store</a> - A Chrome extension for summarizing YouTube videos with ChatGPT and Claude.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://www.youtube.com/watch?v=NcUJnmBqHTY">Cursorless: A spoken language for editing code by Pokey Rule (Strange Loop 2023) - YouTube</a> - A presentation on a spoken language for editing code.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://www.youtube.com/watch?v=GVsUOuSjvcg">Future Computers Will Be Radically Different (Analog Computing) - YouTube</a> - A video discussing the future of analog computing.</li>
+</ul>
+
+<p>PS:
+Here is a tool to review all my <a href="https://www.vitraag.com/bookmarks">2024 bookmarks</a></p>
+
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/05/27/memorial-day-may-links/">
+              <div class="rel">
+                  <h5>Memorial Day May Links</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

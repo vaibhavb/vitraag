@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator><link href="https://www.vitraag.com//feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.vitraag.com//" rel="alternate" type="text/html" /><updated>2024-08-21T22:35:12+00:00</updated><id>https://www.vitraag.com//feed.xml</id><title type="html">Vaibhav Bhandari Homepage</title><subtitle>Vaibhav Bhandari Homepage</subtitle><author><name>Vaibhav Bhandari</name></author><entry><title type="html">Top Security Controls</title><link href="https://www.vitraag.com//2024/08/20/top-security-controls/" rel="alternate" type="text/html" title="Top Security Controls" /><published>2024-08-20T19:18:18+00:00</published><updated>2024-08-20T19:18:18+00:00</updated><id>https://www.vitraag.com//2024/08/20/top-security-controls</id><content type="html" xml:base="https://www.vitraag.com//2024/08/20/top-security-controls/"><![CDATA[<h1 id="infosec-controls-standards-and-implementation-table">InfoSec Controls, Standards, and Implementation Table</h1>
+
+<p>Based on my experience as a software security engineer implementing security products, tools, and policies, I’ve found the following controls to be most relevant. This table outlines how I typically implement these controls, aligning with standards like SOC2, PCI DSS, ISO 27001, CSA STAR-1, and NIST. While not exhaustive, this approach provides a solid foundation for organizations seeking to enhance their security posture across various compliance frameworks.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Technical Control</th>
+      <th>Relevant Standards</th>
+      <th>Implementation with Policies and Standards</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Identity and Access Management (IAM)</td>
+      <td>SOC2: CC6.1, CC6.2, CC6.3<br />PCI DSS: Req. 7, 8<br />ISO 27001: A.9<br />CSA STAR-1: IAM-02, IAM-05, IAM-09<br />NIST SP 800-53: AC-2, IA-2, IA-5</td>
+      <td>- Implement an IAM policy<br />- Develop access control procedures<br />- Create user provisioning and de-provisioning processes<br />- Establish password policies<br />- Implement multi-factor authentication</td>
+    </tr>
+    <tr>
+      <td>2. Network Security</td>
+      <td>SOC2: CC6.6, CC6.7<br />PCI DSS: Req. 1, 11<br />ISO 27001: A.13<br />CSA STAR-1: IVS-06, IVS-07, IVS-13<br />NIST SP 800-53: SC-7, AC-4, SI-4</td>
+      <td>- Develop network security policy<br />- Implement firewall configuration standards<br />- Create IDS/IPS monitoring procedures<br />- Establish VPN usage guidelines<br />- Implement network segmentation</td>
+    </tr>
+    <tr>
+      <td>3. Encryption</td>
+      <td>SOC2: CC6.7<br />PCI DSS: Req. 3, 4<br />ISO 27001: A.10<br />CSA STAR-1: EKM-02, EKM-03<br />NIST SP 800-53: SC-8, SC-13, SC-28</td>
+      <td>- Create data classification policy<br />- Develop encryption standards for data at rest and in transit<br />- Establish key management procedures<br />- Implement cryptographic module validation</td>
+    </tr>
+    <tr>
+      <td>4. Endpoint Protection</td>
+      <td>SOC2: CC6.8<br />PCI DSS: Req. 5<br />ISO 27001: A.8<br />CSA STAR-1: MOS-03, MOS-04, MOS-20<br />NIST SP 800-53: SI-3, SI-7, CM-7</td>
+      <td>- Implement endpoint security policy<br />- Develop BYOD guidelines<br />- Create malware protection standards<br />- Establish mobile device management procedures<br />- Implement application whitelisting</td>
+    </tr>
+    <tr>
+      <td>5. Logging and Monitoring</td>
+      <td>SOC2: CC7.2, CC7.3<br />PCI DSS: Req. 10<br />ISO 27001: A.12.4<br />CSA STAR-1: IVS-01, LOG-01<br />NIST SP 800-53: AU-2, AU-6, SI-4</td>
+      <td>- Develop logging and monitoring policy<br />- Create incident response procedures<br />- Establish alert thresholds and escalation processes<br />- Implement log retention standards<br />- Conduct regular log reviews</td>
+    </tr>
+    <tr>
+      <td>6. Patch and Vulnerability Management</td>
+      <td>SOC2: CC7.1<br />PCI DSS: Req. 6<br />ISO 27001: A.12.6<br />CSA STAR-1: TVM-02, TVM-03<br />NIST SP 800-53: RA-5, SI-2, CM-8</td>
+      <td>- Create vulnerability management policy<br />- Develop patch management procedures<br />- Establish vulnerability scanning frequency standards<br />- Implement a responsible disclosure policy<br />- Maintain software/hardware inventory</td>
+    </tr>
+    <tr>
+      <td>7. Secure Development Practices</td>
+      <td>SOC2: CC8.1<br />PCI DSS: Req. 6<br />ISO 27001: A.14<br />CSA STAR-1: AIS-01, AIS-02<br />NIST SP 800-53: SA-8, SA-11, SA-15</td>
+      <td>- Implement secure SDLC policy<br />- Develop coding standards<br />- Create change management procedures<br />- Establish security testing requirements<br />- Implement security-focused code reviews</td>
+    </tr>
+    <tr>
+      <td>8. Backup and Recovery</td>
+      <td>SOC2: CC7.4<br />PCI DSS: Req. 9, 12.10<br />ISO 27001: A.12.3, A.17<br />CSA STAR-1: BCR-01, BCR-02, BCR-03<br />NIST SP 800-53: CP-9, CP-10, IR-4</td>
+      <td>- Develop backup and recovery policy<br />- Create disaster recovery plan<br />- Establish backup frequency and retention standards<br />- Implement business continuity testing procedures<br />- Conduct regular recovery exercises</td>
+    </tr>
+    <tr>
+      <td>9. Cloud Security</td>
+      <td>SOC2: CC6.6, CC6.7<br />PCI DSS: Req. 1, 2, 4<br />ISO 27001: A.13, A.15<br />CSA STAR-1: IVS-08, IVS-09<br />NIST SP 800-53: AC-20, SA-9, SC-7</td>
+      <td>- Develop cloud security policy<br />- Create cloud provider assessment procedures<br />- Establish data residency requirements<br />- Implement cloud configuration standards<br />- Establish cloud service provider oversight</td>
+    </tr>
+    <tr>
+      <td>10. Data Loss Prevention (DLP)</td>
+      <td>SOC2: CC6.7<br />PCI DSS: Req. 3, 4<br />ISO 27001: A.8.2, A.13.2<br />CSA STAR-1: DCS-01, DSI-02<br />NIST SP 800-53: SC-7, AC-4, SI-4</td>
+      <td>- Create data handling policy<br />- Develop data classification standards<br />- Establish DLP monitoring procedures<br />- Implement data exfiltration controls<br />- Conduct regular data flow mapping</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>vitraag</name></author><category term="cybersecurity" /><summary type="html"><![CDATA[InfoSec Controls, Standards, and Implementation Table]]></summary></entry><entry><title type="html">August Avenues</title><link href="https://www.vitraag.com//2024/08/15/august-avenues/" rel="alternate" type="text/html" title="August Avenues" /><published>2024-08-15T17:45:55+00:00</published><updated>2024-08-15T17:45:55+00:00</updated><id>https://www.vitraag.com//2024/08/15/august-avenues</id><content type="html" xml:base="https://www.vitraag.com//2024/08/15/august-avenues/"><![CDATA[<p>This last week has been lots of avenues and ideas, so boringly naming it as August Avenues! Lots of concrete project ideas in the AI space (like Ax framework), tinkering projects for home labs (like Wyoming Satellite) and health improvement ideas from voice programming (Talon and blogs).</p>
+
+<h2 id="ai">AI</h2>
+<ul>
+  <li><strong>2024-08-06</strong> - <a href="https://simonwillison.net/2024/Aug/6/openai-structured-outputs/">OpenAI: Introducing Structured Outputs in the API</a><br />
+Simon Willison discusses new structured outputs in OpenAI’s API to enhance data organization.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://nicholas.carlini.com/writing/2024/how-i-use-ai.html#simplify">How I Use “AI”</a><br />
+Nicholas Carlini shares his approach to utilizing AI in practical applications.</li>
+  <li><strong>2024-08-07</strong> - <a href="https://openai.com/index/clip/">CLIP: Connecting text and images | OpenAI</a><br />
+OpenAI’s CLIP technology that bridges the gap between textual and visual information.</li>
+  <li><strong>2024-08-07</strong> - <a href="https://axllm.dev/">Ax framework</a><br />
+An overview of the Ax framework for building LLM-powered agents.</li>
+  <li><strong>2024-08-12</strong> - <a href="https://search.app/iNPKXdheRRS4eDN69">Anthropic AI Bug Bounty Program</a><br />
+Anthropic AI introduces a bug bounty with rewards for discovering vulnerabilities.</li>
+  <li><strong>2024-08-13</strong> - <a href="https://x.com/karpathy/status/1823418177197646104?s=46">Andrej Karpathy on SQL Injection-like Attacks on LLMs</a><br />
+Karpathy warns about security issues in LLMs similar to SQL injection attacks.</li>
+</ul>
+
+<h2 id="coding">Coding</h2>
+<ul>
+  <li><strong>2024-08-06</strong> - <a href="https://www.youtube.com/watch?v=NcUJnmBqHTY">Cursorless: A spoken language for editing code</a><br />
+A YouTube video introducing Cursorless, a new spoken language designed for code editing.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://www.youtube.com/watch?v=GVsUOuSjvcg">(32) Future Computers Will Be Radically Different</a><br />
+A glimpse into how future computers might evolve, presented in a YouTube video.</li>
+  <li><strong>2024-08-16</strong> - <a href="https://www.joshwcomeau.com/blog/hands-free-coding/">Coding with voice dictation using Talon Voice</a><br />
+Josh Comeau explores hands-free coding with voice dictation using Talon Voice.</li>
+</ul>
+
+<h2 id="security">Security</h2>
+<ul>
+  <li><strong>2024-08-07</strong> - <a href="https://pierrekim.github.io/blog/2024-06-27-sharp-mfp-17-vulnerabilities.html">17 vulnerabilities in Sharp Multi-Function Printers</a><br />
+An IT security report detailing 17 vulnerabilities found in Sharp multi-function printers.</li>
+  <li><strong>2024-08-09</strong> - <a href="https://cybermyte.io/about/">About - CyberMyte</a><br />
+Introduction to CyberMyte, a resource on cybersecurity.</li>
+  <li><strong>2024-08-12</strong> - <a href="https://www.cablelabs.com/blog/false-base-station-or-imsi-catcher-what-you-need-to-know/amp">False Base Station or IMSI Catcher</a><br />
+A guide on IMSI catchers and how they can be misused as false base stations.</li>
+</ul>
+
+<h2 id="investing">Investing</h2>
+<ul>
+  <li><strong>2024-08-14</strong> - <a href="https://www.currentmarketvaluation.com/">Current Market Valuation</a><br />
+A website providing current insights into market valuations.</li>
+  <li><strong>2024-08-14</strong> - <a href="https://valuesider.com/guru/michael-burry-scion-asset-management/portfolio">Michael Burry Portfolio (2024 Q1)</a><br />
+Details on Michael Burry’s portfolio and holdings for the first quarter of 2024.</li>
+</ul>
+
+<h2 id="yoga">Yoga</h2>
+<ul>
+  <li><strong>2024-08-09</strong> - <a href="https://missionashtangayoga.com/">Mission Ashtanga | Mysore Style Ashtanga Yoga in San Francisco</a><br />
+Information about Mission Ashtanga’s Mysore style yoga classes in San Francisco.</li>
+  <li><strong>2024-08-09</strong> - <a href="https://atha-room.com/home#/practice/">home — atha</a><br />
+The atha yoga studio’s page with details on their practice offerings.</li>
+</ul>
+
+<h2 id="art">Art</h2>
+<ul>
+  <li><strong>2024-08-08</strong> - <a href="https://learn.adafruit.com/sound-reactive-led-top-hat/overview?fbclid=IwZXh0bgNhZW0CMTEAAR1Qrj4kX9K7dewwo0_X9syI6chLk8ywdn9fDkfM1xNzFrpU4IYnNsDbDIQ_aem_U8fRzrtQy2L11ugJOI_WRw">Overview | Sound Reactive LED Top Hat | Adafruit Learning System</a><br />
+A DIY guide for creating a sound-reactive LED top hat with Adafruit’s learning resources.</li>
+</ul>
+
+<h2 id="misc">Misc</h2>
+<ul>
+  <li><strong>2024-08-07</strong> - <a href="https://github.com/ax-llm/ax">GitHub - ax-llm/ax</a><br />
+GitHub repository for the Ax framework used to build LLM-powered agents.</li>
+  <li><strong>2024-08-08</strong> - <a href="https://www.a11yproject.com/">Home - The A11Y Project</a><br />
+A resource focused on improving accessibility in web design and development.</li>
+  <li><strong>2024-08-08</strong> - <a href="https://x86re.com/">x86re</a><br />
+A site dedicated to x86 reverse engineering.</li>
+  <li><strong>2024-08-10</strong> - <a href="https://www.rsaconference.com/Library/presentation/USA/2024/Securing%20AI%20Apps%20with%20the%20OWASP%20Top%20Ten%20for%20Large%20Language%20Models">Securing AI Apps with the OWASP Top Ten for Large Language Models</a><br />
+Presentation on securing AI applications using OWASP’s top ten guidelines.</li>
+  <li><strong>2024-08-14</strong> - <a href="https://www.netdevgroup.com/online/content/proxmox">Proxmox VE - VMware Alternative Hypervisor</a><br />
+An alternative to VMware, Proxmox VE offers a powerful hypervisor solution.</li>
+  <li><strong>2024-08-14</strong> - <a href="https://danielmiessler.com/p/ul-445?utm_source=danielmiessler.com&amp;utm_medium=newsletter&amp;utm_campaign=ul-no-445-vegas-dump-legal-firm-hacks-ai-agent-ascension&amp;_bhlid=89313254297c9d3bfc53b8115a3f8b14c3cc9f14#notes">UL NO. 445: Vegas Dump, Legal Firm Hacks, AI Agent Ascension</a><br />
+A newsletter detailing recent developments in cybersecurity and AI.</li>
+  <li><strong>2024-08-15</strong> - <a href="https://www.canvasmedical.com/articles/announcing-our-new-open-source-patient-experience">Announcing the API Prize Winner and Open Source Mobile Patient App | Canvas Medical</a>
+Canvas Medical announces their open-source mobile app and API prize winner.</li>
+  <li><strong>2024-08-16</strong> - <a href="https://old.talon.wiki/unofficial_talon_docs/">Unofficial Talon Docs | Talon Wiki</a><br />
+Unofficial documentation for Talon Voice, a hands-free coding tool.</li>
+  <li><strong>2024-08-16</strong> - <a href="http://www.rsi.deas.harvard.edu/mb_what_is.html">Harvard RSI Action –&gt; The Mind/Body Approach –&gt; What is RSI?</a><br />
+An overview of Repetitive Strain Injury (RSI) and its mind/body approach treatment.</li>
+  <li><strong>2024-08-16</strong> - <a href="https://github.com/rhasspy/wyoming-satellite">Wyoming Statellite</a></li>
+</ul>]]></content><author><name>vitraag</name></author><category term="weekly-reading" /><summary type="html"><![CDATA[This last week has been lots of avenues and ideas, so boringly naming it as August Avenues! Lots of concrete project ideas in the AI space (like Ax framework), tinkering projects for home labs (like Wyoming Satellite) and health improvement ideas from voice programming (Talon and blogs).]]></summary></entry><entry><title type="html">The Big Freeze</title><link href="https://www.vitraag.com//2024/08/15/the-big-freeze/" rel="alternate" type="text/html" title="The Big Freeze" /><published>2024-08-15T17:31:16+00:00</published><updated>2024-08-15T17:31:16+00:00</updated><id>https://www.vitraag.com//2024/08/15/the-big-freeze</id><content type="html" xml:base="https://www.vitraag.com//2024/08/15/the-big-freeze/"><![CDATA[<p>Book review of The Big Freeze by Natalie Lampert</p>
+
+<p><img src="https://www.vitraag.com//assets/images/books/the-big-freeze.jpg" alt="The Big Freeze" width="300px" /></p>
+
+<h2 id="introduction">Introduction</h2>
+<p><em>The Big Freeze</em> is a deeply personal exploration by journalist Natalie Lampert into the world of egg freezing. As reproductive technologies evolve, egg freezing has emerged as a powerful option for women seeking to take control of their fertility. Through her journey, Lampert provides a comprehensive look at the emotional, financial, and societal implications of this medical procedure.</p>
+
+<h2 id="main-intent">Main Intent</h2>
+<p>The primary intent of the book is to illuminate the complexities and challenges surrounding egg freezing. Lampert aims to provide a well-rounded understanding of why women choose this path, the medical processes involved, and the broader cultural and ethical debates it sparks. The book serves as both a personal narrative and an investigative report, offering readers insight into the rapidly changing landscape of reproductive health.</p>
+
+<h2 id="major-topics-covered">Major Topics Covered</h2>
+<ol>
+  <li><strong>Personal Narrative</strong>: Lampert shares her own experiences with egg freezing, offering a candid look at the emotional and physical aspects of the process.</li>
+  <li><strong>Medical Science</strong>: An in-depth explanation of the egg freezing process, from hormone injections to the actual retrieval and storage of eggs.</li>
+  <li><strong>Economic Considerations</strong>: Analysis of the financial burden associated with egg freezing, including the costs of the procedure and long-term storage fees.</li>
+  <li><strong>Ethical and Social Implications</strong>: A discussion on the societal pressures women face, including the expectations around motherhood and the role of fertility in a woman’s identity.</li>
+  <li><strong>Cultural Perspectives</strong>: Exploration of how different cultures view egg freezing and the varying levels of acceptance and support for the procedure globally.</li>
+  <li><strong>Interviews and Expert Opinions</strong>: Insights from medical professionals, ethicists, and women who have undergone egg freezing, offering a multifaceted perspective on the topic.</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+<p><em>The Big Freeze</em> presents a balanced and nuanced exploration of egg freezing, emphasizing the significance of reproductive choice in modern society. Lampert concludes that while egg freezing offers women greater autonomy over their reproductive futures, it is not without its challenges and complexities. The central message of the book is that fertility preservation is a deeply personal decision, influenced by a myriad of factors, and one that should be approached with both awareness and caution.</p>]]></content><author><name>vitraag</name></author><category term="book-review" /><category term="books" /><summary type="html"><![CDATA[Book review of The Big Freeze by Natalie Lampert]]></summary></entry><entry><title type="html">Nutritional Supplements</title><link href="https://www.vitraag.com//2024/08/06/nutritional-supplements/" rel="alternate" type="text/html" title="Nutritional Supplements" /><published>2024-08-06T21:47:49+00:00</published><updated>2024-08-06T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/08/06/nutritional-supplements</id><content type="html" xml:base="https://www.vitraag.com//2024/08/06/nutritional-supplements/"><![CDATA[<h1 id="nutritional-supplements">Nutritional Supplements</h1>
+<p>Skepticism is the main thought I have had when it comes to nutritional supplements. However, based on blood tests and suspectibility to illnesses like cardio-vascular disease and diabetes following are some of the supplements. For each of them I mention, my basis for the research. However, I still need more evidence from blood tests to prove efficacy of any of them.</p>
+
+<ul>
+  <li><a href="">Blueprint Essential Capsules</a> - These capsules provide essential vitamins, CoQ10 (to prevent heart illness), Glucaraphanic converts to Sulfophrance (which is <a href="https://examine.com/supplements/sulforaphane/">documented</a> to prevent cancer), Spermidine (researched to increase longevity in mice). Bryan Johnson has much more on his regimen and a good review of these is done by <a href="https://near.blog/blueprint-1-0-review/">near</a></li>
+  <li><a href="https://www.amazon.com/gp/product/B08L98KD8K">Ashwagandha</a> - I take it in powered form in my protein shake. It is known to cause some stomach upset but I do fine with it.</li>
+  <li><a href="https://www.amazon.com/Jiva-USDA-Organic-Triphala-Powder/dp/B01N3MOHE8">Triphala</a> - Triphala is mix of Amla, Bhabitki and Haritaki. Its known to help with digestion. I take 1 tbsp in my protein shake.</li>
+  <li><a href="https://www.amazon.com/gp/product/B001N4JYX6">Vitamin D</a> - In addition to Blueprint Essential I like the liquid form as Vitamin D3 help with bone strenthg. I take in liquid form in my protein shake.</li>
+  <li><a href="https://www.amazon.com/gp/product/B0788YN5XG">Wheatgrass</a> - 1 tbsp in protein shake known to help with Digestion.</li>
+  <li><a href="https://www.amazon.com/gp/product/B00J074W94/">Protein Powder</a> - Well its pea protein, essential to helps with daily protein intake for a vegeterian.</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+<p>Apart from above, I recommend reading:</p>
+<ul>
+  <li><a href="https://blueprint.bryanjohnson.co/">Bryan Johnson: Blueprint</a></li>
+  <li><a href="https://www.longecity.org/forum/blog/221/entry-3686-november-2021-longevity-review/">Chris Pollyanna November 2021 Longevity Review</a></li>
+  <li><a href="https://astralcodexten.substack.com/p/nootropics-survey-2020-results">Astral Codex Ten / Slate Star Codex Nootropics Survey 2020 Results</a></li>
+  <li><a href="https://hackernoon.com/im-32-and-spent-200k-on-biohacking-became-calmer-thinner-extroverted-healthier-happier-2a2e846ae113">I’m 32 and spent $200k on biohacking. Became calmer, thinner, extroverted, healthier &amp; happier.</a></li>
+  <li><a href="https://qualiacomputing.com/2015/04/15/david-pearces-daily-morning-cocktail-2015/">QualiaComputing: David Pearce’s daily morning cocktail (2015)</a></li>
+  <li><a href="https://peterattiamd.com/">Peter Attia</a></li>
+  <li><a href="https://michaellustgarten.com/">Michael Lustgarten</a></li>
+  <li><a href="https://near.blog/pascalian-longevity-why-not/">Near: Pascallian Longevity: Why not?</a></li>
+</ul>]]></content><author><name>vitraag</name></author><category term="nutrition" /><summary type="html"><![CDATA[Nutritional Supplements Skepticism is the main thought I have had when it comes to nutritional supplements. However, based on blood tests and suspectibility to illnesses like cardio-vascular disease and diabetes following are some of the supplements. For each of them I mention, my basis for the research. However, I still need more evidence from blood tests to prove efficacy of any of them.]]></summary></entry><entry><title type="html">Merritt Secure AI Hackathon Recap</title><link href="https://www.vitraag.com//2024/08/06/merritt-hackathon-recap/" rel="alternate" type="text/html" title="Merritt Secure AI Hackathon Recap" /><published>2024-08-06T21:47:49+00:00</published><updated>2024-08-06T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/08/06/merritt-hackathon-recap</id><content type="html" xml:base="https://www.vitraag.com//2024/08/06/merritt-hackathon-recap/"><![CDATA[<h1 id="merritt-secure-ai-hackathon-recap">Merritt Secure AI Hackathon Recap</h1>
+<p><img src="https://photos.app.goo.gl/5Cxk3d5N8NswUEB9A" alt="Merritt Hackathon Winners" width="400px" height="400px" align="center" /></p>
+
+<p>I’m thrilled to share the success of our recent Secure AI Hackathon! Here’s a quick overview:</p>
+
+<ul>
+  <li><strong>10 innovative projects</strong> were created during the event</li>
+  <li><strong>3 winning projects:</strong>
+    <ol>
+      <li>AI Camera Vision</li>
+      <li>Phishkill</li>
+      <li>CodeSentinel</li>
+    </ol>
+  </li>
+  <li><strong>Event highlights:</strong>
+    <ul>
+      <li>Two engaging workshops</li>
+      <li>A pre-hackathon event to kick things off</li>
+    </ul>
+  </li>
+  <li><strong>Participant satisfaction:</strong> 4.8/5 rating on Luma</li>
+</ul>
+
+<h2 id="event-details">Event Details</h2>
+<p>For a complete list of winners, judges, and sponsors, visit our <a href="https://merritt-secure-ai-hackathon-1.devpost.com/project-gallery">DevPost gallery</a>.</p>
+
+<h2 id="memories">Memories</h2>
+<p>Relive the excitement through our <a href="https://photos.app.goo.gl/CiSTBfkrmtpHh1s16">event photos</a>.</p>
+
+<h2 id="feedback">Feedback</h2>
+<p>We appreciate all the participants who made this event a success. If you attended, please share your thoughts on our <a href="https://lu.ma/koeheq2y">Luma page</a>.</p>
+
+<p>Thank you to everyone who contributed to making this hackathon an inspiring and innovative experience!</p>]]></content><author><name>vitraag</name></author><category term="ai" /><category term="security" /><category term="workshop" /><category term="hackathon" /><summary type="html"><![CDATA[Merritt Secure AI Hackathon Recap]]></summary></entry><entry><title type="html">August Adventures</title><link href="https://www.vitraag.com//2024/08/06/august-adventures/" rel="alternate" type="text/html" title="August Adventures" /><published>2024-08-06T17:45:55+00:00</published><updated>2024-08-06T17:45:55+00:00</updated><id>https://www.vitraag.com//2024/08/06/august-adventures</id><content type="html" xml:base="https://www.vitraag.com//2024/08/06/august-adventures/"><![CDATA[<p>So, I’ve been lazy in posting all my reading links for last few weeks. Last few weeks I ended up organizing a security hackathon, creating a homelab and working on some fun art project. I’ll write more about these soon. But for now the reading links are below:</p>
+
+<h2 id="security">#security</h2>
+<ul>
+  <li><strong>2024-07-16</strong> - <a href="https://www.youtube.com/watch?v=gTCZ-g-cbbE">Building my new PROXMOX lab - YouTube</a> - A video tutorial on setting up a new PROXMOX lab.</li>
+  <li><strong>2024-07-16</strong> - <a href="https://seedsecuritylabs.org/index.html">SEED Project</a> - Learn about the SEED project, which provides hands-on labs for teaching security concepts.</li>
+  <li><strong>2024-07-30</strong> - <a href="https://ambient.ai/">Prevent security incidents with computer vision intelligence - Ambient.ai</a> - Ambient.ai discusses using computer vision to prevent security incidents.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://github.com/Orange-Cyberdefense/GOAD">GitHub - Orange-Cyberdefense/GOAD: game of active directory</a> - A tool for simulating Active Directory environments for security training.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://rfhackers.com/">RF Hackers Sanctuary - @wctf</a> - A community resource for RF hackers, including challenges and tools.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://www.secureworks.com/research/transitive-trust">Transitive Trust and SSL/TLS Interception Proxies - Secureworks</a> - An article on the security implications of SSL/TLS interception proxies.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://github.com/hackgnar/ble_ctf/blob/master/docs/workshop_setup.md">ble_ctf/docs/workshop_setup.md at master - hackgnar/ble_ctf - GitHub</a> - Instructions for setting up a Bluetooth Low Energy Capture The Flag (BLE CTF) workshop.</li>
+</ul>
+
+<h2 id="health">#health</h2>
+<ul>
+  <li><strong>2024-07-17</strong> - <a href="https://near.blog/blueprint-1-0-review/">Blueprint 1.0 Review - near.blog</a> - A review of the Blueprint 1.0 health and wellness program.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://diyps.org/2023/04/14/how-i-use-llms-like-chatgpt-and-tips-for-getting-started/">How I Use LLMs like ChatGPT And Tips For Getting Started - DIYPS.org</a> - Insights on using large language models like ChatGPT in healthcare.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867523">Patient Perspectives on Large Language Model Responses to Patient Messages - SSRN</a> - A study on patient perspectives regarding LLM responses to their messages.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://pubmed.ncbi.nlm.nih.gov/37913954/">Pilot applications of GPT-4 in radiation oncology - PubMed</a> - Research on using GPT-4 for summarizing patient symptoms and chatbot applications in oncology.</li>
+</ul>
+
+<h2 id="investments">#investments</h2>
+<ul>
+  <li><strong>2024-07-18</strong> - <a href="https://www.maruet.com/investments">Investments - Maruet</a> - An overview of investment opportunities with Maruet.</li>
+  <li><strong>2024-07-21</strong> - <a href="https://calypsocopilot.com/">Calypso - Your AI-First Public Equities Copilot</a> - An AI tool designed to assist with public equities investments.</li>
+</ul>
+
+<h2 id="llm">#llm</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://www.datacomp.ai/dclm/">DataComp</a> - Information on DataComp, a competition for large language models.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://nicholas.carlini.com/writing/2024/how-i-use-ai.html#simplify">How I Use “AI” - Nicholas Carlini</a> - A personal account of how the author uses AI tools.</li>
+</ul>
+
+<h2 id="cs">#cs</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a> - A guide to self-studying computer science.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HyznrdDSSGM&amp;list=PLowKtXNTBypGqImE405J2565dvjafglHU">8-bit computer update - YouTube</a> - A video update on building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://eater.net/8bit/kits">Build an 8-bit computer - Ben Eater</a> - Instructions and kits for building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HaBMAD-Dr8M&amp;list=PLnAxReCloSeTJc8ZGogzjtCtXl_eE6yzA&amp;index=2">Logic gates - From transistors to logic gates NAND, AND, NOR, OR, NOT, XOR how computers work PART 1 - YouTube</a> - A tutorial on how logic gates work in computers.</li>
+</ul>
+
+<h2 id="healthcare">#healthcare</h2>
+<ul>
+  <li><strong>2024-07-24</strong> - <a href="https://diyps.org/2023/04/14/how-i-use-llms-like-chatgpt-and-tips-for-getting-started/">How I Use LLMs like ChatGPT And Tips For Getting Started - DIYPS.org</a> - Insights on using large language models like ChatGPT in healthcare.</li>
+</ul>
+
+<h2 id="ideas">#ideas</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://becknprotocol.io/">Home - Beckn protocol</a> - Information on the Beckn protocol, aimed at creating open digital commerce ecosystems.</li>
+</ul>
+
+<h2 id="code">#code</h2>
+<ul>
+  <li><strong>2024-08-03</strong> - <a href="https://simonwillison.net/2024/Jul/31/aider/">Aider</a> - A tool for AI-assisted code review and refactoring.</li>
+</ul>
+
+<h2 id="books">#books</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="toread">#toread</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="healthcare-1">#healthcare</h2>
+<ul>
+  <li><strong>2024-07-24</strong> - <a href="https://diyps.org/2023/04/14/how-i-use-llms-like-chatgpt-and-tips-for-getting-started/">How I Use LLMs like ChatGPT And Tips For Getting Started - DIYPS.org</a> - Insights on using large language models like ChatGPT in healthcare.</li>
+</ul>
+
+<h2 id="ideas-1">#ideas</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://becknprotocol.io/">Home - Beckn protocol</a> - Information on the Beckn protocol, aimed at creating open digital commerce ecosystems.</li>
+</ul>
+
+<h2 id="code-1">#code</h2>
+<ul>
+  <li><strong>2024-08-03</strong> - <a href="https://simonwillison.net/2024/Jul/31/aider/">Aider</a> - A tool for AI-assisted code review and refactoring.</li>
+</ul>
+
+<h2 id="books-1">#books</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="toread-1">#toread</h2>
+<ul>
+  <li><strong>2024-08-02</strong> - <a href="https://www.amazon.com/But-How-Know-Principles-Computers/dp/0615303765">But How Do It Know? - The Basic Principles of Computers for Everyone - Scott, J Clark</a> - A book explaining the basic principles of computers.</li>
+</ul>
+
+<h2 id="llm-1">#llm</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://www.datacomp.ai/dclm/">DataComp</a> - Information on DataComp, a competition for large language models.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://nicholas.carlini.com/writing/2024/how-i-use-ai.html#simplify">How I Use “AI” - Nicholas Carlini</a> - A personal account of how the author uses AI tools.</li>
+</ul>
+
+<h2 id="cs-1">#cs</h2>
+<ul>
+  <li><strong>2024-07-21</strong> - <a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a> - A guide to self-studying computer science.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HyznrdDSSGM&amp;list=PLowKtXNTBypGqImE405J2565dvjafglHU">8-bit computer update - YouTube</a> - A video update on building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://eater.net/8bit/kits">Build an 8-bit computer - Ben Eater</a> - Instructions and kits for building an 8-bit computer.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.youtube.com/watch?v=HaBMAD-Dr8M&amp;list=PLnAxReCloSeTJc8ZGogzjtCtXl_eE6yzA&amp;index=2">Logic gates - From transistors to logic gates NAND, AND, NOR, OR, NOT, XOR how computers work PART 1 - YouTube</a> - A tutorial on how logic gates work in computers.</li>
+</ul>
+
+<h2 id="tech">#tech</h2>
+<ul>
+  <li><strong>2024-07-15</strong> - <a href="https://github.com/OpenBB-finance/openbb-agents/blob/main/getting_started.ipynb">OpenBB-finance/openbb-agents - GitHub</a> - A guide to getting started with OpenBB agents.</li>
+  <li><strong>2024-07-19</strong> - <a href="https://github.com/exo-explore/exo">GitHub - exo-explore/exo: Run your own AI cluster at home</a> - Instructions on running an AI cluster with everyday devices.</li>
+  <li><strong>2024-07-24</strong> - <a href="https://tteck.github.io/Proxmox/">Proxmox VE Helper-Scripts</a> - Collection of helper scripts for managing Proxmox VE.</li>
+  <li><strong>2024-07-25</strong> - <a href="https://sre.google/sre-book/foreword/">Google - Site Reliability Engineering</a> - Foreword of the Google SRE book.</li>
+  <li><strong>2024-07-25</strong> - <a href="https://map.reventure.app/dashboard">Reventure App</a> - An app for exploring real estate investment opportunities.</li>
+  <li><strong>2024-07-26</strong> - <a href="https://www.udemy.com/course/proxmox-virtualization-environment-complete-training/?referralCode=8E7EAFD11C2389F89C11&amp;couponCode=ST3MT72524">Proxmox VE 8: A Comprehensive Virtualization Course 2024 - Udemy</a> - A comprehensive course on Proxmox VE 8.</li>
+  <li><strong>2024-07-27</strong> - <a href="https://0xinfection.github.io/reversing/">Introduction - Reverse Engineering</a> - Introduction to reverse engineering concepts.</li>
+  <li><strong>2024-07-27</strong> - <a href="https://www.smartmontools.org/">smartmontools</a> - A set of tools for monitoring storage devices using S.M.A.R.T.</li>
+  <li><strong>2024-07-30</strong> - <a href="https://arxiv.org/abs/2407.08708">Future-proof benchmark for vulnerability detection in the wild - arxiv.org</a> - A research paper on a benchmark for vulnerability detection.</li>
+  <li><strong>2024-08-01</strong> - <a href="https://www.raspberrypi.com/tutorials/running-pi-hole-on-a-raspberry-pi/">Block ads at home with Pi-hole - Raspberry Pi</a> - Tutorial on blocking ads with Pi-hole on a Raspberry Pi.</li>
+  <li><strong>2024-08-01</strong> - <a href="https://pimylifeup.com/raspberry-pi-proxmox/">How to Install Proxmox on the Raspberry Pi - Pi My Life Up</a> - A guide to installing Proxmox on a Raspberry Pi.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://alexgarcia.xyz/blog/2024/sqlite-lembed-init/index.html">Introducing sqlite-lembed: A SQLite extension for generating text embeddings locally - Alex Garcia’s Blog</a> - A blog post introducing a SQLite extension for generating text embeddings.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://frontpage.gcsu.edu/node/17110">Jain Studies students see the great and ancient temples of India - Front Page</a> - An article on Jain Studies students visiting ancient temples in India.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://www.wsj.com/lifestyle/workplace/american-workers-loneliness-research-35793dc4">The Loneliness of the American Worker - WSJ</a> - An article on research about loneliness among American workers.</li>
+  <li><strong>2024-08-02</strong> - <a href="https://drive.google.com/file/d/1RhRowqbIJ6c6_C6roymO-dvlOkT9ONRj/view">Vegan Paryushan Cookbook (2024 Edition) - Google Drive</a> - A cookbook with vegan recipes for Paryushan.</li>
+  <li><strong>2024-08-03</strong> - <a href="https://www.ai2incubator.com/">AI2 Incubator</a> - Information on the AI2 Incubator program.</li>
+  <li><strong>2024-08-04</strong> - <a href="https://chromewebstore.google.com/detail/youtube-summary-with-chat/nmmicjeknamkfloonkhhcjmomieiodli?pli=1">YouTube Summary with ChatGPT &amp; Claude - Chrome Web Store</a> - A Chrome extension for summarizing YouTube videos with ChatGPT and Claude.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://www.youtube.com/watch?v=NcUJnmBqHTY">Cursorless: A spoken language for editing code by Pokey Rule (Strange Loop 2023) - YouTube</a> - A presentation on a spoken language for editing code.</li>
+  <li><strong>2024-08-06</strong> - <a href="https://www.youtube.com/watch?v=GVsUOuSjvcg">Future Computers Will Be Radically Different (Analog Computing) - YouTube</a> - A video discussing the future of analog computing.</li>
+</ul>
+
+<p>PS:
+Here is a tool to review all my <a href="https://www.vitraag.com/bookmarks">2024 bookmarks</a></p>]]></content><author><name>vitraag</name></author><category term="weekly-reading" /><summary type="html"><![CDATA[So, I’ve been lazy in posting all my reading links for last few weeks. Last few weeks I ended up organizing a security hackathon, creating a homelab and working on some fun art project. I’ll write more about these soon. But for now the reading links are below:]]></summary></entry><entry><title type="html">Training for the Uphill Athlete</title><link href="https://www.vitraag.com//2024/08/06/uphill-athlete/" rel="alternate" type="text/html" title="Training for the Uphill Athlete" /><published>2024-08-06T17:31:16+00:00</published><updated>2024-08-06T17:31:16+00:00</updated><id>https://www.vitraag.com//2024/08/06/uphill-athlete</id><content type="html" xml:base="https://www.vitraag.com//2024/08/06/uphill-athlete/"><![CDATA[<p>Book review of Training for the Uphill Athlete by Steve House, Scott Johnson and Kilian Jornet</p>
+
+<p><img src="https://www.vitraag.com//assets/images/books/uphill-athlete.jpg" alt="Training for the Uphill Athlete" width="300px" /></p>
+
+<h1 id="summary-of-training-for-the-uphill-athlete">Summary of <em>Training for the Uphill Athlete</em></h1>
+
+<h2 id="introduction">Introduction</h2>
+<p><em>Training for the Uphill Athlete</em> is a comprehensive guide designed to elevate the performance of athletes tackling mountainous terrains. Written by renowned coaches and athletes Steve House, Scott Johnston, and Kilian Jornet, the book combines scientific principles with practical insights to help readers achieve their peak performance in uphill sports.</p>
+
+<h2 id="main-intent">Main Intent</h2>
+<p>The main intent of <em>Training for the Uphill Athlete</em> is to provide a detailed and scientifically backed training regimen for athletes involved in uphill sports. The book aims to bridge the gap between general athletic training and the specific demands of uphill endeavors, offering a tailored approach to enhancing endurance, strength, and technique.</p>
+
+<h2 id="major-topics-covered">Major Topics Covered</h2>
+<ol>
+  <li><strong>Fundamentals of Uphill Training</strong>
+    <ul>
+      <li>Physiological principles</li>
+      <li>Importance of aerobic base</li>
+      <li>Role of strength training</li>
+    </ul>
+  </li>
+  <li><strong>Training Methodologies</strong>
+    <ul>
+      <li>Periodization and training cycles</li>
+      <li>High-intensity interval training (HIIT)</li>
+      <li>Endurance-building strategies</li>
+    </ul>
+  </li>
+  <li><strong>Strength and Conditioning</strong>
+    <ul>
+      <li>Specific strength exercises for uphill athletes</li>
+      <li>Plyometrics and their benefits</li>
+      <li>Flexibility and mobility routines</li>
+    </ul>
+  </li>
+  <li><strong>Nutrition and Recovery</strong>
+    <ul>
+      <li>Nutritional needs for endurance athletes</li>
+      <li>Recovery techniques and their importance</li>
+      <li>Managing fatigue and preventing injuries</li>
+    </ul>
+  </li>
+  <li><strong>Mental Preparation</strong>
+    <ul>
+      <li>Psychological strategies for uphill challenges</li>
+      <li>Goal setting and motivation</li>
+      <li>Coping with setbacks and mental fatigue</li>
+    </ul>
+  </li>
+  <li><strong>Sport-Specific Training Plans</strong>
+    <ul>
+      <li>Training plans for different levels of athletes</li>
+      <li>Customizing plans for specific goals</li>
+      <li>Monitoring progress and adjusting training</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="sample-workouts-from-the-8-week-beginner-mountaineering-training-plan">Sample Workouts from the 8-Week Beginner Mountaineering Training Plan</h2>
+<p>The <a href="https://uphillathlete.com/training-plans/8-week-beginner-mountaineering-training-plan-rpe/">8-Week Beginner Mountaineering Training Plan</a> is designed to build a solid foundation for those new to mountaineering. Here are some sample workouts included in the plan:</p>
+
+<h3 id="week-1">Week 1</h3>
+<ul>
+  <li><strong>Day 1: Aerobic Base</strong>
+    <ul>
+      <li>1 hour of Zone 1 hiking or brisk walking</li>
+    </ul>
+  </li>
+  <li><strong>Day 3: Strength Training</strong>
+    <ul>
+      <li>Warm-up: 10 minutes of light cardio</li>
+      <li>Main set:
+        <ul>
+          <li>3 sets of 10 bodyweight squats</li>
+          <li>3 sets of 10 push-ups</li>
+          <li>3 sets of 10 lunges (each leg)</li>
+          <li>3 sets of 20-second planks</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="week-3">Week 3</h3>
+<ul>
+  <li><strong>Day 1: Aerobic Interval Training</strong>
+    <ul>
+      <li>1 hour of hiking with 4x5-minute intervals at Zone 3 effort, with 5 minutes of Zone 1 recovery between intervals</li>
+    </ul>
+  </li>
+  <li><strong>Day 4: Strength and Mobility</strong>
+    <ul>
+      <li>Warm-up: 10 minutes of light cardio</li>
+      <li>Main set:
+        <ul>
+          <li>3 sets of 15 bodyweight squats</li>
+          <li>3 sets of 10 pull-ups (or assisted pull-ups)</li>
+          <li>3 sets of 12 step-ups (each leg)</li>
+          <li>3 sets of 30-second side planks (each side)</li>
+        </ul>
+      </li>
+      <li>Cool down with 10 minutes of stretching focusing on lower body</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="week-5">Week 5</h3>
+<ul>
+  <li><strong>Day 2: Aerobic Base and Hill Work</strong>
+    <ul>
+      <li>1.5 hours of Zone 1-2 hiking, including 30 minutes of continuous uphill walking</li>
+    </ul>
+  </li>
+  <li><strong>Day 5: Strength Endurance</strong>
+    <ul>
+      <li>Warm-up: 10 minutes of light cardio</li>
+      <li>Main set:
+        <ul>
+          <li>2 sets of 20 walking lunges</li>
+          <li>2 sets of 15 bodyweight squats with a 2-second hold at the bottom</li>
+          <li>2 sets of 10 push-ups with a 2-second hold at the bottom</li>
+          <li>2 sets of 15 step-ups with a 2-second hold at the top</li>
+        </ul>
+      </li>
+      <li>Cool down with 10 minutes of stretching focusing on hip flexors and quadriceps</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="week-7">Week 7</h3>
+<ul>
+  <li><strong>Day 3: Long Aerobic Effort</strong>
+    <ul>
+      <li>2 hours of Zone 1-2 hiking, aiming for steady, continuous movement with minimal breaks</li>
+    </ul>
+  </li>
+  <li><strong>Day 6: Plyometrics and Mobility</strong>
+    <ul>
+      <li>Warm-up: 10 minutes of light cardio</li>
+      <li>Main set:
+        <ul>
+          <li>3 sets of 10 box jumps</li>
+          <li>3 sets of 15 jump squats</li>
+          <li>3 sets of 10 burpees</li>
+          <li>3 sets of 30-second mountain climbers</li>
+        </ul>
+      </li>
+      <li>Cool down with 10 minutes of stretching focusing on calves and hamstrings</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p><em>Training for the Uphill Athlete</em> encapsulates a holistic approach to training for mountainous sports. By integrating scientific research with practical advice, the book provides athletes with the tools needed to optimize their performance. The central message is clear: with the right training, nutrition, and mental strategies, athletes can reach new heights in their uphill endeavors, conquering both physical and psychological challenges.</p>
+
+<hr />
+<p><em>Training for the Uphill Athlete</em> is not just a training manual; it’s an inspirational guide for anyone looking to excel in the demanding world of uphill sports.</p>]]></content><author><name>vitraag</name></author><category term="book-review" /><category term="books" /><summary type="html"><![CDATA[Book review of Training for the Uphill Athlete by Steve House, Scott Johnson and Kilian Jornet]]></summary></entry><entry><title type="html">AI Security Secure Development</title><link href="https://www.vitraag.com//2024/07/16/ai-security-secure-development/" rel="alternate" type="text/html" title="AI Security Secure Development" /><published>2024-07-16T21:47:49+00:00</published><updated>2024-07-16T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/07/16/ai-security-secure-development</id><content type="html" xml:base="https://www.vitraag.com//2024/07/16/ai-security-secure-development/"><![CDATA[<h2 id="secure-software-development-lifecycle-ssdlc-planning-planning-phase">Secure Software Development Lifecycle (SSDLC Planning (Planning Phase)</h2>
+<h2 id="security-requirement-generation-requirements-phase">Security Requirement Generation (Requirements Phase)</h2>
+<h2 id="generating-secure-coding-guidelines-design-phase">Generating Secure Coding Guidelines (Design Phase)</h2>
+<h2 id="analyzing-code-for-security-flaws-and-generating-custom-security-testing-scripts-testing-phase">Analyzing Code for Security Flaws and Generating Custom Security Testing Scripts (Testing Phase)</h2>
+<h2 id="generating-code-comments-and-documentation-deploymentmaintenance-phase">Generating Code Comments and Documentation (Deployment/Maintenance Phase)</h2>]]></content><author><name>vitraag</name></author><category term="ai" /><category term="security" /><category term="workshop" /><summary type="html"><![CDATA[Secure Software Development Lifecycle (SSDLC Planning (Planning Phase) Security Requirement Generation (Requirements Phase) Generating Secure Coding Guidelines (Design Phase) Analyzing Code for Security Flaws and Generating Custom Security Testing Scripts (Testing Phase) Generating Code Comments and Documentation (Deployment/Maintenance Phase)]]></summary></entry><entry><title type="html">AI Security Getting Started Workshop</title><link href="https://www.vitraag.com//2024/07/16/aisec-workshop-introduction/" rel="alternate" type="text/html" title="AI Security Getting Started Workshop" /><published>2024-07-16T21:47:49+00:00</published><updated>2024-07-16T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/07/16/aisec-workshop-introduction</id><content type="html" xml:base="https://www.vitraag.com//2024/07/16/aisec-workshop-introduction/"><![CDATA[<h1 id="getting-started-workshop">Getting Started Workshop</h1>
+
+<p>Topics we will cover today:</p>
+<ul>
+  <li><a href="https://lu.ma/koeheq2y">Merritt Secure AI Hackathon</a>
+Take a moment to introduce yourself on <a href="https://discord.gg/WCgM7ddMyH">discord</a></li>
+  <li><a href="https://www.vitraag.com/2024/07/16/aisec-potential-problems">Potential Problems to Work on</a></li>
+  <li><a href="https://www.vitraag.com/2024/07/16/aisec-getting-started">Getting Started with OpenAI, Anthropic, Gemini</a></li>
+  <li><a href="https://www.vitraag.com/2024/07/16/aisec-prompts">Prompt engineering</a></li>
+  <li><a href="https://www.vitraag.com/2024/07/16/aisec-applications">Writing AI Applications</a></li>
+</ul>
+
+<h1 id="workshop-recording">Workshop Recording</h1>
+
+<p>The recorded workshop is available <a href="https://peralta-edu.zoom.us/rec/share/qa3988nBEj6wRdkr45B3gxWRs76KTsxNIl8FS7g1AlZ8b_DsnzRVPqywoDR39FIy.fK4utza38LAKJScb?startTime=1721426303000">here</a></p>]]></content><author><name>vitraag</name></author><category term="ai" /><category term="security" /><category term="workshop" /><summary type="html"><![CDATA[Getting Started Workshop]]></summary></entry><entry><title type="html">AI Security Getting Started</title><link href="https://www.vitraag.com//2024/07/16/aisec-getting-started/" rel="alternate" type="text/html" title="AI Security Getting Started" /><published>2024-07-16T21:47:49+00:00</published><updated>2024-07-16T21:47:49+00:00</updated><id>https://www.vitraag.com//2024/07/16/aisec-getting-started</id><content type="html" xml:base="https://www.vitraag.com//2024/07/16/aisec-getting-started/"><![CDATA[<h1 id="getting-started">Getting Started</h1>
+
+<h2 id="setting-up-a-openai-anthropic-and-gemini-accounts">Setting up a OpenAI, Anthropic and Gemini Accounts</h2>
+<ul>
+  <li>OpenAI</li>
+  <li>Anthropic</li>
+  <li>Gemini</li>
+</ul>
+
+<h2 id="basic-prompting-application-finding-your-ip-address">Basic prompting (Application: Finding Your IP Address)</h2>
+<ul>
+  <li>Write a python script to find the public IP Address of a user using ‘request’ library</li>
+</ul>
+
+<h2 id="creating-an-api-key-and-interacting-with-openai-claude-google">Creating an API Key and interacting with OpenAI, Claude, Google</h2>
+<ul>
+  <li>OpenAI
+    <ol>
+      <li><strong>Python</strong>: Ensure that you have Python installed on your system.</li>
+      <li><strong>OpenAI API Key</strong>: Sign up for OpenAI and get your API key from the <a href="https://beta.openai.com/signup/">OpenAI Dashboard</a>.</li>
+    </ol>
+  </li>
+</ul>
+
+<h3 id="step-1-install-the-openai-python-package">Step 1: Install the OpenAI Python Package</h3>
+<p>First, you need to install the OpenAI Python client library. You can do this using pip.</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>openai
+</code></pre></div></div>
+
+<h3 id="step-2-create-a-python-script">Step 2: Create a Python Script</h3>
+<p>Create a new Python script file, e.g., <code class="language-plaintext highlighter-rouge">openai_example.py</code>.</p>
+
+<h3 id="step-3-import-libraries-and-set-up-api-key">Step 3: Import Libraries and Set Up API Key</h3>
+<p>In your <code class="language-plaintext highlighter-rouge">openai_example.py</code> file, start by importing the necessary libraries and setting up your OpenAI API key.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">openai</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="k">def</span> <span class="nf">get_chatgpt_response</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">api_key</span><span class="p">):</span>
+    <span class="n">openai_client</span><span class="o">=</span> <span class="n">openai</span><span class="p">.</span><span class="n">OpenAI</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">api_key</span><span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">openai_client</span><span class="p">.</span><span class="n">chat</span><span class="p">.</span><span class="n">completions</span><span class="p">.</span><span class="n">create</span><span class="p">(</span>
+            <span class="n">model</span><span class="o">=</span><span class="s">"gpt-3.5-turbo"</span><span class="p">,</span>  <span class="c1"># or the appropriate model
+</span>            <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
+                <span class="p">{</span><span class="s">"role"</span><span class="p">:</span> <span class="s">"system"</span><span class="p">,</span> <span class="s">"content"</span><span class="p">:</span> <span class="s">"You are a helpful assistant."</span><span class="p">},</span>
+                <span class="p">{</span><span class="s">"role"</span><span class="p">:</span> <span class="s">"user"</span><span class="p">,</span> <span class="s">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">},</span>
+            <span class="p">],</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="n">response</span><span class="p">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">message</span><span class="p">.</span><span class="n">content</span><span class="p">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s">"Error: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s">"</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">getenv</span><span class="p">(</span><span class="s">"OPENAI_API_KEY"</span><span class="p">)</span> 
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">api_key</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">ValueError</span><span class="p">(</span><span class="s">"No API key found. Please set the OPENAI_API_KEY environment variable."</span><span class="p">)</span>
+    
+    <span class="n">prompt</span> <span class="o">=</span> <span class="s">"Write a short story about a talking cat."</span>
+    
+    <span class="n">response</span> <span class="o">=</span> <span class="n">get_chatgpt_response</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">api_key</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"ChatGPT Response: </span><span class="si">{</span><span class="n">response</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="step-4-set-openai-key-and-run-the-program">Step 4: set openai key and run the program</h3>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s1">'xxx'</span>
+python openai_example.py
+</code></pre></div></div>
+
+<h2 id="applying-chatgpt-roles-application-ai-ciso">Applying ChatGPT Roles (Application: AI CISO)</h2>
+<ul>
+  <li>You are a cybersecurity expert with 20 years of experience. Explain the importance of multi-factor authentication (MFA) in securing online accounts, to an executive audience.</li>
+  <li>You are a CISO with 30 years of experience. What are the top cybersecurity risks businesses should be aware of?</li>
+  <li>You are an ethical hacker. Explain how a penetration test can help improve an organization’s security posture.</li>
+  <li>You are a network administrator. What measures do you take to secure your organization’s network?</li>
+  <li>You are a cybersecurity consultant. What additional recommendations do you have for the network administrator to further enhance network security?</li>
+</ul>
+
+<h2 id="enhancing-output-with-templates-application-threat-report">Enhancing Output with Templates (Application: Threat Report)</h2>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Create an analysis report of the WannaCry Ransomware Attack as it relates to the cyber kill chain, using the following format:
+<span class="gh"># Threat Report</span>
+<span class="gu">## Overview</span>
+<span class="p">-</span> <span class="gs">**Threat Name:**</span>
+<span class="p">-</span> <span class="gs">**Date of Occurrence:**</span>
+<span class="p">-</span> <span class="gs">**Industries Affected:**</span>
+<span class="p">-</span> <span class="gs">**Impact:**</span>
+<span class="gu">## Cyber Kill Chain Analysis</span>
+<span class="p">1.</span> <span class="gs">**Kill chain step 1:**</span>
+<span class="p">2.</span> <span class="gs">**Kill chain step 2:**</span>
+<span class="p">3.</span> …
+<span class="gu">## Mitigation Recommendations</span>
+<span class="p">-</span> <span class="ge">*Mitigation recommendation 1*</span>
+<span class="p">-</span> <span class="ge">*Mitigaiton recommendation 2*</span>
+</code></pre></div></div>
+
+<h2 id="formatting-output-as-a-table-application-security-controls-table">Formatting Output as a Table (Application: Security Controls Table)</h2>
+<ul>
+  <li>Create a table comparing five different security controls. The table should have the following columns: Control Name, Description, Implementation Cost, Maintenance Cost, Effectiveness, and Ease of Implementation.</li>
+</ul>]]></content><author><name>vitraag</name></author><category term="ai" /><category term="security" /><category term="workshop" /><summary type="html"><![CDATA[Getting Started]]></summary></entry></feed>

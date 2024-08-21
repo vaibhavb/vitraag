@@ -1,0 +1,420 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Weekly Notes - Exploring LLMs and More</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Weekly Notes - Exploring LLMs and More</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Weekly Notes - Exploring LLMs and More</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Sun Aug  6 23:45:48 2023</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>Welcome back to another edition of Weekly Notes! I’ve gathered some interesting links from the past week that I found worth exploring. From tech news to Python conferences, let’s dive in!</p>
+
+<p><img src="https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Weekly Notes" /></p>
+
+<h2 id="wednesday-aug-2">Wednesday, Aug 2</h2>
+
+<ul>
+  <li>
+    <p><a href="https://gpus.llm-utils.org/nvidia-h100-gpus-supply-and-demand/">Nvidia H100 GPUs: Supply and Demand</a>: This article discusses the current state of supply and demand for Nvidia’s H100 GPUs.</p>
+  </li>
+  <li>
+    <p><a href="https://picoctf.org/resources.html">picoCTF - Learning Resources</a>: Check out this website for learning resources related to cybersecurity and CTF challenges.</p>
+  </li>
+  <li>
+    <p><a href="None">A Practical Guide to Digital Forensics Investigations, 2nd Edition</a>: Unfortunately, the link provided doesn’t lead to a specific page or resource.</p>
+  </li>
+  <li>
+    <p><a href="https://samsclass.info/40/40_Sum23.shtml">CNIT 40: DNS Security – Sam Bowne</a>: Learn about DNS security concepts in this online course.</p>
+  </li>
+</ul>
+
+<h2 id="friday-aug-4-prolific-day">Friday, Aug 4 (Prolific Day)</h2>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/asrp/flpc">asrp/flpc: Forth Lisp Python Continuum</a>: Dive into the world of Forth Lisp Python Continuum, a small and dynamic self-bootstrapping language.</p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j">Practical AI for Teachers and Students - YouTube</a>: Discover practical AI applications for educators and learners in this YouTube playlist.</p>
+  </li>
+  <li>
+    <p><a href="https://linktr.ee/simply.scenic">RV Life Tools</a>: Explore the some RV life tools especially the table top dishwasher!</p>
+  </li>
+  <li>
+    <p><a href="https://www.facebook.com/peetrikirikvan/about">St. Peter’s Estonian Lutheran Church</a> Hope to get some help from this Estonian Lutheran Church.</p>
+  </li>
+  <li>
+    <p>Engineer? Here are some modernized reads for helping to ace your interview!</p>
+    <ul>
+      <li><a href="https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers">Grokking Modern System Design Interview for Engineers &amp; Managers - Learn Interactively</a>: Learn about modern system design interview techniques in this interactive course.</li>
+      <li><a href="https://interviewing.io/">Anonymous mock interviews with engineers from FAANG and more</a> Practice your interview skills with anonymous mock interviews conducted by engineers from FAANG and other companies.</li>
+      <li><a href="https://www.amazon.com/dp/B08CMF2CQF/ref=cm_sw_r_awdo_EKFZBH6MR5DYMQPY5BA6">System Design Interview – An insider’s guide: Xu, Alex</a> This book provides an insider’s guide to system design interviews.</li>
+      <li><a href="https://www.amazon.com/dp/1736049119/ref=cm_sw_r_awdo_B7SXT0NY1BB0GQ9M7PXY">System Design Interview – An Insider’s Guide: Volume 2: Xu, Alex, Lam, Sahn</a>: Volume 2 of the insider’s guide to system design interviews.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="more-on-llms">More on LLMs</h2>
+<ul>
+  <li><a href="https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/">Securing LLM Systems Against Prompt Injection</a>: Learn about securing LLM (Large Language Models!) systems against prompt injection in this technical blog post.</li>
+  <li><a href="https://simonwillison.net/2023/Aug/3/weird-world-of-llms/">Catching up on the weird world of LLMs</a>: Explore the intriguing world of LLMs (Lisp-like Macro systems) in this informative blog post.</li>
+  <li><a href="https://twitter.com/svpino/status/1684967719504945321?s=12&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Gorilla —- ApI completions</a>: Check out this tweet about API completions from the Gorilla project.</li>
+</ul>
+
+<h2 id="sunday-aug-6">Sunday, Aug 6</h2>
+<ul>
+  <li><a href="https://www.bloomberg.com/news/newsletters/2023-08-06/apple-iphone-15-comes-amid-us-sales-slowdown-tim-cook-q3-earnings-comments-lkzfs14u">Apple Admits There Is a Smartphone Slowdown Ahead of iPhone 15 Debut</a>: Apple’s CEO, Tim Cook, acknowledges the upcoming smartphone slowdown ahead of the iPhone 15 debut.</li>
+</ul>
+
+<h2 id="architecture-decisions-in-neon">Architecture decisions in Neon</h2>
+<p>In an enlightening blog post titled “Architecture decisions in Neon,” Neon.tech shares their approach to making architectural decisions in their software. The post provides valuable insights into their decision-making process, emphasizing the importance of considering trade-offs, scalability, and maintainability. <a href="https://neon.tech/blog/architecture-decisions-in-neon#fn-3"><em>Read More</em></a></p>
+
+<h2 id="query-language-understood-by-sqlite">Query Language Understood by SQLite</h2>
+<p>If you’ve ever worked with SQLite, you might have wondered about the query language it uses. Well, wonder no more! The official SQLite documentation provides a beautiful language definition that explains the syntax and semantics of SQLite’s query language. <a href="https://www.sqlite.org/lang.html"><em>Read More</em></a></p>
+
+<h2 id="pro-tip-of-the-week-staying-afloat-in-deep-water"><em>Pro Tip of the Week</em>: Staying Afloat in Deep Water</h2>
+<p>If you’ve ever found yourself in deep water and wished you could stay afloat effortlessly, then you’re in luck! This week’s <em>Pro Tip</em> is a YouTube video that teaches the skill of water treading. Developed by <a href="https://skillsyouneed.com">Skill You Need</a>, this instructional video demonstrates techniques that can help you stay afloat and even save your life. <a href="https://m.youtube.com/watch?v=btm5k5Sh-LY&amp;feature=youtu.be"><em>Watch the Video</em></a></p>
+
+<p>I hope you find these links as intriguing and informative as I did. Stay curious and keep exploring!</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

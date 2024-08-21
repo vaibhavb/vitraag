@@ -1,0 +1,1785 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Understanding CCR</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Understanding CCR</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Understanding CCR</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Tue Oct 27 22:27:50 2009</span>
+                              <span class="tag is-rounded is-warning">HealthVault, Vocabularies</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>CCR or Continuity of Care Record is a standard meant to ease the exchange of clinical information with a relatively easy to read and practical data-format and schema. There is ton of great information about CCR on its <a href="http://www.ccrstandard.com/">resource site</a>. CCR document format is supported by majority of personal Health clouds, both - Microsoft HealthVault &amp; Google Health.</p>
+
+<p>The CCR specification comprises an implementation guide, XML schema definition and a guidance spreadsheet for each data element that makes up the standard. These resources can be <a href="http://www.astm.org/Standards/E2369.htm">bought</a> from ASTM.</p>
+
+<p>The document format of CCR is very straight forward, consisting of a header, body and a footer with the following top-level elements:</p>
+
+<table cellpadding="1" cellspacing="0" border="1px" width="602"> <tbody> <tr>
+<td width="200" valign="top">**Header**
+</td>
+<td width="178" valign="top">**Body**
+</td>
+<td width="155" valign="top">**Body**
+</td>
+<td width="67" valign="top">**Footer**
+</td> </tr> <tr>
+<td width="200" valign="top">
+<pre>
+* CCR Document ID 
+* Language 
+* Version 
+* Creation Date 
+* Patient 
+* From 
+* To 
+* Purpose 
+</pre>
+</td>
+<td width="178" valign="top">
+<pre>
+* Payers 
+* Advance Directives 
+* Support 
+* Functional Status 
+* Problems 
+* Family History 
+* Social History 
+* Alerts 
+* Medications 
+</pre>
+</td>
+<td width="155" valign="top">
+<pre>
+* Medical Equipment 
+* Immunizations 
+* Vital Signs 
+* Results 
+* Procedures 
+* Encounters 
+* Plan Of Care 
+* HealthCareProviders 
+</pre>
+</td>
+<td width="67" valign="top">
+<pre>
+* Actors 
+* Signatures 
+* References 
+* Comments ****
+</pre>
+</td> </tr> </tbody> </table>
+
+<p>Google Health supports only a <a href="http://code.google.com/apis/health/ccrg_imagemap.gif">limited set of entities</a> from the above, while HealthVault supports the entire standard and also allows transformation of some of these entities in to native HealthVault types. You can read more about working with <a href="http://msdn.microsoft.com/en-us/dd797577.aspx">CCR in HealthVault</a> and various <a href="http://msdn.microsoft.com/en-us/ee663895.aspx">input</a> <a href="http://msdn.microsoft.com/en-us/ee663894.aspx">mappings</a>, <a href="http://msdn.microsoft.com/en-us/ee663897.aspx">output</a> <a href="http://msdn.microsoft.com/en-us/ee663896.aspx">mappings</a>, and <a href="http://msdn.microsoft.com/en-us/ee663898.aspx">CCR vocabularies</a>.</p>
+
+<p>Here are some illustrative CCR figures from Dr. Waldren’s presentation (see end of article). <em>Update 2019</em> no longer available.
+<!-- [![image](/assets/images/2009/10/image7_thumb.png)](/assets/images/2009/10/image7.png) [![image](/assets/images/2009/10/image5_thumb.png)](/assets/images/2009/10/image8.png)--></p>
+
+<p>Using the SNOMED-CT concepts one can write the Systolic Blood pressure reading in CCR as the following (<strong>UPDATE</strong>: Well-formatted the CCR to include source, object-id and actors, thanks to Matt Wagner):</p>
+
+<p><span>
+    <font size="2"><span style="color:blue;">&lt;?</span><span style="color:#a31515;">xml </span><span style="color:red;">version</span><span style="color:blue;">=</span>"<span style="color:blue;">1.0</span>" <span style="color:red;">encoding</span><span style="color:blue;">=</span>"<span style="color:blue;">utf-8</span>"</font><font size="2"><span style="color:blue;">?&gt; &lt;</span><span style="color:#a31515;">ContinuityOfCareRecord </span><span style="color:red;">xmlns</span><span style="color:blue;">=</span>'<span style="color:blue;">urn:astm-org:CCR</span>'</font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">CCRDocumentObjectID</span><span style="color:blue;">&gt;</span>Doc<span style="color:blue;">&lt;/</span><span style="color:#a31515;">CCRDocumentObjectID</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Language</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>English<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Language</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Version</span><span style="color:blue;">&gt;</span>V1.0<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Version</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">DateTime</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">ExactDateTime</span><span style="color:blue;">&gt;</span>2008<span style="color:blue;">&lt;/</span><span style="color:#a31515;">ExactDateTime</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">DateTime</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Patient</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">ActorID</span><span style="color:blue;">&gt;</span>Patient<span style="color:blue;">&lt;/</span><span style="color:#a31515;">ActorID</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Patient</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Body</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">VitalSigns</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Result</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">CCRDataObjectID</span><span style="color:blue;">&gt;</span>0001<span style="color:blue;">&lt;/</span><span style="color:#a31515;">CCRDataObjectID</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>Blood Pressure<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>Unknown<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Test</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">CCRDataObjectID</span><span style="color:blue;">&gt;</span>0002<span style="color:blue;">&lt;/</span><span style="color:#a31515;">CCRDataObjectID</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>Systolic<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Code</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Value</span><span style="color:blue;">&gt;</span>163030003<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Value</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">CodingSystem</span><span style="color:blue;">&gt;</span>SNOMEDCT<span style="color:blue;">&lt;/</span><span style="color:#a31515;">CodingSystem</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Code</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>Unknown<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">TestResult</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Value</span><span style="color:blue;">&gt;</span>120<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Value</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Units</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Unit</span><span style="color:blue;">&gt;</span>mmHg<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Unit</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Units</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">TestResult</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Test</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Test</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">CCRDataObjectID</span><span style="color:blue;">&gt;</span>0003<span style="color:blue;">&lt;/</span><span style="color:#a31515;">CCRDataObjectID</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>Diastolic<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Code</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Value</span><span style="color:blue;">&gt;</span>163031004<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Value</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">CodingSystem</span><span style="color:blue;">&gt;</span>SNOMEDCT<span style="color:blue;">&lt;/</span><span style="color:#a31515;">CodingSystem</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Code</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>Unknown<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">TestResult</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Value</span><span style="color:blue;">&gt;</span>75<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Value</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Units</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Unit</span><span style="color:blue;">&gt;</span>mmHg<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Unit</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Units</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">TestResult</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Test</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Result</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">VitalSigns</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Body</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Actors</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Actor</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">ActorObjectID</span><span style="color:blue;">&gt;</span>Patient<span style="color:blue;">&lt;/</span><span style="color:#a31515;">ActorObjectID</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Person</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Name</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">CurrentName</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Given</span><span style="color:blue;">&gt;</span>John<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Given</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Family</span><span style="color:blue;">&gt;</span>Doe<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Family</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">CurrentName</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Name</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Person</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;</span><span style="color:#a31515;">Text</span><span style="color:blue;">&gt;</span>Unknown<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Text</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Description</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Source</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Actor</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">Actors</span></font><font size="2"><span style="color:blue;">&gt; &lt;/</span><span style="color:#a31515;">ContinuityOfCareRecord</span></font><span style="color:blue;"><font size="2">&gt;</font> </span>
+</span></p>
+
+<p>Note <strong>CodingSystem</strong> element. It allows CCR to interpret various medical vocabularies.</p>
+
+<p><strong>Relevant Tools</strong>:</p>
+
+<p>(Thanks to Kathleen Connor)</p>
+
+<ul>
+  <li>The <a href="http://chit.dyndns.org/CCRValidation">CCR Validator</a>, is an important resource to test/validate a CCR instance, is a now available Not only does it validate the CCR against the XSD but also the constraints of the implementation guide.</li>
+  <li>An Open Source <a href="http://sourceforge.net/projects/ccr-resources/">StyleSheet</a> to view CCR files.</li>
+  <li><a href="http://wiki.hl7.org/index.php?title=Mappings_and_Translations">CCR to CCD &amp; HL7 Mappers</a> – tools which Map CCR to CCD and HL7 V2 &amp; V3. You can access them directly <a href="http://gforge.hl7.org/gf/project/v2v3-mapping/frs/">here</a>.</li>
+  <li><a href="http://rubyforge.org/projects/ccredit/">Application</a> to embed CCR in PDF-HealthCare.</li>
+</ul>
+
+<p><strong>Related Article(s):</strong></p>
+
+<ul>
+  <li>To get familiar with CCR I would highly recommended <a href="http://www.veoh.com/collection/astmccr/watch/v14141513WQRzgjzc">this</a> 13 minute video by Dr. Steve Waldren.</li>
+  <li>Adam Bosworth <a href="http://adambosworth.net/2009/10/29/talking-to-dc/">posted</a> an interesting read on standards, his take (simple, human readable, focus on known structured data, etc.) favors CCR.</li>
+</ul>
+
+<p><strong>In this series:</strong></p>
+
+<ol>
+  <li><a href="/2009/04/understanding-vocabularies-wait-what-did-you-say/">Understanding Vocabularies. Wait! What did you say?</a></li>
+  <li><a href="/2009/07/understanding-vocabularies-2-healthvault-recommendations/">Understanding Vocabularies #2 – HealthVault Recommendations</a></li>
+  <li><a href="/2009/10/understanding-snomed-ct/">Understanding SNOMED CT</a></li>
+  <li><a href="/2009/10/understanding-ccr/">Understanding CCR</a></li>
+</ol>
+
+<p>Special thanks to Kathy Osborne for proof reading this post.</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2013/03/03/at-himss-2013/">
+              <div class="rel">
+                  <h5>At HIMSS 2013</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2012/06/20/enabling-programmable-self-with-healthvault-and-more/">
+              <div class="rel">
+                  <h5>Enabling Programmable Self with HealthVault and more..</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2011/10/21/understanding-international-statistical-classification-of-diseases-icd/">
+              <div class="rel">
+                  <h5>Understanding International Statistical Classification of Diseases (ICD)</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

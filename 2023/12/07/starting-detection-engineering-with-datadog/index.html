@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Starting Detection Engineering with Datadog</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Starting Detection Engineering with Datadog</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Starting Detection Engineering with Datadog</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Thu Dec  7 05:06:00 2023</span>
+                              <span class="tag is-rounded is-warning">security</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>Detection engineering is an essential discipline for identifying and mitigating threats relevant to an organization. It involves understanding these threats in depth and developing reliable strategies for detection. While there’s no standardized process, detection engineering typically includes phases such as ideation, research, gathering requirements, development, testing and deployment, and maintenance.</p>
+
+<h2 id="the-lifecycle-of-detection-engineering">The Lifecycle of Detection Engineering</h2>
+
+<ol>
+  <li><strong>Ideation</strong>: Identifying relevant attack techniques for your organization.</li>
+  <li><strong>Research</strong>: Understanding how an attack works and the logs it generates.</li>
+  <li><strong>Gathering Requirements</strong>: Determining the necessary logs and visibility for implementing a detection.</li>
+  <li><strong>Development</strong>: Creating a concrete strategy and crafting detection rules.</li>
+  <li><strong>Testing and Deployment</strong>: Ensuring the rules work as expected with minimal false positives or negatives.</li>
+  <li><strong>Maintenance</strong>: Continuously monitoring and adjusting the detection rules.</li>
+</ol>
+
+<h2 id="challenges-and-solutions-in-detection-engineering">Challenges and Solutions in Detection Engineering</h2>
+
+<p>The process involves multiple complex elements, such as log collection, centralization, parsing, indexing, and aggregation. A common challenge is to ensure the proper configuration and functioning of these elements, from log delivery to correct rule behavior.</p>
+
+<h3 id="using-threatest-for-end-to-end-testing">Using Threatest for End-to-End Testing</h3>
+
+<p>Threatest is a CLI and Go framework that aids in writing end-to-end tests for threat detection rules. It allows the definition of test scenarios, detonation of attack techniques, and verification of expected alerts using the Datadog API. Threatest can run both as a CLI and programmatically, providing a robust way to ensure your detection mechanisms are functioning correctly.</p>
+
+<h2 id="python-sample-for-fetching-and-analyzing-datadog-logs">Python Sample for Fetching and Analyzing Datadog Logs</h2>
+
+<p>Here’s a basic Python example for fetching and analyzing logs from Datadog:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">datadog_api_client.v1</span> <span class="kn">import</span> <span class="n">ApiClient</span><span class="p">,</span> <span class="n">ApiException</span><span class="p">,</span> <span class="n">Configuration</span>
+<span class="kn">from</span> <span class="nn">datadog_api_client.v1.api</span> <span class="kn">import</span> <span class="n">logs_api</span>
+<span class="kn">from</span> <span class="nn">datadog_api_client.v1.models</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
+<span class="kn">import</span> <span class="nn">pytz</span>
+
+<span class="c1"># Calculate time range
+</span><span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">now</span><span class="p">(</span><span class="n">pytz</span><span class="p">.</span><span class="n">UTC</span><span class="p">)</span>
+<span class="n">fifteen_minutes_ago</span> <span class="o">=</span> <span class="n">now</span> <span class="o">-</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">minutes</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+
+<span class="c1"># Format times in ISO 8601 format
+</span><span class="n">time_from</span> <span class="o">=</span> <span class="n">fifteen_minutes_ago</span><span class="p">.</span><span class="n">isoformat</span><span class="p">()</span>
+<span class="n">time_to</span> <span class="o">=</span> <span class="n">now</span><span class="p">.</span><span class="n">isoformat</span><span class="p">()</span>
+
+<span class="c1"># Datadog API configuration
+</span><span class="n">configuration</span> <span class="o">=</span> <span class="n">Configuration</span><span class="p">()</span>
+<span class="n">configuration</span><span class="p">.</span><span class="n">api_key</span><span class="p">[</span><span class="s">'apiKey'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'YOUR_API_KEY'</span>
+<span class="n">configuration</span><span class="p">.</span><span class="n">api_key</span><span class="p">[</span><span class="s">'appKey'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'YOUR_APP_KEY'</span>
+
+<span class="k">with</span> <span class="n">ApiClient</span><span class="p">(</span><span class="n">configuration</span><span class="p">)</span> <span class="k">as</span> <span class="n">api_client</span><span class="p">:</span>
+    <span class="n">api_instance</span> <span class="o">=</span> <span class="n">logs_api</span><span class="p">.</span><span class="n">LogsApi</span><span class="p">(</span><span class="n">api_client</span><span class="p">)</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">LogsListRequest</span><span class="p">(</span>
+        <span class="n">index</span><span class="o">=</span><span class="s">"main"</span><span class="p">,</span>
+        <span class="n">query</span><span class="o">=</span><span class="s">"status:error"</span><span class="p">,</span>
+        <span class="n">sort</span><span class="o">=</span><span class="n">LogsSort</span><span class="p">.</span><span class="n">TIME_DESCENDING</span><span class="p">,</span>
+        <span class="n">time</span><span class="o">=</span><span class="n">LogsListRequestTime</span><span class="p">(</span>
+            <span class="n">_from</span><span class="o">=</span><span class="n">time_from</span><span class="p">,</span>
+            <span class="n">to</span><span class="o">=</span><span class="n">time_to</span>
+        <span class="p">)</span>
+    <span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># Fetch logs
+</span>        <span class="n">api_response</span> <span class="o">=</span> <span class="n">api_instance</span><span class="p">.</span><span class="n">list_logs</span><span class="p">(</span><span class="n">body</span><span class="o">=</span><span class="n">body</span><span class="p">)</span>
+        <span class="n">logs</span> <span class="o">=</span> <span class="n">api_response</span><span class="p">.</span><span class="n">data</span>
+
+        <span class="c1"># Detection logic
+</span>        <span class="k">for</span> <span class="n">log</span> <span class="ow">in</span> <span class="n">logs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="s">"specific_keyword"</span> <span class="ow">in</span> <span class="n">log</span><span class="p">.</span><span class="n">content</span><span class="p">:</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">"Detection: "</span><span class="p">,</span> <span class="n">log</span><span class="p">.</span><span class="n">content</span><span class="p">)</span>
+
+    <span class="k">except</span> <span class="n">ApiException</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Exception when calling LogsApi-&gt;list_logs: %s</span><span class="se">\n</span><span class="s">"</span> <span class="o">%</span> <span class="n">e</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Replace ‘YOUR_API_KEY’, ‘YOUR_APP_KEY’, and ‘specific_keyword’ with your actual Datadog API key, application key, and the keyword you’re monitoring in the logs.</p>
+
+<h2 id="real-world-applications-and-examples">Real-World Applications and Examples</h2>
+
+<h3 id="google-cloud-threat-detection">Google Cloud Threat Detection</h3>
+
+<p>Security analysts can design detections for behaviors like the anomalous creation of GPU-based VMs, indicative of activities such as cryptomining. Using Google Cloud audit logs, one can validate and detect suspicious activities, including service account misuse or the creation of unusual resources.</p>
+
+<h3 id="aws-cloudtrail-analysis">AWS CloudTrail Analysis</h3>
+
+<p>Understanding common enumeration techniques used by attackers in AWS environments is crucial. By analyzing CloudTrail logs, one can identify patterns like the creation of IAM users or security groups, or instances attempting to create IAM users. Datadog provides several high-confidence detections for these activities, which can be implemented using CloudTrail SQL.</p>
+
+<h2 id="how-datadog-can-help">How Datadog Can Help</h2>
+
+<p>Datadog’s Cloud SIEM includes several detection rules that help in identifying malicious activities encountered during threat hunting in AWS environments. These rules cover a range of activities, from IAM user creation to the identification of Tor client IP addresses within the AWS environment.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Detection engineering is a dynamic and crucial field in cybersecurity. Tools like Threatest, along with Datadog’s Cloud SIEM, provide powerful means to develop, test, and maintain detection rules, ensuring robust security for your organization.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://securitylabs.datadoghq.com/articles/threatest-end-to-end-testing-threat-detection/">Introducing Threatest, a CLI and Go framework for end-to-end testing of threat detection rules</a></li>
+  <li><a href="https://securitylabs.datadoghq.com/articles/google-cloud-threat-detection/">An Adventure in Google Cloud threat detection</a></li>
+  <li><a href="https://securitylabs.datadoghq.com/articles/aws-cloudtrail">Following attackers’ (Cloud)trail in AWS: Methodology and findings in the wild</a></li>
+  <li><a href="https://www.linkedin.com/pulse/socless-detection-team-netflix-alex-maestretti/">SOCless Detection System</a></li>
+  <li><a href="https://summitroute.com/blog/2016/11/22/how_to_write_security_alerts/">Writing Good Security Alerts</a></li>
+  <li><a href="https://magoo.medium.com/incident-response-writing-a-playbook-773e7920f171">IR Playbook</a></li>
+</ul>
+
+<p>By leveraging these tools and methodologies, you can effectively start and refine your journey in detection engineering with Datadog, ensuring a robust defense against evolving cybersecurity threats.</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/merritt-hackathon-recap/">
+              <div class="rel">
+                  <h5>Merritt Secure AI Hackathon Recap</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/16/aisec-workshop-introduction/">
+              <div class="rel">
+                  <h5>AI Security Getting Started Workshop</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/16/ai-security-secure-development/">
+              <div class="rel">
+                  <h5>AI Security Secure Development</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

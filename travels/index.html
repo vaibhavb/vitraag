@@ -1,0 +1,2760 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+        <title>My Travels</title>
+      </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<script src="https://unpkg.com/topojson@3"></script>
+
+<script src="https://www.vitraag.com//assets/js/worldmap.js" defer=""></script>
+
+<div class="content" style="padding-top: 4rem;margin-left: 1rem;">
+  <div>
+  </div>
+  <!-- experimental worldmap-->
+  <div id="map" style="height: 400px;"></div>
+
+ <!-- Initialize as an empty string for comparison -->
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+      <h3>Archive of travel posts from 2024</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 9, 2024</span>
+      <a href="/2024/07/09/mt-langley-trip-report/">Mt. Langley Trip Report - Lots of Firsts!</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span><span class="tag is-primary"><a href="/index.html#hiking">hiking</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 20, 2024</span>
+      <a href="/2024/06/20/planning-mt-langley/">Planning for Mt. Langley</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span><span class="tag is-primary"><a href="/index.html#hiking">hiking</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2024: 2</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2019</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 26, 2019</span>
+      <a href="/2019/06/26/a-journey-to-summit-mt-shasta-trip-report/">A Journey To Summit Mt. Shasta — Trip Report</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2019: 1</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2014</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Nov 13, 2014</span>
+      <a href="/2014/11/13/tryst-with-south-america-visas/">Tryst with South America Visas!</a>
+      <span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Oct 31, 2014</span>
+      <a href="/2014/10/31/euro-trip-2014-a-travelogue/">Euro Trip 2014 - A Travelogue</a>
+      <span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Sep 3, 2014</span>
+      <a href="/2014/09/03/bicycle-touring-victoria-islands/">Bicycle Touring Victoria Islands</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#travel">travel</a></span><span class="tag is-primary"><a href="/index.html#vacation">vacation</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 8, 2014</span>
+      <a href="/2014/07/08/bicycle-touring-with-me/">Bicycle touring with me !</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#guiding">guiding</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2014: 4</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2013</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 17, 2013</span>
+      <a href="/2013/12/17/calling-of-the-sunny-terrains-upcoming-mexico-trip/">Calling of the sunny terrains – Upcoming Mexico Trip</a>
+      <span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 1, 2013</span>
+      <a href="/2013/07/01/10-days-10-hikes/">10 days, 10 hikes</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span><span class="tag is-primary"><a href="/index.html#workouts">workouts</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2013: 2</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2011</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Aug 11, 2011</span>
+      <a href="/2011/08/11/great-weather-views-and-an-amicable-peakmt-rainier-climb/">Great weather, awesome views and an amicable peak – Mt. Rainier Climb</a>
+      <span class="tag is-primary"><a href="/index.html#asha">asha</a></span><span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 11, 2011</span>
+      <a href="/2011/07/11/seattle-to-vancouver-bike-ride/">Seattle to Vancouver Bike Ride</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2011: 2</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2010</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 28, 2010</span>
+      <a href="/2010/12/28/day-14-bhatkal-to-gokarna/">Day 14: Bhatkal to Gokarna!</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 27, 2010</span>
+      <a href="/2010/12/27/day-13-allepey-to-ernakulam/">Day 13: Allepey to Ernakulam</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 26, 2010</span>
+      <a href="/2010/12/26/day-12-amrita-puri-to-allepey/">Day 12: Amrita Puri to Allepey</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 25, 2010</span>
+      <a href="/2010/12/25/day-11-varkala-to-kollam-to-amrita-puri/">Day 11: Varkala to Kollam to Amrita Puri</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 24, 2010</span>
+      <a href="/2010/12/24/day-10-varkala/">Day 10: Varkala</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 23, 2010</span>
+      <a href="/2010/12/23/day-9-kovalam-to-varkala/">Day 9: Kovalam to Varkala</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 22, 2010</span>
+      <a href="/2010/12/22/day-8-kanyakumari-to-kovalam/">Day 8: Kanyakumari to Kovalam</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 21, 2010</span>
+      <a href="/2010/12/21/day-7-tiruchendur-to-kanyakumari/">Day 7: Tiruchendur to Kanyakumari</a>
+      <span class="tag is-primary"><a href="/index.html#asha">asha</a></span><span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 20, 2010</span>
+      <a href="/2010/12/20/day-6-parampudi-to-rameshwaram/">Day 6: Parampudi to Rameshwaram!</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 19, 2010</span>
+      <a href="/2010/12/19/day-5-madurai-to-parampudi/">Day 5: Madurai to Parampudi</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 18, 2010</span>
+      <a href="/2010/12/18/day-4-pondicherry-to-chidambaram/">Day 4: Pondicherry to Chidambaram</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 17, 2010</span>
+      <a href="/2010/12/17/day-3-auroville-to-pondicherry/">Day 3: Auroville to Pondicherry</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 16, 2010</span>
+      <a href="/2010/12/16/day-2-mahabalipuram-to-auroville/">Day 2: Mahabalipuram to Auroville</a>
+      <span class="tag is-primary"><a href="/index.html#asha">asha</a></span><span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 15, 2010</span>
+      <a href="/2010/12/15/day-1-chennai-to-mahabalipuram/">Day 1: Chennai To Mahabalipuram</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 14, 2010</span>
+      <a href="/2010/12/14/day-0-milinds-superstar-class/">Day 0 : Milind’s Superstar Class</a>
+      <span class="tag is-primary"><a href="/index.html#asha">asha</a></span><span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#tourofsouthindia">tourofsouthindia</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Nov 15, 2010</span>
+      <a href="/2010/11/15/riding-the-southern-peninsula/">Riding The Southern Indian peninsula – #2</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Aug 15, 2010</span>
+      <a href="/2010/08/15/mt-rainier-climbing-with-asha-and-for-an-asha-hope/">Mt. Rainier - - Climbing with Asha and for an Asha (hope)!</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Aug 2, 2010</span>
+      <a href="/2010/08/02/biking-along-the-indian-peninsula/">Biking along the Indian Peninsula</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 19, 2010</span>
+      <a href="/2010/07/19/mt-rainier-kautz-tricky-dc-red-tape-time-spent-awesome/">Mt. Rainier – Kautz: Tricky, DC: Red Tape, Time Spent: Awesome!</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 13, 2010</span>
+      <a href="/2010/06/13/flying-wheels-2010/">Flying Wheels 2010</a>
+      <span class="tag is-primary"><a href="/index.html#asha">asha</a></span><span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 10, 2010</span>
+      <a href="/2010/06/10/summer-10-activities-climb-camp-hike-and-cycle-away/">Summer ‘10 Activities – Climb, Camp, Hike and Cycle away!</a>
+      <span class="tag is-primary"><a href="/index.html#backpacking">backpacking</a></span><span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span><span class="tag is-primary"><a href="/index.html#travel">travel</a></span><span class="tag is-primary"><a href="/index.html#vacation">vacation</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Feb 9, 2010</span>
+      <a href="/2010/02/09/winter-olympics-are-here-and-near/">Winter Olympics are here and near!</a>
+      <span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2010: 22</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2009</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Dec 29, 2009</span>
+      <a href="/2009/12/29/winter-bike-commute/">Winter Bike Commute</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Nov 22, 2009</span>
+      <a href="/2009/11/22/costa-rica/">Costa Rica!</a>
+      <span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Oct 8, 2009</span>
+      <a href="/2009/10/08/cycling-to-sf-ride-report/">Cycling to SF – Ride Report!</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 21, 2009</span>
+      <a href="/2009/07/21/mt-rainier-climb-trip-report/">Mt. Rainier Climb – Trip Report</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 21, 2009</span>
+      <a href="/2009/07/21/mt-rainier-climb-the-cause/">Mt. Rainier Climb – The Cause</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 26, 2009</span>
+      <a href="/2009/06/26/seattle-to-sf-bike-ride-are-you-game/">Seattle to SF – Bike Ride, are you game?</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jan 12, 2009</span>
+      <a href="/2009/01/12/mexico-trip/">Mexico Trip!</a>
+      <span class="tag is-primary"><a href="/index.html#family">family</a></span><span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2009: 7</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2008</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Sep 22, 2008</span>
+      <a href="/2008/09/22/ice-climbing-newb/">Ice Climbing Newb!</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 28, 2008</span>
+      <a href="/2008/07/28/ride-report-stp-2008/">Ride Report - STP 2008</a>
+      <span class="tag is-primary"><a href="/index.html#asha">asha</a></span><span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#stp">stp</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 3, 2008</span>
+      <a href="/2008/07/03/mt-baker-climb/">Mt. Baker Climb</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 23, 2008</span>
+      <a href="/2008/06/23/backpacking-south-olympic-coast/">Backpacking south olympic coast</a>
+      <span class="tag is-primary"><a href="/index.html#backpacking">backpacking</a></span><span class="tag is-primary"><a href="/index.html#hobbies">hobbies</a></span><span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2008: 4</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2007</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 16, 2007</span>
+      <a href="/2007/07/16/stp2007-and-a-new-bicyclist/">STP2007 and a new bicyclist!!</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 13, 2007</span>
+      <a href="/2007/07/13/support-my-206-mile-journey-to-portland/">Support my 206 mile journey to Portland</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 2, 2007</span>
+      <a href="/2007/06/02/backpacking-with-mountain-lions-rattlesnakes-and-maris/">Backpacking with Mountain Lions, RattleSnakes and Maris!</a>
+      <span class="tag is-primary"><a href="/index.html#backpacking">backpacking</a></span><span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Feb 25, 2007</span>
+      <a href="/2007/02/25/london-longings/">London Longings!</a>
+      <span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jan 11, 2007</span>
+      <a href="/2007/01/11/feeling-smarter-in-oxford/">Feeling Smarter in Oxford!</a>
+      <span class="tag is-primary"><a href="/index.html#travel">travel</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2007: 5</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2006</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Aug 8, 2006</span>
+      <a href="/2006/08/08/mt-rainier-a-blissful-climb/">Mt. Rainier - A Blissful Climb!!</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 18, 2006</span>
+      <a href="/2006/07/18/stp-2006-story/">STP 2006 Story</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 11, 2006</span>
+      <a href="/2006/07/11/sahalee-peak-glacier-cimb/">Sahalee Peak - Glacier Cimb</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 6, 2006</span>
+      <a href="/2006/06/06/my-first-summit/">My First Summit!!!</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">May 8, 2006</span>
+      <a href="/2006/05/08/excursions-in-mountaineering-snow-camping-and-glacier-climbing/">Excursions In Mountaineering - Snow Camping and Glacier Climbing</a>
+      <span class="tag is-primary"><a href="/index.html#mountaineering">mountaineering</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        <!-- Display the count for the previous year before resetting -->
+        <div class="tag is-danger">Total posts in 2006: 5</div>
+        </ul> <!-- Ensure this is closed only if a new year is started or at the end -->
+         <!-- Reset counter for the new year -->
+        
+      
+      <h3>Archive of travel posts from 2005</h3>
+      <ul>
+      
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 14, 2005</span>
+      <a href="/2005/07/14/24/">No Content Found</a>
+      <span class="tag is-primary"><a href="/index.html#asha">asha</a></span><span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span><span class="tag is-primary"><a href="/index.html#stp">stp</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 13, 2005</span>
+      <a href="/2005/07/13/drafting-joy/">Drafting Joy!!</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jul 12, 2005</span>
+      <a href="/2005/07/12/wheelsofchange-stp2005-team/">WheelsOfChange-STP2005-team</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+
+    
+    
+
+    <li>
+      <span class="post-date">Jun 21, 2005</span>
+      <a href="/2005/06/21/20/">No Content Found</a>
+      <span class="tag is-primary"><a href="/index.html#cycling">cycling</a></span>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <!-- Handle the last post correctly, ensuring the counter for the last year is displayed -->
+    
+      <div class="tag is-danger">Total posts in 2005: 4</div>
+    
+    </ul>
+  
+
+
+</div>
+
+
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

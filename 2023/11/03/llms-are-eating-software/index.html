@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>LLMs Are Eating Software</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">LLMs Are Eating Software</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">LLMs Are Eating Software</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Fri Nov  3 00:09:14 2023</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>Welcome to this week’s edition of our tech roundup! In this post, we’ll dive into the most noteworthy links from the past few weeks, covering a range of topics including security, AI, and development. So let’s get started!</p>
+
+<p><img src="https://images.unsplash.com/photo-1533709752211-118fcaf03312?auto=format&amp;fit=crop&amp;q=80&amp;w=2070&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Software" /></p>
+
+<h2 id="monday-october-24th">Monday, October 24th</h2>
+
+<ul>
+  <li><a href="https://simonwillison.net/2023/Oct/23/embeddings/">Embeddings: What they are and why they matter</a>
+    <ul>
+      <li>This article explores the concept of embeddings and their significance in various applications.</li>
+    </ul>
+  </li>
+  <li><a href="https://docs.llamaindex.ai/en/latest/end_to_end_tutorials/low_level/root.html#building-advanced-rag-from-scratch">Building RAG from Scratch (Lower-Level) - LlamaIndex 🦙 0.8.49</a>
+    <ul>
+      <li>Learn how to build an advanced retriever, answerer, and generator (RAG) from scratch using the LlamaIndex framework.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tuesday-october-25th">Tuesday, October 25th</h2>
+
+<ul>
+  <li><a href="https://portswigger.net/burp/documentation/desktop/testing-workflow/session-management/jwts">Working with JWTs in Burp Suite - PortSwigger</a>
+    <ul>
+      <li>This guide provides insights into working with JSON Web Tokens (JWTs) in Burp Suite for effective session management.</li>
+    </ul>
+  </li>
+  <li><a href="https://arxiv.org/abs/2310.16028">What Algorithms can Transformers Learn? A Study in Length Generalization</a>
+    <ul>
+      <li>Dive into the world of transformers and explore the ability for these models to generalize across different input lengths.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="wednesday-october-26th">Wednesday, October 26th</h2>
+
+<ul>
+  <li><a href="https://aws.amazon.com/blogs/security/securing-generative-ai-an-introduction-to-the-generative-ai-security-scoping-matrix/">Securing generative AI: An introduction to the Generative AI Security Scoping Matrix - AWS Security Blog</a>
+    <ul>
+      <li>AWS Security Blog’s post introduces the concept of the Generative AI Security Scoping Matrix and its importance in securing generative AI models.</li>
+    </ul>
+  </li>
+  <li><a href="https://80000hours.org/problem-profiles/">What are the most pressing world problems?</a>
+    <ul>
+      <li>Check out this comprehensive list of the most pressing global problems and learn how you can make a difference.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="thursday-october-27th">Thursday, October 27th</h2>
+
+<ul>
+  <li><a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">The Bitter Lesson</a>
+    <ul>
+      <li>Explore the concept of the “bitter lesson” in AI and how it emphasizes the importance of leveraging large amounts of computation.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/tadwhitaker/Security_Engineer_Interview_Questions/blob/master/security-interview-questions.md">Security_Engineer_Interview_Questions/security-interview-questions.md at master · tadwhitaker/Security_Engineer_Interview_Questions · GitHub</a>
+    <ul>
+      <li>If you’re preparing for a security engineer interview, this list of interview questions can help you brush up on your knowledge.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.securitymentor.club/mentors/">Mentors - 🎉 Security Mentor Club</a>
+    <ul>
+      <li>Looking for guidance in the security industry? Check out Security Mentor Club’s list of mentors who can provide valuable insights and advice.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="friday-october-28th-prolific-day">Friday, October 28th (Prolific Day)</h2>
+
+<ul>
+  <li><a href="https://www.devseccon.com/events/owasp-llm-top-10">OWASP LLM Top 10 - DevSecCon</a>
+    <ul>
+      <li>DevSecCon provides an overview of the OWASP LLM (Layered Language Models) Top 10, highlighting key vulnerabilities and best practices.</li>
+    </ul>
+  </li>
+  <li><a href="https://statsig.com/">Statsig - #1 Feature Management and Experimentation Platform</a>
+    <ul>
+      <li>Statsig offers a powerful feature management and experimentation platform, enabling teams to make data-driven decisions and launch features confidently.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="monday-october-31st">Monday, October 31st</h2>
+
+<ul>
+  <li><a href="https://www.sec.gov/news/press-release/2023-227">SEC.gov - SEC Charges SolarWinds and Chief Information Security Officer with Fraud, Internal Control Failures</a>
+    <ul>
+      <li>The U.S. Securities and Exchange Commission (SEC) charges SolarWinds and its Chief Information Security Officer with fraud and internal control failures.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tuesday-november-3rd">Tuesday, November 3rd</h2>
+
+<ul>
+  <li><a href="https://github.com/GoogleCloudPlatform/healthcare-data-harmonization">GoogleCloudPlatform/healthcare-data-harmonization - This is an engine that converts data of one structure to another, based on a configuration file which describes how. There is an accompanying syntax to make writing mappings easier and more robust.</a>
+    <ul>
+      <li>Google Cloud Platform introduces healthcare-data-harmonization, an engine for converting data structures using configuration files.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.clouddefense.ai/agent-based-vs-agentless-security/">Agent-based vs Agentless security: Which Approach is Better</a>
+    <ul>
+      <li>Gain insights into the differences between agent-based and agentless security approaches and understand which one might be better suited for your needs.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="friday-november-4th">Friday, November 4th</h2>
+
+<ul>
+  <li><a href="None">https://youtube.com/watch?v=yj-wSRJwrrc&amp;si=7SxOT3ssXZHDs1qf</a>
+    <ul>
+      <li>LLMs are eating software, pydantic is all you need!</li>
+    </ul>
+  </li>
+</ul>
+
+<p>That’s it for this week’s tech roundup! We hope you found these links informative and relevant to your interests. Tune in next week for more exciting updates and insights from the tech world.</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

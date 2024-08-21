@@ -1,0 +1,1034 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Project Pensieve — Season Finale!</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Project Pensieve — Season Finale!</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Project Pensieve — Season Finale!</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Thu Sep 14 22:25:54 2017</span>
+                              <span class="tag is-rounded is-warning">ramblings</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p><strong>Editor’s Note: **Cyber crimes against consumers are rampant and not much is done. Most corporation treat consumer data as a product. Consumer’s can’t trust organizations to be custodians of their data and governments are not of any help. Project Pensieve aims to give the control of data to consumers through use of blockchain technology. We are thrilled to present the final project update written by</strong> Nick Handy, Eric Tinoco, and Brandon Rawlin.**</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*4GrdxQELMjsnvMQW." alt="" /></p>
+
+<p>Source: Coinbase.com</p>
+
+<p>**Welcome Back!<br />
+**This week we will take a look back as our 8 week program comes to an end. This past thursday and friday we gave presentations of our final projects. This involved creating a five-minute presentation of our work as well as a research poster. In this blog we will summarize these for you and give a taste about what will come next for our project Pensieve.</p>
+
+<h3 id="creating-a-researchposter"><strong>Creating a Research Poster</strong></h3>
+
+<p><img src="https://vitraagblog.files.wordpress.com/2017/09/8fa0d-1iecmzrpesoo4b5vjhxhxja.png" alt="" /></p>
+
+<p>Pensieve Poster</p>
+
+<p>We created a research <a href="https://docs.google.com/presentation/d/1w_R90q1i4b_MXY0WWq_NYswYYz0sAzjyNyfrn3nbe-k/edit">poster</a> that contained a collection of all the work that we have done, and the work that we intend to do in the near future. In this poster board you will be able to get a glimpse of the following:</p>
+
+<ul>
+  <li>
+    <p>A brief summary of our work</p>
+  </li>
+  <li>
+    <p>The background of Pensieve and the blockchain</p>
+  </li>
+  <li>
+    <p>Our approach to storing information on the blockchain</p>
+  </li>
+  <li>
+    <p>Our Implementation</p>
+  </li>
+  <li>
+    <p>Our Results</p>
+  </li>
+  <li>
+    <p>Future additions to our project</p>
+  </li>
+  <li>
+    <p>Cited Resource List</p>
+  </li>
+</ul>
+
+<p>For most of us, this was the first research poster we have done in the computer science field, and it was a great learning experience as we had to track our thought process throughout the entire project. Taking a step back — this project was an inspiration as new students in the Cyber Securityfield..</p>
+
+<h3 id="bringing-it-alltogether"><strong>Bringing it all Together</strong></h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*uIS0zdkyjSk28eyH." alt="" /></p>
+
+<p>The culmination of our project were presentations of our research on the final two days of the program. We planned out our presentation to be a bit more digestible than the poster board. In roughly five minutes our presentation had to explain the blockchain system, break down our project, and demonstrate the Pensieve prototype. The slides for the presentation can be found <a href="https://docs.google.com/presentation/d/1EzNqxy-WLgpS66WVxzlGSRLxehqkEG3J0u8-bQp1BIE/edit">here</a>.</p>
+
+<h3 id="main-concepts-of-the-presentation"><strong>Main Concepts of the Presentation</strong></h3>
+
+<p>Our presentation used Yahoo as an example to support why decentralized applications are important. Yahoo’s breach in 2016 showed that entrusting data with companies has tremendous downsides when they are compromised. A decentralized system can be a safer place to store data then a centralized one. The most difficult part of our presentation was explaining the blockchain in around a minute and half. Once blockchain was explained, we moved onto the platform in which we were going to use, and that platform was Ethereum. With Ethereum, we created a decentralized app, and integrated it into a Chrome extension that we called Pensieve. We demonstrated how the UI of Pensieve looked like, and how we were going to implement the idea of using this Chrome extension to store data into the Ethereum blockchain. We then explained the steps on how the files stored in the blockchain are done. After the explanation we did a quick demonstration of Pensieve. The presentations, although nerve wrecking, was a great overall experience both professionally and personally.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*t9GT6NFkhj0itIxu." alt="" /></p>
+
+<h3 id="take-aways"><strong>Take Aways</strong></h3>
+
+<p>After both presentations we opened up the floor for questions. Both days of our presentation we gained new insights about our project. For one, we need to focus a lot more on weak points in our extension. Transferring data from the extension to the smart contract on the blockchain must be done securely. The blockchain suits some type of data better than others. All of the questions pushed us harder to think about the problem we were attempting to solve with Pensieve. Now we can add these new issues to the tasks we’ll have to handle in our future work.</p>
+
+<h3 id="what-have-welearned"><strong>What have we Learned</strong></h3>
+
+<p>We have progressed a great deal over this past month or so. We started with almost no knowledge of how the blockchain system worked. In the first week, we spent most of our time researching what a blockchain was. The concept was foreign in many ways and we had to go through explanation after explanation to get it down. We also did not originally account for how many parts were needed to create a simple decentralized application. Here are all of the pieces we needed to learn and incorporate to build our prototype:</p>
+
+<ul>
+  <li>
+    <p>Solidity Programming Language for Ethereum</p>
+  </li>
+  <li>
+    <p>Truffle Framework and Ethereumjs-testrpc to compile, deploy, and test contracts</p>
+  </li>
+  <li>
+    <p>Web3js to connect blockchain data with the front-end Chrome extension</p>
+  </li>
+  <li>
+    <p>HTML, CSS, JavaScript to build the Chrome extension</p>
+  </li>
+  <li>
+    <p>Reactjs which allowed automatic updating of our web app and provided a framework for page navigation</p>
+  </li>
+</ul>
+
+<p>At times, navigating which of these elements we needed to focus on to build the prototype was daunting. Fortunately, we were able to get something working before the presentation. Although it was difficult to get these components to play nice, each of these components listed above gives us a good base to work off of to refine the prototype and incorporate future additions.</p>
+
+<h4 id="special-thanks"><strong>Special Thanks</strong></h4>
+
+<p>This project would not be possible without the support of Vaibhav Bhandari and <a href="http://www.lib13.com/">Lib13</a>. Thank you to Greg Moore and Clinton Fernandez who were great mentors throughout the program and were there to provide a helping hand each day. Thank you Growth Sector, Evergreen Community College, San Jose City Community College and countless others. Finally, thank you for reading.</p>
+
+<p>For those interested in development updates, stay tuned to our <a href="https://github.com/cyberdefenders/Pensieve">github</a>.</p>
+
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2018/07/24/all-about-japan/">
+              <div class="rel">
+                  <h5>All About Japan</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2018/06/21/introducing-cyberdefenders-2018-summer-program/">
+              <div class="rel">
+                  <h5>Introducing CyberDefenders 2018 Summer Program!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2018/05/22/twofer-we-are-hiring-announcing-our-summer-program/">
+              <div class="rel">
+                  <h5>Twofer — We are hiring & Announcing our summer program!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

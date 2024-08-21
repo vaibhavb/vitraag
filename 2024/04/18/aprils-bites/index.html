@@ -1,0 +1,420 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>April Bites!</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">April Bites!</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">April Bites!</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Thu Apr 18 00:11:13 2024</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p><img src="https://images.unsplash.com/photo-1523318985288-c572e7d4b44e?q=80&amp;w=2940&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="2024 April 17 Topics" /></p>
+
+<p>Whew! If our brains were computers, this week would’ve had them buzzing from an overload of fascinating reads and views across the digital landscape. So, let’s unpack this digital suitcase of knowledge, ensuring nothing’s crammed in the wrong compartment!</p>
+
+<h2 id="code">Code</h2>
+<ul>
+  <li>[2024-04-09] - <a href="https://www.softwareheritage.org/">Software Heritage</a><br />
+An expansive archive of software source code aimed at preserving and sharing software heritage.</li>
+  <li>[2024-04-10] - <a href="https://ui.shadcn.com/examples/mail">Examples - shadcn-ui</a><br />
+Demonstrates how to build intuitive email interfaces with shadcn’s UI toolkit.</li>
+  <li>[2024-04-11] - <a href="https://sourcery.ai/blog/python-best-practices/">How to set up a perfect Python project</a><br />
+A guide on establishing best practices for Python projects to improve code quality and maintainability.</li>
+  <li>[2024-04-13] - <a href="http://blog.nullspace.io/adding-haskells-where-to-ocaml.html">Adding Haskell’s where keyword to OCaml</a><br />
+Explores the potential benefits and methodology of incorporating Haskell’s ‘where’ keyword into OCaml.</li>
+  <li>[2024-04-13] - <a href="https://www.recurse.com/apply">Applying to RC - Recurse Center</a><br />
+Details the application process for the Recurse Center, a retreat for programmers to explore and improve their craft.</li>
+  <li>[2024-04-16] - <a href="https://phiresky.netlify.app/blog/2021/hosting-sqlite-databases-on-github-pages/">Hosting SQLite databases on Github Pages - (or any static file hoster) - phiresky’s blog</a><br />
+Provides a clever method to host and query SQLite databases directly on static file hosts like GitHub Pages.</li>
+  <li>[2024-04-16] - <a href="https://facebook.github.io/zstd/">Zstandard - Real-time data compression algorithm</a><br />
+Discusses Zstandard, a highly efficient data compression tool designed for real-time application.</li>
+  <li>[2024-04-17] - <a href="https://www.youtube.com/watch?v=d5x0JCZbAJs">From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more)</a><br />
+A comprehensive React tutorial covering everything from basic concepts to advanced configurations for production.</li>
+  <li>[2024-04-17] - <a href="https://pagespeed.web.dev/analysis/https-hellojasper-com/sirf5q7hsg?form_factor=mobile">PageSpeed Insights</a><br />
+A tool for analyzing the performance of web pages and getting suggestions to make them faster.</li>
+</ul>
+
+<h2 id="security">Security</h2>
+<ul>
+  <li>[2024-04-11] - <a href="https://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a">A Cyber Threat Intelligence Self-Study Plan: Part 1 - by Katie Nickels</a><br />
+Katie Nickels outlines a structured self-study plan for aspiring cyber threat intelligence analysts.</li>
+  <li>[2024-04-11] - <a href="https://medium.com/snowflake/detection-development-lifecycle-af166fffb3bc">Detection Development Lifecycle. Snowflake’s implementation of the… - by Haider Dost</a><br />
+A deep dive into Snowflake’s approach to developing and maintaining effective security detection systems.</li>
+  <li>[2024-04-16] - <a href="https://embracethered.com/blog/posts/2024/google-notebook-ml-data-exfiltration/">Bobby Tables but with LLM Apps - Google NotebookML Data Exfiltration</a><br />
+Discusses vulnerabilities and potential data exfiltration techniques in LLM applications using real-world examples.</li>
+  <li>[2024-04-17] - <a href="https://www.youtube.com/watch?v=-YxmUlGtm_A&amp;t=876s">SC Ch 9</a><br />
+A video tutorial covering advanced security challenges and solutions in modern computing environments.</li>
+</ul>
+
+<h2 id="llm">LLM</h2>
+<ul>
+  <li>[2024-04-15] - <a href="https://www.youtube.com/watch?v=EGDG3hgPNp8">AI: Grappling with a New Kind of Intelligence</a><br />
+Explores the complex interactions and ethical considerations surrounding the development of large language models.</li>
+  <li>[2024-04-17] - <a href="https://www.youtube.com/watch?v=w7-gJicosyA&amp;t=5s">Linus Torvalds Talks About LLM</a><br />
+Linus Torvalds shares his insights and opinions on the evolution and impact of large language models in technology.</li>
+  <li>[2024-04-17] - <a href="https://www.youtube.com/watch?v=c3b-JASoPi0">Making AI accessible with Andrej Karpathy and Stephanie Zhan</a><br />
+A discussion on the democratization of AI technology and making advanced tools available to a broader audience.</li>
+  <li>[2024-04-15] - <a href="https://polymathic-ai.org/">Polymathic</a><br />
+An initiative aimed at integrating AI into various scientific disciplines to solve complex problems.</li>
+</ul>
+
+<h2 id="science">Science</h2>
+<ul>
+  <li>[2024-04-15] - <a href="https://www.youtube.com/watch?v=fk2r8y5TfNY">Miles Cranmer - The Next Great Scientific Theory is Hiding Inside a Neural Network</a><br />
+Miles Cranmer discusses how neural networks may hold the key to uncovering new scientific theories.</li>
+  <li>[2024-04-15] - <a href="https://github.com/MilesCranmer/PySR">MilesCranmer/PySR: High-Performance Symbolic Regression in Python and Julia - towards science with LLMs</a><br />
+A tool for performing symbolic regression at high speeds in Python and Julia, designed for scientific research.</li>
+</ul>
+
+<h2 id="longevity">Longevity</h2>
+<ul>
+  <li>[2024-04-16] - <a href="https://sites.google.com/view/davepascoe">Dave Pascoe</a><br />
+An exploration into the methods and practices that contribute to long-term health and vitality.</li>
+</ul>
+
+<h2 id="wisevoter">Wisevoter</h2>
+<ul>
+  <li>[2024-04-17] - <a href="https://www.youtube.com/watch?v=3KcOLPGXvXM">LIVE: PM Narendra Modi talking to news agency ANI</a><br />
+A live interview with Prime Minister Narendra Modi discussing recent governmental policies and public issues.</li>
+</ul>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

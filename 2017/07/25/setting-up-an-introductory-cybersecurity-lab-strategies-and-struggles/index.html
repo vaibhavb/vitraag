@@ -1,0 +1,1047 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Setting Up an Introductory CyberSecurity Lab — Strategies and Struggles</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Setting Up an Introductory CyberSecurity Lab — Strategies and Struggles</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Setting Up an Introductory CyberSecurity Lab — Strategies and Struggles</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Tue Jul 25 01:39:43 2017</span>
+                              <span class="tag is-rounded is-warning">ramblings</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p><strong>Editor’s Note:</strong> It’s hard to put together an introductory cyber security lab, this post by Greg Moore details our efforts in this direction. Please provide feedback and links on what you think will be great tools and resources for students learning the art and craft of cyber defense!</p>
+
+<p><img src="https://vitraagblog.files.wordpress.com/2017/07/84662-14a-smmtbqfhnxjzbmzfejq.png" alt="" /></p>
+
+<p>A Prototype Cyber Security Lab (Source: ARL — US Army)</p>
+
+<p>At Cyber Defenders, our mission is to bring students with little to no background in cybersecurity up to a knowledge level that allows them to work on meaningful research projects. The inaugural Cyber Defenders program has four project teams, each partnering with a different industry leader to work on a project in a growing and critical area of cyber security. The project topics for this year’s cohort are malware analysis (<a href="https://medium.com/cyberdefenders/got-malware-meet-us-e725711a4fc1">GotMalware</a>), consumer data protection (<a href="https://medium.com/cyberdefenders/our-secure-future-can-be-built-on-blockchains-introducing-pensieve-345668171532">Pensieve</a>), mobile healthcare application vulnerabilities (<a href="https://medium.com/cyberdefenders/how-secure-are-your-health-apps-73043311d74">HealthSec</a>), and network security (<a href="https://medium.com/cyberdefenders/baking-a-raspberry-pi-to-capture-data-from-the-network-e5c89fb195ad">Raspi</a>).</p>
+
+<p>As most students entering the program have little to no background in cybersecurity, prior to beginning our project work we provide a general introduction to the field of cybersecurity via lab exercises, tutorials, and suggested reading. Below we enumerate the steps we have taken to provide that general introduction and background. We invite you, dear reader, to contribute any suggestions about learning aids or content structure that will help us improve our cybersecurity lab!</p>
+
+<h3 id="labs"><strong>Labs</strong></h3>
+
+<ol>
+  <li>
+    <p>**CIA triad<br />
+**We begin our introduction to cybersecurity with a discussion of the CIA triad (Confidentiality, Integrity, and Availability). This helps students conceptualize the ways that cybersecurity can be compromised and provides a useful starting point to introduce the various domains of cybersecurity that attempt to address these threat categories. As an exercise several types of attacks are presented (such as DDOS, password cracking, replay, etc) and students are asked to identify which letter(s) in the triad apply. CIA <a href="http://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-and-risk-management/the-security-cia-triad/#gref">tutorials</a> and <a href="https://www.youtube.com/watch?v=szcmb-lcYV4">videos</a>.</p>
+  </li>
+  <li>
+    <p>**Cryptography-<br />
+**Cryptography is presented as the cybersecurity domain that attempts to guarantee confidentiality and integrity for electronic information. We begin the cryptography lesson by covering the concepts of encryption and hashing. This provides an opportunity to review some foundational math concepts like changing bases and performing logic operations such as AND, OR, XOR, etc. To help students visualize what occurs during encryption, we have the student download CrypTool and walk through an animated tutorial covering the steps involved in AES encryption (CrypTool&gt;Individ. Procedures&gt;Visualization of Algorithms&gt;AES&gt;Rijndael Animation). We then introduce the concepts of salting and nonces, and we explore the differences between symmetric and asymmetric cryptography. As an exercise, we go through different combinations of public key encryption, private key encryption, shared key encryption, hashing, salting, and use of nonces. Students are asked to identify whether the combinations provide assurances of Confidentiality and Integrity. We conclude the cryptography exploration with a tutorial that demonstrates password cracking using a provided Python program and rainbow table. Cryptography <a href="https://www.guru99.com/how-to-make-your-data-safe-using-cryptography.html">Tutorials</a> and <a href="https://www.youtube.com/watch?v=t8-aq_Rd5v0">Videos</a></p>
+  </li>
+  <li>
+    <p>**Network Security: **This lab provides an overview of networking and how network security strategies are deployed to address the Availability pillar of the CIA triad. The introduction to networking begins with a description of the OSI layer model. We walk through each layer and their associated protocol, protocol data unit, and keyterms (such as MAC address, IP, etc). We then examine the well-known traditional network attacks ping-of-death, DDOS, and botnet-mediated DDOS. The network security lab concludes with a wireshark exercise in which students perform packet capture and practice analyzing network traffic. Network Security <a href="https://www.concise-courses.com/hacking-tools/packet-crafting-tools/wireshark/">Tutorials</a>-</p>
+  </li>
+  <li>
+    <p><strong>Malware — </strong>The malware lab begins with an overview of common types of malware and infection vectors. We cover concepts such as the reverse shell exploit, ransomware, and botnet generation. We then guide the students through installations of VirtualBox, KaliLinux, and Debian and then work through several tutorials that describe how malware can be generated using Metasploit and deployed. A favorite exercise involves walking students through infection of a pdf with a reverse callback shell in Metasploit. The students email the pdf to a dummy email account and open it on a Debian VM, and then control the Debian VM from their KaliLinux terminal. Following are some of the Malware Tutorials we use : <a href="https://www.youtube.com/user/kalinuxx">KaliLinux</a>, <a href="https://www.offensive-security.com/metasploit-unleashed/">Metasploit</a>, and <a href="https://readwrite.com/2013/07/31/how-to-build-a-botnet-in-15-minutes/">Building A BotNet</a>.</p>
+  </li>
+  <li>
+    <p><strong>Data forensics </strong>— The data forensics lab concludes our introduction to cyber security module. We begin with a discussion of file storage and erasure mechanisms. We then walk the students through a file recovery exercise using the forensic analysis tool Autopsy. Data Forensics <a href="https://www.youtube.com/watch?v=e5O-d5M90EI">Tutorial</a>.</p>
+  </li>
+</ol>
+
+<h3 id="books"><strong>Books</strong></h3>
+
+<p>We have found the following books to be extremely helpful for introducing concepts, providing background information, and serving as on-hand reference guides.</p>
+
+<ol>
+  <li>
+    <p>Singer, Peter W., and Allan Friedman. <strong><em>Cybersecurity: What Everyone Needs to Know</em></strong>. Oxford University Press, 2014**. **<a href="https://www.amazon.com/Cybersecurity-Cyberwar-Everyone-Needs-Know/dp/0199918112/">Link</a></p>
+  </li>
+  <li>
+    <p>Anderson, Ross J. <strong><em>Security engineering: a guide to building dependable distributed systems</em></strong>. John Wiley &amp; Sons, 2010. <a href="https://www.amazon.com/Security-Engineering-Building-Dependable-Distributed/dp/0470068523/">Link</a></p>
+  </li>
+  <li>
+    <p>Schneier, Bruce. <strong><em>Data and Goliath: The hidden battles to collect your data and control your world</em></strong>. WW Norton &amp; Company, 2015. <a href="https://www.amazon.com/Data-Goliath-Battles-Collect-Control/dp/039335217X/">Link</a></p>
+  </li>
+  <li>
+    <p>Regalado, Daniel, et al. <strong><em>Gray Hat Hacking the Ethical Hacker’s Handbook</em>. McGraw-Hill Education Group</strong>, 2015. <a href="https://www.amazon.com/Hacking-Ethical-Hackers-Handbook-Fifth/dp/1260108414/">Link</a></p>
+  </li>
+  <li>
+    <p>Anley, Chris, et al. <strong><em>The shellcoder’s handbook: discovering and exploiting security holes</em></strong>. John Wiley &amp; Sons, 2011. <a href="https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X/">Link</a></p>
+  </li>
+  <li>
+    <p>Marcella Jr, Albert J., and Frederic Guillossou. <strong><em>Cyber forensics: From data to digital evidence</em></strong>. Vol. 623. John Wiley &amp; Sons, 2012. <a href="https://www.amazon.com/Cyber-Forensics-Data-Digital-Evidence/dp/1118273664/">Link</a></p>
+  </li>
+</ol>
+
+<h3 id="suggested-hardware"><strong>Suggested Hardware</strong></h3>
+
+<ol>
+  <li>
+    <p>Raspberry Pi: <a href="https://www.amazon.com/Vilros-Raspberry-Kit-Clear-Bluetooth-Connectivity/dp/B01D92SSX6/">Amazon</a></p>
+  </li>
+  <li>
+    <p>Ethernet sniffer: <a href="https://www.amazon.com/midBit-Technologies-LLC-10-100/dp/B00DY77HHK/">Amazon</a></p>
+  </li>
+  <li>
+    <p>Bluefruit (Bluetooth sniffer) at <a href="https://www.amazon.com/Adafruit-Bluefruit-Sniffer-Bluetooth-nRF51822/dp/B00SKWGPE0/">Amazon</a>, Ubertooth (Bluetooth sniffer) at <a href="https://hakshop.com/collections/wireless-gear/products/ubertooth-one">Amazon</a></p>
+  </li>
+  <li>
+    <p>Rubber Ducky (USB keystroke injection tool) at <a href="https://hakshop.com/products/usb-rubber-ducky-deluxe">Hakshop</a>.</p>
+  </li>
+  <li>
+    <p>Wifi Pineapple Router at <a href="https://hakshop.com/products/wifi-pineapple">Hakshop</a></p>
+  </li>
+  <li>
+    <p>LAN Turtle at <a href="https://hakshop.com/products/lan-turtle">Hakshop</a></p>
+  </li>
+</ol>
+
+<h3 id="suggested-software"><strong>Suggested Software</strong></h3>
+
+<ol>
+  <li>
+    <p>Virtual Box : <a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></p>
+  </li>
+  <li>
+    <p>Kali Linux VM: <a href="https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-do">https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/</a></p>
+  </li>
+  <li>
+    <p>CrypTool: <a href="https://www.cryptool.org/en/ct1-downloads">https://www.cryptool.org/en/ct1-downloads</a></p>
+  </li>
+  <li>
+    <p>Wireshark/Tshark: <a href="https://www.wireshark.org/download.html">https://www.wireshark.org/download.html</a></p>
+  </li>
+  <li>
+    <p>Autopsy: <a href="http://www.autopsy.com/download/">http://www.autopsy.com/download/</a></p>
+  </li>
+</ol>
+
+<h3 id="what-else-should-we-include-suggestions">What else should we include? Suggestions?..</h3>
+
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2018/07/24/all-about-japan/">
+              <div class="rel">
+                  <h5>All About Japan</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2018/06/21/introducing-cyberdefenders-2018-summer-program/">
+              <div class="rel">
+                  <h5>Introducing CyberDefenders 2018 Summer Program!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2018/05/22/twofer-we-are-hiring-announcing-our-summer-program/">
+              <div class="rel">
+                  <h5>Twofer — We are hiring & Announcing our summer program!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

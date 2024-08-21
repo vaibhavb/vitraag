@@ -1,0 +1,1787 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Running HealthVault Apps On Windows Azure</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Running HealthVault Apps On Windows Azure</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Running HealthVault Apps On Windows Azure</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Mon Oct 19 10:21:00 2009</span>
+                              <span class="tag is-rounded is-warning">ASP.NET, HealthVault</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p><a href="http://blogs.msdn.com/healthvault/archive/2009/08/27/healthvault-0908-release-notes.aspx">HealthVault SDK 1.0</a> introduces an interesting capability by which an HealthVault application can read their application certificate from a file. Eric has some details about this on his <a href="http://blogs.msdn.com/ericgu/archive/2009/10/16/healthvault-0908-sdk-highlights.aspx">blog</a>.</p>
+
+<p>I’m going to describe how this capability of reading an application’s certificates from the file store could be used to run HealthVault application on Windows Azure. Here are the steps to get a simple HealthVault application (which I call HelloHV) running on Windows Azure:</p>
+
+<ol>
+  <li>
+    <p>Install the <a href="http://www.microsoft.com/windowsazure/windowsazure/">Azure SDK</a> and <a href="http://msdn.microsoft.com/HealthVault">HealthVault SDK</a>. Create your HealthVault application as a Web Role.</p>
+  </li>
+  <li>
+    <p>Configure and create an HealthVault application using the application manager utility in HealthVault SDK. <strong>Make sure</strong> you set the <strong>Action-Url</strong> to http://<yourapp>.cloudapp.net/Redirect.aspx using the Application Configuration Center.</yourapp></p>
+  </li>
+  <li>
+    <p>Copy the Redirect.aspx &amp; Redirect.cs from HealthVault samples (HelloWorld in HealthVault SDK) in to your application and add reference to HealthVault assemblies (you can find them in C:Program FilesMicrosoft HealthVaultSDKDotNetAssemblies)</p>
+  </li>
+  <li>
+    <p>Add the HealthVault related config settings to your WebRole’s Web.Config, the easiest way to do this would be copy the relevant key(s) from a sample in HealthVault SDK. Here is an illustration :</p>
+  </li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;&lt;&lt;/span&gt;&lt;span style="color:#a31515;"&gt;appSettings&lt;/span&gt;&lt;/font&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;&gt;
+  &lt;&lt;/span&gt;&lt;span style="color:#a31515;"&gt;add &lt;/span&gt;&lt;span style="color:red;"&gt;key&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;ApplicationId&lt;/span&gt;" &lt;span style="color:red;"&gt;value&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;01e21bd1-cb13-40d6-8f01-596286827d6d&lt;/span&gt;"&lt;/font&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;/&gt;
+  &lt;&lt;/span&gt;&lt;span style="color:#a31515;"&gt;add &lt;/span&gt;&lt;span style="color:red;"&gt;key&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;ShellUrl&lt;/span&gt;" &lt;span style="color:red;"&gt;value&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;https://account.healthvault-ppe.com/&lt;/span&gt;"&lt;/font&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;/&gt;
+  &lt;&lt;/span&gt;&lt;span style="color:#a31515;"&gt;add &lt;/span&gt;&lt;span style="color:red;"&gt;key&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;HealthServiceUrl&lt;/span&gt;" &lt;span style="color:red;"&gt;value&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;https://platform.healthvault-ppe.com/platform/&lt;/span&gt;"&lt;/font&gt;&lt;span style="color:blue;"&gt;&lt;font size="2"&gt;/&gt;
+  &lt;!-- &lt;/font&gt;&lt;/span&gt;&lt;span style="color:green;"&gt;&lt;font size="2"&gt;when we call the SignOut() method on HealthServicePage, 
+       it redirects us to the page below &lt;/font&gt;&lt;/span&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;--&gt;
+  &lt;!--&lt;/span&gt;&lt;span style="color:green;"&gt;&lt;add key="NonProductionActionUrlRedirectOverride" value="Redirect.aspx" /&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style="color:blue;"&gt;&lt;font size="2"&gt;--&gt;
+  &lt;!-- &lt;/font&gt;&lt;/span&gt;&lt;span style="color:green;"&gt;&lt;font size="2"&gt;The redirect page (specified above) uses these keys below to redirect to different
+       pages based on the response from the shell &lt;/font&gt;&lt;/span&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;--&gt;
+  &lt;&lt;/span&gt;&lt;span style="color:#a31515;"&gt;add &lt;/span&gt;&lt;span style="color:red;"&gt;key&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;WCPage_ActionHome&lt;/span&gt;" &lt;span style="color:red;"&gt;value&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;default.aspx&lt;/span&gt;"&lt;/font&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;/&gt;
+  &lt;&lt;/span&gt;&lt;span style="color:#a31515;"&gt;add &lt;/span&gt;&lt;span style="color:red;"&gt;key&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;WCPage_ActionAppAuthSuccess&lt;/span&gt;" &lt;span style="color:red;"&gt;value&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;HelloHV.aspx&lt;/span&gt;"&lt;/font&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;/&gt;
+  &lt;&lt;/span&gt;&lt;span style="color:#a31515;"&gt;add &lt;/span&gt;&lt;span style="color:red;"&gt;key&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;ApplicationCertificateFileName&lt;/span&gt;" 
+       &lt;span style="color:red;"&gt;value&lt;/span&gt;&lt;span style="color:blue;"&gt;=&lt;/span&gt;"&lt;span style="color:blue;"&gt;~certWildcatApp-01e21bd1-cb13-40d6-8f01-596286827d6d.pfx&lt;/span&gt;"&lt;/font&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;/&gt;
+&lt;/&lt;/span&gt;&lt;span style="color:#a31515;"&gt;appSettings&lt;/span&gt;&lt;span style="color:blue;"&gt;&gt;&lt;/span&gt;&lt;/font&gt;
+</code></pre></div></div>
+
+<p><a href="http://11011.net/software/vspaste"></a></p>
+
+<ol>
+  <li>While testing on your local machine uncomment the following line in the Web.Config, this will allow HealthVault to communicate with your local machine. However make sure that this is commented when you publish the application. Alternatively the following key can also be stored in UserApplicationConfigs.xml, if you maintain one for your development.</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;&lt;!--&lt;/span&gt;&lt;span style="color:green;"&gt;&lt;add key="NonProductionActionUrlRedirectOverride" value="Redirect.aspx" /&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style="color:blue;"&gt;&lt;font size="1"&gt;&lt;font size="2"&gt;—-&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;
+</code></pre></div></div>
+
+<p><strong>Gotacha1:</strong> Windows Azure changes the port numbers for your application so its hard to make it work without using the action-url configured for your application in Application Configuration Center.</p>
+
+<ol>
+  <li>In your Default HealthVault Page Make sure you read the certificate for your application from a local file (you can also use Azure Storage).</li>
+</ol>
+
+<p><strong>Gotacha2: **HealthVault SDK expects the **ApplicationCertificateFileName</strong> to be absolute filename, this is impossible to determine for a cloud system like Azure. However we can get the absolute path by changing the value of the key at run-time.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;&lt;font size="2"&gt;&lt;span style="color:blue;"&gt;public partial class &lt;/span&gt;&lt;span style="color:#2b91af;"&gt;HelloHV &lt;/span&gt;: &lt;/font&gt;&lt;font size="2"&gt;&lt;span style="color:#2b91af;"&gt;HealthServicePage
+&lt;/span&gt;{
+    &lt;span style="color:blue;"&gt;protected void &lt;/span&gt;Page_PreInit(&lt;span style="color:blue;"&gt;object &lt;/span&gt;sender, &lt;span style="color:#2b91af;"&gt;EventArgs &lt;/span&gt;e)
+    {
+        &lt;span style="color:#2b91af;"&gt;ConfigurationSettings&lt;/span&gt;.AppSettings[&lt;span style="color:#a31515;"&gt;"ApplicationCertificateFileName"&lt;/span&gt;] =
+            MapPath(&lt;span style="color:#a31515;"&gt;@"~certWildcatApp-01e21bd1-cb13-40d6-8f01-596286827d6d.pfx"&lt;/span&gt;);
+    }
+
+    &lt;span style="color:blue;"&gt;protected void &lt;/span&gt;Page_Load(&lt;span style="color:blue;"&gt;object &lt;/span&gt;sender, &lt;span style="color:#2b91af;"&gt;EventArgs &lt;/span&gt;e)
+    {&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="2"&gt;..&lt;/font&gt;&lt;/p&gt;
+</code></pre></div></div>
+
+<ol>
+  <li>Hit Run and see your Hello HealthVault application in action!!</li>
+</ol>
+
+<p><strong><em>Now the show time:</em></strong></p>
+
+<p>Check out a simple (HelloHV application) running on Windows Azure <a href="http://hvsamples.cloudapp.net/HelloHV.aspx">here</a>.</p>
+
+<p><a href="/assets/images/2009/10/image4.png"><img src="/assets/images/2009/10/image_thumb1.png" alt="image" /></a></p>
+
+<p>The associated code for this application is shared <a href="http://code.msdn.microsoft.com/healthvaultazure">here</a>.</p>
+
+<p>Remember to switch to SSL and secure your application certificate (using password or Azure Storage) before you consider taking an application running on Windows Azure live as a production HealthVault application.</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2013/03/03/at-himss-2013/">
+              <div class="rel">
+                  <h5>At HIMSS 2013</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2012/06/20/enabling-programmable-self-with-healthvault-and-more/">
+              <div class="rel">
+                  <h5>Enabling Programmable Self with HealthVault and more..</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2011/10/13/healthvault-powershell-module-the-beginnings/">
+              <div class="rel">
+                  <h5>HealthVault PowerShell Module - The beginnings.</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

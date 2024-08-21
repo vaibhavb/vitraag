@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Exploring The Web</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Exploring The Web</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Exploring The Web</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Sun Oct  1 00:09:14 2023</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>Hey everyone! Welcome back to another installment of Weekly Notes, err.. this one is monthly, where I share some interesting links and discoveries from my web explorations. Let’s dive right in!</p>
+
+<p><img src="https://images.unsplash.com/photo-1633526543814-9718c8922b7a?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Monthly Notes" /></p>
+
+<h2 id="college-admissions-consulting">College Admissions Consulting</h2>
+<ul>
+  <li>Looking for guidance and support in your college admissions journey? Check out Goal Admit’s website for professional admissions consulting.
+<a href="https://www.goaladmit.com/">Link</a></li>
+</ul>
+
+<h2 id="deploy-aws-waf-faster-with-security-automations--aws-security-blog">Deploy AWS WAF faster with Security Automations | AWS Security Blog</h2>
+<ul>
+  <li>Learn how to accelerate the deployment of AWS WAF (Web Application Firewall) using security automations. This blog post provides useful tips and insights.
+<a href="https://aws.amazon.com/blogs/security/deploy-aws-managed-rules-using-security-automations-for-aws-waf/">Link</a></li>
+</ul>
+
+<h2 id="where-are-opportunities-in-ai">Where are opportunities in AI</h2>
+<ul>
+  <li>Founder of deeplearning.ai, Andrew Ng, shares a thought-provoking tweet about exploring opportunities in AI.
+<a href="https://x.com/andrewyng/status/1706383483009110254?s=12&amp;t=eKlUFsAeUsm0H4Ny_spTBw">Link</a></li>
+</ul>
+
+<h2 id="ray-dalio---wikipedia">Ray Dalio - Wikipedia</h2>
+<ul>
+  <li>Curious about the investing genius Ray Dalio? Check out his Wikipedia page to learn more about his life and achievements.
+<a href="https://en.wikipedia.org/wiki/Ray_Dalio">Link</a></li>
+</ul>
+
+<h2 id="coolors---the-super-fast-color-palettes-generator">Coolors - The super fast color palettes generator!</h2>
+<ul>
+  <li>Designers and creatives, check out Coolors for a fast and convenient way to generate beautiful color palettes for your projects.
+<a href="https://coolors.co/">Link</a></li>
+</ul>
+
+<h2 id="mindset-of-successful-programmers---youtube">Mindset of Successful Programmers - YouTube</h2>
+<ul>
+  <li>In this insightful YouTube video, you’ll discover the mindset and habits that contribute to the success of programmers.
+<a href="https://www.youtube.com/watch?v=nogh434ykF0">Link</a></li>
+</ul>
+
+<h2 id="andrew-ng-opportunities-in-ai---2023---youtube">Andrew Ng: Opportunities in AI - 2023 - YouTube</h2>
+<ul>
+  <li>Andrew Ng, an influential figure in the AI field, shares his thoughts on the opportunities in AI in this informative YouTube video.
+<a href="https://www.youtube.com/watch?v=5p248yoa3oE">Link</a></li>
+</ul>
+
+<h2 id="computer-vision-platform-and-ai-software-company--landing-ai">Computer Vision Platform and AI Software Company | Landing AI</h2>
+<ul>
+  <li>Landing AI is an AI software company specializing in computer vision technology. Check out their website to learn more about their innovative solutions.
+<a href="https://landing.ai/">Link</a></li>
+</ul>
+
+<h2 id="cryptohack--introduction-to-cryptohack">CryptoHack – Introduction to CryptoHack</h2>
+<ul>
+  <li>Interested in cryptography and cybersecurity? CryptoHack offers an introductory course to help you dive into the fascinating world of cryptography.
+<a href="https://cryptohack.org/courses/intro/course_details/">Link</a></li>
+</ul>
+
+<h2 id="hedy---textual-programming-made-easy">Hedy - Textual programming made easy</h2>
+<ul>
+  <li>Hedy is a programming tool that aims to simplify the process with a textual approach. Explore their website to learn more about this promising tool.
+<a href="https://www.hedycode.com/">Link</a></li>
+</ul>
+
+<h2 id="macwhisper">MacWhisper</h2>
+<ul>
+  <li>MacWhisper offers a range of interesting content related to Apple and Mac products. Check out their podcast for insightful discussions.
+<a href="https://goodsnooze.gumroad.com/l/macwhisper">Link</a></li>
+</ul>
+
+<h2 id="webllm--home">WebLLM | Home</h2>
+<ul>
+  <li>WebLLM is a platform that offers educational resources and courses on machine learning. Check out their website to explore the learning opportunities available.
+<a href="https://webllm.mlc.ai/">Link</a></li>
+</ul>
+
+<p>I hope you found these links as intriguing and informative as I did. Stay tuned for more discoveries in next week’s edition of Weekly Notes. Until then, happy exploring!</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

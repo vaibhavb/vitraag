@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Navigating Health, Security, and Beyond</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Navigating Health, Security, and Beyond</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Navigating Health, Security, and Beyond</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Mon Jan 29 00:09:14 2024</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>In this week’s roundup, we delve into a variety of topics ranging from healthcare challenges in the US to the latest in cybersecurity, finance, and more. Discover insights and deepen your understanding with these handpicked articles from January 23 to January 29, 2024.</p>
+
+<p><img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&amp;w=2940&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="2024 Jan 29 Topics" /></p>
+
+<h2 id="healthcare-healthcare">Healthcare [#healthcare]</h2>
+<ul>
+  <li><strong>2024-01-23</strong> - <a href="https://www.outofpocket.health/p/all-of-the-main-problems-with-us-healthcare">All of the main problems with US healthcare | Out-Of-Pocket</a>
+A comprehensive analysis of the current challenges facing the US healthcare system.</li>
+  <li><strong>2024-01-23</strong> - <a href="https://www.drugchannels.net/2022/02/still-not-skyrocketing-new-cms-data.html">Still Not Skyrocketing: New CMS Data Reinforce the Truth About U.S. Drug Spending | Drug Channels</a>
+An insightful look into the realities of drug spending in the United States, debunking common misconceptions.</li>
+  <li><strong>2024-01-23</strong> - <a href="https://atelfo.github.io/2023/12/23/biopharma-from-janssen-to-today.html">The pharma industry from Paul Janssen to today: why drugs got harder to develop | Alex’s blog</a>
+Tracing the evolution of drug development from the era of Paul Janssen to current complexities.</li>
+</ul>
+
+<h2 id="security-security">Security [#security]</h2>
+<ul>
+  <li><strong>2024-01-24</strong> - <a href="https://portswigger.net/web-security/all-labs#web-llm-attacks">All labs | Web Security Academy</a>
+A resource hub for web security training, offering a range of practical labs and exercises.</li>
+  <li><strong>2024-01-24</strong> - <a href="https://www.hexacorn.com/blog/2024/01/21/how-to-become-continue-to-be-a-security-researcher/?utm_source=substack&amp;utm_medium=email">How to become/continue to be a security researcher? | Hexacorn</a>
+Valuable advice and tips for those aspiring to enter or advance in the field of security research.</li>
+  <li><strong>2024-01-25</strong> - <a href="https://fotoforensics.com/">FotoForensics | Tools</a>
+A digital tool for analyzing and verifying the authenticity of images.</li>
+  <li><strong>2024-01-26</strong> - <a href="https://checkm8.info/">Activation Lock Bypass for iPhone, iPad, Mac | CheckM8</a>
+An exploration of methods to bypass activation locks on Apple devices, relevant for security professionals.</li>
+  <li><strong>2024-01-29</strong> - <a href="https://www.board-cybersecurity.com/incidents/tracker/">Cybersecurity Incident Tracker | Board Cybersecurity</a>
+A comprehensive tracker providing updates on recent cybersecurity incidents worldwide.</li>
+</ul>
+
+<h2 id="cis55-cis55">CIS55 [#cis55]</h2>
+<ul>
+  <li><strong>2024-01-24</strong> - <a href="https://portswigger.net/web-security/all-labs#web-llm-attacks">All labs | Web Security Academy</a>
+An educational resource offering a wide array of web security labs, ideal for CIS55 students and enthusiasts.</li>
+</ul>
+
+<h2 id="research-research">Research [#research]</h2>
+<ul>
+  <li><strong>2024-01-24</strong> - <a href="https://www.sciencedirect.com/science/article/pii/S0148296319304564">Literature review as a research methodology | ScienceDirect</a>
+An overview and guidelines on using literature review effectively as a research methodology.</li>
+</ul>
+
+<h2 id="venture-capital-venturecapital">Venture Capital [#venturecapital]</h2>
+<ul>
+  <li><strong>2024-01-24</strong> - <a href="http://slow.co/">Slow.co</a>
+A venture capital firm focusing on supporting startups with long-term potential.</li>
+</ul>
+
+<h2 id="yoga-yoga">Yoga [#yoga]</h2>
+<ul>
+  <li><strong>2024-01-26</strong> - <a href="https://www.youtube.com/watch?v=PkX_cPuS92c">BKS Iyengar - Barbican Demonstration 1984 | YouTube</a>
+A vintage demonstration by the renowned yoga guru B.K.S. Iyengar, showcasing his mastery.</li>
+</ul>
+
+<h2 id="red-team-redteam">Red Team [#redteam]</h2>
+<ul>
+  <li><strong>2024-01-26</strong> - <a href="https://checkm8.info/">Activation Lock Bypass for iPhone, iPad, Mac | CheckM8</a>
+Essential information for red team professionals on bypassing activation locks in Apple devices.</li>
+</ul>
+
+<h2 id="computer-science-computerscience">Computer Science [#computerscience]</h2>
+<ul>
+  <li><strong>2024-01-26</strong> - <a href="https://pluralistic.net/2020/12/05/trusting-trust/">Pluralistic: Daily links from Cory Doctorow</a>
+Cory Doctorow’s insights into various computer science topics, offering a daily digest of links and thoughts.</li>
+  <li><strong>2024-01-29</strong> - <a href="https://www.youtube.com/watch?v=mN7CWi1tbH4&amp;t=904s">Taiwan Semiconductor tech transfer | YouTube</a>
+A deep dive into the technology transfer processes at Taiwan Semiconductor Manufacturing Company.</li>
+</ul>
+
+<h2 id="finance--investing-finance-investing">Finance &amp; Investing [#finance #investing]</h2>
+<ul>
+  <li><strong>2024-01-29</strong> - <a href="https://www.youtube.com/watch?v=zjXvbJUnCsM">PRICELESS LECTURE About The Stock Market - Aswath Damodaran | YouTube</a>
+An insightful lecture by Aswath Damodaran, offering valuable perspectives on the stock market.</li>
+  <li><strong>2024-01-29</strong> - <a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm">Damodaran On-line Home Page</a>
+Access to a wealth of resources and insights from finance professor Aswath Damodaran.</li>
+</ul>
+
+<h2 id="programming--code-review-programming-codereview">Programming &amp; Code Review [#programming #codereview]</h2>
+<ul>
+  <li><strong>2024-01-29</strong> - <a href="https://www.youtube.com/watch?v=TEKYu00ca0E">Code review Graphics application | YouTube</a>
+A detailed code review session focused on a graphics application, ideal for programmers and developers.</li>
+</ul>
+
+<h2 id="cybersecurity-cybersecurity">Cybersecurity [#cybersecurity]</h2>
+<ul>
+  <li><strong>2024-01-29</strong> - <a href="https://www.youtube.com/watch?v=RDQs7CpLI-k">Hacking Resources | YouTube</a>
+A collection of hacking resources and tutorials, useful for cybersecurity enthusiasts and professionals.</li>
+</ul>
+
+<h2 id="health--anti-aging-health-antiaging">Health &amp; Anti-Aging [#health #antiaging]</h2>
+<ul>
+  <li><strong>2024-01-29</strong> - <a href="https://www.youtube.com/watch?v=aXdEPiFlqH8">My Anti-Aging Protocol Broke a World Record… | YouTube</a>
+An exploration into anti-aging protocols that have shown significant results.</li>
+  <li><strong>2024-01-29</strong> - <a href="https://protocol.bryanjohnson.com/#by-the-numbers">blueprint</a>
+A detailed blueprint outlining an anti-aging protocol with data-driven results.</li>
+</ul>
+
+<h2 id="learning-volleyball-learnvolleyball">Learning Volleyball [#learnvolleyball]</h2>
+<ul>
+  <li><strong>2024-01-29</strong> - <a href="https://www.youtube.com/watch?v=VH0LiQH5D5U&amp;t=393s">Setting Volleyball | YouTube</a>
+A tutorial video focusing on the techniques of setting in volleyball, great for learners of the sport.</li>
+</ul>
+
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

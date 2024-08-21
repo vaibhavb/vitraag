@@ -1,0 +1,108 @@
+@charset "utf-8";
+$salmon: rgb(250,128,114);
+@import "../../node_modules/bulma/bulma.sass";
+
+body {
+    border-top: 0px solid salmon;
+    border-bottom: 0px solid salmon;
+    border-left: 0;
+    border-right: 0;
+    border-image: linear-gradient(to right, #00d1b2, salmon) 1 stretch;
+}
+
+body, html {
+    background-color:  hsl(0, 0%, 98%);
+}
+
+.has-same-height .card {
+    height: 380px;
+    overflow: hidden;
+  }
+  
+  .card-content h3 {
+    text-align: center;
+  }
+  
+  .table-profile td,
+  th {
+    border: none !important;
+  }
+  
+  .table-profile td:first-of-type {
+    font-weight: bold;
+  }
+  
+  .skills-content .media {
+    margin: 0 !important;
+    padding: 4px !important;
+    border: 0 !important;
+  }
+  
+  .skills-content .progress {
+    height: 12px !important;
+  }
+  
+  .custom-tags {
+    text-align: center !important;
+    display: block;
+  }
+  
+  .portfolio-container .card {
+    margin-bottom: 1em;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 5em;
+  }
+
+  .section-content p {
+    margin-top: 1em;
+  }
+
+  .image-container{
+      display: flex;
+      justify-content: center; /* Aligns items on the horizontal line (in this case center) */
+      align-items: center; /* Aligns items on the vertical line (in this case center) */
+  }
+
+  .image-container img{
+    max-height: 300px; /* Adjust this value according to your needs */
+    width: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures that the entire image is visible */
+}
+
+/* Offset for id targets */
+:target::before {
+  content: "";
+  display: block;
+  height: 70px; /* Same height as header */
+  margin: -70px 0 0; /* Same height as header */
+}
+
+.heatmap {
+  justify-content: center;
+  display: flex;
+}
+
+.heatmap .grid {
+  display: flex;
+  flex-direction: column;
+}
+.heatmap .week {
+  display: flex;
+  flex-direction: row;
+}
+.heatmap .commit {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+}
+.heatmap .day {
+  background: grey;
+  color: yellowgreen;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+}

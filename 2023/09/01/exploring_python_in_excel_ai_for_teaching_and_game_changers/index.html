@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Exploring Python in Excel, AI for Teaching, and Game Changers</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Exploring Python in Excel, AI for Teaching, and Game Changers</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Exploring Python in Excel, AI for Teaching, and Game Changers</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Fri Sep  1 00:09:14 2023</span>
+                              <span class="tag is-rounded is-warning">weekly-reading</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>This collection of links covers a wide range of topics, including the integration of Python in Excel, the application of AI in education, and a thought-provoking documentary on plant-based diets. The possibilities that these advancements bring are sure to spark inspiration and innovation.</p>
+
+<p><img src="https://images.unsplash.com/photo-1454678993613-d4fc4bd5f496?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA" alt="Weekly Notes" /></p>
+
+<h2 id="wednesday-aug-31-prolific-day">Wednesday, Aug 31 (Prolific Day)</h2>
+<ul>
+  <li><a href="https://techcommunity.microsoft.com/t5/excel-blog/announcing-python-in-excel-combining-the-power-of-python-and-the/ba-p/3893439">Announcing Python in Excel</a> - Microsoft introduces Python integration in Excel, combining the power of Python and the flexibility of spreadsheets.</li>
+  <li><a href="https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j">(90) Practical AI for Teachers and Students - YouTube</a> - A playlist of practical AI tutorials aimed at teachers and students.</li>
+  <li><a href="https://openai.com/blog/teaching-with-ai">Teaching with AI</a> - OpenAI discusses how AI can be used for educational purposes.</li>
+  <li>Check out the official website of <a href="https://gamechangersmovie.com/">The Game Changers</a>, a documentary that explores the impact of plant-based eating on performance.</li>
+  <li>Looking for some movie inspiration? Check out <a href="https://www.imdb.com/title/tt1596363/">The Big Short (2015)</a>, a gripping film about the 2008 financial crisis.</li>
+  <li>Don’t miss this insightful YouTube video on <a href="https://www.youtube.com/watch?v=aC7UQcZN6y8">Making Large Language Models Work For You</a>, where experts discuss the practical use of large language models like GPT-3.</li>
+</ul>
+
+<h2 id="monday-aug-29">Monday, Aug 29</h2>
+<ul>
+  <li><a href="https://commoncrawl.org/get-started">Common Crawl - Get Started</a> - Learn how to get started with Common Crawl, a non-profit organization that provides petabytes of data for research and analysis.</li>
+  <li>If you’re into deep learning, check out the <a href="https://lambdalabs.com/deep-learning/laptops/tensorbook">Deep Learning Laptop</a> featuring the powerful RTX 3080 Max-Q GPU.</li>
+</ul>
+
+<h2 id="sunday-aug-21">Sunday, Aug 21</h2>
+<ul>
+  <li>Parents, check out the <a href="https://goodbudget.com/blog/2021/08/resource-guide-for-parents-money-as-you-grow/?utm_source=gbbulletin&amp;utm_medium=email&amp;utm_campaign=Y1M8N2">Resource Guide for Parents: Money as You Grow</a> to teach your kids about money management.</li>
+  <li>For those interested in natural language understanding, Stanford offers the course <a href="https://web.stanford.edu/class/cs224u/">CS224U: Natural Language Understanding - Spring 2023</a>.</li>
+</ul>
+
+<h2 id="saturday-aug-20">Saturday, Aug 20</h2>
+<ul>
+  <li>Dive into the <a href="https://docs.python.org/3/reference/datamodel.html">Data model</a> of Python as explained in the official documentation.</li>
+  <li>Explore various security topics in the <a href="https://websploit.org/">WebSploit Labs</a> created by Omar Santos.</li>
+  <li>Discover <a href="https://elmwealth.com/">Elm Wealth</a>, a platform for dynamic index investing.</li>
+  <li>Prepare for the HashiCorp Terraform Associate Certification with this free <a href="https://www.freecodecamp.org/news/hashicorp-terraform-associate-certification-study-course-pass-the-exam-with-this-free-12-hour-course/">Study Course</a>.</li>
+  <li>Check out this impressive YouTube video where someone built real ODM gear inspired by Attack On Titan - <a href="https://www.youtube.com/watch?v=8ouS7G6k04A">I Built Real ODM Gear!</a>.</li>
+</ul>
+
+<h2 id="friday-aug-18">Friday, Aug 18</h2>
+<ul>
+  <li><a href="https://towardsdatascience.com/pandas-2-0-a-game-changer-for-data-scientists-3cd281fcc4b4">Pandas 2.0: A Game Changer for Data Scientists</a> - Learn about the exciting new features in the latest version of pandas.</li>
+</ul>
+
+<h2 id="thursday-aug-17">Thursday, Aug 17</h2>
+<ul>
+  <li><a href="https://capslock.ac/the-course">CAPSLOCK The Course</a> - A website offering a course on cybersecurity.</li>
+</ul>
+
+<h2 id="wednesday-aug-16">Wednesday, Aug 16</h2>
+<ul>
+  <li>Watch this amazing video of <a href="https://m.youtube.com/watch?v=rJpFVvho0o4&amp;feature=youtu.be">The Most Graceful Freestyle Swimming</a> by Shinji Takeuchi.</li>
+</ul>
+
+<h2 id="tuesday-aug-15">Tuesday, Aug 15</h2>
+<ul>
+  <li><a href="https://replicate.com/blog/fine-tune-llama-2">Fine-tune Llama 2 on Replicate</a> - An article that explains how to fine-tune Llama 2 for your own unique applications.</li>
+  <li><a href="https://www.anyscale.com/blog/fine-tuning-llama-2-a-comprehensive-case-study-for-tailoring-models-to-unique-applications">Fine-Tuning Llama-2: A Comprehensive Case Study</a> - Dive deeper into the comprehensive case study of fine-tuning Llama-2.</li>
+</ul>
+
+<h2 id="monday-aug-14">Monday, Aug 14</h2>
+<ul>
+  <li><a href="https://rttp.stanford.edu/">Research to the People</a> - Check out this Stanford initiative that aims to make research accessible to everyone.</li>
+  <li>Dive into the <a href="https://docs.google.com/spreadsheets/d/1vgnWdNbmQ7xKDUYAEc4NxR3ICoBAFbqrfSSINSTS7Rg/edit?pli=1#gid=1543556049">Custom LLM Hackathon Code Results &amp; Lightning Talks</a> and catch up on the latest developments in Custom LLMs.</li>
+  <li>Watch the <a href="https://www.youtube.com/watch?v=6D6nwUy8jGg">Custom LLM Hackathon Talks</a> to hear from participants about their projects and experiences.</li>
+</ul>
+
+<h2 id="wednesday-aug-11">Wednesday, Aug 11</h2>
+<ul>
+  <li>Discover different decoding methods for language generation with Transformers in this informative article - <a href="https://huggingface.co/blog/how-to-generate">How to generate text: using different decoding methods for language generation with Transformers</a>.</li>
+  <li>Check out the <a href="https://github.com/keerthanpg/TalkToCode">TalkToCode</a> repository on GitHub, which aims to generate code from natural language queries.</li>
+</ul>
+
+<h2 id="tuesday-aug-10">Tuesday, Aug 10</h2>
+<ul>
+  <li>Explore the <a href="https://github.com/jacobian/infosec-engineering">infosec-engineering</a> repository on GitHub for a curated list of resources for infosec engineers.</li>
+  <li>Have a look at <a href="https://dogsheep.github.io/">Dogsheep</a>, a collection of tools for personal data exploration and analysis.</li>
+  <li>Read about Stephen Wolfram’s personal infrastructure in his blog post: <a href="https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/">Seeking the Productive Life: Some Details of My Personal Infrastructure</a>.</li>
+  <li>Discover how a clever honeypot tricked hackers into revealing their secrets in this Wired article - <a href="https://www.wired.com/story/hacker-honeypot-go-secure/">A Clever Honeypot Tricked Hackers Into Revealing Their Secrets</a>.</li>
+  <li>Check out the personal website of Abi Aryan, LLM Operations, for insights and updates - <a href="https://abiaryan.com/">Abi Aryan - LLM Operations</a>.</li>
+  <li>Dive into the world of generative agents with this research paper - <a href="https://arxiv.org/abs/2304.03442">Generative Agents: Interactive Simulacra of Human Behavior</a>.</li>
+  <li>Explore the list of resources for detecting threats and defending Kubernetes systems in the <a href="https://github.com/jatrost/awesome-kubernetes-threat-detection">awesome-kubernetes-threat-detection</a> repository on GitHub.</li>
+  <li>Learn about a complete methodology for reviewing Kubernetes configurations in this article - <a href="https://securitycafe.ro/2023/02/27/a-complete-kubernetes-config-review-methodology/">A Complete Kubernetes Config Review Methodology</a>.</li>
+</ul>
+
+<h2 id="monday-aug-9">Monday, Aug 9</h2>
+<ul>
+  <li>For the Python enthusiasts, take a moment to reflect on the <a href="https://everything2.com/title/Zen+of+Python">Zen of Python</a> and its guiding principles.</li>
+  <li>If you’re interested in cybersecurity, check out the <a href="https://www.cupertino.org/Home/Components/Calendar/Event/15457/20#!/">Cupertino Cybersecurity Science Fair</a> for an exciting event in the City of Cupertino.</li>
+</ul>
+
+<h2 id="sunday-aug-8">Sunday, Aug 8</h2>
+<ul>
+  <li>Discover the power of mental models in decision-making with this comprehensive resource - <a href="https://fs.blog/mental-models/#physics_and_chemistry">Mental Models: The Best Way to Make Intelligent Decisions</a>.</li>
+  <li>Interested in understanding how the internet works? Check out these educational YouTube videos: <a href="https://www.youtube.com/watch?v=x3c1ih2NJEg">How does the INTERNET work?</a> and <a href="https://www.youtube.com/watch?v=7_LPdttKXPc">How the Internet Works in 5 Minutes</a>.</li>
+</ul>
+
+<h2 id="saturday-aug-7">Saturday, Aug 7</h2>
+<ul>
+  <li>Are you curious about Large Language Models (LLMs)? Kaggle provides an introduction with their <a href="https://www.kaggle.com/code/jhoward/getting-started-with-llms">Getting Started With LLMs</a> tutorial.</li>
+  <li>Explore <a href="https://www.cursor.so/">Cursor</a>, an AI-first code editor that supports collaboration and productivity.</li>
+  <li>Check out <a href="https://www.wisdolia.com/">Wisdolia</a>, a platform that helps generate flashcards from YouTube videos, articles, and PDFs.</li>
+</ul>
+
+<h2 id="friday-aug-18-1">Friday, Aug 18</h2>
+<ul>
+  <li>In recent news, Apple admits a smartphone slowdown ahead of the iPhone 15 debut. Read more on Bloomberg - <a href="https://www.bloomberg.com/news/newsletters/2023-08-06/apple-iphone-15-comes-amid-us-sales-slowdown-tim-cook-q3-earnings-comments-lkzfs14u">Apple Admits There Is a Smartphone Slowdown Ahead of iPhone 15 Debut</a>.</li>
+</ul>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/15/august-avenues/">
+              <div class="rel">
+                  <h5>August Avenues</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/08/06/august-adventures/">
+              <div class="rel">
+                  <h5>August Adventures</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2024/07/15/summer-links/">
+              <div class="rel">
+                  <h5>Summer Links!</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>

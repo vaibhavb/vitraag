@@ -1,0 +1,2563 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.vitraag.com//assets/css/mybulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
+
+    <title>Syncing with HealthVault – the WalkMe way</title>
+  </head>
+<body>
+
+<!---------------------------------------------------->  
+<!--               Navbar Section                   -->  
+<!---------------------------------------------------->  
+<nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container is-fluid">
+    <div class="navbar-brand">
+        <!--
+          <a class="navbar-item" href="https://www.vitraag.com/">
+              <i class="fas fa-home fa-3x"></i>&nbsp;&nbsp;
+              <title class="navbar-item" href="https://www.vitraag.com/">Vaibhav Bhandari</title>
+          </a>
+        -->
+        <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+        <div class="navbar-menu" id="navMenu" >
+          <div class="navbar-end">
+            <a class="navbar-item" href="https://www.vitraag.com/#about">
+              <span class="icon">
+                <i class="fas fa-info"></i>
+              </span>
+              <span>About</span>
+            </a>
+            <a class="navbar-item" href="https://www.vitraag.com/#portfolio">
+                <span class="icon">
+                  <i class="fas fa-th-list"></i>
+                </span>
+                <span>Portfolio</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Blog</a>
+              <div class="navbar-dropdown">
+                <a href="/#blog" class="navbar-item">Posts By Category&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+              
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+                <a href="/travels" class="navbar-item">Travels By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Pages</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.vitraag.com/#ethics" class="navbar-item">       
+                  <span class="icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </span>
+                  <span>Ethics&nbsp;</span>
+                  <span class="tag is-primary">Life</span>
+                </a>
+                <a href="/kamal" class="navbar-item">2022 Moms Gratitude Ceremony&nbsp;<span class="tag is-primary">Family</span></a>
+                <a href="/posts-by-year" class="navbar-item">Posts By Year&nbsp;<span class="tag is-info">Blogs!</span></a>
+                <a href="/recipes" class="navbar-item">Family Recipes&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="https://vitraag.notion.site/Vaibhav-s-Public-Notion-Landing-Page-c24d42742ebc43d28ce2e22d41c3ba11" target="_blank" class="navbar-item">Notion &nbsp;<span class="tag is-info">Wiki</span></a>
+                <a href="/notes/cats/" class="navbar-item">Second Brain&nbsp;<span class="tag is-info">Memory!</span></a>
+                <a href="/test-todo-app/" class="navbar-item">Todo App</a>
+                <a href="/me/" class="navbar-item">Me (Visual)</a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+              <div class="navbar-dropdown">
+                <a href="https://www.cyberdefendersprogram.com" class="navbar-item" target="_blank">Cyber Defenders&nbsp;<span class="tag is-primary">Non-Profit</span></a>
+                <a href="https://www.lib13.com" class="navbar-item" target="_blank">Lib13 &nbsp;<span class="tag is-primary">Inc</span></a>
+                <a href="/digitalhealthconcierge" class="navbar-item">Digital Concierge&nbsp;<span class="tag is-info">Community!</span></a>
+                <a href="/code/lira" class="navbar-item">Project Lira&nbsp;<span class="tag is-info">Code!</span></a>
+                <a href="https://www.wisevoter.org" target="_blank" class="navbar-item">WiseVoter&nbsp;<span class="tag is-danger">Non-Profit!</span></a>
+                <a href="/art" class="navbar-item">Art Work&nbsp;<span class="tag is-info">New!</span></a>
+                <a href="/projects-by-year" class="navbar-item">Projects By Year&nbsp;<span class="tag is-danger">New!</span></a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  <span class="icon">
+                    <i class="fa fa-archive"></i>
+                  </span>
+                  <span>Archive</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a href="https://legacy.vitraag.com" class="navbar-item" target="_blank">       
+                  <span class="icon">
+                    <i class="fa fa-world"></i>
+                  </span>
+                  <span>Old Website&nbsp;</span>
+                  <span class="tag is-primary">2001</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item" href="https://www.vitraag.com/#resume">
+              <span class="icon">
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+  </div>
+</nav>
+
+
+
+<!-- 2023-11-29: Disabling hero for now.
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+      <div class="container has-text-centered">
+         <h1 class="title">Syncing with HealthVault – the WalkMe way</h1> 
+      </div>
+  </div>
+</section>
+-->
+
+<div class="container">
+  <!-- START ARTICLE FEED -->
+  <section class="articles">
+      <div class="column is-8 is-offset-2">
+          <!-- START ARTICLE -->
+          <div class="card article">
+              <div class="card-content">
+                  <div class="media">
+                      <div class="media-content has-text-centered">
+                          <p class="title article-title">Syncing with HealthVault – the WalkMe way</p>
+                          <div class="tags has-addons level-item">
+                              <span class="tag is-rounded is-info">Vaibhav Bhandari</span>
+                              <span class="tag is-rounded">Fri Jul 10 22:48:00 2009</span>
+                              <span class="tag is-rounded is-warning">HealthVault, WalkMe</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content article-body">
+                    <p>A few months back <a href="http://healthblog.vitraag.com/2009/02/walkme-walk-with-your-friends/">I promised</a> that I will do subsequent posts detailing implementation of <a href="http://apps.healthvault.com/walkme">WalkMe</a>. In this post I’ll attempt to described the way WalkMe synchronizes with HealthVault. As you might have noticed WalkMe keeps track of your most recent steps when you login to the application and without you having to log-in to the application via the <a href="http://healthblog.vitraag.com/2009/07/sharing-your-walkme-pedometer-using-e-mail-signature/">pedometer widget</a>, how does this magic happen?</p>
+
+<p><strong>_The Syncing Philosophy       <br />
+_</strong>Microsoft provides a <a href="http://en.wikipedia.org/wiki/Microsoft_Sync_Framework">sync framework</a> which solves the problem of syncing between various data sources elegantly. However the framework is largely designed for data which is sourced using multiple masters, in WalkMe’s case we simplify this and consider HealthVault to be the master data source. Given that <strong>HealthVault is our master data source</strong> we radically simplify the complexity of syncing and don’t need to employ the services of sync framework.</p>
+
+<p>To make HealthVault as the master data source any data input from WalkMe is always entered in HealthVault first and then the WalkMe database syncs with HealthVault</p>
+
+<p><strong>_The Data Model       <br />
+_</strong>In WalkMe’s case it maintains a local database of all its users and their data with regards to <a href="http://developer.healthvault.com/types/type.aspx?id=90dbf000-fc55-4b92-b4a1-da45c36ad8bb">aerobic exercise session</a> and <a href="http://developer.healthvault.com/types/type.aspx?id=85a21ddb-db20-4c65-8d30-33c899ccf612">exercise</a>. I’ll keep the discussion about where to look for which data in HealthVault data types context for some other day. So why does WalkMe need a local database? We need a local database to maintain running totals of a users total steps, weekly steps and yearly steps. Also various analytical, notificational and graphical tools are only able to run in context of local data.</p>
+
+<p>For each HealthVault user WalkMe keeps the following in the database:</p>
+
+<ul>
+  <li>
+    <p>HealthVault Person Id – This is unique to each person.</p>
+  </li>
+  <li>
+    <p>HealthVault Record Id – This is unique to each record Id, since WalkMe is a single record application (doesn’t work on multiple records associated with a person at a time), the record id has one to one mapping with the WalkMe user id</p>
+  </li>
+  <li>
+    <p>Last Sync Time with HealthVault – The time at which this user last synched with HealthVault. We will discuss the tuning aspects of sync time later in the mechanics section.</p>
+  </li>
+  <li>
+    <p>Last Sync Entity – Who performed the last sync. We will discuss various sync mechanism WalkMe we employs in the mechanics section.</p>
+  </li>
+  <li>
+    <p>Last Sync Status – Details about the sync status. This is helpful to reform the sync or flag whether the sync is in progress.</p>
+  </li>
+</ul>
+
+<p>For each activity (aerobic exercise session and exercise) entry for each user, WalkMe keeps the following in the database:</p>
+
+<ul>
+  <li>
+    <p>HealthVault Item Id – This is the GUID of the item (any HealthVault thing). The contents of this HealthVault item are stored in this particular activity row. The content in our case are – steps, aerobic steps, calories, distance.</p>
+  </li>
+  <li>
+    <p>Updated_at – This is the time at which this item was last updated.</p>
+  </li>
+</ul>
+
+<p>For each sync job / activity we maintain a database table having:</p>
+
+<ul>
+  <li>
+    <p>sync server name</p>
+  </li>
+  <li>
+    <p>sync status</p>
+  </li>
+  <li>
+    <p>sync timestamp</p>
+  </li>
+  <li>
+    <p>sync frequency (in hours)</p>
+  </li>
+  <li>
+    <p>sync job id</p>
+  </li>
+  <li>
+    <p>sync msg</p>
+  </li>
+</ul>
+
+<p><a href="/assets/images/2009/07/walkmedatamodel.jpg"><img src="/assets/images/2009/07/walkmedatamodel-thumb.jpg" alt="WalkMe-DataModel" /></a></p>
+
+<p><strong>Fig1. Relevant Parts Of WalkMe Data Model</strong></p>
+
+<p><strong>_The Mechanics       <br />
+_</strong>The key aspects to understand in any sync problem is when is it that your user will need the most up to date information and how are they going to access it. Other than the time when a user is directly logged in the application, WalkMe’s needs the most up to date information when showing the WalkMe pedometers (which exist outside the context of WalkMe and HealthVault and they are accessed via a public webpage). Other key piece is for the WalkMe groups to show the most up to date information with regards to the leaders in the group they need each users data to be synched at least in last 24 hours.</p>
+
+<p>So I can summarize that we have the following three scenarios needing the most up to date HealthVault data:</p>
+
+<ol>
+  <li>
+    <p>When the user in logged in the application – data needed to show his analytics, and standings in age-group, BMI, Zip etx.</p>
+  </li>
+  <li>
+    <p>When the user pedometer is accessed from a public page – data needed to show the most recent steps.</p>
+  </li>
+  <li>
+    <p>When the user accesses their group page – the current standings of participants should be up to date at least as of last 24 hours.</p>
+  </li>
+</ol>
+
+<p>_<strong>When and How to Sync       <br />
+**_Clearly for scenarios 1 and 2 above we need to sync for a single user while for scenario #3 (and a part of #2) we need to sync the entire list of application users. Also note that for scenario 1 the user is present and for scenario 2 the user is not online. Lets name them #1 is **UserOnlineSync</strong> #2 is <strong>UserOfflineSync</strong> and #3 is **ApplicationSync. **</p>
+
+<p><strong>UserOnlineSync</strong> : We should sync it every 20 minutes (based on a cookie) and sync the account when the user signs in.</p>
+
+<p><strong>UserOfflineSync:</strong> This sync should be done as requested but in the context of this sync user is not online (This is done using HealthVault offline calls). However the frequency is deteremined by output caching enabled on the widgets (I would put that to 20 minutes as well).</p>
+
+<p>**ApplicationSync: **This is done for all the user and typically by a background process the last table in the data model is primarily meant for this process. However we don’t want to ping HealthVault for all the records so we use the method <a href="https://platform.healthvault-ppe.com/platform/XSD/method-getupdatedrecordsforapplication.xsd">GetUpdateRecordsForApplication</a>. The background process can run once or twice a day the frequency of the same can be made configurable.</p>
+
+<p>Please note application sync is not fully functional in WalkMe yet owing to resource constraints on background processes in our hosting environment.</p>
+
+<p><strong>_What to do when things go wrong?       <br />
+_</strong>As you will note in the above three sync mechanisms are primarily tailored to be partial syncs i.e they dont fetch all the user activities all the time. So what happens if a user deletes an entry in HealthVault or lets say the sync never completed? Well the user will see discrepancy is his/ her record and in that case we provide a mechanism for them to do a full sync with HealthVault. The idea of full sync being that all the current items are deleted and all the items form the users HealthVault record are imported again, and of course all the totals are re-calculated. In addition to taking care of uncompleted syncs this process also account for deleted items (there is not other way for delete items to be communicated). This is a powerful “reset” button and is exposed to the user with caution.</p>
+
+<p><strong><em>The Implementation</em></strong></p>
+
+<p><strong>_ **<em><img src="/assets/images/2009/07/caution-thumb.jpg" alt="caution" /></em></strong>        <br />
+_**Here is some code showing the implementation of above three sync mechanisms with full and partial syncs. Please take it with grain of salt its here for illustrative purposes only and is no way meant to be used as is.</p>
+
+<ul>
+  <li></li>
+</ul>
+
+<p><strong>UserOnlineSync</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span style="color:#606060;" id="lnum1"&gt;   1:&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;public&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;static&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;void&lt;/span&gt; OnlineSyncUser(ProfileModel profile, PersonInfo info, &lt;span style="color:#0000ff;"&gt;bool&lt;/span&gt; partialSync)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum2"&gt;   2:&lt;/span&gt;  {
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum3"&gt;   3:&lt;/span&gt;      &lt;span style="color:#0000ff;"&gt;string&lt;/span&gt; syncType = &lt;span style="color:#006080;"&gt;"partial"&lt;/span&gt;;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum4"&gt;   4:&lt;/span&gt;      DateTime? lastSyncTime = profile.UserCtx.hv_last_sync_time;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum5"&gt;   5:&lt;/span&gt;      DateTime timeStamp = DateTime.Now;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum6"&gt;   6:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum7"&gt;   7:&lt;/span&gt;      &lt;span style="color:#008000;"&gt;// reset lastsynctime if this is a full sync&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum8"&gt;   8:&lt;/span&gt;      &lt;span style="color:#0000ff;"&gt;if&lt;/span&gt; (!lastSyncTime.HasValue || !partialSync)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum9"&gt;   9:&lt;/span&gt;      {
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum10"&gt;  10:&lt;/span&gt;          WlkMiTracer.Instance.Log(&lt;span style="color:#006080;"&gt;"HVSync.cs:OnlineSyncUser"&lt;/span&gt;, WlkMiEvent.UserSync,
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum11"&gt;  11:&lt;/span&gt;                WlkMiCat.Info, &lt;span style="color:#0000ff;"&gt;string&lt;/span&gt;.Format(&lt;span style="color:#006080;"&gt;"Full syncing for User: {0}"&lt;/span&gt;,
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum12"&gt;  12:&lt;/span&gt;                  profile.UserCtx.user_id));
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum13"&gt;  13:&lt;/span&gt;          lastSyncTime = &lt;span style="color:#0000ff;"&gt;null&lt;/span&gt;;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum14"&gt;  14:&lt;/span&gt;      }
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum15"&gt;  15:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum16"&gt;  16:&lt;/span&gt;      &lt;span style="color:#008000;"&gt;// Retrieve the latest info from HealthVault&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum17"&gt;  17:&lt;/span&gt;      HealthRecordItemCollection items = 
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum18"&gt;  18:&lt;/span&gt;          GetHVItemsOnline(info, lastSyncTime);
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum19"&gt;  19:&lt;/span&gt;      &lt;span style="color:#0000ff;"&gt;if&lt;/span&gt; (items != &lt;span style="color:#0000ff;"&gt;null&lt;/span&gt; &amp;&amp; items.Count &gt; 0)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum20"&gt;  20:&lt;/span&gt;      {
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum21"&gt;  21:&lt;/span&gt;          &lt;span style="color:#0000ff;"&gt;foreach&lt;/span&gt; (HealthRecordItem item &lt;span style="color:#0000ff;"&gt;in&lt;/span&gt; items)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum22"&gt;  22:&lt;/span&gt;          {
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum23"&gt;  23:&lt;/span&gt;              &lt;span style="color:#008000;"&gt;// Do the distinct per item work&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum24"&gt;  24:&lt;/span&gt;              ProcessStepsHealthItem(item, profile);
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum25"&gt;  25:&lt;/span&gt;          }
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum26"&gt;  26:&lt;/span&gt;      }
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum27"&gt;  27:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum28"&gt;  28:&lt;/span&gt;      &lt;span style="color:#008000;"&gt;//only update the last sync time if we are able to download items&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum29"&gt;  29:&lt;/span&gt;      &lt;span style="color:#0000ff;"&gt;if&lt;/span&gt; (items != &lt;span style="color:#0000ff;"&gt;null&lt;/span&gt;)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum30"&gt;  30:&lt;/span&gt;      {
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum31"&gt;  31:&lt;/span&gt;          &lt;span style="color:#008000;"&gt;//set last sync time&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum32"&gt;  32:&lt;/span&gt;          profile.UserCtx.hv_last_sync_time = timeStamp;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum33"&gt;  33:&lt;/span&gt;          profile.Save();
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum34"&gt;  34:&lt;/span&gt;      }
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum35"&gt;  35:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum36"&gt;  36:&lt;/span&gt;      &lt;span style="color:#008000;"&gt;// Clear the WlkMi data cache if the last sync is null or this is a full sync&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum37"&gt;  37:&lt;/span&gt;      &lt;span style="color:#0000ff;"&gt;if&lt;/span&gt; (!lastSyncTime.HasValue || !partialSync)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum38"&gt;  38:&lt;/span&gt;      {
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum39"&gt;  39:&lt;/span&gt;          WlkMiTracer.Instance.Log(&lt;span style="color:#006080;"&gt;"HVSync.cs:OnlineSyncUser"&lt;/span&gt;, WlkMiEvent.UserSync,
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum40"&gt;  40:&lt;/span&gt;                WlkMiCat.Info, &lt;span style="color:#0000ff;"&gt;string&lt;/span&gt;.Format(&lt;span style="color:#006080;"&gt;"Full sync deleting information for User: {0}"&lt;/span&gt;,
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum41"&gt;  41:&lt;/span&gt;                  profile.UserCtx.user_id));
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum42"&gt;  42:&lt;/span&gt;          lastSyncTime = &lt;span style="color:#0000ff;"&gt;null&lt;/span&gt;;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum43"&gt;  43:&lt;/span&gt;          WalkLogModel.ClearUserCache(profile);
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum44"&gt;  44:&lt;/span&gt;          syncType = &lt;span style="color:#006080;"&gt;"full"&lt;/span&gt;;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum45"&gt;  45:&lt;/span&gt;      }
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum46"&gt;  46:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum47"&gt;  47:&lt;/span&gt;      &lt;span style="color:#008000;"&gt;//Processtotals for this user&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum48"&gt;  48:&lt;/span&gt;      WalkLogModel.ProcessTotals(profile.UserCtx.user_id);
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum49"&gt;  49:&lt;/span&gt;      
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum50"&gt;  50:&lt;/span&gt;      WlkMiTracer.Instance.Log(&lt;span style="color:#006080;"&gt;"HVSync:OnlineSyncUser"&lt;/span&gt;, WlkMiEvent.UserSync,
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum51"&gt;  51:&lt;/span&gt;          WlkMiCat.Info, &lt;span style="color:#0000ff;"&gt;string&lt;/span&gt;.Format(&lt;span style="color:#006080;"&gt;"Completed Online {1} Sync of User: {0}"&lt;/span&gt;,
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum52"&gt;  52:&lt;/span&gt;          profile.UserCtx.user_id.ToString(), syncType));  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum53"&gt;  53:&lt;/span&gt;  }
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum54"&gt;  54:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum55"&gt;  55:&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;public&lt;/span&gt; &lt;span style="color:#0000ff;"&gt;static&lt;/span&gt; HealthRecordItemCollection GetHVItemsOnline(PersonInfo info, DateTime? lastSync)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum56"&gt;  56:&lt;/span&gt; {
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum57"&gt;  57:&lt;/span&gt;     HealthRecordSearcher searcher = info.SelectedRecord.CreateSearcher();
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum58"&gt;  58:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum59"&gt;  59:&lt;/span&gt;     HealthRecordFilter filter = &lt;span style="color:#0000ff;"&gt;new&lt;/span&gt; HealthRecordFilter(Exercise.TypeId,
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum60"&gt;  60:&lt;/span&gt;         AerobicSession.TypeId);
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum61"&gt;  61:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum62"&gt;  62:&lt;/span&gt;     &lt;span style="color:#0000ff;"&gt;if&lt;/span&gt;(lastSync.HasValue)
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum63"&gt;  63:&lt;/span&gt;         filter.UpdatedDateMin = (DateTime) lastSync;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum64"&gt;  64:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum65"&gt;  65:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum66"&gt;  66:&lt;/span&gt;     &lt;span style="color:#008000;"&gt;// TODO: Add filter so that we get only items with steps&lt;/span&gt;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum67"&gt;  67:&lt;/span&gt;     searcher.Filters.Add(filter);
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum68"&gt;  68:&lt;/span&gt;     HealthRecordItemCollection items = searcher.GetMatchingItems()[0];
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum69"&gt;  69:&lt;/span&gt;  
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum70"&gt;  70:&lt;/span&gt;     &lt;span style="color:#0000ff;"&gt;return&lt;/span&gt; items;
+
+
+
+
+
+
+&lt;span style="color:#606060;" id="lnum71"&gt;  71:&lt;/span&gt; }
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><em><strong>UserOfflineSync</strong></em></p>
+
+    <p><span style="color:#606060;" id="lnum1">   1:</span> <span style="color:#0000ff;">public</span> <span style="color:#0000ff;">static</span> <span style="color:#0000ff;">void</span> OfflineSyncUser(ProfileModel profile)</p>
+
+    <p><span style="color:#606060;" id="lnum2">   2:</span> {</p>
+
+    <p><span style="color:#606060;" id="lnum3">   3:</span>     DateTime timeStamp = DateTime.Now;</p>
+
+    <p><span style="color:#606060;" id="lnum4">   4:</span></p>
+
+    <p><span style="color:#606060;" id="lnum5">   5:</span>     <span style="color:#008000;">// Retrieve the latest info from HealthVault</span></p>
+
+    <p><span style="color:#606060;" id="lnum6">   6:</span>     <span style="color:#0000ff;">if</span> (profile.UserCtx.hv_personid != <span style="color:#0000ff;">null</span>)</p>
+
+    <p><span style="color:#606060;" id="lnum7">   7:</span>     {</p>
+
+    <p><span style="color:#606060;" id="lnum8">   8:</span>         HealthRecordItemCollection items = GetHVItemsOffline(profile.UserCtx.hv_personid,</p>
+
+    <p><span style="color:#606060;" id="lnum9">   9:</span>             profile.UserCtx.hv_recordid,profile.UserCtx.hv_last_sync_time);</p>
+
+    <p><span style="color:#606060;" id="lnum10">  10:</span>         <span style="color:#0000ff;">if</span> (items != <span style="color:#0000ff;">null</span> &amp;&amp; items.Count &gt; 0)</p>
+
+    <p><span style="color:#606060;" id="lnum11">  11:</span>         {</p>
+
+    <p><span style="color:#606060;" id="lnum12">  12:</span>             <span style="color:#0000ff;">foreach</span> (HealthRecordItem item <span style="color:#0000ff;">in</span> items)</p>
+
+    <p><span style="color:#606060;" id="lnum13">  13:</span>             {</p>
+
+    <p><span style="color:#606060;" id="lnum14">  14:</span>                 <span style="color:#008000;">// Do the distinct per item work</span></p>
+
+    <p><span style="color:#606060;" id="lnum15">  15:</span>                 ProcessStepsHealthItem(item, profile);</p>
+
+    <p><span style="color:#606060;" id="lnum16">  16:</span>             }</p>
+
+    <p><span style="color:#606060;" id="lnum17">  17:</span>             WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs:OfflineSyncUser”</span>, WlkMiEvent.AppSync,</p>
+
+    <p><span style="color:#606060;" id="lnum18">  18:</span>                 WlkMiCat.Info, <span style="color:#0000ff;">string</span>.Format(<span style="color:#006080;">“Number of items retrieved from HV: {0}”</span>,</p>
+
+    <p><span style="color:#606060;" id="lnum19">  19:</span>                 items.Count));</p>
+
+    <p><span style="color:#606060;" id="lnum20">  20:</span>         }</p>
+
+    <p><span style="color:#606060;" id="lnum21">  21:</span>         <span style="color:#008000;">//only update the last sync time if we are able to download items</span></p>
+
+    <p><span style="color:#606060;" id="lnum22">  22:</span>         <span style="color:#0000ff;">if</span> (items != <span style="color:#0000ff;">null</span>)</p>
+
+    <p><span style="color:#606060;" id="lnum23">  23:</span>         {</p>
+
+    <p><span style="color:#606060;" id="lnum24">  24:</span>             <span style="color:#008000;">//set last sync time</span></p>
+
+    <p><span style="color:#606060;" id="lnum25">  25:</span>             profile.UserCtx.hv_last_sync_time = timeStamp;</p>
+
+    <p><span style="color:#606060;" id="lnum26">  26:</span>             profile.Save();</p>
+
+    <p><span style="color:#606060;" id="lnum27">  27:</span>         }</p>
+
+    <p><span style="color:#606060;" id="lnum28">  28:</span>     }</p>
+
+    <p><span style="color:#606060;" id="lnum29">  29:</span></p>
+
+    <p><span style="color:#606060;" id="lnum30">  30:</span>     <span style="color:#008000;">// Clear the WlkMi data cache if the last sync is null</span></p>
+
+    <p><span style="color:#606060;" id="lnum31">  31:</span>     <span style="color:#008000;">// In other words, you can also set the time stamp for user’s last sync to null</span></p>
+
+    <p><span style="color:#606060;" id="lnum32">  32:</span>     <span style="color:#008000;">// to trigger a full offline sync.</span></p>
+
+    <p><span style="color:#606060;" id="lnum33">  33:</span>     <span style="color:#008000;">// TODO: Consider not doing this for production</span></p>
+
+    <p><span style="color:#606060;" id="lnum34">  34:</span>     <span style="color:#0000ff;">if</span> (!profile.UserCtx.hv_last_sync_time.HasValue)</p>
+
+    <p><span style="color:#606060;" id="lnum35">  35:</span>     {</p>
+
+    <p><span style="color:#606060;" id="lnum36">  36:</span>         WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs:OfflineSyncUser”</span>, WlkMiEvent.AppSync,</p>
+
+    <p><span style="color:#606060;" id="lnum37">  37:</span>             WlkMiCat.Info, <span style="color:#0000ff;">string</span>.Format(<span style="color:#006080;">“Deleting information for user {0}”</span>,</p>
+
+    <p><span style="color:#606060;" id="lnum38">  38:</span>             profile.UserCtx.user_id));</p>
+
+    <p><span style="color:#606060;" id="lnum39">  39:</span></p>
+
+    <p><span style="color:#606060;" id="lnum40">  40:</span>         WalkLogModel.ClearUserCache(profile);</p>
+
+    <p><span style="color:#606060;" id="lnum41">  41:</span>     }</p>
+
+    <p><span style="color:#606060;" id="lnum42">  42:</span></p>
+
+    <p><span style="color:#606060;" id="lnum43">  43:</span>     <span style="color:#008000;">// Processtotals for this user</span></p>
+
+    <p><span style="color:#606060;" id="lnum44">  44:</span>     WalkLogModel.ProcessTotals(profile.UserCtx.user_id);</p>
+
+    <p><span style="color:#606060;" id="lnum45">  45:</span></p>
+
+    <p><span style="color:#606060;" id="lnum46">  46:</span>     WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs:OfflineSyncUser”</span>, WlkMiEvent.AppSync,</p>
+
+    <p><span style="color:#606060;" id="lnum47">  47:</span>         WlkMiCat.Info, <span style="color:#0000ff;">string</span>.Format(<span style="color:#006080;">“Completed Offline Sync of User: {0}”</span>,</p>
+
+    <p><span style="color:#606060;" id="lnum48">  48:</span>         profile.UserCtx.user_id.ToString()));</p>
+
+    <p><span style="color:#606060;" id="lnum49">  49:</span> }</p>
+
+    <p><span style="color:#606060;" id="lnum50">  50:</span></p>
+
+    <p><span style="color:#606060;" id="lnum51">  51:</span> <span style="color:#0000ff;">public</span> <span style="color:#0000ff;">static</span> HealthRecordItemCollection GetHVItemsOffline(Guid personId,</p>
+
+    <p><span style="color:#606060;" id="lnum52">  52:</span>     Guid recordGuid, DateTime? lastSync)</p>
+
+    <p><span style="color:#606060;" id="lnum53">  53:</span> {</p>
+
+    <p><span style="color:#606060;" id="lnum54">  54:</span>     <span style="color:#008000;">// Do the offline connection</span></p>
+
+    <p><span style="color:#606060;" id="lnum55">  55:</span>     OfflineWebApplicationConnection offlineConn =</p>
+
+    <p><span style="color:#606060;" id="lnum56">  56:</span>         <span style="color:#0000ff;">new</span> OfflineWebApplicationConnection(personId);</p>
+
+    <p><span style="color:#606060;" id="lnum57">  57:</span>     offlineConn.RequestTimeoutSeconds = 180;  <span style="color:#008000;">//extending time to prevent time outs for accounts with large number of items</span></p>
+
+    <p><span style="color:#606060;" id="lnum58">  58:</span>     offlineConn.Authenticate();</p>
+
+    <p><span style="color:#606060;" id="lnum59">  59:</span>     HealthRecordAccessor accessor =</p>
+
+    <p><span style="color:#606060;" id="lnum60">  60:</span>         <span style="color:#0000ff;">new</span> HealthRecordAccessor(offlineConn, recordGuid);</p>
+
+    <p><span style="color:#606060;" id="lnum61">  61:</span>     HealthRecordSearcher searcher = accessor.CreateSearcher();</p>
+
+    <p><span style="color:#606060;" id="lnum62">  62:</span></p>
+
+    <p><span style="color:#606060;" id="lnum63">  63:</span>     HealthRecordFilter filter = <span style="color:#0000ff;">new</span> HealthRecordFilter(Exercise.TypeId,</p>
+
+    <p><span style="color:#606060;" id="lnum64">  64:</span>         AerobicSession.TypeId);</p>
+
+    <p><span style="color:#606060;" id="lnum65">  65:</span></p>
+
+    <p><span style="color:#606060;" id="lnum66">  66:</span>     <span style="color:#0000ff;">if</span> (lastSync.HasValue)</p>
+
+    <p><span style="color:#606060;" id="lnum67">  67:</span>         filter.UpdatedDateMin = (DateTime)lastSync;</p>
+
+    <p><span style="color:#606060;" id="lnum68">  68:</span></p>
+
+    <p><span style="color:#606060;" id="lnum69">  69:</span>     searcher.Filters.Add(filter);</p>
+
+    <p><span style="color:#606060;" id="lnum70">  70:</span></p>
+
+    <p><span style="color:#606060;" id="lnum71">  71:</span>     HealthRecordItemCollection items = <span style="color:#0000ff;">null</span>;</p>
+
+    <p><span style="color:#606060;" id="lnum72">  72:</span>     <span style="color:#0000ff;">try</span></p>
+
+    <p><span style="color:#606060;" id="lnum73">  73:</span>     {</p>
+
+    <p><span style="color:#606060;" id="lnum74">  74:</span>         items = searcher.GetMatchingItems()[0];</p>
+
+    <p><span style="color:#606060;" id="lnum75">  75:</span>     }</p>
+
+    <p><span style="color:#606060;" id="lnum76">  76:</span>     <span style="color:#0000ff;">catch</span> (Exception err)</p>
+
+    <p><span style="color:#606060;" id="lnum77">  77:</span>     {</p>
+
+    <p><span style="color:#606060;" id="lnum78">  78:</span>         WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs:GetHVItemsOffline”</span>, WlkMiEvent.AppSync, WlkMiCat.Error,</p>
+
+    <p><span style="color:#606060;" id="lnum79">  79:</span>                 <span style="color:#0000ff;">string</span>.Format(<span style="color:#006080;">“Error for user {0} : {1} “</span>,</p>
+
+    <p><span style="color:#606060;" id="lnum80">  80:</span>                 recordGuid.ToString(),err.ToString()));</p>
+
+    <p><span style="color:#606060;" id="lnum81">  81:</span>     }</p>
+
+    <p><span style="color:#606060;" id="lnum82">  82:</span>     <span style="color:#0000ff;">return</span> items;</p>
+
+    <p><span style="color:#606060;" id="lnum83">  83:</span> }</p>
+  </li>
+  <li>
+    <p><em><strong>ApplicationSync</strong></em></p>
+
+    <p><span style="color:#606060;" id="lnum1">   1:</span> <span style="color:#0000ff;">public</span> <span style="color:#0000ff;">static</span> <span style="color:#0000ff;">void</span> SyncWlkMiWithHealthVault(</p>
+
+    <p><span style="color:#606060;" id="lnum2">   2:</span>     DateTime? lastUpdatedDate)</p>
+
+    <p><span style="color:#606060;" id="lnum3">   3:</span> {</p>
+
+    <p><span style="color:#606060;" id="lnum4">   4:</span>     WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs”</span>, WlkMiEvent.AppSync, WlkMiCat.Info,</p>
+
+    <p><span style="color:#606060;" id="lnum5">   5:</span>         <span style="color:#006080;">“Getting updated records from HealthVault”</span>);</p>
+
+    <p><span style="color:#606060;" id="lnum6">   6:</span>     <span style="color:#008000;">// Do the offline connection</span></p>
+
+    <p><span style="color:#606060;" id="lnum7">   7:</span>     OfflineWebApplicationConnection offlineConn =</p>
+
+    <p><span style="color:#606060;" id="lnum8">   8:</span>         <span style="color:#0000ff;">new</span> OfflineWebApplicationConnection();</p>
+
+    <p><span style="color:#606060;" id="lnum9">   9:</span>     offlineConn.Authenticate();</p>
+
+    <p><span style="color:#606060;" id="lnum10">  10:</span>     IList<Guid> updatedUserIds =</Guid></p>
+
+    <p><span style="color:#606060;" id="lnum11">  11:</span>         offlineConn.GetUpdatedRecordsForApplication(lastUpdatedDate);</p>
+
+    <p><span style="color:#606060;" id="lnum12">  12:</span>     WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs”</span>, WlkMiEvent.AppSync, WlkMiCat.Info,</p>
+
+    <p><span style="color:#606060;" id="lnum13">  13:</span>         <span style="color:#0000ff;">string</span>.Format(<span style="color:#006080;">“Got {0} updated records from HealthVault”</span>, updatedUserIds.Count));</p>
+
+    <p><span style="color:#606060;" id="lnum14">  14:</span></p>
+
+    <p><span style="color:#606060;" id="lnum15">  15:</span>     <span style="color:#0000ff;">foreach</span>(Guid recordid <span style="color:#0000ff;">in</span> updatedUserIds)</p>
+
+    <p><span style="color:#606060;" id="lnum16">  16:</span>     {</p>
+
+    <p><span style="color:#606060;" id="lnum17">  17:</span>         ProfileModel syncUser = ProfileModel.Fetch(recordid);</p>
+
+    <p><span style="color:#606060;" id="lnum18">  18:</span>         <span style="color:#0000ff;">if</span> (syncUser == <span style="color:#0000ff;">null</span>)</p>
+
+    <p><span style="color:#606060;" id="lnum19">  19:</span>         {</p>
+
+    <p><span style="color:#606060;" id="lnum20">  20:</span>             WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs”</span>, WlkMiEvent.AppSync, WlkMiCat.Error,</p>
+
+    <p><span style="color:#606060;" id="lnum21">  21:</span>                 <span style="color:#0000ff;">string</span>.Format(<span style="color:#006080;">“No WlkMi user found for recordif {0} “</span>, recordid));</p>
+
+    <p><span style="color:#606060;" id="lnum22">  22:</span>             <span style="color:#0000ff;">continue</span>;</p>
+
+    <p><span style="color:#606060;" id="lnum23">  23:</span>         }</p>
+
+    <p><span style="color:#606060;" id="lnum24">  24:</span>         <span style="color:#008000;">// Decide to update this guy?</span></p>
+
+    <p><span style="color:#606060;" id="lnum25">  25:</span>         <span style="color:#0000ff;">if</span> (syncUser.UserCtx.hv_last_sync_time &gt; DateTime.Now.AddSeconds(</p>
+
+    <p><span style="color:#606060;" id="lnum26">  26:</span>             -Constants.UserSyncIntervalInSeconds))</p>
+
+    <p><span style="color:#606060;" id="lnum27">  27:</span>         {</p>
+
+    <p><span style="color:#606060;" id="lnum28">  28:</span>             WlkMiTracer.Instance.Log(<span style="color:#006080;">“HVSync.cs”</span>, WlkMiEvent.AppSync, WlkMiCat.Info,</p>
+
+    <p><span style="color:#606060;" id="lnum29">  29:</span>                 <span style="color:#0000ff;">string</span>.Format(<span style="color:#006080;">“Skipping sync for user {0} “</span>, syncUser.UserCtx.user_id));</p>
+
+    <p><span style="color:#606060;" id="lnum30">  30:</span>         }</p>
+
+    <p><span style="color:#606060;" id="lnum31">  31:</span>         <span style="color:#0000ff;">else</span></p>
+
+    <p><span style="color:#606060;" id="lnum32">  32:</span>         {</p>
+
+    <p><span style="color:#606060;" id="lnum33">  33:</span>             HVSync.OfflineSyncUser(syncUser);</p>
+
+    <p><span style="color:#606060;" id="lnum34">  34:</span>         }</p>
+
+    <p><span style="color:#606060;" id="lnum35">  35:</span>     }</p>
+
+    <p><span style="color:#606060;" id="lnum36">  36:</span> }</p>
+  </li>
+</ul>
+
+<p>**_Suggestions?</p>
+
+<p>_**There are various ways in which the HealthVault platform can assist application in syncing with the data native to HealthVault. One thing comes to my mind is support for <a href="http://en.wikipedia.org/wiki/FeedSync">feedsync</a>. You may have a lot of suggestions, please feel free to chime in the comments!!</p>
+
+                  </div>
+              </div>
+          </div>
+      </div> 
+</section>
+<hr/>
+<section>
+<div class="container">
+  <h3 class="title is-5">Related posts you may enjoy: </h3>
+  <div class="columns">
+  
+  
+  
+
+ 
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2013/03/03/at-himss-2013/">
+              <div class="rel">
+                  <h5>At HIMSS 2013</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2012/06/20/enabling-programmable-self-with-healthvault-and-more/">
+              <div class="rel">
+                  <h5>Enabling Programmable Self with HealthVault and more..</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+  
+
+   
+    
+    
+
+    
+
+    
+        <div class="column is-onethird">
+          <a href="/2011/10/13/healthvault-powershell-module-the-beginnings/">
+              <div class="rel">
+                  <h5>HealthVault PowerShell Module - The beginnings.</h5>
+              </div>
+          </a>
+        </div>
+      
+      
+        
+</div>
+</div>
+</section>
+
+
+<hr/>
+<footer class="footer">
+    <div class="section-heading">
+      <p>
+        <a href="https://www.twitter.com/vaibhavb"><i class="fab fa-twitter-square fa-2x"></i></a> 
+        <a href="https://www.github.com/vaibhavb"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhavb"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://legacy.vitraag.com/cse/index.html"><i class="fas fa-globe fa-2x"></i></a>
+        <br/><strong>&copy; 2023 Vaibhav Bhandari</strong>
+        <br/><span class="credit">Last Updated on Wed Aug 21 22:35:12 2024</span>
+      </p>
+    </div>
+</footer>
+<script async src="https://www.vitraag.com//assets/js/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQQHR1JXTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQQHR1JXTN');
+</script>
+</body>
+</html>
