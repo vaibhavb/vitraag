@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry
+data-runners/.venv/
+data-runners/dist/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+

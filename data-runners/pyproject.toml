@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "popular-posts-updater"
+version = "0.1.0"
+description = "A script to update popular posts data for a Jekyll blog"
+authors = ["Vaibhav Bhandari <vaibhavb@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notion-client = "^2.1.0"
+python-dotenv = "^1.0.0"
+google-api-python-client = "^2.111.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+google-analytics-data = "^0.18.8"
+urllib3 = "1.26.15"
+pyyaml = "^6.0.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
