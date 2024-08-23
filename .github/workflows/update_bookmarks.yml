@@ -1,0 +1,44 @@
+name: Update Popular Posts
+
+on:
+  schedule:
+    # Runs at 04:00am PST, 12 UTC every day
+    - cron: '0 12 * * *'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-popular-posts:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+    - name: Install dependencies
+      run: |
+        cd data-runners
+        poetry install
+
+    - name: Run update script
+      env:
+        NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+      run: |
+        cd data-runners
+        poetry run python update_bookmarks.py
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git add assets/data/bookmarks.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update bookmarks" && git push)
