@@ -1,4 +1,4 @@
-name: Update Popular Posts
+name: Update Bookmarks 
 
 on:
   schedule:
