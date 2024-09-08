@@ -8,7 +8,9 @@ title: Jain Links
 categories:
     - jainism
 ---
-#Jain Links
+# Jain Links
+
+![Micchami Dukhdam](/assets/images/2024/2024-samvatsari.jpg)
 
 Following are some interesting Jainism Links:
 
@@ -19,7 +21,20 @@ Following are some interesting Jainism Links:
 * [Recycle Jain Books](https://bit.ly/JainBooksRecycle2023)
 
 
-Tools
+## Tools
 * [Jain GPT](https://jaingpt.org/)
+
+## Rituals
+### Pratrikraman
+
+[English Version](https://drive.google.com/file/d/12KjvxZNiiDxJAU5muF4ke3589Y_e-2Mw/view?usp=sharing), [Audio Link](https://jainelibrary.org/$jes931/sthanakvasi/Samvatsari_Sthanakwasi_Pratikraman_320901.mp3)
+
+Its six parts
+* Samayik
+* Chovitsav
+* Vandana
+* Pratrikramam
+* Kayotsarg
+* Pachakhan
 
 
