@@ -34,8 +34,7 @@ Following are some interesting Jainism Links:
 
 ## Rituals
 ### Pratrikraman
-
-Its six parts:
+It has six parts:
 
 | Part       | Content                                                                            |  
 |------------|------------------------------------------------------------------------------------|  
