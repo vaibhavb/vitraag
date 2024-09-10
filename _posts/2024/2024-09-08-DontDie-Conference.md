@@ -1,10 +1,10 @@
 ---
 author: vitraag
 comments: true
-date: T19:18:18Z
+date: 2024-09-08T19:18:18Z
 layout: post
 slug: dont-die-sf 
-title: Dont Die SF Conference Recap
+title: Dont Die SF Conference Notes
 categories:
     - health
 ---

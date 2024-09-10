@@ -1,7 +1,7 @@
 ---
 date: 2022-10-17 05:06:00+00:00
 layout: default
-title: Blog Posts
+title: Posts By Year! 
 permalink: /posts-by-year/
 js: heatmap.js
 categories:
