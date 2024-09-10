@@ -11,7 +11,7 @@ categories:
 # Michammi Dukkadam
 ![Micchami Dukhdam](/assets/images/2024/2024-samvatsari.jpg)
 
-Over the past year, if I have hurt your feelings knowingly or un-knowingly in any way or form, **please forgive me – Michammi Dukham, Khamat Khamana. **I sincerely wish that you will also forgive my shortcomings.
+Over the past year, if I have hurt your feelings knowingly or unknowingly in any way or form, please forgive me – Michammi Dukham (मिच्छामि दुक्कडम्), Khamat Khamana (खमत खामना). I sincerely wish that you will also forgive my shortcomings.
 
 ### So why ask for forgiveness? 
 Well, this is season of “Shyamapana festival”. Shyamapana is a festival of forgiveness; its popular among folks of Jain faith. This day is a culmination of a weeklong fest of repentance called “Paryushan”. To quote an article :
@@ -35,8 +35,9 @@ Following are some interesting Jainism Links:
 ## Rituals
 ### Pratrikraman
 
-Its six parts
-| Part   | Content                                                                                |  
+Its six parts:
+
+| Part       | Content                                                                            |  
 |------------|------------------------------------------------------------------------------------|  
 | 1. Samayik (सामायिक)      | I take a vow to remain in equanimity <br> करेमि भंते! सामाइयं सावज्जं जोगं पच्चक्खामि  |  
 | 2. Chovitsav (चौविसस्तव)  | I bow down to the 24 Tirthankaras <br> चउवीसं पि जिणवराणं, चउवीसं पि केवल        |  
@@ -46,6 +47,8 @@ Its six parts
 | 6. Pachakhan (पच्चक्खाण)   | I take vows to restrain from sinful activities <br> करेमि भंते! पच्चक्खाणं    |
 
 Detailed walkthrough :
+Over the past year, if I have hurt your feelings knowingly or un-knowingly in any way or form, **please forgive me – Michammi Dukham, Khamat Khamana. **I sincerely wish that you will also forgive my shortcomings.
+
 * [English Version](https://drive.google.com/file/d/12KjvxZNiiDxJAU5muF4ke3589Y_e-2Mw/view?usp=sharing)
 * [Audio Link](https://jainelibrary.org/$jes931/sthanakvasi/Samvatsari_Sthanakwasi_Pratikraman_320901.mp3)
 
