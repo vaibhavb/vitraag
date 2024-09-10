@@ -13,7 +13,7 @@ categories:
 
 Over the past year, if I have hurt your feelings knowingly or unknowingly in any way or form, please forgive me – Michammi Dukham (मिच्छामि दुक्कडम्), Khamat Khamana (खमत खामना). I sincerely wish that you will also forgive my shortcomings.
 
-### So why ask for forgiveness? 
+## So why ask for forgiveness? 
 Well, this is season of “Shyamapana festival”. Shyamapana is a festival of forgiveness; its popular among folks of Jain faith. This day is a culmination of a weeklong fest of repentance called “Paryushan”. To quote an article :
 
 “For 357 days of the year we carry out our responsibilities to our business, our family and our career. We live a very busy, worldly life. In the process, we accumulate a lot of mental and emotional clutter. We gather unnecessary baggage of pride, fear, animosity, greed, ego and delusions in our thoughts and feelings. So Paryushan is the time to clear that clutter and make a bonfire to burn that junk, that rubbish which is corrupting our minds, our lives and our relationships. The Jains have designed the special eight days of Paryushan as a time of reflection, purification and renewal.”
@@ -47,8 +47,6 @@ Its six parts:
 | 6. Pachakhan (पच्चक्खाण)   | I take vows to restrain from sinful activities <br> करेमि भंते! पच्चक्खाणं    |
 
 Detailed walkthrough :
-Over the past year, if I have hurt your feelings knowingly or un-knowingly in any way or form, **please forgive me – Michammi Dukham, Khamat Khamana. **I sincerely wish that you will also forgive my shortcomings.
-
 * [English Version](https://drive.google.com/file/d/12KjvxZNiiDxJAU5muF4ke3589Y_e-2Mw/view?usp=sharing)
 * [Audio Link](https://jainelibrary.org/$jes931/sthanakvasi/Samvatsari_Sthanakwasi_Pratikraman_320901.mp3)
 
