@@ -9,3 +9,7 @@
 - name: Project Lira
   date-started: 01-01-2019
   page: /code/lira
+- name: AI Security (GenSh) 
+  date-started: 01-01-2024
+  status: inprogress
+  blogpost-category: ai-security
