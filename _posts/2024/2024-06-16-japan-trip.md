@@ -8,7 +8,7 @@ title: Japan Trip!
 categories:
     - travel
 ---
-![Japan Trip Highlight](https://photos.fife.usercontent.google.com/pw/AP1GczNXCa-ltDwuamEs3Ik9bGqmY1vrLu1KEHcUKVULnx8N7KL-7mkxLEepvg=w1842-h1382-s-no-gm?authuser=0)
+![Japan Trip Highlight](https://photos.fife.usercontent.google.com/pw/AP1GczNXCa-ltDwuamEs3Ik9bGqmY1vrLu1KEHcUKVULnx8N7KL-7mkxLEepvg=w480)
 
 I did a Japan trip, with my niece and nephew in June, 2024. Some highlights from the trip:
 
