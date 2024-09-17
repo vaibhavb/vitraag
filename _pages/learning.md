@@ -1,8 +1,8 @@
 ---
-date: 2024-09-16 05:06:00+00:00
+date: 2024-09-16T00:35:55 
 layout: post
-title: Art Projects
-permalink: /learning
+title: Continous Learning
+permalink: /learning/
 categories:
     - learning
 ---
