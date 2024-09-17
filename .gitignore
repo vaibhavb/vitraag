@@ -70,3 +70,4 @@ node_modules
 #swp file
 **/*.swp
 .envrc
+.aider*
