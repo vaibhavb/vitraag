@@ -4,7 +4,7 @@ comments: true
 date: 2024-09-17T19:18:18Z
 layout: post
 slug: cloudsec-notes 
-title: fwd:cloudsec notes
+title: fwd-cloudsec notes
 categories:
     - security
 ---

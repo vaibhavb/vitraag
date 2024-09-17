@@ -6,7 +6,7 @@ layout: post
 slug: japan-trip 
 title: Japan Trip!
 categories:
-    - travels
+    - travel
 ---
 ![Japan Trip Highlight](https://photos.app.goo.gl/4sVkzWVLdsT2iNiu5)
 
