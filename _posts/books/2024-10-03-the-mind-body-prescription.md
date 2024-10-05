@@ -3,7 +3,7 @@ author: vitraag
 comments: true
 date: 2024-10-03T17:31:16Z
 layout: post
-slug: the-mindbody-prescrition
+slug: the-mindbody-prescription
 title: The MindBody Prescription
 categories:
     - book-review
