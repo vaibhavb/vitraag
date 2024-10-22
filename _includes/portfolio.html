@@ -1,0 +1,107 @@
+<!-- Portfolio -->
+<section class="section" id="portfolio">
+  <div class="container">
+    <div class="section-heading">
+      <h3 class="title is-2">Portfolio</h3>
+      <h4 class="subtitle is-5">My latest works</h4>
+    </div>
+    <br>
+    <div class="columns is-multiline is-centered">
+      {% for item in site.data.portfolio %}
+      <div class="column is-one-third-tablet is-one-fourth-desktop is-flex is-align-items-stretch">
+        <!-- item -->
+        <div class="card">
+          <header class="card-header has-background-primary">
+            <p class="card-header-title has-text-white" style="padding: 10px;">
+              <span>
+                <i class="{{item.faclass}}"></i>&nbsp;{{item.title}}&nbsp;
+                <small>{{item.subtitle}}</small>
+              </span>
+              <span class="is-pulled-right">
+                {% for titletag in item.titletags %}
+                  <span class="tag is-light">{{titletag}}</span>
+                {% endfor %}
+                {% if item.iswip %}
+                  <span class="tag is-danger">WIP</span>
+                {% endif %}
+              </span>
+            </p>
+          </header>
+          <div class="card-content">
+            {% if item.image %}
+            <figure class="image is-4by3">
+              <img src="../assets/images/all/{{item.image}}" alt="Item Screenshot">
+            </figure>
+            {% endif %}
+            <div class="content" style="padding-bottom: 1rem;">
+              {{item.description | markdownify}}
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="{{item.moreinfo}}" class="button is-primary is-fullwidth is-rounded card-footer-item" style="margin: 5px;">More Info</a>
+            <a href="{{item.read}}" class="button is-light is-fullwidth is-rounded card-footer-item" style="margin: 5px;">Read</a>
+          </footer>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Add hover effect to card */
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+
+  /* Tags Styling */
+  .tag {
+    font-size: 0.75rem;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background-color: #f5f5f5; /* lighter background */
+    color: #4a4a4a; /* darker text */
+  }
+
+  /* Button styling */
+  .button {
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+
+  /* Header icon and padding */
+  .card-header-title i {
+    font-size: 1.1rem;
+  }
+
+  /* Ensure the card-footer has consistent alignment for buttons */
+.card-footer {
+  display: flex;
+  justify-content: space-between; /* Ensures buttons take full width */
+  align-items: center;
+}
+
+/* Ensure equal height for cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Make sure the footer stays at the bottom */
+}
+
+/* Ensure the card content stretches to take available space */
+.card-content {
+  flex-grow: 1; /* Makes content stretch to take available space */
+}
+
+/* Button styling for uniform size and alignment */
+.card-footer .button {
+  width: 48%; /* Ensures buttons take equal width */
+}
+
+</style>
+ 

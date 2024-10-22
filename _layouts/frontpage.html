@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -249,54 +248,9 @@
   </section>
 
   <!-- Portfolio -->
-  <section class="section" id="portfolio">
-    <div class="container">
-      <div class="section-heading">
-        <h3 class="title is-2">Portfolio</h3>
-        <h4 class="subtitle is-5">My latest works</h4>
-      </div>
-      <br>
-      <div class="container portfolio-container">
-        <div class="row columns is-multiline">
-          {% for item in site.data.portfolio %} 
-          <div class="column is-one-third">
-            <!-- item -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span><i class="{{item.faclass}}"></i>&nbsp;{{item.title}}&nbsp;<small>{{item.subtitle}}</small></span>
-                  <span class="is-pulled-right">
-                    {% for titletag in item.titletags %}
-                      <span class="tag is-default">{{titletag}}</span>
-                    {% endfor %}
-                    {% if item.iswip %}
-                      <span class="tag is-danger">WIP</span>
-                    {% endif %}
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                {% if item.image %}
-                <figure class="image image-container">
-                  <img src="../assets/images/all/{{item.image}}" alt="Item Screenshot">
-                </figure>
-                {% endif %}
-                <div class="content">
-                    {{item.description | markdownify}}
-                  </div>
-              </div>
-              <footer class="card-footer">
-                <a href="{{item.moreinfo}}" class="card-footer-item">More Info</a>
-                <a href="{{item.read}}" class="card-footer-item">Read</a>
-              </footer>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </section>
+  {% include portfolio.html %}
 
+  <!-- Blog -->
   <section class="section" id="blog">
     <div class="container">
       <div class="section-heading">
