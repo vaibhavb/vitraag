@@ -1,8 +1,63 @@
 [
   {
     "date": "2024-10-22",
+    "title": "(130) Measuring Detection Engineering Teams - YouTube #security",
+    "url": "https://www.youtube.com/watch?v=Dxccs8UDu6w&list=PLs4eo9Tja8biPeb2Wmf2H6-1US5zFjIxW&index=13"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "AWS Console Session Traceability: How Attackers Obfuscate Identity Through the AWS Console | Wiz Blog",
+    "url": "https://www.wiz.io/blog/aws-console-session-traceability-how-attackers-obfuscate-identity-through-aws-console"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "Amazon Bedrock Workshop",
+    "url": "https://catalog.us-east-1.prod.workshops.aws/amazon-bedrock/en-US"
+  },
+  {
+    "date": "2024-10-22",
     "title": "Apriora - Meet Alex. A better way to interview",
     "url": "https://www.apriora.ai/"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "Enterprise Detection & Response: The Pyramid of Pain #security",
+    "url": "https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "How I Won Singapore’s GPT-4 Prompt Engineering Competition | by Sheila Teo | Towards Data Science #security",
+    "url": "https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "Introducing Threatest, a CLI and Go framework for end-to-end testing of threat detection rules | Datadog Security Labs #security",
+    "url": "https://securitylabs.datadoghq.com/articles/threatest-end-to-end-testing-threat-detection/"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "LUCR-3: Scattered Spider Getting SaaS-y in the Cloud #security",
+    "url": "https://permiso.io/blog/lucr-3-scattered-spider-getting-saas-y-in-the-cloud"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "The curious case of DangerDev@protonmail.me #security",
+    "url": "https://www.invictus-ir.com/news/the-curious-case-of-dangerdev-protonmail-me"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "What Are TTPs? Tactics, Techniques & Procedures Explained | Splunk #security",
+    "url": "https://www.splunk.com/en_us/blog/learn/ttp-tactics-techniques-procedures.html"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "chronicle/detection-rules: Collection of YARA-L 2.0 sample rules for the Chronicle Detection API",
+    "url": "https://github.com/chronicle/detection-rules"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "palantir/alerting-detection-strategy-framework: A framework for developing alerting and detection strategies for incident response.",
+    "url": "https://github.com/palantir/alerting-detection-strategy-framework"
   },
   {
     "date": "2024-10-21",
