@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+            border-radius: 8px;
+        }
+        .custom-marker {
+            background: white;
+            border: 2px solid #3388ff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            width: 40px;
+            height: 40px;
+        }
+        .custom-marker img {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .map-container {
+            position: sticky;
+            top: 1rem;
+            height: calc(100vh - 2rem);
+        }
+        .content-section {
+            height: calc(100vh - 2rem);
+            overflow-y: auto;
+            padding: 1.5rem;
+        }
+        .main-container {
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="columns is-marginless">
+            <!-- Left side: Map -->
+            <div class="column is-half">
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+            </div>
+            
+            <!-- Right side: Content -->
+            <div class="column is-half">
+                <div class="content-section">
+                    <div class="content">
+                        <h1 class="title">{{ page.title }}</h1>
+                        {{ content }}
+                        
+                        <!-- Location Details -->
+                        <div class="locations-list">
+                            {% for location in page.locations %}
+                            <div class="box">
+                                <h3 class="title is-4">{{ location.title }}</h3>
+                                <p class="subtitle is-6">
+                                    <span class="icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>
+                                    {{ location.lat }}, {{ location.long }}
+                                </p>
+                                <p>{{ location.description }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script>
+        // Get the locations data from Jekyll front matter
+        var locations = {{ page.locations | jsonify }};
+        
+        // Initialize the map centered on the first location
+        var map = L.map('map').setView(
+            [locations[0].lat, locations[0].long], 
+            {{ page.zoom | default: 10 }}
+        );
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Custom icon creator function
+        function createCustomIcon(location) {
+            var el = document.createElement('div');
+            el.className = 'custom-marker';
+            
+            if (location.image) {
+                var img = document.createElement('img');
+                img.src = location.image;
+                img.alt = location.title || '';
+                el.appendChild(img);
+            } else if (location.text) {
+                el.textContent = location.text;
+            }
+
+            return L.divIcon({
+                html: el.outerHTML,
+                className: 'custom-div-icon',
+                iconSize: [40, 40],
+                iconAnchor: [20, 20]
+            });
+        }
+
+        // Add markers for each location
+        locations.forEach(function(loc) {
+            var marker = L.marker([loc.lat, loc.long], {
+                icon: createCustomIcon(loc)
+            }).addTo(map);
+            
+            // Add popup if title or description exists
+            if (loc.title || loc.description) {
+                var popupContent = '<div>';
+                if (loc.title) popupContent += '<h3>' + loc.title + '</h3>';
+                if (loc.description) popupContent += '<p>' + loc.description + '</p>';
+                popupContent += '</div>';
+                marker.bindPopup(popupContent);
+            }
+
+            // Highlight corresponding box when marker is clicked
+            marker.on('click', function() {
+                var locationBoxes = document.querySelectorAll('.locations-list .box');
+                locationBoxes.forEach(function(box) {
+                    if (box.querySelector('.title').textContent === loc.title) {
+                        box.scrollIntoView({ behavior: 'smooth' });
+                        box.style.backgroundColor = '#fafafa';
+                        setTimeout(() => {
+                            box.style.backgroundColor = 'white';
+                        }, 1500);
+                    }
+                });
+            });
+        });
+
+        // Fit map bounds to show all markers
+        if (locations.length > 1) {
+            var bounds = locations.map(loc => [loc.lat, loc.long]);
+            map.fitBounds(bounds);
+        }
+    </script>
+</body>
+</html>
