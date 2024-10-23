@@ -1,8 +1,27 @@
 @charset "utf-8";
 $salmon: rgb(250,128,114);
+
+@import "./theme-fall.scss";
+
 @import "../../node_modules/bulma/bulma.sass";
 
+// Override the navbar positioning
+$navbar-fixed-z: 30 !default;
+
+// Add custom override styles after Bulma import
+.navbar {
+  &.is-fixed-top {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: $navbar-fixed-z;
+  }
+}
+
+// Add body spacing
 body {
+    padding-top: $navbar-height;
     border-top: 0px solid salmon;
     border-bottom: 0px solid salmon;
     border-left: 0;

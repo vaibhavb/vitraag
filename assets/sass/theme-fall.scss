@@ -1,0 +1,37 @@
+// Autumn Theme Variables
+// These colors are inspired by fall foliage and harvest colors
+
+// 1. Base Fall Colors
+$fall-russet: #8B4513;     // Deep brown like fallen leaves
+$fall-maple: #D2691E;      // Warm orange-brown like maple leaves
+$fall-harvest: #CD853F;    // Golden brown like wheat
+$fall-pumpkin: #FF7F50;    // Bright orange like pumpkins
+$fall-rust: #B7410E;       // Deep rust red like late autumn leaves
+$fall-moss: #556B2F;       // Dark green like forest moss
+$fall-gold: #DAA520;       // Golden yellow like autumn sunlight
+$fall-burgundy: #800020;   // Deep red like late-season leaves
+
+// 2. Theme Assignment
+$primary: $fall-russet;
+$info: $fall-moss;
+$success: $fall-harvest;
+$warning: $fall-pumpkin;
+$danger: $fall-burgundy;
+$link: $fall-maple;
+
+// 3. Custom Color Variations
+$primary-light: lighten($primary, 15%);
+$primary-dark: darken($primary, 15%);
+$primary-invert: findColorInvert($primary);
+
+// 4. Background and Text Colors
+$body-background-color: #FDF5E6;  // Old lace color for a warm background
+$text: #2F1810;                   // Deep brown for text
+$text-strong: #1F110B;           // Darker brown for emphasis
+
+// 5. Component-Specific Overrides
+$button-hover-color: $fall-gold;
+$button-focus-color: $fall-gold;
+$navbar-background-color: $fall-russet;
+$navbar-item-color: $primary-invert;
+$navbar-item-hover-color: $fall-gold;
