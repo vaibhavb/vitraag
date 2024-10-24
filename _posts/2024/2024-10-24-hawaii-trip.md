@@ -20,7 +20,7 @@ locations:
     - lat: 21.344488888888886
       long: -157.70163055555554
       datetime: 2024-10-11 17:15:37 UTC
-      title: wainamalo-beach
+      title: waimanalo-beach
       image: /assets/images/2024/travel/hawaii/waimanalo-beach.jpg
       description: 
       text: 
