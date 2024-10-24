@@ -81,10 +81,10 @@ locations:
       description: 
       text: 
 ---
-A Photolog my Hawaii Travels.
+A photo log of my Hawaii Travels.
 
 Kokohead
-![Kokohead](/assets/images/2024/travel/hawaii/kokohead.jpg){#kokohead}
+![Kokohead](/assets/images/2024/travel/hawaii/kokohead.jpg)
 Diamond Head
 ![Diamond Head](/assets/images/2024/travel/hawaii/diamond-head.jpg)
 Gandhi Statue
@@ -94,7 +94,7 @@ Waimanalo Beach
 Wiliwilinui Hike
 ![wiliwilinui-hike](/assets/images/2024/travel/hawaii/wiliwilinui-hike.jpg)
 Holey Grail!
-![holey-grail](/assets/images/2024/travel/hawaii/holey-grail.jpg){#holey-grail}
+![holey-grail](/assets/images/2024/travel/hawaii/holey-grail.jpg)
 Hanuama Bay
 ![hanuama-bay](/assets/images/2024/travel/hawaii/hanuama-bay.jpg)
 Birthday Sunset
