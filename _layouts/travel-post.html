@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <style>
+        #map {
+            height: 100%;
+            width: 100%;
+            border-radius: 8px;
+        }
+        .custom-marker {
+            background: transparent;
+            border: 0px solid #3388ff;
+            text-align: center;
+            line-height: 40px;
+            width: 40px;
+            height: 40px;
+        }
+        .custom-marker img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin: 5px;
+            object-fit: cover;
+        }
+        .map-container {
+            position: sticky;
+            top: 1rem;
+            height: calc(100vh - 2rem);
+        }
+        .content-section {
+            height: calc(100vh - 2rem);
+            overflow-y: auto;
+            padding: 1.5rem;
+        }
+        .main-container {
+            margin: 1rem;
+        }
+        .map-popup-content {
+            padding: 0;
+        }
+        .map-popup-image {
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+	    display: block;
+            border-radius: 4px 4px 0 0;
+        }
+        .map-popup-text {
+            padding: 8px;
+            background: white;
+            border-radius: 0 0 4px 4px;
+        }
+        .leaflet-popup-content {
+            margin: 0;
+            min-width: 220px;
+        }
+        .leaflet-popup-content-wrapper {
+            padding: 0;
+        }
+        .popup-datetime {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 4px;
+        }
+    </style>
+    <title>{{page.title}}</title>
+</head>
+<body>
+
+{% include nav.html %}
+
+<div class="container">
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+        <div class="columns is-marginless">
+            <div class="column is-twothird">
+                <!-- START ARTICLE -->
+                <div class="card article">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content has-text-centered">
+                                <p class="title article-title">{{page.title}}</p>
+                                <div class="tags has-addons level-item">
+                                    <span class="tag is-rounded is-info">{{site.author}}</span>
+                                    <span class="tag is-rounded">{{page.date | date: "%c"}}</span>
+                                    <span class="tag is-rounded is-warning">{{page.categories | join: ', '}}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content article-body">
+                            {{content}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-onethird">
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr/>
+    <section>
+        <div class="container">
+            <h3 class="title is-5">Related posts you may enjoy:</h3>
+            <div class="columns">
+                {% assign maxRelated = 3 %}
+                {% assign minCommonTags = 1 %}
+                {% assign maxRelatedCounter = 0 %}
+                {% for post in site.posts %}
+                    {% assign sameTagCount = 0 %}
+                    {% assign commonTags = '' %}
+                    {% for tag in post.categories %}
+                        {% if post.url != page.url %}
+                            {% if page.categories contains tag %}
+                                {% assign sameTagCount = sameTagCount | plus: 1 %}
+                                {% capture tagmarkup %}<span class="label label-default">{{ tag }}</span>{% endcapture %}
+                                {% assign commonTags = commonTags | append: tagmarkup %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if sameTagCount >= minCommonTags %}
+                        <div class="column is-onethird">
+                            <a href="{{ site.baseurl }}{{ post.url }}">
+                                <div class="rel">
+                                    <h5>{{ post.title }}</h5>
+                                </div>
+                            </a>
+                        </div>
+                        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                        {% if maxRelatedCounter >= maxRelated %}
+                            {% break %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+    // Get the locations data from Jekyll front matter
+    var locations = {{ page.locations | jsonify }};
+    
+    // Initialize the map centered on the first location
+    var map = L.map('map').setView(
+        [locations[0].lat, locations[0].long],
+        {{ page.zoom | default: 10 }}
+    );
+
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Create popup content with image
+    function createPopupContent(loc) {
+        return `
+            <div class="map-popup-content">
+                ${loc.image ? `<img src="${loc.image}" class="map-popup-image" alt="${loc.title || ''}" />` : ''}
+                <div class="map-popup-text">
+                    ${loc.title ? `<strong>${loc.title}</strong>` : ''}
+                    ${loc.datetime ? `<div class="popup-datetime">${new Date(loc.datetime).toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</div>` : ''}
+                    ${loc.description ? `<div>${loc.description}</div>` : ''}
+                </div>
+            </div>
+        `;
+    }
+
+    // Custom icon creator function
+    function createCustomIcon(location) {
+        var el = document.createElement('div');
+        el.className = 'custom-marker';
+        
+        if (location.image) {
+            var img = document.createElement('img');
+            img.src = location.image;
+            img.alt = location.title || '';
+            el.appendChild(img);
+        } else if (location.text) {
+            el.textContent = location.text;
+        }
+
+        return L.divIcon({
+            html: el.outerHTML,
+            className: 'custom-div-icon',
+            iconSize: [40, 40],
+            iconAnchor: [20, 20]
+        });
+    }
+
+    // Add markers for each location
+    locations.forEach(function(loc) {
+        var marker = L.marker([loc.lat, loc.long], {
+            icon: createCustomIcon(loc)
+        }).addTo(map);
+        
+        // Create popup with image and date
+        var popup = L.popup({
+            closeButton: true,
+            className: 'custom-popup'
+        }).setContent(createPopupContent(loc));
+        
+        marker.bindPopup(popup);
+
+        // Highlight corresponding box when marker is clicked
+        marker.on('click', function() {
+            var locationBoxes = document.querySelectorAll('.locations-list .box');
+            locationBoxes.forEach(function(box) {
+                if (box.querySelector('.title').textContent === loc.title) {
+                    box.scrollIntoView({ behavior: 'smooth' });
+                    box.style.backgroundColor = '#fafafa';
+                    setTimeout(() => {
+                        box.style.backgroundColor = 'white';
+                    }, 1500);
+                }
+            });
+        });
+    });
+
+    // Fit map bounds to show all markers
+    if (locations.length > 1) {
+        var bounds = locations.map(loc => [loc.lat, loc.long]);
+        map.fitBounds(bounds);
+    }
+</script>
+
+{% include footer.html %}
+{% include analytics-google.html %}
+</body>
+</html>
+
