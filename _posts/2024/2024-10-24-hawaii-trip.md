@@ -84,7 +84,7 @@ locations:
 A Photolog my Hawaii Travels.
 
 Kokohead
-![Kokohead](/assets/images/2024/travel/hawaii/kokohead.jpg)
+![Kokohead](/assets/images/2024/travel/hawaii/kokohead.jpg){#kokohead}
 Diamond Head
 ![Diamond Head](/assets/images/2024/travel/hawaii/diamond-head.jpg)
 Gandhi Statue
@@ -94,9 +94,9 @@ Waimanalo Beach
 Wiliwilinui Hike
 ![wiliwilinui-hike](/assets/images/2024/travel/hawaii/wiliwilinui-hike.jpg)
 Holey Grail!
-![holey-grail](/assets/images/2024/travel/hawaii/holey-grail.jpg)
+![holey-grail](/assets/images/2024/travel/hawaii/holey-grail.jpg){#holey-grail}
 Hanuama Bay
-![hanuama-bay](/assets/images/2024/traves/hawaii/hanuama-bay.jpg)
+![hanuama-bay](/assets/images/2024/travel/hawaii/hanuama-bay.jpg)
 Birthday Sunset
 ![birthday-sunset](/assets/images/2024/travel/hawaii/birthday-sunset.jpg)
 A Rare Comet

@@ -7,7 +7,6 @@
         #map {
             height: 100%;
             width: 100%;
-            border-radius: 8px;
         }
         .custom-marker {
             background: transparent;
@@ -26,6 +25,8 @@
         }
         .map-container {
             position: sticky;
+	    padding: 0px;
+	    margin: 0px;
             top: 1rem;
             height: calc(100vh - 2rem);
         }
@@ -53,11 +54,13 @@
             border-radius: 0 0 4px 4px;
         }
         .leaflet-popup-content {
-            margin: 0;
+            margin: 0em;
+	    outline-style:none;
+	    padding: 0em;
             min-width: 220px;
         }
         .leaflet-popup-content-wrapper {
-            padding: 0;
+            padding: 5px;
         }
         .popup-datetime {
             color: #666;
@@ -74,8 +77,8 @@
 <div class="container">
     <!-- START ARTICLE FEED -->
     <section class="articles">
-        <div class="columns is-marginless">
-            <div class="column is-twothird">
+        <div class="columns is-gapless">
+            <div class="column is-half">
                 <!-- START ARTICLE -->
                 <div class="card article">
                     <div class="card-content">
@@ -95,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="column is-onethird">
+            <div class="column is-half">
                 <div class="map-container">
                     <div id="map"></div>
                 </div>
@@ -147,9 +150,13 @@
     var locations = {{ page.locations | jsonify }};
     
     // Initialize the map centered on the first location
-    var map = L.map('map').setView(
+    var map = L.map('map', {
+        zoomControl: false
+    });
+
+    map.setView(
         [locations[0].lat, locations[0].long],
-        {{ page.zoom | default: 10 }}
+        {{ page.zoom | default: 13 }}
     );
 
     // Add OpenStreetMap tiles
@@ -161,7 +168,7 @@
     function createPopupContent(loc) {
         return `
             <div class="map-popup-content">
-                ${loc.image ? `<img src="${loc.image}" class="map-popup-image" alt="${loc.title || ''}" />` : ''}
+                ${loc.image ? `<img id="${loc.id}" src="${loc.image}" class="map-popup-image" alt="${loc.title || ''}" />` : ''}
                 <div class="map-popup-text">
                     ${loc.title ? `<strong>${loc.title}</strong>` : ''}
                     ${loc.datetime ? `<div class="popup-datetime">${new Date(loc.datetime).toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</div>` : ''}
@@ -193,7 +200,8 @@
         });
     }
 
-    // Add markers for each location
+    // Add markers for each location and store marker references
+    var markers = {};
     locations.forEach(function(loc) {
         var marker = L.marker([loc.lat, loc.long], {
             icon: createCustomIcon(loc)
@@ -201,11 +209,12 @@
         
         // Create popup with image and date
         var popup = L.popup({
-            closeButton: true,
+            closeButton: false,
             className: 'custom-popup'
         }).setContent(createPopupContent(loc));
         
         marker.bindPopup(popup);
+        markers[loc.title] = marker;
 
         // Highlight corresponding box when marker is clicked
         marker.on('click', function() {
@@ -227,6 +236,28 @@
         var bounds = locations.map(loc => [loc.lat, loc.long]);
         map.fitBounds(bounds);
     }
+
+    // Create an intersection observer to detect when images come into view
+ var observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            var id = entry.target.alt.toLowerCase().replace(/\s+/g, '-');
+            if (markers[id]) {
+                // Open the popup for the corresponding marker
+                markers[id].openPopup();
+            }
+        }
+    });
+}, { threshold: 0.5 });  // 50% of the image should be in view to trigger
+
+// Observe each image in the content column
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.content.article-body img').forEach(function(imageElement) {
+        observer.observe(imageElement);
+    });
+});
+
+
 </script>
 
 {% include footer.html %}
