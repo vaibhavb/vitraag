@@ -1,7 +1,7 @@
 ---
 author: vitraag
 comments: true
-date: 2024-10-23T21:47:49Z
+date: 2024-10-24T21:47:49Z
 layout: travel-post
 slug: hawaii-trip 
 title: Hawaii Trip!

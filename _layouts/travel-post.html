@@ -79,6 +79,13 @@
             font-size: 0.9em;
             margin-top: 4px;
         }
+	.travel-dates {
+            font-size: 1em;
+	    padding-top:5px;
+            color: #444;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
     </style>
     <title>{{page.title}}</title>
 </head>
@@ -102,8 +109,12 @@
                                     <span class="tag is-rounded">{{page.date | date: "%c"}}</span>
                                     <span class="tag is-rounded is-warning">{{page.categories | join: ', '}}</span>
                                 </div>
-                            </div>
+			<!-- Travel Dates -->
+			    <div class="travel-dates">
+				    Travel Dates: {{ page.start-date | date: "%B %d, %Y"  }} - {{ page.end-date | date: "%B %d, %Y" }}
+			    </div>
                         </div>
+			</div>
                         <div class="content article-body">
                             {{content}}
                         </div>
@@ -170,7 +181,7 @@
 
     map.setView(
         [locations[0].lat, locations[0].long],
-        {{ page.zoom | default: 13 }}
+        {{ page.zoom | default: 15 }}
     );
 
     // Add OpenStreetMap tiles
@@ -202,9 +213,11 @@
             img.src = location.image;
             img.alt = location.title || '';
             el.appendChild(img);
-        } else if (location.text) {
-            el.textContent = location.text;
-        }
+        } else if (location.title) {
+            el.textContent = location.title;
+	} else {
+	    el.textContent = "Pin"
+	}
 
         return L.divIcon({
             html: el.outerHTML,
@@ -271,6 +284,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Add intersection observer for links with the class "loc"
+var linkObserver = new IntersectionObserver(function(entries) {
+entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+	var locTitle = entry.target.textContent.trim();
+	if (markers[locTitle]) {
+	    markers[locTitle].openPopup();
+	}
+    }
+});
+}, { threshold: 0.7 });
+
+document.querySelectorAll('a.loc').forEach(function(link) {
+linkObserver.observe(link);
+});
 
 </script>
 
