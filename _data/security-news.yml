@@ -1,0 +1,26 @@
+- date: 2024-11-04
+  news-items:
+    - desc: "An investigation by French newspaper Le Monde revealed that bodyguards of leaders such as Joe Biden and Donald Trump have used the Strava fitness app, inadvertently disclosing sensitive locations. For instance, the app revealed a San Francisco hotel where President Biden met with Chinese President Xi Jinping."
+      link: "https://www.theguardian.com/lifeandstyle/2024/oct/29/strava-problem-fitness-app-locate-worlds-most-powerful-people"
+
+    - desc: "Password manager LastPass has alerted users to scammers promoting a fraudulent support number, 805-206-2892, through 5-star reviews on its Chrome extension. Calling this number directs users to download a remote support program that is actually malware."
+      link: "https://www.bleepingcomputer.com/news/security/lastpass-warns-of-fake-support-centers-trying-to-steal-customer-data/"
+
+    - desc: "Researchers have successfully created voice-based financial scams, like unauthorized bank transfers and credential theft, using the new real-time API in ChatGPT-4o. The scams showed success rates ranging from 20-60%."
+      link: "https://www.bleepingcomputer.com/news/security/chatgpt-4o-can-be-used-for-autonomous-voice-based-scams/"
+
+    - desc: "Cisco Talos discovered five out-of-bounds vulnerabilities in NVIDIA's shader processing technology and eleven separate issues affecting LevelOne routers."
+      link: "https://blog.talosintelligence.com/nvidia-shader-out-of-bounds-and-level1-2/"
+
+    - desc: "Okta has patched a critical issue allowing logins without a password if a username exceeded 52 characters. How this passed through extensive testing remains baffling."
+      link: "https://www.theinformation.com/briefings/latest-okta-security-flaw-allowed-logins-without-passwords"
+
+    - desc: "The US has charged Russian national Maxim Rudometov for creating the RedLine infostealer, following access to the malware's source code and infrastructure."
+      link: "https://cyberscoop.com/redline-meta-magnus-rudometov-justice-dutch"
+
+    - desc: "The U.S. military has confirmed its first purchase of OpenAI products for AFRICOM, signifying a step towards integrating AI into national security operations."
+      link: "https://theintercept.com/2024/10/25/africom-microsoft-openai-military"
+
+    - desc: "Bellingcat identified the location where Hamas leader Yahya Sinwar was killed in southern Gaza's Tal as-Sutlan area, using IDF footage and distinct visual markers such as a gazebo and residential tower."
+      link: "https://www.bellingcat.com/news/2024/10/17/geolocating-site-where-hamas-leader-yahya-sinwar-was-killed/"
+
