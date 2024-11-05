@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-11-05",
+    "title": "Chinese threat actor Storm-0940 uses credentials from password spray attacks from a covert network | Microsoft Security Blog #security-news",
+    "url": "https://www.microsoft.com/en-us/security/blog/2024/10/31/chinese-threat-actor-storm-0940-uses-credentials-from-password-spray-attacks-from-a-covert-network/"
+  },
+  {
     "date": "2024-10-31",
     "title": "Machine Learning Security for PHACK 2024-- Sam Bowne",
     "url": "https://samsclass.info/ML/ML_PHACK_2024.shtml"
