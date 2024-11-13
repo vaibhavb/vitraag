@@ -1,3 +1,35 @@
+- date: 2024-11-12
+  news-items:
+    - desc: "Six critical flaws have been found in the Ollama AI framework, potentially allowing denial-of-service, model theft, and poisoning attacks."
+      link: "https://thehackernews.com/2024/11/critical-flaws-in-ollama-ai-framework.html"
+
+    - desc: "The FBI is warning about a rise in hacked police emails being used to send fake subpoenas and emergency data requests (EDRs) to U.S. tech companies. Attackers target low-security organizations with high trust, compromising them to gain access to data, permissions, and restricted authorization."
+      link: "https://krebsonsecurity.com/2024/11/fbi-spike-in-hacked-police-emails-fake-subpoenas"
+
+    - desc: "Google's AI security assessment tool, Big Sleep, found a zero-day vulnerability in the SQLite database engine, marking the first instance where AI uncovered a flaw missed by traditional testing."
+      link: "https://thehackernews.com/2024/11/googles-ai-tool-big-sleep-finds-zero.html"
+
+    - desc: "The FBI is asking the public for help in identifying Chinese hackers in groups like APT31 and APT41."
+      link: "https://thehackernews.com/2024/11/fbi-seeks-public-help-to-identify.html"
+
+    - desc: "CrowdStrike has launched new AI Red Team Services to identify vulnerabilities in AI systems and provide guidance on how to fix them."
+      link: "https://www.crowdstrike.com/en-us/blog/crowdstrike-launches-ai-red-team-services"
+
+    - desc: "Synology is telling users to patch a critical zero-click RCE bug, CVE-2024-10443, affecting millions of DiskStation and BeePhotos NAS devices. Synology advises caution about exposing NAS devices to the internet."
+      link: "https://thehackernews.com/2024/11/synology-urges-patch-for-critical-zero.html"
+
+    - desc: "Nokia is investigating a potential breach after a hacker, IntelBroker, claimed to have stolen their source code from a third-party vendor. The data includes SSH keys, source code, and RSA keys, accessed via default credentials on a SonarQube server."
+      link: "https://www.bleepingcomputer.com/news/security/nokia-investigates-breach-after-hacker-claims-to-steal-source-code/"
+
+    - desc: "Canada has ordered TikTok Technology Canada to shut down, citing national security risks. This decision closes the company’s Canadian operations but does not restrict Canadians from using TikTok."
+      link: "https://www.bleepingcomputer.com/news/security/canada-orders-tiktok-to-shut-down-over-national-risk-concerns/"
+
+    - desc: "Researchers from George Mason University have introduced Mantis, a framework using prompt injections to counterattack against prompt injection attacks, potentially misdirecting or compromising attackers' systems."
+      link: "https://arxiv.org/html/2410.20911v1"
+
+    - desc: "The U.S. is tightening rules on foreign real estate deals near military bases, adding 60 installations to the CFIUS scrutiny list. This follows the forced closure of a Chinese-owned crypto mine near F.E. Warren Air Force Base."
+      link: "https://cowboystatedaily.com/2024/11/08/following-wyoming-example-feds-limit-foreign-crypto-mines-near-military-bases"
+
 - date: 2024-11-04
   news-items:
     - desc: "An investigation by French newspaper Le Monde revealed that bodyguards of leaders such as Joe Biden and Donald Trump have used the Strava fitness app, inadvertently disclosing sensitive locations. For instance, the app revealed a San Francisco hotel where President Biden met with Chinese President Xi Jinping."
