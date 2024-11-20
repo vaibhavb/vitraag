@@ -1,3 +1,14 @@
+- date: 2024-11-19
+  news-items:
+    - desc: "Palo Alto Networks has released Indicators of Compromise (IoCs) for a new zero-day vulnerability affecting their firewalls."
+      link: "https://www.securityweek.com/palo-alto-networks-releases-iocs-for-new-firewall-zero-day/"
+
+    - desc: "VMware confirmed that threat actors are exploiting two vCenter Server vulnerabilities, CVE-2024-38812 and CVE-2024-38813, which were first disclosed at the 2024 Matrix Cup hacking competition."
+      link: "https://www.vulnu.com/p/vmware-confirms-exploitation-of-vcenter-server-bugs"
+
+    - desc: "Cybersecurity researchers have disclosed a high-severity security flaw in the PostgreSQL open-source database system. Tracked as CVE-2024-10979 with a CVSS score of 8.8, the flaw could allow unprivileged users to alter environment variables, potentially leading to code execution or information disclosure."
+      link: "https://thehackernews.com/2024/11/high-severity-flaw-in-postgresql-allows.html"
+
 - date: 2024-11-12
   news-items:
     - desc: "Six critical flaws have been found in the Ollama AI framework, potentially allowing denial-of-service, model theft, and poisoning attacks."

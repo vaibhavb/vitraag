@@ -8,8 +8,8 @@ Homepage of Vaibhav Bhandari
 [] Re-org
     [] Refactor the react application to one area
     [] Refactor the code and move un-used pages to archive directory
-[] Open Questions
-    [] Is it possible to have multiple themes on the same homepage?
+[x] Open Questions
+    [x] Is it possible to have multiple themes on the same homepage?
 [] Editing
     [] Enable ability to write content in Notion, stage before creating a blogpost
 
