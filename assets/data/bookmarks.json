@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-11-26",
+    "title": "Make the Web AI-Ready",
+    "url": "https://www.agentql.com/"
+  },
+  {
     "date": "2024-11-25",
     "title": "Loopwerk: How to migrate your Poetry project to uv",
     "url": "https://www.loopwerk.io/articles/2024/migrate-poetry-to-uv/"
