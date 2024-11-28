@@ -1,6 +1,11 @@
 [
   {
     "date": "2024-11-27",
+    "title": "Evidence - Business Intelligence as Code",
+    "url": "https://evidence.dev/"
+  },
+  {
+    "date": "2024-11-27",
     "title": "GitHub - Nutlope/llamatutor: An AI personal tutor built with Llama 3.1",
     "url": "https://github.com/Nutlope/llamatutor"
   },
@@ -22,12 +27,22 @@
   {
     "date": "2024-11-27",
     "title": "The Finance Super App | M1 Finance",
+    "url": "https://dashboard.m1.com/share?path=&token=3b283352-1bff-31d9-8576-f5770c2bfdfd"
+  },
+  {
+    "date": "2024-11-27",
+    "title": "The Finance Super App | M1 Finance",
     "url": "https://dashboard.m1.com/share?token=3b283352-1bff-31d9-8576-f5770c2bfdfd"
   },
   {
     "date": "2024-11-27",
     "title": "The Web's Best Free Stock Screener | MacroTrends",
     "url": "https://www.macrotrends.net/stocks/stock-screener"
+  },
+  {
+    "date": "2024-11-27",
+    "title": "dbt-labs/jaffle_shop_duckdb: Get started with dbt in less than 1 minute from `git clone` to `dbt docs serve` for free!",
+    "url": "https://github.com/dbt-labs/jaffle_shop_duckdb"
   },
   {
     "date": "2024-11-26",
@@ -66,7 +81,7 @@
   },
   {
     "date": "2024-11-22",
-    "title": "Cymulate - Automated Exposure Management & Security Validation",
+    "title": "Cymulate - Automated Exposure Management & Security Validation #security",
     "url": "https://cymulate.com/"
   },
   {
