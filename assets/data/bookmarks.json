@@ -1,5 +1,70 @@
 [
   {
+    "date": "2024-12-03",
+    "title": "Anthropic proposes a new way to connect data to AI chatbots | TechCrunch",
+    "url": "https://techcrunch.com/2024/11/25/anthropic-proposes-a-way-to-connect-data-to-ai-chatbots/"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "Batten Institute - Entrepreneurship Through Acquisition - Resources | UVA Darden School of Business",
+    "url": "https://www.darden.virginia.edu/batten-institute/education/entrepreneurship-through-acquisition/resources"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "CISOs can now obtain professional liability insurance | CyberScoop",
+    "url": "https://cyberscoop.com/ciso-liability-insurance-coverage-protection-crum-forster/"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "Defensibility & Competition - by Elad Gil - Elad Blog",
+    "url": "https://blog.eladgil.com/p/defensibility-and-competition"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "High Growth Handbook – By Elad Gil",
+    "url": "https://growth.eladgil.com/"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "Home - Gentle Frog Bookkeeping and Custom Training",
+    "url": "https://www.gentlefrog.com/"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "How Meta Uses LLMs to Improve Incident Response (and how you can too) - Parity",
+    "url": "https://www.tryparity.com/blog/how-meta-uses-llms-to-improve-incident-response"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "Parity - The AI SRE for Incident Response",
+    "url": "https://www.tryparity.com/"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "[2411.17058] ThreatModeling-LLM: Automating Threat Modeling using Large Language Models for Banking System #security",
+    "url": "https://arxiv.org/abs/2411.17058"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "𝑻𝒉𝒆 𝑺𝒊𝒈𝒏𝒂𝒍𝒔 𝑫𝒐𝒄𝒕𝒐𝒓 | 𝐉𝐚𝐜𝐤 𝐑𝐨𝐬𝐡𝐢, 𝐌𝐈𝐓 𝐏𝐡𝐃 | Substack",
+    "url": "https://stockinsider.substack.com/"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "🩻 Hardcore Finance: Lesson 1 – An Introduction [FREE]",
+    "url": "https://stockinsider.substack.com/p/hardcore-finance-lesson-1-an-introduction"
+  },
+  {
+    "date": "2024-12-02",
+    "title": "Augmented - Unsupervised Learning #course",
+    "url": "https://augmented.unsupervised-learning.com/"
+  },
+  {
+    "date": "2024-12-02",
+    "title": "Build your own Shell | CodeCrafters #genshell",
+    "url": "https://app.codecrafters.io/courses/shell/overview"
+  },
+  {
     "date": "2024-12-02",
     "title": "ECMAScript® 2025 Language Specification",
     "url": "https://tc39.es/ecma262/"
@@ -16,6 +81,11 @@
   },
   {
     "date": "2024-12-02",
+    "title": "Powerful Workflow Automation Software & Tools - n8n",
+    "url": "https://n8n.io/"
+  },
+  {
+    "date": "2024-12-02",
     "title": "Timeline Diagram | Mermaid",
     "url": "https://mermaid.js.org/syntax/timeline.html"
   },
@@ -23,6 +93,21 @@
     "date": "2024-12-02",
     "title": "Working with PaloAlto to identify CVE-2024-2550 #security",
     "url": "https://www.ac3.com.au/resources/discovery-of-CVE-2024-2550/"
+  },
+  {
+    "date": "2024-12-02",
+    "title": "World Air Quality Index (AQI) Ranking | IQAir",
+    "url": "https://www.iqair.com/world-air-quality-ranking"
+  },
+  {
+    "date": "2024-12-02",
+    "title": "danielmiessler/Telos: Telos is an open-sourced framework for creating Deep Context about things that matter to humans.",
+    "url": "https://github.com/danielmiessler/Telos?utm_source=danielmiessler.com&utm_medium=referral&utm_campaign=how-my-projects-fit-together"
+  },
+  {
+    "date": "2024-12-02",
+    "title": "folke/noice.nvim: 💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.",
+    "url": "https://github.com/folke/noice.nvim"
   },
   {
     "date": "2024-11-30",
