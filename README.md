@@ -2,6 +2,7 @@
 Homepage of Vaibhav Bhandari
 
 # Next Item Todo List [Updated 04/09/2024]
+[] Feat: Add ability to generate review cards from content
 [] Delete babel, tailwind and webpack
 [] Fix images in all the blog files
 [] Implement related posts by using embeddings based semantic similarity.
