@@ -57,3 +57,6 @@ Its really hard to find purpose. Here are some thoughts from [Y-Combinator](http
    - Create sustainable human-centric job platforms, focus on jobs that AI can't replace
    - Build tools for independent business owners
 
+# Moonshots
+
+1. Give sight to the blind -- [cure blindness through eye transplants](https://www.canoncitydailyrecord.com/2024/12/05/university-colorado-anschutz-blindness-cure-eye-transplant-medical-research/). Added on Dec 5, 2024
