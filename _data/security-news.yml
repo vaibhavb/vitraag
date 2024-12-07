@@ -1,3 +1,21 @@
+- date: 2024-12-07
+  news-items:
+    - desc: China has deeply compromised thousands of US telco networks according to Senator Mark Warner. The attack, carried out by "Salt Typhoon," involves persistent access requiring device replacements and may include wiretapping capabilities.
+      link: https://www.theregister.com/2024/11/25/salt_typhoon_mark_warner_warning
+    - desc: Volexity uncovered Russian APT28 hackers targeting neighboring organizations to exploit WiFi networks. Using password spraying and lateral movement, the group bypassed MFA-less systems to infiltrate high-value targets.
+      link: https://www.volexity.com/blog/2024/11/22/the-nearest-neighbor-attack-how-a-russian-apt-weaponized-nearby-wi-fi-networks-for-covert-access
+    - desc: Apple issued urgent patches for iOS, iPadOS, macOS, visionOS, and Safari to fix two zero-day vulnerabilities, CVE-2024-44308 and CVE-2024-44309, addressing potential code execution and XSS risks.
+      link: https://thehackernews.com/2024/11/apple-releases-urgent-updates-to-patch.html
+    - desc: The Danish Navy detained the Chinese bulk carrier Yi Peng 3 for allegedly damaging undersea telecom cables in the Baltic Sea, affecting connections between Finland, Germany, Sweden, and Lithuania.
+      link: https://defence24.com/armed-forces/danish-navy-stopped-a-chinese-ship-suspected-of-damaging-undersea-cables
+    - desc: Crowdstrike reported that China-linked group Liminal Panda has targeted telecom networks in South Asia and Africa since 2020, exploiting protocols like SIGTRAN and GSM for intelligence collection.
+      link: https://thehackernews.com/2024/11/china-backed-hackers-leverage-sigtran.html
+    - desc: Crum & Forster launched a new liability insurance policy for CISOs, covering consulting work and even pro bono IT security activities, protecting against personal liability.
+      link: https://cyberscoop.com/ciso-liability-insurance-coverage-protection-crum-forster
+    - desc: Google blocked over 1,000 pro-China propaganda websites operated by "Glassbridge," a network of four Chinese firms masquerading as legitimate news outlets.
+      link: https://www.theregister.com/2024/11/25/google_beijing_propaganda
+    - desc: Researchers uncovered Russia scaling up disinformation campaigns using AI-generated Western personas. Techniques include fake profile pictures and coordinated posts to disseminate anti-Ukraine narratives more effectively.
+      link: https://www.politico.com/newsletters/digital-future-daily/2024/11/04/russian-disinformation-navalny-00187164
 - date: 2024-11-19
   news-items:
     - desc: "Palo Alto Networks has released Indicators of Compromise (IoCs) for a new zero-day vulnerability affecting their firewalls."
