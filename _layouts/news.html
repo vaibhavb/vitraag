@@ -4,6 +4,18 @@
     {% include head.html %}
     <title>{{ page.title }}</title>
     <style>
+      .card-summary {
+        text-align: center;
+      }
+      .card-summary-title {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      .card-summary-count {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #3273dc; /* Bulma primary color */
+      }
       /* Custom styles for a more refined, NY Times-like look */
       .news-date {
         font-size: 1.2em;
@@ -51,9 +63,71 @@
           {% endfor %}
         </div>
       {% endfor %}
+
+      <!-- Card Container -->
+      <div class="columns is-multiline" id="domain-cards"></div>
     </div>
   </section>
 </div>
+
+<script>
+  // Liquid converts YAML to JSON here
+  const newsData = {{ site.data[news_key] | jsonify }};
+
+  // Helper function to extract domain from URL
+  function extractDomain(url) {
+    const a = document.createElement("a");
+    a.href = url;
+    return a.hostname;
+  }
+
+  // Process the data to group news by domain
+  const domainSummary = {};
+  newsData.forEach(group => {
+    group["news-items"].forEach(item => {
+      const domain = extractDomain(item.link);
+      domainSummary[domain] = (domainSummary[domain] || 0) + 1;
+    });
+  });
+
+  // Render domain cards
+  function renderDomainCards(summary) {
+    const domainCardsContainer = document.getElementById("domain-cards");
+    domainCardsContainer.innerHTML = ""; // Clear existing content
+
+    Object.entries(summary).forEach(([domain, count]) => {
+      // Create a card
+      const column = document.createElement("div");
+      column.classList.add("column", "is-one-quarter");
+
+      const card = document.createElement("div");
+      card.classList.add("card", "card-summary");
+
+      const cardContent = document.createElement("div");
+      cardContent.classList.add("card-content");
+
+      const title = document.createElement("p");
+      title.classList.add("card-summary-title");
+      title.textContent = domain;
+
+      const countText = document.createElement("p");
+      countText.classList.add("card-summary-count");
+      countText.textContent = `(${count})`;
+
+      // Append elements to the card
+      cardContent.appendChild(title);
+      cardContent.appendChild(countText);
+      card.appendChild(cardContent);
+      column.appendChild(card);
+
+      // Append the card to the container
+      domainCardsContainer.appendChild(column);
+    });
+  }
+
+  // Render the domain summary on page load
+  renderDomainCards(domainSummary);
+</script>
 
 {% include footer.html %}
 {% include analytics-google.html %}
