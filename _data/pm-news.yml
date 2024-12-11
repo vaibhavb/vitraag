@@ -1,3 +1,11 @@
+- date: 2024-12-11
+  news-items:
+    - desc: "NYTimes VP of Product, Sneha Rao, shares insights on transforming the company from a print-centric organization to a leading digital platform."
+      link: "https://www.youtube.com/watch?v=AIJjTv37voU"
+    - desc: "A provocative take on how product management is broken and how engineers can play a pivotal role in fixing it."
+      link: "https://newsletter.posthog.com/p/product-management-is-broken-engineers"
+    - desc: "Harvard Business Review outlines essential skills and strategies for aspiring product managers looking to break into the field."
+      link: "https://hbr.org/2024/11/so-you-want-to-be-a-product-manager"
 - date: 2024-12-07
   news-items:
     - desc: "PM Coaching platform offers new resources for product managers to improve their skills and career growth."
