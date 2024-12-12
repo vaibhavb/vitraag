@@ -1,5 +1,7 @@
 - date: 2024-12-11
   news-items:
+    - desc: "YC Request for Startups"
+      link: "https://www.ycombinator.com/rfs"
     - desc: "NYTimes VP of Product, Sneha Rao, discusses the journey of evolving from a print-first company to a powerful digital platform."
       link: "https://www.youtube.com/watch?v=AIJjTv37voU"
     - desc: "A bold perspective on how product management can be reformed by empowering engineers to take a larger role."

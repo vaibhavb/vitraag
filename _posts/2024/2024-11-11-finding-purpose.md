@@ -8,7 +8,7 @@ title: Finding Purpose
 categories:
     - startups
 ---
-Its really hard to find purpose. Here are some thoughts from [Y-Combinator](https://www.ycombinator.com/rfs-build), I'm amused that it doesn't have any cybersecurity, healthcare or human services like care delivery technology companies - everything is AI whitewash.
+Its really hard to find purpose. Here are some thoughts from [Y-Combinator](https://www.ycombinator.com/rfs), I'm amused that it doesn't have any cybersecurity, healthcare or human services like care delivery technology companies - everything is AI whitewash.
 
 # YC Request for Startups 2024
 
