@@ -1,8 +1,43 @@
 [
   {
+    "date": "2024-12-21",
+    "title": "GitHub - google-gemini/cookbook: Examples and guides for using the Gemini API",
+    "url": "https://github.com/google-gemini/cookbook"
+  },
+  {
+    "date": "2024-12-21",
+    "title": "Google unveils Project Mariner: AI agents to use the web for you | TechCrunch",
+    "url": "https://techcrunch.com/2024/12/11/google-unveils-project-mariner-ai-agents-to-use-the-web-for-you/"
+  },
+  {
+    "date": "2024-12-21",
+    "title": "anthropic-cookbook/patterns/agents at main · anthropics/anthropic-cookbook · GitHub",
+    "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "ARC Prize - What is ARC-AGI? #ai #benchmark",
+    "url": "https://arcprize.org/arc"
+  },
+  {
     "date": "2024-12-20",
     "title": "Arjun Khemani on X: \"My conversation with @naval. Enjoy! (0:00) - The Theory of Everything (4:48) - How do you know what’s true? (7:51) - Groups search for consensus, individuals search for truth (13:07) - We have never run out of a single resource (15:25) - Are we destroying the Earth? (17:48) - https://t.co/YVcGn26p14\" / X",
     "url": "https://x.com/arjunkhemani/status/1869440256308867167"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "Art of Problem Solving #ai #benchmarks",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "FrontierMath | Epoch AI #ai #benchmark",
+    "url": "https://epoch.ai/frontiermath"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "GPQA: The \"Diamond Standard\" for AI - by Liam Robins #ai #benchmark",
+    "url": "https://thelimestack.substack.com/p/gpqa-the-diamond-standard-for-ai"
   },
   {
     "date": "2024-12-20",
@@ -13,6 +48,26 @@
     "date": "2024-12-20",
     "title": "ObjectDetect/detect.py at main · davepl/ObjectDetect #code",
     "url": "https://github.com/davepl/ObjectDetect/blob/main/detect.py"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "Problemset - Codeforces #ai #benchmarks",
+    "url": "https://codeforces.com/problemset"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "SWE-bench #ai #benchmarks",
+    "url": "https://www.swebench.com/"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "[2209.07663] Monolith: Real Time Recommendation System With Collisionless Embedding Table",
+    "url": "https://arxiv.org/abs/2209.07663"
+  },
+  {
+    "date": "2024-12-20",
+    "title": "[2311.12022] GPQA: A Graduate-Level Google-Proof Q&A Benchmark #ai #benchmark",
+    "url": "https://arxiv.org/abs/2311.12022"
   },
   {
     "date": "2024-12-19",
