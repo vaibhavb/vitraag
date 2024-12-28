@@ -1,5 +1,45 @@
 [
   {
+    "date": "2024-12-28",
+    "title": "AI-generated tools can make programming more fun",
+    "url": "https://www.geoffreylitt.com/2024/12/22/making-programming-more-fun-with-an-ai-generated-debugger?&aid=recUV6fTKhu0QCuLw&_bhlid=233d362c8a138e75f0c243df889ff4d15c450529"
+  },
+  {
+    "date": "2024-12-28",
+    "title": "How Large Language Models Work. From zero to ChatGPT | by Andreas Stöffelbauer | Medium | Data Science at Microsoft",
+    "url": "https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f"
+  },
+  {
+    "date": "2024-12-28",
+    "title": "In this companion article, I’ll show my implementation for training from scratch a GPT-like model,  in Rust.\n\nSource: Medium",
+    "url": "https://search.app/uXEjvDE6JiSkEFsz8"
+  },
+  {
+    "date": "2024-12-28",
+    "title": "Logging, the sensible defaults | Daniel's programming rants",
+    "url": "https://gerlacdt.github.io/blog/posts/logging/"
+  },
+  {
+    "date": "2024-12-28",
+    "title": "Modern System-on-Chip Design on Arm – Arm®",
+    "url": "https://www.arm.com/resources/education/books/modern-soc"
+  },
+  {
+    "date": "2024-12-28",
+    "title": "Quick takes on the recent OpenAI public incident write-up – Surfing Complexity",
+    "url": "https://surfingcomplexity.blog/2024/12/14/quick-takes-on-the-recent-openai-public-incident-write-up/"
+  },
+  {
+    "date": "2024-12-28",
+    "title": "Report — PlasticList",
+    "url": "https://www.plasticlist.org/report"
+  },
+  {
+    "date": "2024-12-28",
+    "title": "Turing Machines",
+    "url": "https://samwho.dev/turing-machines/?&aid=recqnexDCGm45eOiq&_bhlid=9d0ef96ec8aac64493bbd1262da7c3d37eedeb32"
+  },
+  {
     "date": "2024-12-27",
     "title": "GitHub - pipecat-ai/gemini-multimodal-live-demo: Chat Application Starter Kit — Gemini Multimodal Live API + Pipecat",
     "url": "https://github.com/pipecat-ai/gemini-multimodal-live-demo"
