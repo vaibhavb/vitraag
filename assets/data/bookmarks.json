@@ -1,5 +1,35 @@
 [
   {
+    "date": "2025-01-01",
+    "title": "Compiler book",
+    "url": "https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf"
+  },
+  {
+    "date": "2025-01-01",
+    "title": "GitHub - blacksmithgu/obsidian-dataview: A data index and query language over Markdown files, for https://obsidian.md/.",
+    "url": "https://github.com/blacksmithgu/obsidian-dataview"
+  },
+  {
+    "date": "2025-01-01",
+    "title": "Introducing smolagents: simple agents that write actions in code.",
+    "url": "https://huggingface.co/blog/smolagents"
+  },
+  {
+    "date": "2025-01-01",
+    "title": "[2408.10234] The Unbearable Slowness of Being: Why do we live at 10 bits/s?",
+    "url": "https://arxiv.org/abs/2408.10234"
+  },
+  {
+    "date": "2024-12-31",
+    "title": "Blueprint Protocol – Blueprint Bryan Johnson",
+    "url": "https://blueprint.bryanjohnson.com/pages/blueprint-protocol"
+  },
+  {
+    "date": "2024-12-31",
+    "title": "I found a quite helpful way to get a better feeling of async Rust by looking at it from the Go perspective.\n\nSource: Alexander Fadeev's Blog",
+    "url": "https://search.app/Yyo1g9Wbzzuxqrxs6"
+  },
+  {
     "date": "2024-12-29",
     "title": "How Does a Database Work? | Let’s Build a Simple Database",
     "url": "https://cstack.github.io/db_tutorial/"
