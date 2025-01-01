@@ -1,3 +1,13 @@
+- date: 2024-12-31
+  news-items:
+    - desc: "Claude uses AI to identify new security threats by leveraging advanced natural language processing to analyze patterns and anomalies in real-time, providing proactive threat detection."
+      link: "https://www.platformer.news/how-claude-uses-ai-to-identify-new-threats/"
+    - desc: "Chinese APT exploited a BeyondTrust API key to gain unauthorized access to U.S. Treasury systems, extracting sensitive documents in a significant cybersecurity breach."
+      link: "https://thehackernews.com/2024/12/chinese-apt-exploits-beyondtrust-api.html"
+    - desc: "New HIPAA rules mandate healthcare providers to restore critical data within 72 hours and conduct annual compliance audits to enhance patient data protection."
+      link: "https://thehackernews.com/2024/12/new-hipaa-rules-mandate-72-hour-data.html"
+    - desc: "North Korean threat actors deployed OtterCookie malware in the Contagious Interview campaign. This JavaScript malware uses Socket.IO to communicate with a C2 server, enabling shell commands for data theft, including files, clipboard data, and cryptocurrency wallet keys."
+      link: "https://thehackernews.com/2024/12/north-korean-hackers-deploy-ottercookie.html"
 - date: 2024-12-11
   news-items:
     - desc: "Russia has pioneered a new model of drug trafficking using darknet markets and cryptocurrency for payment, with physical 'dead drops' for delivery. Russian platforms like Kraken and Mega now dominate 93% of global darknet markets, generating $1.5 billion in revenue in 2023."

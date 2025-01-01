@@ -1,3 +1,9 @@
+- date: 2024-12-31
+  news-items:
+    - desc: "An article explores how to rethink decision-making frameworks for prioritizing problems, helping teams focus on impactful and strategic solutions."
+      link: "https://www.svpg.com/changing-how-you-decide-which-problems-to-solve/"
+    - desc: "The Product Leader’s Ultimate Guide offers insights into managing and implementing process changes effectively, with strategies tailored for product managers."
+      link: "https://www.news.aakashg.com/p/pm-process-changes"
 - date: 2024-12-11
   news-items:
     - desc: "YC Request for Startups"

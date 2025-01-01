@@ -8,8 +8,6 @@ title: Mt. Langley Trip Report - Lots of Firsts!
 categories:
     - mountaineering
     - hiking
-prompt: |
-    
 ---
 {%include toc.html %}
 
