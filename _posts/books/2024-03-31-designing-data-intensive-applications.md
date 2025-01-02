@@ -8,10 +8,12 @@ title: Designing Data Intensive Applications
 categories:
 - book-review
 - books
+book-author: Martin Kleppmann
+rating: 8
 ---
 Book review of Designing Data Intensive Applications by Martin Kleppmann
 
-![Designing Data Intensive Applications]({{site.url}}{{site.baseurl}}/assets/images/books/designing-data-intensive-applications.jpg){: width="400px"}
+![Designing Data Intensive Applications](assets/images/books/designing-data-intensive-applications.jpg)
 
 ## Overview
 

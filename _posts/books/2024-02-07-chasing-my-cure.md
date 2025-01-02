@@ -8,10 +8,12 @@ title: Chasing My Cure
 categories:
 - book-review
 - books
+book-author: Dr. David Fajgenbaum
+rating: 6
 ---
 Book review of Chasing My Cure by Dr. David Fajgenbaum
 
-![Chasing My Cure]({{site.url}}{{site.baseurl}}/assets/images/books/chasing-my-cure.jpg){: width="400px"}
+![Chasing My Cure](assets/images/books/chasing-my-cure.jpg)
 
 ## Overview
 

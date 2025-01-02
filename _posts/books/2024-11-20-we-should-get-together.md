@@ -9,10 +9,11 @@ categories:
     - book-review
     - books
 book-author: Kat Vellos
+rating: 4
 ---
-Book review of {{page.title}} by {{page.book-author}}
+Book review of We Should Get Together by Kat Vellos
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="300px"}
+![We Should Get Together](assets/images/books/we-should-get-together.jpg)
 
 *We Should Get Together* by Kat Vellos is a thought-provoking guide that addresses the modern-day challenge of building meaningful adult friendships. With a combination of research, personal anecdotes, and actionable advice, the book serves as a roadmap for anyone struggling to create or maintain connections in an increasingly isolated and fast-paced world. Earlier this week, I [highlighted]() by take on problems with Modern Friendships and this books tries to solve that.
 

@@ -8,6 +8,8 @@ title: Happy Reliving! A Review of Stephen Levine's "A Year to Live"
 categories:
 - book-review
 - books
+book-author: Stephen Levine
+rating: 8
 ---
 Book review of A Year To Live by Stephen Levine.
 

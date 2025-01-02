@@ -8,11 +8,12 @@ title: Co-intelligence
 categories:
     - book-review
     - books
-book-author: Ethan Mollick 
+book-author: Ethan Mollick
+rating: 6
 ---
-Book review of {{page.title}} by {{page.book-author}}
+Book review of Co-intelligence  by Ethan Mollick 
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="300px"}
+![Co-intelligence](assets/images/books/co-intelligence.jpg)
 
 
 ## Introduction

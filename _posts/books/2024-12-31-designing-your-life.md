@@ -9,10 +9,11 @@ categories:
     - book-review
     - books
 book-author: Bill Burnett and Dave Evans
+rating: 5
 ---
-Book review of [{{page.title}}](https://designingyour.life) by {{page.book-author}}
+Book review of [Designing Your Life](https://designingyour.life) by Bill Burnett and Dave Evans
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="300px"}
+![Designing Your Life](assets/images/books/designing-your-life.jpg)
 
 *Designing Your Life* by Bill Burnett and Dave Evans is a guide to applying design thinking principles to create a fulfilling and meaningful life. Drawing from their experience as educators at Stanford University, the authors provide practical tools to help readers tackle life's challenges, make better decisions, and pursue a life that aligns with their values and passions.
 

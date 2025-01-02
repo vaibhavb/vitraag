@@ -8,10 +8,12 @@ title: A Hacker's Mind
 categories:
   - book-review
   - books
+book-author: Bruce Schneier
+rating: 5
 ---
 Book review of A Hacker's Mind by Bruce Schneier
 
-![A Hackers Mind Cover]({{site.url}}{{site.baseurl}}/assets/images/books/a-hackers-mind-cover.jpg){: width="400px"}
+![A Hackers Mind Cover](assets/images/books/a-hackers-mind-cover.jpg)
 
 ## Introduction
 A hacker's perspective is unique, often focusing on potential points of failure in systems rather than their operational functionality. This review examines the mentality behind hacking, highlighting its broader impact across various societal systems.
@@ -30,8 +32,6 @@ The text is structured into sections that progressively delve into different dom
 | PART 5: HACKING POLITICAL SYSTEMS | Money in Politics, Hacking to Destruction  | Political systems are hacked through funding and legislation tactics, mirroring the actions of those who "cheat" (Page 41).     |
 | PART 6: HACKING COGNITIVE SYSTEMS | Attention and Addiction, Trust and Authority | Cognitive hacks manipulate behavior; for instance, persuasive technology can subvert attention and addiction (Page 44).          |
 | PART 7: HACKING AI SYSTEMS    | Hacking AI, Humanizing AI                    | AI systems can unintentionally perpetuate social biases, a form of hacking by the rich and powerful (Page 51).                  |
-
-
 
 
 ## Overall

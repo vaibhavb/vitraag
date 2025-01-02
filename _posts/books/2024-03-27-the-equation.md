@@ -8,10 +8,12 @@ title: The Equation That Couldn't Be Solved
 categories:
 - book-review
 - books
+book-author: Mario Livio
+rating: 6
 ---
 Book review of The Equation That Couldn't Be Solved by Mario Livio
 
-![The Equation That Couldn't Be Solved]({{site.url}}{{site.baseurl}}/assets/images/books/the-equation-that-couldnot-be-solved.jpg){: width="400px"}
+![The Equation That Couldn't Be Solved](assets/images/books/the-equation-that-couldnot-be-solved.jpg)
 
 ## Overview
 "The Equation That Couldn't Be Solved" by Mario Livio delves into the history and significance of the quintic equation—a polynomial equation of degree five—and the discovery that not all such equations can be solved with a straightforward algebraic solution. This realization marked a pivotal moment in mathematics, leading to the development of group theory and further innovations in the field.

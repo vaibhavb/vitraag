@@ -9,10 +9,11 @@ categories:
     - book-review
     - books
 book-author: David Deutsch 
+rating: 9
 ---
-Book review of {{page.title}} by {{page.book-author}}
+Book review of The Fabric Of Reality by David Deutsch 
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="300px"}
+![The Fabric Of Reality](assets/images/books/the-fabric-of-reality.jpg)
 
 This is one of the most intriguing and satisfying books i've read.
 

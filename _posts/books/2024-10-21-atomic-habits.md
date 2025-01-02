@@ -9,10 +9,11 @@ categories:
     - book-review
     - books
 book-author: James Clear
+rating: 7
 ---
-Book review of {{page.title}} by {{page.book-author}}
+Book review of Atomic Habits by James Clear
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="300px"}
+![Atomic Habits](assets/images/books/atomic-habits.jpg)
 
 *Atomic Habits* by James Clear is a practical guide to understanding how small, incremental changes in behavior can lead to significant, long-term improvements in life. The book breaks down the science of habit formation and provides actionable strategies to help individuals develop good habits, break bad ones, and improve their overall quality of life.
 

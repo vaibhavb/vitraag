@@ -9,10 +9,11 @@ categories:
     - book-review
     - books
 book-author: Philip Tetlock and Dan Gardner
+rating: 6
 ---
-Book review of {{page.title}} by {{page.book-author}}
+Book review of Superforecasting by Philip Tetlock and Dan Gardner
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="300px"}
+![Superforecasting](assets/images/books/superforecasting.jpg)
 
 "Superforecasting" explores how ordinary individuals achieve extraordinary accuracy in predicting future events. It combines insights from psychology, statistics, and real-world examples to teach readers how to think more effectively about uncertainty.
 

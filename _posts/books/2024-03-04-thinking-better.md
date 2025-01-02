@@ -8,10 +8,12 @@ title: Thinking Better
 categories:
 - book-review
 - books
+book-author:Marcus Du Sautoy 
+rating: 5
 ---
 Book review of Thinking Better by Marcus Du Sautoy 
 
-![Thinking Better]({{site.url}}{{site.baseurl}}/assets/images/books/thinking-better.jpg){: width="400px"}
+![Thinking Better](assets/images/books/thinking-better.jpg)
 
 ## Overview
 "Thinking Better: The Art of the Shortcut" by Marcus du Sautoy explores the power of mathematical thinking in everyday life, offering insights on how to use shortcuts for more efficient problem-solving and decision-making. The book reveals math as an invaluable tool for innovation and creativity, demonstrating its application beyond traditional academic boundaries.

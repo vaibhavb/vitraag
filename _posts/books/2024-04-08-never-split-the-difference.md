@@ -9,10 +9,11 @@ categories:
 - book-review
 - books
 book-author: Chris Voss
+rating: 8
 ---
-Book review of {{page.title}} by {{page.book-author}}
+Book review of Never Split The Difference by Chris Voss
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="400px"}
+![Never Split The Difference](assets/images/books/never-split-the-difference.jpg)
 
 ## Overview
 

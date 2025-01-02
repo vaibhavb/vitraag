@@ -9,10 +9,11 @@ categories:
     - book-review
     - books
 book-author: Christopher Alexander 
+rating: 7
 ---
-Book review of {{page.title}} by {{page.book-author}}
+Book review of The Timeless Way Of Building by Christopher Alexander 
 
-![{{page.title}}]({{site.url}}{{site.baseurl}}/assets/images/books/{{page.slug}}.jpg){: width="300px"}
+![The Timeless Way Of Building](/assets/images/books/the-timeless-way-of-building.jpg)
 
 ## Overview
 

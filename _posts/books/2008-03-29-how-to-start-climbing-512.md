@@ -3,13 +3,13 @@ author: vitraag
 comments: true
 date: 2008-03-29 23:27:00+00:00
 layout: post
-link: https://vitraagblog.wordpress.com/2008/03/29/how-to-start-climbing-512/
 slug: how-to-start-climbing-512
 title: How To Start Climbing 5.12...
-wordpress_id: 91
 categories:
-- books
-- book-review
+  - books
+  - book-review
+book-author: Craig Nuebben
+rating: 7
 ---
 
 There are a lot of people aspiring to climb [5.12,](http://www.43things.com/things/view/12261/climb-512) well for me 5.12 is the ceiling ! Last year i could lead 5.8, atmost 5.9 trad and 5.9 (consistently) and atmost 5.10 sports. Well thats all numbers and very geeky rock rat talk! What i really aim to achieve is getting more comfortable on the rock. When i first started rock climbing two years ago I feared heights :), well the reason i climbed was just to get over my fear! Now i have come along long ways :).  

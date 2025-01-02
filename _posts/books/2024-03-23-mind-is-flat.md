@@ -8,10 +8,12 @@ title: The Mind Is Flat
 categories:
   - book-review
   - books
+book-author: Nick Chater
+rating: 6
 ---
 Book review of The Mind Is Flat by Nick Chater
 
-![The Mind Is Flat Cover]({{site.url}}{{site.baseurl}}/assets/images/books/the-mind-is-flat.jpg){: width="400px"}
+![The Mind Is Flat Cover](assets/images/books/the-mind-is-flat.jpg)
 
 In crafting a summary of "The Mind is Flat: The Remarkable Shallowness of the Improvising Brain" by Nick Chater, it's important to juxtapose the book's central thesis with the counterargument that the mind is indeed involved and requires a structured environment to develop expertise. Chater's work provocatively argues against the depth model of the mind, suggesting instead that our mental processes are improvisational and surface-level, lacking the deep, unconscious underpinnings traditionally believed to guide our thoughts and behaviors. This summary will explore both the claims presented in "The Mind is Flat" and the contrasting perspective emphasizing the complexity and depth of human cognition.
 
