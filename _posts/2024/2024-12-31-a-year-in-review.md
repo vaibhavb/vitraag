@@ -63,7 +63,7 @@ All the things to review from 2024.
   - Piano progress  
   - Japanese language improvement  
   - Swimming lessons  
-- **Things I learnt About LLMs
+- **Things I learnt About LLMs**
 
 ## Technology & Software  
 - **Projects**: [Photo2Map](), [GenSh](), [Agents]()  
