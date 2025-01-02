@@ -11,7 +11,7 @@ categories:
 ---
 Book review of A Year To Live by Stephen Levine.
 
-![A Year to Live Book Cover]({{site.url}}{{site.baseurl}}/assets/images/books/a-year-live-cover.jpg)
+![A Year to Live Book Cover](assets/images/books/a-year-live-cover.jpg)
 
 ## Introduction
 In my recent revisiting of Stephen Levine's profound work, "A Year to Live," I found myself immersed once again in its transformative narrative. This book, more than just a guide, invites readers on a journey of introspection and existential contemplation. I first read this book while I was in rehab as my mom was recovering, a time that deeply influenced my perspective on life and its fleeting nature.
