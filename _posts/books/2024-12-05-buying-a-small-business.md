@@ -3,11 +3,11 @@ author: vitraag
 comments: true
 date: 2024-12-05T00:31:16Z
 layout: post
-slug: buying-a-small-business 
+slug: buying-a-small-business
 title: Buying A Small Business
 categories:
-    - book-review
-    - books
+  - book-review
+  - books
 book-author: Richard S. Ruback and Royce Yudkoff
 rating: 4
 ---

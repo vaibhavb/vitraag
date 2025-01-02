@@ -20,9 +20,6 @@ collections:
   notes:
     output: true
     permalink: /notes/:slug/
-  kamals_kitchen:
-    output: true
-    permalink: /kk/:slug/
 
 defaults:
   - scope:
