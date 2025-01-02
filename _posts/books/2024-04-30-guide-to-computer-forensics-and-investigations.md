@@ -13,7 +13,7 @@ rating: 5
 ---
 Book review of Guide To Computer Forensics and Investigations by Bill Nelson, Amelia Phillips and Chris Steuart
 
-![Guide To Computer Forensics and Investigations](assets/images/books/guide-to-computer-forensics-and-investigations.jpg)
+![Guide To Computer Forensics and Investigations](/assets/images/books/guide-to-computer-forensics-and-investigations.jpg)
 
 ## Overview
 "Guide To Computer Forensics and Investigations" is a comprehensive textbook that provides detailed information and methodologies for conducting digital forensic investigations, I used it to teach CIS 60 - Introduction to Digital Forensics class at Merritt College. The authors cover a broad range of topics essential for students and professionals in the field of digital forensics, including how to set up a forensics lab, the tools and techniques used for data acquisition, and the legal considerations involved in forensic investigations.

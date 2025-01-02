@@ -13,7 +13,7 @@ rating: 6
 ---
 Book review of The Enigma Of Reason by Hugo Mercies and Dan Sperber
 
-![The Enigma Of Reason](assets/images/books/the-enigma-of-reason.jpg)
+![The Enigma Of Reason](/assets/images/books/the-enigma-of-reason.jpg)
 
 ## Overview
 The Enigma of Reason by Hugo Mercier and Dan Sperber offers a fascinating dive into the cognitive science behind human reasoning. The authors propose a bold new perspective on reason, challenging traditional views that often depict it as a largely flawed mechanism. Instead, Mercier and Sperber argue that reason has an evolutionary function tailored specifically for collaborative and communicative purposes

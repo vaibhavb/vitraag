@@ -13,7 +13,7 @@ rating: 7
 ---
 Book review of Good Leaders Ask Great Questions by John C. Maxwell
 
-![Good Leaders Ask Great Questions](assets/images/books/good-leaders-ask-great-questions.jpg)
+![Good Leaders Ask Great Questions](/assets/images/books/good-leaders-ask-great-questions.jpg)
 
 ## Introduction
 In "Good Leaders Ask Great Questions," renowned leadership expert John C. Maxwell delves into the art and science of asking questions, demonstrating how this skill is essential for effective leadership. Maxwell combines his extensive experience with practical insights to help leaders at all levels improve their questioning abilities, enhance communication, and foster a culture of curiosity and continuous improvement within their organizations.

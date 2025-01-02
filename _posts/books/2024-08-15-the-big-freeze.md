@@ -13,7 +13,7 @@ rating: 6
 ---
 Book review of The Big Freeze by Natalie Lampert
 
-![The Big Freeze](assets/images/books/the-big-freeze.jpg)
+![The Big Freeze](/assets/images/books/the-big-freeze.jpg)
 
 ## Introduction
 *The Big Freeze* is a deeply personal exploration by journalist Natalie Lampert into the world of egg freezing. As reproductive technologies evolve, egg freezing has emerged as a powerful option for women seeking to take control of their fertility. Through her journey, Lampert provides a comprehensive look at the emotional, financial, and societal implications of this medical procedure.

@@ -13,7 +13,7 @@ rating: 4
 ---
 Book review of Talking To Strangers by Malcolm Gladwell
 
-![Talking To Strangers](assets/images/books/talking-to-strangers.jpg)
+![Talking To Strangers](/assets/images/books/talking-to-strangers.jpg)
 
 **Talking to Strangers** explores why interactions with strangers often go wrong. Malcolm Gladwell examines the complexities of human communication, revealing how biases and assumptions lead to misunderstandings. 🤔
 

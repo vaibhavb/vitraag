@@ -13,7 +13,7 @@ rating: 4
 ---
 Book review of Buying A Small Business by Richard S. Ruback and Royce Yudkoff
 
-![Buying A Small Business](assets/images/books/buying-a-small-business.jpg)
+![Buying A Small Business](/assets/images/books/buying-a-small-business.jpg)
 
 In *Buying a Small Business*, Richard S. Ruback and Royce Yudkoff present a pragmatic framework for individuals seeking to transition from employment to ownership through the acquisition of a small business. This book isn't about flashy startups or chasing the next big thing; it's about disciplined thinking, careful analysis, and leveraging proven models. The authors argue convincingly that buying a small, well-run business is one of the most effective ways to achieve financial independence and professional satisfaction.
 

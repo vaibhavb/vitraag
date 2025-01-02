@@ -13,7 +13,7 @@ rating: 7
 ---
 Book review of Training for the Uphill Athlete by Steve House, Scott Johnson and Kilian Jornet
 
-![Training for the Uphill Athlete](assets/images/books/uphill-athlete.jpg)
+![Training for the Uphill Athlete](/assets/images/books/uphill-athlete.jpg)
 
 # Summary of *Training for the Uphill Athlete*
 

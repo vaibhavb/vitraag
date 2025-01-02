@@ -13,7 +13,7 @@ rating: 8
 ---
 Book review of Never Split The Difference by Chris Voss
 
-![Never Split The Difference](assets/images/books/never-split-the-difference.jpg)
+![Never Split The Difference](/assets/images/books/never-split-the-difference.jpg)
 
 ## Overview
 

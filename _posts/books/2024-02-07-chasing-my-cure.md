@@ -13,7 +13,7 @@ rating: 6
 ---
 Book review of Chasing My Cure by Dr. David Fajgenbaum
 
-![Chasing My Cure](assets/images/books/chasing-my-cure.jpg)
+![Chasing My Cure](/assets/images/books/chasing-my-cure.jpg)
 
 ## Overview
 

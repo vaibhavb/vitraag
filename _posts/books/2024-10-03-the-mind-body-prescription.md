@@ -13,7 +13,7 @@ rating: 6
 ---
 Book review of The MindBody Prescription by Dr. John Sarno
 
-![The MindBody Prescription](assets/images/books/the-mindbody-prescription.jpg)
+![The MindBody Prescription](/assets/images/books/the-mindbody-prescription.jpg)
 
 Dr. John E. Sarno's *The MindBody Prescription* is a groundbreaking exploration of the connection between the mind and physical ailments, particularly chronic pain. By examining how emotions and psychological stress can manifest as physical symptoms, Sarno aims to empower readers to take control of their health and break free from chronic pain. 💪✨
 

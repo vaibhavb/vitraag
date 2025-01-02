@@ -13,7 +13,7 @@ rating: 9
 ---
 Book review of The Fabric Of Reality by David Deutsch 
 
-![The Fabric Of Reality](assets/images/books/the-fabric-of-reality.jpg)
+![The Fabric Of Reality](/assets/images/books/the-fabric-of-reality.jpg)
 
 This is one of the most intriguing and satisfying books i've read.
 

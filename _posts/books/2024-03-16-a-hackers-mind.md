@@ -13,7 +13,7 @@ rating: 5
 ---
 Book review of A Hacker's Mind by Bruce Schneier
 
-![A Hackers Mind Cover](assets/images/books/a-hackers-mind-cover.jpg)
+![A Hackers Mind Cover](/assets/images/books/a-hackers-mind-cover.jpg)
 
 ## Introduction
 A hacker's perspective is unique, often focusing on potential points of failure in systems rather than their operational functionality. This review examines the mentality behind hacking, highlighting its broader impact across various societal systems.

@@ -13,7 +13,7 @@ rating: 6
 ---
 Book review of Co-intelligence  by Ethan Mollick 
 
-![Co-intelligence](assets/images/books/co-intelligence.jpg)
+![Co-intelligence](/assets/images/books/co-intelligence.jpg)
 
 
 ## Introduction

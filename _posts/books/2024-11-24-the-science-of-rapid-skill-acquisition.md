@@ -13,7 +13,7 @@ rating: 4
 ---
 Book review of The Science Of Rapid Skill Acquisition by Peter Hollins
 
-![The Science Of Rapid Skill Acquisition](assets/images/books/the-science-of-rapid-skill-acquisition.jpg)
+![The Science Of Rapid Skill Acquisition](/assets/images/books/the-science-of-rapid-skill-acquisition.jpg)
 
 *The Science of Rapid Skill Acquisition* by Peter Hollins is a practical guide for anyone looking to learn and master new skills efficiently and effectively. It combines psychological insights, neuroscience principles, and proven learning strategies to help readers understand how to break through common learning barriers. The book is designed for students, professionals, and lifelong learners who want to upgrade their abilities in less time.
 
