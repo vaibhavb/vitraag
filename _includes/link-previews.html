@@ -1,8 +1,12 @@
 <!-- That file is not particularly elegant. This will need a refactor at some point. -->
 <style>
-  a.internal-link {
+  content a.internal-link {
     border-color: #8b88e6;
     background-color: #efefff;
+  }
+
+  content a.internal-link:hover{
+    text-decoration: underline;
   }
 
   #tooltip-wrapper {
@@ -73,7 +77,7 @@
         iframe.onload = function() {
           tooltipContentHtml = ''
           tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
-          tooltipContentHtml += iframe.contentWindow.document.querySelector('container').innerHTML
+          tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
 
           tooltipContent.innerHTML = tooltipContentHtml
           linkHistories[event.target.href] = tooltipContentHtml

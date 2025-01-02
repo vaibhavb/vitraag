@@ -20,7 +20,9 @@
           
             <div class="grid md:grid-cols-12 gap-5 p-4 m-2">
               <div class="md:col-span-9 p-4">
+                <content>
                 {{ content }}
+                </content>
               </div>
           
               <side style="font-size: 0.9em" class="md:col-span-3 md:pt-0 p-2">
@@ -54,7 +56,7 @@
       </main>
       <footer>{% include footer.html %}</footer>
     </div>
-    {% include link-previews.html wrapperQuerySelector="container" %}
+    {% include link-previews.html wrapperQuerySelector="content" %}
     {% include analytics-google.html %}
   </body>
 </html>
