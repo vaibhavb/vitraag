@@ -1,7 +1,6 @@
 @charset "utf-8";
-$salmon: rgb(250,128,114);
-
-@import "./theme-fall.scss";
+@import "./theme-winter.scss";
+$salmon: $winter-rose;
 
 @import "../../node_modules/bulma/bulma.sass";
 

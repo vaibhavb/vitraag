@@ -8,7 +8,7 @@ title: Thinking Better
 categories:
 - book-review
 - books
-book-author:Marcus Du Sautoy 
+book-author: Marcus Du Sautoy 
 rating: 5
 ---
 Book review of Thinking Better by Marcus Du Sautoy 
