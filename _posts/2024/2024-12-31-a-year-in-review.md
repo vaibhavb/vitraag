@@ -65,11 +65,6 @@ All the things to review from 2024.
   - Swimming lessons  
 - **Things I learnt About LLMs
 
-## Ambitions & Future Directions  
-- **Goals**:  
-  - Buy a multi-family house ([San Francisco](), [Fremont]())  
-  - Start a company with a cofounder  
-
 ## Technology & Software  
 - **Projects**: [Photo2Map](), [GenSh](), [Agents]()  
 
@@ -89,28 +84,26 @@ All the things to review from 2024.
   - History of science  
   - History of computer science  
 
-## 2025 Areas to plan and improve
+# Planning for 2025 
+- **Goals**:  
+  - Buy a multi-family house ([San Francisco](), [Fremont]())  
+  - Start a company with a cofounder  
 - **Health:**  
   - Establish a consistent sleep schedule, ensuring I wake up by 10 a.m. at the latest.  
   - Continue practicing meditation, yoga, and maintaining physical fitness.  
-
 - **Work:**  
   - Enhance work fulfillment and productivity.  
   - Regularly curate and update a monthly log for work, finances, and progress tracking.  
   - Improve knowledge management using tools like Obsidian or digital organization systems.  
-
 - **Creativity:**  
   - Develop a stronger sense of creativity and expression, particularly in poetry.  
   - Consistently create and curate creative projects and ideas.  
-
 - **Family:**  
   - Plan family trips and dedicate intentional time with nieces and nephews.  
   - Strategically schedule travels to balance work and leisure effectively.  
-
 - **Education:**  
   - Expand learning through curated educational channels and books.  
   - Increase focus on building structured learning routines and integrating new knowledge.  
-
 - **Finance:**  
   - Address lingering uncertainties around vehicles and other logistical concerns.  
   - Set clear objectives for financial planning and investment strategies.  
