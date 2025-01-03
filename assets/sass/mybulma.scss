@@ -128,3 +128,20 @@ body, html {
   height: 15px;
   margin: 1px;
 }
+.footer {
+  color: $white; // Set text and icon color to white
+  background-color: $black; // Set background to black or any dark color
+  
+  a {
+    color: $white; // Ensure links are white
+    &:hover {
+      color: lighten($white, 20%); // Lighten color on hover for effect
+    }
+  }
+
+  strong,
+  .credit {
+    color: $white; // Ensure text elements are also white
+  }
+}
+

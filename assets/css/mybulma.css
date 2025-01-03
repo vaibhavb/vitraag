@@ -10404,4 +10404,19 @@ th {
   margin: 1px;
 }
 
+.footer {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 4%);
+}
+.footer a {
+  color: hsl(0, 0%, 100%);
+}
+.footer a:hover {
+  color: white;
+}
+.footer strong,
+.footer .credit {
+  color: hsl(0, 0%, 100%);
+}
+
 /*# sourceMappingURL=mybulma.css.map */
