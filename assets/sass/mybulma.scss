@@ -32,6 +32,16 @@ body, html {
     background-color:  hsl(0, 0%, 98%);
 }
 
+.content {
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .has-same-height .card {
     height: 380px;
     overflow: hidden;
