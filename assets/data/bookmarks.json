@@ -1,5 +1,285 @@
 [
   {
+    "date": "2025-01-26",
+    "title": "NCL Resources",
+    "url": "https://national-cyber-league.super.site/competition/resources"
+  },
+  {
+    "date": "2025-01-25",
+    "title": "GitHub - tom-doerr/mnist_dspy",
+    "url": "https://github.com/tom-doerr/mnist_dspy"
+  },
+  {
+    "date": "2025-01-24",
+    "title": "B&B Shuffle | Engine-V1 | Cloud Security",
+    "url": "https://play.backdoorsandbreaches.com/play.backdoorsandbreaches.com-Engine-V1/App/"
+  },
+  {
+    "date": "2025-01-24",
+    "title": "Healthcare AI Guy Weekly | 1/21",
+    "url": "https://www.healthcareaiguy.com/p/healthcare-ai-guy-weekly-1-21"
+  },
+  {
+    "date": "2025-01-24",
+    "title": "Introduction to Cloud Security - Lab Setup",
+    "url": "https://itcs.notion.site/Introduction-to-Cloud-Security-Lab-Setup-1777c1888ca5801285c0cccc219470dd"
+  },
+  {
+    "date": "2025-01-24",
+    "title": "Section 1.11 - Introduction to Security with CompTIA™ Security+ and Labs | zyBooks",
+    "url": "https://learn.zybooks.com/zybook/BhandariSecurityJan2025/chapter/1/section/11"
+  },
+  {
+    "date": "2025-01-24",
+    "title": "Strengthening American Leadership in Digital Financial Technology – The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/"
+  },
+  {
+    "date": "2025-01-24",
+    "title": "[2501.12948] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2501.12948"
+  },
+  {
+    "date": "2025-01-23",
+    "title": "(186) Learn Tailwind CSS – Course for Beginners - YouTube",
+    "url": "https://www.youtube.com/watch?v=ft30zcMlFao"
+  },
+  {
+    "date": "2025-01-23",
+    "title": "(186) PyTorch for Deep Learning & Machine Learning – Full Course - YouTube",
+    "url": "https://www.youtube.com/watch?v=V_xro1bcAuA"
+  },
+  {
+    "date": "2025-01-23",
+    "title": "Hack the Future",
+    "url": "https://www.hackthefuture.com/"
+  },
+  {
+    "date": "2025-01-23",
+    "title": "Wispr Flow | Effortless Voice Dictation",
+    "url": "https://wisprflow.ai/"
+  },
+  {
+    "date": "2025-01-23",
+    "title": "https://youtube.com/watch?v=tXk-t-v3qVw&si=3eFsu6RoiP9BdKpO",
+    "url": "No URL"
+  },
+  {
+    "date": "2025-01-22",
+    "title": "Claude Artifact",
+    "url": "https://claude.site/artifacts/f0c7dd6f-d268-418c-b3a9-c9988f24ea53"
+  },
+  {
+    "date": "2025-01-22",
+    "title": "It’s Time to Build: Healthtech Infrastructure | Andreessen Horowitz",
+    "url": "https://a16z.com/its-time-to-build-healthtech-infrastructure/"
+  },
+  {
+    "date": "2025-01-20",
+    "title": "Further Confusion Links | Further Confusion 2025: Animal Business",
+    "url": "https://furtherconfusion.org/links/"
+  },
+  {
+    "date": "2025-01-18",
+    "title": "DAKboard - A customizable display for your photos, calendar, news, weather and more!",
+    "url": "https://dakboard.com/site"
+  },
+  {
+    "date": "2025-01-17",
+    "title": "About | Future of Coding",
+    "url": "https://futureofcoding.org/about"
+  },
+  {
+    "date": "2025-01-17",
+    "title": "Automatically Document Care with DAX Copilot | Nuance #jpm2025",
+    "url": "https://www.nuance.com/healthcare/dragon-ai-clinical-solutions/dax-copilot.html"
+  },
+  {
+    "date": "2025-01-17",
+    "title": "End-user Programming",
+    "url": "https://www.inkandswitch.com/end-user-programming/"
+  },
+  {
+    "date": "2025-01-16",
+    "title": "Executive Health Program - Overview - Mayo Clinic #healthcare",
+    "url": "https://www.mayoclinic.org/departments-centers/mayo-clinic-executive-health-program/sections/overview/ovc-20253196"
+  },
+  {
+    "date": "2025-01-16",
+    "title": "Healthtech: Show Your Magic | Andreessen Horowitz",
+    "url": "https://a16z.com/healthtech-show-your-magic/"
+  },
+  {
+    "date": "2025-01-16",
+    "title": "Idea for a new Mayo Clinic | ?",
+    "url": "https://justinmares.com/idea-for-a-new-mayo-clinic/"
+  },
+  {
+    "date": "2025-01-16",
+    "title": "Storybook: Frontend workshop for UI development",
+    "url": "https://storybook.js.org/"
+  },
+  {
+    "date": "2025-01-16",
+    "title": "The Biggest Company in the World | Andreessen Horowitz",
+    "url": "https://a16z.com/the-biggest-company-in-the-world/"
+  },
+  {
+    "date": "2025-01-15",
+    "title": "StreamYard",
+    "url": "https://streamyard.com/"
+  },
+  {
+    "date": "2025-01-15",
+    "title": "Transforming Cancer Navigation with Open Data & APIs | HeroX",
+    "url": "https://www.herox.com/CancerNavigationDataChallenge"
+  },
+  {
+    "date": "2025-01-14",
+    "title": "Genetic Testing For Obesity | Uncovering Rare Obesity® Program",
+    "url": "https://uncoveringrareobesity.com/?utm_source=QR&utm_medium=paid&utm_content=brochure&utm_campaign=HCP"
+  },
+  {
+    "date": "2025-01-14",
+    "title": "Turing Biosystems",
+    "url": "https://www.turing.bio/"
+  },
+  {
+    "date": "2025-01-13",
+    "title": "(32) Stanford CS229 I Machine Learning I Building Large Language Models (LLMs) - YouTube",
+    "url": "https://www.youtube.com/watch?v=9vM4p9NN0Ts"
+  },
+  {
+    "date": "2025-01-13",
+    "title": "Airtable - Security, Funded Curated Posts",
+    "url": "https://airtable.com/appoTEyxCq0DrWbQl/shrK5kiF7AO6NZacC/tblhpn5STEDWiyndw?utm_source=returnonsecurity.com&utm_medium=newsletter"
+  },
+  {
+    "date": "2025-01-13",
+    "title": "Hippocratic AI",
+    "url": "https://www.hippocraticai.com/"
+  },
+  {
+    "date": "2025-01-13",
+    "title": "How to build an offensive AI security agent",
+    "url": "https://www.anshumanbhartiya.com/posts/hackagent"
+  },
+  {
+    "date": "2025-01-12",
+    "title": "(12) #HITB2024BKK #COMMSEC D2: Leveraging LLMs to Enhance Insider Threat Investigation Capabilities - YouTube #security",
+    "url": "https://www.youtube.com/watch?v=YX4MNJHymLw&t=1s"
+  },
+  {
+    "date": "2025-01-12",
+    "title": "Agents",
+    "url": "https://huyenchip.com/2025/01/07/agents.html"
+  },
+  {
+    "date": "2025-01-12",
+    "title": "CC13 Tickets — CactusCon",
+    "url": "https://www.cactuscon.com/cc13-tickets"
+  },
+  {
+    "date": "2025-01-12",
+    "title": "Sew a Pillowcase | Events | Alameda County Library",
+    "url": "https://aclibrary.bibliocommons.com/events/6736a8fff814b83d00c0db38"
+  },
+  {
+    "date": "2025-01-12",
+    "title": "What Microplastics Are Doing to the Brain, Body, and Reproductive Systems - YouTube",
+    "url": "https://www.youtube.com/watch?v=HTzw_grLzjw"
+  },
+  {
+    "date": "2025-01-11",
+    "title": "Documents | Fundsmith",
+    "url": "https://www.fundsmith.co.uk/documents/"
+  },
+  {
+    "date": "2025-01-10",
+    "title": "DFIR-IRIS | Open Source Incident Response Platform #security",
+    "url": "https://dfir-iris.org/"
+  },
+  {
+    "date": "2025-01-10",
+    "title": "Patched CVE-2024-49415 zero-click flaw on Samsung devices (CVSS 8.1) risked remote code execution via RCS. #security\n\nSource: The Hacker News",
+    "url": "https://search.app/?link=https%3A%2F%2Fthehackernews%2Ecom%2F2025%2F01%2Fgoogle%2Dproject%2Dzero%2Dresearcher%2Duncovers%2Ehtml%3Fm%3D1&utm_campaign=57165%2Dor%2Digacx%2Dweb%2Dshrbtn%2Diga%2Dsharing&utm_source=igadl%2Cigatpdl%2Csh%2Fx%2Fgs%2Fm2%2F5"
+  },
+  {
+    "date": "2025-01-09",
+    "title": "25 Useful Ideas for 2025 - by Gurwinder - The Prism",
+    "url": "https://substack.com/home/post/p-153989710"
+  },
+  {
+    "date": "2025-01-09",
+    "title": "Chinese hackers allegedly breached the U.S. Treasury, exploiting software flaws in a major cyberattack.\n\nSource: Newsweek",
+    "url": "https://search.app/SyKEFQHH84G5KDEw9"
+  },
+  {
+    "date": "2025-01-09",
+    "title": "GitHub - microsoft/ML-For-Beginners: 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+    "url": "https://github.com/microsoft/ML-For-Beginners"
+  },
+  {
+    "date": "2025-01-09",
+    "title": "How to turn your idea into a working prototype in minutes #product\n",
+    "url": "https://search.app/LZY2MNCTmtXPGu339"
+  },
+  {
+    "date": "2025-01-09",
+    "title": "Renew Bali: A Live Music & Mindfulness Experience",
+    "url": "https://insighttimer.com/retreat/renew-bali-a-live-music-mindfulness-experience"
+  },
+  {
+    "date": "2025-01-08",
+    "title": "Call for Papers - Security Frontiers 2025",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLScerAVVWPUJXSWYNwVuC9vrWn74QPKV4P_tqWJ0dt9ZtWvBZw/viewform"
+  },
+  {
+    "date": "2025-01-08",
+    "title": "Free Accounting Course Outline | AccountingCoach",
+    "url": "https://www.accountingcoach.com/outline"
+  },
+  {
+    "date": "2025-01-07",
+    "title": "#JPM25 - Search / X",
+    "url": "https://x.com/hashtag/JPM25"
+  },
+  {
+    "date": "2025-01-06",
+    "title": "(1) The Cultural Tutor on X: \"164 years ago today a Belgian designer called Victor Horta was born. You probably haven't heard of him, but he was one of the most important architects in history. Why? Because Horta created Art Nouveau... https://t.co/MwlomOIK1b\" / X",
+    "url": "https://x.com/culturaltutor/status/1876284980130955456"
+  },
+  {
+    "date": "2025-01-06",
+    "title": "(3) Tools and tips round up: Searching and using Bluesky, new tools from Bellingcat and Henk van Ess, and more",
+    "url": "https://digitalinvestigations.substack.com/p/tools-and-tips-round-up-searching-618"
+  },
+  {
+    "date": "2025-01-06",
+    "title": "Science’s 2024 Breakthrough of the Year: Opening the door to a new era of HIV prevention | Science | AAAS",
+    "url": "https://www.science.org/content/article/breakthrough-2024"
+  },
+  {
+    "date": "2025-01-06",
+    "title": "browser-use/browser-use: Make websites accessible for AI agents",
+    "url": "https://github.com/browser-use/browser-use"
+  },
+  {
+    "date": "2025-01-05",
+    "title": "OSOYOO Robot Car Starter Kit Lesson 1: Install UNO R3 Board and Motors on Chassis « osoyoo.com",
+    "url": "https://osoyoo.com/2017/04/23/smartcarlesson1/"
+  },
+  {
+    "date": "2025-01-05",
+    "title": "The Podcast — Glioblastoma Research Organization",
+    "url": "https://www.gbmresearch.org/the-podcast"
+  },
+  {
+    "date": "2025-01-05",
+    "title": "XiaoR GEEK TH tank chassis compatiable for Arduino/Raspberry pi",
+    "url": "https://www.xiaorgeek.net/products/metal-tank-chassis?variant=41437708845142"
+  },
+  {
     "date": "2025-01-04",
     "title": "2025 Predictions with bestie Gavin Baker - YouTube",
     "url": "https://www.youtube.com/watch?v=HxNUAwBWX4I"
