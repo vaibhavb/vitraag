@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd data-runners
-        poetry install
+        poetry install --no-root
 
     - name: Run update script
       env:
