@@ -50,7 +50,7 @@
       <!-- Loop through each date group -->
       {% for group in news %}
         <div class="box">
-          <p class="news-date">{{ group.date }}</p>
+          <p class="news-date" id="{{group.date}}">{{ group.date }}</p>
           
           <!-- Loop through each news item within the date group -->
           {% for item in group.news-items %}

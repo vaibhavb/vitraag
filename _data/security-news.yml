@@ -1,3 +1,23 @@
+- date: 2025-02-07
+  news-items:
+    - desc: "Hackers are spoofing Microsoft ADFS login pages in a phishing campaign targeting education, healthcare, and government organizations to steal credentials."
+      link: "https://www.bleepingcomputer.com/news/security/hackers-spoof-microsoft-adfs-login-pages-to-steal-credentials/"
+    - desc: "A vulnerability in Cisco Webex Chat allowed unauthorized access to chat histories across multiple organizations, raising concerns over data security."
+      link: "https://www.ophionsecurity.com/post/cisco-webex-connect-vulnerability-unauthenticated-access-to-all-chats"
+    - desc: "AI red teaming research compares jailbreak results of various LLMs, including DeepSeek, Qwen, O1, O3, Claude, and Kimi, highlighting security weaknesses."
+      link: "https://adversa.ai/blog/ai-red-teaming-reasoning-llm-jailbreak-china-deepseek-qwen-kimi/"
+    - desc: "Multiple security flaws found in the DeepSeek iOS app, including sending unencrypted data, exposing users to potential privacy risks."
+      link: "https://9to5mac.com/2025/02/07/multiple-security-flaws-found-in-deepseek-ios-app-including-sending-unencrypted-data/"
+    - desc: "CIA mistakenly sent an unclassified email containing names of some employees to the Trump administration, raising security concerns."
+      link: "https://www.nytimes.com/2025/02/05/us/politics/cia-names-list.html"
+    - desc: "An IT trainer and YouTuber claims DeepSeek is misleading users, exposing alleged discrepancies in its AI operations."
+      link: "https://www.ndtv.com/offbeat/is-deepseek-lying-to-you-it-trainer-and-youtuber-exposes-the-shocking-truth-7641800"
+    - desc: "Zero-day vulnerabilities in Microsoft Sysinternals allow attackers to execute DLL injection on Windows, posing a significant security threat."
+      link: "https://cyberpress.org/microsoft-sysinternals-0-day-vulnerabilities-allow-attackers/"
+    - desc: "WhatsApp accuses surveillance firm Paragon of hacking, escalating concerns over the misuse of spyware in global surveillance."
+      link: "https://newsletter.cybersecurityhq.com/p/whatsapp-accuses-paragon-of-hacking"
+    - desc: "OverTheWire's Bandit wargame is a highly recommended gamified tool for improving Linux command-line skills."
+      link: "https://overthewire.org/wargames/bandit/"
 - date: 2024-12-31
   news-items:
     - desc: "Claude uses AI to identify new security threats by leveraging advanced natural language processing to analyze patterns and anomalies in real-time, providing proactive threat detection."
