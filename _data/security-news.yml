@@ -1,3 +1,22 @@
+- date: 2025-02-12
+  news-items:
+    - desc: "Slop and Flop attacks emerge as a new security threat, though details on their execution and impact remain scarce."
+      link: "https://predictors.fail/"
+    - desc: "Cryptocurrency and blockchain hacker report highlights that bug bounties in the sector outpay other industries. Around 10% of vulnerabilities stem from business logic flaws, compared to 2% in other sectors. Crypto.com runs $2 million in bug bounties."
+      link: "https://www.hackerone.com/resources/reporting/8th-hacker-powered-security-report-cryptocurrency-blockchain"
+    - desc: "Apple patches a zero-day vulnerability related to USB Restricted Mode, which was actively exploited in highly sophisticated attacks."
+      link: "https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks"
+    - desc: "Ken Huang releases Maestro, a seven-layer threat modeling tool for Agentic AI, designed for continuous security assessment."
+      link: "https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro"
+    - desc: "A WatchTowr researcher discovered over 150 abandoned sensitive S3 buckets from software companies, governments, and infrastructure pipelines, exposing critical data."
+      link: "https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur/"
+    - desc: "Over 12,000 KerioControl firewalls remain vulnerable to an RCE flaw despite GFI Software's security update on December 19, 2024. According to Censys, over 23,800 instances are still at risk."
+      link: "https://censys.com/cve-2024-52875/"
+    - desc: "Toll booth scammers continue to exploit users through fraudulent SMS messages, tricking victims into making false payments."
+      link: "https://www.bitdefender.com/en-us/blog/hotforsecurity/toll-booth-bandits-continue-to-scam-via-sms-messages"
+    - desc: "A massive brute-force attack, utilizing 2.8 million IPs—mostly from Brazil—targets VPN devices, highlighting ongoing security risks."
+      link: "https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices"
+
 - date: 2025-02-07
   news-items:
     - desc: "Hackers are spoofing Microsoft ADFS login pages in a phishing campaign targeting education, healthcare, and government organizations to steal credentials."
