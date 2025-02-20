@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-02-20",
+    "title": "21st.dev – The NPM for Design Engineers",
+    "url": "https://21st.dev/?tab=components&sort=recommended"
+  },
+  {
+    "date": "2025-02-20",
+    "title": "Tailpipe | select * from logs;",
+    "url": "https://tailpipe.io/"
+  },
+  {
+    "date": "2025-02-20",
+    "title": "pluggy — pluggy 1.5.1.dev83+g4eb41bb documentation",
+    "url": "https://pluggy.readthedocs.io/en/latest/"
+  },
+  {
     "date": "2025-02-19",
     "title": "Blog | Sam Curry",
     "url": "https://samcurry.net/"
