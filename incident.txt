@@ -1,0 +1,256 @@
+Introduction
+Back in 2021, I was still early in my offensive security journey. I had already hacked several companies and was earning a steady income through Bug Bounty Hunting, an ethical hacking practice where security researchers find and report vulnerabilities for monetary rewards. However, I wasn’t yet at the level where I could quickly identify critical vulnerabilities on a target. That level of skill felt just out of reach. Everything shifted when I connected with someone who became a key figure in my Bug Bounty career: Snorlhax.
+
+Initially, I saw him as competition. He was far ahead of me on the HackerOne French Leaderboard, which pushed me to step up my game. We started chatting on Discord and, after a few weeks, I shared a promising bug bounty program scope with him. Not long after, he discovered a $10,000 critical vulnerability on that target-double the highest payout I had achieved there. Motivated by this, I revisited the same target and found my own $10,000 critical vulnerability in a different bug class within the same week.
+
+Rather than continuing to compete, we decided to collaborate. Our focus became identifying every possible bug class on this target: IDOR, SQL injection, XSS, OAuth bugs, Dependency Confusion, SSRF, RCE … you name it, we found and reported it. This collaboration lasted years, and even now, we occasionally return to this target together.
+
+One goal, however, remained out of reach: uncovering “The Exceptional Vulnerability.” This would be a bug so critical that it would earn us an off-table bounty, far beyond the standard payouts. It became the ultimate challenge.
+
+This is the crazy story of how Snorlhax and I finally achieved that.
+
+Using a Software Supply Chain attack allowing for RCE on developers, pipelines, and production servers, we secured a $50,500 bounty. Here’s how it happened.
+
+Understanding Our Target’s Business Attack Surface
+From our experience, it’s crucial to understand the business context of any major organization before diving into the reconnaissance stage. By the time we took on this big target, Snorlhax and I had already learned that this company often introduced unexpected weaknesses when they acquire other businesses. Newly purchased subsidiaries don’t always adhere to the same security standards as their parent company, particularly in the early stages of integration. We had seen this dynamic before, but we’d never really explored acquisitions with the aim of finding that one mind-blowing bug. This time, we were convinced the “Exceptional Vulnerability” might be lurking where few researchers bothered to look.
+
+Our plan was simple: in this bug bounty program, any asset officially owned by the company is fair game. We believe that acquisitions are easy to overlook because many hunters focus on the main root domains instead. Meanwhile, the acquired business’s old infrastructure, half-updated frameworks, and looser policies could create a perfect environment for serious vulnerabilities. We felt that if there was a place to land a truly monstrous find, an acquisition was our best shot.
+
+As we started mapping out this approach, we constantly reminded ourselves that we needed something exceptional. It wasn’t enough to settle for low-hanging bugs. We needed the big fish. Our evolving plan involved diving deep into the newly acquired subsidiary’s environment, looking beyond basic web vulnerabilities to investigate how they handled software development and deployment. We had no idea where it would lead us, but we knew it had the potential to be big.
+
+Why We Turned to the Software Supply Chain
+We’ve always been hooked on the idea that you don’t need to attack what’s out in the open. It’s often way more effective to go after assets and services that the company is pulling into their sensitive environements-their pipelines, dependencies, registries, and images. If you pull it off, you can mess with the code before it even hits production, which can do way more damage than the standard SSRF or XSS bugs.
+
+To understand Software Supply Chain attack surfaces, we need to take a look at the SLSA framework (Supply-chain Levels for Software Artifacts). It breaks the software supply chain into three pieces: Source, Build, and Distribution. Hitting any one of these can cause a mess. We immediately locked in on Source (like GitHub, DockerHub, and registries) and Build (CI/CD pipelines) since they’re usually crawling with tokens, secrets, and bad configs.
+
+SLSA
+
+Snorlhax and I had already tried testing supply chain attacks together on other programs and we found some crazy vulnerabilities: Artifactory accesses, Email Takeover of employees giving us access to their Github, Dependency Confusion and more. This time, though, we had a hunch, we figured an acquisition would probably rely on outdated or unmanaged supply chain processes, which could lead us to something bigger.
+
+So, we decided to mix two ideas: targeting an acquisition and messing with its supply chain. We were chasing a bug that could actually change the game. Going after the supply chain of newly acquired companies was super niche, a niche within a niche, and we were pretty sure no one else was looking at it. That gave us a huge edge.
+
+How we started our Recon
+Our first step was identifying a suitable subsidiary. We went through corporate press releases, read official announcements, and scoured LinkedIn to see which companies had been acquired and how far along they were in the integration process. We chose one in particular, noticing that it was specifically called out in our target’s bug bounty scope.
+
+We needed to figure out if this subsidiary had an online code presence or used any popular package registries. We scraped JavaScript files from their front-end apps to see what code dependencies they were calling. Instead of doing rudimentary string searches, we took a more robust approach by converting the JS files into Abstract Syntax Trees (ASTs).
+
+An AST is a tree-like representation of source code that breaks down everything-variables, functions, imports, etc... into hierarchical nodes. By using the library SWC (Speedy Web Compiler), we wrote a Rust code to parse the JS files into these ASTs and systematically traversed them to locate all import or require statements.
+
+This lets us precisely identify references to a unique scope that appeared as @acquisition-utils/package. The first thing we checked is if the npm organisation namespace could be claimed. However, the company already owned the namespace, but no public packages were present.
+
+acquisition-utils
+
+This told us there was at least one private npm organization in use. On npmjs, it’s possible to set up an organization but publish the packages privately if one buys a license. So either they do have private packages on npm, or they are placeholding the namespace to avoid dependency confusion via namespace takeover.
+
+The next step was to check if we could find some private packages of this organisation. To do so we run the following Github Search path:**/packages.json @acquisition-utils:
+
+github-search
+
+The purpose of this query is to see if any developer of the organisation leaked internal source code by publishing repositories using this private package namespace. This is a good way to find internal source code leakage
+
+Cool Tip: You can do that with any kind of strings that indicate internal source code usage. For instance if you find a private Artifactory, you can run path:**/package-lock.json artifactory-url.tld in order to check if any lock files fetch from this corporate Artifactory. Of course, you’ll need to adapt it depending on your package manager (yarn, pip, pnpm etc…)
+
+Unfortunately, we didn’t find anything directly on GitHub, so we turned to Google and typed in acquisition-utils, very naively hoping to reveal more artifacts. That’s when we found a DockerHub organization also tied to the subsidiary’s brand. This new lead was exactly what we wanted, an environment that might house private or poorly secured Docker images.
+
+dockerhub-org
+
+Our next step was to download the images and examine them carefully, hoping to pick up the trail that would lead us to something truly critical.
+
+Digging in the source code
+When we pulled one of their Docker images, specifically named after one of their main products, we struck gold. Inside, we found the complete proprietary back-end source code.
+
+wait-what
+
+Ordinarily, discovering source code might be enough to get a Critical bounty, but we wanted an “Exceptional Vulnerability.” Source code on its own is valuable, but we needed to demonstrate additional impact to show the security team just how dangerous this exposure was.
+
+Digging further, we noticed that the .git/ folder was still present in the container. This was our next clue. By checking the .git/config file, we were hoping for a private repo URL or a direct environment variable. We found something that we’ve never seen before in a .git/config: an authorization bearer token that was base64 encoded.
+
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/Acquisition/backend
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gc]
+	auto = 0
+[http "https://github.com/"]
+	extraheader = AUTHORIZATION: basic eC1hY2Nlc3MtdG9rZW46TG9sWW91V2FudGVkVG9TZWVUaGVUb2tlblJpZ2h0Pw==
+Neither of us recognized it at first glance, so we took the time to investigate. Once we pieced it together, we realized this was a GitHub Actions token (GHS). We had effectively stumbled upon a key that was smuggled in the build stage of their supply chain. If we could weaponize this token, we might manipulate the pipelines themselves, gaining either direct code injection, artifact tampering, or ways to pivot into other private repositories.
+
+As it turns out, these GitHub Actions tokens are often automatically generated to allow workflows to interact with their own repository-pushing code, creating pull requests, or accessing private dependencies. Under normal circumstances, these tokens expire after the workflow completes, limiting their window of exploitation.
+
+However, a race condition can occur when artifacts containing the token (e.g., .git/config files, environment variable logs, or entire repository checkouts) are uploaded before the workflow ends. That artifact might become accessible to anyone with read access before the token expires. If an attacker manages to download the artifact quickly enough (in our case the Docker Image), they could extract the still-valid token and use it to modify or push code to the repository, tamper with releases, or even pivot into other GitHub repositories within the same organization.
+
+This risk is especially severe if the workflow grants “write” or “admin” permissions to the token (for example, through permissions: contents: write in the GitHub Actions YAML file). In that case, the attacker gains the power to inject malicious code, create new branches, or even commit changes directly into production. Depending on how the CI/CD pipeline is configured, malicious changes could quickly move downstream, potentially compromising the application that millions of users rely on.
+
+In many modern DevOps pipelines, Dockerfiles and CI/CD workflows are closely intertwined. A common pattern is:
+
+Checkout in Workflow: The GitHub Actions workflow (or any other CI/CD provider) uses an action such as actions/checkout to fetch the source code. By default, this step can include git credentials or tokens inside the .git/config file.
+Dockerfile COPY: During a Docker build, developers often copy entire source directories, including hidden folders like .git/, into the Docker image.
+Publishing the Image: The built image gets pushed to a public or private container registry. If sensitive files (like .git/ or environment variable dumps) haven’t been cleaned up, those remain in earlier layers, or they end up in the final image itself.
+All it takes is a single oversight-like forgetting to remove or ignore the .git/ folder or not properly restricting the scope of the token-for the entire build pipeline to become vulnerable. Attackers who discover these artifacts can take advantage of the GitHub token, the Docker image, or both to escalate their privileges.
+
+So in our context, could we have won the Race Condition ? The Github Workflow (that we have access to since we have the entire backend source code) looked like this:
+
+name: Build and push Docker image
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v3
+
+      - name: Define image name
+        run: |
+          echo "IMAGE_NAME=acquisition/backend" >> $GITHUB_ENV
+
+      - name: Define image tag
+        run: |
+          if [[ "${{ github.ref }}" == 'refs/tags/'* ]]; then
+            echo "IMAGE_TAG=$(git tag --points-at $(git log -1 --oneline | awk '{print $1}'))" >> $GITHUB_ENV
+          else
+            exit 0
+          fi
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker image
+        run: |
+          source $GITHUB_ENV
+          echo IMAGE_NAME=$IMAGE_NAME
+          echo IMAGE_TAG=$IMAGE_TAG
+          docker build --build-arg NPM_TOKEN=${{ secrets.NPM_TOKEN }} --tag $IMAGE_NAME:$IMAGE_TAG .
+
+      - name: Push image to DockerHub
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
+        run: |
+          docker login --username $DOCKERHUB_USERNAME --password $DOCKERHUB_PASSWORD
+          docker push $IMAGE_NAME:$IMAGE_TAG
+
+      - name: Deploy to staging
+        env:
+          DEPLOYMENT_API_SECRET: ${{ secrets.DEPLOYMENT_API_SECRET }}
+        run: |
+          curl -XPOST 'https://deploy.acquistion.tld/v1/deploy' \
+            -H "Content-type: application/json" \
+            --data-raw "{
+              \"appName\": \"backend\",
+              \"envName\": \"backend\",
+              \"contName\": \"backend\",
+              \"imageTag\": \"`echo $IMAGE_NAME`:`echo $IMAGE_TAG`\",
+              \"secret\": \"`echo $DEPLOYMENT_API_SECRET`\"
+            }"
+
+      - name: Post status on Slack
+        id: slack
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "GitHub Action build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "GitHub Action build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/THE_ACTUAL_SLACK_HOOK_HAHA"
+          SLACK_WEBHOOK_TYPE: "INCOMING_WEBHOOK"
+As you may notice, there are 2 steps after the docker push command. The Deploy to staging and Post status on Slack. During this time the token will still be available since the worker will still be running to execute those steps. It’s realistic to say that an attacker could simply monitor any publishing of a new image and download the ONLY THE EXACT specific layer in the Docker Image that will have the GHS Token in order to then Post-Exploit the Github Repository.
+
+Quick Note: Palo Alto's Unit42 published an article titled “ArtiPACKED: Hacking Giants Through a Race Condition in GitHub Actions Artifacts,” which came out about a month after we completed our research. It’s a thorough exploration of exactly this kind of attack. We may not have been the first to hit “Publish,” but it’s a great illustration of how multiple security researchers can independently discover and validate the same class of vulnerabilities-truly a case of “great minds think alike.” ;)
+
+We wanted more
+As we looked at the Dockerfile that built this image, we noticed a package.json like this:
+
+{
+  "name": "content",
+  "version": "1.7.0",
+  "private": true,
+  "scripts": {
+   ....
+  },
+  "dependencies": {
+    "@aquistion-utils/internal-react": "^4.12.0",
+    ...
+
+  },
+  "devDependencies": {
+   ...
+  },
+  
+}
+In the package.json there was a definition to the @aquistion-utils organisation that we found earlier. However, to be able to pull it you need an npm token. We unfortunately didn’t see a .npmrc file at the root of the folder.
+
+The reason behind that is that the Dockerfile copied in an .npmrc file, then removed it in the last build step. For a while we thought that because the .npmrc was removed it was gone forever. We decided to dig deeper in our understanding of Docker.
+
+Docker images are built using a layered filesystem. Each instruction in a Dockerfile (such as FROM, COPY, RUN, etc.) creates a new layer. When building an image, Docker looks at each instruction, creates (or reuses) a layer for that instruction, and stacks it on top of the existing layers. Layers are read-only, and when you modify a file in one layer, Docker actually adds a new layer with the “changes” rather than editing the existing layers in place. This process makes Docker builds more efficient and allows for caching, because multiple images can share common layers.
+
+To inspect these layers directly, you can use the docker history <image> command, which lists the sequence of instructions (and corresponding layers) used to build the image.
+
+$ docker history hello-world
+
+IMAGE          CREATED         CREATED BY                SIZE      COMMENT
+ee301c921b8a   20 months ago   CMD ["/hello"]            0B        buildkit.dockerfile.v0
+<missing>      20 months ago   COPY hello / # buildkit   9.14kB    buildkit.dockerfile.v0
+However, this only shows a high-level history without letting you navigate through the actual contents of each layer.
+
+dive is a handy CLI tool that not only displays the layers of your Docker image but also lets you dive into and inspect exactly which files were added, removed, or changed in each layer. To start exploring your image with dive, install the tool and then run dive <image_to_dive>:
+
+dive
+
+Gif taken from the official repository
+
+This provides an interactive UI that displays each layer on the left side and the contents on the right side. You can use arrow keys to navigate the filesystem within each layer, see changes between layers.
+
+dlayer is another handy analyzer for Docker layers. It can be used in both a non-interactive and interactive mode to show you the contents and file structure of each layer within a Docker image. The typical usage workflow involves saving a Docker image as a tar file and then examining it with dlayer:
+
+# Pipe the saved Docker image tar directly into dlayer
+docker save image:tag | dlayer -i
+
+# Save the image to a tar file and then analyze it
+docker save -o image.tar image:tag
+dlayer -f image.tar -n 1000 -d 10 | less
+This can come particularly handy if you want to simply pipe an image.tar and print all the layers and then pipe the results into another tool. Moreover, you could use the Go Code to implement dlayer as a library that could be useful for at scale scanning and your reconnaissance.
+
+When we discovered that it was possible to retrieve the build layers of the Docker image, it meant there was a strong possibility that the .npmrc (and thus the NPM_TOKEN) remained exposed in an earlier layer. We extracted each layer and examined them carefully.
+
+AND HERE IT WAS !!!!
+
+dive result
+
+We uncovered the private npm token, granting read and write access to @acquisition-utils packages. This is when our hearts started racing. We realized we could push malicious code to one of their private packages, which their developers, pipelines, and even production environments would fetch automatically. Because this was a private package, typical public scanners wouldn’t detect any tampering. And since their package.json versions were set to allow minor upgrades (^4.12.0), we could slip in a backdoor undetected and compromise every environment that relied on this package.
+
+By this stage, Snorlhax and I were shaking. We knew we had found our “Exceptional Vulnerability.” It wasn’t just a matter of reading private source code or hijacking a single pipeline token. We could affect the entire software supply chain, from local developer machines to CI/CD processes to production servers. In short, we’d found an awesome bug that could justify an off-table payout.
+
+Possible Post-Exploit and impacts
+We carefully documented every step. The company’s security team had always encouraged us to go beyond theoretical vulnerabilities and show real impact. We explained how an attacker could backdoor the private npm package and then wait for developers or pipelines to run npm install commands. If developers unknowingly built or tested code using that infected package, we could potentially harvest secrets or pivot into other internal systems. In the CI/CD pipelines, this could open the door to reading sensitive environment variables, stealing credentials, or even escalating privileges to self-hosted runners. Finally, in production, it might lead to a far-reaching compromise if these containers fetched the same package updates or had an automatic deployment process.
+
+To underscore the threat, we proved that no internal logging or monitoring would likely catch this infiltration at the npm level because it was happening outside the target’s infrastructure. Indeed, let's think about it. We:
+
+Fetch the Docker Image from Dockerhub
+Find the npm token locally
+Publish the package to a registry.npmjs.org private organisation
+We never interacted with our Target’s web applications, and apart from asking DockerHub and npm the logs, there is no way to know which person downloaded the image. The noisiest thing is maybe publishing a npm package, but we are going to talk about this in a future article ;D
+
+Conclusion
+When we submitted our findings, the company immediately recognized that this was the kind of chain reaction bug that could compromise not just a single product, but the entire development-to-production lifecycle. They classified it as a rare, worst-case scenario vulnerability and awarded us a $50,500 bounty, far exceeding their ordinary payout structure. Snorlhax and I had finally captured our “Exceptional Vulnerability,” a discovery that validated every hunch and every piece of knowledge we’d picked up over the years.
+
+For us, the biggest lesson was that the success of an attack often hinges on combining two or more neglected angles. Acquisitions offered a softer target than the parent company, and software supply chain vulnerabilities provided the catastrophic impact we were looking for. By merging these insights, we found that perfect storm. We also gained fresh respect for how critical it is to secure not just the code you publish, but also every layer of your build process and every artifact your developers pull from external sources.
+
+We continue to hack together, always looking for the next game-changing find. Our hope is that by sharing this experience, we can inspire other researchers to go beyond. Sometimes, the real treasure lies in the obscure corners: a hidden Docker image, a mishandled npm token, or a leftover .git folder. Those corners can be the key to a life-changing bounty, just as they were for us.
