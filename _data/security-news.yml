@@ -1,3 +1,23 @@
+- date: 2025-02-28
+  news-items:
+    - desc: "ByBit (1.5 Billion Hack) linked to North Korea."
+      link: "https://apnews.com/article/bybit-exchange-crypto-hack-north-korea-7c8335c1397261554138090c2c38f457"
+    - desc: "Skybox Security shuts down and lays off entire workforce."
+      link: "https://www.securityweek.com/skybox-security-shuts-down-lays-off-entire-workforce/"
+    - desc: "Black Basta ransomware group's internal chats leaked."
+      link: "https://www.theregister.com/2025/02/21/experts_race_to_extract_inte"
+    - desc: "LLM dataset found to contain over 12,000 API keys and passwords."
+      link: "https://thehackernews.com/2025/02/12000-api-keys-and-passwords-found-in.html"
+    - desc: "New 'Pass-the-cookie' exploit bypasses multi-factor authentication."
+      link: "https://gbhackers.com/new-pass-the-cookie-attacks-bypass-mfa/#google_vignette"
+    - desc: "ChatGPT vulnerable to operator prompt injection."
+      link: "https://cybersecuritynews.com/chatgpt-operator-prompt-injection/"
+    - desc: "LLM injection attacks highlighted by 'Indiana Jones jailbreak' approach."
+      link: "https://techxplore.com/news/2025-02-indiana-jones-jailbreak-approach-highlights.html"
+    - desc: "Russian threat groups targeting Ukraine's Signal communications."
+      link: "https://cyberscoop.com/russia-threat-groups-target-ukraine-signal"
+    - desc: "Apple and UK government clash over end-to-end encryption."
+      link: "https://www.cnn.com/2025/02/25/tech/apple-advanced-data-protection-uk-encryption/index.html"
 - date: 2025-02-20
   news-items:
     - desc: "Russia's Sandworm conducting 'BadPilot campaign' targeting US and European organizations in energy and telecommunications sectors, exploiting vulnerabilities to maintain access and support military objectives"
