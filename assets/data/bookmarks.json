@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-03-13",
+    "title": "SEC.gov | Search Filings",
+    "url": "https://www.sec.gov/search-filings"
+  },
+  {
+    "date": "2025-03-13",
+    "title": "Undocumented commands found in Bluetooth chip used by a billion devices",
+    "url": "https://www.bleepingcomputer.com/news/security/undocumented-commands-found-in-bluetooth-chip-used-by-a-billion-devices/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-03-13",
+    "title": "What’s new in the world of LLMs, for NICAR 2025",
+    "url": "https://simonwillison.net/2025/Mar/8/nicar-llms/?utm_source=substack&utm_medium=email"
+  },
+  {
     "date": "2025-03-12",
     "title": "Introduction to YARA - by Eric Capuano - Eric’s Substack",
     "url": "https://blog.ecapuano.com/p/introduction-to-yara?publication_id=1348234&utm_medium=email&utm_campaign=email-share&triggerShare=true&r=1xgaxy"
