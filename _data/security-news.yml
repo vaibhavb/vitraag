@@ -1,3 +1,15 @@
+- date: 2025-02-13
+  news-items:
+    - desc: "More than 560,000 people were impacted across four healthcare data breaches involving Hillcrest Convalescent Center, Gastroenterology Associates of Central Florida, Community Care Alliance, and Sunflower Medical Group."
+      link: "https://www.securityweek.com/560000-people-impacted-across-four-healthcare-data-breaches/?utm_source=tldrinfosec"
+    - desc: "US cities warn of a surge in phishing scams involving fake unpaid parking tickets. Attackers are sending fraudulent SMS messages to steal payment details."
+      link: "https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec"
+    - desc: "Google paid nearly $12 million in bug bounties during 2024, highlighting the importance of vulnerability research and responsible disclosure."
+      link: "https://www.darkreading.com/vulnerabilities-threats/google-pays-nearly-12m-2024-bug-bounty-program"
+    - desc: "Undocumented commands were discovered in a widely used Bluetooth chip, potentially impacting over a billion devices and raising concerns about hardware security vulnerabilities."
+      link: "https://www.bleepingcomputer.com/news/security/undocumented-commands-found-in-bluetooth-chip-used-by-a-billion-devices/"
+    - desc: "A malicious Ethereum private key stealer was found in a PyPI package, downloaded over 1,000 times, demonstrating ongoing supply chain attacks in open-source ecosystems."
+      link: "https://www.bleepingcomputer.com/news/security/ethereum-private-key-stealer-on-pypi-downloaded-over-1-000-times/"
 - date: 2025-03-07
   news-items:
     - desc: "Flightradar24 experiences ongoing DDoS cyberattack."
