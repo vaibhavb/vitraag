@@ -1,7 +1,7 @@
 ---
 author: vitraag
 comments: true
-date: 2024-01-15T00:31:16Z
+date: 2025-01-15T00:31:16Z
 layout: post
 slug: how-to-take-smart-notes
 title: How To Take Smart Notes
