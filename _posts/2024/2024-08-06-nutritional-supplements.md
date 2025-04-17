@@ -17,6 +17,10 @@ Skepticism is the main thought I have had when it comes to nutritional supplemen
 - [Vitamin D](https://www.amazon.com/gp/product/B001N4JYX6) - In addition to Blueprint Essential I like the liquid form as Vitamin D3 help with bone strenthg. I take in liquid form in my protein shake.
 - [Wheatgrass](https://www.amazon.com/gp/product/B0788YN5XG) - 1 tbsp in protein shake known to help with Digestion.
 - [Protein Powder](https://www.amazon.com/gp/product/B00J074W94/) - Well its pea protein, essential to helps with daily protein intake for a vegeterian.
+- [Astaxanthin](https://www.amazon.com/Strength-Astaxanthin-Organic-Coconut-Absorption/dp/B07V574YYY) - This support skin health through antioxidant activity and is all natural. I've actually seen good skin results from it, Bryan Johnson also takes a version of this. Update: Q1, 2025
+- [Magnesium 380mg](https://www.amazon.com/dp/B00OHRT7GA) - After sometimes getting cramps from running, I started taking Magnesium for Muscle health and its proving to be useful (no clinical/ blood work proof yet). Update: Q1, 2025
+
+![nutrition with caution](/assets/images/2024/supplements.jpeg)
 
 # Resources
 Apart from above, I recommend reading:
