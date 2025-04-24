@@ -1,7 +1,6 @@
-// Winter Theme Variables
-// Colors inspired by winter landscapes and frost
-
-// 1. Base Winter Colors
+// Spring Theme Variables
+// Colors inspired by spring blooms and fresh growth
+// 1. Base Spring Colors
 $blossom-white: #FDFAF6;     // Soft bloom white
 $spring-sky: #A5D8FF;        // Clear spring sky
 $meadow-blue: #83CFBF;       // Fresh meadow blue
@@ -14,7 +13,7 @@ $pollen-gold: #EFC050;       // Bright pollen gold
 // 2. Theme Assignment
 $primary: $meadow-blue;
 $info: $spring-sky;
-$success: $new-leaf;
+$success: darken($new-leaf, 25%);
 $warning: $pollen-gold;
 $danger: $cherry-bloom;
 $link: $spring-dawn;
@@ -26,29 +25,29 @@ $primary-dark: darken($primary, 15%);
 $primary-invert: findColorInvert($primary);
 
 // 4. Background and Text Colors
-$body-background-color: $frost-white;
-$text: $winter-night;
-$text-strong: darken($winter-night, 10%);
+$body-background-color: $blossom-white;
+$text: #000000;              // black
+$text-strong: #000000;       //black
 
 // 5. Component-Specific Overrides
-$button-hover-color: $winter-sky;
-$button-focus-color: $winter-sky;
-$navbar-background-color: $glacier-blue;
+$button-hover-color: $spring-sky;
+$button-focus-color: $spring-sky;
+$navbar-background-color: $meadow-blue;
 $navbar-item-color: $primary-invert;
-$card-background-color: rgba($frost-white, 0.9);
-$footer-background-color: $winter-night;
-$footer-color: $frost-white;
+$card-background-color: rgba($blossom-white, 0.9);
+$footer-background-color: #457455;
+$footer-color: $blossom-white;
 
 // 6. Border and Shadow Styles
-$border: $snow-shadow;
+$border: $petal-pink;
 $radius: 4px;
-$shadow: 0 2px 4px rgba($winter-night, 0.1);
+$shadow: 0 2px 4px rgba(#83CFBF, 0.2);
 
 // 7. Input and Form Styles
-$input-border-color: $snow-shadow;
-$input-focus-border-color: $glacier-blue;
-$input-focus-box-shadow-color: rgba($glacier-blue, 0.25);
+$input-border-color: $petal-pink;
+$input-focus-border-color: $meadow-blue;
+$input-focus-box-shadow-color: rgba($meadow-blue, 0.25);
 
 // 8. Table Styles
-$table-background-color: $frost-white;
-$table-striped-row-even-background-color: mix($frost-white, $winter-sky, 90%);
+$table-background-color: $blossom-white;
+$table-striped-row-even-background-color: mix($blossom-white, $petal-pink, 90%);
