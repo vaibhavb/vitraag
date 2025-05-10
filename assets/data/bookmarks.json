@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-05-09",
+    "title": "(28) Chris Lattner: Compilers, LLVM, Swift, TPU, and ML Accelerators | Lex Fridman Podcast #21 - YouTube",
+    "url": "https://www.youtube.com/watch?v=yCd3CzGSte8"
+  },
+  {
+    "date": "2025-05-09",
+    "title": "(28) Responsive compilers - Nicholas Matsakis - PLISS 2019 - YouTube",
+    "url": "https://www.youtube.com/watch?v=N6b44kMS6OM"
+  },
+  {
+    "date": "2025-05-09",
+    "title": "Anders Hejlsberg on Modern Compiler Construction | Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/shows/seth-juarez/anders-hejlsberg-on-modern-compiler-construction"
+  },
+  {
     "date": "2025-05-07",
     "title": "CNIT 121: Computer Forensics -- Sam Bowne",
     "url": "https://samsclass.info/121/121_S25.shtml"
