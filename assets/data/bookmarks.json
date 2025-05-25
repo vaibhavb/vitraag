@@ -1,5 +1,30 @@
 [
   {
+    "date": "2025-05-25",
+    "title": "(84) Inspect, an OSS Framework for LLM Evals - YouTube",
+    "url": "https://www.youtube.com/watch?v=kNaZU9bz-UM&t=1s"
+  },
+  {
+    "date": "2025-05-25",
+    "title": "Creating a LLM-as-a-Judge That Drives Business Results – Hamel's Blog",
+    "url": "https://hamel.dev/blog/posts/llm-judge/"
+  },
+  {
+    "date": "2025-05-25",
+    "title": "Your AI Product Needs Evals – Hamel's Blog",
+    "url": "https://hamel.dev/blog/posts/evals/"
+  },
+  {
+    "date": "2025-05-25",
+    "title": "pipecat-ai/pipecat: Open Source framework for voice and multimodal conversational AI",
+    "url": "https://github.com/pipecat-ai/pipecat"
+  },
+  {
+    "date": "2025-05-25",
+    "title": "pipecat-ai/smart-turn",
+    "url": "https://github.com/pipecat-ai/smart-turn"
+  },
+  {
     "date": "2025-05-23",
     "title": "A systematic review of large language model (LLM) evaluations in clinical medicine | BMC Medical Informatics and Decision Making",
     "url": "https://link.springer.com/article/10.1186/s12911-025-02954-4?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_440"
