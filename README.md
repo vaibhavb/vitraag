@@ -1,7 +1,7 @@
 # About
 Homepage of Vaibhav Bhandari
 
-# Next Item Todo List [Updated 04/09/2024]
+# Next Item Todo List [Updated 05/26/2025]
 [] Feat: Add ability to generate review cards from content
 [] Delete babel, tailwind and webpack
 [] Fix images in all the blog files
