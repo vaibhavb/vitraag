@@ -4,6 +4,16 @@ layout: news
 title: Security News
 permalink: /security-news
 news_key: security-news
+stocks:
+  - PANW
+  - CRWD
+  - ZS
+  - CHKP
+  - OKTA
+  - CYBR
+  - VRNS
+  - QLYS
+  - TENB
 categories:
 - news
 ---
