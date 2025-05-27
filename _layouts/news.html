@@ -1,136 +1,431 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     {% include head.html %}
     <title>{{ page.title }}</title>
     <style>
-      .card-summary {
-        text-align: center;
-      }
-      .card-summary-title {
-        font-size: 1.2em;
-        font-weight: bold;
-      }
-      .card-summary-count {
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #3273dc; /* Bulma primary color */
-      }
-      /* Custom styles for a more refined, NY Times-like look */
-      .news-date {
-        font-size: 1.2em;
-        font-weight: 600;
-        margin-top: 20px;
-      }
-      .news-desc {
-        font-size: 1em;
-        line-height: 1.6;
-        margin-bottom: 10px;
-      }
-      .read-more {
-        font-size: 0.9em;
-        text-decoration: underline;
-      }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        .page-title {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2.8em;
+            font-weight: bold;
+            color: #111;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Left Column (Stocks & Navigation) Styles Sticky Behavior*/
+        .left-sidebar-column { /* Renamed for clarity */
+            padding-right: 25px;
+            border-right: 1px solid #eee; 
+            position: -webkit-sticky; /* For Safari compatibility */
+            position: sticky;
+            top: 20px; /* Adjust this value based on your header height or desired spacing from the top */
+            align-self: flex-start; /* Helps in flex layouts like Bulma columns */
+            max-height: calc(100vh - 40px); /* Example: 100% viewport height minus top (20px) and some bottom space (20px) */
+            overflow-y: auto; /* Adds a scrollbar WITHIN the sidebar if its content exceeds max-height */
+        }
+
+        .left-sidebar-column h2, .left-sidebar-column h3 { /* Common styling for headings in left bar */
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: #111;
+            margin-bottom: 15px; /* Adjusted margin */
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .left-sidebar-column h2 { /* For "Market Watch" */
+            font-size: 1.5em;
+        }
+        .left-sidebar-column h3 { /* For "Jump to Date" */
+            font-size: 1.3em;
+            margin-top: 30px; /* Space above Jump to Date if stocks are present */
+        }
+
+        .stock-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #f5f5f5;
+            font-size: 0.95em;
+        }
+        .stock-item:last-child {
+            border-bottom: none;
+        }
+        .stock-name {
+            font-weight: 600;
+            color: #333;
+        }
+        .stock-price {
+            color: #222;
+        }
+        .stock-change {
+            margin-left: 10px;
+        }
+        .stock-change.positive {
+            color: #28a745;
+        }
+        .stock-change.negative {
+            color: #dc3545;
+        }
+
+        #news-group-nav-list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+        #news-group-nav-list li a {
+            display: block;
+            padding: 8px 5px; /* Added some horizontal padding */
+            text-decoration: none;
+            color: #007bff;
+            border-bottom: 1px solid #f9f9f9; /* Very light separator */
+            font-size: 0.9em;
+            border-radius: 3px; /* Slightly rounded for modern feel */
+        }
+        #news-group-nav-list li:last-child a {
+            border-bottom: none;
+        }
+        #news-group-nav-list li a:hover {
+            text-decoration: none;
+            background-color: #f0f0f0; /* Hover background */
+            color: #0056b3;
+        }
+
+
+        /* News Column (Right) Styles */
+        .news-main-column { /* Renamed for clarity */
+            padding-left: 25px;
+            border-left: 1px solid #eee;
+        }
+
+        .news-group {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        .news-group:last-child {
+            border-bottom: none;
+        }
+
+        .news-date {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.6em;
+            font-weight: 600;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        .news-item {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        .news-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .news-desc {
+            font-size: 1em;
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .read-more {
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        /* Domain Cards */
+        .domain-cards-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .card-summary {
+            text-align: left;
+            border: 1px solid #e0e0e0;
+            box-shadow: none;
+            background-color: #fff;
+        }
+        .card-summary .card-content {
+            padding: 15px;
+        }
+        .card-summary-title {
+            font-size: 1em;
+            font-weight: 600;
+            color: #333;
+        }
+        .card-summary-count {
+            font-size: 0.9em;
+            color: #555;
+        }
+
     </style>
-  </head>
+</head>
 <body>
 
 {% include nav.html %}
 
-<!-- Main Container -->
 <div class="container">
   <section class="section">
-    <div class="content">
-      <h1 class="title has-text-centered">{{ page.title }}</h1>
+    <h1 class="page-title has-text-centered">{{ page.title }}</h1>
 
-      <!-- Load and sort news data -->
-      {% capture news_key %}{{ page.news_key }}{% endcapture %}
-      {% assign news = site.data[news_key] | sort: "date" | reverse %}
+    {% capture news_key %}{{ page.news_key }}{% endcapture %}
+    {% assign news_data_sorted = site.data[news_key] | sort: "date" | reverse %}
 
-      <!-- Loop through each date group -->
-      {% for group in news %}
-        <div class="box">
-          <p class="news-date" id="{{group.date}}">{{ group.date }}</p>
-          
-          <!-- Loop through each news item within the date group -->
-          {% for item in group.news-items %}
-            <div class="media">
-              <div class="media-content">
-                <p class="news-desc">{{ item.desc }}</p>
-                <a href="{{ item.link }}" target="_blank" class="read-more">Read more</a>
-              </div>
+    <div class="columns">
+      <div class="column is-one-third left-sidebar-column">
+        {% if page.stocks %}
+            <h2>Market Watch</h2>
+            <div id="stocks-list">
+                <div id="dynamic-stocks-placeholder">
+                </div>
+            </div>
+        {% endif %}
+
+        {% if news_data_sorted.size > 0 %}
+        <div class="page-navigation">
+            <h3>On This Page</h3>
+            <ul id="news-group-nav-list">
+                <li>
+                    <a href="#source-domains-summary">News Sources Summary</a>
+                </li>
+                {% for group in news_data_sorted %}
+                    <li>
+                        <a href="#date-{{ group.date | date: "%Y-%m-%d" | slugify }}">
+                            {{ group.date | date: "%B %d, %Y" }}
+                        </a>
+                    </li>
+                {% endfor %}
+                
+            </ul>
+        </div>
+        {% endif %} 
+      </div>
+
+      <div class="column is-two-thirds news-main-column">
+        <div class="content">
+          {% for group in news_data_sorted %}
+            <div class="news-group" id="date-{{ group.date | date: "%Y-%m-%d" | slugify }}">
+              <p class="news-date">{{ group.date | date: "%A, %B %e, %Y" }}</p> {% for item in group.news-items %}
+                <div class="news-item">
+                  <p class="news-desc">{{ item.desc }}</p>
+                  <a href="{{ item.link }}" target="_blank" class="read-more">Read more &rarr;</a>
+                </div>
+              {% endfor %}
             </div>
           {% endfor %}
+          {% if news_data_sorted.size == 0 %}
+            <p>No news items to display.</p>
+          {% endif %}
         </div>
-      {% endfor %}
-
-      <!-- Card Container -->
-      <div class="columns is-multiline" id="domain-cards"></div>
+      </div>
     </div>
+
+    {% if news_data_sorted.size > 0 %}
+    <div class="domain-cards-section" id="source-domains-summary">
+        <h2 class="subtitle is-4 has-text-centered">News Sources Summary</h2>
+        <div class="columns is-multiline is-centered" id="domain-cards">
+            </div>
+    </div>
+    {% endif %}
+
   </section>
 </div>
 
 <script>
-  // Liquid converts YAML to JSON here
   const newsData = {{ site.data[news_key] | jsonify }};
 
-  // Helper function to extract domain from URL
   function extractDomain(url) {
-    const a = document.createElement("a");
-    a.href = url;
-    return a.hostname;
+    try {
+        const a = document.createElement("a");
+        a.href = url;
+        let domain = a.hostname;
+        if (domain.startsWith('www.')) {
+            domain = domain.substring(4);
+        }
+        return domain;
+    } catch (e) {
+        console.warn("Could not parse URL:", url);
+        return "Invalid URL";
+    }
   }
 
-  // Process the data to group news by domain
   const domainSummary = {};
-  newsData.forEach(group => {
-    group["news-items"].forEach(item => {
-      const domain = extractDomain(item.link);
-      domainSummary[domain] = (domainSummary[domain] || 0) + 1;
-    });
-  });
+  if (newsData && Array.isArray(newsData)) {
+      newsData.forEach(group => {
+        if (group["news-items"] && Array.isArray(group["news-items"])) {
+            group["news-items"].forEach(item => {
+                if (item.link) {
+                    const domain = extractDomain(item.link);
+                    domainSummary[domain] = (domainSummary[domain] || 0) + 1;
+                }
+            });
+        }
+      });
+  }
 
-  // Render domain cards
   function renderDomainCards(summary) {
     const domainCardsContainer = document.getElementById("domain-cards");
-    domainCardsContainer.innerHTML = ""; // Clear existing content
+    if (!domainCardsContainer) return;
+    domainCardsContainer.innerHTML = ""; 
 
     Object.entries(summary).forEach(([domain, count]) => {
-      // Create a card
       const column = document.createElement("div");
-      column.classList.add("column", "is-one-quarter");
+      column.classList.add("column", "is-one-quarter-tablet", "is-one-fifth-desktop");
 
       const card = document.createElement("div");
       card.classList.add("card", "card-summary");
-
       const cardContent = document.createElement("div");
       cardContent.classList.add("card-content");
-
       const title = document.createElement("p");
       title.classList.add("card-summary-title");
       title.textContent = domain;
-
       const countText = document.createElement("p");
       countText.classList.add("card-summary-count");
-      countText.textContent = `(${count})`;
+      countText.textContent = `(${count} articles)`;
 
-      // Append elements to the card
       cardContent.appendChild(title);
       cardContent.appendChild(countText);
       card.appendChild(cardContent);
       column.appendChild(card);
-
-      // Append the card to the container
       domainCardsContainer.appendChild(column);
     });
   }
 
-  // Render the domain summary on page load
-  renderDomainCards(domainSummary);
+  if (Object.keys(domainSummary).length > 0) {
+    renderDomainCards(domainSummary);
+  }
+
+   // --- Finnhub Stock Data ---
+  const FINNHUB_API_KEY = 'd0r3uj1r01qn4tjgamggd0r3uj1r01qn4tjgamh0';
+
+  // Helper to create a stock item HTML element (remains the same)
+  function createStockElement(symbol, data) {
+      const stockItem = document.createElement('div');
+      stockItem.classList.add('stock-item');
+      const nameSpan = document.createElement('span');
+      nameSpan.classList.add('stock-name');
+      nameSpan.textContent = symbol;
+      const priceSpan = document.createElement('span');
+      priceSpan.classList.add('stock-price');
+      priceSpan.textContent = (data && data.c !== undefined && data.c !== null) ? `$${data.c.toFixed(2)}` : 'N/A';
+      const changeSpan = document.createElement('span');
+      changeSpan.classList.add('stock-change');
+      if (data && data.dp !== undefined && data.dp !== null) {
+          changeSpan.textContent = `${data.dp.toFixed(2)}%`;
+          if (data.dp > 0) changeSpan.classList.add('positive');
+          else if (data.dp < 0) changeSpan.classList.add('negative');
+      } else {
+          changeSpan.textContent = 'N/A';
+      }
+      stockItem.appendChild(nameSpan);
+      stockItem.appendChild(priceSpan);
+      stockItem.appendChild(changeSpan);
+      return stockItem;
+  }
+
+  // Helper to create an error or general message item (remains the same)
+  function createMessageElement(message) {
+      const item = document.createElement('div');
+      item.classList.add('stock-item');
+      item.style.justifyContent = 'center';
+      item.textContent = message;
+      return item;
+  }
+
+  async function fetchAndDisplayStocks(apiKey, symbols) {
+      const stocksListContainer = document.getElementById('stocks-list');
+      if (!stocksListContainer) {
+          console.error('Stock list container (#stocks-list) not found.');
+          return;
+      }
+      stocksListContainer.innerHTML = ''; // Clear previous content or loading message
+
+      if (!apiKey || apiKey === 'YOUR_FINNHUB_API_KEY' || apiKey.trim() === '') {
+          stocksListContainer.appendChild(createMessageElement('Finnhub API key not configured.'));
+          return;
+      }
+      if (!symbols || !Array.isArray(symbols) || symbols.length === 0) {
+          stocksListContainer.appendChild(createMessageElement('No stock symbols provided from page.'));
+          console.warn('Stock symbols (page.stocks) are missing or not in expected array format.');
+          return;
+      }
+
+      let itemsAdded = 0;
+      for (const symbol of symbols) {
+          try {
+              const response = await fetch(`https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${apiKey}`);
+              if (!response.ok) {
+                  console.error(`Error fetching data for ${symbol}: ${response.statusText} (${response.status})`);
+                  stocksListContainer.appendChild(createMessageElement(`Failed: ${symbol} (${response.status})`));
+                  continue;
+              }
+              const data = await response.json();
+              if (data.t !== 0 && data.c !== undefined) {
+                  stocksListContainer.appendChild(createStockElement(symbol, data));
+                  itemsAdded++;
+              } else {
+                  console.warn(`No valid quote data for ${symbol}:`, data);
+                  stocksListContainer.appendChild(createMessageElement(`No data: ${symbol}`));
+              }
+          } catch (error) {
+              console.error(`Exception fetching/processing data for ${symbol}:`, error);
+              stocksListContainer.appendChild(createMessageElement(`Error: ${symbol}`));
+          }
+      }
+      if (itemsAdded === 0 && stocksListContainer.children.length === 0 && symbols.length > 0) {
+          stocksListContainer.appendChild(createMessageElement('Could not load data for any symbols.'));
+      }
+  }
+  // --- End of Finnhub Stock Data ---
+
+  document.addEventListener('DOMContentLoaded', function() {
+      // Render domain cards if data exists
+      if (typeof domainSummary !== 'undefined' && Object.keys(domainSummary).length > 0) {
+          renderDomainCards(domainSummary);
+      }
+
+      // Get stock symbols from Liquid (Jekyll page variable)
+      let stockSymbolsFromPage = []; // Default to empty array
+      {% if page.stocks and page.stocks != empty %}
+          // The `jsonify` filter converts the Liquid array to a JS array string
+          stockSymbolsFromPage = {{ page.stocks | jsonify }};
+      {% else %}
+          console.log("page.stocks is not defined or is empty in front matter.");
+      {% endif %}
+
+      // Call to fetch stock data using symbols from Liquid
+      fetchAndDisplayStocks(FINNHUB_API_KEY, stockSymbolsFromPage);
+
+      // Optional: Refresh stock data periodically
+      // Be mindful of API rate limits with the free tier.
+      // setInterval(() => {
+      //     fetchAndDisplayStocks(FINNHUB_API_KEY, stockSymbolsFromPage);
+      // }, 300000); // e.g., 5 minutes
+  });
 </script>
 
 {% include footer.html %}
 {% include analytics-google.html %}
 </body>
 </html>
-
