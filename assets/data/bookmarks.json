@@ -11,8 +11,28 @@
   },
   {
     "date": "2025-05-27",
+    "title": "How to automate incident response for Amazon EKS on Amazon EC2 | AWS Security Blog",
+    "url": "https://aws.amazon.com/blogs/security/how-to-automate-incident-response-for-amazon-eks-on-amazon-ec2/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-05-27",
+    "title": "MedGemma  |  Health AI Developer Foundations  |  Google for Developers",
+    "url": "https://developers.google.com/health-ai-developer-foundations/medgemma?utm_source=www.healthcareaiguy.com&utm_medium=newsletter&utm_campaign=healthcare-ai-guy-weekly-5-27"
+  },
+  {
+    "date": "2025-05-27",
+    "title": "Most security tools are too theoretical - by Frank Wang",
+    "url": "https://franklyspeaking.substack.com/p/most-security-tools-are-too-theoretical-4a0?utm_source=returnonsecurity.com&utm_medium=newsletter&utm_campaign=security-funded-195-the-notorious-p-a-n-w&_bhlid=fd4fc2d4347b2ed5d8cbe02fe69b67b5a9296404"
+  },
+  {
+    "date": "2025-05-27",
     "title": "Root in prod: The most important security analysis you will never do on your AWS accounts",
     "url": "https://www.plerion.com/blog/root-in-prod?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-05-27",
+    "title": "aicyberchallenge.com",
+    "url": "https://aicyberchallenge.com/"
   },
   {
     "date": "2025-05-25",
