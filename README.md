@@ -1,7 +1,16 @@
 # About
 Homepage of Vaibhav Bhandari
 
-# Next Item Todo List [Updated 05/26/2025]
+# Next Item Todo List [Updated 05/29/2025]
+
+## High Priority Technical Improvements
+[x] **Remove Unused Build Tools**: Eliminate webpack, babel, and React dependencies since React is only used for a single unused finance component. The webpack bundle.js is only loaded in report.html but no React mount point exists.
+[x] **Consolidate CSS Frameworks**: Remove redundant CSS frameworks - currently using Bulma, Tailwind, and Pico CSS simultaneously. Standardize on one framework (recommend keeping Bulma since it's actively used).
+[] **Optimize Asset Pipeline**: Remove unnecessary Sass compilation steps and simplify the build process by eliminating unused theme files and webpack configuration.
+[] **Clean Up Dependencies**: Update package.json to remove 15+ unused development dependencies including React, babel loaders, and webpack-related packages.
+[] **Improve File Organization**: Move unused/legacy files to archive directories and consolidate scattered JavaScript files in assets/js and assets/webpack.
+
+## Existing Todo Items
 [] Feat: Add ability to generate review cards from content
 [] Delete babel, tailwind and webpack
 [] Fix images in all the blog files

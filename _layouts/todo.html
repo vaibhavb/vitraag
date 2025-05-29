@@ -2,50 +2,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        {% include head.html %}
         <style>
-            .sidebar-vr {
-                flex-shrink: 0;
-                width: 1.5rem;
-                height: 100vh;
-            }
-            .sidebar-divider {
-                height: 3rem;
-                background-color: rgba(0, 0, 0, .1);
-                border: solid rgba(0, 0, 0, .15);
-                border-width: 1px 0;
-                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-            }
             .sidebar {
                 padding-top: 48px;
+                min-height: 100vh;
             }
         </style>
         <title>{{page.title}}</title>
     </head>
 
     <body>
-        <header class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-0 shadow">
-            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">CyberDefendersProgram</a>
-        </header>
-        <div class="container-fluid">
-            <div class="row">
-                <nav class="col-md-3 col-lg-2 d-md-block bg-dark text-light sidebar collapse">
-                    this is sidebar
+        <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <strong>CyberDefendersProgram</strong>
+                </a>
+            </div>
+        </nav>
+        <div class="container is-fluid">
+            <div class="columns">
+                <nav class="column is-one-quarter has-background-dark has-text-white sidebar is-hidden-mobile">
+                    <div class="content has-text-white">
+                        <p>This is sidebar</p>
+                    </div>
                 </nav>
-                <div class="col-md-9 ms-sm-auto col-lg-10">
-                    <main id="todo-app">
-                        <p>The application pane is below</p>
-                        <form id="todo-form">
-                            <input type="text" id="todo-input" placeholder="Add a to-do item">
-                            <button type="submit" class="btn btn-primary">Add</button>
-                        </form>
-                        <ul id="todo-list"></ul>
+                <div class="column">
+                    <main id="todo-app" class="section">
+                        <div class="content">
+                            <p>The application pane is below</p>
+                            <form id="todo-form">
+                                <div class="field has-addons">
+                                    <div class="control is-expanded">
+                                        <input class="input" type="text" id="todo-input" placeholder="Add a to-do item">
+                                    </div>
+                                    <div class="control">
+                                        <button type="submit" class="button is-primary">Add</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <ul id="todo-list"></ul>
+                        </div>
                     </main>
-                    {{ content }}
+                    <div class="section">
+                        {{ content }}
+                    </div>
                 </div>
             </div>
         </div>

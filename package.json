@@ -5,14 +5,10 @@
   "main": "assets/sass/mybulma.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "js-build": "webpack --mode development",
-    "js-watch": "npm run js-build -- --watch",
     "css-build": "sass assets/sass/mybulma.scss assets/css/mybulma.css",
-    "csst-build": "postcss assets/tailwind/site.css -o assets/css/site.css",
     "css-watch": "npm run css-build -- --watch",
-    "csst-watch": "npm run csst-build -- --watch",
     "serve": "bundle exec jekyll serve --livereload",
-    "start": "npm-run-all --parallel css-watch csst-watch js-watch serve"
+    "start": "npm-run-all --parallel css-watch serve"
   },
   "repository": {
     "type": "git",
@@ -21,7 +17,7 @@
   "keywords": [
     "sass",
     "homepage",
-    "tailwindjs"
+    "jekyll"
   ],
   "author": "Vaibhav Bhandari",
   "license": "MIT",
@@ -30,28 +26,8 @@
   },
   "homepage": "https://github.com/vaibhavb/vitraag#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/plugin-proposal-class-properties": "^7.12.13",
-    "@babel/preset-env": "^7.12.16",
-    "@babel/preset-react": "^7.12.13",
-    "@picocss/pico": "^1.5.10",
-    "autoprefixer": "^10.2.5",
-    "babel-loader": "^8.2.2",
     "bulma": "^0.9.4",
-    "css-loader": "^5.2.5",
     "npm-run-all": "^4.1.5",
-    "papaparse": "^5.3.0",
-    "postcss": "^8.2.15",
-    "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.2",
-    "postcss-loader": "^5.3.0",
-    "react": "^17.0.1",
-    "react-addons-update": "^15.6.3",
-    "react-dom": "^17.0.1",
-    "sass": "^1.53.0",
-    "style-loader": "^2.0.0",
-    "tailwindcss": "^2.1.2",
-    "webpack": "^5.21.2",
-    "webpack-cli": "^4.5.0"
+    "sass": "^1.53.0"
   }
 }
