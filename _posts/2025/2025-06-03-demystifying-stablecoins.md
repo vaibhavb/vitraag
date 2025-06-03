@@ -6,7 +6,6 @@ layout: post
 slug: demystifying-stablecoins
 title: Demystifying Stablecoins
 categories:
-    - hackathon
     - python
     - blockchain
 ---
