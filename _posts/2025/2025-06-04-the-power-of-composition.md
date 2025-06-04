@@ -77,10 +77,10 @@ MyBetterClass
 You can confirm it with: `MyBetterClass.ancestors`
 
 ### Why Ruby Mixins Shine
--Behavior Injection: Extend any class with functionality without inheritance or monkey-patching.
--Linear, Predictable Lookup: Avoids ambiguity of multiple inheritance.
--Minimal Boilerplate: No need for interfaces or abstract base classes.
--Dynamic and Flexible: Mixins can be conditionally included or extended at runtime.
+- Behavior Injection: Extend any class with functionality without inheritance or monkey-patching.
+- Linear, Predictable Lookup: Avoids ambiguity of multiple inheritance.
+- Minimal Boilerplate: No need for interfaces or abstract base classes.
+- Dynamic and Flexible: Mixins can be conditionally included or extended at runtime.
 
 ## Part 2: Traits in Rust
 Rust is statically typed and prioritizes safety, zero-cost abstractions, and explicitness. It doesn’t have classes or inheritance. Instead, it uses traits to define shared behavior.
@@ -123,8 +123,9 @@ fn main() {
 - Safe and Explicit: No accidental overrides or surprising inheritance chains.
 
 ## Ruby Mixins vs Rust Traits
-| Feature                  | Ruby Mixins                         | Rust Traits                          |
-|--------------------------|--------------------------------------|---------------------------------------|
+
+| Feature                  | Ruby Mixins                         | Rust Traits                           |
+|--------------------------|-------------------------------------|---------------------------------------|
 | Typing                   | Dynamic                             | Static                                |
 | Inheritance              | Single inheritance + mixins         | No inheritance                        |
 | Behavior Reuse           | `include Module`                    | `impl Trait for Type`                 |
@@ -132,6 +133,7 @@ fn main() {
 | Method Lookup            | At runtime                          | At compile time                       |
 | Composition Philosophy   | Flexible and implicit               | Safe and explicit                     |
 | Multiple Inclusion Order | Linear, introspectable              | Controlled via trait bounds           |
+
 
 ## Conclusion
 Ruby and Rust both offer elegant ways to compose behavior:
