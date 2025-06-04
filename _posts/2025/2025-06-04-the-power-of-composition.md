@@ -4,7 +4,7 @@ comments: true
 date: 2025-06-04T00:18:18Z
 layout: post
 slug: the-power-of-composition-with-mixins
-title: The Power Of Compsition With Mixins
+title: The Power Of Composition With Mixins
 categories:
     - ruby
     - rust
@@ -137,8 +137,9 @@ fn main() {
 
 ## Conclusion
 Ruby and Rust both offer elegant ways to compose behavior:
-    - Ruby's mixins give you runtime flexibility, ideal for rapid prototyping and DSLs.
-    - Rust's traits give you compile-time safety and performance, great for scalable, maintainable systems.
+
+- Ruby's mixins give you runtime flexibility, ideal for rapid prototyping and DSLs.
+- Rust's traits give you compile-time safety and performance, great for scalable, maintainable systems.
 
 Both avoid the trap of deep or multiple inheritance by encouraging modular, reusable, and overrideable behavior containers.
 
