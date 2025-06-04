@@ -5,6 +5,16 @@
     "url": "https://www.chappell-university.com/lauras-lab"
   },
   {
+    "date": "2025-06-03",
+    "title": "HackTricks - HackTricks",
+    "url": "https://book.hacktricks.wiki/en/index.html"
+  },
+  {
+    "date": "2025-06-03",
+    "title": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation – Sean Heelan's Blog",
+    "url": "https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-483&_bhlid=b5291e51c4cf2fed31e93ab9494f1970eafe8403"
+  },
+  {
     "date": "2025-05-28",
     "title": "On the Biology of a Large Language Model",
     "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-482&_bhlid=759a10922114868d2dd040ca93ac917f9d156569"
