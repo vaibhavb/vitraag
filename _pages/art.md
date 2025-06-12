@@ -7,6 +7,13 @@ categories:
     - art
 ---
 # List of Art Projects:
+
+## 2025
+* Ishita Birthday Pillow - Photo
+* DJ Set @ Pacific @ unSCruz 2025 - Sounds Cloud
+* Green Fairy @ unSCruz 2025 - Poetry Game
+* Vaidehi Birthday Art - Photo
+
 ## 2024
 * Pacific Signage
 * Pacific Dolphins

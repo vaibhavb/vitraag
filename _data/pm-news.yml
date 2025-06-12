@@ -1,3 +1,29 @@
+- date: 2025-06-12
+  news-items:
+    - desc: "What Successful Product Organizations Have in Common: Emphasizes that 'doing the work' is a real superpower."
+      link: "https://www.petra-wille.com/blog/what-successful-product-organizations-have-in-common"
+    - desc: "Treat your company as a product: Focuses on treating aspects like meetings as products, highlighting the importance of being result-oriented."
+      link: "https://members.outcomeedge.com/p/treat-your-company-as-a-product"
+    - desc: "Designing Frameworks with Clarity: Explores the art of framework design, encouraging personal framework creation."
+      link: "https://www.franziskabeeler.com/post/designing-frameworks-with-clarity"
+    - desc: "Intelligence on Earth Evolved Independently at Least Twice."
+      link: "https://www.wired.com/story/intelligence-evolved-at-least-twice-in-vertebrate-animals/"
+    - desc: "The #1 AI Copilot for Product Managers."
+      link: "https://www.chatprd.ai/"
+    - desc: "AI Junior PM: A pitch deck illustrating an AI product management startup."
+      link: "https://www.businessinsider.com/pitch-deck-ai-product-management-startup-thriveai-preseed-round-2025-5"
+    - desc: "The effect of ChatGPT on students’ learning performance, learning perception, and higher-order thinking: A meta-analysis suggesting AI is a multiplier, enhancing good outcomes and worsening bad ones."
+      link: "https://www.nature.com/articles/s41599-025-04787-y"
+    - desc: "How to Write a Product Strategy in 1 Day / 1 Week / 1 Month."
+      link: "https://www.news.aakashg.com/p/strategy-in-1-day-week-month"
+    - desc: "Your Guide to AI Product Strategy."
+      link: "https://www.news.aakashg.com/p/ai-product-strategy"
+    - desc: "WTF is an AI Product Manager?: Discusses the responsibility of Product Managers for product failures and team effort for successes."
+      link: "https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email"
+    - desc: "A Proven AI PRD Template by Miqdad Jaffer (Product Lead @ OpenAI): An excellent AI Product Requirements Document template with key questions and answers."
+      link: "https://www.productcompass.pm/p/ai-prd-template"
+    - desc: "The Art of the Micro-Impression: Forging Genuine Rapport with Senior Leaders: Highlights building professional relationships through small, consistent 'micro-impressions' with practical strategies."
+      link: "https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging"
 - date: 2025-05-05
   news-items:
     - desc: "Product Discovery with Internal Customers - All Things Product with Teresa & Petra"
@@ -66,7 +92,6 @@
       link: https://x.com/aakashg0/status/1881431763651620952
     - desc: How to build trust as an engineering leader. The trust equation -- delegate after active listening!
       link: https://newsletter.eng-leadership.com/p/how-to-build-trust-as-an-engineering
-
 - date: 2024-12-31
   news-items:
     - desc: "An article explores how to rethink decision-making frameworks for prioritizing problems, helping teams focus on impactful and strategic solutions."
@@ -101,4 +126,3 @@
       link: "https://www.lennysnewsletter.com/p/finding-your-bullseye-customer-michael-margolis"
     - desc: "Bent Flyvbjerg’s 'How Big Things Get Done' advocates for meticulous planning followed by decisive action to reduce risks in project management."
       link: "https://cutlefish.substack.com/p/tbm-325-skeptoptimism-thinking-slow"
-

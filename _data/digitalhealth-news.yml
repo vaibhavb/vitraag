@@ -1,3 +1,13 @@
+- date: 2025-06-12
+  news-items:
+    - desc: "Omada Health shares rise in Nasdaq debut as digital health IPO market reopens"
+      link: "https://www.fiercehealthcare.com/digital-health/omada-health-shares-rise-nasdaq-debut-digital-health-ipo-market-reopens"
+    - desc: "Clinicians can ‘chat’ with medical records through new AI software, ChatEHR"
+      link: "https://med.stanford.edu/news/all-news/2025/06/chatehr.html"
+    - desc: "AI Drug Startup Touts Promising Advance in Treating Lung Disease: Insilico Medicine, has achieved a clinical first: a drug developed using artificial intelligence"
+      link: "https://www.bloomberg.com/news/articles/2025-06-03/ai-drug-startup-touts-promising-advance-in-treating-lung-disease"
+    - desc: "Exclusive look at Nourish's new suite of AI tools for patients and providers: Billion Dollar Valuation of Nourish"
+      link: "https://www.fiercehealthcare.com/digital-health/exclusive-look-nourishs-latest-suite-ai-tools-patients-providers"
 - date: 2025-05-27
   news-items:
     - desc: "data from HealthKit"

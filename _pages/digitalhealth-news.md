@@ -1,5 +1,4 @@
 ---
-date: 2025-05-27 13:06:01:00+00:00
 layout: news
 title: Digital Health  News
 permalink: /digitalhealth-news
