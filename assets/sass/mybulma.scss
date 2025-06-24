@@ -1,8 +1,13 @@
 @charset "utf-8";
-@import "./theme-spring.scss";
-$salmon: $cherry-bloom;
+@import "./theme-summer.scss";
+$border-color: $coral-reef;
+$border-color-start: $palm-green;
 
-@import "../../node_modules/bulma/bulma.sass";
+$navbar-height: 3.25rem !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+
+@import "bulma/bulma";
 
 // Override the navbar positioning
 $navbar-fixed-z: 30 !default;
@@ -21,15 +26,15 @@ $navbar-fixed-z: 30 !default;
 // Add body spacing
 body {
     padding-top: $navbar-height;
-    border-top: 0px solid salmon;
-    border-bottom: 0px solid salmon;
+    border-top: 0px solid $border-color;
+    border-bottom: 0px solid $border-color;
     border-left: 0;
     border-right: 0;
-    border-image: linear-gradient(to right, #00d1b2, salmon) 1 stretch;
+    border-image: linear-gradient(to right, $border-color-start, $border-color) 1 stretch;
 }
 
 body, html {
-    background-color:  hsl(0, 0%, 98%);
+    background-color: $body-background-color;
 }
 
 .content {
