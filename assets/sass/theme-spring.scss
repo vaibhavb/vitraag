@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Spring Theme Variables
 // Colors inspired by spring blooms and fresh growth
 // 1. Base Spring Colors
@@ -13,15 +15,17 @@ $pollen-gold: #EFC050;       // Bright pollen gold
 // 2. Theme Assignment
 $primary: $meadow-blue;
 $info: $spring-sky;
-$success: darken($new-leaf, 25%);
+$success: color.adjust($new-leaf, $lightness: -25%);
 $warning: $pollen-gold;
 $danger: $cherry-bloom;
 $link: $spring-dawn;
 $link-hover: $cherry-bloom;
+$border-color: $spring-sky;
+$border-color-start: $pollen-gold;
 
 // 3. Custom Color Variations
-$primary-light: lighten($primary, 15%);
-$primary-dark: darken($primary, 15%);
+$primary-light: color.adjust($primary, $lightness: 15%);
+$primary-dark: color.adjust($primary, $lightness: -15%);
 $primary-invert: findColorInvert($primary);
 
 // 4. Background and Text Colors
@@ -50,4 +54,4 @@ $input-focus-box-shadow-color: rgba($meadow-blue, 0.25);
 
 // 8. Table Styles
 $table-background-color: $blossom-white;
-$table-striped-row-even-background-color: mix($blossom-white, $petal-pink, 90%);
+$table-striped-row-even-background-color: color.mix($blossom-white, $petal-pink, 90%);

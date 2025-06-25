@@ -1,53 +1,59 @@
+@use "sass:color";
+
 // Summer Theme Variables
 // Colors inspired by warm summer days, tropical vibes, and sunny beaches
 // 1. Base Summer Colors
-$sunset-cream: #FFF8E1;          // Warm cream like sunset
-$ocean-blue: #0077BE;            // Deep ocean blue
-$coral-reef: #FF6B6B;            // Vibrant coral
-$palm-green: #4ECDC4;            // Tropical palm green
-$sun-gold: #FFD93D;              // Bright summer sun
-$sandy-beige: #F5E6D3;           // Warm sandy beach
-$tropical-orange: #FF8C42;       // Sunset orange
-$sea-foam: #A8E6CF;              // Light sea foam green
+$summer-sky: #87CEEB;            // Bright summer sky blue
+$tropical-turquoise: #40E0D0;    // Vibrant tropical turquoise
+$sunset-coral: #FF7F7F;          // Warm coral sunset
+$golden-sand: #F4A460;           // Golden sandy beach
+$sunshine-yellow: #FFD700;       // Bright sunshine yellow
+$palm-leaf: #32CD32;             // Fresh palm leaf green
+$flamingo-pink: #FF69B4;         // Tropical flamingo pink
+$ocean-teal: #008B8B;            // Deep ocean teal
+$mango-orange: #FF8C00;          // Tropical mango orange
+$coconut-white: #FFFEF7;         // Coconut cream white
 
 // 2. Theme Assignment
-$primary: $palm-green !default;
-$info: $ocean-blue;
-$success: darken($sea-foam, 25%);
-$warning: $sun-gold;
-$danger: $coral-reef;
-$link: $tropical-orange;
-$link-hover: $coral-reef;
+$primary: $tropical-turquoise;
+$info: $summer-sky;
+$success: $palm-leaf;
+$warning: $sunshine-yellow;
+$danger: $sunset-coral;
+$link: $mango-orange;
+$link-hover: $flamingo-pink;
+$border-color: $coconut-white;
+$border-color-start: $golden-sand;
+
 
 // 3. Custom Color Variations
-$primary-light: lighten($primary, 15%);
-$primary-dark: darken($primary, 15%);
+$primary-light: color.adjust($primary, $lightness: 15%);
+$primary-dark: color.adjust($primary, $lightness: -15%);
 $primary-invert: findColorInvert($primary);
 
 // 4. Background and Text Colors
-$body-background-color: hsl(0,0%, 98%);
-$text: #2C3E50;                  // Deep blue-grey for readability
-$text-strong: #1A252F;           // Darker blue-grey
+$body-background-color: $coconut-white;
+$text: $ocean-teal;              // Deep teal for readability
+$text-strong: color.adjust($ocean-teal, $lightness: -10%);  // Darker teal
 
 // 5. Component-Specific Overrides
-$button-hover-color: $ocean-blue;
-$button-focus-color: $ocean-blue;
-$navbar-background-color: $palm-green;
+$button-hover-color: $summer-sky;
+$button-focus-color: $summer-sky;
 $navbar-item-color: $primary-invert;
-$card-background-color: rgba($sandy-beige, 0.9);
-$footer-background-color: #2C3E50;
-$footer-color: $sunset-cream;
+$card-background-color: rgba($coconut-white, 0.9);
+$footer-background-color: $ocean-teal;
+$footer-color: $coconut-white;
 
 // 6. Border and Shadow Styles
-$border: $sea-foam;
+$border: $golden-sand;
 $radius: 6px;
-$shadow: 0 4px 8px rgba($ocean-blue, 0.15);
+$shadow: 0 4px 8px rgba($ocean-teal, 0.15);
 
 // 7. Input and Form Styles
-$input-border-color: $sea-foam;
-$input-focus-border-color: $palm-green;
-$input-focus-box-shadow-color: rgba($palm-green, 0.25);
+$input-border-color: $tropical-turquoise;
+$input-focus-border-color: $tropical-turquoise;
+$input-focus-box-shadow-color: rgba($tropical-turquoise, 0.25);
 
 // 8. Table Styles
-$table-background-color: $sunset-cream;
-$table-striped-row-even-background-color: mix($sunset-cream, $sandy-beige, 80%);
+$table-background-color: $coconut-white;
+$table-striped-row-even-background-color: color.mix($coconut-white, $golden-sand, 80%);

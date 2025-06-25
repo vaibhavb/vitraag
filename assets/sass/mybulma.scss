@@ -1,13 +1,65 @@
 @charset "utf-8";
-@import "./theme-summer.scss";
-$border-color: $coral-reef;
-$border-color-start: $palm-green;
+@use "sass:color";
+@use "./theme-summer.scss" as theme;
+@use "bulma/bulma";
+
+$border-color: theme.$border-color;
+$border-color-start: theme.$border-color-start;
 
 $navbar-height: 3.25rem !default;
 $white: #ffffff !default;
 $black: #000000 !default;
 
-@import "bulma/bulma";
+:root {
+  // Primary color HSL components
+  --bulma-primary-h: #{color.channel(theme.$primary, "hue", $space: hsl)};
+  --bulma-primary-s: #{color.channel(theme.$primary, "saturation", $space: hsl)};
+  --bulma-primary-l: #{color.channel(theme.$primary, "lightness", $space: hsl)};
+  --bulma-primary-invert-l: #{color.invert(theme.$primary)};
+  
+  // Info color HSL components  
+  --bulma-info-h: #{color.channel(theme.$info, "hue", $space: hsl)};
+  --bulma-info-s: #{color.channel(theme.$info, "saturation", $space: hsl)};
+  --bulma-info-l: #{color.channel(theme.$info, "lightness", $space: hsl)};
+  --bulma-info-invert-l: #{color.channel(color.invert(theme.$info), "lightness", $space: hsl)};
+  
+  // Success color HSL components
+  --bulma-success-h: #{color.channel(theme.$success, "hue", $space: hsl)};
+  --bulma-success-s: #{color.channel(theme.$success, "saturation", $space: hsl)};
+  --bulma-success-l: #{color.channel(theme.$success, "lightness", $space: hsl)};
+  --bulma-success-invert-l: #{color.channel(color.invert(theme.$success), "lightness", $space: hsl)};
+  
+  // Warning color HSL components
+  --bulma-warning-h: #{color.channel(theme.$warning, "hue", $space: hsl)};
+  --bulma-warning-s: #{color.channel(theme.$warning, "saturation", $space: hsl)};
+  --bulma-warning-l: #{color.channel(theme.$warning, "lightness", $space: hsl)};
+  --bulma-warning-invert-l: #{color.channel(color.invert(theme.$warning), "lightness", $space: hsl)};
+  
+  // Danger color HSL components
+  --bulma-danger-h: #{color.channel(theme.$danger, "hue", $space: hsl)};
+  --bulma-danger-s: #{color.channel(theme.$danger, "saturation", $space: hsl)};
+  --bulma-danger-l: #{color.channel(theme.$danger, "lightness", $space: hsl)};
+  --bulma-danger-invert-l: #{color.channel(color.invert(theme.$danger), "lightness", $space: hsl)};
+  
+  // Link color HSL components
+  --bulma-link-h: #{color.channel(theme.$link, "hue", $space: hsl)};
+  --bulma-link-s: #{color.channel(theme.$link, "saturation", $space: hsl)};
+  --bulma-link-l: #{color.channel(theme.$link, "lightness", $space: hsl)};
+  --bulma-link-invert-l: #{color.channel(color.invert(theme.$link), "lightness", $space: hsl)};
+  
+  // Body background
+  --bulma-body-background-color: #{theme.$body-background-color};
+
+  // Footer
+  --footer-background: #{color.adjust(theme.$primary, $lightness: -15%)};    // Darker coral
+  --footer-text: #{theme.$body-background-color};         // Light cream
+  --footer-link: #{color.adjust(theme.$info, $lightness: 10%)};           // Lighter turquoise
+  --footer-link-hover: #{color.adjust(theme.$info, $lightness: 20%)};     // Even lighter turquoise
+}
+
+a.button.is-link {
+  color: var(--footer-text);
+}
 
 // Override the navbar positioning
 $navbar-fixed-z: 30 !default;
@@ -34,7 +86,7 @@ body {
 }
 
 body, html {
-    background-color: $body-background-color;
+    background-color: var(--bulma-body-background-color);
 }
 
 .content {
@@ -143,20 +195,20 @@ body, html {
   height: 15px;
   margin: 1px;
 }
+
 .footer {
-  color: $white; // Set text and icon color to white
-  background-color: $black; // Set background to black or any dark color
+  color: var(--footer-text);
+  background-color: var(--footer-background); // Set background to black or any dark color
   
   a {
-    color: $white; // Ensure links are white
+    color: var(--footer-link); // Ensure links are white
     &:hover {
-      color: lighten($white, 20%); // Lighten color on hover for effect
+      color: var(--footer-link-hover); // Lighten color on hover for effect
     }
   }
 
   strong,
   .credit {
-    color: $white; // Ensure text elements are also white
+    color: var(--footer-text); // Ensure text elements are also white
   }
 }
-
