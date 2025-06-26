@@ -150,4 +150,4 @@ The demo application below demonstrates these concepts in practice, allowing exp
 
 Check out the app at: https://github.com/vaibhavb/pharmacode 
 
-![App](assets/images/2025/pharmacode.jpg)
+![App](/assets/images/2025/pharmacode.jpg)
