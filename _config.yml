@@ -29,3 +29,4 @@ defaults:
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
