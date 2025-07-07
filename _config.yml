@@ -5,7 +5,7 @@ email: vaibhavb@gmail.com
 description: Vaibhav Bhandari Homepage
 baseurl: ""
 images: "/assets/images"
-url: "https://www.vitraag.com/"
+url: "https://www.vitraag.com"
 
 #Exclude
 exclude: [data-runners, vendor, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules/*, assets/webpack, _includes/notes_graph.json]
