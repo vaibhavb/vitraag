@@ -151,12 +151,50 @@ class NewsFileUpdater:
         print(f"Total items added: {total_items}")
         print(f"Backup suffix: {self.backup_suffix}")
         
-        if success_count == len([c for c in data['categories'].values() if c['items']]):
+        categories_with_items = [c for c in data['categories'].values() if c['items']]
+        if success_count == len(categories_with_items):
             print(f"\n🎉 All updates completed successfully!")
+            
+            # Clean up backup files after successful updates
+            updated_categories = [category for category, content in data['categories'].items() if content['items']]
+            cleanup_success = self.cleanup_backups(updated_categories)
+            
+            if cleanup_success:
+                print(f"✅ Cleanup completed successfully!")
+            else:
+                print(f"⚠️  Some backup files could not be cleaned (updates still successful)")
+            
             return True
         else:
             print(f"\n⚠️  Some updates failed. Check individual file results above.")
+            print(f"   📝 Backup files preserved for recovery")
             return False
+    
+    def cleanup_backups(self, categories: List[str]) -> bool:
+        """Remove backup files after successful updates"""
+        print("\n🧹 Cleaning up backup files...")
+        cleanup_success = True
+        cleaned_count = 0
+        
+        for category in categories:
+            file_path = self.data_dir / f"{category}.yml"
+            backup_path = file_path.with_suffix(f"{file_path.suffix}{self.backup_suffix}")
+            
+            if backup_path.exists():
+                try:
+                    backup_path.unlink()
+                    print(f"   ✅ Removed backup: {backup_path.name}")
+                    cleaned_count += 1
+                except Exception as e:
+                    print(f"   ⚠️  Error removing backup {backup_path.name}: {e}")
+                    cleanup_success = False
+        
+        if cleaned_count > 0:
+            print(f"   📊 Cleaned {cleaned_count} backup files")
+        else:
+            print("   📊 No backup files to clean")
+        
+        return cleanup_success
     
     def restore_from_backup(self, category: str) -> bool:
         """Restore file from backup"""

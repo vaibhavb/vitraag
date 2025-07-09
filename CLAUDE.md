@@ -93,18 +93,45 @@ Proceed with file updates? [y/n]
 1. Create backups of existing _data files
 2. Generate YAML entries (all items under target_date)
 3. Prepend new entries to existing files
-4. Provide update summary
+4. Clean up backup files after successful updates
+5. Provide update summary
 
 **Example Usage:**
 ```bash
 python news_updater.py --input handoff_data.json
 ```
 
+### Phase 4: Post-Processing (Git Operations)
+
+**After successful Python script execution:**
+1. **Git add**: Stage all modified YAML files
+2. **Git commit**: Create descriptive commit message
+3. **Git pull**: Sync with remote repository
+4. **Git push**: Push changes to remote
+
+**Example Commands:**
+```bash
+# Stage modified files
+git add _data/*.yml
+
+# Commit with descriptive message
+git commit -m "Weekly news update $(date +%Y-%m-%d): Add X items across Y categories
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+
+# Sync and push
+git pull && git push
+```
+
 ### Error Handling
 - **MCP Connection Issues**: Retry with fallback search
 - **AI API Errors**: Use original descriptions
-- **File Operation Errors**: Restore from backups
+- **File Operation Errors**: Restore from backups using `--restore` flag
 - **Validation Errors**: Show detailed error messages
+- **Git Operation Errors**: Manual resolution required, backups preserved if Python script failed
+- **Cleanup Errors**: Backup files preserved, updates still successful
 
 ### File Structure After Update
 ```yaml
@@ -124,6 +151,7 @@ python news_updater.py --input handoff_data.json
 - No duplicate news items
 - All links are valid and accessible
 - YAML structure matches existing format
-- Backups created before any changes
+- Backup files automatically cleaned after successful updates
+- Git operations complete successfully with proper commit messages
 
 - 
