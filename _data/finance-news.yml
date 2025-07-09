@@ -1,4 +1,29 @@
+- date: '2025-07-09'
+  news-items:
+  - desc: UK regulators finalize comprehensive rules for private stock market operations,
+      establishing framework for alternative trading venues.
+    link: https://pitchbook.com/news/articles/uk-sets-final-rules-on-pisces-private-stock-market
+  - desc: LlamaCloud services demonstrate AI-powered asset manager fund analysis capabilities
+      through comprehensive Jupyter notebook implementation.
+    link: https://github.com/run-llama/llama_cloud_services/blob/main/examples/extract/asset_manager_fund_analysis.ipynb
+  - desc: Analysis of Terry Smith's investment strategies and methodologies that consistently
+      outperform market benchmarks.
+    link: https://www.investinassets.net/p/how-terry-smith-beats-the-market
+- date: '2025-07-09'
+  news-items:
+  - desc: UK regulators finalize comprehensive rules for private stock market operations,
+      establishing framework for alternative trading venues.
+    link: https://pitchbook.com/news/articles/uk-sets-final-rules-on-pisces-private-stock-market
+  - desc: LlamaCloud services demonstrate AI-powered asset manager fund analysis capabilities
+      through comprehensive Jupyter notebook implementation.
+    link: https://github.com/run-llama/llama_cloud_services/blob/main/examples/extract/asset_manager_fund_analysis.ipynb
+  - desc: Analysis of Terry Smith's investment strategies and methodologies that consistently
+      outperform market benchmarks.
+    link: https://www.investinassets.net/p/how-terry-smith-beats-the-market
 - date: 2025-06-12
   news-items:
-  - desc: "UK sets final rules on private stock market. The Financial Conduct Authority (FCA) has finalized rules for the Private Intermittent Securities and Capital Exchange System (PISCES), a new platform to facilitate trading in shares of private companies."
-    link: "https://pitchbook.com/news/articles/uk-sets-final-rules-on-pisces-private-stock-market"
+  - desc: UK sets final rules on private stock market. The Financial Conduct Authority
+      (FCA) has finalized rules for the Private Intermittent Securities and Capital
+      Exchange System (PISCES), a new platform to facilitate trading in shares of
+      private companies.
+    link: https://pitchbook.com/news/articles/uk-sets-final-rules-on-pisces-private-stock-market

@@ -28,6 +28,66 @@
   - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
       across multiple cloud platforms and services.
     link: https://github.com/carlospolop/CloudPEASS
+- date: '2025-07-09'
+  news-items:
+  - desc: Wiz releases comprehensive coding rules file for safer development practices,
+      providing security guidelines for application development and vulnerability
+      prevention.
+    link: https://www.wiz.io/blog/safer-vibe-coding-rules-files
+  - desc: Cloud Security Alliance publishes Secure Vibe Coding Guide, empowering citizen
+      developers with essential security best practices and development patterns.
+    link: https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide
+  - desc: LevelBlue announces acquisition of Trustwave, positioning itself as the
+      largest pure-play managed security services provider in the cybersecurity market.
+    link: https://www.trustwave.com/en-us/company/newsroom/news/levelblue-to-acquire-trustwave-becoming-largest-pure-play-managed-security-services-provider/
+  - desc: Critical vulnerabilities CVE-2025-53109 and CVE-2025-53110 discovered in
+      Anthropic's EscapeRoute system, highlighting security risks in AI infrastructure.
+    link: https://cymulate.com/blog/cve-2025-53109-53110-escaperoute-anthropic/
+  - desc: Daniel Miessler introduces Substrate, a new security framework for threat
+      detection and incident response automation.
+    link: https://danielmiessler.com/blog/introducing-substrate
+  - desc: Sophos demonstrates how artificial intelligence can be leveraged to identify
+      cybercrime masterminds through advanced pattern recognition and behavioral analysis.
+    link: https://news.sophos.com/en-us/2025/06/30/using-ai-to-identify-cybercrime-masterminds/
+  - desc: AWS tutorial demonstrating how to create and manage security team permissions
+      in IAM Identity Center for enhanced cloud security governance.
+    link: https://www.youtube.com/watch?v=914HljkRPDk
+  - desc: XBOW secures $75 million Series B funding to advance AI-powered cybersecurity
+      solutions and autonomous threat detection capabilities.
+    link: https://xbow.com/
+  - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
+      across multiple cloud platforms and services.
+    link: https://github.com/carlospolop/CloudPEASS
+- date: '2025-07-09'
+  news-items:
+  - desc: Wiz releases comprehensive coding rules file for safer development practices,
+      providing security guidelines for application development and vulnerability
+      prevention.
+    link: https://www.wiz.io/blog/safer-vibe-coding-rules-files
+  - desc: Cloud Security Alliance publishes Secure Vibe Coding Guide, empowering citizen
+      developers with essential security best practices and development patterns.
+    link: https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide
+  - desc: LevelBlue announces acquisition of Trustwave, positioning itself as the
+      largest pure-play managed security services provider in the cybersecurity market.
+    link: https://www.trustwave.com/en-us/company/newsroom/news/levelblue-to-acquire-trustwave-becoming-largest-pure-play-managed-security-services-provider/
+  - desc: Critical vulnerabilities CVE-2025-53109 and CVE-2025-53110 discovered in
+      Anthropic's EscapeRoute system, highlighting security risks in AI infrastructure.
+    link: https://cymulate.com/blog/cve-2025-53109-53110-escaperoute-anthropic/
+  - desc: Daniel Miessler introduces Substrate, a new security framework for threat
+      detection and incident response automation.
+    link: https://danielmiessler.com/blog/introducing-substrate
+  - desc: Sophos demonstrates how artificial intelligence can be leveraged to identify
+      cybercrime masterminds through advanced pattern recognition and behavioral analysis.
+    link: https://news.sophos.com/en-us/2025/06/30/using-ai-to-identify-cybercrime-masterminds/
+  - desc: AWS tutorial demonstrating how to create and manage security team permissions
+      in IAM Identity Center for enhanced cloud security governance.
+    link: https://www.youtube.com/watch?v=914HljkRPDk
+  - desc: XBOW secures $75 million Series B funding to advance AI-powered cybersecurity
+      solutions and autonomous threat detection capabilities.
+    link: https://xbow.com/
+  - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
+      across multiple cloud platforms and services.
+    link: https://github.com/carlospolop/CloudPEASS
 - date: 2025-06-12
   news-items:
   - desc: A perfect cybersecurity startup idea - good blog on what to consider when

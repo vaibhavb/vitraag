@@ -1,128 +1,217 @@
+- date: '2025-07-09'
+  news-items:
+  - desc: John Cutler explores how real work behaves more like a fabric than a cascade,
+      with strategy and feedback moving in all directions rather than following traditional
+      top-down hierarchies.
+    link: https://cutlefish.substack.com/p/tbm-365-the-problem-with-value-hierarchies
+  - desc: Alex Ewerlof discusses how Wardley maps serve as GPS for technology decisions
+      and how pace layering helps understand different rates of change in complex
+      systems.
+    link: https://blog.alexewerlof.com/p/wardley-maps-and-pace-layering-for?_bhlid=ed6f0b480d615bc24f81f9c878f80f4784e75491
+  - desc: Martin Fowler examines the concept of expert generalists and their unique
+      value in bridging specialized knowledge across different domains.
+    link: https://martinfowler.com/articles/expert-generalist.html?&aid=rec6zLGCmWGqATFA4&_bhlid=dff37b3d2021d2b59df1dc8ea918bccf3a2047fe
+  - desc: An interactive visualization tool that maps GitHub repositories and their
+      relationships, providing insights into the open source ecosystem.
+    link: https://anvaka.github.io/map-of-github/#2/0/0
+  - desc: A guide on building strong professional relationships with senior leaders
+      through small, consistent, and genuine 'micro-impressions' rather than grand
+      gestures.
+    link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
+  - desc: Product Compass explores the evolving role of AI Product Managers and discusses
+      how product success is attributed to team effort while failures often fall on
+      the PM.
+    link: https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email
+  - desc: Miqdad Jaffer from OpenAI shares a comprehensive AI PRD template with key
+      questions and frameworks for building AI products effectively.
+    link: https://www.productcompass.pm/p/ai-prd-template
+- date: '2025-07-09'
+  news-items:
+  - desc: John Cutler explores how real work behaves more like a fabric than a cascade,
+      with strategy and feedback moving in all directions rather than following traditional
+      top-down hierarchies.
+    link: https://cutlefish.substack.com/p/tbm-365-the-problem-with-value-hierarchies
+  - desc: Alex Ewerlof discusses how Wardley maps serve as GPS for technology decisions
+      and how pace layering helps understand different rates of change in complex
+      systems.
+    link: https://blog.alexewerlof.com/p/wardley-maps-and-pace-layering-for?_bhlid=ed6f0b480d615bc24f81f9c878f80f4784e75491
+  - desc: Martin Fowler examines the concept of expert generalists and their unique
+      value in bridging specialized knowledge across different domains.
+    link: https://martinfowler.com/articles/expert-generalist.html?&aid=rec6zLGCmWGqATFA4&_bhlid=dff37b3d2021d2b59df1dc8ea918bccf3a2047fe
+  - desc: An interactive visualization tool that maps GitHub repositories and their
+      relationships, providing insights into the open source ecosystem.
+    link: https://anvaka.github.io/map-of-github/#2/0/0
+  - desc: A guide on building strong professional relationships with senior leaders
+      through small, consistent, and genuine 'micro-impressions' rather than grand
+      gestures.
+    link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
+  - desc: Product Compass explores the evolving role of AI Product Managers and discusses
+      how product success is attributed to team effort while failures often fall on
+      the PM.
+    link: https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email
+  - desc: Miqdad Jaffer from OpenAI shares a comprehensive AI PRD template with key
+      questions and frameworks for building AI products effectively.
+    link: https://www.productcompass.pm/p/ai-prd-template
 - date: 2025-06-12
   news-items:
-    - desc: "What Successful Product Organizations Have in Common: Emphasizes that 'doing the work' is a real superpower."
-      link: "https://www.petra-wille.com/blog/what-successful-product-organizations-have-in-common"
-    - desc: "Treat your company as a product: Focuses on treating aspects like meetings as products, highlighting the importance of being result-oriented."
-      link: "https://members.outcomeedge.com/p/treat-your-company-as-a-product"
-    - desc: "Designing Frameworks with Clarity: Explores the art of framework design, encouraging personal framework creation."
-      link: "https://www.franziskabeeler.com/post/designing-frameworks-with-clarity"
-    - desc: "Intelligence on Earth Evolved Independently at Least Twice."
-      link: "https://www.wired.com/story/intelligence-evolved-at-least-twice-in-vertebrate-animals/"
-    - desc: "The #1 AI Copilot for Product Managers."
-      link: "https://www.chatprd.ai/"
-    - desc: "AI Junior PM: A pitch deck illustrating an AI product management startup."
-      link: "https://www.businessinsider.com/pitch-deck-ai-product-management-startup-thriveai-preseed-round-2025-5"
-    - desc: "The effect of ChatGPT on students’ learning performance, learning perception, and higher-order thinking: A meta-analysis suggesting AI is a multiplier, enhancing good outcomes and worsening bad ones."
-      link: "https://www.nature.com/articles/s41599-025-04787-y"
-    - desc: "How to Write a Product Strategy in 1 Day / 1 Week / 1 Month."
-      link: "https://www.news.aakashg.com/p/strategy-in-1-day-week-month"
-    - desc: "Your Guide to AI Product Strategy."
-      link: "https://www.news.aakashg.com/p/ai-product-strategy"
-    - desc: "WTF is an AI Product Manager?: Discusses the responsibility of Product Managers for product failures and team effort for successes."
-      link: "https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email"
-    - desc: "A Proven AI PRD Template by Miqdad Jaffer (Product Lead @ OpenAI): An excellent AI Product Requirements Document template with key questions and answers."
-      link: "https://www.productcompass.pm/p/ai-prd-template"
-    - desc: "The Art of the Micro-Impression: Forging Genuine Rapport with Senior Leaders: Highlights building professional relationships through small, consistent 'micro-impressions' with practical strategies."
-      link: "https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging"
+  - desc: 'What Successful Product Organizations Have in Common: Emphasizes that ''doing
+      the work'' is a real superpower.'
+    link: https://www.petra-wille.com/blog/what-successful-product-organizations-have-in-common
+  - desc: 'Treat your company as a product: Focuses on treating aspects like meetings
+      as products, highlighting the importance of being result-oriented.'
+    link: https://members.outcomeedge.com/p/treat-your-company-as-a-product
+  - desc: 'Designing Frameworks with Clarity: Explores the art of framework design,
+      encouraging personal framework creation.'
+    link: https://www.franziskabeeler.com/post/designing-frameworks-with-clarity
+  - desc: Intelligence on Earth Evolved Independently at Least Twice.
+    link: https://www.wired.com/story/intelligence-evolved-at-least-twice-in-vertebrate-animals/
+  - desc: 'The #1 AI Copilot for Product Managers.'
+    link: https://www.chatprd.ai/
+  - desc: 'AI Junior PM: A pitch deck illustrating an AI product management startup.'
+    link: https://www.businessinsider.com/pitch-deck-ai-product-management-startup-thriveai-preseed-round-2025-5
+  - desc: 'The effect of ChatGPT on students’ learning performance, learning perception,
+      and higher-order thinking: A meta-analysis suggesting AI is a multiplier, enhancing
+      good outcomes and worsening bad ones.'
+    link: https://www.nature.com/articles/s41599-025-04787-y
+  - desc: How to Write a Product Strategy in 1 Day / 1 Week / 1 Month.
+    link: https://www.news.aakashg.com/p/strategy-in-1-day-week-month
+  - desc: Your Guide to AI Product Strategy.
+    link: https://www.news.aakashg.com/p/ai-product-strategy
+  - desc: 'WTF is an AI Product Manager?: Discusses the responsibility of Product
+      Managers for product failures and team effort for successes.'
+    link: https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email
+  - desc: 'A Proven AI PRD Template by Miqdad Jaffer (Product Lead @ OpenAI): An excellent
+      AI Product Requirements Document template with key questions and answers.'
+    link: https://www.productcompass.pm/p/ai-prd-template
+  - desc: 'The Art of the Micro-Impression: Forging Genuine Rapport with Senior Leaders:
+      Highlights building professional relationships through small, consistent ''micro-impressions''
+      with practical strategies.'
+    link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
 - date: 2025-05-05
   news-items:
-    - desc: "Product Discovery with Internal Customers - All Things Product with Teresa & Petra"
-      link: "https://www.youtube.com/watch?v=l3TBt1DacVY"
-    - desc: "How to Turn Company OKRs into Product OKRs"
-      link: "https://newsletter.herbig.co/posts/307?ck_subscriber_id=3048755342"
-    - desc: "How to Use GenAI with OKRs (Without Letting It Think for You) | LinkedIn"
-      link: "https://www.linkedin.com/pulse/how-use-genai-okrs-without-letting-think-you-christina-wodtke-bwbac/"
-    - desc: "FAQ: OKR Not Working in My Company"
-      link: "https://itamargilad.com/okr-faq/?ck_subscriber_id=3048755342"
+  - desc: Product Discovery with Internal Customers - All Things Product with Teresa
+      & Petra
+    link: https://www.youtube.com/watch?v=l3TBt1DacVY
+  - desc: How to Turn Company OKRs into Product OKRs
+    link: https://newsletter.herbig.co/posts/307?ck_subscriber_id=3048755342
+  - desc: How to Use GenAI with OKRs (Without Letting It Think for You) | LinkedIn
+    link: https://www.linkedin.com/pulse/how-use-genai-okrs-without-letting-think-you-christina-wodtke-bwbac/
+  - desc: 'FAQ: OKR Not Working in My Company'
+    link: https://itamargilad.com/okr-faq/?ck_subscriber_id=3048755342
 - date: 2025-04-24
   news-items:
-    - desc: "Strategy Mapping with Simon Wardley - Define Tomorrow 2018 Sent link to lunchclub"
-      link: "https://www.youtube.com/watch?v=JMlFv2Sod54"
-    - desc: "Which companies produce the best product managers"
-      link: "https://www.lennysnewsletter.com/p/which-companies-produce-the-best"
-    - desc: "Which companies accelerate PM careers most"
-      link: "https://www.lennysnewsletter.com/p/which-companies-accelerate-your-pm"
-    - desc: "OpenAI.fm"
-      link: "https://openai.fm/"
-    - desc: "Sword Health, the Hinge Health S1, and me – The Health Care Blog #healthtech"
-      link: "https://thehealthcareblog.com/blog/2025/03/21/sword-health-the-hinge-health-s1-and-me/"
-    - desc: "Moving To Higher Ground: Product Management In The Age of AI"
-      link: "https://www.mindtheproduct.com/moving-to-higher-ground-product-management-in-the-age-of-ai/"
-    - desc: "Uizard Autodesigner 2.0 | AI UI Design Generator | Uizard Design with AI"
-      link: "https://uizard.io/autodesigner/"
-    - desc: "Isomorphic Labs, Google’s A.I. Drug Business, Raises $600 Million Drug Discovery and Cursor raising $105 million"
-      link: "https://www.bloomberg.com/news/articles/2021-11-04/google-s-ai-drug-discovery-unit-isomorphic-labs-raises-225m"
-    - desc: "Taxo - Automate Healthcare Administration Fastest and most accurate data extraction for healthcare, raises $5million from YC. #healthtech"
-      link: "https://www.ycombinator.com/companies/taxo"
-    - desc: "How can engineers and PMs collaborate effectively?"
-      link: "https://www.quora.com/How-can-engineers-and-PMs-collaborate-effectively"
-    - desc: "Activation, retention, and abandonment funnel analysis — Reforge"
-      link: "https://www.reforge.com/blog/activation-retention-abandonment-funnel-analysis"
-    - desc: "Y-Combinator backed French startup Parallel raises $3.5M for AI healthcare agent Parallel’s AI agent reads clinical documentation, identifies the appropriate codes, and inputs them directly into hospital systems."
-      link: "https://tech.eu/2024/04/17/parallel-raises-3-5m-for-ai-healthcare-agent/"
-    - desc: "What to do -- Paul Graham"
-      link: "https://www.paulgraham.com/do.html"
-    - desc: "why user's dont care about product strategy? Sushi Pizza syndrome"
-      link: "https://newsletter.herbig.co/posts/358"
-    - desc: "AI Agent to create and send newsletters A good use case for building this in Gensh -- its has capabilities of actions, integrations, context and services."
-      link: "https://www.reddit.com/r/aiagents/comments/1jwunte/i_built_an_ai_agent_that_creates_and_sends"
-    - desc: "Why Your Child Can’t Stop Using That App (A Game Designer’s Warning)"
-      link: "https://medium.com/design-bootcamp/why-your-child-cant-stop-using-that-app-a-game-designer-s-warning-f5116c06e0b9"
+  - desc: Strategy Mapping with Simon Wardley - Define Tomorrow 2018 Sent link to
+      lunchclub
+    link: https://www.youtube.com/watch?v=JMlFv2Sod54
+  - desc: Which companies produce the best product managers
+    link: https://www.lennysnewsletter.com/p/which-companies-produce-the-best
+  - desc: Which companies accelerate PM careers most
+    link: https://www.lennysnewsletter.com/p/which-companies-accelerate-your-pm
+  - desc: OpenAI.fm
+    link: https://openai.fm/
+  - desc: 'Sword Health, the Hinge Health S1, and me – The Health Care Blog #healthtech'
+    link: https://thehealthcareblog.com/blog/2025/03/21/sword-health-the-hinge-health-s1-and-me/
+  - desc: 'Moving To Higher Ground: Product Management In The Age of AI'
+    link: https://www.mindtheproduct.com/moving-to-higher-ground-product-management-in-the-age-of-ai/
+  - desc: Uizard Autodesigner 2.0 | AI UI Design Generator | Uizard Design with AI
+    link: https://uizard.io/autodesigner/
+  - desc: Isomorphic Labs, Google’s A.I. Drug Business, Raises $600 Million Drug Discovery
+      and Cursor raising $105 million
+    link: https://www.bloomberg.com/news/articles/2021-11-04/google-s-ai-drug-discovery-unit-isomorphic-labs-raises-225m
+  - desc: 'Taxo - Automate Healthcare Administration Fastest and most accurate data
+      extraction for healthcare, raises $5million from YC. #healthtech'
+    link: https://www.ycombinator.com/companies/taxo
+  - desc: How can engineers and PMs collaborate effectively?
+    link: https://www.quora.com/How-can-engineers-and-PMs-collaborate-effectively
+  - desc: Activation, retention, and abandonment funnel analysis — Reforge
+    link: https://www.reforge.com/blog/activation-retention-abandonment-funnel-analysis
+  - desc: Y-Combinator backed French startup Parallel raises $3.5M for AI healthcare
+      agent Parallel’s AI agent reads clinical documentation, identifies the appropriate
+      codes, and inputs them directly into hospital systems.
+    link: https://tech.eu/2024/04/17/parallel-raises-3-5m-for-ai-healthcare-agent/
+  - desc: What to do -- Paul Graham
+    link: https://www.paulgraham.com/do.html
+  - desc: why user's dont care about product strategy? Sushi Pizza syndrome
+    link: https://newsletter.herbig.co/posts/358
+  - desc: AI Agent to create and send newsletters A good use case for building this
+      in Gensh -- its has capabilities of actions, integrations, context and services.
+    link: https://www.reddit.com/r/aiagents/comments/1jwunte/i_built_an_ai_agent_that_creates_and_sends
+  - desc: Why Your Child Can’t Stop Using That App (A Game Designer’s Warning)
+    link: https://medium.com/design-bootcamp/why-your-child-cant-stop-using-that-app-a-game-designer-s-warning-f5116c06e0b9
 - date: 2025-03-13
   news-items:
-    - desc: "A guide to dealing with the five most difficult types of employees, offering practical strategies for managers."
-      link: "https://newsletter.canopy.is/p/the-5-most-difficult-employees-and"
-    - desc: "Latest insights from the product management world, covering trends and best practices."
-      link: "https://newsletter.herbig.co/posts/354"
-    - desc: "Jeff Patton explores a new approach to managing backlogs, challenging traditional product development workflows."
-      link: "https://jpattonassociates.com/the-new-backlog/"
-    - desc: "Walgreens is considering going private in a $10 billion deal, a major move in the healthcare and retail space."
-      link: "https://www.healthtechnerds.com/p/weekly-health-tech-reads-3-9-25"
+  - desc: A guide to dealing with the five most difficult types of employees, offering
+      practical strategies for managers.
+    link: https://newsletter.canopy.is/p/the-5-most-difficult-employees-and
+  - desc: Latest insights from the product management world, covering trends and best
+      practices.
+    link: https://newsletter.herbig.co/posts/354
+  - desc: Jeff Patton explores a new approach to managing backlogs, challenging traditional
+      product development workflows.
+    link: https://jpattonassociates.com/the-new-backlog/
+  - desc: Walgreens is considering going private in a $10 billion deal, a major move
+      in the healthcare and retail space.
+    link: https://www.healthtechnerds.com/p/weekly-health-tech-reads-3-9-25
 - date: 2025-03-07
   news-items:
-    - desc: "AI is proving beneficial in product strategy, helping creators enhance content, streamline workflows, and build audiences."
-      link: "https://creatoreconomy.so/p/ai-is-actually-really-good-at-product-strategy"
+  - desc: AI is proving beneficial in product strategy, helping creators enhance content,
+      streamline workflows, and build audiences.
+    link: https://creatoreconomy.so/p/ai-is-actually-really-good-at-product-strategy
 - date: 2025-02-12
   news-items:
-    - desc: HealthCare AI Startups a compilation
-      link: https://x.com/zbruhnke/status/1882252978616521057?mx=2
-    - desc: Thread by @Austen "All of us humans are going to be glorified PMs"
-      link: https://x.com/zbruhnke/status/1882252978616521057?mx=2
-    - desc: Google PM Questions
-      link: https://x.com/aakashg0/status/1881431763651620952
-    - desc: How to build trust as an engineering leader. The trust equation -- delegate after active listening!
-      link: https://newsletter.eng-leadership.com/p/how-to-build-trust-as-an-engineering
+  - desc: HealthCare AI Startups a compilation
+    link: https://x.com/zbruhnke/status/1882252978616521057?mx=2
+  - desc: Thread by @Austen "All of us humans are going to be glorified PMs"
+    link: https://x.com/zbruhnke/status/1882252978616521057?mx=2
+  - desc: Google PM Questions
+    link: https://x.com/aakashg0/status/1881431763651620952
+  - desc: How to build trust as an engineering leader. The trust equation -- delegate
+      after active listening!
+    link: https://newsletter.eng-leadership.com/p/how-to-build-trust-as-an-engineering
 - date: 2024-12-31
   news-items:
-    - desc: "An article explores how to rethink decision-making frameworks for prioritizing problems, helping teams focus on impactful and strategic solutions."
-      link: "https://www.svpg.com/changing-how-you-decide-which-problems-to-solve/"
-    - desc: "The Product Leader’s Ultimate Guide offers insights into managing and implementing process changes effectively, with strategies tailored for product managers."
-      link: "https://www.news.aakashg.com/p/pm-process-changes"
+  - desc: An article explores how to rethink decision-making frameworks for prioritizing
+      problems, helping teams focus on impactful and strategic solutions.
+    link: https://www.svpg.com/changing-how-you-decide-which-problems-to-solve/
+  - desc: The Product Leader’s Ultimate Guide offers insights into managing and implementing
+      process changes effectively, with strategies tailored for product managers.
+    link: https://www.news.aakashg.com/p/pm-process-changes
 - date: 2024-12-11
   news-items:
-    - desc: "YC Request for Startups"
-      link: "https://www.ycombinator.com/rfs"
-    - desc: "NYTimes VP of Product, Sneha Rao, discusses the journey of evolving from a print-first company to a powerful digital platform."
-      link: "https://www.youtube.com/watch?v=AIJjTv37voU"
-    - desc: "A bold perspective on how product management can be reformed by empowering engineers to take a larger role."
-      link: "https://newsletter.posthog.com/p/product-management-is-broken-engineers"
-    - desc: "Harvard Business Review explores the skills and steps necessary for those considering a career as a product manager."
-      link: "https://hbr.org/2024/11/so-you-want-to-be-a-product-manager"
-    - desc: "Andreessen Horowitz shares key trends and innovations shaping the tech landscape in 2025."
-      link: "https://a16z.com/big-ideas-in-tech-2025/"
-    - desc: "Effort Justification explains the psychology behind consumer decisions and what motivates people to buy."
-      link: "https://ckarchive.com/b/38uphkh2668m0u37xxl75f4kz0onns7?utm_source=tldrfounders"
+  - desc: YC Request for Startups
+    link: https://www.ycombinator.com/rfs
+  - desc: NYTimes VP of Product, Sneha Rao, discusses the journey of evolving from
+      a print-first company to a powerful digital platform.
+    link: https://www.youtube.com/watch?v=AIJjTv37voU
+  - desc: A bold perspective on how product management can be reformed by empowering
+      engineers to take a larger role.
+    link: https://newsletter.posthog.com/p/product-management-is-broken-engineers
+  - desc: Harvard Business Review explores the skills and steps necessary for those
+      considering a career as a product manager.
+    link: https://hbr.org/2024/11/so-you-want-to-be-a-product-manager
+  - desc: Andreessen Horowitz shares key trends and innovations shaping the tech landscape
+      in 2025.
+    link: https://a16z.com/big-ideas-in-tech-2025/
+  - desc: Effort Justification explains the psychology behind consumer decisions and
+      what motivates people to buy.
+    link: https://ckarchive.com/b/38uphkh2668m0u37xxl75f4kz0onns7?utm_source=tldrfounders
 - date: 2024-12-07
   news-items:
-    - desc: "PM Coaching platform offers new resources for product managers to improve their skills and career growth."
-      link: "https://coachpms.com/"
-    - desc: "Exploration of Product Strategy Stack vs. Decision Stack emphasizes the importance of actionable strategies beyond documentation."
-      link: "https://newsletter.herbig.co/posts/344"
-    - desc: "Tidal and AppLovin eliminate their entire product management teams to adopt leaner, engineering-led approaches."
-      link: "https://fortune.com/2024/10/30/jack-dorsey-layoffs-streaming-music-app-tidal-block-leaked-email/"
-    - desc: "The rise of the Chief Product and Technology Officer (CPTO) role highlights a strategic shift, alongside an 11% decline in product roles."
-      link: "https://thebacklog.beehiiv.com/p/the-state-of-product-jobs-report-december-2024"
-    - desc: "A pre-interview prediction exercise is suggested to uncover deeper insights and improve learning during customer discovery."
-      link: "https://www.lennysnewsletter.com/p/finding-your-bullseye-customer-michael-margolis"
-    - desc: "Bent Flyvbjerg’s 'How Big Things Get Done' advocates for meticulous planning followed by decisive action to reduce risks in project management."
-      link: "https://cutlefish.substack.com/p/tbm-325-skeptoptimism-thinking-slow"
+  - desc: PM Coaching platform offers new resources for product managers to improve
+      their skills and career growth.
+    link: https://coachpms.com/
+  - desc: Exploration of Product Strategy Stack vs. Decision Stack emphasizes the
+      importance of actionable strategies beyond documentation.
+    link: https://newsletter.herbig.co/posts/344
+  - desc: Tidal and AppLovin eliminate their entire product management teams to adopt
+      leaner, engineering-led approaches.
+    link: https://fortune.com/2024/10/30/jack-dorsey-layoffs-streaming-music-app-tidal-block-leaked-email/
+  - desc: The rise of the Chief Product and Technology Officer (CPTO) role highlights
+      a strategic shift, alongside an 11% decline in product roles.
+    link: https://thebacklog.beehiiv.com/p/the-state-of-product-jobs-report-december-2024
+  - desc: A pre-interview prediction exercise is suggested to uncover deeper insights
+      and improve learning during customer discovery.
+    link: https://www.lennysnewsletter.com/p/finding-your-bullseye-customer-michael-margolis
+  - desc: Bent Flyvbjerg’s 'How Big Things Get Done' advocates for meticulous planning
+      followed by decisive action to reduce risks in project management.
+    link: https://cutlefish.substack.com/p/tbm-325-skeptoptimism-thinking-slow
