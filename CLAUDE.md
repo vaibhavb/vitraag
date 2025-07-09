@@ -86,9 +86,9 @@ Approve formatting? [y/n/edit]
 Proceed with file updates? [y/n]
 ```
 
-### Phase 3: Python Script (news_updater.py)
+### Phase 3: Python Script (data-runners/news_updater.py)
 
-**Input:** JSON from Phase 1
+**Input:** JSON from Phase 1 (stored in _data/handoff_data.json)
 **Process:**
 1. Create backups of existing _data files
 2. Generate YAML entries (all items under target_date)
@@ -98,7 +98,7 @@ Proceed with file updates? [y/n]
 
 **Example Usage:**
 ```bash
-python news_updater.py --input handoff_data.json
+python data-runners/news_updater.py --input _data/handoff_data.json
 ```
 
 ### Phase 4: Post-Processing (Git Operations)

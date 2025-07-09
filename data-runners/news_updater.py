@@ -14,7 +14,13 @@ from typing import Dict, List, Optional
 
 class NewsFileUpdater:
     def __init__(self, data_dir: str = "_data"):
-        self.data_dir = Path(data_dir)
+        # Convert relative path to absolute path from script location
+        if not Path(data_dir).is_absolute():
+            # Script is in data-runners/, so go up one level and then into _data
+            script_dir = Path(__file__).parent
+            self.data_dir = script_dir.parent / data_dir
+        else:
+            self.data_dir = Path(data_dir)
         self.backup_suffix = f".backup-{datetime.now().strftime('%Y-%m-%d')}"
         
     def create_backup(self, file_path: Path) -> bool:
