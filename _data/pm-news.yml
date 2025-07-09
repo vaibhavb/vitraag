@@ -25,34 +25,7 @@
   - desc: Miqdad Jaffer from OpenAI shares a comprehensive AI PRD template with key
       questions and frameworks for building AI products effectively.
     link: https://www.productcompass.pm/p/ai-prd-template
-- date: '2025-07-09'
-  news-items:
-  - desc: John Cutler explores how real work behaves more like a fabric than a cascade,
-      with strategy and feedback moving in all directions rather than following traditional
-      top-down hierarchies.
-    link: https://cutlefish.substack.com/p/tbm-365-the-problem-with-value-hierarchies
-  - desc: Alex Ewerlof discusses how Wardley maps serve as GPS for technology decisions
-      and how pace layering helps understand different rates of change in complex
-      systems.
-    link: https://blog.alexewerlof.com/p/wardley-maps-and-pace-layering-for?_bhlid=ed6f0b480d615bc24f81f9c878f80f4784e75491
-  - desc: Martin Fowler examines the concept of expert generalists and their unique
-      value in bridging specialized knowledge across different domains.
-    link: https://martinfowler.com/articles/expert-generalist.html?&aid=rec6zLGCmWGqATFA4&_bhlid=dff37b3d2021d2b59df1dc8ea918bccf3a2047fe
-  - desc: An interactive visualization tool that maps GitHub repositories and their
-      relationships, providing insights into the open source ecosystem.
-    link: https://anvaka.github.io/map-of-github/#2/0/0
-  - desc: A guide on building strong professional relationships with senior leaders
-      through small, consistent, and genuine 'micro-impressions' rather than grand
-      gestures.
-    link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
-  - desc: Product Compass explores the evolving role of AI Product Managers and discusses
-      how product success is attributed to team effort while failures often fall on
-      the PM.
-    link: https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email
-  - desc: Miqdad Jaffer from OpenAI shares a comprehensive AI PRD template with key
-      questions and frameworks for building AI products effectively.
-    link: https://www.productcompass.pm/p/ai-prd-template
-- date: 2025-06-12
+- date: '2025-06-12'
   news-items:
   - desc: 'What Successful Product Organizations Have in Common: Emphasizes that ''doing
       the work'' is a real superpower.'
@@ -87,7 +60,7 @@
       Highlights building professional relationships through small, consistent ''micro-impressions''
       with practical strategies.'
     link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
-- date: 2025-05-05
+- date: '2025-05-05'
   news-items:
   - desc: Product Discovery with Internal Customers - All Things Product with Teresa
       & Petra
@@ -98,7 +71,7 @@
     link: https://www.linkedin.com/pulse/how-use-genai-okrs-without-letting-think-you-christina-wodtke-bwbac/
   - desc: 'FAQ: OKR Not Working in My Company'
     link: https://itamargilad.com/okr-faq/?ck_subscriber_id=3048755342
-- date: 2025-04-24
+- date: '2025-04-24'
   news-items:
   - desc: Strategy Mapping with Simon Wardley - Define Tomorrow 2018 Sent link to
       lunchclub
@@ -138,7 +111,7 @@
     link: https://www.reddit.com/r/aiagents/comments/1jwunte/i_built_an_ai_agent_that_creates_and_sends
   - desc: Why Your Child Can’t Stop Using That App (A Game Designer’s Warning)
     link: https://medium.com/design-bootcamp/why-your-child-cant-stop-using-that-app-a-game-designer-s-warning-f5116c06e0b9
-- date: 2025-03-13
+- date: '2025-03-13'
   news-items:
   - desc: A guide to dealing with the five most difficult types of employees, offering
       practical strategies for managers.
@@ -152,23 +125,21 @@
   - desc: Walgreens is considering going private in a $10 billion deal, a major move
       in the healthcare and retail space.
     link: https://www.healthtechnerds.com/p/weekly-health-tech-reads-3-9-25
-- date: 2025-03-07
+- date: '2025-03-07'
   news-items:
   - desc: AI is proving beneficial in product strategy, helping creators enhance content,
       streamline workflows, and build audiences.
     link: https://creatoreconomy.so/p/ai-is-actually-really-good-at-product-strategy
-- date: 2025-02-12
+- date: '2025-02-12'
   news-items:
   - desc: HealthCare AI Startups a compilation
-    link: https://x.com/zbruhnke/status/1882252978616521057?mx=2
-  - desc: Thread by @Austen "All of us humans are going to be glorified PMs"
     link: https://x.com/zbruhnke/status/1882252978616521057?mx=2
   - desc: Google PM Questions
     link: https://x.com/aakashg0/status/1881431763651620952
   - desc: How to build trust as an engineering leader. The trust equation -- delegate
       after active listening!
     link: https://newsletter.eng-leadership.com/p/how-to-build-trust-as-an-engineering
-- date: 2024-12-31
+- date: '2024-12-31'
   news-items:
   - desc: An article explores how to rethink decision-making frameworks for prioritizing
       problems, helping teams focus on impactful and strategic solutions.
@@ -176,7 +147,7 @@
   - desc: The Product Leader’s Ultimate Guide offers insights into managing and implementing
       process changes effectively, with strategies tailored for product managers.
     link: https://www.news.aakashg.com/p/pm-process-changes
-- date: 2024-12-11
+- date: '2024-12-11'
   news-items:
   - desc: YC Request for Startups
     link: https://www.ycombinator.com/rfs
@@ -195,7 +166,7 @@
   - desc: Effort Justification explains the psychology behind consumer decisions and
       what motivates people to buy.
     link: https://ckarchive.com/b/38uphkh2668m0u37xxl75f4kz0onns7?utm_source=tldrfounders
-- date: 2024-12-07
+- date: '2024-12-07'
   news-items:
   - desc: PM Coaching platform offers new resources for product managers to improve
       their skills and career growth.

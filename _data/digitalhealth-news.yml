@@ -15,41 +15,7 @@
   - desc: Amazon reorganizes healthcare business unit following executive departures,
       signaling strategic shift in digital health approach.
     link: https://www.cnbc.com/2025/06/13/amazon-reorganizes-its-health-care-business-after-executive-departures.html
-- date: '2025-07-09'
-  news-items:
-  - desc: Microsoft unveils pathway to medical superintelligence through AI diagnostic
-      orchestrator, advancing automated clinical decision support systems.
-    link: https://microsoft.ai/new/the-path-to-medical-superintelligence/
-  - desc: Arine Healthcare secures $30 million in funding to expand AI-powered clinical
-      decision support and medication management platforms.
-    link: https://www.arine.io/
-  - desc: JAMA study demonstrates effectiveness of open-source AI models for radiology
-      image analysis and diagnostic support in clinical settings.
-    link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2834943
-  - desc: Healthcare Advisory guide outlines strategies for proving care cost reduction
-      value to payers through data-driven metrics and outcomes measurement.
-    link: https://www.advisory.com/topics/population-health/prove-reduce-care-costs
-  - desc: Amazon reorganizes healthcare business unit following executive departures,
-      signaling strategic shift in digital health approach.
-    link: https://www.cnbc.com/2025/06/13/amazon-reorganizes-its-health-care-business-after-executive-departures.html
-- date: '2025-07-09'
-  news-items:
-  - desc: Microsoft unveils pathway to medical superintelligence through AI diagnostic
-      orchestrator, advancing automated clinical decision support systems.
-    link: https://microsoft.ai/new/the-path-to-medical-superintelligence/
-  - desc: Arine Healthcare secures $30 million in funding to expand AI-powered clinical
-      decision support and medication management platforms.
-    link: https://www.arine.io/
-  - desc: JAMA study demonstrates effectiveness of open-source AI models for radiology
-      image analysis and diagnostic support in clinical settings.
-    link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2834943
-  - desc: Healthcare Advisory guide outlines strategies for proving care cost reduction
-      value to payers through data-driven metrics and outcomes measurement.
-    link: https://www.advisory.com/topics/population-health/prove-reduce-care-costs
-  - desc: Amazon reorganizes healthcare business unit following executive departures,
-      signaling strategic shift in digital health approach.
-    link: https://www.cnbc.com/2025/06/13/amazon-reorganizes-its-health-care-business-after-executive-departures.html
-- date: 2025-06-12
+- date: '2025-06-12'
   news-items:
   - desc: Omada Health shares rise in Nasdaq debut as digital health IPO market reopens
     link: https://www.fiercehealthcare.com/digital-health/omada-health-shares-rise-nasdaq-debut-digital-health-ipo-market-reopens
@@ -61,7 +27,7 @@
   - desc: 'Exclusive look at Nourish''s new suite of AI tools for patients and providers:
       Billion Dollar Valuation of Nourish'
     link: https://www.fiercehealthcare.com/digital-health/exclusive-look-nourishs-latest-suite-ai-tools-patients-providers
-- date: 2025-05-27
+- date: '2025-05-27'
   news-items:
   - desc: data from HealthKit
     link: https://x.com/alexkehr/status/1922042462471958665?s=46

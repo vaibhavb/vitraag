@@ -48,25 +48,55 @@ class NewsFileUpdater:
             "news-items": items
         }
     
-    def update_yaml_file(self, file_path: Path, new_entry: Dict) -> bool:
-        """Update YAML file by prepending new entry"""
+    def update_yaml_file(self, file_path: Path, new_entry: Dict) -> tuple[bool, str]:
+        """Update YAML file by merging items for same date or prepending new entry"""
         try:
             # Read existing content
             existing_data = self.read_existing_yaml(file_path)
             
-            # Prepend new entry
-            updated_data = [new_entry] + existing_data
+            target_date = str(new_entry.get('date'))
+            new_items = new_entry.get('news-items', [])
+            
+            # Check if target_date already exists
+            date_found = False
+            added_items = 0
+            
+            for entry in existing_data:
+                existing_date = str(entry.get('date'))
+                if existing_date == target_date:
+                    # Merge items while avoiding duplicates
+                    existing_items = entry.get('news-items', [])
+                    existing_links = {item.get('link') for item in existing_items}
+                    
+                    # Add new items that don't have duplicate links
+                    for new_item in new_items:
+                        if new_item.get('link') not in existing_links:
+                            existing_items.append(new_item)
+                            added_items += 1
+                    
+                    entry['news-items'] = existing_items
+                    date_found = True
+                    break
+            
+            # If date not found, prepend new entry
+            if not date_found:
+                updated_data = [new_entry] + existing_data
+                added_items = len(new_items)
+                status = f"new date"
+            else:
+                updated_data = existing_data
+                status = f"merged {added_items} items"
             
             # Write back to file
             with open(file_path, 'w', encoding='utf-8') as f:
                 yaml.dump(updated_data, f, default_flow_style=False, 
                          allow_unicode=True, sort_keys=False, indent=2)
             
-            return True
+            return True, status
             
         except Exception as e:
             print(f"   ❌ Error updating {file_path}: {e}")
-            return False
+            return False, "error"
     
     def validate_input_data(self, data: Dict) -> bool:
         """Validate input JSON structure"""
@@ -134,9 +164,10 @@ class NewsFileUpdater:
             file_path = self.data_dir / f"{category}.yml"
             new_entry = self.generate_yaml_entry(data['target_date'], content['items'])
             
-            if self.update_yaml_file(file_path, new_entry):
+            success, status = self.update_yaml_file(file_path, new_entry)
+            if success:
                 item_count = len(content['items'])
-                print(f"   ✅ Updated {category}.yml ({item_count} items)")
+                print(f"   ✅ Updated {category}.yml ({item_count} items - {status})")
                 success_count += 1
                 total_items += item_count
             else:

@@ -28,67 +28,7 @@
   - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
       across multiple cloud platforms and services.
     link: https://github.com/carlospolop/CloudPEASS
-- date: '2025-07-09'
-  news-items:
-  - desc: Wiz releases comprehensive coding rules file for safer development practices,
-      providing security guidelines for application development and vulnerability
-      prevention.
-    link: https://www.wiz.io/blog/safer-vibe-coding-rules-files
-  - desc: Cloud Security Alliance publishes Secure Vibe Coding Guide, empowering citizen
-      developers with essential security best practices and development patterns.
-    link: https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide
-  - desc: LevelBlue announces acquisition of Trustwave, positioning itself as the
-      largest pure-play managed security services provider in the cybersecurity market.
-    link: https://www.trustwave.com/en-us/company/newsroom/news/levelblue-to-acquire-trustwave-becoming-largest-pure-play-managed-security-services-provider/
-  - desc: Critical vulnerabilities CVE-2025-53109 and CVE-2025-53110 discovered in
-      Anthropic's EscapeRoute system, highlighting security risks in AI infrastructure.
-    link: https://cymulate.com/blog/cve-2025-53109-53110-escaperoute-anthropic/
-  - desc: Daniel Miessler introduces Substrate, a new security framework for threat
-      detection and incident response automation.
-    link: https://danielmiessler.com/blog/introducing-substrate
-  - desc: Sophos demonstrates how artificial intelligence can be leveraged to identify
-      cybercrime masterminds through advanced pattern recognition and behavioral analysis.
-    link: https://news.sophos.com/en-us/2025/06/30/using-ai-to-identify-cybercrime-masterminds/
-  - desc: AWS tutorial demonstrating how to create and manage security team permissions
-      in IAM Identity Center for enhanced cloud security governance.
-    link: https://www.youtube.com/watch?v=914HljkRPDk
-  - desc: XBOW secures $75 million Series B funding to advance AI-powered cybersecurity
-      solutions and autonomous threat detection capabilities.
-    link: https://xbow.com/
-  - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
-      across multiple cloud platforms and services.
-    link: https://github.com/carlospolop/CloudPEASS
-- date: '2025-07-09'
-  news-items:
-  - desc: Wiz releases comprehensive coding rules file for safer development practices,
-      providing security guidelines for application development and vulnerability
-      prevention.
-    link: https://www.wiz.io/blog/safer-vibe-coding-rules-files
-  - desc: Cloud Security Alliance publishes Secure Vibe Coding Guide, empowering citizen
-      developers with essential security best practices and development patterns.
-    link: https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide
-  - desc: LevelBlue announces acquisition of Trustwave, positioning itself as the
-      largest pure-play managed security services provider in the cybersecurity market.
-    link: https://www.trustwave.com/en-us/company/newsroom/news/levelblue-to-acquire-trustwave-becoming-largest-pure-play-managed-security-services-provider/
-  - desc: Critical vulnerabilities CVE-2025-53109 and CVE-2025-53110 discovered in
-      Anthropic's EscapeRoute system, highlighting security risks in AI infrastructure.
-    link: https://cymulate.com/blog/cve-2025-53109-53110-escaperoute-anthropic/
-  - desc: Daniel Miessler introduces Substrate, a new security framework for threat
-      detection and incident response automation.
-    link: https://danielmiessler.com/blog/introducing-substrate
-  - desc: Sophos demonstrates how artificial intelligence can be leveraged to identify
-      cybercrime masterminds through advanced pattern recognition and behavioral analysis.
-    link: https://news.sophos.com/en-us/2025/06/30/using-ai-to-identify-cybercrime-masterminds/
-  - desc: AWS tutorial demonstrating how to create and manage security team permissions
-      in IAM Identity Center for enhanced cloud security governance.
-    link: https://www.youtube.com/watch?v=914HljkRPDk
-  - desc: XBOW secures $75 million Series B funding to advance AI-powered cybersecurity
-      solutions and autonomous threat detection capabilities.
-    link: https://xbow.com/
-  - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
-      across multiple cloud platforms and services.
-    link: https://github.com/carlospolop/CloudPEASS
-- date: 2025-06-12
+- date: '2025-06-12'
   news-items:
   - desc: A perfect cybersecurity startup idea - good blog on what to consider when
       doing a security startup. Like ideas around wireguard, eBPF, OSQuery.
@@ -251,7 +191,7 @@
     link: '[https://www.darkreading.com/application-security/gartner-security-teams-hype-opportunity](https://www.darkreading.com/application-security/gartner-security-teams-hype-opportunity)'
   - desc: LLM Vulnerability - Echoleak
     link: '[https://www.aim.security/lp/aim-labs-echoleak-blogpost](https://www.aim.security/lp/aim-labs-echoleak-blogpost)'
-- date: 2025-05-05
+- date: '2025-05-05'
   news-items:
   - desc: 'BSides Seattle 2025: Rebuilding Trust in Systems In The Age Of NHIs'
     link: https://blog.gitguardian.com/bsides-seattle-2025/?utm_source=tldrinfosec
@@ -282,95 +222,13 @@
       creators. However they have to take controversial $5 million funding to be a
       finalist. Blackhat finalists dont have to RSA2025 Link to visual
     link: https://www.returnonsecurity.com/p/signal-v-noise-rsa-innovation-sandbox
-- date: 2025-04-24
+- date: '2025-04-24'
   news-items:
   - desc: More than 560,000 people were impacted across four healthcare data breaches
       involving Hillcrest Convalescent Center, Gastroenterology Associates of Central
       Florida, Community Care Alliance, and Sunflower Medical Group.
     link: https://www.securityweek.com/560000-people-impacted-across-four-healthcare-data-breaches/?utm_source=tldrinfosec
   - desc: US cities warn of wave of unpaid parking phishing texts I got one of these!
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Google Pays Out Nearly $12M in 2024 Bug Bounty Program Lets to bug hunting!
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Undocumented commands found in Bluetooth chip used by a billion devices
-      Hardware Hacking
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Ethereum private key stealer on PyPI downloaded over 1,000 times Supply
-      chain attack!
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Malicious Code Hits ‘tj-actions/changed-files’ in 23,000 GitHub Repos
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Tomcat Vulnerability and a analysis by Wallarm Labs
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Attack on Car dealerships
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Juniper Routers by China Nexus
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Fake Captcha
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Supply chain attacks by Lazarus to steal crypto
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: US Treasury got hidden messages in Emojis
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: 'Major leak: sperm bank California Cryobank suffers data breach'
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Use one Virtual Machine to own them all — active exploitation of ESXicape
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: 'New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize
-      Code Agents'
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: The Great CNAPP Re-bundle
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: New npm attack poisons local packages with backdoors
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: New Atlantis AIO platform automates credential stuffing on 140 services
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: macOS Users Warned of New Versions of ReaderUpdate Malware
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: 'Scaling Threat Modeling with AI: Generating 1000 Threat Models Using Gemini
-      2.0 and AI Security Analyzer'
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Security on the path to AGI
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: DarkwebDaily.live
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Digital Safety - How to protect your online identity
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: 'A Free OSINT Lesson: Search Indexes, Record Shops, and Flipping through
-      Vinyl'
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Critical Ingress NGINX Controller Vulnerability Allows RCE Without Authentication
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Over 3 million applicants’ data leaked on NYU’s website
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: 'BountySecurity/BountyPrompt: Bounty Prompt is an Open-Source Burp Suite
-      extension by Bounty Security that leverages advanced AI via Burp AI and Groq
-      AI'
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: DryRun Security vs. Traditional SAST Vendors in Ruby on Rails
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: 'Securing AI agents: authentication patterns for Operator and computer using
-      models — WorkOS'
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Oracle Health breach compromises patient data at US hospitals
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: 'CVE-2025-1974: The IngressNightmare in Kubernetes | Wiz Blog'
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: CVE-2025-29927
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: iOS Dating App compromise
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Pillage registry
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: TMBench
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: CVE-2024-27564 Actively Exploited in the Wild OpenAI vulnerability (SSRF)
-      exploited for Healthcare hacking, this video shows the exploit in action.
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Hackers abuse WordPress MU-Plugins to hide malicious code Wordpress plugins
-      - rabbit hole.
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Microsoft Opensources Red Teaming Agent
     link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
   - desc: AI Agents for Detection EngineeringOriginal post 06.Q2 CIS-60
     link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
@@ -384,64 +242,9 @@
     link: https://www.cybersec-automation.com/p/soc-ai-agents
   - desc: 'The Return of the Baby ASO: Why SOCs Still Suck'
     link: https://medium.com/anton-on-security/the-return-of-the-baby-aso-why-socs-still-suck-07e66f2ee023
-  - desc: Must read books in tech and IT book-summarizer
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Texas State Bar Breach👩‍⚖️, Outlaw Linux Malware 🐧, Scattered Spider Members
-      Pleads Guilty 🕷️ TLDR Expand
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Security Weekly
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: 'Google Announces Sec Gemini v1 #ai-news'
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: 'Slow Collapse of Critical Thinking in OSINT due to AI #ai-news'
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Underage Deepfakes Exposed 👶, Finding Evil in Memory 😈, AI Finds GRUB2 Flaws
-      🤖
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Oracle Second Hack 👁️‍🗨️, Taming ML Wild West 🤠, ChatGPT Creates Fake Passport
-      🛂
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Autonomous SOC Analyst Product
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Story of signal from Increment @ Stripe CTI
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: 'Ghidra MCP #ai-news'
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: 'Program: Cybersecurity Intelligence and Information Security, M.S. - University
-      of South Florida - Modern Campus Catalog™ 06.Q2 CIS-60'
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Internship Opportunities 06.Q2 CIS-60
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: Tailscale raises $160M.
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: 'francisconeves97/jxscout: jxscout superpowers JavaScript analysis for security
-      researchers #tools'
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: 1.6 Million People Impacted by Data Breach at Laboratory Services Cooperative
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
   - desc: Defeating Prompt Injections by Design
     link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html
-- date: 2025-02-13
-  news-items:
-  - desc: More than 560,000 people were impacted across four healthcare data breaches
-      involving Hillcrest Convalescent Center, Gastroenterology Associates of Central
-      Florida, Community Care Alliance, and Sunflower Medical Group.
-    link: https://www.securityweek.com/560000-people-impacted-across-four-healthcare-data-breaches/?utm_source=tldrinfosec
-  - desc: US cities warn of a surge in phishing scams involving fake unpaid parking
-      tickets. Attackers are sending fraudulent SMS messages to steal payment details.
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Google paid nearly $12 million in bug bounties during 2024, highlighting
-      the importance of vulnerability research and responsible disclosure.
-    link: https://www.darkreading.com/vulnerabilities-threats/google-pays-nearly-12m-2024-bug-bounty-program
-  - desc: Undocumented commands were discovered in a widely used Bluetooth chip, potentially
-      impacting over a billion devices and raising concerns about hardware security
-      vulnerabilities.
-    link: https://www.bleepingcomputer.com/news/security/undocumented-commands-found-in-bluetooth-chip-used-by-a-billion-devices/
-  - desc: A malicious Ethereum private key stealer was found in a PyPI package, downloaded
-      over 1,000 times, demonstrating ongoing supply chain attacks in open-source
-      ecosystems.
-    link: https://www.bleepingcomputer.com/news/security/ethereum-private-key-stealer-on-pypi-downloaded-over-1-000-times/
-- date: 2025-03-07
+- date: '2025-03-07'
   news-items:
   - desc: Flightradar24 experiences ongoing DDoS cyberattack.
     link: https://www.paddleyourownkanoo.com/2025/03/05/the-worlds-most-popular-flight-tracker-is-fighting-an-ongoing-ddos-cyber-attack
@@ -450,7 +253,7 @@
   - desc: Apartment buildings are been broken into within minutes using IoT-connected
       intercoms with default credentials, leaving them vulnerable to anyone with Google.
     link: https://www.tomshardware.com/tech-industry/cyber-security/apartment-buildings-broken-into-with-phone-in-minutes-iot-connected-intercoms-using-default-creds-vulnerable-to-anyone-with-google
-- date: 2025-02-28
+- date: '2025-02-28'
   news-items:
   - desc: ByBit (1.5 Billion Hack) linked to North Korea.
     link: https://apnews.com/article/bybit-exchange-crypto-hack-north-korea-7c8335c1397261554138090c2c38f457
@@ -470,7 +273,7 @@
     link: https://cyberscoop.com/russia-threat-groups-target-ukraine-signal
   - desc: Apple and UK government clash over end-to-end encryption.
     link: https://www.cnn.com/2025/02/25/tech/apple-advanced-data-protection-uk-encryption/index.html
-- date: 2025-02-20
+- date: '2025-02-20'
   news-items:
   - desc: Russia's Sandworm conducting 'BadPilot campaign' targeting US and European
       organizations in energy and telecommunications sectors, exploiting vulnerabilities
@@ -531,7 +334,27 @@
   - desc: A massive brute-force attack, utilizing 2.8 million IPs—mostly from Brazil—targets
       VPN devices, highlighting ongoing security risks.
     link: https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices
-- date: 2025-02-07
+- date: '2025-02-13'
+  news-items:
+  - desc: More than 560,000 people were impacted across four healthcare data breaches
+      involving Hillcrest Convalescent Center, Gastroenterology Associates of Central
+      Florida, Community Care Alliance, and Sunflower Medical Group.
+    link: https://www.securityweek.com/560000-people-impacted-across-four-healthcare-data-breaches/?utm_source=tldrinfosec
+  - desc: US cities warn of a surge in phishing scams involving fake unpaid parking
+      tickets. Attackers are sending fraudulent SMS messages to steal payment details.
+    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
+  - desc: Google paid nearly $12 million in bug bounties during 2024, highlighting
+      the importance of vulnerability research and responsible disclosure.
+    link: https://www.darkreading.com/vulnerabilities-threats/google-pays-nearly-12m-2024-bug-bounty-program
+  - desc: Undocumented commands were discovered in a widely used Bluetooth chip, potentially
+      impacting over a billion devices and raising concerns about hardware security
+      vulnerabilities.
+    link: https://www.bleepingcomputer.com/news/security/undocumented-commands-found-in-bluetooth-chip-used-by-a-billion-devices/
+  - desc: A malicious Ethereum private key stealer was found in a PyPI package, downloaded
+      over 1,000 times, demonstrating ongoing supply chain attacks in open-source
+      ecosystems.
+    link: https://www.bleepingcomputer.com/news/security/ethereum-private-key-stealer-on-pypi-downloaded-over-1-000-times/
+- date: '2025-02-07'
   news-items:
   - desc: Hackers are spoofing Microsoft ADFS login pages in a phishing campaign targeting
       education, healthcare, and government organizations to steal credentials.
@@ -560,7 +383,7 @@
   - desc: OverTheWire's Bandit wargame is a highly recommended gamified tool for improving
       Linux command-line skills.
     link: https://overthewire.org/wargames/bandit/
-- date: 2024-12-31
+- date: '2024-12-31'
   news-items:
   - desc: Claude uses AI to identify new security threats by leveraging advanced natural
       language processing to analyze patterns and anomalies in real-time, providing
@@ -578,7 +401,7 @@
       a C2 server, enabling shell commands for data theft, including files, clipboard
       data, and cryptocurrency wallet keys.
     link: https://thehackernews.com/2024/12/north-korean-hackers-deploy-ottercookie.html
-- date: 2024-12-11
+- date: '2024-12-11'
   news-items:
   - desc: Russia has pioneered a new model of drug trafficking using darknet markets
       and cryptocurrency for payment, with physical 'dead drops' for delivery. Russian
@@ -642,7 +465,7 @@
       a life sentence for its creator, after the site facilitated $5 billion in cryptocurrency
       transactions.
     link: https://www.wired.com/story/encryption-apps-chinese-telecom-hacking-hydra-russia-exxon/
-- date: 2024-12-07
+- date: '2024-12-07'
   news-items:
   - desc: China has deeply compromised thousands of US telco networks according to
       Senator Mark Warner. The attack, carried out by "Salt Typhoon," involves persistent
@@ -675,7 +498,7 @@
       Western personas. Techniques include fake profile pictures and coordinated posts
       to disseminate anti-Ukraine narratives more effectively.
     link: https://www.politico.com/newsletters/digital-future-daily/2024/11/04/russian-disinformation-navalny-00187164
-- date: 2024-11-19
+- date: '2024-11-19'
   news-items:
   - desc: Palo Alto Networks has released Indicators of Compromise (IoCs) for a new
       zero-day vulnerability affecting their firewalls.
@@ -689,7 +512,7 @@
       CVSS score of 8.8, the flaw could allow unprivileged users to alter environment
       variables, potentially leading to code execution or information disclosure.
     link: https://thehackernews.com/2024/11/high-severity-flaw-in-postgresql-allows.html
-- date: 2024-11-12
+- date: '2024-11-12'
   news-items:
   - desc: Six critical flaws have been found in the Ollama AI framework, potentially
       allowing denial-of-service, model theft, and poisoning attacks.
@@ -730,7 +553,7 @@
       bases, adding 60 installations to the CFIUS scrutiny list. This follows the
       forced closure of a Chinese-owned crypto mine near F.E. Warren Air Force Base.
     link: https://cowboystatedaily.com/2024/11/08/following-wyoming-example-feds-limit-foreign-crypto-mines-near-military-bases
-- date: 2024-11-04
+- date: '2024-11-04'
   news-items:
   - desc: An investigation by French newspaper Le Monde revealed that bodyguards of
       leaders such as Joe Biden and Donald Trump have used the Strava fitness app,
