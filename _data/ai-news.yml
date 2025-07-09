@@ -1,14 +1,45 @@
+- date: '2025-07-09'
+  news-items:
+  - desc: Hera Fertility launches AI-powered semen analysis platform providing automated
+      insights for male fertility assessment and treatment planning.
+    link: https://herafertility.co/#howItWorks
+  - desc: Hamel Husain releases comprehensive FAQ guide on AI evaluations, covering
+      best practices and common pitfalls in LLM assessment frameworks.
+    link: https://hamel.dev/blog/posts/evals-faq/
+  - desc: TELOS demonstrates practical AI implementation patterns for enterprise systems,
+      showcasing real-world deployment strategies and outcomes.
+    link: https://youtu.be/3BXE0e3QZ4U?si=m0lgGDP0owWatR4B
+  - desc: Bellingcat investigates whether large language models have mastered geolocation
+      capabilities, with implications for OSINT and investigative applications.
+    link: https://www.bellingcat.com/resources/how-tos/2025/06/06/have-llms-finally-mastered-geolocation/
+  - desc: Educational resource demonstrating how to build large language models from
+      scratch, featuring Qwen3 implementation and training methodologies.
+    link: https://github.com/rasbt/LLMs-from-scratch/blob/main/pkg/llms_from_scratch/qwen3.py
+  - desc: Google DeepMind releases AlphaGenome API, providing programmatic access
+      to advanced genomics analysis and personalized medicine applications.
+    link: https://github.com/google-deepmind/alphagenome
+  - desc: Senior engineer shares minimalistic AI setup and workflow, featuring practical
+      recommendations for AI tools integration in enterprise development.
+    link: https://read.highgrowthengineer.com/p/minimalistic-ai-setup
+  - desc: Developer recreates complete Stable Diffusion 3.5 model using only PyTorch,
+      demonstrating deep learning implementation techniques.
+    link: https://github.com/yousef-rafat/miniDiffusion
 - date: 2025-06-12
   news-items:
-    - desc: "Sakana AI Darwin Godel machine, self-improving AI paper."
-      link: "https://www.sakana.ai"
-    - desc: "Autonomous Bug Bounty - XBow, Ethiack"
-      link: "https://www.xbow.ai"
-    - desc: "Disrupting malicious uses of AI: June 2025 AI Threat Intel Report"
-      link: "https://www.mandiant.com/resources/media/ai-threat-intelligence-report-june-2025"
-    - desc: "The Prompt Engineering Playbook for Programmers: the quality of AI coding assistant output depends heavily on the quality of the prompt"
-      link: "https://www.oreilly.com/library/view/the-prompt-engineering/978109815043 prompt-engineering-playbook-for-programmers/"
-    - desc: "Anthropic Claude Uses"
-      link: "https://www.anthropic.com/news/claude-3"
-    - desc: "What did Google's AI Co-Scientist 'Discover'? The Human Scientists' POV, from the Podovirus podcast: The Google AI Co-Scientist hypothesized that capsid-forming PICIs, which only encode virus heads, manage to spread by connecting with various virus tails found in the environment"
-      link: "https://www.nature.com/articles/d41586-025-01587-9"
+  - desc: Sakana AI Darwin Godel machine, self-improving AI paper.
+    link: https://www.sakana.ai
+  - desc: Autonomous Bug Bounty - XBow, Ethiack
+    link: https://www.xbow.ai
+  - desc: 'Disrupting malicious uses of AI: June 2025 AI Threat Intel Report'
+    link: https://www.mandiant.com/resources/media/ai-threat-intelligence-report-june-2025
+  - desc: 'The Prompt Engineering Playbook for Programmers: the quality of AI coding
+      assistant output depends heavily on the quality of the prompt'
+    link: https://www.oreilly.com/library/view/the-prompt-engineering/978109815043
+      prompt-engineering-playbook-for-programmers/
+  - desc: Anthropic Claude Uses
+    link: https://www.anthropic.com/news/claude-3
+  - desc: 'What did Google''s AI Co-Scientist ''Discover''? The Human Scientists''
+      POV, from the Podovirus podcast: The Google AI Co-Scientist hypothesized that
+      capsid-forming PICIs, which only encode virus heads, manage to spread by connecting
+      with various virus tails found in the environment'
+    link: https://www.nature.com/articles/d41586-025-01587-9
