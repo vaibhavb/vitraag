@@ -28,6 +28,63 @@
   - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
       across multiple cloud platforms and services.
     link: https://github.com/carlospolop/CloudPEASS
+  - desc: TriageMCP provides an open-source MCP server for static PE analysis, enabling
+      malware triage and security analysis capabilities.
+    link: https://github.com/eversinc33/TriageMCP
+  - desc: Zero-click AI vulnerability discovered in Microsoft 365 Copilot allows data
+      exposure through malicious email attachments with hidden extraction commands.
+    link: https://hackread.com/zero-click-ai-flaw-microsoft-365-copilot-expose-data/
+  - desc: Comprehensive threat modeling framework for cloud service providers addresses
+      evolving security challenges in 2025 cloud environments.
+    link: https://www.chrisfarris.com/post/threat-model-2025/
+  - desc: Kubernetes Security Posture Management (KSPM) practitioner's guide provides
+      comprehensive security implementation strategies for containerized environments.
+    link: https://www.paloaltonetworks.com/blog/cloud-security/kubernetes-a-practitioners-guide-to-kspm/
+  - desc: Guardz secures $56M Series B funding to advance cybersecurity solutions
+      for small and medium businesses through AI-powered threat detection.
+    link: https://www.axios.com/pro/enterprise-software-deals/2025/06/09/exclusive-guardz-locks-up-56m-series-b-for-cybersecurity
+  - desc: Design patterns for securing LLM agents against prompt injection attacks
+      provide layered defense strategies for AI system protection.
+    link: https://simonwillison.net/2025/Jun/13/prompt-injection-design-patterns/
+  - desc: Efficient string processing algorithms for vowel detection demonstrate optimization
+      techniques applicable to security pattern matching.
+    link: https://austinhenley.com/blog/vowels.html
+  - desc: SHADE-Arena framework evaluates sabotage and monitoring capabilities in
+      LLM agents, providing benchmarks for AI security assessment.
+    link: https://www.anthropic.com/research/shade-arena-sabotage-monitoring
+  - desc: Privacy course for security professionals covers three types of data leakage
+      and provides practical privacy protection strategies.
+    link: https://learn.justhacking.com/courses/79c56405-5f89-4533-a46c-f8de37300749/take/3-types-of-leakage
+  - desc: Trust engineering framework enables security leadership at early-stage startups
+      by focusing on business-aligned security practices.
+    link: https://www.returnonsecurity.com/p/trust-engineering-building-security-leadership
+  - desc: Integris IT expands managed security services through strategic acquisitions
+      of TechMD and 1ntegersecurity.
+    link: https://integrisit.com/
+  - desc: CL4R1T4S repository provides system prompt transparency across major AI
+      platforms including ChatGPT, Gemini, and Claude.
+    link: https://github.com/elder-plinius/CL4R1T4S
+  - desc: CloudRec delivers open-source multi-cloud security posture management platform
+      for comprehensive cloud environment security assessment.
+    link: https://github.com/antgroup/CloudRec
+  - desc: Google's layered defense strategy provides comprehensive approach to mitigating
+      prompt injection attacks in AI systems.
+    link: https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html
+  - desc: Bluetooth security vulnerabilities enable unauthorized microphone access,
+      allowing attackers to conduct surveillance through compromised devices.
+    link: https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/
+  - desc: Security OKRs framework provides actionable guidance for security teams
+      to establish measurable objectives and key results.
+    link: https://alsmola.medium.com/building-effective-security-okrs-94f249230a39
+  - desc: Qilin ransomware attack on NHS healthcare systems results in patient death,
+      highlighting critical infrastructure vulnerability impacts.
+    link: https://hackread.com/qilin-ransomware-attack-nhs-causes-patient-death-uk/
+  - desc: Wiz demonstrates fine-tuning small language models for secrets detection
+      in code repositories, advancing automated security scanning capabilities.
+    link: https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code
+  - desc: Colombian Navy intercepts Starlink-powered drone narco-submarine, highlighting
+      emerging threats in autonomous smuggling operations.
+    link: https://www.tomshardware.com/tech-industry/starlink-powered-drone-narco-sub-intercepted-by-colombian-navy-boat-was-converted-into-a-drone-for-uncrewed-smuggling
 - date: '2025-06-12'
   news-items:
   - desc: A perfect cybersecurity startup idea - good blog on what to consider when
