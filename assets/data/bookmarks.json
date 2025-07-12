@@ -1,5 +1,10 @@
 [
   {
+    "date": "2025-07-11",
+    "title": "koalaman/shellcheck: ShellCheck, a static analysis tool for shell scripts",
+    "url": "https://github.com/koalaman/shellcheck"
+  },
+  {
     "date": "2025-06-28",
     "title": "Project Vend: Can Claude run a small shop? (And why does that matter?) \\ Anthropic",
     "url": "https://www.anthropic.com/research/project-vend-1"
