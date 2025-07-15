@@ -1,11 +1,8 @@
-last_updated: '2025-07-14T01:30:39.231374+00:00'
+last_updated: '2025-07-15T01:30:44.473469+00:00'
 posts:
-- pageviews: 1715
+- pageviews: 1710
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 219
-  path: /2024/07/09/mt-langley-trip-report/
-  title: Mt. Langley Trip Report - Lots of Firsts!
 - pageviews: 159
   path: /2024/10/23/hawaii-trip/
   title: Hawaii Trip!
@@ -15,6 +12,9 @@ posts:
 - pageviews: 117
   path: /2024/07/16/aisec-workshop-introduction/
   title: AI Security Getting Started Workshop
+- pageviews: 109
+  path: /2024/07/09/mt-langley-trip-report/
+  title: Mt. Langley Trip Report - Lots of Firsts!
 - pageviews: 108
   path: /2023/11/27/happy-reliving-a-year-to-live/
   title: Happy Reliving! A Review of Stephen Levine's "A Year to Live"
@@ -24,9 +24,9 @@ posts:
 - pageviews: 61
   path: /2024/06/16/japan-trip/
   title: Japan Trip!
-- pageviews: 49
+- pageviews: 48
   path: /posts-by-year/
   title: Blog Posts
-- pageviews: 45
-  path: /bookmarks
-  title: bookmarks
+- pageviews: 44
+  path: /security-news
+  title: Security News
