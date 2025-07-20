@@ -22,8 +22,10 @@
 **Step 2: MCP Search by Tag**
 For each category:
 - Use `mcp__obsidian-server__obsidian_complex_search` to find items with tag since last date
-- Search pattern: `{"and": [{"regexp": ["#TAG", {"var": "content"}]}, {"regexp": ["2025-0[6-9]|2025-1[0-2]", {"var": "path"}]}]}`
+- Search pattern: `{"and": [{"regexp": ["#TAG", {"var": "content"}]}, {"regexp": ["2025-0[6-9]-[0-9]{2}|2025-1[0-2]-[0-9]{2}", {"var": "path"}]}]}`
+- Date range: From day after last YAML date to target date (e.g., 2025-06-13 to 2025-07-09)
 - Extract: date, description, link from each match
+- **IMPORTANT**: Only include items that have the EXACT tag (e.g., #security-news, #finance-news) in content
 
 **Step 3: AI Formatting**
 For each news item:
