@@ -4,7 +4,7 @@ comments: true
 date: 2025-07-20T00:00:00Z
 layout: post
 slug: door-wide-ai
-title: "Door Wide AI: The $64 Million Password McDonald's Left Behind"
+title: "Door Wide AI: The 64 Million Users McDonald's Left Behind"
 categories:
     - cyber security
     - ai security
