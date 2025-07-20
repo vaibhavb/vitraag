@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import sqlite3
 import json
 import argparse
+import sys
 
 def get_notion_links(numdays=7, datesince=None, db=None, json_file="../assets/data/bookmarks.json"):
     "Fetch all the links either from numdays or datesince (YYYY-MM-DD)"
@@ -71,11 +72,28 @@ def get_notion_links(numdays=7, datesince=None, db=None, json_file="../assets/da
             url_property = page["properties"]["URL"]["url"]
             link_url = url_property if url_property else "No URL"
 
-            # Extract the creation date from the 'Created' property
-            created_property = page["properties"]["Created"]["created_time"]
-            if created_property.endswith('Z'):
-                created_property = created_property.replace('Z', '+00:00')
-            created_date = datetime.fromisoformat(created_property).strftime("%Y-%m-%d")
+            # Extract the date from the 'Created' formula property or fallback to 'System Created'
+            try:
+                if "Created" in page["properties"] and page["properties"]["Created"]["formula"]:
+                    # Use the formula result (which shows the effective date)
+                    formula_result = page["properties"]["Created"]["formula"]
+                    if formula_result and "date" in formula_result and formula_result["date"]:
+                        created_date = formula_result["date"]["start"]
+                    else:
+                        # Formula exists but no date, fallback to System Created
+                        created_property = page["properties"]["System Created"]["created_time"]
+                        if created_property.endswith('Z'):
+                            created_property = created_property.replace('Z', '+00:00')
+                        created_date = datetime.fromisoformat(created_property).strftime("%Y-%m-%d")
+                else:
+                    # No formula property, use System Created
+                    created_property = page["properties"]["System Created"]["created_time"]
+                    if created_property.endswith('Z'):
+                        created_property = created_property.replace('Z', '+00:00')
+                    created_date = datetime.fromisoformat(created_property).strftime("%Y-%m-%d")
+            except KeyError:
+                # Fallback if properties don't exist as expected
+                created_date = "Unknown"
 
             # Append the data to the list
             links_data.append((created_date, link_name, link_url))
@@ -126,12 +144,109 @@ def get_notion_links(numdays=7, datesince=None, db=None, json_file="../assets/da
         for date, name, url in links_data:
             print(f"-[{date}]-[{name}]({url})")
 
+def add_bookmark(title, url, tags=None, date=None):
+    """Add a new bookmark to Notion database with URL as primary key"""
+    load_dotenv()
+    
+    notion_token = os.getenv("NOTION_TOKEN")
+    if notion_token is None:
+        raise ValueError("No Notion token found in environment variables")
+    
+    database_id = os.getenv("DATABASE_ID")
+    if database_id is None:
+        raise ValueError("No database ID found in environment variables")
+    
+    notion = Client(auth=notion_token)
+    
+    # Check if URL already exists
+    existing = notion.databases.query(
+        database_id=database_id,
+        filter={
+            "property": "URL",
+            "url": {
+                "equals": url
+            }
+        }
+    )
+    
+    if existing["results"]:
+        print(f"⚠️  URL already exists: {url}")
+        print(f"   Existing title: {existing['results'][0]['properties']['Name']['title'][0]['text']['content']}")
+        return existing["results"][0]["id"]
+    
+    # Create properties for the new page
+    properties = {
+        "Name": {
+            "title": [
+                {
+                    "text": {
+                        "content": title
+                    }
+                }
+            ]
+        },
+        "URL": {
+            "url": url
+        }
+    }
+    
+    # Add custom date if provided (using a Date property)
+    if date:
+        try:
+            # Parse date string to ensure it's valid
+            from datetime import datetime
+            if isinstance(date, str):
+                parsed_date = datetime.strptime(date, "%Y-%m-%d")
+                properties["Created date"] = {
+                    "date": {
+                        "start": date
+                    }
+                }
+                print(f"📅 Setting bookmark for date: {date}")
+        except ValueError:
+            print(f"⚠️  Invalid date format: {date}. Using current date instead.")
+            date = None
+    
+    # Add tags if provided
+    if tags:
+        tag_list = [tag.strip() for tag in tags.split(',') if tag.strip()]
+        if tag_list:
+            properties["Tags"] = {
+                "multi_select": [{"name": tag} for tag in tag_list]
+            }
+    
+    try:
+        # Create the page in the database
+        response = notion.pages.create(
+            parent={"database_id": database_id},
+            properties=properties
+        )
+        print(f"✅ Successfully added bookmark: {title}")
+        print(f"   URL: {url}")
+        if tags:
+            print(f"   Tags: {tags}")
+        return response['id']
+    except Exception as e:
+        print(f"❌ Error adding bookmark: {e}")
+        return None
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Fetch Notion links")
+    parser = argparse.ArgumentParser(description="Fetch or add Notion links")
     parser.add_argument('--numdays', type=int, default=7, help='Number of days to look back')
     parser.add_argument('--datesince', type=str, help='YYYY-MM-DD')
     parser.add_argument('--db', type=str, help="filename.db")
-    parser.add_argument('--json_file', type=str, default="../assets/data/bookmarks.json", help="bookmarks.json")
+    parser.add_argument('--json_file', help="bookmarks.json")
+    parser.add_argument('--add', action='store_true', help='Add a new bookmark')
+    parser.add_argument('--title', type=str, help='Title of the bookmark')
+    parser.add_argument('--url', type=str, help='URL of the bookmark')
+    parser.add_argument('--tags', type=str, help='Comma-separated tags')
+    parser.add_argument('--date', type=str, help='Date for the bookmark (YYYY-MM-DD format)')
     args = parser.parse_args()
 
-    get_notion_links(args.numdays, args.datesince, args.db, args.json_file)
+    if args.add:
+        if not args.title or not args.url:
+            print("❌ Error: --title and --url are required when using --add")
+            sys.exit(1)
+        add_bookmark(args.title, args.url, args.tags, args.date)
+    else:
+        get_notion_links(args.numdays, args.datesince, args.db, args.json_file)
