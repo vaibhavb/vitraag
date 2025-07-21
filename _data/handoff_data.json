@@ -1,142 +1,136 @@
 {
-  "target_date": "2025-07-09",
+  "target_date": "2025-07-21",
   "categories": {
     "security-news": {
       "items": [
         {
-          "desc": "TriageMCP provides an open-source MCP server for static PE analysis, enabling malware triage and security analysis capabilities.",
-          "link": "https://github.com/eversinc33/TriageMCP"
+          "desc": "McDonald's AI security vulnerability analysis reveals critical flaws including authentication bypass via default credentials, authorization issues allowing cross-account data access, and poor account lifecycle management with dormant 2019 test accounts remaining active.",
+          "link": "https://www.darkreading.com/application-security/lessons-learned-mcdonalds-ai-flub"
         },
         {
-          "desc": "Zero-click AI vulnerability discovered in Microsoft 365 Copilot allows data exposure through malicious email attachments with hidden extraction commands.",
-          "link": "https://hackread.com/zero-click-ai-flaw-microsoft-365-copilot-expose-data/"
+          "desc": "Palantir releases comprehensive security documentation with markings system for data classification and access control in enterprise environments.",
+          "link": "https://www.palantir.com/docs/foundry/security/markings"
         },
         {
-          "desc": "Comprehensive threat modeling framework for cloud service providers addresses evolving security challenges in 2025 cloud environments.",
-          "link": "https://www.chrisfarris.com/post/threat-model-2025/"
+          "desc": "MindFort emerges as Y Combinator startup developing autonomous security agents for automated threat detection and response operations.",
+          "link": "https://www.ycombinator.com/companies/mindfort"
         },
         {
-          "desc": "CloudPEASS offers open-source cloud security assessment tool providing comprehensive security evaluations across multiple cloud platforms.",
-          "link": "https://github.com/carlospolop/CloudPEASS"
+          "desc": "Cotool launches AI-powered agents specifically designed for security operations teams, focusing on detection engineering and automated incident response.",
+          "link": "https://www.ycombinator.com/companies/cotool"
         },
         {
-          "desc": "Kubernetes Security Posture Management (KSPM) practitioner's guide provides comprehensive security implementation strategies for containerized environments.",
-          "link": "https://www.paloaltonetworks.com/blog/cloud-security/kubernetes-a-practitioners-guide-to-kspm/"
+          "desc": "Google Gemini AI vulnerability discovered allowing attackers to embed invisible malicious prompts that bypass security filters and content moderation systems.",
+          "link": "https://www.darkreading.com/remote-workforce/google-gemini-ai-bug-invisible-malicious-prompts"
         },
         {
-          "desc": "Guardz secures $56M Series B funding to advance cybersecurity solutions for small and medium businesses through AI-powered threat detection.",
-          "link": "https://www.axios.com/pro/enterprise-software-deals/2025/06/09/exclusive-guardz-locks-up-56m-series-b-for-cybersecurity"
+          "desc": "Go programming language introduces FIPS 140-3 certified cryptographic module for government and enterprise applications requiring validated security standards.",
+          "link": "https://go.dev/blog/fips140"
         },
         {
-          "desc": "Design patterns for securing LLM agents against prompt injection attacks provide layered defense strategies for AI system protection.",
-          "link": "https://simonwillison.net/2025/Jun/13/prompt-injection-design-patterns/"
+          "desc": "Grok-4 AI model successfully compromised through jailbreak techniques just two days after its official release, highlighting ongoing AI safety challenges.",
+          "link": "https://www.securityweek.com/grok-4-falls-to-a-jailbreak-two-days-after-its-release/"
         },
         {
-          "desc": "Efficient string processing algorithms for vowel detection demonstrate optimization techniques applicable to security pattern matching.",
-          "link": "https://austinhenley.com/blog/vowels.html"
+          "desc": "Virtru data security startup secures $50 million in funding to expand their data protection and privacy solutions for enterprise customers.",
+          "link": "https://siliconangle.com/2025/07/11/data-security-startup-virtru-raises-50m-funding/"
         },
         {
-          "desc": "SHADE-Arena framework evaluates sabotage and monitoring capabilities in LLM agents, providing benchmarks for AI security assessment.",
-          "link": "https://www.anthropic.com/research/shade-arena-sabotage-monitoring"
+          "desc": "Advanced techniques for covertly hiding files in modern Linux systems demonstrated, showcasing sophisticated methods for persistence and stealth operations.",
+          "link": "https://haxrob.net/hiding-in-plain-sight-part-3-covertly-hiding-files-in-modern-linux-2/"
         },
         {
-          "desc": "Privacy course for security professionals covers three types of data leakage and provides practical privacy protection strategies.",
-          "link": "https://learn.justhacking.com/courses/79c56405-5f89-4533-a46c-f8de37300749/take/3-types-of-leakage"
+          "desc": "PerfektBlue attack vector discovered affecting millions of vehicles, enabling remote hacking capabilities through automotive system vulnerabilities.",
+          "link": "https://www.securityweek.com/millions-of-cars-exposed-to-remote-hacking-via-perfektblue-attack/"
+        }
+      ]
+    },
+    "digitalhealth-news": {
+      "items": [
+        {
+          "desc": "CB Insights releases comprehensive AI readiness analysis ranking the 50 largest pharmaceutical companies by market capitalization and their artificial intelligence adoption strategies.",
+          "link": "https://www.cbinsights.com/research/ai-readiness-index-pharma-2025/"
         },
         {
-          "desc": "Trust engineering framework enables security leadership at early-stage startups by focusing on business-aligned security practices.",
-          "link": "https://www.returnonsecurity.com/p/trust-engineering-building-security-leadership"
+          "desc": "Google introduces MedGemma, their most capable open-source models specifically designed for health AI development and medical applications.",
+          "link": "https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/"
         },
         {
-          "desc": "Integris IT expands managed security services through strategic acquisitions of TechMD and 1ntegersecurity.",
-          "link": "https://integrisit.com/"
+          "desc": "Investment bankers and industry experts identify nine healthcare startups positioned as prime candidates for initial public offerings in the near term.",
+          "link": "https://www.businessinsider.com/healthcare-startups-in-line-go-public-according-to-bankers-2025-7"
         },
         {
-          "desc": "CL4R1T4S repository provides system prompt transparency across major AI platforms including ChatGPT, Gemini, and Claude.",
-          "link": "https://github.com/elder-plinius/CL4R1T4S"
+          "desc": "Healthcare technology builders analyze venture capital-backable total addressable market opportunities in healthtech, examining key challengers and enabling factors.",
+          "link": "https://healthtechbuilders.substack.com/p/vc-backable-tam-in-healthtech-challengers"
         },
         {
-          "desc": "CloudRec delivers open-source multi-cloud security posture management platform for comprehensive cloud environment security assessment.",
-          "link": "https://github.com/antgroup/CloudRec"
-        },
-        {
-          "desc": "Google's layered defense strategy provides comprehensive approach to mitigating prompt injection attacks in AI systems.",
-          "link": "https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html"
-        },
-        {
-          "desc": "Bluetooth security vulnerabilities enable unauthorized microphone access, allowing attackers to conduct surveillance through compromised devices.",
-          "link": "https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/"
-        },
-        {
-          "desc": "Security OKRs framework provides actionable guidance for security teams to establish measurable objectives and key results.",
-          "link": "https://alsmola.medium.com/building-effective-security-okrs-94f249230a39"
-        },
-        {
-          "desc": "Qilin ransomware attack on NHS healthcare systems results in patient death, highlighting critical infrastructure vulnerability impacts.",
-          "link": "https://hackread.com/qilin-ransomware-attack-nhs-causes-patient-death-uk/"
-        },
-        {
-          "desc": "XBOW secures $75M Series B funding to advance AI-powered cybersecurity solutions and autonomous threat detection capabilities.",
-          "link": "https://xbow.com/"
-        },
-        {
-          "desc": "AWS tutorial demonstrates creation and management of security team permissions in IAM Identity Center for enhanced cloud governance.",
-          "link": "https://www.youtube.com/watch?v=914HljkRPDk"
-        },
-        {
-          "desc": "Critical vulnerabilities CVE-2025-53109 and CVE-2025-53110 discovered in Anthropic's EscapeRoute system highlight AI infrastructure security risks.",
-          "link": "https://cymulate.com/blog/cve-2025-53109-53110-escaperoute-anthropic/"
-        },
-        {
-          "desc": "Substrate framework introduction by Daniel Miessler provides new security architecture for threat detection and incident response automation.",
-          "link": "https://danielmiessler.com/blog/introducing-substrate"
-        },
-        {
-          "desc": "Sophos demonstrates AI-powered identification of cybercrime masterminds through advanced pattern recognition and behavioral analysis techniques.",
-          "link": "https://news.sophos.com/en-us/2025/06/30/using-ai-to-identify-cybercrime-masterminds/"
-        },
-        {
-          "desc": "Wiz releases comprehensive coding rules file providing security guidelines for safer development practices and vulnerability prevention.",
-          "link": "https://www.wiz.io/blog/safer-vibe-coding-rules-files"
-        },
-        {
-          "desc": "Cloud Security Alliance publishes Secure Vibe Coding Guide empowering citizen developers with essential security best practices.",
-          "link": "https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide"
-        },
-        {
-          "desc": "LevelBlue announces acquisition of Trustwave, positioning itself as the largest pure-play managed security services provider.",
-          "link": "https://www.trustwave.com/en-us/company/newsroom/news/levelblue-to-acquire-trustwave-becoming-largest-pure-play-managed-security-services-provider/"
-        },
-        {
-          "desc": "Wiz demonstrates fine-tuning small language models for secrets detection in code repositories, advancing automated security scanning capabilities.",
-          "link": "https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code"
-        },
-        {
-          "desc": "Colombian Navy intercepts Starlink-powered drone narco-submarine, highlighting emerging threats in autonomous smuggling operations.",
-          "link": "https://www.tomshardware.com/tech-industry/starlink-powered-drone-narco-sub-intercepted-by-colombian-navy-boat-was-converted-into-a-drone-for-uncrewed-smuggling"
+          "desc": "Carrot Fertility launches innovative Sprints program specifically targeting the connection between metabolic health and fertility outcomes for comprehensive patient care.",
+          "link": "https://femtechinsider.com/carrot-fertility-launches-sprints-program-targeting-metabolic-fertility-connections/"
         }
       ]
     },
     "finance-news": {
+      "items": []
+    },
+    "pm-news": {
       "items": [
         {
-          "desc": "LlamaCloud services demonstrate AI-powered asset manager fund analysis capabilities through comprehensive Jupyter notebook implementation.",
-          "link": "https://github.com/run-llama/llama_cloud_services/blob/main/examples/extract/asset_manager_fund_analysis.ipynb"
+          "desc": "NFX releases comprehensive upgraded go-to-market playbook featuring modern strategies for product launches and customer acquisition in today's competitive landscape.",
+          "link": "https://www.nfx.com/post/upgraded-gtm-playbook"
+        }
+      ]
+    },
+    "ai-news": {
+      "items": [
+        {
+          "desc": "Safe MCP repository launched on GitHub providing secure model control protocol implementations for AI safety and responsible deployment practices.",
+          "link": "https://github.com/fkautz/safe-mcp"
         },
         {
-          "desc": "Analysis of Terry Smith's investment strategies and methodologies reveals consistent market outperformance through disciplined value investing.",
-          "link": "https://www.investinassets.net/p/how-terry-smith-beats-the-market"
+          "desc": "Hugging Face publishes detailed blog post exploring Kimi K2 integration with Claude Code for enhanced AI development workflows and capabilities.",
+          "link": "https://huggingface.co/blog/francesca-petracci/kimi-k2-claude-code"
         },
         {
-          "desc": "UK regulators finalize comprehensive rules for private stock market operations, establishing framework for alternative trading venues through PISCES.",
-          "link": "https://pitchbook.com/news/articles/uk-sets-final-rules-on-pisces-private-stock-market"
+          "desc": "Anthropic releases comprehensive prompt engineering overview documentation covering best practices and techniques for effective AI model interaction.",
+          "link": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+        },
+        {
+          "desc": "Segment founder shares detailed reflections on OpenAI's evolution, providing insider perspective on the company's growth and strategic decisions.",
+          "link": "https://calv.info/openai-reflections"
+        },
+        {
+          "desc": "Former employee provides comprehensive reflections on Palantir's culture, technology, and business model from an insider's perspective.",
+          "link": "https://nabeelqu.substack.com/p/reflections-on-palantir"
+        },
+        {
+          "desc": "Classic essay 'The Tyranny of Structurelessness' resurfaces in AI discussions, examining how the absence of formal structure creates informal power systems and star hierarchies.",
+          "link": "https://www.jofreeman.com/joreen/tyranny.htm"
+        },
+        {
+          "desc": "Comprehensive video guide demonstrates fine-tuning large language models using Unsloth framework for efficient and cost-effective model customization.",
+          "link": "https://www.youtube.com/watch?v=Lt7KrFMcCis"
+        },
+        {
+          "desc": "Hamel Husain publishes detailed FAQ addressing common questions about AI evaluation methodologies and best practices for model assessment.",
+          "link": "https://hamel.dev/blog/posts/evals-faq/"
+        },
+        {
+          "desc": "Hugging Face releases comprehensive caselaw access project dataset providing free legal data for AI training and legal technology development.",
+          "link": "https://huggingface.co/datasets/common-pile/caselaw_access_project"
+        },
+        {
+          "desc": "NFX analysis explores voice AI market dynamics, identifying specific use cases where voice technology demonstrates clear competitive advantages and market penetration.",
+          "link": "https://www.nfx.com/post/voice-ai-is-working"
+        },
+        {
+          "desc": "BAGEL research introduces novel protein engineering approach using energy landscape exploration for advanced biological system design and optimization.",
+          "link": "https://www.biorxiv.org/content/10.1101/2025.07.05.663138v1"
         }
       ]
     }
   },
   "summary": {
-    "total_items": 31,
-    "categories_updated": ["security-news", "finance-news"],
-    "date_range": "2025-06-13 to 2025-07-09"
+    "total_items": 27,
+    "categories_updated": ["security-news", "digitalhealth-news", "pm-news", "ai-news"]
   }
 }

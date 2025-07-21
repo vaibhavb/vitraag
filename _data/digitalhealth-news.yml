@@ -1,3 +1,22 @@
+- date: '2025-07-21'
+  news-items:
+  - desc: CB Insights releases comprehensive AI readiness analysis ranking the 50
+      largest pharmaceutical companies by market capitalization and their artificial
+      intelligence adoption strategies.
+    link: https://www.cbinsights.com/research/ai-readiness-index-pharma-2025/
+  - desc: Google introduces MedGemma, their most capable open-source models specifically
+      designed for health AI development and medical applications.
+    link: https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/
+  - desc: Investment bankers and industry experts identify nine healthcare startups
+      positioned as prime candidates for initial public offerings in the near term.
+    link: https://www.businessinsider.com/healthcare-startups-in-line-go-public-according-to-bankers-2025-7
+  - desc: Healthcare technology builders analyze venture capital-backable total addressable
+      market opportunities in healthtech, examining key challengers and enabling factors.
+    link: https://healthtechbuilders.substack.com/p/vc-backable-tam-in-healthtech-challengers
+  - desc: Carrot Fertility launches innovative Sprints program specifically targeting
+      the connection between metabolic health and fertility outcomes for comprehensive
+      patient care.
+    link: https://femtechinsider.com/carrot-fertility-launches-sprints-program-targeting-metabolic-fertility-connections/
 - date: '2025-07-09'
   news-items:
   - desc: Microsoft unveils pathway to medical superintelligence through AI diagnostic

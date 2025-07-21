@@ -1,3 +1,37 @@
+- date: '2025-07-21'
+  news-items:
+  - desc: McDonald's AI security vulnerability analysis reveals critical flaws including
+      authentication bypass via default credentials, authorization issues allowing
+      cross-account data access, and poor account lifecycle management with dormant
+      2019 test accounts remaining active.
+    link: https://www.darkreading.com/application-security/lessons-learned-mcdonalds-ai-flub
+  - desc: Palantir releases comprehensive security documentation with markings system
+      for data classification and access control in enterprise environments.
+    link: https://www.palantir.com/docs/foundry/security/markings
+  - desc: MindFort emerges as Y Combinator startup developing autonomous security
+      agents for automated threat detection and response operations.
+    link: https://www.ycombinator.com/companies/mindfort
+  - desc: Cotool launches AI-powered agents specifically designed for security operations
+      teams, focusing on detection engineering and automated incident response.
+    link: https://www.ycombinator.com/companies/cotool
+  - desc: Google Gemini AI vulnerability discovered allowing attackers to embed invisible
+      malicious prompts that bypass security filters and content moderation systems.
+    link: https://www.darkreading.com/remote-workforce/google-gemini-ai-bug-invisible-malicious-prompts
+  - desc: Go programming language introduces FIPS 140-3 certified cryptographic module
+      for government and enterprise applications requiring validated security standards.
+    link: https://go.dev/blog/fips140
+  - desc: Grok-4 AI model successfully compromised through jailbreak techniques just
+      two days after its official release, highlighting ongoing AI safety challenges.
+    link: https://www.securityweek.com/grok-4-falls-to-a-jailbreak-two-days-after-its-release/
+  - desc: Virtru data security startup secures $50 million in funding to expand their
+      data protection and privacy solutions for enterprise customers.
+    link: https://siliconangle.com/2025/07/11/data-security-startup-virtru-raises-50m-funding/
+  - desc: Advanced techniques for covertly hiding files in modern Linux systems demonstrated,
+      showcasing sophisticated methods for persistence and stealth operations.
+    link: https://haxrob.net/hiding-in-plain-sight-part-3-covertly-hiding-files-in-modern-linux-2/
+  - desc: PerfektBlue attack vector discovered affecting millions of vehicles, enabling
+      remote hacking capabilities through automotive system vulnerabilities.
+    link: https://www.securityweek.com/millions-of-cars-exposed-to-remote-hacking-via-perfektblue-attack/
 - date: '2025-07-09'
   news-items:
   - desc: Wiz releases comprehensive coding rules file for safer development practices,

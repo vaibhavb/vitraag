@@ -1,3 +1,40 @@
+- date: '2025-07-21'
+  news-items:
+  - desc: Safe MCP repository launched on GitHub providing secure model control protocol
+      implementations for AI safety and responsible deployment practices.
+    link: https://github.com/fkautz/safe-mcp
+  - desc: Hugging Face publishes detailed blog post exploring Kimi K2 integration
+      with Claude Code for enhanced AI development workflows and capabilities.
+    link: https://huggingface.co/blog/francesca-petracci/kimi-k2-claude-code
+  - desc: Anthropic releases comprehensive prompt engineering overview documentation
+      covering best practices and techniques for effective AI model interaction.
+    link: https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+  - desc: Segment founder shares detailed reflections on OpenAI's evolution, providing
+      insider perspective on the company's growth and strategic decisions.
+    link: https://calv.info/openai-reflections
+  - desc: Former employee provides comprehensive reflections on Palantir's culture,
+      technology, and business model from an insider's perspective.
+    link: https://nabeelqu.substack.com/p/reflections-on-palantir
+  - desc: Classic essay 'The Tyranny of Structurelessness' resurfaces in AI discussions,
+      examining how the absence of formal structure creates informal power systems
+      and star hierarchies.
+    link: https://www.jofreeman.com/joreen/tyranny.htm
+  - desc: Comprehensive video guide demonstrates fine-tuning large language models
+      using Unsloth framework for efficient and cost-effective model customization.
+    link: https://www.youtube.com/watch?v=Lt7KrFMcCis
+  - desc: Hamel Husain publishes detailed FAQ addressing common questions about AI
+      evaluation methodologies and best practices for model assessment.
+    link: https://hamel.dev/blog/posts/evals-faq/
+  - desc: Hugging Face releases comprehensive caselaw access project dataset providing
+      free legal data for AI training and legal technology development.
+    link: https://huggingface.co/datasets/common-pile/caselaw_access_project
+  - desc: NFX analysis explores voice AI market dynamics, identifying specific use
+      cases where voice technology demonstrates clear competitive advantages and market
+      penetration.
+    link: https://www.nfx.com/post/voice-ai-is-working
+  - desc: BAGEL research introduces novel protein engineering approach using energy
+      landscape exploration for advanced biological system design and optimization.
+    link: https://www.biorxiv.org/content/10.1101/2025.07.05.663138v1
 - date: '2025-07-09'
   news-items:
   - desc: Hera Fertility launches AI-powered semen analysis platform providing automated
