@@ -34,7 +34,7 @@ jobs:
         DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
       run: |
         cd data-runners
-        poetry run python update_bookmarks.py
+        poetry run python update_bookmarks.py --json_file="../assets/data/bookmarks.json"
 
     - name: Commit and push if changed
       run: |
