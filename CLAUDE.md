@@ -16,7 +16,7 @@
   - security-news.yml → #security-news
   - digitalhealth-news.yml → #digitalhealth-news
   - finance-news.yml → #finance-news
-  - pm-news.yml → #pm-news
+  - pm-news.yml → #product
   - ai-news.yml → #ai-news
 
 **Step 2: MCP Search by Tag**
@@ -95,8 +95,9 @@ Proceed with file updates? [y/n]
 1. Create backups of existing _data files
 2. Generate YAML entries (all items under target_date)
 3. Prepend new entries to existing files
-4. Clean up backup files after successful updates
-5. Provide update summary
+4. **Validation**: Verify exact item count matches between JSON input and YAML output for each category
+5. Clean up backup files after successful updates
+6. Provide update summary with item count verification
 
 **Example Usage:**
 ```bash
@@ -153,6 +154,7 @@ git pull && git push
 - No duplicate news items
 - All links are valid and accessible
 - YAML structure matches existing format
+- **Item count validation**: Exact number of items in each category matches between JSON input and YAML output
 - Backup files automatically cleaned after successful updates
 - Git operations complete successfully with proper commit messages
 
