@@ -1,6 +1,6 @@
-last_updated: '2025-07-27T01:30:50.534101+00:00'
+last_updated: '2025-07-28T01:30:45.209489+00:00'
 posts:
-- pageviews: 1691
+- pageviews: 1693
   path: /
   title: Vaibhav Bhandari Homepage
 - pageviews: 159
@@ -9,7 +9,7 @@ posts:
 - pageviews: 154
   path: /posts-by-year/
   title: Posts By Year!
-- pageviews: 105
+- pageviews: 104
   path: /2023/11/27/happy-reliving-a-year-to-live/
   title: Happy Reliving! A Review of Stephen Levine's "A Year to Live"
 - pageviews: 79
@@ -25,8 +25,8 @@ posts:
   path: /2025/07/20/door-wide-ai/
   title: 'Door Wide AI: The 64 Million Users McDonald''s Left Behind'
 - pageviews: 44
-  path: /2024/07/16/aisec-workshop-introduction/
-  title: AI Security Getting Started Workshop
-- pageviews: 44
   path: /security-news
   title: Security News
+- pageviews: 43
+  path: /2024/07/16/aisec-workshop-introduction/
+  title: AI Security Getting Started Workshop
