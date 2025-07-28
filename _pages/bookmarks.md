@@ -108,8 +108,14 @@ permalink: /bookmarks
                             const color = stringToColor(tag);
                             return `<span class="tag" style="background-color: ${color}">#${tag}</span>`;
                         }).join(' ');
+                        // Format date to be more readable
+                        const formattedDate = new Date(link.date).toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric'
+                        });
                         liElement.innerHTML = `
-                            <span class="date">${link.date}</span>
+                            <span class="date">${formattedDate}</span>
                             <a href="${link.url}" target="_blank">${link.displayTitle}</a>
                             <div class="tags">${tagSpans}</div>
                         `;
@@ -215,6 +221,7 @@ permalink: /bookmarks
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+        padding-top: 60px; /* Add padding to account for fixed navbar */
     }
 
     .header {
@@ -308,9 +315,10 @@ permalink: /bookmarks
     }
 
     li {
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
         border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 1em;
+        padding-bottom: 0.5em;
+        line-height: 1.4;
     }
 
     li:last-child {
@@ -324,20 +332,19 @@ permalink: /bookmarks
         font-style: italic;
     }
 
-    a {
+    #bookmarks-container a {
         color: #1a1a1a;
-        text-decoration: none;
-        border-bottom: 1px solid #1a1a1a;
+        text-decoration: underline;
         transition: all 0.3s ease;
     }
 
-    a:hover {
+    #bookmarks-container a:hover {
         color: #0000ff;
-        border-bottom-color: #0000ff;
+        text-decoration-color: #0000ff;
     }
 
     .tags {
-        margin-top: 0.5em;
+        margin-top: 0.25em;
     }
 
     .tag-stats {

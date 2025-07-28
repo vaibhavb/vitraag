@@ -95,8 +95,17 @@ def get_notion_links(numdays=7, datesince=None, db=None, json_file="../assets/da
                 # Fallback if properties don't exist as expected
                 created_date = "Unknown"
 
+            # Extract tags from the 'Tags' multi_select property and append to title
+            tags_string = ""
+            if "Tags" in page["properties"] and page["properties"]["Tags"]["multi_select"]:
+                tags = [tag["name"] for tag in page["properties"]["Tags"]["multi_select"]]
+                tags_string = " " + " ".join([f"#{tag}" for tag in tags])
+            
+            # Append tags to the link name so JavaScript can parse them
+            link_name_with_tags = link_name + tags_string
+
             # Append the data to the list
-            links_data.append((created_date, link_name, link_url))
+            links_data.append((created_date, link_name_with_tags, link_url))
 
         # Update pagination info
         has_more = results["has_more"]

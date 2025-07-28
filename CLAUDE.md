@@ -34,7 +34,7 @@ For each news item:
 - Preserve original link
 
 **Step 4: Generate Handoff Data**
-Create JSON structure:
+Create JSON structure and **ALWAYS overwrite the handoff_data.json file completely**:
 ```json
 {
   "target_date": "2025-07-09",
