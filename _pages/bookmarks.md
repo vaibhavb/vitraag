@@ -34,14 +34,14 @@ permalink: /bookmarks
             // Parse tags from titles and update bookmarks
             const tagCounts = {};
             bookmarks.forEach(bookmark => {
-                const parsedTags = bookmark.title.match(/#\w+/g) || [];
+                const parsedTags = bookmark.title.match(/#[\w-]+/g) || [];
                 bookmark.tags = parsedTags.map(tag => tag.substring(1));
                 bookmark.tags.forEach(tag => {
                     tagCounts[tag] = (tagCounts[tag] || 0) + 1;
                 });
                 
                 // Remove tags from the displayed title
-                bookmark.displayTitle = bookmark.title.replace(/#\w+/g, '').trim();
+                bookmark.displayTitle = bookmark.title.replace(/#[\w-]+/g, '').trim();
             });
 
             // Function to generate a color based on a string
