@@ -1,136 +1,189 @@
 {
-  "target_date": "2025-07-21",
+  "target_date": "2025-07-28",
   "categories": {
     "security-news": {
       "items": [
         {
-          "desc": "McDonald's AI security vulnerability analysis reveals critical flaws including authentication bypass via default credentials, authorization issues allowing cross-account data access, and poor account lifecycle management with dormant 2019 test accounts remaining active.",
-          "link": "https://www.darkreading.com/application-security/lessons-learned-mcdonalds-ai-flub"
+          "desc": "HeroDevs launches Open Source Sustainability Fund to provide security patches for end-of-life open source software.",
+          "link": "https://www.herodevs.com/sustainability-fund"
         },
         {
-          "desc": "Palantir releases comprehensive security documentation with markings system for data classification and access control in enterprise environments.",
-          "link": "https://www.palantir.com/docs/foundry/security/markings"
+          "desc": "Haicker introduces AI-powered penetration testing tool with integrated GitHub functionality.",
+          "link": "https://haicker.app/"
         },
         {
-          "desc": "MindFort emerges as Y Combinator startup developing autonomous security agents for automated threat detection and response operations.",
-          "link": "https://www.ycombinator.com/companies/mindfort"
+          "desc": "CrowdStrike reflects on building resilience by design and deploys a chief resilience officer to strengthen organizational security.",
+          "link": "https://www.crowdstrike.com/en-us/blog/reflecting-on-building-resilience-by-design/"
         },
         {
-          "desc": "Cotool launches AI-powered agents specifically designed for security operations teams, focusing on detection engineering and automated incident response.",
-          "link": "https://www.ycombinator.com/companies/cotool"
+          "desc": "Dating safety app Tea suffers data breach exposing 72,000 user images.",
+          "link": "https://techcrunch.com/2025/07/26/dating-safety-app-tea-breached-exposing-72000-user-images/"
         },
         {
-          "desc": "Google Gemini AI vulnerability discovered allowing attackers to embed invisible malicious prompts that bypass security filters and content moderation systems.",
-          "link": "https://www.darkreading.com/remote-workforce/google-gemini-ai-bug-invisible-malicious-prompts"
+          "desc": "Analysis of AI capabilities and challenges in generating secure code for software development.",
+          "link": "https://www.lawfaremedia.org/article/ai-and-secure-code-generation"
         },
         {
-          "desc": "Go programming language introduces FIPS 140-3 certified cryptographic module for government and enterprise applications requiring validated security standards.",
-          "link": "https://go.dev/blog/fips140"
+          "desc": "Security researchers demonstrate actionable privilege escalation techniques against GitHub Copilot.",
+          "link": "https://research.eye.security/how-we-rooted-copilot/"
         },
         {
-          "desc": "Grok-4 AI model successfully compromised through jailbreak techniques just two days after its official release, highlighting ongoing AI safety challenges.",
-          "link": "https://www.securityweek.com/grok-4-falls-to-a-jailbreak-two-days-after-its-release/"
+          "desc": "Review and analysis of the 2025 Cyber 150 list of top cybersecurity companies.",
+          "link": "https://stiennon.substack.com/p/checking-in-on-the-2025-cyber-150"
         },
         {
-          "desc": "Virtru data security startup secures $50 million in funding to expand their data protection and privacy solutions for enterprise customers.",
-          "link": "https://siliconangle.com/2025/07/11/data-security-startup-virtru-raises-50m-funding/"
+          "desc": "Discussion on the importance of verifiable cloud systems for enhanced security and trust.",
+          "link": "https://x.com/dhh/status/1949567874106065214"
         },
         {
-          "desc": "Advanced techniques for covertly hiding files in modern Linux systems demonstrated, showcasing sophisticated methods for persistence and stealth operations.",
-          "link": "https://haxrob.net/hiding-in-plain-sight-part-3-covertly-hiding-files-in-modern-linux-2/"
+          "desc": "Google Cloud Security announces presence and demonstrations at Black Hat security conference.",
+          "link": "https://cloud.google.com/resources/security-black-hat-2025"
         },
         {
-          "desc": "PerfektBlue attack vector discovered affecting millions of vehicles, enabling remote hacking capabilities through automotive system vulnerabilities.",
-          "link": "https://www.securityweek.com/millions-of-cars-exposed-to-remote-hacking-via-perfektblue-attack/"
+          "desc": "AWS introduces Stratus Red Team tool for cloud-based adversary simulation and security testing.",
+          "link": "https://stratus-red-team.cloud/attack-techniques/AWS/"
+        },
+        {
+          "desc": "Deceptiq releases comprehensive Cyber Deception Maturity Model assessment framework for organizations.",
+          "link": "https://deceptiq.com/blog/cyber-deception-maturity-model"
+        },
+        {
+          "desc": "Weekly compilation of the best information security long-form articles and analysis for July 19, 2025.",
+          "link": "https://www.metacurity.com/best-infosec-related-long-reads-for-the-week-of-7-19-25/"
+        },
+        {
+          "desc": "Indian cryptocurrency exchange CoinDCX confirms $44 million theft following security breach.",
+          "link": "https://techcrunch.com/2025/07/21/indian-crypto-exchange-coindcx-confirms-44-million-stolen-during-hack/"
+        },
+        {
+          "desc": "Anne Arundel Dermatology reports data breach affecting 1.9 million patients' personal information.",
+          "link": "https://securityaffairs.com/180100/data-breach/anne-arundel-dermatology-data-breach-impacts-1-9-million-people.html"
+        },
+        {
+          "desc": "Wiz researchers discover critical NVIDIA AI vulnerability (CVE-2025-23266) affecting GPU computing environments.",
+          "link": "https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascaped"
+        },
+        {
+          "desc": "Cybersecurity startup Deep Algorithm secures Rs 10.8 crores in seed funding round.",
+          "link": "https://startupnews.fyi/2025/07/17/cybersecurity-startup-deep-algorithm-raises-rs-10-8-cr-in-seed-round/"
+        },
+        {
+          "desc": "New AI agent platform Cogent launched to streamline vulnerability management processes.",
+          "link": "https://greylock.com/portfolio-news/introducing-cogent-ai-agents-for-vulnerability-management/"
+        },
+        {
+          "desc": "Guidelines and best practices for making the first security hire in growing organizations.",
+          "link": "https://ramimac.me/start-security"
+        },
+        {
+          "desc": "Google announces AI-powered security initiatives to empower cyber defenders and enhance threat detection capabilities.",
+          "link": "https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/"
         }
       ]
     },
     "digitalhealth-news": {
       "items": [
         {
-          "desc": "CB Insights releases comprehensive AI readiness analysis ranking the 50 largest pharmaceutical companies by market capitalization and their artificial intelligence adoption strategies.",
-          "link": "https://www.cbinsights.com/research/ai-readiness-index-pharma-2025/"
+          "desc": "Medical consultation guidance for coronary calcium score CT scan interpretation and clinical applications.",
+          "link": "https://generalmedicine.co/s/coronary-calcium-score-ct-scan-consult/300464"
         },
         {
-          "desc": "Google introduces MedGemma, their most capable open-source models specifically designed for health AI development and medical applications.",
-          "link": "https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/"
+          "desc": "Medical AI company Aidoc raises $150 million in funding to expand its radiology AI platform.",
+          "link": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15751324/aidoc-aidoc-adds-150m-to-coffers"
         },
         {
-          "desc": "Investment bankers and industry experts identify nine healthcare startups positioned as prime candidates for initial public offerings in the near term.",
-          "link": "https://www.businessinsider.com/healthcare-startups-in-line-go-public-according-to-bankers-2025-7"
+          "desc": "One Biosciences secures €15 million funding to advance its single-cell oncology research platform.",
+          "link": "https://pharmatimes.com/news/one-biosciences-raises-e15-million-to-advance-single-cell-oncology-platform/"
         },
         {
-          "desc": "Healthcare technology builders analyze venture capital-backable total addressable market opportunities in healthtech, examining key challengers and enabling factors.",
-          "link": "https://healthtechbuilders.substack.com/p/vc-backable-tam-in-healthtech-challengers"
+          "desc": "HL7 International announces development of new AI standards leveraging FHIR for healthcare interoperability.",
+          "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/hl7-international-develop-standards-ai-leveraging-fhir"
         },
         {
-          "desc": "Carrot Fertility launches innovative Sprints program specifically targeting the connection between metabolic health and fertility outcomes for comprehensive patient care.",
-          "link": "https://femtechinsider.com/carrot-fertility-launches-sprints-program-targeting-metabolic-fertility-connections/"
+          "desc": "SmarterDx shares journey from medical residency program to successful healthcare AI company.",
+          "link": "https://www.bvp.com/atlas/from-residency-to-rocketship-how-smarterdx-became-a-healthcare-ai-success-story"
         }
       ]
     },
     "finance-news": {
-      "items": []
+      "items": [
+        {
+          "desc": "Funding Breakthrough Lab announces new home platform for startup funding opportunities.",
+          "link": "https://fundingbreakthroughlab.org/"
+        }
+      ]
     },
     "pm-news": {
       "items": [
         {
-          "desc": "NFX releases comprehensive upgraded go-to-market playbook featuring modern strategies for product launches and customer acquisition in today's competitive landscape.",
+          "desc": "NFX releases updated comprehensive go-to-market playbook with enhanced strategies for product launches.",
           "link": "https://www.nfx.com/post/upgraded-gtm-playbook"
+        },
+        {
+          "desc": "Strategic roadmap for product management and AI mastery focused on creating compelling user engagement.",
+          "link": "https://www.joanwestenberg.com/p/how-to-make-people-give-a-damn-92e3af37926932efd"
         }
       ]
     },
     "ai-news": {
       "items": [
         {
-          "desc": "Safe MCP repository launched on GitHub providing secure model control protocol implementations for AI safety and responsible deployment practices.",
-          "link": "https://github.com/fkautz/safe-mcp"
+          "desc": "Curated reading list for future-focused thinking, including recommendation for Kurt Vonnegut's Player Piano.",
+          "link": "https://www.allthingsdistributed.com/2025/02/thinking-like-a-fox-a-reading-list-for-the-future.html"
         },
         {
-          "desc": "Hugging Face publishes detailed blog post exploring Kimi K2 integration with Claude Code for enhanced AI development workflows and capabilities.",
-          "link": "https://huggingface.co/blog/francesca-petracci/kimi-k2-claude-code"
+          "desc": "Medical AI company Aidoc raises $150 million in funding to expand its radiology AI platform.",
+          "link": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15751324/aidoc-aidoc-adds-150m-to-coffers"
         },
         {
-          "desc": "Anthropic releases comprehensive prompt engineering overview documentation covering best practices and techniques for effective AI model interaction.",
-          "link": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+          "desc": "Introduction to Tolan, an AI companion designed as an alien best friend interface.",
+          "link": "https://www.tolans.com/"
         },
         {
-          "desc": "Segment founder shares detailed reflections on OpenAI's evolution, providing insider perspective on the company's growth and strategic decisions.",
-          "link": "https://calv.info/openai-reflections"
+          "desc": "Technical analysis of reverse engineering GitHub Spark using GitHub's own Spark platform.",
+          "link": "https://simonwillison.net/2025/Jul/24/github-spark/"
         },
         {
-          "desc": "Former employee provides comprehensive reflections on Palantir's culture, technology, and business model from an insider's perspective.",
-          "link": "https://nabeelqu.substack.com/p/reflections-on-palantir"
+          "desc": "Harvard edX course offering comprehensive Python programming skills for research applications.",
+          "link": "https://learning.edx.org/course/course-v1:HarvardX+PH526x+3T2024/home"
         },
         {
-          "desc": "Classic essay 'The Tyranny of Structurelessness' resurfaces in AI discussions, examining how the absence of formal structure creates informal power systems and star hierarchies.",
-          "link": "https://www.jofreeman.com/joreen/tyranny.htm"
+          "desc": "Experiment in training a machine learning model from scratch with a budget under $1000.",
+          "link": "https://www.reddit.com/r/LocalLLaMA/comments/1lmbtvg/attempting_to_train_a_model_from_scratch_for_less/"
         },
         {
-          "desc": "Comprehensive video guide demonstrates fine-tuning large language models using Unsloth framework for efficient and cost-effective model customization.",
-          "link": "https://www.youtube.com/watch?v=Lt7KrFMcCis"
+          "desc": "Analysis of why small language models represent the future direction for agentic AI systems.",
+          "link": "https://arxiv.org/abs/2506.02153"
         },
         {
-          "desc": "Hamel Husain publishes detailed FAQ addressing common questions about AI evaluation methodologies and best practices for model assessment.",
-          "link": "https://hamel.dev/blog/posts/evals-faq/"
+          "desc": "Comprehensive guide covering techniques and best practices for fine-tuning large language models.",
+          "link": "https://ubiai.tools/llm-fine-tuning-guide/"
         },
         {
-          "desc": "Hugging Face releases comprehensive caselaw access project dataset providing free legal data for AI training and legal technology development.",
-          "link": "https://huggingface.co/datasets/common-pile/caselaw_access_project"
+          "desc": "Solution walkthrough for International Mathematical Olympiad Problem 6 using problem-solving techniques.",
+          "link": "https://artofproblemsolving.com/wiki/index.php/2025_IMO_Problems/Problem_6"
         },
         {
-          "desc": "NFX analysis explores voice AI market dynamics, identifying specific use cases where voice technology demonstrates clear competitive advantages and market penetration.",
-          "link": "https://www.nfx.com/post/voice-ai-is-working"
+          "desc": "Analysis of AI performance predictions on International Mathematical Olympiad 2025 problems.",
+          "link": "https://sugaku.net/content/imo-2025-problems/"
         },
         {
-          "desc": "BAGEL research introduces novel protein engineering approach using energy landscape exploration for advanced biological system design and optimization.",
-          "link": "https://www.biorxiv.org/content/10.1101/2025.07.05.663138v1"
+          "desc": "Comparison analysis between OpenCode and Claude Code development platforms and capabilities.",
+          "link": "https://danielmiessler.com/blog/opencode-vs-claude-code"
+        },
+        {
+          "desc": "Google announces AI-powered security initiatives to empower cyber defenders and enhance threat detection capabilities.",
+          "link": "https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/"
+        },
+        {
+          "desc": "Market analysis suggesting significant opportunities remain open in AI security market segments.",
+          "link": "https://blog.eladgil.com/p/ai-market-clarity"
         }
       ]
     }
   },
   "summary": {
-    "total_items": 27,
-    "categories_updated": ["security-news", "digitalhealth-news", "pm-news", "ai-news"]
+    "total_items": 40,
+    "categories_updated": ["security-news", "digitalhealth-news", "finance-news", "pm-news", "ai-news"]
   }
 }
