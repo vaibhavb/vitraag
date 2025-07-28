@@ -1,3 +1,20 @@
+- date: '2025-07-28'
+  news-items:
+  - desc: Medical consultation guidance for coronary calcium score CT scan interpretation
+      and clinical applications.
+    link: https://generalmedicine.co/s/coronary-calcium-score-ct-scan-consult/300464
+  - desc: Medical AI company Aidoc raises $150 million in funding to expand its radiology
+      AI platform.
+    link: https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15751324/aidoc-aidoc-adds-150m-to-coffers
+  - desc: One Biosciences secures €15 million funding to advance its single-cell oncology
+      research platform.
+    link: https://pharmatimes.com/news/one-biosciences-raises-e15-million-to-advance-single-cell-oncology-platform/
+  - desc: HL7 International announces development of new AI standards leveraging FHIR
+      for healthcare interoperability.
+    link: https://www.fiercehealthcare.com/ai-and-machine-learning/hl7-international-develop-standards-ai-leveraging-fhir
+  - desc: SmarterDx shares journey from medical residency program to successful healthcare
+      AI company.
+    link: https://www.bvp.com/atlas/from-residency-to-rocketship-how-smarterdx-became-a-healthcare-ai-success-story
 - date: '2025-07-21'
   news-items:
   - desc: CB Insights releases comprehensive AI readiness analysis ranking the 50

@@ -1,3 +1,44 @@
+- date: '2025-07-28'
+  news-items:
+  - desc: Curated reading list for future-focused thinking, including recommendation
+      for Kurt Vonnegut's Player Piano.
+    link: https://www.allthingsdistributed.com/2025/02/thinking-like-a-fox-a-reading-list-for-the-future.html
+  - desc: Medical AI company Aidoc raises $150 million in funding to expand its radiology
+      AI platform.
+    link: https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15751324/aidoc-aidoc-adds-150m-to-coffers
+  - desc: Introduction to Tolan, an AI companion designed as an alien best friend
+      interface.
+    link: https://www.tolans.com/
+  - desc: Technical analysis of reverse engineering GitHub Spark using GitHub's own
+      Spark platform.
+    link: https://simonwillison.net/2025/Jul/24/github-spark/
+  - desc: Harvard edX course offering comprehensive Python programming skills for
+      research applications.
+    link: https://learning.edx.org/course/course-v1:HarvardX+PH526x+3T2024/home
+  - desc: Experiment in training a machine learning model from scratch with a budget
+      under $1000.
+    link: https://www.reddit.com/r/LocalLLaMA/comments/1lmbtvg/attempting_to_train_a_model_from_scratch_for_less/
+  - desc: Analysis of why small language models represent the future direction for
+      agentic AI systems.
+    link: https://arxiv.org/abs/2506.02153
+  - desc: Comprehensive guide covering techniques and best practices for fine-tuning
+      large language models.
+    link: https://ubiai.tools/llm-fine-tuning-guide/
+  - desc: Solution walkthrough for International Mathematical Olympiad Problem 6 using
+      problem-solving techniques.
+    link: https://artofproblemsolving.com/wiki/index.php/2025_IMO_Problems/Problem_6
+  - desc: Analysis of AI performance predictions on International Mathematical Olympiad
+      2025 problems.
+    link: https://sugaku.net/content/imo-2025-problems/
+  - desc: Comparison analysis between OpenCode and Claude Code development platforms
+      and capabilities.
+    link: https://danielmiessler.com/blog/opencode-vs-claude-code
+  - desc: Google announces AI-powered security initiatives to empower cyber defenders
+      and enhance threat detection capabilities.
+    link: https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/
+  - desc: Market analysis suggesting significant opportunities remain open in AI security
+      market segments.
+    link: https://blog.eladgil.com/p/ai-market-clarity
 - date: '2025-07-21'
   news-items:
   - desc: Safe MCP repository launched on GitHub providing secure model control protocol

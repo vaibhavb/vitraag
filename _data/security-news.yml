@@ -1,3 +1,60 @@
+- date: '2025-07-28'
+  news-items:
+  - desc: HeroDevs launches Open Source Sustainability Fund to provide security patches
+      for end-of-life open source software.
+    link: https://www.herodevs.com/sustainability-fund
+  - desc: Haicker introduces AI-powered penetration testing tool with integrated GitHub
+      functionality.
+    link: https://haicker.app/
+  - desc: CrowdStrike reflects on building resilience by design and deploys a chief
+      resilience officer to strengthen organizational security.
+    link: https://www.crowdstrike.com/en-us/blog/reflecting-on-building-resilience-by-design/
+  - desc: Dating safety app Tea suffers data breach exposing 72,000 user images.
+    link: https://techcrunch.com/2025/07/26/dating-safety-app-tea-breached-exposing-72000-user-images/
+  - desc: Analysis of AI capabilities and challenges in generating secure code for
+      software development.
+    link: https://www.lawfaremedia.org/article/ai-and-secure-code-generation
+  - desc: Security researchers demonstrate actionable privilege escalation techniques
+      against GitHub Copilot.
+    link: https://research.eye.security/how-we-rooted-copilot/
+  - desc: Review and analysis of the 2025 Cyber 150 list of top cybersecurity companies.
+    link: https://stiennon.substack.com/p/checking-in-on-the-2025-cyber-150
+  - desc: Discussion on the importance of verifiable cloud systems for enhanced security
+      and trust.
+    link: https://x.com/dhh/status/1949567874106065214
+  - desc: Google Cloud Security announces presence and demonstrations at Black Hat
+      security conference.
+    link: https://cloud.google.com/resources/security-black-hat-2025
+  - desc: AWS introduces Stratus Red Team tool for cloud-based adversary simulation
+      and security testing.
+    link: https://stratus-red-team.cloud/attack-techniques/AWS/
+  - desc: Deceptiq releases comprehensive Cyber Deception Maturity Model assessment
+      framework for organizations.
+    link: https://deceptiq.com/blog/cyber-deception-maturity-model
+  - desc: Weekly compilation of the best information security long-form articles and
+      analysis for July 19, 2025.
+    link: https://www.metacurity.com/best-infosec-related-long-reads-for-the-week-of-7-19-25/
+  - desc: Indian cryptocurrency exchange CoinDCX confirms $44 million theft following
+      security breach.
+    link: https://techcrunch.com/2025/07/21/indian-crypto-exchange-coindcx-confirms-44-million-stolen-during-hack/
+  - desc: Anne Arundel Dermatology reports data breach affecting 1.9 million patients'
+      personal information.
+    link: https://securityaffairs.com/180100/data-breach/anne-arundel-dermatology-data-breach-impacts-1-9-million-people.html
+  - desc: Wiz researchers discover critical NVIDIA AI vulnerability (CVE-2025-23266)
+      affecting GPU computing environments.
+    link: https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascaped
+  - desc: Cybersecurity startup Deep Algorithm secures Rs 10.8 crores in seed funding
+      round.
+    link: https://startupnews.fyi/2025/07/17/cybersecurity-startup-deep-algorithm-raises-rs-10-8-cr-in-seed-round/
+  - desc: New AI agent platform Cogent launched to streamline vulnerability management
+      processes.
+    link: https://greylock.com/portfolio-news/introducing-cogent-ai-agents-for-vulnerability-management/
+  - desc: Guidelines and best practices for making the first security hire in growing
+      organizations.
+    link: https://ramimac.me/start-security
+  - desc: Google announces AI-powered security initiatives to empower cyber defenders
+      and enhance threat detection capabilities.
+    link: https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/
 - date: '2025-07-21'
   news-items:
   - desc: McDonald's AI security vulnerability analysis reveals critical flaws including
