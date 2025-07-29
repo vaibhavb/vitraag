@@ -212,3 +212,38 @@ body, html {
     color: var(--footer-text); // Ensure text elements are also white
   }
 }
+
+// Fix tag visibility issues
+.tag {
+  color: hsl(0, 0%, 4%) !important; // Ensure dark text on light backgrounds
+  
+  &.is-light {
+    background-color: hsl(0, 0%, 96%) !important;
+    color: hsl(0, 0%, 21%) !important;
+  }
+  
+  &.is-primary {
+    background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) !important;
+    color: hsl(0, 0%, var(--bulma-primary-invert-l)) !important;
+  }
+  
+  &.is-info {
+    background-color: hsl(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l)) !important;
+    color: hsl(0, 0%, var(--bulma-info-invert-l)) !important;
+  }
+  
+  &.is-warning {
+    background-color: hsl(var(--bulma-warning-h), var(--bulma-warning-s), var(--bulma-warning-l)) !important;
+    color: hsl(0, 0%, var(--bulma-warning-invert-l)) !important;
+  }
+  
+  &.is-danger {
+    background-color: hsl(var(--bulma-danger-h), var(--bulma-danger-s), var(--bulma-danger-l)) !important;
+    color: hsl(0, 0%, var(--bulma-danger-invert-l)) !important;
+  }
+  
+  &.is-success {
+    background-color: hsl(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l)) !important;
+    color: hsl(0, 0%, var(--bulma-success-invert-l)) !important;
+  }
+}

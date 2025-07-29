@@ -1,0 +1,106 @@
+<style>
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  background: #3498db;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-right {
+  margin-left: 60%;
+}
+
+.timeline-left {
+  margin-right: 60%;
+}
+
+.timeline-marker {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  border: 3px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-right .timeline-marker {
+  left: -25px;
+}
+
+.timeline-left .timeline-marker {
+  right: -25px;
+}
+
+.timeline-year {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.timeline-description {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 10px;
+  }
+  
+  .timeline-line {
+    left: 30px;
+  }
+  
+  .timeline-item {
+    margin-left: 60px;
+    margin-right: 0;
+  }
+  
+  .timeline-right,
+  .timeline-left {
+    margin-left: 60px;
+    margin-right: 0;
+  }
+  
+  .timeline-marker {
+    left: -45px !important;
+    right: auto !important;
+  }
+}
+</style>
+
+<div class="timeline-container">
+  <div class="timeline-line"></div>
+  
+  {% for item in page.timeline %}
+  <div class="timeline-item timeline-{{ item.side }}">
+    <div class="timeline-marker" style="background: {{ item.color }};"></div>
+    <div class="timeline-content">
+      <h4 class="timeline-year" style="color: {{ item.color }};">{{ item.year }}: {{ item.title }}</h4>
+      <p class="timeline-description">{{ item.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
