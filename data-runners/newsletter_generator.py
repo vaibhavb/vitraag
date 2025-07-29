@@ -77,14 +77,19 @@ def calculate_top_sources(all_stories):
     return sorted(domain_counts.items(), key=lambda x: x[1], reverse=True)
 
 
-def get_next_issue_number():
-    """Calculate next issue number based on existing newsletters"""
-    newsletters_dir = Path('../_newsletters')
-    if not newsletters_dir.exists():
-        return 1
+def get_issue_number_for_date(target_date):
+    """Calculate issue number based on chronological order of dates"""
+    # Define the known newsletter dates in chronological order
+    newsletter_dates = [
+        '2025-07-21',  # Issue #1
+        '2025-07-28',  # Issue #2
+    ]
     
-    existing_files = list(newsletters_dir.glob('*.md'))
-    return len(existing_files) + 1
+    if target_date in newsletter_dates:
+        return newsletter_dates.index(target_date) + 1
+    else:
+        # For new dates, add them chronologically and return next number
+        return len(newsletter_dates) + 1
 
 
 def generate_newsletter(target_date=None, days_back=7, force=False):
@@ -147,7 +152,7 @@ def generate_newsletter(target_date=None, days_back=7, force=False):
         'date': end_date.strftime('%Y-%m-%d'),
         'start_date': start_date.strftime('%Y-%m-%d'),
         'end_date': end_date.strftime('%Y-%m-%d'),
-        'issue_number': get_next_issue_number(),
+        'issue_number': get_issue_number_for_date(end_date.strftime('%Y-%m-%d')),
         'categories': {}
     }
     
@@ -200,7 +205,7 @@ def create_newsletter_file(data):
     # Generate frontmatter
     frontmatter = f"""---
 layout: newsletter
-title: "The Weekly Vitraag Digest #{data['issue_number']}"
+title: "The Vitraag Digest #{data['issue_number']}"
 date: {data['date']}
 issue_number: {data['issue_number']}
 total_stories: {data['total_stories']}
@@ -217,7 +222,7 @@ top_sources:"""
     for source, count in data['top_sources'][:5]:
         frontmatter += f"\n  - name: \"{source}\"\n    count: {count}"
     
-    frontmatter += """
+    frontmatter += f"""
 categories: 
   - Technology
   - Security
