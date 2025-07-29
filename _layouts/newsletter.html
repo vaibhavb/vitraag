@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .newsletter-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .newsletter-header {
+            text-align: center;
+            border-bottom: 3px solid #000;
+            padding-bottom: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .newsletter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            color: #000;
+        }
+        
+        .issue-meta {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        
+        .story-count {
+            font-size: 1rem;
+            color: #888;
+            font-style: italic;
+        }
+        
+        .newsletter-actions {
+            margin-top: 1.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            margin: 0 0.25rem;
+            border: 2px solid #000;
+            text-decoration: none;
+            color: #000;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #000;
+            color: #fff;
+        }
+        
+        .btn-primary {
+            background: #000;
+            color: #fff;
+        }
+        
+        .btn-primary:hover {
+            background: #333;
+        }
+        
+        .editors-note {
+            background: #f8f8f8;
+            border-left: 6px solid #000;
+            padding: 2rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+        
+        .editors-note h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .table-of-contents {
+            background: #fff;
+            border: 2px solid #000;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .table-of-contents h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        
+        .toc-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .toc-item:last-child {
+            border-bottom: none;
+        }
+        
+        .toc-link {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .toc-link:hover {
+            text-decoration: underline;
+        }
+        
+        .category-section {
+            margin: 4rem 0;
+        }
+        
+        .category-header {
+            border-bottom: 3px solid #000;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .category-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000;
+        }
+        
+        .category-subtitle {
+            font-style: italic;
+            color: #666;
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .featured-story {
+            background: #f9f9f9;
+            border: 2px solid #000;
+            padding: 2.5rem;
+            margin: 2rem 0;
+        }
+        
+        .featured-story h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+        }
+        
+        .story-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+        
+        .story-title a {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .story-title a:hover {
+            color: #0066cc;
+        }
+        
+        .story-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+        
+        .story-excerpt {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        
+        .read-more {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 0.9rem;
+        }
+        
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        
+        .story-list {
+            margin-top: 2rem;
+        }
+        
+        .story-list h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .story-item {
+            padding: 1.2rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .story-item:last-child {
+            border-bottom: none;
+        }
+        
+        .story-headline {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 0.4rem;
+            line-height: 1.4;
+        }
+        
+        .story-headline a {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .story-headline a:hover {
+            color: #0066cc;
+        }
+        
+        .story-summary {
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+        }
+        
+        .newsletter-stats {
+            background: #000;
+            color: #fff;
+            padding: 3rem 2rem;
+            margin: 4rem 0;
+            text-align: center;
+        }
+        
+        .newsletter-stats h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .top-sources {
+            text-align: left;
+            margin-top: 2rem;
+        }
+        
+        .top-sources h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .source-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #333;
+        }
+        
+        .source-item:last-child {
+            border-bottom: none;
+        }
+        
+        .newsletter-footer {
+            border-top: 3px solid #000;
+            padding-top: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+            color: #666;
+        }
+        
+        .next-issue {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .footer-links {
+            margin: 1.5rem 0;
+        }
+        
+        .footer-links a {
+            margin: 0 1rem;
+            color: #0066cc;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .attribution {
+            font-style: italic;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+        
+        .show-more {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .show-more-btn {
+            background: none;
+            border: 2px solid #666;
+            color: #666;
+            padding: 0.8rem 1.5rem;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+        
+        .show-more-btn:hover {
+            border-color: #000;
+            color: #000;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .newsletter-container {
+                padding: 1rem 0.5rem;
+            }
+            
+            .newsletter-title {
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+            
+            .toc-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            
+            .featured-story {
+                padding: 1.5rem;
+            }
+            
+            .btn {
+                display: block;
+                margin: 0.5rem 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+{% include nav.html %}
+
+<div class="newsletter-container">
+    <header class="newsletter-header">
+        <h1 class="newsletter-title">The Weekly Tech Digest</h1>
+        <div class="issue-meta">Issue #{{ page.issue_number }} • {{ page.date | date: "%B %d, %Y" }}</div>
+        <div class="story-count">{{ page.total_stories }} stories • {{ page.categories.size }} categories</div>
+        
+        <div class="newsletter-actions">
+            <a href="/newsletter.xml" class="btn btn-primary">📡 Subscribe RSS</a>
+            <a href="/newsletter/archive" class="btn">📂 Archive</a>
+            <a href="#" class="btn" onclick="navigator.share && navigator.share({title: '{{ page.title }}', url: window.location.href})">📤 Share</a>
+        </div>
+    </header>
+
+    {% if page.editors_note %}
+    <div class="editors-note">
+        <h3>Editor's Note</h3>
+        {{ page.editors_note }}
+    </div>
+    {% endif %}
+
+    <div class="table-of-contents">
+        <h3>In This Issue</h3>
+        {% if page.security_count > 0 %}
+        <div class="toc-item">
+            <span>🔒 Security News ({{ page.security_count }} stories)</span>
+            <a href="#security" class="toc-link">Jump ↓</a>
+        </div>
+        {% endif %}
+        {% if page.ai_count > 0 %}
+        <div class="toc-item">
+            <span>🤖 AI & Machine Learning ({{ page.ai_count }} stories)</span>
+            <a href="#ai" class="toc-link">Jump ↓</a>
+        </div>
+        {% endif %}
+        {% if page.health_count > 0 %}
+        <div class="toc-item">
+            <span>🏥 Digital Health ({{ page.health_count }} stories)</span>
+            <a href="#health" class="toc-link">Jump ↓</a>
+        </div>
+        {% endif %}
+        {% if page.pm_count > 0 %}
+        <div class="toc-item">
+            <span>📊 Product Management ({{ page.pm_count }} stories)</span>
+            <a href="#product" class="toc-link">Jump ↓</a>
+        </div>
+        {% endif %}
+        {% if page.finance_count > 0 %}
+        <div class="toc-item">
+            <span>💰 Finance & Markets ({{ page.finance_count }} stories)</span>
+            <a href="#finance" class="toc-link">Jump ↓</a>
+        </div>
+        {% endif %}
+    </div>
+
+    <main class="newsletter-content">
+        {{ content }}
+    </main>
+
+    <section class="newsletter-stats">
+        <h2>Week in Numbers</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">{{ page.total_stories }}</span>
+                <span class="stat-label">Total Stories</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{{ page.categories.size }}</span>
+                <span class="stat-label">Categories</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{{ page.source_count | default: "18" }}</span>
+                <span class="stat-label">News Sources</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">#{{ page.issue_number }}</span>
+                <span class="stat-label">Issue Number</span>
+            </div>
+        </div>
+        
+        {% if page.top_sources %}
+        <div class="top-sources">
+            <h3>Top Sources This Week</h3>
+            {% for source in page.top_sources limit:5 %}
+            <div class="source-item">
+                {{ forloop.index }}. {{ source.name }} ({{ source.count }} stories)
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </section>
+
+    <footer class="newsletter-footer">
+        <div class="next-issue">
+            Next Issue: {{ page.date | date: "%s" | plus: 604800 | date: "%B %d, %Y" }}
+        </div>
+        
+        <div class="footer-links">
+            <a href="/newsletter/archive">Archive</a>
+            <a href="/newsletter.xml">RSS Feed</a>
+            <a href="/newsletter">Newsletter Home</a>
+        </div>
+        
+        <div class="attribution">
+            Curated with ❤️ using Claude Code
+        </div>
+    </footer>
+</div>
+
+<script>
+// Simple show/hide functionality for story lists
+document.addEventListener('DOMContentLoaded', function() {
+    // Add show more functionality
+    const showMoreBtns = document.querySelectorAll('.show-more-btn');
+    showMoreBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const hiddenStories = this.parentElement.parentElement.querySelectorAll('.story-item.hidden');
+            hiddenStories.forEach(story => {
+                story.classList.remove('hidden');
+                story.style.display = 'block';
+            });
+            this.parentElement.style.display = 'none';
+        });
+    });
+    
+    // Smooth scrolling for table of contents links
+    document.querySelectorAll('.toc-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+});
+</script>
+
+{% include footer.html %}
+{% include analytics-google.html %}
+</body>
+</html>

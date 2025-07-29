@@ -20,12 +20,22 @@ collections:
   notes:
     output: true
     permalink: /notes/:slug/
+  newsletters:
+    output: true
+    permalink: /newsletter/:name/
+    sort_by: date
 
 defaults:
   - scope:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  - scope:
+      path: "_newsletters"
+      type: "newsletters"
+    values:
+      layout: "newsletter"
+      rss_eligible: true
 
 plugins:
   - jekyll-feed

@@ -1,0 +1,167 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Weekly Vitraag Digest - {{ site.title }}</title>
+    <description>A curated weekly collection of the most important technology stories across cybersecurity, AI, digital health, product management, and finance</description>
+    <link>{{ site.url }}{{ site.baseurl }}/newsletter/</link>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/newsletter.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
+    <webMaster>{{ site.email }} ({{ site.author }})</webMaster>
+    <copyright>{{ site.time | date: "%Y" }} {{ site.author }}</copyright>
+    <category>Technology</category>
+    <category>Cybersecurity</category>
+    <category>Artificial Intelligence</category>
+    <category>Digital Health</category>
+    <category>Product Management</category>
+    <category>Finance</category>
+    <image>
+      <url>{{ site.url }}{{ site.baseurl }}/assets/images/all/profile.jpg</url>
+      <title>The Weekly Vitraag Digest</title>
+      <link>{{ site.url }}{{ site.baseurl }}/newsletter/</link>
+    </image>
+    <ttl>10080</ttl><!-- 1 week in minutes -->
+    
+    {% assign newsletters = site.newsletters | default: empty | sort: 'date' | reverse %}
+    {% for newsletter in newsletters limit:15 %}
+    <item>
+      <title>{{ newsletter.title | xml_escape }}</title>
+      <description><![CDATA[
+        <h2>{{ newsletter.total_stories }} stories this week</h2>
+        <p><em>{{ newsletter.date | date: "%B %d, %Y" }} • Issue #{{ newsletter.issue_number }}</em></p>
+        
+        {% if newsletter.security_count > 0 %}
+        <h3>🔒 Security News ({{ newsletter.security_count }} stories)</h3>
+        <p>Critical security developments, breaches, and cybersecurity innovations</p>
+        {% endif %}
+        
+        {% if newsletter.ai_count > 0 %}
+        <h3>🤖 AI & Machine Learning ({{ newsletter.ai_count }} stories)</h3>
+        <p>Artificial intelligence breakthroughs, research, and industry developments</p>
+        {% endif %}
+        
+        {% if newsletter.health_count > 0 %}
+        <h3>🏥 Digital Health ({{ newsletter.health_count }} stories)</h3>
+        <p>Healthcare technology, medical innovations, and digital health trends</p>
+        {% endif %}
+        
+        {% if newsletter.pm_count > 0 %}
+        <h3>📊 Product Management ({{ newsletter.pm_count }} stories)</h3>
+        <p>Product strategy, management insights, and industry best practices</p>
+        {% endif %}
+        
+        {% if newsletter.finance_count > 0 %}
+        <h3>💰 Finance & Markets ({{ newsletter.finance_count }} stories)</h3>
+        <p>Financial technology, market trends, and investment insights</p>
+        {% endif %}
+        
+        <hr/>
+        
+        <h3>📊 This Week's Statistics</h3>
+        <ul>
+          <li><strong>Total Stories:</strong> {{ newsletter.total_stories }}</li>
+          <li><strong>News Sources:</strong> {{ newsletter.source_count | default: "Multiple" }}</li>
+          <li><strong>Date Range:</strong> {{ newsletter.date_range | default: "Past 7 days" }}</li>
+        </ul>
+        
+        {% if newsletter.top_sources and newsletter.top_sources.size > 0 %}
+        <h4>Top Sources:</h4>
+        <ul>
+          {% for source in newsletter.top_sources limit:5 %}
+          <li>{{ source.name }} ({{ source.count }} stories)</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        
+        <p><a href="{{ site.url }}{{ site.baseurl }}{{ newsletter.url }}">Read the full newsletter with all {{ newsletter.total_stories }} stories →</a></p>
+        
+        <hr/>
+        <p><em>Curated with ❤️ using Claude Code | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/">Subscribe</a> | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/archive/">Archive</a></em></p>
+      ]]></description>
+      <content:encoded><![CDATA[
+        <div style="font-family: Georgia, 'Times New Roman', serif; max-width: 600px; margin: 0 auto; line-height: 1.6;">
+          <h1 style="font-size: 2rem; text-align: center; border-bottom: 3px solid #000; padding-bottom: 1rem; margin-bottom: 2rem;">
+            The Weekly Vitraag Digest #{{ newsletter.issue_number }}
+          </h1>
+          
+          <div style="text-align: center; color: #666; margin-bottom: 2rem;">
+            <strong>{{ newsletter.date | date: "%B %d, %Y" }}</strong><br/>
+            {{ newsletter.total_stories }} curated stories across {{ newsletter.categories.size }} categories
+          </div>
+          
+          {% if newsletter.editors_note %}
+          <div style="background: #f8f8f8; border-left: 6px solid #000; padding: 1.5rem; margin: 2rem 0; font-style: italic;">
+            <h3 style="margin-top: 0;">Editor's Note</h3>
+            {{ newsletter.editors_note }}
+          </div>
+          {% endif %}
+          
+          <div style="border: 2px solid #000; padding: 1.5rem; margin: 2rem 0;">
+            <h3 style="text-align: center; margin-top: 0;">In This Issue</h3>
+            {% if newsletter.security_count > 0 %}
+            <p>🔒 <strong>Security News</strong> ({{ newsletter.security_count }} stories)</p>
+            {% endif %}
+            {% if newsletter.ai_count > 0 %}
+            <p>🤖 <strong>AI & Machine Learning</strong> ({{ newsletter.ai_count }} stories)</p>
+            {% endif %}
+            {% if newsletter.health_count > 0 %}
+            <p>🏥 <strong>Digital Health</strong> ({{ newsletter.health_count }} stories)</p>
+            {% endif %}
+            {% if newsletter.pm_count > 0 %}
+            <p>📊 <strong>Product Management</strong> ({{ newsletter.pm_count }} stories)</p>
+            {% endif %}
+            {% if newsletter.finance_count > 0 %}
+            <p>💰 <strong>Finance & Markets</strong> ({{ newsletter.finance_count }} stories)</p>
+            {% endif %}
+          </div>
+          
+          <div style="background: #000; color: #fff; padding: 2rem; text-align: center; margin: 2rem 0;">
+            <h3 style="margin-top: 0; color: #fff;">Week in Numbers</h3>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+              <div>
+                <div style="font-size: 1.5rem; font-weight: bold;">{{ newsletter.total_stories }}</div>
+                <div style="font-size: 0.9rem; opacity: 0.8;">Total Stories</div>
+              </div>
+              <div>
+                <div style="font-size: 1.5rem; font-weight: bold;">{{ newsletter.source_count | default: "18" }}</div>
+                <div style="font-size: 0.9rem; opacity: 0.8;">News Sources</div>
+              </div>
+            </div>
+          </div>
+          
+          <div style="text-align: center; margin: 2rem 0; padding: 1rem; border: 2px solid #000;">
+            <p style="margin-bottom: 1rem;"><strong>Ready to read the full newsletter?</strong></p>
+            <a href="{{ site.url }}{{ site.baseurl }}{{ newsletter.url }}" 
+               style="display: inline-block; background: #000; color: #fff; padding: 1rem 2rem; text-decoration: none; font-weight: bold; text-transform: uppercase;">
+              Read Full Issue →
+            </a>
+          </div>
+          
+          <div style="text-align: center; color: #666; font-size: 0.9rem; margin-top: 2rem; border-top: 1px solid #ccc; padding-top: 1rem;">
+            <p>The Weekly Vitraag Digest | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/">Subscribe</a> | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/archive/">Archive</a></p>
+            <p>Curated with ❤️ using Claude Code</p>
+          </div>
+        </div>
+      ]]></content:encoded>
+      <link>{{ site.url }}{{ site.baseurl }}{{ newsletter.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ newsletter.url }}</guid>
+      <pubDate>{{ newsletter.date | date_to_rfc822 }}</pubDate>
+      <category>Newsletter</category>
+      <category>Technology</category>
+      {% if newsletter.security_count > 0 %}<category>Cybersecurity</category>{% endif %}
+      {% if newsletter.ai_count > 0 %}<category>Artificial Intelligence</category>{% endif %}
+      {% if newsletter.health_count > 0 %}<category>Digital Health</category>{% endif %}
+      {% if newsletter.pm_count > 0 %}<category>Product Management</category>{% endif %}
+      {% if newsletter.finance_count > 0 %}<category>Finance</category>{% endif %}
+      <author>{{ site.email }} ({{ site.author }})</author>
+      {% if newsletter.total_stories %}
+      <source url="{{ site.url }}{{ site.baseurl }}/newsletter.xml">The Weekly Vitraag Digest</source>
+      {% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
