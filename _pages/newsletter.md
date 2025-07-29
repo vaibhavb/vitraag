@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "The Weekly Tech Digest"
+title: "The Vitraag Digest"
 permalink: /newsletter/
 ---
 
@@ -337,7 +337,7 @@ permalink: /newsletter/
 
 <div class="newsletter-landing">
     <header class="masthead">
-        <h1>The Weekly Vitraag Digest</h1>
+        <h1>The Vitraag Digest</h1>
         <div class="tagline">A curated collection of the week's most important tech stories</div>
         <div class="description">
             Every week, I handpick the most significant developments across cybersecurity, 

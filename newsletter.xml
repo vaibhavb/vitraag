@@ -4,7 +4,7 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>The Weekly Vitraag Digest - {{ site.title }}</title>
+    <title>The Vitraag Digest - {{ site.title }}</title>
     <description>A curated weekly collection of the most important technology stories across cybersecurity, AI, digital health, product management, and finance</description>
     <link>{{ site.url }}{{ site.baseurl }}/newsletter/</link>
     <atom:link href="{{ site.url }}{{ site.baseurl }}/newsletter.xml" rel="self" type="application/rss+xml"/>
@@ -21,7 +21,7 @@ layout: null
     <category>Finance</category>
     <image>
       <url>{{ site.url }}{{ site.baseurl }}/assets/images/all/profile.jpg</url>
-      <title>The Weekly Vitraag Digest</title>
+      <title>The Vitraag Digest</title>
       <link>{{ site.url }}{{ site.baseurl }}/newsletter/</link>
     </image>
     <ttl>10080</ttl><!-- 1 week in minutes -->
@@ -85,7 +85,7 @@ layout: null
       <content:encoded><![CDATA[
         <div style="font-family: Georgia, 'Times New Roman', serif; max-width: 600px; margin: 0 auto; line-height: 1.6;">
           <h1 style="font-size: 2rem; text-align: center; border-bottom: 3px solid #000; padding-bottom: 1rem; margin-bottom: 2rem;">
-            The Weekly Vitraag Digest #{{ newsletter.issue_number }}
+            The Vitraag Digest #{{ newsletter.issue_number }}
           </h1>
           
           <div style="text-align: center; color: #666; margin-bottom: 2rem;">
@@ -142,7 +142,7 @@ layout: null
           </div>
           
           <div style="text-align: center; color: #666; font-size: 0.9rem; margin-top: 2rem; border-top: 1px solid #ccc; padding-top: 1rem;">
-            <p>The Weekly Vitraag Digest | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/">Subscribe</a> | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/archive/">Archive</a></p>
+            <p>The Vitraag Digest | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/">Subscribe</a> | <a href="{{ site.url }}{{ site.baseurl }}/newsletter/archive/">Archive</a></p>
             <p>Curated with ❤️ using Claude Code</p>
           </div>
         </div>
@@ -159,7 +159,7 @@ layout: null
       {% if newsletter.finance_count > 0 %}<category>Finance</category>{% endif %}
       <author>{{ site.email }} ({{ site.author }})</author>
       {% if newsletter.total_stories %}
-      <source url="{{ site.url }}{{ site.baseurl }}/newsletter.xml">The Weekly Vitraag Digest</source>
+      <source url="{{ site.url }}{{ site.baseurl }}/newsletter.xml">The Vitraag Digest</source>
       {% endif %}
     </item>
     {% endfor %}

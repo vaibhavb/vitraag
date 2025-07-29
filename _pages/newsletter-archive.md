@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Newsletter Archive - The Weekly Vitraag Digest"
+title: "Newsletter Archive - The Vitraag Digest"
 permalink: /newsletter/archive/
 ---
 
@@ -257,7 +257,7 @@ permalink: /newsletter/archive/
     <header class="archive-header">
         <h1>Newsletter Archive</h1>
         <div class="archive-description">
-            Explore my complete collection of Weekly Vitraag Digest issues. 
+            Explore my complete collection of The Vitraag Digest issues. 
             Each edition features carefully curated stories from across the technology landscape.
         </div>
         
@@ -351,7 +351,7 @@ permalink: /newsletter/archive/
     {% else %}
     <section class="no-results">
         <h3>No newsletters available yet</h3>
-        <p>Check back soon for our first edition of The Weekly Tech Digest!</p>
+        <p>Check back soon for our first edition of The Vitraag Digest!</p>
         <a href="/newsletter" class="btn">← Back to Newsletter Home</a>
     </section>
     {% endif %}
