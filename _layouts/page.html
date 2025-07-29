@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <title>{{page.title}}</title>
+    <style>
+      .page-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+      
+      .page-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2c3e50;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+      }
+      
+      .page-description {
+        font-size: 1.1rem;
+        color: #7f8c8d;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+      }
+      
+      .toc-sidebar {
+        position: sticky;
+        top: 20px;
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+        background: linear-gradient(135deg, var(--bulma-primary, #00d1b2) 0%, var(--bulma-info, #3273dc) 100%);
+        color: var(--bulma-primary-invert, white);
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+      }
+      
+      .toc-sidebar::-webkit-scrollbar {
+        width: 6px;
+      }
+      
+      .toc-sidebar::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+      }
+      
+      .toc-sidebar::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 3px;
+      }
+      
+      .toc-sidebar::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.5);
+      }
+      
+      .toc-sidebar h4 {
+        margin-bottom: 1.5rem;
+        color: var(--bulma-primary-invert, white);
+        font-weight: 700;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      
+      .toc-sidebar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .toc-sidebar li {
+        margin-bottom: 0.75rem;
+      }
+      
+      .toc-sidebar a {
+        color: rgba(255, 255, 255, 0.95);
+        text-decoration: none;
+        font-size: 0.95rem;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        border-left: 3px solid transparent;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      }
+      
+      .toc-sidebar a:hover {
+        color: white;
+        background: rgba(255, 255, 255, 0.2);
+        border-left-color: white;
+        transform: translateX(4px);
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      }
+      
+      .toc-sidebar .toc-h3 {
+        padding-left: 1.5rem;
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
+      
+      .page-metadata {
+        margin-bottom: 3rem;
+      }
+      
+      .page-metadata .tag {
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .content-card {
+        background: white;
+        border-radius: 16px;
+        padding: 3rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid #f1f3f4;
+      }
+      
+      .content h1 {
+        font-size: 2.25rem;
+        color: #2c3e50;
+        font-weight: 700;
+        margin: 3rem 0 1.5rem 0;
+        line-height: 1.3;
+        border-bottom: 3px solid #667eea;
+        padding-bottom: 0.5rem;
+      }
+      
+      .content h2 {
+        font-size: 1.8rem;
+        color: #34495e;
+        font-weight: 600;
+        margin: 2.5rem 0 1.25rem 0;
+        line-height: 1.4;
+      }
+      
+      .content h3 {
+        font-size: 1.4rem;
+        color: #4a5568;
+        font-weight: 600;
+        margin: 2rem 0 1rem 0;
+        line-height: 1.4;
+      }
+      
+      .content p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: #4a5568;
+        margin-bottom: 1.5rem;
+      }
+      
+      .content ul, .content ol {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: #4a5568;
+        margin-bottom: 1.5rem;
+      }
+      
+      .content blockquote {
+        border-left: 4px solid #667eea;
+        padding-left: 1.5rem;
+        margin: 2rem 0;
+        font-style: italic;
+        color: #6c757d;
+      }
+      
+      .opening-quote {
+        font-size: 1.25rem;
+        font-style: italic;
+        text-align: center;
+        color: #6c757d;
+        margin: 2rem 0 3rem 0;
+        padding: 1.5rem;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        border-radius: 12px;
+        border-left: 4px solid var(--bulma-primary, #00d1b2);
+      }
+      
+      @media screen and (max-width: 1024px) {
+        .toc-sidebar {
+          display: none;
+        }
+        .page-container {
+          padding: 1rem;
+        }
+        .content-card {
+          padding: 2rem;
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+        .page-title {
+          font-size: 2rem;
+        }
+        .content h1 {
+          font-size: 1.8rem;
+        }
+        .content h2 {
+          font-size: 1.5rem;
+        }
+        .content-card {
+          padding: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+<body>
+
+{% include nav.html %}
+
+<div class="page-container">
+  <div class="columns">
+    <!-- Main content -->
+    <div class="column is-8">
+      <div class="content-card">
+        <h1 class="page-title">{{page.title}}</h1>
+        {% if page.description %}
+          <p class="page-description">{{page.description}}</p>
+        {% endif %}
+        
+        <!-- Page metadata -->
+        <div class="page-metadata">
+          {% if page.created_date %}
+            <span class="tag is-info">
+              <strong>Created:</strong>&nbsp;{{page.created_date | date: "%B %d, %Y"}}
+            </span>
+          {% endif %}
+          {% if page.updated_date %}
+            <span class="tag is-danger">
+              <strong>Last Updated:</strong>&nbsp;{{page.updated_date | date: "%B %d, %Y"}}
+            </span>
+          {% endif %}
+        </div>
+        
+        <div class="content">
+          {{content}}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sidebar with TOC -->
+    <div class="column is-4">
+      <div class="toc-sidebar">
+        <h4>Table of Contents</h4>
+        <ul id="table-of-contents">
+          <!-- TOC will be generated by JavaScript -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Generate table of contents
+  document.addEventListener('DOMContentLoaded', function() {
+    const toc = document.getElementById('table-of-contents');
+    const headings = document.querySelectorAll('.content h1, .content h2, .content h3');
+    
+    headings.forEach(function(heading, index) {
+      // Create anchor
+      const id = 'heading-' + index;
+      heading.id = id;
+      
+      // Create TOC entry
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = '#' + id;
+      a.textContent = heading.textContent;
+      
+      // Add class based on heading level for styling
+      if (heading.tagName === 'H3') {
+        a.classList.add('toc-h3');
+      }
+      
+      li.appendChild(a);
+      toc.appendChild(li);
+      
+      // Smooth scroll
+      a.addEventListener('click', function(e) {
+        e.preventDefault();
+        heading.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+    
+    // Highlight current section on scroll
+    window.addEventListener('scroll', function() {
+      let current = '';
+      headings.forEach(function(heading) {
+        const rect = heading.getBoundingClientRect();
+        if (rect.top <= 100) {
+          current = heading.id;
+        }
+      });
+      
+      // Remove all active classes
+      document.querySelectorAll('.toc-sidebar a').forEach(function(link) {
+        link.style.color = 'rgba(255, 255, 255, 0.9)';
+        link.style.borderLeftColor = 'transparent';
+        link.style.background = 'transparent';
+        link.style.transform = 'translateX(0)';
+      });
+      
+      // Add active class to current
+      if (current) {
+        const activeLink = document.querySelector('.toc-sidebar a[href="#' + current + '"]');
+        if (activeLink) {
+          activeLink.style.color = 'var(--bulma-primary-invert, white)';
+          activeLink.style.borderLeftColor = 'var(--bulma-primary-invert, white)';
+          activeLink.style.background = 'rgba(255, 255, 255, 0.2)';
+          activeLink.style.transform = 'translateX(4px)';
+        }
+      }
+    });
+  });
+</script>
+
+{% include footer.html %}
+{% include analytics-google.html %}
+</body>
+</html>
