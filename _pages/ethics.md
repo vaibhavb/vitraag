@@ -48,12 +48,19 @@ Purpose emerges from:
 
 ## Guiding Principles
 
-**Public Version** *(Full version in development)*
-
 ### 💎 Core Values
 - **Take Responsibility**: Own your actions and their consequences
 - **Diversity Matters**: Multiple perspectives enrich understanding
 - **Talent Matters**: Recognize and nurture capabilities in all beings
+- **Live and Let Live**: Respect the autonomy and choices of all conscious beings
+- **Honesty and Truth**: The easiest policies due to the computational burden of lies
+
+### 🧠 Wisdom for Living
+- Small consistent actions compound into extraordinary results over time
+- True wealth is time, health, and meaningful relationships
+- The best investment is in yourself - skills, health, and character
+- Learning to learn is the most important skill
+- Legacy is over-rated; do well in the time you have
 
 ---
 
