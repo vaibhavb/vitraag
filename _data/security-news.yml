@@ -1,3 +1,44 @@
+- date: '2025-08-03'
+  news-items:
+  - desc: RunReveal launches AI Chat for Security Investigations to enhance threat
+      detection and response capabilities.
+    link: https://blog.runreveal.com/introducing-runreveal-ai-chat/
+  - desc: Analysis of the hidden challenges in staff engineering roles, including
+      lack of transparency and uncertainty in career progression.
+    link: https://substack.com/@scottbehrens/p-169380048
+  - desc: Chris Sanders presents a standard for creating human-centered investigation
+      playbooks for security teams.
+    link: https://chrissanders.org/2025/06/human-centered-playbooks/
+  - desc: BlinkOps secures $50M funding for its micro agent cybersecurity platform
+      to enhance automated threat response.
+    link: https://www.calcalistech.com/ctechnews/article/hjwr1jhvge
+  - desc: Comprehensive guide for building effective cloud security roadmaps and implementation
+      strategies.
+    link: https://open.substack.com/pub/groundedcloudsecurity/p/building-a-cloud-security-roadmap?r=1xgaxy&utm_medium=ios
+  - desc: Palo Alto Networks acquires CyberArk for $25 billion in major cybersecurity
+      consolidation move.
+    link: https://www.ibtimes.co.uk/cyberark-acquired-palo-alto-networks-25-billion-more-details-deal-expanded-offering-1739774
+  - desc: Guide for printing books at home using minimal equipment and resources for
+      security documentation.
+    link: https://huijzer.xyz/posts/98
+  - desc: Drata shares best practices for successfully rolling out AI coding assistants
+      in enterprise security environments.
+    link: https://www.augmentcode.com/blog/rolling-out-ai-coding-assistants-how-drata-did-it
+  - desc: Kali Linux now supports Apple containers on macOS systems, expanding penetration
+      testing capabilities.
+    link: https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/
+  - desc: ACM article examining how AI is democratizing cybercrime and lowering barriers
+      for malicious actors.
+    link: https://cacm.acm.org/blogcacm/ai-and-the-democratization-of-cybercrime/
+  - desc: SentinelOne analysis of China's covert cyber capabilities, focusing on the
+      Hafnium group's advanced tactics.
+    link: https://www.sentinelone.com/labs/chinas-covert-capabilities-silk-spun-from-hafnium/
+  - desc: Digital Digging investigation reveals ChatGPT confession vulnerabilities
+      and privacy concerns.
+    link: https://www.digitaldigging.org/p/chatgpt-confessions-gone-they-are
+  - desc: Yoshua Bengio's comprehensive chapter on AI security and safety considerations
+      for enterprise deployment.
+    link: https://x.com/yoshua_bengio/status/1951263049735664120?s=46
 - date: '2025-07-28'
   news-items:
   - desc: HeroDevs launches Open Source Sustainability Fund to provide security patches

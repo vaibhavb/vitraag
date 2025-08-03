@@ -1,3 +1,11 @@
+- date: '2025-08-03'
+  news-items:
+  - desc: Figma stock surges 250% on first trading day, valuing the design platform
+      company at over $45 billion.
+    link: https://finance.yahoo.com/news/figma-stock-soars-250-in-first-day-of-trading-valuing-company-north-of-45-billion-132215621.html
+  - desc: University of Florida research paper analyzes money left on the table in
+      IPO underpricing phenomena.
+    link: https://site.warrington.ufl.edu/ritter/files/money-left-on-the-table-in-IPOs.pdf
 - date: '2025-07-28'
   news-items:
   - desc: Funding Breakthrough Lab announces new home platform for startup funding

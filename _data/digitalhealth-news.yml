@@ -1,3 +1,14 @@
+- date: '2025-08-03'
+  news-items:
+  - desc: The Momentum AI Healthcare Masterclass provides comprehensive training on
+      implementing AI solutions in healthcare settings.
+    link: https://www.themomentum.ai/masterclass
+  - desc: OpenAI partners with Penda Health to develop AI clinical copilot technology
+      for improved patient care in Africa.
+    link: https://openai.com/index/ai-clinical-copilot-penda-health/
+  - desc: Charta Health secures $22M Series A funding to advance its AI-powered healthcare
+      operations platform.
+    link: https://www.mobihealthnews.com/news/charta-health-raises-22m-ai-healthcare-operations-platform
 - date: '2025-07-28'
   news-items:
   - desc: Medical consultation guidance for coronary calcium score CT scan interpretation
