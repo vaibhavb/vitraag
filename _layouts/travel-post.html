@@ -16,13 +16,21 @@
             line-height: 40px;
             width: 40px;
             height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .custom-marker img {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            margin: 5px;
+            width: 32px !important;
+            height: 32px !important;
+            border-radius: 50% !important;
+            margin: 0;
+            padding: 0;
             object-fit: cover;
+            border: 2px solid white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            aspect-ratio: 1/1; /* Ensure perfect square ratio */
         }
         .map-container {
             position: sticky;
@@ -52,32 +60,100 @@
         }
         .map-popup-content {
             padding: 0;
+            margin: 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            line-height: 0; /* Eliminates any line-height spacing around image */
         }
         .map-popup-image {
-            width: 200px;
-            height: auto;
+            width: 250px;
+            height: 150px;
             object-fit: cover;
 	    display: block;
-            border-radius: 4px 4px 0 0;
+            border-radius: 8px 8px 0 0;
+            margin: 0;
+            padding: 0;
         }
         .map-popup-text {
-            padding: 8px;
+            padding: 12px 16px;
             background: white;
-            border-radius: 0 0 4px 4px;
+            border-radius: 0 0 8px 8px;
+            line-height: 1.4; /* Reset line-height for text content */
+        }
+        .map-popup-text strong {
+            color: #2c3e50;
+            font-size: 1.1em;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 6px;
+        }
+        
+        .popup-heading-link {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .popup-heading-link:hover {
+            color: #3498db;
+            text-decoration: underline;
+        }
+        
+        /* Map style switcher */
+        .map-style-switcher {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            padding: 8px;
+        }
+        
+        .style-option {
+            display: block;
+            padding: 6px 12px;
+            margin: 2px 0;
+            border: none;
+            background: none;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.85em;
+            white-space: nowrap;
+            transition: background-color 0.2s;
+        }
+        
+        .style-option:hover {
+            background: #f0f0f0;
+        }
+        
+        .style-option.active {
+            background: #3498db;
+            color: white;
         }
         .leaflet-popup-content {
             margin: 0em;
 	    outline-style:none;
 	    padding: 0em;
-            min-width: 220px;
+            min-width: 250px;
+            border-radius: 8px;
         }
         .leaflet-popup-content-wrapper {
-            padding: 5px;
+            padding: 0px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+        .leaflet-popup-tip {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
         .popup-datetime {
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 4px;
+            color: #7f8c8d;
+            font-size: 0.85em;
+            margin-top: 6px;
+            font-style: italic;
         }
 	.travel-dates {
             font-size: 1em;
@@ -85,6 +161,143 @@
             color: #444;
             text-align: center;
             margin-bottom: 1rem;
+        }
+        
+
+        /* Mobile & Tablet Responsive Design */
+        @media screen and (max-width: 768px) {
+            .columns.is-gapless {
+                flex-direction: column;
+            }
+            
+            .column.is-half {
+                width: 100% !important;
+            }
+            
+            /* Move map to top and adjust sizing */
+            .column.is-half:last-child {
+                order: -1; /* Move map column to top */
+            }
+            
+            /* Map container changes for mobile */
+            .map-container {
+                position: static; /* Remove sticky positioning */
+                height: 300px; /* Smaller height for mobile */
+                margin: 1rem 0;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            }
+            
+            /* Map adjustments */
+            #map {
+                height: 100%;
+                border-radius: 8px;
+            }
+            
+            /* Remove fade overlay on mobile */
+            .fade-overlay {
+                display: none !important;
+            }
+            
+            /* Content section adjustments */
+            .content-section {
+                height: auto;
+                overflow-y: visible;
+                padding: 1rem;
+            }
+            
+            /* Map popup adjustments for touch */
+            .map-popup-image {
+                width: 150px;
+            }
+            
+            .leaflet-popup-content {
+                min-width: 180px;
+            }
+            
+            /* Article card adjustments */
+            .card.article {
+                margin: 0;
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            /* Title and metadata adjustments */
+            .title.article-title {
+                font-size: 1.5rem;
+            }
+            
+            .tags.has-addons {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .tag {
+                margin: 0.25rem;
+            }
+            
+            /* Travel dates styling */
+            .travel-dates {
+                font-size: 0.9rem;
+                padding: 0.5rem;
+                background: #f8f9fa;
+                border-radius: 4px;
+                margin: 1rem 0;
+            }
+            
+            /* Content body adjustments */
+            .content.article-body {
+                padding: 0;
+            }
+            
+            .content.article-body img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin: 1rem 0;
+            }
+            
+            /* Map popup adjustments for touch */
+            .map-popup-image {
+                width: 150px;
+            }
+            
+            .leaflet-popup-content {
+                min-width: 180px;
+            }
+            
+            /* Custom marker touch optimization */
+            .custom-marker {
+                width: 36px;
+                height: 36px;
+            }
+            
+            .custom-marker img {
+                width: 28px;
+                height: 28px;
+            }
+            
+            /* Mobile style switcher adjustments */
+            .map-style-switcher {
+                top: 5px;
+                right: 5px;
+                padding: 4px;
+            }
+            
+            .style-option {
+                padding: 4px 8px;
+                font-size: 0.75em;
+            }
+        }
+
+        /* Additional touch optimizations */
+        @media (hover: none) and (pointer: coarse) {
+            /* Touch device specific styles */
+            .leaflet-control-zoom a {
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+            }
         }
     </style>
     <title>{{page.title}}</title>
@@ -123,6 +336,10 @@
             </div>
             <div class="column is-half">
                 <div class="map-container">
+                    <div class="map-style-switcher">
+                        <button class="style-option active" data-style="voyager">🗺️ Streets</button>
+                        <button class="style-option" data-style="minimal">⚪ Minimal</button>
+                    </div>
                     <div id="map"></div>
                     <div class="fade-overlay"></div>
                 </div>
@@ -173,31 +390,41 @@
     // Get the locations data from Jekyll front matter
     var locations = {{ page.locations | jsonify }};
     
-    // Initialize the map centered on the first location
+    // Initialize the map 
     var map = L.map('map', {
         zoomControl: false,
         scrollWheelZoom: false
     });
 
-    map.setView(
-        [locations[0].lat, locations[0].long],
-        {{ page.zoom | default: 15 }}
-    );
-
-    // Add OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
+    // Define tile layer options
+    var tileLayers = {
+        voyager: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap contributors © CARTO',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }),
+        minimal: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap contributors © CARTO',
+            subdomains: 'abcd',
+            maxZoom: 19
+        })
+    };
+    
+    // Add default tile layer (voyager)
+    var currentTileLayer = tileLayers.voyager;
+    currentTileLayer.addTo(map);
 
     // Create popup content with image
     function createPopupContent(loc) {
+        // Find matching H2 heading in content to create a link
+        var headingId = 'heading-' + loc.title.replace(/[-_]/g, '-');
+        
         return `
             <div class="map-popup-content">
-                ${loc.image ? `<img id="${loc.id}" src="${loc.image}" class="map-popup-image" alt="${loc.title || ''}" />` : ''}
+                ${loc.image ? `<img src="${loc.image}" class="map-popup-image" alt="${loc.title || ''}" />` : ''}
                 <div class="map-popup-text">
-                    ${loc.title ? `<strong>${loc.title}</strong>` : ''}
+                    ${loc.title ? `<strong><a href="#" class="popup-heading-link" onclick="scrollToHeading('${loc.title}')">${loc.description || loc.title}</a></strong>` : ''}
                     ${loc.datetime ? `<div class="popup-datetime">${new Date(loc.datetime).toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</div>` : ''}
-                    ${loc.description ? `<div>${loc.description}</div>` : ''}
                 </div>
             </div>
         `;
@@ -258,29 +485,78 @@
         });
     });
 
-    // Fit map bounds to show all markers
+    // Fit map bounds to show all markers with proper padding
     if (locations.length > 1) {
         var bounds = locations.map(loc => [loc.lat, loc.long]);
-        map.fitBounds(bounds);
+        map.fitBounds(bounds, { 
+            padding: [20, 20],
+            maxZoom: 15
+        });
+    } else {
+        // Center on single location if only one marker
+        map.setView([locations[0].lat, locations[0].long], {{ page.zoom | default: 15 }});
     }
 
-    // Create an intersection observer to detect when images come into view
+    // Create an intersection observer to detect when images or headings come into view
  var observer = new IntersectionObserver(function(entries, observer) {
     entries.forEach(function(entry) {
         if (entry.isIntersecting) {
-            var id = entry.target.alt.toLowerCase().replace(/\s+/g, '-');
-            if (markers[id]) {
-                // Open the popup for the corresponding marker
-                markers[id].openPopup();
+            var matchingLocation = null;
+            
+            // Handle images
+            if (entry.target.tagName === 'IMG') {
+                var imageSrc = entry.target.getAttribute('src');
+                if (imageSrc) {
+                    var filename = imageSrc.split('/').pop().split('.')[0]; // Get filename without extension
+                    // Handle both dash and underscore separators
+                    var normalizedFilename = filename.replace(/_/g, '-');
+                    
+                    // Find matching location by title
+                    matchingLocation = locations.find(function(loc) {
+                        var normalizedTitle = loc.title.replace(/_/g, '-');
+                        return normalizedTitle === normalizedFilename;
+                    });
+                }
+            }
+            
+            // Handle H2 headings
+            else if (entry.target.tagName === 'H2') {
+                var headingText = entry.target.textContent.trim();
+                // Try to match heading text to location descriptions or titles
+                matchingLocation = locations.find(function(loc) {
+                    return loc.description && headingText.toLowerCase().includes(loc.description.toLowerCase());
+                });
+                
+                // Fallback: try to match key words in heading to location titles
+                if (!matchingLocation) {
+                    matchingLocation = locations.find(function(loc) {
+                        var headingWords = headingText.toLowerCase().split(/\s+/);
+                        var titleWords = loc.title.toLowerCase().replace(/[-_]/g, ' ').split(/\s+/);
+                        return titleWords.some(function(word) {
+                            return headingWords.some(function(headingWord) {
+                                return headingWord.includes(word) || word.includes(headingWord);
+                            });
+                        });
+                    });
+                }
+            }
+            
+            if (matchingLocation && markers[matchingLocation.title]) {
+                markers[matchingLocation.title].openPopup();
             }
         }
     });
-}, { threshold: 0.7 });  // 70% of the image should be in view to trigger
+}, { threshold: 0.5 });  // 50% of the element should be in view to trigger
 
-// Observe each image in the content column
+// Observe each image and H2 heading in the content column
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.content.article-body img').forEach(function(imageElement) {
         observer.observe(imageElement);
+    });
+    
+    // Also observe H2 headings for better scroll triggering
+    document.querySelectorAll('.content.article-body h2').forEach(function(heading) {
+        observer.observe(heading);
     });
 });
 
@@ -299,6 +575,160 @@ entries.forEach(function(entry) {
 document.querySelectorAll('a.loc').forEach(function(link) {
 linkObserver.observe(link);
 });
+
+// Add responsive map handling
+function handleMapResize() {
+    if (window.innerWidth <= 768) {
+        // Mobile/tablet optimizations
+        map.scrollWheelZoom.enable();
+        map.dragging.enable();
+        map.touchZoom.enable();
+        
+        // Adjust popup options for touch
+        var mobilePopupOptions = {
+            closeButton: true,
+            className: 'custom-popup mobile-popup',
+            maxWidth: 200,
+            autoPan: true
+        };
+        
+        // Update existing popups with mobile options
+        locations.forEach(function(loc) {
+            if (markers[loc.title]) {
+                var popup = L.popup(mobilePopupOptions)
+                    .setContent(createPopupContent(loc));
+                markers[loc.title].bindPopup(popup);
+            }
+        });
+        
+        // Re-fit bounds for mobile view
+        if (locations.length > 1) {
+            var bounds = locations.map(loc => [loc.lat, loc.long]);
+            map.fitBounds(bounds, { padding: [10, 10] });
+        }
+    } else {
+        // Desktop settings (current behavior)
+        map.scrollWheelZoom.disable();
+        
+        // Restore desktop popup options
+        var desktopPopupOptions = {
+            closeButton: false,
+            className: 'custom-popup'
+        };
+        
+        locations.forEach(function(loc) {
+            if (markers[loc.title]) {
+                var popup = L.popup(desktopPopupOptions)
+                    .setContent(createPopupContent(loc));
+                markers[loc.title].bindPopup(popup);
+            }
+        });
+        
+        // Re-fit bounds for desktop view
+        if (locations.length > 1) {
+            var bounds = locations.map(loc => [loc.lat, loc.long]);
+            map.fitBounds(bounds);
+        }
+    }
+    
+    // Force map to recalculate size
+    setTimeout(function() {
+        map.invalidateSize();
+    }, 100);
+}
+
+// Add event listeners
+window.addEventListener('resize', handleMapResize);
+window.addEventListener('orientationchange', function() {
+    setTimeout(handleMapResize, 500);
+});
+
+// Map style switcher functionality
+document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('style-option')) {
+        var styleType = e.target.getAttribute('data-style');
+        
+        // Remove current tile layer
+        map.removeLayer(currentTileLayer);
+        
+        // Add new tile layer
+        currentTileLayer = tileLayers[styleType];
+        currentTileLayer.addTo(map);
+        
+        // Update active button
+        document.querySelectorAll('.style-option').forEach(function(btn) {
+            btn.classList.remove('active');
+        });
+        e.target.classList.add('active');
+    }
+});
+
+// Initial setup
+handleMapResize();
+
+// Open first location popup after a short delay to align with first header
+setTimeout(function() {
+    if (locations.length > 0) {
+        var firstLocation = locations[0];
+        if (markers[firstLocation.title]) {
+            markers[firstLocation.title].openPopup();
+        }
+    }
+}, 500);
+
+// Function to scroll to heading when popup link is clicked
+window.scrollToHeading = function(locationTitle) {
+    // Find all H2 headings in the content
+    var headings = document.querySelectorAll('.content.article-body h2');
+    var targetHeading = null;
+    
+    // Find the heading that matches this location
+    headings.forEach(function(heading) {
+        var headingText = heading.textContent.trim();
+        
+        // Try different matching strategies
+        if (locationTitle === 'cycling' && headingText.toLowerCase().includes('cycling')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'sda-school' && headingText.toLowerCase().includes('school')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'nashik' && headingText.toLowerCase().includes('nashik')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'kokohead' && headingText.toLowerCase().includes('kokohead')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'diamond-head' && headingText.toLowerCase().includes('diamond')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'gandhi-statue' && headingText.toLowerCase().includes('gandhi')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'waimanalo-beach' && headingText.toLowerCase().includes('waimanalo')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'wiliwilinui-hike' && headingText.toLowerCase().includes('wiliwilinui')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'holey-grail' && headingText.toLowerCase().includes('holey')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'hanuama-bay' && headingText.toLowerCase().includes('hanauma')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'birthday-sunset' && headingText.toLowerCase().includes('birthday')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'queens-beach-comet' && headingText.toLowerCase().includes('comet')) {
+            targetHeading = heading;
+        } else if (locationTitle === 'amazing-crew' && headingText.toLowerCase().includes('crew')) {
+            targetHeading = heading;
+        }
+    });
+    
+    if (targetHeading) {
+        targetHeading.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center' 
+        });
+        
+        // Add a subtle highlight effect
+        targetHeading.style.backgroundColor = '#e8f4fd';
+        setTimeout(function() {
+            targetHeading.style.backgroundColor = '';
+        }, 2000);
+    }
+};
 
 </script>
 

@@ -8,7 +8,7 @@ title: India Family Visit!
 categories:
     - travel
 start-date: 2025-01-26
-end-date: 2024-02-05
+end-date: 2025-02-05
 locations:
   - lat: 19.977219444444444
     long: 73.69369444444445
@@ -34,10 +34,21 @@ locations:
 ---
 A photo log of my India Travels.
 
-## Dinner with Family
-![Dinner with Family](/assets/images/2025/travel/india/nashik.jpg)
 ## Cycling with Sister
+
+A wonderful morning ride around the neighborhood with my sister. The fresh air and familiar streets brought back so many childhood memories. There's something special about cycling in the place where you grew up - every turn holds a story.
+
 ![Cycling with Sister](/assets/images/2025/travel/india/cycling.jpg)
-## Lasalgaon SDA School
+
+## Visit to SDA School
+
+Returning to Lasalgaon SDA School was an emotional experience. Walking through the halls where I spent my formative years, meeting old teachers, and seeing how the campus has evolved over the years. The values and education I received here shaped who I am today.
+
 ![SDA School](/assets/images/2025/travel/india/sda_school.jpg)
+
+## Family Dinner in Nashik
+
+A heartwarming evening with family in Nashik. Nothing beats the warmth of home-cooked meals and conversations that stretch late into the night. These moments with loved ones are what make every journey back to India so meaningful.
+
+![Dinner with Family](/assets/images/2025/travel/india/nashik.jpg)
 
