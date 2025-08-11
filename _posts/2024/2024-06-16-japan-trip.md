@@ -34,19 +34,19 @@ locations:
 ---
 A photo log of my Japan travels with my niece and nephew.
 
-## Tokyo Adventures
+## Tokyo Adventures {#tokyo}
 
 Our Tokyo experience was incredible - from the electric atmosphere of Akihabara's electronics district to the mind-bending digital art installations at TeamLabs. The city's perfect blend of ultra-modern technology and traditional culture created unforgettable memories with the kids.
 
 ![Tokyo](https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=500&h=300&fit=crop)
 
-## Kyoto Temples  
+## Kyoto Temples {#kyoto}
 
 The serene beauty of Kyoto's ancient temples provided a peaceful contrast to Tokyo's energy. Walking through the traditional temple grounds with my niece and nephew, we experienced Japan's spiritual heritage and timeless architectural beauty.
 
 ![Kyoto](https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500&h=300&fit=crop)
 
-## Osaka Universal Studios
+## Osaka Universal Studios {#osaka}
 
 Universal Studios Japan was pure magic! The kids absolutely loved the theme park rides and attractions. From Harry Potter's Wizarding World to Nintendo World, it was a day filled with laughter, excitement, and creating precious family memories.
 

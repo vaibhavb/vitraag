@@ -416,14 +416,11 @@
 
     // Create popup content with image
     function createPopupContent(loc) {
-        // Find matching H2 heading in content to create a link
-        var headingId = 'heading-' + loc.title.replace(/[-_]/g, '-');
-        
         return `
             <div class="map-popup-content">
                 ${loc.image ? `<img src="${loc.image}" class="map-popup-image" alt="${loc.title || ''}" />` : ''}
                 <div class="map-popup-text">
-                    ${loc.title ? `<strong><a href="#" class="popup-heading-link" onclick="scrollToHeading('${loc.title}')">${loc.description || loc.title}</a></strong>` : ''}
+                    ${loc.title ? `<strong><a href="#${loc.title}" class="popup-heading-link">${loc.description || loc.title}</a></strong>` : ''}
                     ${loc.datetime ? `<div class="popup-datetime">${new Date(loc.datetime).toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</div>` : ''}
                 </div>
             </div>
@@ -676,59 +673,28 @@ setTimeout(function() {
     }
 }, 500);
 
-// Function to scroll to heading when popup link is clicked
-window.scrollToHeading = function(locationTitle) {
-    // Find all H2 headings in the content
-    var headings = document.querySelectorAll('.content.article-body h2');
-    var targetHeading = null;
-    
-    // Find the heading that matches this location
-    headings.forEach(function(heading) {
-        var headingText = heading.textContent.trim();
+// Generic smooth scroll function with highlight effect
+document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('popup-heading-link')) {
+        e.preventDefault();
         
-        // Try different matching strategies
-        if (locationTitle === 'cycling' && headingText.toLowerCase().includes('cycling')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'sda-school' && headingText.toLowerCase().includes('school')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'nashik' && headingText.toLowerCase().includes('nashik')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'kokohead' && headingText.toLowerCase().includes('kokohead')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'diamond-head' && headingText.toLowerCase().includes('diamond')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'gandhi-statue' && headingText.toLowerCase().includes('gandhi')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'waimanalo-beach' && headingText.toLowerCase().includes('waimanalo')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'wiliwilinui-hike' && headingText.toLowerCase().includes('wiliwilinui')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'holey-grail' && headingText.toLowerCase().includes('holey')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'hanuama-bay' && headingText.toLowerCase().includes('hanauma')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'birthday-sunset' && headingText.toLowerCase().includes('birthday')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'queens-beach-comet' && headingText.toLowerCase().includes('comet')) {
-            targetHeading = heading;
-        } else if (locationTitle === 'amazing-crew' && headingText.toLowerCase().includes('crew')) {
-            targetHeading = heading;
+        var targetId = e.target.getAttribute('href').substring(1); // Remove # from href
+        var targetElement = document.getElementById(targetId);
+        
+        if (targetElement) {
+            targetElement.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'center' 
+            });
+            
+            // Add a subtle highlight effect
+            targetElement.style.backgroundColor = '#e8f4fd';
+            setTimeout(function() {
+                targetElement.style.backgroundColor = '';
+            }, 2000);
         }
-    });
-    
-    if (targetHeading) {
-        targetHeading.scrollIntoView({ 
-            behavior: 'smooth', 
-            block: 'center' 
-        });
-        
-        // Add a subtle highlight effect
-        targetHeading.style.backgroundColor = '#e8f4fd';
-        setTimeout(function() {
-            targetHeading.style.backgroundColor = '';
-        }, 2000);
     }
-};
+});
 
 </script>
 

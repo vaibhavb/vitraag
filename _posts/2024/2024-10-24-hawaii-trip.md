@@ -83,61 +83,61 @@ locations:
 ---
 A photo log of my Hawaii Travels.
 
-## Kokohead Crater Hike
+## Kokohead Crater Hike {#kokohead}
 
 An intense but rewarding hike up the Kokohead Crater railway trail. The steep climb on the old railway ties tests your endurance, but the panoramic views of Hanauma Bay and the southeastern shore of Oahu make every step worth it.
 
 ![Kokohead](/assets/images/2024/travel/hawaii/kokohead.jpg)
 
-## Diamond Head Summit
+## Diamond Head Summit {#diamond-head}
 
 The iconic Diamond Head crater offers one of the most recognizable views in Hawaii. This moderate hike through tunnels and up steep stairs leads to breathtaking vistas of Waikiki Beach and downtown Honolulu stretching out below.
 
 ![Diamond Head](/assets/images/2024/travel/hawaii/diamond-head.jpg)
 
-## Gandhi Statue
+## Gandhi Statue {#gandhi-statue}
 
 A peaceful moment at the Gandhi statue, a symbol of non-violence and peace in the heart of Honolulu. This quiet spot provides a moment for reflection amidst the bustling energy of the Hawaiian islands.
 
 ![Gandhi-Statue](/assets/images/2024/travel/hawaii/gandhi-statue.jpg)
 
-## Waimanalo Beach
+## Waimanalo Beach {#waimanalo-beach}
 
 One of Oahu's most beautiful beaches, Waimanalo offers pristine white sand and crystal-clear turquoise waters. The relatively uncrowded beach provides a perfect escape with stunning views of the Ko'olau mountain range.
 
 ![Waimanalo Beach](/assets/images/2024/travel/hawaii/waimanalo-beach.jpg)
 
-## Wiliwilinui Ridge Trail
+## Wiliwilinui Ridge Trail {#wiliwilinui-hike}
 
 A challenging but spectacular hike through native Hawaiian forest. The trail rewards hikers with incredible views of the Windward Coast and a glimpse into Hawaii's diverse ecosystem and natural beauty.
 
 ![wiliwilinui-hike](/assets/images/2024/travel/hawaii/wiliwilinui-hike.jpg)
 
-## Holey Grail Donut Shop
+## Holey Grail Donut Shop {#holey-grail}
 
 A sweet stop at the famous Holey Grail for their artisanal donuts. These aren't just any donuts - they're crafted with local ingredients and creative flavors that make them a must-try Hawaiian treat.
 
 ![holey-grail](/assets/images/2024/travel/hawaii/holey-grail.jpg)
 
-## Hanauma Bay Snorkeling
+## Hanauma Bay Snorkeling {#hanuama-bay}
 
 Exploring the underwater world at Hanauma Bay Nature Preserve. This protected marine sanctuary offers incredible snorkeling with colorful tropical fish and coral formations in a stunning volcanic crater setting.
 
 ![hanuama-bay](/assets/images/2024/travel/hawaii/hanuama-bay.jpg)
 
-## Birthday Sunset
+## Birthday Sunset {#birthday-sunset}
 
 Celebrating another year of life with a spectacular Hawaiian sunset. There's something magical about watching the sun dip into the Pacific Ocean, painting the sky in brilliant oranges and pinks - the perfect birthday moment.
 
 ![birthday-sunset](/assets/images/2024/travel/hawaii/birthday-sunset.jpg)
 
-## Comet Sighting at Queen's Beach
+## Comet Sighting at Queen's Beach {#queens-beach-comet}
 
 A rare astronomical treat - catching sight of a comet from Queen's Beach. The dark Hawaiian sky provided the perfect backdrop for this celestial display, a reminder of the wonders beyond our tropical paradise.
 
 ![queens-beach-comet](/assets/images/2024/travel/hawaii/queens-beach-comet.jpg)
 
-## Amazing Travel Crew
+## Amazing Travel Crew {#amazing-crew}
 
 The best part of any adventure - sharing it with incredible people. This amazing crew made every moment more memorable, from early morning hikes to late-night beach walks. Travel companions like these make every destination special.
 
