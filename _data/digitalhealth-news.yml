@@ -1,3 +1,23 @@
+- date: '2025-08-14'
+  news-items:
+  - desc: Charta Health launches AI-powered chart review platform to streamline medical
+      record analysis and clinical workflows.
+    link: https://www.chartahealth.com/
+  - desc: Research explores how large language models transform clinician-patient
+      relationships as a third agent in healthcare delivery.
+    link: https://jopm.jmir.org/2025/1/e68146
+  - desc: Bain Capital-backed HeartFlow achieves $2.27 billion valuation in successful
+      Nasdaq debut for cardiac imaging technology.
+    link: https://www.reuters.com/business/healthcare-pharmaceuticals/bain-capital-backed-heartflow-valued-227-billion-solid-nasdaq-debut-2025-08-08/
+  - desc: August Health secures $29 million Series B funding to advance their electronic
+      health record platform for women's healthcare.
+    link: https://pulse2.com/august-health-29-million-series-b-funding-raised-to-advance-her-platform/
+  - desc: Illinois becomes first state to ban AI systems from providing therapy services,
+      establishing regulatory precedent for AI healthcare applications.
+    link: https://www.axios.com/local/chicago/2025/08/06/illinois-ai-therapy-ban-mental-health-regulation
+  - desc: Stanford Medicine develops virtual scientist AI system to accelerate medical
+      research and scientific discovery processes.
+    link: https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html
 - date: '2025-08-03'
   news-items:
   - desc: The Momentum AI Healthcare Masterclass provides comprehensive training on

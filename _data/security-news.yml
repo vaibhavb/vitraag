@@ -1,3 +1,50 @@
+- date: '2025-08-14'
+  news-items:
+  - desc: Stripe and Circle compete for dominance in the stablecoin payments market,
+      with significant implications for digital finance infrastructure.
+    link: https://www.forbes.com/sites/digital-assets/2025/08/13/stablecoin-wars-with-stripe-and-circle-racing-to-control-payments/?ref=bayarealetters.com
+  - desc: Comprehensive lessons learned from building effective AI hacker agents for
+      cybersecurity competitions and red teaming exercises.
+    link: https://theori.io/blog/building-effective-llm-agents-63446?utm_source=tldrinfosec
+  - desc: SplxAI introduces continuous red teaming platform for AI assistants and
+      agentic workflows to identify security vulnerabilities.
+    link: https://splx.ai/platform/probe
+  - desc: Design-focused cybersecurity firm combining creative approaches with security
+      expertise for innovative protection solutions.
+    link: https://www.miscreants.com/
+  - desc: Red team analysis reveals surprising weaknesses in OpenAI's GPT-5 model
+      through comprehensive security testing.
+    link: https://splx.ai/blog/gpt-5-red-teaming-results
+  - desc: Archive of AI Cyber Challenge competition resources and results from cybersecurity
+      competitions and research.
+    link: https://archive.aicyberchallenge.com/?
+  - desc: Analysis of how one-time passwords and modern authentication methods may
+      be creating worse security than traditional passwords.
+    link: https://blog.danielh.cc/blog/passwords
+  - desc: Developer's journey into writing Gleam programming language professionally
+      and its applications in secure systems.
+    link: https://www.youtube.com/watch?v=BfPRcanTWXA
+  - desc: KrebsOnSecurity featured in new HBO Max series highlighting cybersecurity
+      investigations and threat intelligence.
+    link: https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/
+  - desc: Analysis of emerging career opportunities in AI security as organizations
+      prioritize secure artificial intelligence implementations.
+    link: https://www.darkreading.com/cybersecurity-operations/will-secure-ai-hottest-career-path-cybersecurity
+  - desc: 1Password integrates with Trelica to streamline access reviews and improve
+      identity governance workflows.
+    link: https://blog.1password.com/simplify-access-reviews-with-trelica-by-1password/
+  - desc: North American venture capital firms increase investments in Israeli cybersecurity
+      startups following major acquisitions.
+    link: https://pitchbook.com/news/articles/the-wiz-effect-north-american-vcs-crowd-into-israels-cybersecurity-scene
+  - desc: Financial analysis of capital requirements for cybersecurity companies pursuing
+      public offerings and market valuations.
+    link: https://strategyofsecurity.com/p/how-much-capital-does-it-take-for-a-cybersecurity-company-to-go-public
+  - desc: Simon Willison presents his 'Lethal Trifecta' framework for AI security
+      at Bay Area AI Security Meetup.
+    link: https://simonwillison.net/2025/Aug/9/bay-area-ai/
+  - desc: Critical vulnerability discovered in Claude AI allowing inverse prompt attacks
+      and potential data extraction.
+    link: https://cymulate.com/blog/cve-2025-547954-54795-claude-inverseprompt/
 - date: '2025-08-03'
   news-items:
   - desc: RunReveal launches AI Chat for Security Investigations to enhance threat

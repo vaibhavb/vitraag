@@ -1,3 +1,65 @@
+- date: '2025-08-14'
+  news-items:
+  - desc: Academic paper exploring socratic AI, epistemic agency, and implications
+      of orchestrated multi-agent learning architectures.
+    link: https://arxiv.org/abs/2508.05116
+  - desc: Bessemer Venture Partners releases comprehensive report on the current state
+      of AI industry trends and predictions for 2025.
+    link: https://www.bvp.com/atlas/the-state-of-ai-2025
+  - desc: Judgment Labs provides AI evaluation and assessment tools for measuring
+      artificial intelligence system performance.
+    link: https://judgmentlabs.ai/
+  - desc: InstaVM offers secure code execution platform for building offline AI workspaces
+      and development environments.
+    link: https://instavm.io/blog/building-my-offline-ai-workspace
+  - desc: Analysis of Google's Genie AI project, OpenAI's limitations with graph generation,
+      and competitive landscape updates.
+    link: https://theahura.substack.com/p/tech-things-genies-lamp-openai-cant
+  - desc: Datumo Eval provides comprehensive platform for evaluating large language
+      models and AI system performance.
+    link: https://datumo.com/en/
+  - desc: Analysis of emerging career opportunities in AI security as organizations
+      prioritize secure artificial intelligence implementations.
+    link: https://www.darkreading.com/cybersecurity-operations/will-secure-ai-hottest-career-path-cybersecurity
+  - desc: Microsoft Research introduces self-evolving reasoning system designed to
+      accelerate scientific discovery and research processes.
+    link: https://www.microsoft.com/en-us/research/blog/self-adaptive-reasoning-for-science/
+  - desc: Simon Willison presents his 'Lethal Trifecta' framework for AI security
+      risks at Bay Area AI Security Meetup.
+    link: https://simonwillison.net/2025/Aug/9/bay-area-ai/
+  - desc: Fusion tool combines Cursor and Figma capabilities for AI-powered design
+      and development workflow integration.
+    link: https://designwithai.substack.com/p/fusion-imagine-cursor-and-figma-have-a-baby
+  - desc: Analysis of GPT-5's potential applications in contract analysis and legal
+      document processing capabilities.
+    link: https://bayarealetters.com/gpt-5-aims-at-contracts/?ref=bay-area-letters-newsletter
+  - desc: Comprehensive review of OpenAI's GPT-5 release, analyzing performance improvements
+      and new capabilities.
+    link: https://newsletter.theaireport.ai/p/gpt-5-arrives-openai-s-best-yet
+  - desc: Critical vulnerability discovered in Claude AI allowing inverse prompt attacks
+      and potential data extraction methods.
+    link: https://cymulate.com/blog/cve-2025-547954-54795-claude-inverseprompt/
+  - desc: Analysis of AI as a productivity tool that raises minimum performance floors
+      rather than maximum capability ceilings.
+    link: https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html
+  - desc: Stanford Medicine develops virtual scientist AI system to accelerate medical
+      research and scientific discovery.
+    link: https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html
+  - desc: OpenAI announces open source models initiative to improve transparency and
+      accessibility of AI technologies.
+    link: https://openai.com/open-models/
+  - desc: MCP Watch provides monitoring and observability tools for Model Context
+      Protocol implementations and usage.
+    link: https://github.com/kapilduraphe/mcp-watch
+  - desc: Kaggle competition for red teaming OpenAI's GPT OSS 20B model to identify
+      vulnerabilities and safety issues.
+    link: https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/
+  - desc: Innovative implementation of large language model inference over DNS protocol
+      for distributed AI applications.
+    link: https://x.com/levelsio/status/1953063231347458220?s=46
+  - desc: Simon Willison's detailed analysis of GPT-5's capabilities, limitations,
+      and implications for AI development.
+    link: https://simonwillison.net/2025/Aug/7/gpt-5/
 - date: '2025-08-03'
   news-items:
   - desc: Creative YouTube video demonstrating how to save PNG image data to a bird

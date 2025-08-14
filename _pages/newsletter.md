@@ -410,7 +410,7 @@ permalink: /newsletter/
         <h2>Recent Editions</h2>
         
         <div class="issues-grid">
-            {% for newsletter in recent_newsletters limit: 3 %}
+            {% for newsletter in recent_newsletters limit: 4 %}
             <div class="issue-card">
                 <h3>Issue #{{ newsletter.issue_number }}</h3>
                 <div class="date">{{ newsletter.date | date: "%B %d, %Y" }}</div>

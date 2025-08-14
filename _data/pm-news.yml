@@ -1,3 +1,14 @@
+- date: '2025-08-14'
+  news-items:
+  - desc: Shopify CEO Tobi Lütke shares leadership principles including first principles
+      thinking, infinite games, and maximizing human potential.
+    link: https://www.youtube.com/watch?v=tq6vdDJQXvs
+  - desc: Curated list of valuable newsletters for product managers and technology
+      professionals to stay informed on industry trends.
+    link: https://hamatti.org/posts/newsletters-i-read/
+  - desc: Analysis of forward deployed engineers role and why they're becoming increasingly
+      valuable in technology organizations.
+    link: https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers
 - date: '2025-08-03'
   news-items:
   - desc: Byrne's Euclid provides a template for product managers to showcase classic
