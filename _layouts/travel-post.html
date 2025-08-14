@@ -100,39 +100,6 @@
             text-decoration: underline;
         }
         
-        /* Map style switcher */
-        .map-style-switcher {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            z-index: 1000;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-            padding: 8px;
-        }
-        
-        .style-option {
-            display: block;
-            padding: 6px 12px;
-            margin: 2px 0;
-            border: none;
-            background: none;
-            cursor: pointer;
-            border-radius: 4px;
-            font-size: 0.85em;
-            white-space: nowrap;
-            transition: background-color 0.2s;
-        }
-        
-        .style-option:hover {
-            background: #f0f0f0;
-        }
-        
-        .style-option.active {
-            background: #3498db;
-            color: white;
-        }
         .leaflet-popup-content {
             margin: 0em;
 	    outline-style:none;
@@ -161,6 +128,32 @@
             color: #444;
             text-align: center;
             margin-bottom: 1rem;
+        }
+        .country-heading {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .content.article-body h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-top: 1.8rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 1px solid #ecf0f1;
+            text-align: left;
+        }
+        
+        .content.article-body h2 {
+            color: #2c3e50;
+            font-size: 1.6em;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1.2rem;
         }
         
 
@@ -277,17 +270,6 @@
                 height: 28px;
             }
             
-            /* Mobile style switcher adjustments */
-            .map-style-switcher {
-                top: 5px;
-                right: 5px;
-                padding: 4px;
-            }
-            
-            .style-option {
-                padding: 4px 8px;
-                font-size: 0.75em;
-            }
         }
 
         /* Additional touch optimizations */
@@ -336,10 +318,6 @@
             </div>
             <div class="column is-half">
                 <div class="map-container">
-                    <div class="map-style-switcher">
-                        <button class="style-option active" data-style="voyager">🗺️ Streets</button>
-                        <button class="style-option" data-style="minimal">⚪ Minimal</button>
-                    </div>
                     <div id="map"></div>
                     <div class="fade-overlay"></div>
                 </div>
@@ -390,29 +368,70 @@
     // Get the locations data from Jekyll front matter
     var locations = {{ page.locations | jsonify }};
     
+    // Define region bounds for dynamic zooming
+    var regionBounds = {
+        'sweden': {
+            bounds: [[55.0, 10.0], [70.0, 25.0]], 
+            zoom: 5,
+            center: [62.0, 17.0]
+        },
+        'stockholm': {
+            bounds: [[59.1, 17.7], [59.5, 18.3]], 
+            zoom: 15,
+            center: [59.33, 18.06]
+        },
+        'uppsala': {
+            bounds: [[59.7, 17.4], [59.9, 17.8]], 
+            zoom: 16,
+            center: [59.85, 17.63]
+        },
+        'germany': {
+            bounds: [[47.0, 5.0], [55.0, 15.0]], 
+            zoom: 5,
+            center: [51.0, 10.0]
+        },
+        'frankfurt': {
+            bounds: [[49.9, 8.4], [50.3, 8.9]], 
+            zoom: 15,
+            center: [50.11, 8.68]
+        }
+    };
+    
+    // Group locations by region
+    var locationsByRegion = {};
+    locations.forEach(function(loc) {
+        if (!locationsByRegion[loc.region]) {
+            locationsByRegion[loc.region] = [];
+        }
+        locationsByRegion[loc.region].push(loc);
+    });
+    
+    // Debounce function to prevent too many rapid zoom changes
+    var debounceTimer = null;
+    function debounceZoom(func, delay) {
+        return function() {
+            var context = this;
+            var args = arguments;
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(function() {
+                func.apply(context, args);
+            }, delay);
+        };
+    }
+    
     // Initialize the map 
     var map = L.map('map', {
         zoomControl: false,
         scrollWheelZoom: false
     });
 
-    // Define tile layer options
-    var tileLayers = {
-        voyager: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-            attribution: '© OpenStreetMap contributors © CARTO',
-            subdomains: 'abcd',
-            maxZoom: 19
-        }),
-        minimal: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-            attribution: '© OpenStreetMap contributors © CARTO',
-            subdomains: 'abcd',
-            maxZoom: 19
-        })
-    };
-    
     // Add default tile layer (voyager)
-    var currentTileLayer = tileLayers.voyager;
-    currentTileLayer.addTo(map);
+    var tileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '© OpenStreetMap contributors © CARTO',
+        subdomains: 'abcd',
+        maxZoom: 19
+    });
+    tileLayer.addTo(map);
 
     // Create popup content with image
     function createPopupContent(loc) {
@@ -494,18 +513,107 @@
         map.setView([locations[0].lat, locations[0].long], {{ page.zoom | default: 15 }});
     }
 
+    // Function to zoom map to a specific region with smooth animation
+    function zoomToRegion(regionName) {
+        if (regionBounds[regionName]) {
+            var region = regionBounds[regionName];
+            
+            // Use smooth animation with setView and center coordinates
+            if (region.center) {
+                map.flyTo(region.center, region.zoom, {
+                    animate: true,
+                    duration: 2.0,  // 2 second animation for smoother feel
+                    easeLinearity: 0.15  // More gradual easing
+                });
+            } else {
+                // Fallback to fitBounds with animation
+                map.fitBounds(region.bounds, { 
+                    padding: [20, 20],
+                    maxZoom: region.zoom,
+                    animate: true,
+                    duration: 2.0
+                });
+            }
+        }
+    }
+    
+    // Function to zoom to show locations from a specific region with smooth animation
+    function zoomToRegionLocations(regionName) {
+        var regionLocations = locationsByRegion[regionName];
+        if (regionLocations && regionLocations.length > 0) {
+            var region = regionBounds[regionName];
+            
+            if (regionLocations.length === 1) {
+                // Single location - use center coordinates with smooth animation
+                map.flyTo([regionLocations[0].lat, regionLocations[0].long], region ? region.zoom : 13, {
+                    animate: true,
+                    duration: 1.6,  // Slower for smoother feel
+                    easeLinearity: 0.15
+                });
+            } else if (region && region.center) {
+                // Multiple locations - use predefined region center for consistency
+                map.flyTo(region.center, region.zoom, {
+                    animate: true,
+                    duration: 1.6,  // Slower for smoother feel
+                    easeLinearity: 0.15
+                });
+            } else {
+                // Fallback to calculated bounds with animation
+                var bounds = regionLocations.map(loc => [loc.lat, loc.long]);
+                map.fitBounds(bounds, { 
+                    padding: [30, 30],
+                    maxZoom: region ? region.zoom : 13,
+                    animate: true,
+                    duration: 1.6
+                });
+            }
+        }
+    }
+
     // Create an intersection observer to detect when images or headings come into view
  var observer = new IntersectionObserver(function(entries, observer) {
     entries.forEach(function(entry) {
         if (entry.isIntersecting) {
             var matchingLocation = null;
+            var currentRegion = null;
+            
+            // Handle country headings (H1)
+            if (entry.target.tagName === 'H1') {
+                var countryName = entry.target.textContent.trim().toLowerCase();
+                if (countryName === 'sweden') {
+                    debounceZoom(function() { zoomToRegion('sweden'); }, 200)();
+                    return;
+                } else if (countryName === 'germany') {
+                    debounceZoom(function() { zoomToRegion('germany'); }, 200)();
+                    return;
+                }
+            }
+            
+            // Handle city headings (H2)
+            else if (entry.target.tagName === 'H2') {
+                var cityName = entry.target.textContent.trim().toLowerCase();
+                if (cityName === 'stockholm') {
+                    debounceZoom(function() { zoomToRegionLocations('stockholm'); }, 200)();
+                    return;
+                } else if (cityName === 'uppsala') {
+                    debounceZoom(function() { zoomToRegionLocations('uppsala'); }, 200)();
+                    return;
+                } else if (cityName === 'frankfurt') {
+                    debounceZoom(function() { zoomToRegionLocations('frankfurt'); }, 200)();
+                    return;
+                }
+                
+                // Fallback: try to match heading text to location descriptions or titles
+                matchingLocation = locations.find(function(loc) {
+                    return loc.description && cityName.includes(loc.description.toLowerCase());
+                });
+            }
             
             // Handle images
-            if (entry.target.tagName === 'IMG') {
+            else if (entry.target.tagName === 'IMG') {
                 var imageSrc = entry.target.getAttribute('src');
                 if (imageSrc) {
-                    var filename = imageSrc.split('/').pop().split('.')[0]; // Get filename without extension
-                    // Handle both dash and underscore separators
+                    var filename = imageSrc.split('/').pop().split('.')[0];
                     var normalizedFilename = filename.replace(/_/g, '-');
                     
                     // Find matching location by title
@@ -516,10 +624,9 @@
                 }
             }
             
-            // Handle H2 headings
-            else if (entry.target.tagName === 'H2') {
+            // Handle H3 headings (specific locations)
+            else if (entry.target.tagName === 'H3') {
                 var headingText = entry.target.textContent.trim();
-                // Try to match heading text to location descriptions or titles
                 matchingLocation = locations.find(function(loc) {
                     return loc.description && headingText.toLowerCase().includes(loc.description.toLowerCase());
                 });
@@ -545,14 +652,14 @@
     });
 }, { threshold: 0.5 });  // 50% of the element should be in view to trigger
 
-// Observe each image and H2 heading in the content column
+// Observe each image and all headings in the content column
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.content.article-body img').forEach(function(imageElement) {
         observer.observe(imageElement);
     });
     
-    // Also observe H2 headings for better scroll triggering
-    document.querySelectorAll('.content.article-body h2').forEach(function(heading) {
+    // Observe all heading levels for dynamic map zooming
+    document.querySelectorAll('.content.article-body h1, .content.article-body h2, .content.article-body h3').forEach(function(heading) {
         observer.observe(heading);
     });
 });
@@ -640,25 +747,6 @@ window.addEventListener('orientationchange', function() {
     setTimeout(handleMapResize, 500);
 });
 
-// Map style switcher functionality
-document.addEventListener('click', function(e) {
-    if (e.target.classList.contains('style-option')) {
-        var styleType = e.target.getAttribute('data-style');
-        
-        // Remove current tile layer
-        map.removeLayer(currentTileLayer);
-        
-        // Add new tile layer
-        currentTileLayer = tileLayers[styleType];
-        currentTileLayer.addTo(map);
-        
-        // Update active button
-        document.querySelectorAll('.style-option').forEach(function(btn) {
-            btn.classList.remove('active');
-        });
-        e.target.classList.add('active');
-    }
-});
 
 // Initial setup
 handleMapResize();
