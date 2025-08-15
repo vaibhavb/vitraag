@@ -1,5 +1,380 @@
 [
   {
+    "date": "2025-08-14",
+    "title": "Invest in Siren Biotechnology: Turning deadly cancers into treatable diseases, backed by Founders Fund #finance-news #growth",
+    "url": "https://wefunder.com/sirenbiotechnology"
+  },
+  {
+    "date": "2025-08-14",
+    "title": "Lessons learned building an AI hacker | AI Cyber Challenge #security-news",
+    "url": "https://theori.io/blog/building-effective-llm-agents-63446?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-08-14",
+    "title": "Stablecoin Wars With Stripe And Circle Racing To Control Payments #security-news #BlockChain #finance-news",
+    "url": "https://www.forbes.com/sites/digital-assets/2025/08/13/stablecoin-wars-with-stripe-and-circle-racing-to-control-payments/?ref=bayarealetters.com"
+  },
+  {
+    "date": "2025-08-14",
+    "title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential #product",
+    "url": "https://www.youtube.com/watch?v=tq6vdDJQXvs"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "AIxCC Competition Archive | AIxCC Competition Archive #security-news #blackhat",
+    "url": "https://archive.aicyberchallenge.com/?"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "Beyond Automation: Socratic AI, Epistemic Agency, and the Implications of the Emergence of Orchestrated Multi-Agent Learning Architectures #ai-news #education",
+    "url": "https://arxiv.org/abs/2508.05116"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "GPT-5 Under Fire: Red Teaming OpenAI’s Latest Model Reveals Surprising Weaknesses | SplxAI Blog #security-news",
+    "url": "https://splx.ai/blog/gpt-5-red-teaming-results"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "How I ended up writing Gleam for a living - Isaac Harris-Holt | Code BEAM Lite STO 2025 #security-news",
+    "url": "https://www.youtube.com/watch?v=BfPRcanTWXA"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "InstaVM - Secure Code Execution Platform #ai-news",
+    "url": "https://instavm.io/blog/building-my-offline-ai-workspace"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "Judgment Labs #ai-news #eval",
+    "url": "https://judgmentlabs.ai/"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "KrebsOnSecurity in New ‘Most Wanted’ HBO Max Series #security-news",
+    "url": "https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "Miscreants | Design + Cybersecurity #security-news",
+    "url": "https://www.miscreants.com/"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "Newsletters I read #product",
+    "url": "https://hamatti.org/posts/newsletters-i-read/"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "SplxAI: Continuous Red Teaming for AI Assistants and Agentic Workflows #security-news",
+    "url": "https://splx.ai/platform/probe"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "Tech Things: Genie’s Lamp, OpenAI can't make graphs, Anthropic is also here, Where is everyone else? #ai-news",
+    "url": "https://theahura.substack.com/p/tech-things-genies-lamp-openai-cant"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "The State of AI 2025 #ai-news #important",
+    "url": "https://www.bvp.com/atlas/the-state-of-ai-2025"
+  },
+  {
+    "date": "2025-08-13",
+    "title": "We replaced passwords with something worse | Blog - Daniel Huang #security-news",
+    "url": "https://blog.danielh.cc/blog/passwords"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "5 books that changed my engineering career forever #product",
+    "url": "https://newsletter.techworld-with-milan.com/p/5-books-behind-my-growth-as-a-cto"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "A self-evolving reasoning system for science #ai-news",
+    "url": "https://www.microsoft.com/en-us/research/blog/self-adaptive-reasoning-for-science/"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "Award-Winning Fund Administration Services & Technology #finance-news",
+    "url": "https://www.navfundservices.com/"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "Bay Area Mastermind Group: Peer Advisory for Entrepreneurs #growth",
+    "url": "https://bayareamastermind.com/"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "Charta Health: AI-Powered Chart Review #digitalhealth-news #growth",
+    "url": "https://www.chartahealth.com/"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "Generative AI as Third Agent: Large Language Models and the Transformation of the Clinician-Patient Relationship #digitalhealth-news",
+    "url": "https://jopm.jmir.org/2025/1/e68146"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "How to Transfer an Existing Vanta Account Under Your Partnership | Vanta Help Center #lib13",
+    "url": "https://help.vanta.com/en/articles/11346132-how-to-transfer-an-existing-vanta-account-under-your-partnership"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "Journey: The Buyer Microsite Tool for B2B Sales, Founders & Marketers #lib13",
+    "url": "https://journey.io/product"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "LLM Evaluation Platform Datumo Eval #growth #ai-news",
+    "url": "https://datumo.com/en/"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "Pentatonic Scales Explained #music",
+    "url": "https://youtu.be/MGpUscFY9RA?si=YeY69_KcM1BO-h8C"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "What are Forward Deployed Engineers, and why are they so in demand? #product",
+    "url": "https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers"
+  },
+  {
+    "date": "2025-08-12",
+    "title": "Will Secure AI Be the Hottest Career Path in Cybersecurity? #ai-news #security-news",
+    "url": "https://www.darkreading.com/cybersecurity-operations/will-secure-ai-hottest-career-path-cybersecurity"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "'The Wiz effect': North American VCs crowd into Israel's cybersecurity scene #finance-news #security-news",
+    "url": "https://pitchbook.com/news/articles/the-wiz-effect-north-american-vcs-crowd-into-israels-cybersecurity-scene"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "August Health: $29 Million Series B Funding Raised To Advance HER Platform #digitalhealth-news",
+    "url": "https://pulse2.com/august-health-29-million-series-b-funding-raised-to-advance-her-platform/"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "Bain Capital-backed Heartflow valued at $2.27 billion in solid Nasdaq debut #digitalhealth-news #finance-news",
+    "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/bain-capital-backed-heartflow-valued-227-billion-solid-nasdaq-debut-2025-08-08/"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "How Much Capital Does It Take for a Cybersecurity Company to Go Public? #finance-news #security-news",
+    "url": "https://strategyofsecurity.com/p/how-much-capital-does-it-take-for-a-cybersecurity-company-to-go-public"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "Illinois just banned AI from acting like a therapist #digitalhealth-news",
+    "url": "https://www.axios.com/local/chicago/2025/08/06/illinois-ai-therapy-ban-mental-health-regulation"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "My Lethal Trifecta talk at the Bay Area AI Security Meetup #ai-news #security-news #important",
+    "url": "https://simonwillison.net/2025/Aug/9/bay-area-ai/"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "Simplify access reviews with Trelica by 1Password | 1Password #security-news",
+    "url": "https://blog.1password.com/simplify-access-reviews-with-trelica-by-1password/"
+  },
+  {
+    "date": "2025-08-10",
+    "title": "TBM 271: Diagnosing Your Company's Strategy Problem #product",
+    "url": "https://cutlefish.substack.com/p/tbm-271-diagnosing-your-companys"
+  },
+  {
+    "date": "2025-08-10",
+    "title": "🐴 Fusion: Imagine Cursor and Figma have a baby #ai-news #product",
+    "url": "https://designwithai.substack.com/p/fusion-imagine-cursor-and-figma-have-a-baby"
+  },
+  {
+    "date": "2025-08-08",
+    "title": "Agenda #digitalhealth-news",
+    "url": "https://www.rockhealthsummit.com/agenda"
+  },
+  {
+    "date": "2025-08-08",
+    "title": "Full Circle | 2025 Programs Application #important #growth",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfVsuDzgPkCcSi431410lcKHH2R7AAYJYkzI-uIcKF2NyAZMg/viewform?mc_cid=a3ac422da6&mc_eid=4d14528b3d"
+  },
+  {
+    "date": "2025-08-08",
+    "title": "Issue #639 #639 #product",
+    "url": "https://pointerio.beehiiv.com/p/issue-639"
+  },
+  {
+    "date": "2025-08-08",
+    "title": "July Monthly Review: OpenAI Builds a PHR? #digitalhealth-news",
+    "url": "https://healthapiguy.substack.com/p/july-monthly-review-openai-builds"
+  },
+  {
+    "date": "2025-08-08",
+    "title": "⛵ GPT-5 Aims at Contracts #ai-news",
+    "url": "https://bayarealetters.com/gpt-5-aims-at-contracts/?ref=bay-area-letters-newsletter"
+  },
+  {
+    "date": "2025-08-08",
+    "title": "💡 GPT-5 arrives: OpenAI’s best yet? #ai-news",
+    "url": "https://newsletter.theaireport.ai/p/gpt-5-arrives-openai-s-best-yet"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "AI is a Floor Raiser, Not a Ceiling Raiser #ai-news #Productivity",
+    "url": "https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "BlackHat 2025 Cybersecurity Threat Detection - Juliet Sai LinkedIn #security-news #blackhat #linkedin",
+    "url": "https://www.linkedin.com/posts/julietsai_blackhat2025-cybersecurity-threatdetection-activity-7356772585998635008-adjc?utm_source=share&utm_medium=member_ios&rcm=ACoAAAAxexYBAxHYXXLEKrVZU2fIGa5ALdj96_s"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "CVE-2025-547954/54795: Claude InversePrompt Vulnerability #security-news #ai-news",
+    "url": "https://cymulate.com/blog/cve-2025-547954-54795-claude-inverseprompt/"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Claude AI Twitter - Code Block Prompt Command #ai-news #security-news #important #claude",
+    "url": "https://x.com/claudeai/status/1953125698081833346?s=46"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "DefCon Security Research Tweet #ai-news #defcon #security-news",
+    "url": "https://x.com/mbrg0/status/1953454988945965192?s=46"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "GPT OSS Security Analysis - Simon Willison #security-news #opensource",
+    "url": "https://simonwillison.net/2025/Aug/5/gpt-oss/"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "GPT-5 Analysis by Simon Willison #ai-news #analysis",
+    "url": "https://simonwillison.net/2025/Aug/7/gpt-5/"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "GPT-5: It Just Does Stuff - One Useful Thing #ai-news #gpt5",
+    "url": "https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "LLM over DNS - Levels.io Twitter #ai-news #important #networking",
+    "url": "https://x.com/levelsio/status/1953063231347458220?s=46"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "MCP Watch - Model Context Protocol Monitoring #ai-news #tools #github",
+    "url": "https://github.com/kapilduraphe/mcp-watch"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Math Meets Money Newsletter #finance-news #newsletter",
+    "url": "https://mathmeetsmoney.substack.com/?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-492&_bhlid=a5534f8d9f0729bfb9a11ec529a9f20400cf0d08"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "National Taxpayers Union #ethics #finance-news",
+    "url": "http://nat.org/"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "OpenAI GPT OSS 20B Red Teaming Competition #security-news #ai-news #competition",
+    "url": "https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-492&_bhlid=d7856edc49cd864706cb03e8c36016f5395a48ea"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "OpenAI Open Models #ai-news #openai",
+    "url": "https://openai.com/open-models/"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Patrick Collison's Advice #ethics #finance-news #career",
+    "url": "https://patrickcollison.com/advice"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Stanford Medicine: Virtual Scientist AI Research #ai-news #digitalhealth-news #research",
+    "url": "https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Twitter Post by @corbtt #social-media",
+    "url": "https://x.com/corbtt/status/1953171838382817625?s=46"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Why Chase Sapphire Reserve Business - Brian Kelly Interview #finance-news #travel",
+    "url": "https://thepointsguy.com/news/why-chase-sapphire-reserve-business-brian-kelly/"
+  },
+  {
+    "date": "2025-08-06",
+    "title": "College Consulting for Top Colleges | Zenith Prep Academy #collegeprep",
+    "url": "https://www.zenithprepacademy.com/"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "A Periodic Table of System Design Principles #product",
+    "url": "https://github.com/jarulraj/periodic-table"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "A summer of security: empowering cyber defenders with AI #security-news #ai-news",
+    "url": "https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/?ref=aisecret.us"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Aim Labs | CurXecute Blogpost #ai-news #security-news",
+    "url": "https://www.aim.security/lp/aim-labs-curxecute-blogpost"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Breaking NVIDIA Triton: CVE-2025-23319 - A Vulnerability Chain Leading to AI Server Takeover #security-news",
+    "url": "https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Enterprise innovation in action: Sutter Health’s three-lane approach to transforming care | Rock Health #digitalhealth-news",
+    "url": "https://rockhealth.com/insights/enterprise-innovation-in-action-sutter-healths-three-lane-approach-to-transforming-care/"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Healthcare AI Guy Weekly | 8/5 #digitalhealth-news",
+    "url": "https://www.healthcareaiguy.com/p/healthcare-ai-guy-weekly-8-5?utm_campaign=healthcare-ai-guy-weekly-8-5&utm_medium=newsletter&utm_source=www.healthcareaiguy.com"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Leadership co-processing with LLMs #product",
+    "url": "https://theengineeringmanager.substack.com/p/leadership-co-processing-with-llms"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Staqc: Track and Analyze Your Health Data #digitalhealth-news",
+    "url": "https://staqc.com/"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Sword Health launches new AI agents for payers, providers as it expands beyond MSK care #digitalhealth-news",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/sword-health-launches-new-ai-assistant-payers-providers-it-expands-beyond"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Vibe Coding Conundrums #ai-news #security-news",
+    "url": "https://www.resilientcyber.io/p/vibe-coding-conundrums"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Washington takes on interop (Again) #digitalhealth-news",
+    "url": "https://mailchi.mp/rockhealth/washington-takes-on-interop-again?e=6084365d9f"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "💰 Security, Funded #205 - Back in Black(jack) #205 #security-news",
+    "url": "https://www.returnonsecurity.com/p/security-funded-205"
+  },
+  {
     "date": "2025-07-29",
     "title": "AI Chat for Security Investigations | RunReveal Blog #security-news",
     "url": "https://blog.runreveal.com/introducing-runreveal-ai-chat/"
