@@ -20,6 +20,34 @@ Skepticism is the main thought I have had when it comes to nutritional supplemen
 - [Astaxanthin](https://www.amazon.com/Strength-Astaxanthin-Organic-Coconut-Absorption/dp/B07V574YYY) - This support skin health through antioxidant activity and is all natural. I've actually seen good skin results from it, Bryan Johnson also takes a version of this. Update: Q1, 2025
 - [Magnesium 380mg](https://www.amazon.com/dp/B00OHRT7GA) - After sometimes getting cramps from running, I started taking Magnesium for Muscle health and its proving to be useful (no clinical/ blood work proof yet). Update: Q1, 2025
 
+## Aug 20, 2025 Update - Potential Add-ons
+
+- **Omega-3 (algal oil)**: Testa or Nordic Naturals - Plant-based source of EPA/DHA for cardiovascular and brain health
+- **K2 (MK-7)**: Thorne (higher dose) or NOW (standard 100 mcg) - Works synergistically with Vitamin D for bone and cardiovascular health
+
+### Blueprint Essentials Stack Complete Breakdown
+
+For reference, here's the complete contents of Blueprint Essential Capsules:
+
+**Core Vitamins & Minerals:**
+- Vitamin D3 (2000 IU, 250% DV)
+- Vitamin E (67 mg, 447% DV)
+- B-complex: B1, B2, B3, B6 (near full daily coverage)
+- Folate (200 mcg DFE, 50% DV, methylated form)
+- B12 (125 mcg, 5200% DV, methylcobalamin form)
+- Biotin, pantothenic acid (above DV)
+- Minerals: Zinc (15 mg, 136%), Selenium (28 mcg, 51%), Iodine (200 mcg, 133%), Manganese, Boron, Lithium (low-dose orotate)
+- Calcium (50 mg, negligible), minimal magnesium or iron
+
+**Special Longevity Compounds:**
+- Nicotinamide riboside (300 mg) - NAD+ booster for mitochondrial health
+- Broccoli seed extract (200 mg glucoraphanin) - Converts to sulforaphane for cellular detox
+- Fisetin (100 mg) - Senolytic properties for anti-aging
+- Luteolin (100 mg) - Anti-inflammatory flavonoid
+- Ubiquinol CoQ10 (100 mg) - Heart and mitochondrial support
+- Spermidine (10 mg) - Autophagy and longevity support
+- Probiotic L. acidophilus (4B CFU) - Gut health
+
 ![nutrition with caution](/assets/images/2024/supplements.jpeg)
 
 # Resources
