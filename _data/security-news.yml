@@ -1,3 +1,75 @@
+- date: '2025-08-26'
+  news-items:
+  - desc: SpyVPN, a Google-featured VPN application, has been discovered to secretly
+      capture users' screen content while operating. Security researchers revealed
+      this privacy violation in a detailed analysis of the malicious VPN service.
+    link: https://www.koi.security/blog/spyvpn-the-vpn-that-secretly-captures-your-screen
+  - desc: Security researcher successfully identified and reported critical vulnerabilities
+      in McDonald's systems, noting that finding their security contact proved more
+      challenging than discovering the actual flaws. The investigation highlights
+      common issues with corporate security reporting processes.
+    link: https://bobdahacker.com/blog/mcdonalds-security-vulnerabilities
+  - desc: A new zero-day startup has announced a $20 million bounty program for exploit
+      tools capable of compromising any smartphone device. The initiative represents
+      a significant investment in mobile security research and vulnerability discovery.
+    link: https://techcrunch.com/2025/08/20/new-zero-day-startup-offers-20-million-for-tools-that-can-hack-any-smartphone/
+  - desc: Strix is an open-source AI-powered security testing framework designed to
+      automatically identify vulnerabilities in applications. The tool provides automated
+      penetration testing capabilities for modern software development workflows.
+    link: https://github.com/usestrix/strix
+  - desc: Russian hackers successfully compromised and gained control of a Norwegian
+      dam system, releasing over 1.9 million gallons of water before the attack was
+      detected. The incident highlights critical infrastructure vulnerabilities to
+      state-sponsored cyber attacks.
+    link: https://www.tomshardware.com/tech-industry/cyber-security/russia-hacked-and-took-control-of-a-norwegian-dam-police-chief-claims-released-over-1-900-000-gallons-of-water-before-attack-was-noticed
+  - desc: Analysis examines whether Claude Code's automated security review capabilities
+      meet industry standards for effective vulnerability detection. The assessment
+      evaluates AI-driven code analysis tools against traditional security review
+      methodologies.
+    link: https://www.darkreading.com/application-security/do-claude-code-security-reviews-pass-vibe-check
+  - desc: FACADE introduces a high-precision insider threat detection system utilizing
+      contrastive learning techniques, presented at Black Hat USA 2025. The framework
+      aims to identify malicious insider activities with improved accuracy and reduced
+      false positives.
+    link: https://elie.net/talk/facade-high-precision-insider-threat-detection-using-contrastive-learning
+  - desc: Research demonstrates how agentic AI browsers can be manipulated by sophisticated
+      scam tactics, revealing new attack vectors against autonomous web agents. The
+      study shows AI systems clicking malicious links, making unauthorized payments,
+      and falling for deceptive schemes.
+    link: https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed
+  - desc: Cybercriminals are now crafting phishing emails specifically designed to
+      bypass both human users and AI-powered security defenses. This evolution in
+      attack methodology targets the dual-layer protection systems commonly deployed
+      in modern organizations.
+    link: https://malwr-analysis.com/2025/08/24/phishing-emails-are-now-aimed-at-users-and-ai-defenses/
+  - desc: BaxBench provides a comprehensive benchmark for evaluating whether large
+      language models can generate secure and functionally correct backend code. The
+      framework tests LLMs' ability to produce production-ready server-side applications
+      without security vulnerabilities.
+    link: https://baxbench.com/
+  - desc: Invariant Labs introduces comprehensive documentation for securing AI agents
+      through rule-based guardrails and safety mechanisms. The framework provides
+      developers with tools to implement robust security controls for autonomous AI
+      systems.
+    link: https://explorer.invariantlabs.ai/docs/guardrails/
+  - desc: AWS publishes guidance for establishing secure malware analysis environments
+      on their cloud platform, covering isolation, monitoring, and containment strategies.
+      The documentation provides security practitioners with best practices for safely
+      analyzing malicious software in cloud environments.
+    link: https://aws.amazon.com/blogs/security/malware-analysis-on-aws-setting-up-a-secure-environment/
+  - desc: CSO Online provides comprehensive coverage of the latest cybersecurity news
+      and insights from Black Hat 2025. The compilation includes key takeaways from
+      conference presentations and emerging security trends.
+    link: https://www.csoonline.com/article/3482049/black-hat-latest-news-and-insights.html?utm_source=tldrinfosec
+  - desc: ArchWiki provides detailed instructions for installing Arch Linux as a guest
+      virtual machine on Proxmox virtualization platform. The guide covers security
+      considerations and best practices for virtualized Linux deployments.
+    link: https://wiki.archlinux.org/title/Proxmox/Install_Arch_Linux_as_a_guest
+  - desc: Case study examines how Wesley & Victor's security application was successfully
+      acquired by Bubble, providing insights into the no-code security startup ecosystem.
+      The acquisition highlights the growing market for accessible security tools
+      and platforms.
+    link: https://nocodeexits.substack.com/p/how-wesley-and-victors-security-app
 - date: '2025-08-14'
   news-items:
   - desc: Stripe and Circle compete for dominance in the stablecoin payments market,

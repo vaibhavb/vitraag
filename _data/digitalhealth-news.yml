@@ -1,3 +1,60 @@
+- date: '2025-08-26'
+  news-items:
+  - desc: Highmark Health partners with Abridge to develop real-time prior authorization
+      systems using artificial intelligence technology. The collaboration aims to
+      streamline healthcare approval processes and reduce administrative delays for
+      patient care.
+    link: https://www.fiercehealthcare.com/health-tech/highmark-health-taps-abridge-build-real-time-prior-authorization-using-ai
+  - desc: A Lancet study reveals that AI assistance actually reduced doctors' cancer
+      detection accuracy when the AI was subsequently removed. The research highlights
+      potential deskilling effects of AI dependency in medical diagnostics.
+    link: https://time.com/7309274/ai-lancet-study-artificial-intelligence-colonoscopy-cancer-detection-medicine-deskilling/
+  - desc: Stedi secures $70 million Series B funding to build the healthcare industry's
+      first AI-enabled clearinghouse for medical transactions. The platform aims to
+      modernize healthcare payment processing and administrative workflows.
+    link: https://www.stedi.com/blog/series-b
+  - desc: Korean researchers develop an AI system that analyzes medical malpractice
+      lawsuits to help healthcare providers identify and avoid common legal pitfalls.
+      The tool provides proactive risk assessment for medical practice management.
+    link: https://www.koreabiomed.com/news/articleView.htm
+  - desc: Citizen Health raises $30 million Series A to build AI-powered patient advocacy
+      platform focused on accelerating rare disease treatments. The company aims to
+      provide personalized support and navigation for complex medical conditions.
+    link: https://www.citizen.health/citizen-health-announces-series-a-funding
+  - desc: STAT News argues that expanding primary care access requires reducing bureaucratic
+      barriers similar to housing reform movements. The article advocates for eliminating
+      regulatory obstacles that prevent new primary care practices from opening.
+    link: https://www.statnews.com/2025/08/11/new-primary-care-practice-bureaucracy-insurance-providers-red-tape/
+  - desc: Rock Health publishes comprehensive roadmap for implementing AI in primary
+      care settings, outlining shared vision and strategic priorities. The Starfield
+      Signal initiative provides framework for healthcare AI adoption and best practices.
+    link: https://rockhealth.com/insights/the-starfield-signal-a-shared-vision-and-roadmap-for-ai-in-primary-care/
+  - desc: Health Tech Nerds interviews Sina Haeri, CEO of Ouma Health, discussing
+      innovative approaches to maternal healthcare delivery models. The conversation
+      covers strategies for improving maternity care accessibility and outcomes.
+    link: https://www.healthtechnerds.com/p/sina-haeri-ceo-of-ouma-health-on-building-a-new-maternity-model
+  - desc: Epic Systems announces major AI feature releases including AI-powered charting,
+      Microsoft Cosmos integration, AI risk prediction, and revenue cycle management
+      tools. The comprehensive AI suite aims to enhance clinical workflows and administrative
+      efficiency.
+    link: https://www.fiercehealthcare.com/health-tech/epic-unveils-major-ai-features-ai-charting-microsoft-cosmos-ai-risk-prediction-and-rcm
+  - desc: Healthcare blogger chronicles personal investigation into mysterious $34.94
+      lab test charge, revealing complex insurance billing practices. The detailed
+      analysis exposes opacity and inefficiencies in healthcare payment systems.
+    link: https://thehealthcareblog.com/blog/2025/08/18/hunting-down-my-34-94-lab-test-an-journey-into-the-bowels-of-insurance-billing/
+  - desc: Analysis examines the quantifiable return on investment of regular exercise,
+      covering health outcomes, productivity gains, and healthcare cost savings. The
+      data-driven approach demonstrates measurable benefits of physical activity programs.
+    link: https://herman.bearblog.dev/exercise/
+  - desc: Tidemark Capital provides comprehensive analysis of healthcare as the ultimate
+      vertical market, examining industry dynamics and investment opportunities. The
+      report covers healthcare's unique characteristics that make it attractive for
+      specialized solutions.
+    link: https://www.tidemarkcap.com/vskp-chapter/healthcare-the-ultimate-vertical-market-part-1
+  - desc: Healthcare API expert analyzes the evolving landscape of healthcare SaaS
+      solutions and Epic Systems' strategic positioning. The analysis covers market
+      trends and competitive dynamics in healthcare technology platforms.
+    link: https://healthapiguy.substack.com/p/the-shape-of-healthcare-saas-and
 - date: '2025-08-14'
   news-items:
   - desc: Charta Health launches AI-powered chart review platform to streamline medical

@@ -1,3 +1,36 @@
+- date: '2025-08-26'
+  news-items:
+  - desc: Technical demonstration shows how to create a complete web server using
+      only pure Bash scripting without external networking tools. The tutorial covers
+      socket programming, HTTP protocol implementation, and response handling entirely
+      within shell scripting.
+    link: https://www.youtube.com/watch?v=L967hYylZuc&t=2287s
+  - desc: Travel productivity video demonstrates effective notebook-based organization
+      system that transforms travel planning and experience documentation. The method
+      covers practical techniques for analog capture and organization during trips.
+    link: https://www.youtube.com/watch?v=PaAHkIYF9rY
+  - desc: The Beautiful Mess newsletter discusses strategic priorities for product
+      teams, outlining activities to increase and decrease for better outcomes. The
+      framework helps teams focus effort on high-impact initiatives while eliminating
+      low-value work.
+    link: https://cutlefish.substack.com/p/tbm-273-what-to-do-more-and-less
+  - desc: Analysis identifies Master Builder as the most valuable developer relations
+      role, combining technical expertise with community building skills. The article
+      explains why this hybrid role is increasingly important for developer-focused
+      companies.
+    link: https://dx.tips/master-builder
+  - desc: Forbes article argues that PhD degrees are becoming the new MBA for business
+      leadership, especially in technology and data-driven industries. The analysis
+      covers changing skill requirements and educational trends in executive hiring.
+    link: https://www.forbes.com/sites/shivaramrajgopal/2025/08/24/the-phd-is-the-new-mba/
+  - desc: Uber Engineering introduces uReview, a scalable generative AI system for
+      automated code review processes. The platform provides trustworthy code analysis
+      at enterprise scale with integrated feedback mechanisms.
+    link: https://www.uber.com/en-IN/blog/ureview/
+  - desc: ProjectionLab offers comprehensive financial and retirement planning tools
+      with modern interfaces and advanced modeling capabilities. The platform provides
+      sophisticated analysis for personal financial planning and goal tracking.
+    link: https://projectionlab.com/
 - date: '2025-08-14'
   news-items:
   - desc: Shopify CEO Tobi Lütke shares leadership principles including first principles

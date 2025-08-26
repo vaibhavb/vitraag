@@ -1,3 +1,69 @@
+- date: '2025-08-26'
+  news-items:
+  - desc: Interview with Jeremy Howard and Johno Whitaker about SolveIt, an AI-powered
+      development environment designed for thoughtful programming approaches. The
+      discussion covers tools and methodologies for enhanced developer productivity.
+    link: https://www.youtube.com/watch?v=DgPr3HVp0eg
+  - desc: Developer chronicles building a complete web search engine from scratch
+      in two months using 3 billion neural embeddings. The technical deep-dive covers
+      architecture decisions, scaling challenges, and performance optimizations.
+    link: https://blog.wilsonl.in/search-engine/
+  - desc: A Lancet study reveals that AI assistance actually reduced doctors' cancer
+      detection accuracy when the AI was subsequently removed. The research highlights
+      potential deskilling effects of AI dependency in medical diagnostics.
+    link: https://time.com/7309274/ai-lancet-study-artificial-intelligence-colonoscopy-cancer-detection-medicine-deskilling/
+  - desc: Interview with Teresa Torres about transitioning from product management
+      to automated evaluation systems within one week. The discussion covers practical
+      approaches for non-technical professionals to implement AI evaluation frameworks.
+    link: https://www.youtube.com/watch?v=N-qAOv_PNPc
+  - desc: Strix is an open-source AI-powered security testing framework designed to
+      automatically identify vulnerabilities in applications. The tool provides automated
+      penetration testing capabilities for modern software development workflows.
+    link: https://github.com/usestrix/strix
+  - desc: Analysis argues that Intel should pursue second-sourcing arrangements with
+      Nvidia to address chip supply chain concerns. The video discusses strategic
+      partnerships and manufacturing diversification in the semiconductor industry.
+    link: https://www.youtube-nocookie.com/embed/5oOk_KXbw6c?rel=0&autoplay=0&showinfo=0&enablejsapi=0
+  - desc: Research demonstrates how agentic AI browsers can be manipulated by sophisticated
+      scam tactics, revealing new attack vectors against autonomous web agents. The
+      study shows AI systems clicking malicious links, making unauthorized payments,
+      and falling for deceptive schemes.
+    link: https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed
+  - desc: Cybercriminals are now crafting phishing emails specifically designed to
+      bypass both human users and AI-powered security defenses. This evolution in
+      attack methodology targets the dual-layer protection systems commonly deployed
+      in modern organizations.
+    link: https://malwr-analysis.com/2025/08/24/phishing-emails-are-now-aimed-at-users-and-ai-defenses/
+  - desc: AGENTS.md provides comprehensive resource and documentation hub for AI agent
+      development, covering frameworks, tools, and best practices. The site serves
+      as a central reference for developers building autonomous AI systems.
+    link: https://agents.md/
+  - desc: BaxBench provides a comprehensive benchmark for evaluating whether large
+      language models can generate secure and functionally correct backend code. The
+      framework tests LLMs' ability to produce production-ready server-side applications
+      without security vulnerabilities.
+    link: https://baxbench.com/
+  - desc: Invariant Labs introduces comprehensive documentation for securing AI agents
+      through rule-based guardrails and safety mechanisms. The framework provides
+      developers with tools to implement robust security controls for autonomous AI
+      systems.
+    link: https://explorer.invariantlabs.ai/docs/guardrails/
+  - desc: GitHub repository provides implementation of Gemma 3 model training from
+      Sebastian Raschka's "LLMs from Scratch" book. The code covers practical aspects
+      of building and training large language models from fundamental principles.
+    link: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/12_gemma3
+  - desc: Analysis examines OpenAI's strategy to build AI consulting capabilities
+      similar to McKinsey's business model. The article covers how AI companies are
+      expanding into strategic consulting services and implementation partnerships.
+    link: https://www.theaiopportunities.com/p/the-ai-consulting-playbook-how-openai?utm_campaign=post&utm_medium=web
+  - desc: Michelle Fang shares insights about AI-focused events and networking opportunities
+      in San Francisco. The tweet highlights community building and professional development
+      in the AI industry.
+    link: https://x.com/michelleefang/status/1957549678347841863?s=46
+  - desc: Keychain provides comprehensive platform for consumer packaged goods manufacturing,
+      offering supply chain management and production optimization tools. The platform
+      streamlines operations for CPG companies with integrated workflow solutions.
+    link: https://www.keychain.com/
 - date: '2025-08-14'
   news-items:
   - desc: Academic paper exploring socratic AI, epistemic agency, and implications
