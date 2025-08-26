@@ -1,5 +1,265 @@
 [
   {
+    "date": "2025-08-25",
+    "title": "\"Scamlexity\": When Agentic AI Browsers Get Scammed #security-news #ai-news",
+    "url": "https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "AGENTS.md #ai-news",
+    "url": "https://agents.md/"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Digital Platform Domain Dashboard",
+    "url": "https://dash.domain.digitalplat.org/auth/login?next=%2F"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Do Claude Code Security Reviews Pass Vibe Check #security-news",
+    "url": "https://www.darkreading.com/application-security/do-claude-code-security-reviews-pass-vibe-check"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Epic Unveils Major AI Features #digitalhealth-news",
+    "url": "https://www.fiercehealthcare.com/health-tech/epic-unveils-major-ai-features-ai-charting-microsoft-cosmos-ai-risk-prediction-and-rcm"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "FACADE High-Precision Insider Threat Detection Using Contrastive Learning | Black Hat USE 25 talk #security-news #blackhat",
+    "url": "https://elie.net/talk/facade-high-precision-insider-threat-detection-using-contrastive-learning"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "How to Get the Highest Return from Your Cash #finance-news",
+    "url": "https://sillymoney.com/p/how-to-get-the-highest-return-from-your-cash"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Hunting down my $34.94 lab test. An journey into the bowels of insurance billing – The Health Care Blog #digitalhealth-news",
+    "url": "https://thehealthcareblog.com/blog/2025/08/18/hunting-down-my-34-94-lab-test-an-journey-into-the-bowels-of-insurance-billing/"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Intel Should Second-Source Nvidia - YouTube #ai-news",
+    "url": "https://www.youtube-nocookie.com/embed/5oOk_KXbw6c?rel=0&autoplay=0&showinfo=0&enablejsapi=0"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Novoco Opportunity Funds Listing #finance-news",
+    "url": "https://www.novoco.com/resource-centers/opportunity-zones-resource-center/opportunity-funds-listing"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "OpportunityZones.com - The Leader In Opportunity Zone Investing #finance-news",
+    "url": "https://opportunityzones.com/"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Phishing Emails Are Now Aimed at Users and AI Defenses #security-news #ai-news",
+    "url": "https://malwr-analysis.com/2025/08/24/phishing-emails-are-now-aimed-at-users-and-ai-defenses/"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "The PhD is the New MBA #product",
+    "url": "https://www.forbes.com/sites/shivaramrajgopal/2025/08/24/the-phd-is-the-new-mba/"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "The ROI of exercise #digitalhealth-news",
+    "url": "https://herman.bearblog.dev/exercise/"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "UpMarket FAQ - Alternative Investments Platform #finance-news",
+    "url": "https://www.upmarket.co/faq"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "Cache: A Modern Brokerage for Your Large Stock Positions #finance-news",
+    "url": "https://usecache.com/"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "Jaine Library Aagam Listing #ethics",
+    "url": "https://jainelibrary.org/aagam-listing/?wd=4KSG4KSa4KS+4KSwIOCkuOCkvuCkueCkv+CkpOCljeCkrw=="
+  },
+  {
+    "date": "2025-08-23",
+    "title": "Can You Write A Web Server in PURE BASH?! (no socat, no netcat, no external tools) #product",
+    "url": "https://www.youtube.com/watch?v=L967hYylZuc&t=2287s"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "How I Hacked McDonald's (Their Security Contact Was Harder to Find Than Their Secret Sauce Recipe) #security-news",
+    "url": "https://bobdahacker.com/blog/mcdonalds-security-vulnerabilities"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "New zero-day startup offers $20 million for tools that can hack any smartphone #security-news",
+    "url": "https://techcrunch.com/2025/08/20/new-zero-day-startup-offers-20-million-for-tools-that-can-hack-any-smartphone/"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "SpyVPN: The Google-Featured VPN That Secretly Captures Your Screen | Koi Blog #security-news",
+    "url": "https://www.koi.security/blog/spyvpn-the-vpn-that-secretly-captures-your-screen"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "Performance During Pain #leadership",
+    "url": "https://joincolossus.com/episode/performance-during-pain/"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Black Hat 2025: Latest news and insights #security-news",
+    "url": "https://www.csoonline.com/article/3482049/black-hat-latest-news-and-insights.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Keychain: Platform for CPG manufacturing #ai-news",
+    "url": "https://www.keychain.com/"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Malware analysis on AWS: Setting up a secure environment #security-news",
+    "url": "https://aws.amazon.com/blogs/security/malware-analysis-on-aws-setting-up-a-secure-environment/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "AI system summarizes medical lawsuits to help doctors avoid legal pitfalls #digitalhealth-news",
+    "url": "https://www.koreabiomed.com/news/articleView.htm"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Announcing Stedi’s $70 million Series B to build the only AI-enabled clearinghouse #digitalhealth-news",
+    "url": "https://www.stedi.com/blog/series-b"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Building a web search engine from scratch in two months with 3 billion neural embeddings #ai-news",
+    "url": "https://blog.wilsonl.in/search-engine/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Citizen Health Raises $30M Series A to Build AI Advocate for Every Patient | Accelerating Rare Disease Cures #digitalhealth-news",
+    "url": "https://www.citizen.health/citizen-health-announces-series-a-funding"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Exceptional estate planning solutions for individuals, families, professionals and small business owners",
+    "url": "https://soundestateplanning.com/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "FarmKind FarmKind — Donate to fix Factory Farming Through Impactful Donations #donate #giving",
+    "url": "https://www.farmkind.giving/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "From Noob to Automated Evals In A Week (as a PM) w/Teresa Torres #ai-news #evals",
+    "url": "https://www.youtube.com/watch?v=N-qAOv_PNPc"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Highmark Health taps Abridge to build 'real-time' prior authorization using AI #digitalhealth-news",
+    "url": "https://www.fiercehealthcare.com/health-tech/highmark-health-taps-abridge-build-real-time-prior-authorization-using-ai"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "If Americans want abundant primary care, health care needs a YIMBY moment #digitalhealth-news",
+    "url": "https://www.statnews.com/2025/08/11/new-primary-care-practice-bureaucracy-insurance-providers-red-tape/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Index investing that gets you more",
+    "url": "https://frec.com/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Russia hacked and took control of a Norwegian dam, police chief claims — released over 1,900,000 gallons of water before attack was noticed #security-news",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/russia-hacked-and-took-control-of-a-norwegian-dam-police-chief-claims-released-over-1-900-000-gallons-of-water-before-attack-was-noticed"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Sina Haeri, CEO of Ouma Health, on building a new maternity model #digitalhealth-news",
+    "url": "https://www.healthtechnerds.com/p/sina-haeri-ceo-of-ouma-health-on-building-a-new-maternity-model"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "SolveIt: The Thinking Developer's Environment w/Jeremy Howard & Johno Whitaker #ai-news",
+    "url": "https://www.youtube.com/watch?v=DgPr3HVp0eg"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "TBM 273: What To Do More (And Less) Of #product",
+    "url": "https://cutlefish.substack.com/p/tbm-273-what-to-do-more-and-less"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "The Master Builder is the most valuable type of DevRel right now #product",
+    "url": "https://dx.tips/master-builder"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "The Starfield Signal: A Shared Vision and Roadmap for AI in Primary Care | Rock Health #digitalhealth-news",
+    "url": "https://rockhealth.com/insights/the-starfield-signal-a-shared-vision-and-roadmap-for-ai-in-primary-care/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Using AI Made Doctors Worse at Spotting Cancer Without Assistance #ai-news #digitalhealth-news",
+    "url": "https://time.com/7309274/ai-lancet-study-artificial-intelligence-colonoscopy-cancer-detection-medicine-deskilling/"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Using a Notebook (This Way) Changed How I Travel #product",
+    "url": "https://www.youtube.com/watch?v=PaAHkIYF9rY"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "usestrix/strix: ✨ Open-source AI hackers for your apps 👨🏻‍💻 #ai-news #security-news",
+    "url": "https://github.com/usestrix/strix"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "BaxBench: Can LLMs Generate Secure and Correct Backends? #ai-news #security-news",
+    "url": "https://baxbench.com/"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Dharmawheels",
+    "url": "https://dharmawheels.org/"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Heizen | Software Delivery at Light Speed",
+    "url": "https://www.heizen.work/"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "LLMs-from-scratch/ch05/12_gemma3 at main · rasbt/LLMs-from-scratch #ai-news",
+    "url": "https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/12_gemma3"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Michelle Fang Tweet",
+    "url": "https://x.com/michelleefang/status/1957549678347841863?s=46"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Securing Agents with Rules - Invariant Documentation #ai-news #security-news",
+    "url": "https://explorer.invariantlabs.ai/docs/guardrails/"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "The AI Consulting Playbook: How OpenAI is building the Mckinsey of AI #ai-news",
+    "url": "https://www.theaiopportunities.com/p/the-ai-consulting-playbook-how-openai?utm_campaign=post&utm_medium=web"
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Trotta.io",
+    "url": "https://trotta.io/"
+  },
+  {
     "date": "2025-08-17",
     "title": "Health 2.0 Redux",
     "url": "https://open.substack.com/pub/healthtechbuilders/p/health-20-redux?r=1xgaxy&utm_medium=ios"
