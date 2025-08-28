@@ -21768,4 +21768,16 @@ th {
   color: hsl(0, 0%, var(--bulma-success-invert-l)) !important;
 }
 
+.content img {
+  display: block;
+  margin: 0 auto;
+}
+.content img + strong,
+.content img + em,
+.content p:has(img) + p > strong {
+  display: block;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
 /*# sourceMappingURL=mybulma.css.map */

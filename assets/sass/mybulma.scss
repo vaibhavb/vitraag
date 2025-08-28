@@ -247,3 +247,20 @@ body, html {
     color: hsl(0, 0%, var(--bulma-success-invert-l)) !important;
   }
 }
+
+// Center align all images in content and their following captions
+.content {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  // Center the caption/figure text that immediately follows an image
+  img + strong,
+  img + em,
+  p:has(img) + p > strong {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
