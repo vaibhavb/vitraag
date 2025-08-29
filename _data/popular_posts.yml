@@ -1,21 +1,21 @@
-last_updated: '2025-08-28T01:29:36.718215+00:00'
+last_updated: '2025-08-29T01:29:45.744942+00:00'
 posts:
-- pageviews: 1603
+- pageviews: 1604
   path: /
   title: Vaibhav Bhandari Homepage
+- pageviews: 160
+  path: /posts-by-year/
+  title: Posts By Year!
 - pageviews: 159
   path: /2024/10/23/hawaii-trip/
   title: Hawaii Trip!
-- pageviews: 159
-  path: /posts-by-year/
-  title: Posts By Year!
-- pageviews: 93
+- pageviews: 92
   path: /2023/11/27/happy-reliving-a-year-to-live/
   title: Happy Reliving! A Review of Stephen Levine's "A Year to Live"
 - pageviews: 80
   path: /2024/02/02/7-powers/
   title: Business Strategy - "7 Powers" by Hamilton Helmer
-- pageviews: 62
+- pageviews: 63
   path: /2024/07/09/mt-langley-trip-report/
   title: Mt. Langley Trip Report - Lots of Firsts!
 - pageviews: 61
@@ -27,6 +27,6 @@ posts:
 - pageviews: 47
   path: /security-news
   title: Security News
-- pageviews: 34
-  path: /2004/09/30/steps-to-app-my-ms-plans/
-  title: Steps To App - My MS Plans!
+- pageviews: 33
+  path: /bookmarks
+  title: bookmarks
