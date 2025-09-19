@@ -1,3 +1,35 @@
+- date: '2025-09-19'
+  news-items:
+  - desc: HL7 Connectathon demonstrates significant progress in conversational interoperability
+      standards for healthcare data exchange and natural system communication.
+    link: https://www.linkedin.com/pulse/conversational-interoperability-takes-shape-read-out-from-mandel-md-379fc/
+  - desc: New England Journal of Medicine publishes comprehensive study on acute health
+      effects of coffee consumption among ambulatory adults.
+    link: https://www.nejm.org/doi/full/10.1056/NEJMoa2204737
+  - desc: Leading neurosurgeon Edward Chang discusses breakthrough approaches in glioblastoma
+      treatment and research for aggressive brain cancer therapy.
+    link: https://x.com/PeterAttiaMD/status/1965415141123477634
+  - desc: Wall Street Journal investigates how billionaire investors are funding longevity
+      research and life extension technologies to extend human lifespan.
+    link: https://www.wsj.com/health/wellness/billionaires-longevity-health-04dd205c
+  - desc: Epic Systems launches Comet, a new AI platform designed to predict patient
+      health trajectories and help providers proactively manage care.
+    link: https://hitconsultant.net/2025/09/03/epic-launches-comet-a-new-ai-platform-to-predict-patient-health-journeys/
+  - desc: ProPublica investigation reveals lack of transparency in health insurance
+      claim denial rates across the industry, highlighting coverage issues.
+    link: https://www.propublica.org/article/how-often-do-health-insurers-deny-patients-claims
+  - desc: PitchBook releases comprehensive analysis of Q2 2025 healthtech venture
+      capital investment trends, funding patterns, and market dynamics.
+    link: https://pitchbook.com/news/reports/q2-2025-healthtech-vc-trends
+  - desc: OpenAI recruits executives from Instagram and Doximity to spearhead healthcare
+      AI initiatives and develop specialized medical industry solutions.
+    link: https://www.businessinsider.com/openai-taps-doximity-cofounder-to-lead-its-next-healthcare-push-2025-8
+  - desc: London researchers develop AI-powered stethoscope capable of detecting major
+      heart conditions within 15 seconds for revolutionary cardiac screening.
+    link: https://www.theguardian.com/technology/2025/aug/30/doctors-ai-stethoscope-heart-disease-london
+  - desc: ALIGNMT AI secures $6.5M in funding to develop AI governance solutions for
+      healthcare organizations addressing regulatory compliance challenges.
+    link: https://hitconsultant.net/2025/08/28/alignmt-ai-raises-6-5m-to-deliver-ai-governance-for-healthcare/
 - date: '2025-08-26'
   news-items:
   - desc: Highmark Health partners with Abridge to develop real-time prior authorization

@@ -1,3 +1,35 @@
+- date: '2025-09-19'
+  news-items:
+  - desc: SuperAlign launches end-to-end AI security platform addressing the growing
+      need for comprehensive artificial intelligence risk management and protection.
+    link: https://superalign.ai/
+  - desc: Legion Security introduces AI-powered SOC analyst automation platform designed
+      to enhance security operations center efficiency and threat response.
+    link: https://www.legionsecurity.ai/about
+  - desc: Duolingo engineering team shares how AI tools reduced manual regression
+      testing by 70% while maintaining quality standards in production environments.
+    link: https://blog.duolingo.com/reduced-regression-testing/
+  - desc: University of Helsinki offers free online course introducing artificial
+      intelligence concepts to non-technical audiences without programming requirements.
+    link: https://www.elementsofai.com/
+  - desc: Comprehensive learning guide explores agentic AI frameworks based on Berkeley's
+      LLM Agents MOOC curriculum for autonomous AI systems.
+    link: https://medium.com/@unarkhede/agentic-ai-frameworks-learning-journey-from-berkeleys-llm-agents-mooc-course-cd28af58b3cb
+  - desc: Google launches AI Studio platform providing developers with tools for building
+      and testing generative AI applications and model integration.
+    link: https://aistudio.google.com/apps
+  - desc: Open-source tool raggy enables interactive debugging and optimization of
+      Retrieval Augmented Generation pipelines for improved accuracy.
+    link: https://github.com/QuentinRomeroLauro/raggy
+  - desc: Technical analysis explores how specific music compositions can expose vulnerabilities
+      and failure modes in AI language models for safety testing.
+    link: https://matthodges.com/posts/2025-08-26-music-to-break-models-by/
+  - desc: xAI announces Grok Code Fast 1, a new AI model optimized for rapid code
+      generation and automated software development workflows.
+    link: https://x.ai/news/grok-code-fast-1
+  - desc: OpenAI recruits executives from Instagram and Doximity to spearhead healthcare
+      AI initiatives and develop specialized medical industry solutions.
+    link: https://www.businessinsider.com/openai-taps-doximity-cofounder-to-lead-its-next-healthcare-push-2025-8
 - date: '2025-08-26'
   news-items:
   - desc: Interview with Jeremy Howard and Johno Whitaker about SolveIt, an AI-powered

@@ -1,257 +1,99 @@
 {
-  "target_date": "2025-08-26",
+  "target_date": "2025-09-19",
   "categories": {
     "security-news": {
       "items": [
-        {
-          "desc": "SpyVPN, a Google-featured VPN application, has been discovered to secretly capture users' screen content while operating. Security researchers revealed this privacy violation in a detailed analysis of the malicious VPN service.",
-          "link": "https://www.koi.security/blog/spyvpn-the-vpn-that-secretly-captures-your-screen"
-        },
-        {
-          "desc": "Security researcher successfully identified and reported critical vulnerabilities in McDonald's systems, noting that finding their security contact proved more challenging than discovering the actual flaws. The investigation highlights common issues with corporate security reporting processes.",
-          "link": "https://bobdahacker.com/blog/mcdonalds-security-vulnerabilities"
-        },
-        {
-          "desc": "A new zero-day startup has announced a $20 million bounty program for exploit tools capable of compromising any smartphone device. The initiative represents a significant investment in mobile security research and vulnerability discovery.",
-          "link": "https://techcrunch.com/2025/08/20/new-zero-day-startup-offers-20-million-for-tools-that-can-hack-any-smartphone/"
-        },
-        {
-          "desc": "Strix is an open-source AI-powered security testing framework designed to automatically identify vulnerabilities in applications. The tool provides automated penetration testing capabilities for modern software development workflows.",
-          "link": "https://github.com/usestrix/strix"
-        },
-        {
-          "desc": "Russian hackers successfully compromised and gained control of a Norwegian dam system, releasing over 1.9 million gallons of water before the attack was detected. The incident highlights critical infrastructure vulnerabilities to state-sponsored cyber attacks.",
-          "link": "https://www.tomshardware.com/tech-industry/cyber-security/russia-hacked-and-took-control-of-a-norwegian-dam-police-chief-claims-released-over-1-900-000-gallons-of-water-before-attack-was-noticed"
-        },
-        {
-          "desc": "Analysis examines whether Claude Code's automated security review capabilities meet industry standards for effective vulnerability detection. The assessment evaluates AI-driven code analysis tools against traditional security review methodologies.",
-          "link": "https://www.darkreading.com/application-security/do-claude-code-security-reviews-pass-vibe-check"
-        },
-        {
-          "desc": "FACADE introduces a high-precision insider threat detection system utilizing contrastive learning techniques, presented at Black Hat USA 2025. The framework aims to identify malicious insider activities with improved accuracy and reduced false positives.",
-          "link": "https://elie.net/talk/facade-high-precision-insider-threat-detection-using-contrastive-learning"
-        },
-        {
-          "desc": "Research demonstrates how agentic AI browsers can be manipulated by sophisticated scam tactics, revealing new attack vectors against autonomous web agents. The study shows AI systems clicking malicious links, making unauthorized payments, and falling for deceptive schemes.",
-          "link": "https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed"
-        },
-        {
-          "desc": "Cybercriminals are now crafting phishing emails specifically designed to bypass both human users and AI-powered security defenses. This evolution in attack methodology targets the dual-layer protection systems commonly deployed in modern organizations.",
-          "link": "https://malwr-analysis.com/2025/08/24/phishing-emails-are-now-aimed-at-users-and-ai-defenses/"
-        },
-        {
-          "desc": "BaxBench provides a comprehensive benchmark for evaluating whether large language models can generate secure and functionally correct backend code. The framework tests LLMs' ability to produce production-ready server-side applications without security vulnerabilities.",
-          "link": "https://baxbench.com/"
-        },
-        {
-          "desc": "Invariant Labs introduces comprehensive documentation for securing AI agents through rule-based guardrails and safety mechanisms. The framework provides developers with tools to implement robust security controls for autonomous AI systems.",
-          "link": "https://explorer.invariantlabs.ai/docs/guardrails/"
-        },
-        {
-          "desc": "AWS publishes guidance for establishing secure malware analysis environments on their cloud platform, covering isolation, monitoring, and containment strategies. The documentation provides security practitioners with best practices for safely analyzing malicious software in cloud environments.",
-          "link": "https://aws.amazon.com/blogs/security/malware-analysis-on-aws-setting-up-a-secure-environment/"
-        },
-        {
-          "desc": "CSO Online provides comprehensive coverage of the latest cybersecurity news and insights from Black Hat 2025. The compilation includes key takeaways from conference presentations and emerging security trends.",
-          "link": "https://www.csoonline.com/article/3482049/black-hat-latest-news-and-insights.html?utm_source=tldrinfosec"
-        },
-        {
-          "desc": "ArchWiki provides detailed instructions for installing Arch Linux as a guest virtual machine on Proxmox virtualization platform. The guide covers security considerations and best practices for virtualized Linux deployments.",
-          "link": "https://wiki.archlinux.org/title/Proxmox/Install_Arch_Linux_as_a_guest"
-        },
-        {
-          "desc": "Case study examines how Wesley & Victor's security application was successfully acquired by Bubble, providing insights into the no-code security startup ecosystem. The acquisition highlights the growing market for accessible security tools and platforms.",
-          "link": "https://nocodeexits.substack.com/p/how-wesley-and-victors-security-app"
-        }
+        {"desc": "System research reveals the underlying factors that make system calls expensive, providing insights into performance optimization for security-critical applications.", "link": "https://blog.codingconfessions.com/p/what-makes-system-calls-expensive"},
+        {"desc": "Security researchers demonstrate novel data exfiltration techniques using Discord and Slack platforms to hide command and control traffic from detection systems.", "link": "https://arszilla.com/hiding-your-c2-traffic-with-discord-and-slack"},
+        {"desc": "Comprehensive AWS CloudTrail event cheatsheet provides detection engineers with critical API calls for identifying security incidents and threats.", "link": "https://aws.plainenglish.io/aws-cloudtrail-event-cheatsheet-a-detection-engineers-guide-to-critical-api-calls-part-1-04fb1588556f"},
+        {"desc": "SuperAlign launches end-to-end AI security platform addressing the growing need for comprehensive artificial intelligence risk management and protection.", "link": "https://superalign.ai/"},
+        {"desc": "Legion Security introduces AI-powered SOC analyst automation platform designed to enhance security operations center efficiency and threat response capabilities.", "link": "https://www.legionsecurity.ai/about"},
+        {"desc": "Industry analysis explores the future of working with AI agents, highlighting the transition toward prompt-less interactions and autonomous system operations.", "link": "https://builtin.com/articles/work-with-ai-agents"},
+        {"desc": "Comprehensive overview of the current state of AI security landscape as of September 2025, covering emerging threats and protection strategies.", "link": "https://www.youtube.com/watch?v=xSAvMK_kDAs"},
+        {"desc": "Technical deep-dive into container filesystem architecture demonstrates how to build Docker-like containers from scratch for better security understanding.", "link": "https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch"},
+        {"desc": "Binary Exploitation 101 provides foundational knowledge for understanding and defending against binary-based security vulnerabilities and attack vectors.", "link": "https://r1ru.github.io/categories/binary-exploitation-101/"},
+        {"desc": "StepSecurity reports major supply chain attack affecting ctrl/tinycolor and over 40 NPM packages, highlighting risks in open-source dependency management.", "link": "https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised"},
+        {"desc": "Amazon security engineer shares valuable lessons learned from interview rejection, providing insights into cloud security interview preparation and expectations.", "link": "https://medium.com/@yuvasurya1998/what-i-learned-from-getting-rejected-by-amazon-a-security-engineers-interview-experience-293e65a2f942"},
+        {"desc": "Major data leak reveals 600 GB of alleged Great Firewall of China data, representing the largest breach of Chinese internet censorship infrastructure to date.", "link": "https://hackread.com/great-firewall-of-china-data-published-largest-leak/?utm_source=tldrinfosec"},
+        {"desc": "Electronic Frontier Foundation updates Panopticlick 3.0 tool for testing browser privacy and tracking protection capabilities against online surveillance.", "link": "https://www.eff.org/deeplinks/2017/11/panopticlick-30"},
+        {"desc": "University of Cincinnati offers comprehensive malware analysis course covering static and dynamic analysis techniques for cybersecurity professionals.", "link": "http://class.snusbaum.com/"},
+        {"desc": "Qantas reduces executive bonuses by 15% following July data breach, demonstrating corporate accountability for cybersecurity incidents.", "link": "https://securityaffairs.com/181954/data-breach/qantas-cuts-executive-bonuses-by-15-after-a-july-data-breach.html"},
+        {"desc": "Apple Security Research publishes comprehensive blog on Memory Integrity Enforcement, outlining complete vision for memory safety across Apple device ecosystem.", "link": "https://security.apple.com/blog/memory-integrity-enforcement/"},
+        {"desc": "Anthropic releases Claude Code security review prompt templates to help developers implement security-focused code analysis workflows.", "link": "https://github.com/anthropics/claude-code-security-review/blob/68982a6bf10d545e94dd0390af08306d94ef684c/.claude/commands/security-review.md"},
+        {"desc": "Semgrep explores effectiveness of large language model security prompts using promptfoo framework for automated testing and validation.", "link": "https://semgrep.dev/blog/2024/does-your-llm-thing-work-how-we-use-promptfoo"},
+        {"desc": "Daniel Miessler's security newsletter covers latest threats, vulnerabilities, and defensive strategies in the cybersecurity landscape.", "link": "https://newsletter.danielmiessler.com/p/ul-497"},
+        {"desc": "BleepingComputer reports AI tools reduce vCISO workload by 68% as demand for virtual security leadership services continues to skyrocket.", "link": "https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/"},
+        {"desc": "Wikipedia article explores Kryptos, the encrypted sculpture at CIA headquarters, offering insights into cryptographic puzzles and code-breaking challenges.", "link": "https://en.wikipedia.org/wiki/Kryptos"},
+        {"desc": "2025 NICE K-12 Cybersecurity Conference announces presenter lineup focusing on cybersecurity education and workforce development initiatives.", "link": "https://www.k12cybersecurityconference.org/2025-presenter-lineup"},
+        {"desc": "Domain Tools analyzes the Kimsuky leak, revealing North Korea's credential theft playbook and advanced persistent threat tactics used by state-sponsored hackers.", "link": "https://dti.domaintools.com/inside-the-kimsuky-leak-how-the-kim-dump-exposed-north-koreas-credential-theft-playbook/"},
+        {"desc": "Mixeway introduces Flow, an open-source DevSecOps platform serving as a comprehensive toolkit for security integration in development workflows.", "link": "https://github.com/Mixeway/Flow"},
+        {"desc": "Security researcher demonstrates how specific music compositions can expose vulnerabilities and break AI language models through novel attack vectors.", "link": "https://matthodges.com/posts/2025-08-26-music-to-break-models-by/"},
+        {"desc": "CrowdStrike announces acquisition of Onum to enhance agentic Security Operations Center capabilities and autonomous threat response systems.", "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-onum/"},
+        {"desc": "CSO Online investigates the Coinbase security breach caused by employee bribery, highlighting insider threats as emerging enterprise security risk.", "link": "https://www.csoonline.com/article/4042522/behind-the-coinbase-breach-bribery-is-an-emerging-enterprise-threat.html"},
+        {"desc": "AWS detection engineering guide helps security teams master log sources and implement effective threat detection strategies in cloud environments.", "link": "https://aws.plainenglish.io/aws-detection-engineering-mastering-log-sources-for-threat-detection-51372da9a17e"},
+        {"desc": "Checkmarx introduces AIVSS (AI Vulnerability Scoring System) to address security assessment gaps in AI agents and machine learning systems.", "link": "https://checkmarx.com/ai-llm-tools-in-application-security/cvss-was-built-for-code-not-ai-agents-now-aivss-closes-the-gap/"},
+        {"desc": "Security community calls for contributions to help shape AIVSS framework for standardizing AI and LLM vulnerability assessment methodologies.", "link": "https://kenhuangus.substack.com/p/call-for-contributions-help-shape"},
+        {"desc": "Developer blog explores how Rust programming language provides unexpected productivity benefits while maintaining strong security and memory safety guarantees.", "link": "https://lubeno.dev/blog/rusts-productivity-curve?=&aid=reccyFDQXujhuj11b"},
+        {"desc": "TL;DR Security provides CISO guidance on protecting organizational crown jewels by focusing on intent over specific security tactics and tools.", "link": "https://tldrsec.com/p/intent-over-tactics-crown-jewels"},
+        {"desc": "Cryptographic puzzle challenge tests problem-solving skills and security knowledge through complex mathematical and logical riddles.", "link": "https://x.com/itsalfredw/status/1962919483011695020?s=12"},
+        {"desc": "Curated collection of specialized job boards for cybersecurity professionals seeking career opportunities across various security disciplines and experience levels.", "link": "https://x.com/teriradichel/status/1695474651550364058?s=12"},
+        {"desc": "Newsweek reports on hackers issuing ultimatum to Google demanding termination of security researchers following major data breach incident.", "link": "https://www.newsweek.com/hackers-issue-ultimatum-data-breach-2122489"},
+        {"desc": "CISO guidance framework for evaluating and selecting AI security vendors, covering due diligence processes and vendor assessment criteria.", "link": "https://calebsima.com/2025/08/29/a-cisos-guide-to-vetting-ai-security-vendors/"}
       ]
     },
     "digitalhealth-news": {
       "items": [
-        {
-          "desc": "Highmark Health partners with Abridge to develop real-time prior authorization systems using artificial intelligence technology. The collaboration aims to streamline healthcare approval processes and reduce administrative delays for patient care.",
-          "link": "https://www.fiercehealthcare.com/health-tech/highmark-health-taps-abridge-build-real-time-prior-authorization-using-ai"
-        },
-        {
-          "desc": "A Lancet study reveals that AI assistance actually reduced doctors' cancer detection accuracy when the AI was subsequently removed. The research highlights potential deskilling effects of AI dependency in medical diagnostics.",
-          "link": "https://time.com/7309274/ai-lancet-study-artificial-intelligence-colonoscopy-cancer-detection-medicine-deskilling/"
-        },
-        {
-          "desc": "Stedi secures $70 million Series B funding to build the healthcare industry's first AI-enabled clearinghouse for medical transactions. The platform aims to modernize healthcare payment processing and administrative workflows.",
-          "link": "https://www.stedi.com/blog/series-b"
-        },
-        {
-          "desc": "Korean researchers develop an AI system that analyzes medical malpractice lawsuits to help healthcare providers identify and avoid common legal pitfalls. The tool provides proactive risk assessment for medical practice management.",
-          "link": "https://www.koreabiomed.com/news/articleView.htm"
-        },
-        {
-          "desc": "Citizen Health raises $30 million Series A to build AI-powered patient advocacy platform focused on accelerating rare disease treatments. The company aims to provide personalized support and navigation for complex medical conditions.",
-          "link": "https://www.citizen.health/citizen-health-announces-series-a-funding"
-        },
-        {
-          "desc": "STAT News argues that expanding primary care access requires reducing bureaucratic barriers similar to housing reform movements. The article advocates for eliminating regulatory obstacles that prevent new primary care practices from opening.",
-          "link": "https://www.statnews.com/2025/08/11/new-primary-care-practice-bureaucracy-insurance-providers-red-tape/"
-        },
-        {
-          "desc": "Rock Health publishes comprehensive roadmap for implementing AI in primary care settings, outlining shared vision and strategic priorities. The Starfield Signal initiative provides framework for healthcare AI adoption and best practices.",
-          "link": "https://rockhealth.com/insights/the-starfield-signal-a-shared-vision-and-roadmap-for-ai-in-primary-care/"
-        },
-        {
-          "desc": "Health Tech Nerds interviews Sina Haeri, CEO of Ouma Health, discussing innovative approaches to maternal healthcare delivery models. The conversation covers strategies for improving maternity care accessibility and outcomes.",
-          "link": "https://www.healthtechnerds.com/p/sina-haeri-ceo-of-ouma-health-on-building-a-new-maternity-model"
-        },
-        {
-          "desc": "Epic Systems announces major AI feature releases including AI-powered charting, Microsoft Cosmos integration, AI risk prediction, and revenue cycle management tools. The comprehensive AI suite aims to enhance clinical workflows and administrative efficiency.",
-          "link": "https://www.fiercehealthcare.com/health-tech/epic-unveils-major-ai-features-ai-charting-microsoft-cosmos-ai-risk-prediction-and-rcm"
-        },
-        {
-          "desc": "Healthcare blogger chronicles personal investigation into mysterious $34.94 lab test charge, revealing complex insurance billing practices. The detailed analysis exposes opacity and inefficiencies in healthcare payment systems.",
-          "link": "https://thehealthcareblog.com/blog/2025/08/18/hunting-down-my-34-94-lab-test-an-journey-into-the-bowels-of-insurance-billing/"
-        },
-        {
-          "desc": "Analysis examines the quantifiable return on investment of regular exercise, covering health outcomes, productivity gains, and healthcare cost savings. The data-driven approach demonstrates measurable benefits of physical activity programs.",
-          "link": "https://herman.bearblog.dev/exercise/"
-        },
-        {
-          "desc": "Tidemark Capital provides comprehensive analysis of healthcare as the ultimate vertical market, examining industry dynamics and investment opportunities. The report covers healthcare's unique characteristics that make it attractive for specialized solutions.",
-          "link": "https://www.tidemarkcap.com/vskp-chapter/healthcare-the-ultimate-vertical-market-part-1"
-        },
-        {
-          "desc": "Healthcare API expert analyzes the evolving landscape of healthcare SaaS solutions and Epic Systems' strategic positioning. The analysis covers market trends and competitive dynamics in healthcare technology platforms.",
-          "link": "https://healthapiguy.substack.com/p/the-shape-of-healthcare-saas-and"
-        }
+        {"desc": "HL7 Connectathon demonstrates significant progress in conversational interoperability standards for healthcare data exchange and natural system communication.", "link": "https://www.linkedin.com/pulse/conversational-interoperability-takes-shape-read-out-from-mandel-md-379fc/"},
+        {"desc": "New England Journal of Medicine publishes comprehensive study on acute health effects of coffee consumption among ambulatory adults.", "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2204737"},
+        {"desc": "Leading neurosurgeon Edward Chang discusses breakthrough approaches in glioblastoma treatment and research for aggressive brain cancer therapy.", "link": "https://x.com/PeterAttiaMD/status/1965415141123477634"},
+        {"desc": "Wall Street Journal investigates how billionaire investors are funding longevity research and life extension technologies to extend human lifespan.", "link": "https://www.wsj.com/health/wellness/billionaires-longevity-health-04dd205c"},
+        {"desc": "Epic Systems launches Comet, a new AI platform designed to predict patient health trajectories and help providers proactively manage care.", "link": "https://hitconsultant.net/2025/09/03/epic-launches-comet-a-new-ai-platform-to-predict-patient-health-journeys/"},
+        {"desc": "ProPublica investigation reveals lack of transparency in health insurance claim denial rates across the industry, highlighting coverage issues.", "link": "https://www.propublica.org/article/how-often-do-health-insurers-deny-patients-claims"},
+        {"desc": "PitchBook releases comprehensive analysis of Q2 2025 healthtech venture capital investment trends, funding patterns, and market dynamics.", "link": "https://pitchbook.com/news/reports/q2-2025-healthtech-vc-trends"},
+        {"desc": "OpenAI recruits executives from Instagram and Doximity to spearhead healthcare AI initiatives and develop specialized medical industry solutions.", "link": "https://www.businessinsider.com/openai-taps-doximity-cofounder-to-lead-its-next-healthcare-push-2025-8"},
+        {"desc": "London researchers develop AI-powered stethoscope capable of detecting major heart conditions within 15 seconds for revolutionary cardiac screening.", "link": "https://www.theguardian.com/technology/2025/aug/30/doctors-ai-stethoscope-heart-disease-london"},
+        {"desc": "ALIGNMT AI secures $6.5M in funding to develop AI governance solutions for healthcare organizations addressing regulatory compliance challenges.", "link": "https://hitconsultant.net/2025/08/28/alignmt-ai-raises-6-5m-to-deliver-ai-governance-for-healthcare/"}
       ]
     },
     "finance-news": {
       "items": [
-        {
-          "desc": "OpportunityZones.com serves as a comprehensive platform for opportunity zone investing, providing resources and investment opportunities in qualified areas. The platform connects investors with tax-advantaged community development projects.",
-          "link": "https://opportunityzones.com/"
-        },
-        {
-          "desc": "Novoco maintains comprehensive listing of opportunity zone funds available for investment, providing detailed fund information and contact details. The resource helps investors identify qualified opportunity zone investment vehicles.",
-          "link": "https://www.novoco.com/resource-centers/opportunity-zones-resource-center/opportunity-funds-listing"
-        },
-        {
-          "desc": "UpMarket provides frequently asked questions about their alternative investments platform, covering accreditation requirements, fees, and investment options. The platform offers access to private market investments for qualified investors.",
-          "link": "https://www.upmarket.co/faq"
-        },
-        {
-          "desc": "Silly Money publishes comprehensive guide on maximizing returns from cash holdings through high-yield savings, CDs, and money market accounts. The analysis compares current rates and strategies for optimizing short-term cash investments.",
-          "link": "https://sillymoney.com/p/how-to-get-the-highest-return-from-your-cash"
-        },
-        {
-          "desc": "Cache introduces modern brokerage services specifically designed for managing large concentrated stock positions. The platform provides tools for diversification, tax optimization, and risk management for significant equity holdings.",
-          "link": "https://usecache.com/"
-        },
-        {
-          "desc": "Educational video explains Puerto Rico's tax incentive programs that eliminate capital gains taxes for qualifying residents. The content covers Act 60 benefits and requirements for establishing Puerto Rico tax residency.",
-          "link": "https://www.youtube.com/watch?v=N6UK6XX9FH4"
-        },
-        {
-          "desc": "Video tutorial covers advanced Health Savings Account strategies for maximizing tax benefits and long-term wealth building. The content includes investment options, withdrawal strategies, and estate planning considerations.",
-          "link": "https://www.youtube.com/watch?v=uQhDgDuewKc&t=43s"
-        }
+        {"desc": "SEC investor education guide explains how to effectively read and analyze 10-K annual reports for investment research and corporate analysis.", "link": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k"},
+        {"desc": "Comprehensive guide for investors on analyzing S-1 registration statements for IPO evaluation, due diligence, and public offering assessment.", "link": "https://raseedinvest.com/en/learn/how-to-read-an-s-1-for-investors-in-the-us-market"},
+        {"desc": "Economic analysis examines the transformation of American capitalism and emergence of feudalistic economic structures and wealth concentration.", "link": "https://www.youtube.com/watch?v=gqtrNXdlraM"},
+        {"desc": "Derek Thompson analyzes current economic trends visible to market observers, covering inflation, employment, and broader economic patterns.", "link": "https://www.derekthompson.org/p/whats-happening-to-the-economy-is"},
+        {"desc": "Bessemer Venture Partners releases 2025 benchmarks report analyzing performance metrics and industry standards across Cloud 100 companies.", "link": "https://www.bvp.com/atlas/the-cloud-100-benchmarks-report"},
+        {"desc": "Investment professional shares comprehensive framework and principles for long-term wealth building, portfolio management, and market strategy.", "link": "https://www.thewolfofharcourtstreet.com/p/my-investment-philosophy"}
       ]
     },
     "pm-news": {
       "items": [
-        {
-          "desc": "Technical demonstration shows how to create a complete web server using only pure Bash scripting without external networking tools. The tutorial covers socket programming, HTTP protocol implementation, and response handling entirely within shell scripting.",
-          "link": "https://www.youtube.com/watch?v=L967hYylZuc&t=2287s"
-        },
-        {
-          "desc": "Travel productivity video demonstrates effective notebook-based organization system that transforms travel planning and experience documentation. The method covers practical techniques for analog capture and organization during trips.",
-          "link": "https://www.youtube.com/watch?v=PaAHkIYF9rY"
-        },
-        {
-          "desc": "The Beautiful Mess newsletter discusses strategic priorities for product teams, outlining activities to increase and decrease for better outcomes. The framework helps teams focus effort on high-impact initiatives while eliminating low-value work.",
-          "link": "https://cutlefish.substack.com/p/tbm-273-what-to-do-more-and-less"
-        },
-        {
-          "desc": "Analysis identifies Master Builder as the most valuable developer relations role, combining technical expertise with community building skills. The article explains why this hybrid role is increasingly important for developer-focused companies.",
-          "link": "https://dx.tips/master-builder"
-        },
-        {
-          "desc": "Forbes article argues that PhD degrees are becoming the new MBA for business leadership, especially in technology and data-driven industries. The analysis covers changing skill requirements and educational trends in executive hiring.",
-          "link": "https://www.forbes.com/sites/shivaramrajgopal/2025/08/24/the-phd-is-the-new-mba/"
-        },
-        {
-          "desc": "Uber Engineering introduces uReview, a scalable generative AI system for automated code review processes. The platform provides trustworthy code analysis at enterprise scale with integrated feedback mechanisms.",
-          "link": "https://www.uber.com/en-IN/blog/ureview/"
-        },
-        {
-          "desc": "ProjectionLab offers comprehensive financial and retirement planning tools with modern interfaces and advanced modeling capabilities. The platform provides sophisticated analysis for personal financial planning and goal tracking.",
-          "link": "https://projectionlab.com/"
-        }
+        {"desc": "Duolingo engineering team shares how AI tools reduced manual regression testing by 70% while maintaining quality standards in production.", "link": "https://blog.duolingo.com/reduced-regression-testing/"},
+        {"desc": "O'Reilly Media identifies key technology trends and emerging patterns in AI, cloud computing, data engineering, and software development for September 2025.", "link": "https://www.oreilly.com/radar/radar-trends-to-watch-september-2025/"},
+        {"desc": "Tutorial series demonstrates ray tracing implementation in Rust programming language for computer graphics rendering and 3D visualization.", "link": "https://www.youtube.com/watch?v=1ZhIWonhTGM"},
+        {"desc": "Practical guide for implementing customer-centric OKRs in product management, providing frameworks for aligning organizational goals with customer value.", "link": "https://www.amazon.com/Who-Does-What-Much-Customer-Centric-ebook/dp/B0CYDH8R71/"},
+        {"desc": "Comprehensive resource on API design principles, best practices, REST architecture, versioning strategies, and user experience considerations.", "link": "https://www.seangoedecke.com/good-api-design/"},
+        {"desc": "Peter Thiel's fellowship program offers $100,000 grants to young entrepreneurs pursuing innovative projects outside traditional education paths.", "link": "https://thielfellowship.org/"},
+        {"desc": "Engineering leader Will Larson shares his 2025 workspace setup, productivity tools, and ergonomic considerations for remote technical work.", "link": "https://lethain.com/desk-setup-2025/"},
+        {"desc": "Educational video explores how classic video game DOOM teaches fundamental computer science concepts often missed in formal education.", "link": "https://www.youtube.com/watch?v=cqL3jvlU61c"}
       ]
     },
     "ai-news": {
       "items": [
-        {
-          "desc": "Interview with Jeremy Howard and Johno Whitaker about SolveIt, an AI-powered development environment designed for thoughtful programming approaches. The discussion covers tools and methodologies for enhanced developer productivity.",
-          "link": "https://www.youtube.com/watch?v=DgPr3HVp0eg"
-        },
-        {
-          "desc": "Developer chronicles building a complete web search engine from scratch in two months using 3 billion neural embeddings. The technical deep-dive covers architecture decisions, scaling challenges, and performance optimizations.",
-          "link": "https://blog.wilsonl.in/search-engine/"
-        },
-        {
-          "desc": "A Lancet study reveals that AI assistance actually reduced doctors' cancer detection accuracy when the AI was subsequently removed. The research highlights potential deskilling effects of AI dependency in medical diagnostics.",
-          "link": "https://time.com/7309274/ai-lancet-study-artificial-intelligence-colonoscopy-cancer-detection-medicine-deskilling/"
-        },
-        {
-          "desc": "Interview with Teresa Torres about transitioning from product management to automated evaluation systems within one week. The discussion covers practical approaches for non-technical professionals to implement AI evaluation frameworks.",
-          "link": "https://www.youtube.com/watch?v=N-qAOv_PNPc"
-        },
-        {
-          "desc": "Strix is an open-source AI-powered security testing framework designed to automatically identify vulnerabilities in applications. The tool provides automated penetration testing capabilities for modern software development workflows.",
-          "link": "https://github.com/usestrix/strix"
-        },
-        {
-          "desc": "Analysis argues that Intel should pursue second-sourcing arrangements with Nvidia to address chip supply chain concerns. The video discusses strategic partnerships and manufacturing diversification in the semiconductor industry.",
-          "link": "https://www.youtube-nocookie.com/embed/5oOk_KXbw6c?rel=0&autoplay=0&showinfo=0&enablejsapi=0"
-        },
-        {
-          "desc": "Research demonstrates how agentic AI browsers can be manipulated by sophisticated scam tactics, revealing new attack vectors against autonomous web agents. The study shows AI systems clicking malicious links, making unauthorized payments, and falling for deceptive schemes.",
-          "link": "https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed"
-        },
-        {
-          "desc": "Cybercriminals are now crafting phishing emails specifically designed to bypass both human users and AI-powered security defenses. This evolution in attack methodology targets the dual-layer protection systems commonly deployed in modern organizations.",
-          "link": "https://malwr-analysis.com/2025/08/24/phishing-emails-are-now-aimed-at-users-and-ai-defenses/"
-        },
-        {
-          "desc": "AGENTS.md provides comprehensive resource and documentation hub for AI agent development, covering frameworks, tools, and best practices. The site serves as a central reference for developers building autonomous AI systems.",
-          "link": "https://agents.md/"
-        },
-        {
-          "desc": "BaxBench provides a comprehensive benchmark for evaluating whether large language models can generate secure and functionally correct backend code. The framework tests LLMs' ability to produce production-ready server-side applications without security vulnerabilities.",
-          "link": "https://baxbench.com/"
-        },
-        {
-          "desc": "Invariant Labs introduces comprehensive documentation for securing AI agents through rule-based guardrails and safety mechanisms. The framework provides developers with tools to implement robust security controls for autonomous AI systems.",
-          "link": "https://explorer.invariantlabs.ai/docs/guardrails/"
-        },
-        {
-          "desc": "GitHub repository provides implementation of Gemma 3 model training from Sebastian Raschka's \"LLMs from Scratch\" book. The code covers practical aspects of building and training large language models from fundamental principles.",
-          "link": "https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/12_gemma3"
-        },
-        {
-          "desc": "Analysis examines OpenAI's strategy to build AI consulting capabilities similar to McKinsey's business model. The article covers how AI companies are expanding into strategic consulting services and implementation partnerships.",
-          "link": "https://www.theaiopportunities.com/p/the-ai-consulting-playbook-how-openai?utm_campaign=post&utm_medium=web"
-        },
-        {
-          "desc": "Michelle Fang shares insights about AI-focused events and networking opportunities in San Francisco. The tweet highlights community building and professional development in the AI industry.",
-          "link": "https://x.com/michelleefang/status/1957549678347841863?s=46"
-        },
-        {
-          "desc": "Keychain provides comprehensive platform for consumer packaged goods manufacturing, offering supply chain management and production optimization tools. The platform streamlines operations for CPG companies with integrated workflow solutions.",
-          "link": "https://www.keychain.com/"
-        }
+        {"desc": "SuperAlign launches end-to-end AI security platform addressing the growing need for comprehensive artificial intelligence risk management and protection.", "link": "https://superalign.ai/"},
+        {"desc": "Legion Security introduces AI-powered SOC analyst automation platform designed to enhance security operations center efficiency and threat response.", "link": "https://www.legionsecurity.ai/about"},
+        {"desc": "Duolingo engineering team shares how AI tools reduced manual regression testing by 70% while maintaining quality standards in production environments.", "link": "https://blog.duolingo.com/reduced-regression-testing/"},
+        {"desc": "University of Helsinki offers free online course introducing artificial intelligence concepts to non-technical audiences without programming requirements.", "link": "https://www.elementsofai.com/"},
+        {"desc": "Comprehensive learning guide explores agentic AI frameworks based on Berkeley's LLM Agents MOOC curriculum for autonomous AI systems.", "link": "https://medium.com/@unarkhede/agentic-ai-frameworks-learning-journey-from-berkeleys-llm-agents-mooc-course-cd28af58b3cb"},
+        {"desc": "Google launches AI Studio platform providing developers with tools for building and testing generative AI applications and model integration.", "link": "https://aistudio.google.com/apps"},
+        {"desc": "Open-source tool raggy enables interactive debugging and optimization of Retrieval Augmented Generation pipelines for improved accuracy.", "link": "https://github.com/QuentinRomeroLauro/raggy"},
+        {"desc": "Technical analysis explores how specific music compositions can expose vulnerabilities and failure modes in AI language models for safety testing.", "link": "https://matthodges.com/posts/2025-08-26-music-to-break-models-by/"},
+        {"desc": "xAI announces Grok Code Fast 1, a new AI model optimized for rapid code generation and automated software development workflows.", "link": "https://x.ai/news/grok-code-fast-1"},
+        {"desc": "OpenAI recruits executives from Instagram and Doximity to spearhead healthcare AI initiatives and develop specialized medical industry solutions.", "link": "https://www.businessinsider.com/openai-taps-doximity-cofounder-to-lead-its-next-healthcare-push-2025-8"}
       ]
     }
   },
   "summary": {
-    "total_items": 67,
+    "total_items": 78,
     "categories_updated": ["security-news", "digitalhealth-news", "finance-news", "pm-news", "ai-news"]
   }
 }

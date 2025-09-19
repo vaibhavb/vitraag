@@ -1,3 +1,119 @@
+- date: '2025-09-19'
+  news-items:
+  - desc: System research reveals the underlying factors that make system calls expensive,
+      providing insights into performance optimization for security-critical applications.
+    link: https://blog.codingconfessions.com/p/what-makes-system-calls-expensive
+  - desc: Security researchers demonstrate novel data exfiltration techniques using
+      Discord and Slack platforms to hide command and control traffic from detection
+      systems.
+    link: https://arszilla.com/hiding-your-c2-traffic-with-discord-and-slack
+  - desc: Comprehensive AWS CloudTrail event cheatsheet provides detection engineers
+      with critical API calls for identifying security incidents and threats.
+    link: https://aws.plainenglish.io/aws-cloudtrail-event-cheatsheet-a-detection-engineers-guide-to-critical-api-calls-part-1-04fb1588556f
+  - desc: SuperAlign launches end-to-end AI security platform addressing the growing
+      need for comprehensive artificial intelligence risk management and protection.
+    link: https://superalign.ai/
+  - desc: Legion Security introduces AI-powered SOC analyst automation platform designed
+      to enhance security operations center efficiency and threat response capabilities.
+    link: https://www.legionsecurity.ai/about
+  - desc: Industry analysis explores the future of working with AI agents, highlighting
+      the transition toward prompt-less interactions and autonomous system operations.
+    link: https://builtin.com/articles/work-with-ai-agents
+  - desc: Comprehensive overview of the current state of AI security landscape as
+      of September 2025, covering emerging threats and protection strategies.
+    link: https://www.youtube.com/watch?v=xSAvMK_kDAs
+  - desc: Technical deep-dive into container filesystem architecture demonstrates
+      how to build Docker-like containers from scratch for better security understanding.
+    link: https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch
+  - desc: Binary Exploitation 101 provides foundational knowledge for understanding
+      and defending against binary-based security vulnerabilities and attack vectors.
+    link: https://r1ru.github.io/categories/binary-exploitation-101/
+  - desc: StepSecurity reports major supply chain attack affecting ctrl/tinycolor
+      and over 40 NPM packages, highlighting risks in open-source dependency management.
+    link: https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised
+  - desc: Amazon security engineer shares valuable lessons learned from interview
+      rejection, providing insights into cloud security interview preparation and
+      expectations.
+    link: https://medium.com/@yuvasurya1998/what-i-learned-from-getting-rejected-by-amazon-a-security-engineers-interview-experience-293e65a2f942
+  - desc: Major data leak reveals 600 GB of alleged Great Firewall of China data,
+      representing the largest breach of Chinese internet censorship infrastructure
+      to date.
+    link: https://hackread.com/great-firewall-of-china-data-published-largest-leak/?utm_source=tldrinfosec
+  - desc: Electronic Frontier Foundation updates Panopticlick 3.0 tool for testing
+      browser privacy and tracking protection capabilities against online surveillance.
+    link: https://www.eff.org/deeplinks/2017/11/panopticlick-30
+  - desc: University of Cincinnati offers comprehensive malware analysis course covering
+      static and dynamic analysis techniques for cybersecurity professionals.
+    link: http://class.snusbaum.com/
+  - desc: Qantas reduces executive bonuses by 15% following July data breach, demonstrating
+      corporate accountability for cybersecurity incidents.
+    link: https://securityaffairs.com/181954/data-breach/qantas-cuts-executive-bonuses-by-15-after-a-july-data-breach.html
+  - desc: Apple Security Research publishes comprehensive blog on Memory Integrity
+      Enforcement, outlining complete vision for memory safety across Apple device
+      ecosystem.
+    link: https://security.apple.com/blog/memory-integrity-enforcement/
+  - desc: Anthropic releases Claude Code security review prompt templates to help
+      developers implement security-focused code analysis workflows.
+    link: https://github.com/anthropics/claude-code-security-review/blob/68982a6bf10d545e94dd0390af08306d94ef684c/.claude/commands/security-review.md
+  - desc: Semgrep explores effectiveness of large language model security prompts
+      using promptfoo framework for automated testing and validation.
+    link: https://semgrep.dev/blog/2024/does-your-llm-thing-work-how-we-use-promptfoo
+  - desc: Daniel Miessler's security newsletter covers latest threats, vulnerabilities,
+      and defensive strategies in the cybersecurity landscape.
+    link: https://newsletter.danielmiessler.com/p/ul-497
+  - desc: BleepingComputer reports AI tools reduce vCISO workload by 68% as demand
+      for virtual security leadership services continues to skyrocket.
+    link: https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/
+  - desc: Wikipedia article explores Kryptos, the encrypted sculpture at CIA headquarters,
+      offering insights into cryptographic puzzles and code-breaking challenges.
+    link: https://en.wikipedia.org/wiki/Kryptos
+  - desc: 2025 NICE K-12 Cybersecurity Conference announces presenter lineup focusing
+      on cybersecurity education and workforce development initiatives.
+    link: https://www.k12cybersecurityconference.org/2025-presenter-lineup
+  - desc: Domain Tools analyzes the Kimsuky leak, revealing North Korea's credential
+      theft playbook and advanced persistent threat tactics used by state-sponsored
+      hackers.
+    link: https://dti.domaintools.com/inside-the-kimsuky-leak-how-the-kim-dump-exposed-north-koreas-credential-theft-playbook/
+  - desc: Mixeway introduces Flow, an open-source DevSecOps platform serving as a
+      comprehensive toolkit for security integration in development workflows.
+    link: https://github.com/Mixeway/Flow
+  - desc: Security researcher demonstrates how specific music compositions can expose
+      vulnerabilities and break AI language models through novel attack vectors.
+    link: https://matthodges.com/posts/2025-08-26-music-to-break-models-by/
+  - desc: CrowdStrike announces acquisition of Onum to enhance agentic Security Operations
+      Center capabilities and autonomous threat response systems.
+    link: https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-onum/
+  - desc: CSO Online investigates the Coinbase security breach caused by employee
+      bribery, highlighting insider threats as emerging enterprise security risk.
+    link: https://www.csoonline.com/article/4042522/behind-the-coinbase-breach-bribery-is-an-emerging-enterprise-threat.html
+  - desc: AWS detection engineering guide helps security teams master log sources
+      and implement effective threat detection strategies in cloud environments.
+    link: https://aws.plainenglish.io/aws-detection-engineering-mastering-log-sources-for-threat-detection-51372da9a17e
+  - desc: Checkmarx introduces AIVSS (AI Vulnerability Scoring System) to address
+      security assessment gaps in AI agents and machine learning systems.
+    link: https://checkmarx.com/ai-llm-tools-in-application-security/cvss-was-built-for-code-not-ai-agents-now-aivss-closes-the-gap/
+  - desc: Security community calls for contributions to help shape AIVSS framework
+      for standardizing AI and LLM vulnerability assessment methodologies.
+    link: https://kenhuangus.substack.com/p/call-for-contributions-help-shape
+  - desc: Developer blog explores how Rust programming language provides unexpected
+      productivity benefits while maintaining strong security and memory safety guarantees.
+    link: https://lubeno.dev/blog/rusts-productivity-curve?=&aid=reccyFDQXujhuj11b
+  - desc: TL;DR Security provides CISO guidance on protecting organizational crown
+      jewels by focusing on intent over specific security tactics and tools.
+    link: https://tldrsec.com/p/intent-over-tactics-crown-jewels
+  - desc: Cryptographic puzzle challenge tests problem-solving skills and security
+      knowledge through complex mathematical and logical riddles.
+    link: https://x.com/itsalfredw/status/1962919483011695020?s=12
+  - desc: Curated collection of specialized job boards for cybersecurity professionals
+      seeking career opportunities across various security disciplines and experience
+      levels.
+    link: https://x.com/teriradichel/status/1695474651550364058?s=12
+  - desc: Newsweek reports on hackers issuing ultimatum to Google demanding termination
+      of security researchers following major data breach incident.
+    link: https://www.newsweek.com/hackers-issue-ultimatum-data-breach-2122489
+  - desc: CISO guidance framework for evaluating and selecting AI security vendors,
+      covering due diligence processes and vendor assessment criteria.
+    link: https://calebsima.com/2025/08/29/a-cisos-guide-to-vetting-ai-security-vendors/
 - date: '2025-08-26'
   news-items:
   - desc: SpyVPN, a Google-featured VPN application, has been discovered to secretly

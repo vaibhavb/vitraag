@@ -1,3 +1,30 @@
+- date: '2025-09-19'
+  news-items:
+  - desc: Duolingo engineering team shares how AI tools reduced manual regression
+      testing by 70% while maintaining quality standards in production.
+    link: https://blog.duolingo.com/reduced-regression-testing/
+  - desc: O'Reilly Media identifies key technology trends and emerging patterns in
+      AI, cloud computing, data engineering, and software development for September
+      2025.
+    link: https://www.oreilly.com/radar/radar-trends-to-watch-september-2025/
+  - desc: Tutorial series demonstrates ray tracing implementation in Rust programming
+      language for computer graphics rendering and 3D visualization.
+    link: https://www.youtube.com/watch?v=1ZhIWonhTGM
+  - desc: Practical guide for implementing customer-centric OKRs in product management,
+      providing frameworks for aligning organizational goals with customer value.
+    link: https://www.amazon.com/Who-Does-What-Much-Customer-Centric-ebook/dp/B0CYDH8R71/
+  - desc: Comprehensive resource on API design principles, best practices, REST architecture,
+      versioning strategies, and user experience considerations.
+    link: https://www.seangoedecke.com/good-api-design/
+  - desc: Peter Thiel's fellowship program offers $100,000 grants to young entrepreneurs
+      pursuing innovative projects outside traditional education paths.
+    link: https://thielfellowship.org/
+  - desc: Engineering leader Will Larson shares his 2025 workspace setup, productivity
+      tools, and ergonomic considerations for remote technical work.
+    link: https://lethain.com/desk-setup-2025/
+  - desc: Educational video explores how classic video game DOOM teaches fundamental
+      computer science concepts often missed in formal education.
+    link: https://www.youtube.com/watch?v=cqL3jvlU61c
 - date: '2025-08-26'
   news-items:
   - desc: Technical demonstration shows how to create a complete web server using
