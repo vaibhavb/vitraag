@@ -1,9 +1,9 @@
-last_updated: '2025-10-26T01:30:12.631017+00:00'
+last_updated: '2025-10-27T01:30:26.573338+00:00'
 posts:
-- pageviews: 1481
+- pageviews: 1458
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 117
+- pageviews: 115
   path: /posts-by-year/
   title: Posts By Year!
 - pageviews: 77
@@ -19,9 +19,6 @@ posts:
   path: /2024/07/09/mt-langley-trip-report/
   title: Mt. Langley Trip Report - Lots of Firsts!
 - pageviews: 49
-  path: /2024/06/16/japan-trip/
-  title: Japan Trip!
-- pageviews: 49
   path: /2025/07/20/door-wide-ai/
   title: 'Door Wide AI: The 64 Million Users McDonald''s Left Behind'
 - pageviews: 34
@@ -30,3 +27,6 @@ posts:
 - pageviews: 33
   path: /2024/12/31/a-year-in-review/
   title: A Year In Review
+- pageviews: 30
+  path: /bookmarks
+  title: bookmarks
