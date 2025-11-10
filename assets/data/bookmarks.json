@@ -1,5 +1,765 @@
 [
   {
+    "date": "2025-11-08",
+    "title": "Strudel REPL #music",
+    "url": "https://strudel.cc/"
+  },
+  {
+    "date": "2025-11-08",
+    "title": "The Definitive Report on the AI PM Market #product-news",
+    "url": "https://www.news.aakashg.com/p/the-state-of-ai-product-management"
+  },
+  {
+    "date": "2025-11-07",
+    "title": "AI without a tokenizer #important #ai-news",
+    "url": "https://x.com/varchasvee_/status/1986811191474401773?s=20"
+  },
+  {
+    "date": "2025-11-07",
+    "title": "Charts of the week (11/7) #finance-news",
+    "url": "https://a16z.substack.com/p/charts-of-the-week-valuations-not"
+  },
+  {
+    "date": "2025-11-07",
+    "title": "CyberSOCEval: Benchmarking LLMs Capabilities for Malware Analysis and Threat Intelligence Reasoning | Research - AI at Meta #security-news",
+    "url": "https://ai.meta.com/research/publications/cybersoceval-benchmarking-llms-capabilities-for-malware-analysis-and-threat-intelligence-reasoning"
+  },
+  {
+    "date": "2025-11-07",
+    "title": "Google Uncovers PROMPTFLUX Malware That Uses Gemini AI to Rewrite Its Code Hourly #security-news",
+    "url": "https://thehackernews.com/2025/11/google-uncovers-promptflux-malware-that.html"
+  },
+  {
+    "date": "2025-11-07",
+    "title": "Windows Internals: Secure Calls - The Bridge Between The NT Kernel and Secure Kernel #security-news",
+    "url": "https://connormcgarr.github.io/secure-calls-and-skbridge"
+  },
+  {
+    "date": "2025-11-06",
+    "title": "AI Security Absorption",
+    "url": "https://www.returnonsecurity.com/p/ai-security-absorption-2023-2025"
+  },
+  {
+    "date": "2025-11-06",
+    "title": "Maths with AI",
+    "url": "https://terrytao.wordpress.com/2025/11/05/mathematical-exploration-and-discovery-at-scale/"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "(514) AI by Hand - YouTube #ai-news",
+    "url": "https://www.youtube.com/@ai-by-hand"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "A Defender's Guide to Privileged Account Monitoring | Google Cloud Blog #security-news",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/privileged-account-monitoring/"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Chaining ffmpeg with a Browser Agent #important #ai-news",
+    "url": "https://100x.bot/a/chaining-ffmpeg-with-browser-agent"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Claude Pirate: Abusing Anthropic's File API For Data Exfiltration ·  Embrace The Red #security-news #ai-news",
+    "url": "https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Cryptography behind electronic passports #security-news",
+    "url": "https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Defeating KASLR by Doing Nothing at All #security-news",
+    "url": "https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Detections as Code in DataDog: How I Built an MVP for a Small Team #security-news #important",
+    "url": "https://www.cyberseccafe.com/p/detections-as-code-in-datadog-how?utm_source=substack&utm_medium=email"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Dot Com Press #security-news #DNS",
+    "url": "https://www.dotcom.press/history-of-domains"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "How I Use Every Claude Code Feature #ai-news",
+    "url": "https://blog.sshh.io/p/how-i-use-every-claude-code-feature"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Is Health Insurance Even Worth It Anymore? (church.substack.com) #digitalhealth-news",
+    "url": "https://news.ycombinator.com/item?id=45798896"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "New prompt injection papers: Agents Rule of Two and The Attacker Moves Second #ai-news",
+    "url": "https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Security Leadership Master Class 1 : Leveling up your leadership #security-news",
+    "url": "https://www.philvenables.com/post/security-leadership-master-class-1-leveling-up-your-leadership"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "The 18 CIS Controls #security-news",
+    "url": "https://www.cisecurity.org/controls/cis-controls-list"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Thread by @DanielMiessler #ai-news",
+    "url": "https://x.com/DanielMiessler/status/1985858236768215120"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Using Ghidra to patch my keyboard's firmware #security-news",
+    "url": "https://packet.delivery/blog/patching-galaxy100-firmware.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "VPNs from Cisco and Citrix Riskiest Products for Ransomware: At-Bay Rankings Report #security-news",
+    "url": "https://www.at-bay.com/press_releases/vpns-cisco-citrix-riskiest-products-ransomware-rankings-report/"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "When to Use Claude Code Skills vs Commands vs Agents #ai-news",
+    "url": "https://danielmiessler.com/blog/when-to-use-skills-vs-commands-vs-agents"
+  },
+  {
+    "date": "2025-11-04",
+    "title": "Grieving family uses AI chatbot to cut hospital bill from $195,000 to $33,000 — family says Claude highlighted duplicative charges, improper coding, and other violations #digitalhealth-news",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/grieving-family-uses-ai-chatbot-to-cut-hospital-bill-from-usd195-000-to-usd33-000-family-says-claude-highlighted-duplicative-charges-improper-coding-and-other-violations"
+  },
+  {
+    "date": "2025-11-03",
+    "title": "A Friendly Tour of Process Memory on Linux #security-news",
+    "url": "https://www.0xkato.xyz/linux-process-memory/"
+  },
+  {
+    "date": "2025-11-03",
+    "title": "Obamacare enrollees get first look at 2026 prices as premiums soar | CNN Politics #digitalhealth-news",
+    "url": "https://www.cnn.com/2025/10/28/politics/obamacare-premiums-increase-2026-coverage"
+  },
+  {
+    "date": "2025-11-03",
+    "title": "Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning #ai-news #research",
+    "url": "https://arxiv.org/abs/2510.25992"
+  },
+  {
+    "date": "2025-11-03",
+    "title": "Thread by @ProfTomYeh #important #ai-news",
+    "url": "https://x.com/ProfTomYeh/status/1985376111782711560"
+  },
+  {
+    "date": "2025-11-01",
+    "title": "Candle Lighters | Fremont Ghost House | Frightful Family Fun! #events",
+    "url": "https://candlelighters.com/"
+  },
+  {
+    "date": "2025-10-31",
+    "title": "CyberSecEval 4 | CyberSecEval 4 #security-news",
+    "url": "https://meta-llama.github.io/PurpleLlama/CyberSecEval/"
+  },
+  {
+    "date": "2025-10-31",
+    "title": "SSH LLM Honeypot caught a real threat actor | AI deception platform #security-news",
+    "url": "https://beelzebub.ai/blog/ssh-llm-honeypot-caught-a-real-threat-actor/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-29",
+    "title": "AD Data Initiative | AlzInsights Prize for ADRD Research #ai-news #problems",
+    "url": "https://www.alzheimersdata.org/alzinsights-prize-for-adrd-research"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Associate of Applied Science - Cancer Registry Management #program-content #digitalhealth-news",
+    "url": "https://online.uc.edu/associate-programs/aas-cancer-registry-management/curriculum/#program-content"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "BALDUR. - Security Consultancy #security-news",
+    "url": "https://baldur.dk/blog/vibecoding-and-the-illusion-of-security.html"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "DeepSeek OCR Excel Blueprint #important #ai-news",
+    "url": "https://www.byhand.ai/p/deepseek-ocr-excel-blueprint"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Digital Health 50: The most promising digital health startups of 2025 - CB Insights Research #digitalhealth-news",
+    "url": "https://www.cbinsights.com/research/report/top-digital-health-startups-2025/"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Find the best public and private Middle Schools across the U.S. for you and your child. #education-news",
+    "url": "https://www.usnews.com/education/k12/middle-school"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Google AI Studio #ai-news",
+    "url": "https://aistudio.google.com/apps"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Mistakes I see engineers making in their code reviews #important #security-news",
+    "url": "https://www.seangoedecke.com/good-code-reviews/"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Report: Amazon to let go of up to 30,000 employees, starting this week #Jobs",
+    "url": "https://siliconangle.com/2025/10/27/report-amazon-let-go-30000-employees-starting-week/"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "The future of the web is the history of YouTube #product-news",
+    "url": "https://a16z.substack.com/p/the-future-of-the-web-is-the-history"
+  },
+  {
+    "date": "2025-10-28",
+    "title": "x402.org #product-news",
+    "url": "https://www.x402.org/"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "A PM's Guide to Evaluating AI Agents #product-news #ai-news",
+    "url": "https://www.productcompass.pm/p/how-to-evaluate-ai-agents-n8n"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Concierge Care for all: What would it look like? – The Health Care Blog #digitalhealth-news",
+    "url": "https://thehealthcareblog.com/blog/2025/10/20/concierge-care-for-all-what-would-it-look-like/"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Dyson Sphere",
+    "url": "https://en.wikipedia.org/wiki/Dyson_sphere"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Lessons From The Medical Error That Orphaned A Cabinet Secretary – The Health Care Blog #digitalhealth-news",
+    "url": "https://thehealthcareblog.com/blog/2025/09/25/lessons-from-the-medical-error-that-orphaned-a-cabinet-secretary/"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Maximizing the Value of Indicators of Compromise and Reimagining Their Role in Modern Detection #security-news",
+    "url": "https://www.magonia.io/blog/maximizing-the-value-of-threat-indicators-and-reimagining-their-role-in-modern-detection/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Open LLM Leaderboard - a Hugging Face Space by open-llm-leaderboard #ai-news",
+    "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "OpenAI Atlas Omnibox Prompt Injection: URLs That Become Jailbreaks #security-news",
+    "url": "https://neuraltrust.ai/blog/openai-atlas-omnibox-prompt-injection"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Surviving the AI Capex Boom #finance-news",
+    "url": "https://www.sparklinecapital.com/post/surviving-the-ai-capex-boom"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Using LLMs as a reverse engineering sidekick #security-news",
+    "url": "https://blog.talosintelligence.com/using-llm-as-a-reverse-engineering-sidekick/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-26",
+    "title": "The Real Time Medical Systems v. PointClickCare Casebook #digitalhealth-news",
+    "url": "https://healthapiguy.substack.com/p/the-real-time-medical-systems-v-pointclickcare"
+  },
+  {
+    "date": "2025-10-24",
+    "title": "2025 RAISE Global Summit #finance-news #vc",
+    "url": "https://events.raiseglobal.co/event/2025RAISEGlobalSummit/Home"
+  },
+  {
+    "date": "2025-10-24",
+    "title": "The Heart of a Teacher: The Power of tREACHING - LEXILE HUB #product-news #teaching",
+    "url": "https://hub.lexile.com/the-heart-of-a-teacher-the-power-of-treaching/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "0x4D31/galah: Galah: An LLM-powered web honeypot. #security-news #important #CIS-53",
+    "url": "https://github.com/0x4D31/galah"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "0xflux/Wyrm: The dragon in the dark. A red team post exploitation framework for testing security controls during red team assessments. #security-news #important",
+    "url": "https://github.com/0xflux/Wyrm"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "AI Gated Loader: Teaching Code to Decide Before It Acts #security-news",
+    "url": "https://specterops.io/blog/2025/10/03/ai-gated-loader-teaching-code-to-decide-before-it-acts/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "AICM Implementation & Auditing Guidelines (Frameworks) #lib13 #security-news #ai-news",
+    "url": "https://cloudsecurityalliance.org/artifacts/aicm-implementation-auditing-guidelines-frameworks"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Claude Skills: Customize AI for your workflows",
+    "url": "https://www.anthropic.com/news/skills"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Claude can now create and use files",
+    "url": "https://www.anthropic.com/news/create-files"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Claude introduces memory for teams at work",
+    "url": "https://www.anthropic.com/news/memory"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Create AI-Powered Apps with Claude Artifacts - No Coding Required",
+    "url": "https://www.anthropic.com/news/build-artifacts"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "HoneyBee: Automating Honeypots for Modern Threat Research | Wiz Blog #CIS-53",
+    "url": "https://www.wiz.io/blog/honeybee-threat-research?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "ICE bought vehicles equipped with fake cell towers to spy on phones #security-news",
+    "url": "https://techcrunch.com/2025/10/07/ice-bought-vehicles-equipped-with-fake-cell-towers-to-spy-on-phones/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "ICE, Secret Service, Navy All Had Access to Flock's Nationwide Network of Cameras #security-news",
+    "url": "https://www.404media.co/ice-secret-service-navy-all-had-access-to-flocks-nationwide-network-of-cameras/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "It Takes Only 250 Documents to Poison Any AI Model #ai-news #security-news #important",
+    "url": "https://www.darkreading.com/application-security/only-250-documents-poison-any-ai-model"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Next.js Security Testing Guide for Bug Hunters and Pentesters #security-news",
+    "url": "https://deepstrike.io/blog/nextjs-security-testing-bug-bounty-guide"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "One Copilot to Rule Them All #digitalhealth-news",
+    "url": "https://healthapiguy.substack.com/p/one-copilot-to-rule-them-all"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Prompt injection to RCE in AI agents #security-news #important",
+    "url": "https://blog.trailofbits.com/2025/10/22/prompt-injection-to-rce-in-ai-agents/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Radio Ready Workshop #music",
+    "url": "https://edmtips.com/radio-ready-workshop-training/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "SSH LLM Honeypot caught a real threat actor | AI deception platform #security-news #important #CIS-53",
+    "url": "https://beelzebub.ai/blog/ssh-llm-honeypot-caught-a-real-threat-actor/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "STAR for AI FAQ #security-news #ai-news",
+    "url": "https://cloudsecurityalliance.org/artifacts/star-for-ai-faq"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Search Job Listings - Director & Fractional #growth",
+    "url": "https://execthread.com/listings?q=all&sort=most%20relevant&locations=&functions=&levels=&companySizes=&size=30&type=&jobTypes=Interim/Contractor&companyTypes=&hasComp=&hasHiringManagers=&title=&notInTitle=&workplaceType=&companyIndustries="
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Security for Agentic AI Applications and Tools | Evo by Snyk",
+    "url": "https://evo.ai.snyk.io/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Startup Security: A Framework From Series B to Series E Funding #product-news",
+    "url": "https://theporkskewer.medium.com/startup-security-a-framework-from-zero-to-100m-arr-6809e74e1b2a"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "State of Cloud Security #CIS-52 #important #security-news",
+    "url": "https://www.datadoghq.com/state-of-cloud-security/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "State of Crypto #product-news #ai-news",
+    "url": "https://stateofcrypto.a16zcrypto.com/"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "TBM 384: Prioritization Starts With Strategic Prioritization #product-news #important",
+    "url": "https://cutlefish.substack.com/p/tbm-384-prioritization-starts-with"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "U.S. and U.K. Take Largest Action Ever Targeting Cybercriminal Networks in Southeast Asia #security-news",
+    "url": "https://home.treasury.gov/news/press-releases/sb0278"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "Unlocking free WiFi on British Airways #security-news",
+    "url": "https://saxrag.com/tech/reversing/2025/06/01/BAWiFi.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-23",
+    "title": "deepseek-ai/DeepSeek-OCR · Hugging Face #ai-news",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR?ref=aisecret.us"
+  },
+  {
+    "date": "2025-10-21",
+    "title": "Adversis #ai-news #security-news",
+    "url": "https://github.com/Adversis?utm_campaign=unsupervised-learning-no-503&utm_medium=referral&utm_source=newsletter.danielmiessler.com"
+  },
+  {
+    "date": "2025-10-21",
+    "title": "Dr. Vasiliki V. Economou, M.D.",
+    "url": "https://www.sutterhealth.org/find-provider/dr-vasiliki-v-economou-1046244459"
+  },
+  {
+    "date": "2025-10-21",
+    "title": "Thread by @karpathy #ai-news",
+    "url": "https://x.com/karpathy/status/1979644538185752935"
+  },
+  {
+    "date": "2025-10-20",
+    "title": "Verily rolls out consumer app for free health guidance, AI agent #digitalhealth-news",
+    "url": "https://www.fiercehealthcare.com/health-tech/verily-rolls-out-consumer-app-free-health-guidance-ai-agent"
+  },
+  {
+    "date": "2025-10-17",
+    "title": "Building Intrusion Detection Honeypots",
+    "url": "https://www.networkdefense.io/library/building-intrusion-detection-honeypots-58155/211924/path/"
+  },
+  {
+    "date": "2025-10-17",
+    "title": "Opportunity Austin – Experience Economic Adrenaline #security-news",
+    "url": "https://opportunityaustin.com/"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "ASML: AI Momentum Sets a Floor for 2026 #finance-news",
+    "url": "https://www.thewolfofharcourtstreet.com/p/asml-ai-momentum-sets-a-floor-for"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "College planning",
+    "url": "https://collegeplanningnet.com/"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "Every Artist Has a Favorite Subject. For Some, That’s Math. #attend",
+    "url": "https://www.nytimes.com/2025/10/10/science/mathematics-art-roelofs.html"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "The Scoir College Network | Scoir",
+    "url": "https://www.scoir.com/"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "Vector Database by Hand ✍️ #ai-news #important",
+    "url": "https://www.byhand.ai/p/14-can-you-calculate-a-vector-database"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "virattt/dexter: An autonomous agent for deep financial research #important",
+    "url": "https://github.com/virattt/dexter"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "Apple now offers $2 million for zero-click RCE vulnerabilities #security-news",
+    "url": "https://www.bleepingcomputer.com/news/security/apple-now-offers-2-million-for-zero-click-rce-vulnerabilities/"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "China Hackers Use Velociraptor IR Tool for Ransomware #security-news",
+    "url": "https://www.darkreading.com/cybersecurity-operations/chinese-hackers-velociraptor-ir-tool-ransomware-attacks"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "Home #awareness",
+    "url": "https://hatsforhopecanada.ca/"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "Prompt AI #ai-news",
+    "url": "https://www.promptai.co/"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "The Succession: What’s Next for Mercado Libre #finance-news",
+    "url": "https://www.thewolfofharcourtstreet.com/p/the-succession-whats-next-for-mercado"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "nanochat #important #ai-news",
+    "url": "https://x.com/karpathy/status/1977755427569111362?s=46"
+  },
+  {
+    "date": "2025-10-13",
+    "title": "Home - AcceptedX",
+    "url": "https://www.acceptedx.com/"
+  },
+  {
+    "date": "2025-10-13",
+    "title": "Summer Session",
+    "url": "https://summer.stanford.edu/"
+  },
+  {
+    "date": "2025-10-13",
+    "title": "The Admission Algorithm",
+    "url": "https://admissionalgorithm.com/about-dr-alex/"
+  },
+  {
+    "date": "2025-10-13",
+    "title": "Young Entrepreneur Network",
+    "url": "https://logolife.org/young-entrepreneur-network"
+  },
+  {
+    "date": "2025-10-12",
+    "title": "Any services like Empowerly for college counseling but better? Or less expensive?",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1hlkqb3/any_services_like_empowerly_for_college/?utm_source=chatgpt.com"
+  },
+  {
+    "date": "2025-10-12",
+    "title": "Claude on vibing #important",
+    "url": "https://blog.fsck.com/2025/10/09/superpowers/"
+  },
+  {
+    "date": "2025-10-12",
+    "title": "Mitchel on Vibing",
+    "url": "https://mitchellh.com/writing/non-trivial-vibing"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "Apple PCC is the future of consumer cloud computing we all deserve #security-news",
+    "url": "https://sensiblesecurity.xyz/p/apple-pcc-is-the-future-of-cloud"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "Broken Authorization in APIs: Introducing Autoswagger #security-news",
+    "url": "https://www.intruder.io/research/broken-authorization-apis-autoswagger"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "Global log of Medical Ai #ai-news",
+    "url": "https://arxiv.org/abs/2510.04033"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "LinkedIn’s engagement is falling by 10% day over day. What would you do? | PM Exercises #product-news",
+    "url": "https://www.productmanagementexercises.com/12844/linkedins-engagement-falling-10%25-day-over-day-what-would-you"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "Nvidia backs $180M round for workflow automation startup n8n #ai-news",
+    "url": "https://siliconangle.com/2025/10/09/nvidia-backs-180m-round-workflow-automation-startup-n8n/?ref=bayarealetters.com"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "SOC 2 is dead, long live SOC 2! #security-news #important",
+    "url": "https://blog.grc.engineering/p/soc-2-is-dead-long-live-soc-2"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "Startup Security: Ratios and a 24-Month Hiring Plan #security-news #important",
+    "url": "https://theporkskewer.medium.com/startup-security-ratios-and-a-24-month-hiring-plan-83792b7491af"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "Upcoming n8n features includes evals, data-tables and more",
+    "url": "https://blog.n8n.io/series-c/"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "self tuning paper #ai-news",
+    "url": "https://x.com/rryssf_/status/1976269613072843063?s=46"
+  },
+  {
+    "date": "2025-10-09",
+    "title": "How Cory Scaled to 36 VAs in 11 Months (With AI & Systems) #ai-news",
+    "url": "https://www.youtube.com/watch?v=PxSa2pTiO1I"
+  },
+  {
+    "date": "2025-10-08",
+    "title": "Docker makes Hardened Images Catalog affordable for small businesses #security-news",
+    "url": "https://www.bleepingcomputer.com/news/security/docker-makes-hardened-images-catalog-affordable-for-small-businesses/"
+  },
+  {
+    "date": "2025-10-08",
+    "title": "Google’s AI bounty program pays bug hunters up to $30K #ai-news #ai-bug-bounty",
+    "url": "https://www.theverge.com/news/793362/google-ai-security-vulnerability-rewards"
+  },
+  {
+    "date": "2025-10-08",
+    "title": "Qualcomm Buys Arduino #product-news",
+    "url": "https://blog.arduino.cc/2025/10/07/a-new-chapter-for-arduino-with-qualcomm-uno-q-and-you/"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "AI isn't replacing radiologists #digitalhealth-news",
+    "url": "https://www.worksinprogress.news/p/why-ai-isnt-replacing-radiologists"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "Amazon.com: When Everyone Knows That Everyone Knows . . .: Common Knowledge and the Mysteries of Money, Power, and Everyday Life (Audible Audio Edition): Steven Pinker, Fred Sanders, Simon & Schuster Audio: Audible Books & Originals #books2read",
+    "url": "https://www.amazon.com/When-Everyone-Knows-That-Knowledge/dp/B0DVH56LGW/"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "Apple shelves Vision Pro overhaul to focus on AI glasses #product-news",
+    "url": "https://techcrunch.com/2025/10/02/apple-shelves-vision-pro-overhaul-to-focus-on-ai-glasses/"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "Hacker-Powered Security Report - 9th Edition #security-news",
+    "url": "https://www.hackerone.com/report/hacker-powered-security"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "How I Block All 26 Million Of Your Curl Requests #security-news #important",
+    "url": "https://foxmoss.com/blog/packet-filtering/"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "IMDS Abused: Hunting Rare Behaviors to Uncover Exploits | Wiz Blog #security-news",
+    "url": "https://www.wiz.io/blog/imds-anomaly-hunting-zero-day"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "MCP Tools: Attack Vectors and Defense Recommendations for Autonomous Agents — Elastic Security Labs #security-news",
+    "url": "https://www.elastic.co/security-labs/mcp-tools-attack-defense-recommendations?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "SPQA: The AI-based Architecture That'll Replace Most Existing Software #security-news",
+    "url": "https://danielmiessler.com/blog/spqa-ai-architecture-replace-existing-software"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "The AI Application Spending Report: Where Startup Dollars Really Go #ai-news",
+    "url": "https://a16z.com/the-ai-application-spending-report-where-startup-dollars-really-go/"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "User fingerprinting with Markov chains #product-news #important",
+    "url": "https://foxmoss.com/blog/markov/"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "Building an AI Coding Agent from Scratch #important #ai-news",
+    "url": "https://elite-ai-assisted-coding.dev/p/building-an-ai-coding-agent-from-scratch"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "CloudFox Workshop: Cloud Enumeration for Penetration Testing #security-news",
+    "url": "https://bishopfox.com/resources/cloudfox-cloud-enumeration-penetration-testing"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "How Naviday Health Is Transforming Menopause Care With AI-Guided Support #digitalhealth-news",
+    "url": "https://www.startuphealth.com/startup-health-blog/how-naviday-health-is-transforming-menopause-care-with-ai-guided-support"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "Newsletter #16 - How The One Big Beautiful Bill Might Make You Millions #16 #finance-news #tax",
+    "url": "https://nikolas-newsletter-241a64.beehiiv.com/p/newsletter-16-how-the-one-big-beautiful-bill-might-make-you-millions"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "Panther | The Security Monitoring Platform for the Cloud #MSSP #SIEM",
+    "url": "https://panther.com/resources/customers"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "Predictable Pricing for SIEM + XDR Solutions | Blumira #MSSP #SIEM",
+    "url": "https://www.blumira.com/pricing"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "Small Biz SIEM #reddit",
+    "url": "https://www.reddit.com/r/cybersecurity/comments/1hyophy/siem_for_small_medium_sized_infra/"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "So You Want to be a SOC Analyst Course",
+    "url": "https://academy.digitaldefenseinstitute.com/courses/eca7ec1f-22dd-4d1f-b473-7a085facb26a/take/whats-next"
+  },
+  {
+    "date": "2025-10-04",
+    "title": "The TikTok Trend of Writing in Margins Is Based on Real Neuroscience #Productivity #finance-news",
+    "url": "https://www.scientificamerican.com/article/go-ahead-write-in-the-margins-its-good-for-your-brain/"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "AI in Healthcare #digitalhealth-news",
+    "url": "https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2?utm_source=www.healthcareaiguy.com&utm_medium=newsletter&utm_campaign=healthcare-ai-guy-weekly-9-30&_bhlid=89031a8dd363249434e5da1902ce22b074f7e100"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "Building an AWS GuardDuty Alert Triage Agent #security-news",
+    "url": "https://dev.to/aws-builders/building-an-aws-guardduty-alert-triage-agent-51e9"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "CISA 2015 cyber threat info-sharing law lapses amid government shutdown #security-news",
+    "url": "https://www.csoonline.com/article/4065998/cisa-2015-cyber-threat-info-sharing-law-lapses-amid-government-shutdown.html"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "CISA Sounds Alarm on Critical Sudo Flaw Actively Exploited in Linux and Unix Systems #security-news",
+    "url": "https://thehackernews.com/2025/09/cisa-sounds-alarm-on-critical-sudo-flaw.html"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "China-linked hackers use ‘BRICKSTORM’ backdoor to steal IP #security-news",
+    "url": "https://therecord.media/china-linked-hackers-brickstorm-backdoor-ip"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "Chrome DevTools (MCP) for your AI agent  |  Blog",
+    "url": "https://developer.chrome.com/blog/chrome-devtools-mcp"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "Hacking with AI SASTs: An overview of ‘AI Security Engineers’ / ‘LLM Security Scanners’ for Penetration Testers and Security Teams #security-news",
+    "url": "https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "How the von Neumann bottleneck is impeding AI computing #ai-news",
+    "url": "https://research.ibm.com/blog/why-von-neumann-architecture-is-impeding-the-power-of-ai-computing"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "Professors Teaching with OpenAI #education #ai-news",
+    "url": "https://academy.openai.com/home/collections/professors-teaching-with-openai-2025-08-18"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "State of Cyber Q3 2025 #security-news",
+    "url": "https://stiennon.substack.com/p/state-of-cyber-q3-2025"
+  },
+  {
+    "date": "2025-10-02",
+    "title": "Wrap Up: The Month of AI Bugs ·  Embrace The Red #security-news",
+    "url": "https://embracethered.com/blog/posts/2025/wrapping-up-month-of-ai-bugs/"
+  },
+  {
     "date": "2025-08-27",
     "title": "A scalable framework from Google for evaluating health language models #ai-news #health-tech",
     "url": "https://research.google/blog/a-scalable-framework-for-evaluating-health-language-models/"
