@@ -1,5 +1,200 @@
 [
   {
+    "date": "2025-11-15",
+    "title": "Details of RLHF #ai-news",
+    "url": "https://huyenchip.com/2023/05/02/rlhf.html"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "(19) Our Members' Favorite Gifts for 2025 | LinkedIn #shopping",
+    "url": "https://www.linkedin.com/pulse/our-members-favorite-gifts-2025-long-angle-8ftic/"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "100 derivatives (in one take) #STEM",
+    "url": "https://www.youtube.com/watch?v=AegzQ_dip8k&list=PLj7p5OoL6vGxHzD48Pu67s9fPsANsRGe0"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "2025 SANS CloudSecNext Summit #security-news",
+    "url": "https://www.youtube.com/playlist?list=PLsfnCRA9QVnQ7qL0tcooDvrrCxzJuw511"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Amazon discovers APT exploiting Cisco and Citrix zero-days #security-news",
+    "url": "https://aws.amazon.com/blogs/security/amazon-discovers-apt-exploiting-cisco-and-citrix-zero-days/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Code Wiki #blog #ai-news",
+    "url": "https://codewiki.google/github.com/stanfordnlp/dspy"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Fantasy VC Portfolio #finance-news #product-news",
+    "url": "https://x.com/nic_detommaso/status/1989112751470571546?s=46"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "GTIG AI Threat Tracker: Advances in Threat Actor Usage of AI Tools | Google Cloud Blog #security-news",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "GitHub flow",
+    "url": "https://docs.github.com/en/get-started/using-github/github-flow"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "How Cloudflare’s client-side security made the npm supply chain attack a non-event #security-news",
+    "url": "https://blog.cloudflare.com/how-cloudflares-client-side-security-made-the-npm-supply-chain-attack-a-non"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "OWASP Top 10 LLM Security Risks with Mitigation #security-news",
+    "url": "https://www.paloaltonetworks.com/resources/infographics/llm-applications-owasp-10"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Read Claude's Use Cases for AI #ai-news",
+    "url": "https://www.claude.com/resources/use-cases"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Real Estate Data",
+    "url": "https://www.reventure.app/map"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Submit to Present #todo #important",
+    "url": "https://www.bsidesseattle.com/submit-to-present.html"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "The-Art-of-Hacking/h4cker: This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more. #security-news",
+    "url": "https://github.com/The-Art-of-Hacking/h4cker"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "WTF is ... - AI-Native SAST? #security-news",
+    "url": "https://parsiya.net/blog/wtf-is-ai-native-sast/"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Weekly CISO Intelligence Briefing: November 6 - 12, 2025 #security-news",
+    "url": "https://newsletter.cybersecurityhq.com/p/ciso-market-intelligence-november-6-12-2025"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "What Keeps me up at Night #security-news",
+    "url": "https://x.com/gregisenberg/status/1984641062527197234?utm_source=tldrsec.com&utm_medium=newsletter&utm_campaign=tl-dr-sec-305-ai-sast-awesome-annual-security-reports-block-risky-dependencies&_bhlid=5bb3cba5c77c00604b04dba02af2bbbf9ae86a56"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "Whats a good Cybersecurity Learning Platform",
+    "url": "https://x.com/TheCyberPatron_/status/1989363980444508339"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "jacobdjwilson/awesome-annual-security-reports: A curated list of annual cyber security reports #security-news",
+    "url": "https://github.com/jacobdjwilson/awesome-annual-security-reports"
+  },
+  {
+    "date": "2025-11-13",
+    "title": "SaaS management free trial & pricing | Trelica #product-news",
+    "url": "https://www.trelica.com/pricing"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "25 crazy software bugs explained #security-news",
+    "url": "https://www.youtube.com/watch?v=Iq_r7IcNmUk&t=1s"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "Early Results on Monitorability in QA Settings #ai-news",
+    "url": "https://metr.org/notes/2025-10-06-early-results-on-monitorability-in-qa-settings/"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "Fantastic Bugs #security-news #education",
+    "url": "https://cylab.cmu.edu/education/course-list/fantastic-bugs.html"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "Gray Swan #ai-news #security-news #important",
+    "url": "https://www.grayswan.ai/"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "NeurIPS Invited Talk Toward Industrial Artificial Intelligence",
+    "url": "https://neurips.cc/virtual/2024/invited-talk/101129"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "Tesla vision system",
+    "url": "https://x.com/aelluswamy/status/1981760576591393203?s=46"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "xLSTM",
+    "url": "https://www.byhand.ai/p/xlstm"
+  },
+  {
+    "date": "2025-11-11",
+    "title": "ATT&CK v18: Detection Strategies, More Adversary Insights, #security-news",
+    "url": "https://medium.com/mitre-attack/attack-v18-8f82d839ee9e"
+  },
+  {
+    "date": "2025-11-11",
+    "title": "Early Warning Honey Tokens: Give Adversaries Options | DeceptIQ #security-news",
+    "url": "https://deceptiq.com/blog/early-warning-honey-tokens"
+  },
+  {
+    "date": "2025-11-11",
+    "title": "FlowViz - Visualize Attack Flows #security-news",
+    "url": "https://www.flowviz.io/"
+  },
+  {
+    "date": "2025-11-11",
+    "title": "Implementing the Etherhiding technique #security-news",
+    "url": "https://medium.com/@onhexgroup/implementing-the-etherhiding-technique-438979758593"
+  },
+  {
+    "date": "2025-11-11",
+    "title": "Linux Containers - Incus - Introduction #security-news",
+    "url": "https://linuxcontainers.org/incus/"
+  },
+  {
+    "date": "2025-11-11",
+    "title": "MITRE ATT&CKcon - ATT&CKcon 6.0 | MITRE ATT&CK® #security-news",
+    "url": "https://attack.mitre.org/resources/attackcon/october-2025/"
+  },
+  {
+    "date": "2025-11-11",
+    "title": "SECFORCE/LLMGoat: This project is a deliberately vulnerable environment to learn about LLM-specific risks based on the OWASP Top 10 for LLM Applications. #security-news #ai-news",
+    "url": "https://github.com/SECFORCE/LLMGoat"
+  },
+  {
+    "date": "2025-11-10",
+    "title": "AI Trust Paradox: Overcome Fear Auto Cyber Remediation #security-news",
+    "url": "https://www.darkreading.com/cybersecurity-operations/ai-trust-paradox-security-teams-fear-automated-remediation"
+  },
+  {
+    "date": "2025-11-10",
+    "title": "Deep Atlas: Learn Applied AI #ai-news",
+    "url": "https://www.deepatlas.ai/syllabus"
+  },
+  {
+    "date": "2025-11-10",
+    "title": "Goblin Workshop",
+    "url": "https://www.goblinworkshop.fun/home"
+  },
+  {
+    "date": "2025-11-10",
+    "title": "Yuktibhāṣā - Wikipedia #science-news",
+    "url": "https://en.wikipedia.org/wiki/Yuktibh%C4%81%E1%B9%A3%C4%81"
+  },
+  {
     "date": "2025-11-08",
     "title": "Strudel REPL #music",
     "url": "https://strudel.cc/"
