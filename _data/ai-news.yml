@@ -1,3 +1,182 @@
+- date: '2025-11-15'
+  news-items:
+  - desc: Claude's comprehensive use case library demonstrating AI applications across
+      industries and workflows.
+    link: https://www.claude.com/resources/use-cases
+  - desc: 'Google Code Wiki: collaborative platform for understanding and navigating
+      the DSPy codebase.'
+    link: https://codewiki.google/github.com/stanfordnlp/dspy
+  - desc: 'LLMGoat: deliberately vulnerable environment for learning OWASP Top 10
+      LLM security risks.'
+    link: https://github.com/SECFORCE/LLMGoat
+  - desc: Chip Huyen's comprehensive technical explanation of Reinforcement Learning
+      from Human Feedback implementation.
+    link: https://huyenchip.com/2023/05/02/rlhf.html
+  - desc: 'Deep Atlas: structured curriculum for learning applied AI from fundamentals
+      to advanced topics.'
+    link: https://www.deepatlas.ai/syllabus
+  - desc: METR's research on AI deception and early results on monitoring AI behavior
+      in question-answering settings.
+    link: https://metr.org/notes/2025-10-06-early-results-on-monitorability-in-qa-settings/
+  - desc: 'Gray Swan: AI security testing arena for evaluating model safety and adversarial
+      robustness.'
+    link: https://www.grayswan.ai/
+  - desc: Prof Tom Yeh's comprehensive thread explaining transformer architecture
+      through hand calculations.
+    link: https://x.com/ProfTomYeh/status/1985376111782711560
+  - desc: Research on supervised reinforcement learning technique enabling smaller
+      models to learn from expert trajectories.
+    link: https://arxiv.org/abs/2510.25992
+  - desc: AI by Hand YouTube channel teaching machine learning concepts through manual
+      calculation tutorials.
+    link: https://www.youtube.com/@ai-by-hand
+  - desc: Daniel Miessler's guidance on using MCPs efficiently by extracting API patterns
+      rather than direct tool calls.
+    link: https://x.com/DanielMiessler/status/1985858236768215120
+  - desc: Strategic guide on when to use Claude Code skills versus commands versus
+      agents for different tasks.
+    link: https://danielmiessler.com/when-to-use-skills-vs-commands-vs-agents
+  - desc: Simon Willison's analysis of new prompt injection research including Agents
+      Rule of Two and Attacker Moves Second papers.
+    link: https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/
+  - desc: Security research exposing data exfiltration techniques abusing Anthropic's
+      Claude file API.
+    link: https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/
+  - desc: Comprehensive guide to leveraging every feature of Claude Code for maximum
+      productivity.
+    link: https://blog.sshh.io/p/how-i-use-every-claude-code-feature
+  - desc: Tutorial on chaining ffmpeg with browser automation agents for video processing
+      workflows.
+    link: https://100x.bot/a/chaining-ffmpeg-with-browser-agent
+  - desc: Experimental approach to building AI models without traditional tokenization
+      for improved efficiency.
+    link: https://x.com/varchasvee_/status/1986811191474401773
+  - desc: Comprehensive overview of AI-powered SAST tools for security teams and penetration
+      testers.
+    link: https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters
+  - desc: Cloud Security Alliance's implementation guidelines for AI Control Matrix
+      frameworks.
+    link: https://cloudsecurityalliance.org/artifacts/aicm-implementation-auditing-guidelines-frameworks
+  - desc: Frequently asked questions about CSA's STAR certification program for AI
+      systems.
+    link: https://cloudsecurityalliance.org/artifacts/star-for-ai-faq
+  - desc: Research demonstrating AI model poisoning achievable with as few as 250
+      malicious documents.
+    link: https://www.darkreading.com/application-security/only-250-documents-poison-any-ai-model
+  - desc: a16z analysis of cryptocurrency and AI technology convergence in the State
+      of Crypto report.
+    link: https://stateofcrypto.a16zcrypto.com/
+  - desc: 'DeepSeek-OCR: Hugging Face model transforming OCR economics by embedding
+      language understanding in vision models.'
+    link: https://huggingface.co/deepseek-ai/DeepSeek-OCR
+  - desc: AlzInsights Prize initiative seeking innovative AI solutions for Alzheimer's
+      disease and related dementias research.
+    link: https://www.alzheimersdata.org/alzinsights-prize-for-adrd-research
+  - desc: ArXiv research paper on universal prompt injection vulnerabilities questioning
+      AI system trustworthiness.
+    link: https://arxiv.org/abs/2412.06090
+  - desc: Unit42 research on indirect prompt injection attacks targeting AI long-term
+      memory systems.
+    link: https://unit42.paloaltonetworks.com/indirect-prompt-injection-poisons-ai-longterm-memory/
+  - desc: Daniel Miessler's thread on empirical tools for studying AI safety and model
+      interpretability.
+    link: https://x.com/danielmiessler/status/1983733795455914166
+  - desc: 'TensorTonic: curated collection of machine learning coding challenges and
+      practice problems.'
+    link: https://www.tensortonic.com/
+  - desc: Technical thread explaining core mathematical principles underlying modern
+      generative AI models.
+    link: https://x.com/jcjesselai/status/1983326034796917094
+  - desc: Apple's Houston-built Private Cloud Compute servers for AI workloads begin
+      shipping to data centers.
+    link: https://www.tomshardware.com/desktops/servers/apples-houston-built-ai-servers-now-shipping
+  - desc: By Hand AI's blueprint for understanding DeepSeek OCR implementation through
+      manual calculation.
+    link: https://www.byhand.ai/p/deepseek-ocr-excel-blueprint
+  - desc: 'Google AI Studio: platform for building and deploying AI-powered applications
+      with custom models.'
+    link: https://aistudio.google.com/apps
+  - desc: Product manager's framework for systematically evaluating AI agent performance
+      using n8n workflows.
+    link: https://www.productcompass.pm/p/how-to-evaluate-ai-agents-n8n
+  - desc: 'Open LLM Leaderboard: Hugging Face''s comprehensive benchmark comparing
+      open-source language models.'
+    link: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+  - desc: 'CHATS-lab verbalized sampling: technique for generating diverse responses
+      with probability distributions from LLMs.'
+    link: https://github.com/CHATS-lab/verbalized-sampling
+  - desc: 'MCP Snitch: security monitoring tool detecting and blocking suspicious
+      AI agent file system access.'
+    link: https://github.com/Adversis/mcp-snitch
+  - desc: Daniel Miessler's Personal AI Infrastructure framework for augmenting human
+      capabilities with AI.
+    link: https://github.com/danielmiessler/Personal_AI_Infrastructure
+  - desc: Andrej Karpathy's comprehensive thread on transformer architecture and attention
+      mechanisms.
+    link: https://x.com/karpathy/status/1979644538185752935
+  - desc: By Hand AI tutorial on manually calculating vector database operations for
+      deep understanding.
+    link: https://www.byhand.ai/p/14-can-you-calculate-a-vector-database
+  - desc: 'Prompt AI: Berkeley AI research lab startup acquired by Apple for on-device
+      AI capabilities.'
+    link: https://www.promptai.co/
+  - desc: 'Andrej Karpathy''s nanochat project: minimal implementation for understanding
+      chatbot architecture.'
+    link: https://x.com/karpathy/status/1977755427569111362
+  - desc: Research paper on self-tuning language models for improved performance without
+      external fine-tuning.
+    link: https://x.com/rryssf_/status/1976269613072843063
+  - desc: Nvidia backs n8n's $180M funding round at $2.5B valuation for AI workflow
+      orchestration platform.
+    link: https://siliconangle.com/2025/10/09/nvidia-backs-180m-round-workflow-automation-startup-n8n/
+  - desc: 'Paper2Agent: automated system converting research papers into functional
+      AI agents.'
+    link: https://x.com/yesterday_work_/status/1976235276344390055
+  - desc: 'Global Log of Medical AI: comprehensive registry tracking medical AI applications
+      and research worldwide.'
+    link: https://arxiv.org/abs/2510.04033
+  - desc: Case study on scaling to 36 virtual assistants in 11 months using AI and
+      systematic operations.
+    link: https://www.youtube.com/watch?v=PxSa2pTiO1I
+  - desc: Google launches AI security vulnerability rewards program paying bug hunters
+      up to $30K per discovery.
+    link: https://www.theverge.com/news/793362/google-ai-security-vulnerability-rewards
+  - desc: a16z report showing AI startups purchase from 50+ different vendors rather
+      than consolidating around few providers.
+    link: https://a16z.com/the-ai-application-spending-report-where-startup-dollars-really-go/
+  - desc: Technical tutorial on building an AI coding agent from scratch with detailed
+      implementation guidance.
+    link: https://elite-ai-assisted-coding.dev/p/building-an-ai-coding-agent-from-scratch
+  - desc: IBM Research analysis of how von Neumann architecture bottlenecks are limiting
+      AI computing performance.
+    link: https://research.ibm.com/blog/why-von-neumann-architecture-is-impeding-the-power-of-ai-computing
+  - desc: OpenAI Academy collection featuring professors sharing experiences teaching
+      with AI tools in classrooms.
+    link: https://academy.openai.com/home/collections/professors-teaching-with-openai-2025-08-18
+  - desc: OpenAI's instant checkout feature enabling purchases directly in ChatGPT
+      with security threat model analysis.
+    link: https://openai.com/index/buy-it-in-chatgpt/
+  - desc: Sharif Shameem's wishlist of 28 AI tools and applications that should exist
+      but haven't been built yet.
+    link: https://sharif.io/28-ideas-2025
+  - desc: 'Obot MCP Gateway: infrastructure enabling secure Model Context Protocol
+      communication for AI agents.'
+    link: https://obot.ai/
+  - desc: Pragmatic Engineer's deep-dive into Claude Code's technical architecture
+      and engineering decisions.
+    link: https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built
+  - desc: CMU research on autonomous LLM-based cyberattacks and their implications
+      for AI safety.
+    link: https://engineering.cmu.edu/news-events/news/2025/07/24-when-llms-autonomously-attack.html
+  - desc: OpenAI research paper analyzing how people actually use ChatGPT across different
+      tasks and industries.
+    link: https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf
+  - desc: Analysis of 7-month LLM capability doubling cycle and failure to grasp exponential
+      AI progress.
+    link: https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/
+  - desc: Instructa AI's curated collection of proven AI prompts for various professional
+      and creative tasks.
+    link: https://www.instructa.ai/ai-prompts
 - date: '2025-09-19'
   news-items:
   - desc: SuperAlign launches end-to-end AI security platform addressing the growing

@@ -1,3 +1,65 @@
+- date: '2025-11-15'
+  news-items:
+  - desc: Concept for building a public fantasy VC portfolio platform enabling users
+      to simulate venture investing.
+    link: https://x.com/nic_detommaso/status/1989112751470571546
+  - desc: Trelica's SaaS management platform offering IT spend visibility and control
+      for organizations.
+    link: https://www.trelica.com/pricing
+  - desc: Comprehensive report on the AI Product Management market trends, skills,
+      and career opportunities.
+    link: https://www.news.aakashg.com/p/the-state-of-ai-product-management
+  - desc: 'UV: modern Python package installer and resolver offering significantly
+      faster dependency management.'
+    link: https://emily.space/posts/251023-uv
+  - desc: Collection of frequently-used utility scripts for common development tasks
+      and workflow automation.
+    link: https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/
+  - desc: Coinbase's x402 protocol enabling standardized cryptocurrency transaction
+      requests across platforms.
+    link: https://www.x402.org/
+  - desc: a16z analysis predicting software industry consolidation toward sustainable
+      monetization models beyond Google dominance.
+    link: https://a16z.substack.com/p/the-future-of-the-web-is-the-history
+  - desc: Product manager's practical guide to evaluating AI agent performance using
+      n8n automation platform.
+    link: https://www.productcompass.pm/p/how-to-evaluate-ai-agents-n8n
+  - desc: Educational framework exploring the transformative power of teaching and
+      reaching students effectively.
+    link: https://hub.lexile.com/the-heart-of-a-teacher-the-power-of-treaching/
+  - desc: Comprehensive security framework for startups from Series B to Series E
+      funding stages.
+    link: https://theporkskewer.medium.com/startup-security-a-framework-from-zero-to-100m-arr-6809e74e1b2a
+  - desc: a16z's State of Crypto report analyzing the convergence of cryptocurrency
+      and artificial intelligence technologies.
+    link: https://stateofcrypto.a16zcrypto.com/
+  - desc: Product management framework for effective prioritization starting with
+      strategic alignment using seven core principles.
+    link: https://cutlefish.substack.com/p/tbm-384-prioritization-starts-with
+  - desc: 'Product management case study: diagnosing and resolving a 10% daily decline
+      in LinkedIn engagement.'
+    link: https://www.productmanagementexercises.com/12844/linkedins-engagement-falling-10%25-day-over-day-what-would-you
+  - desc: Qualcomm's acquisition of Arduino expanding embedded computing capabilities
+      for IoT development.
+    link: https://blog.arduino.cc/2025/10/07/a-new-chapter-for-arduino-with-qualcomm-uno-q-and-you/
+  - desc: Technical exploration of using Markov chains for browser fingerprinting
+      and user identification.
+    link: https://foxmoss.com/blog/markov/
+  - desc: Productivity experiment replacing digital apps with analog notebooks and
+      analyzing the results.
+    link: https://www.youtube.com/watch?v=S_LHZ8bFi_0
+  - desc: Analysis of how product management fundamentals enhance engineering and
+      program management capabilities.
+    link: https://theengineersetlist.substack.com/p/product-management-fundamentals-make
+  - desc: 'Ink: React framework for building interactive and beautiful command-line
+      applications.'
+    link: https://github.com/vadimdemedes/ink
+  - desc: Critical analysis of React's market dominance by default and its impact
+      on frontend innovation.
+    link: https://www.lorenstew.art/blog/react-won-by-default/
+  - desc: Exploration of link graph visualization techniques for knowledge management
+      and content discovery.
+    link: https://andregarzia.com/2025/09/linkgraphs-are-fun.html
 - date: '2025-09-19'
   news-items:
   - desc: Duolingo engineering team shares how AI tools reduced manual regression

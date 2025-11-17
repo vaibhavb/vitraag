@@ -1,3 +1,47 @@
+- date: '2025-11-15'
+  news-items:
+  - desc: Analysis of Obamacare premium increases for 2026 coverage and their impact
+      on enrollees.
+    link: https://www.cnn.com/2025/10/28/politics/obamacare-premiums-increase-2026-coverage
+  - desc: Critical examination of health insurance value proposition in current healthcare
+      marketplace.
+    link: https://news.ycombinator.com/item?id=45798896
+  - desc: University of Cincinnati's online Associate degree program in Cancer Registry
+      Management curriculum.
+    link: https://online.uc.edu/associate-programs/aas-cancer-registry-management/curriculum/
+  - desc: CB Insights Digital Health 50 highlighting the most promising digital health
+      startups of 2025 with focus on AI agents.
+    link: https://www.cbinsights.com/research/report/top-digital-health-startups-2025/
+  - desc: Exploration of implementing concierge care models for broader populations
+      using AI and automation.
+    link: https://thehealthcareblog.com/blog/2025/10/20/concierge-care-for-all-what-would-it-look-like/
+  - desc: Analysis of preventable medical errors and patient safety lessons from a
+      cabinet secretary's tragic loss.
+    link: https://thehealthcareblog.com/blog/2025/09/25/lessons-from-the-medical-error-that-orphaned-a-cabinet-secretary/
+  - desc: Vision for unified copilot architecture integrating AI assistance across
+      healthcare workflows.
+    link: https://healthapiguy.substack.com/p/one-copilot-to-rule-them-all
+  - desc: Ageless Evolution Summit exploring longevity medicine and age-related healthcare
+      innovations.
+    link: https://agelessevolutionsummit.com/
+  - desc: Analysis of why AI models like CheXNet struggle in real-world radiology
+      despite outperforming humans on benchmarks.
+    link: https://www.worksinprogress.news/p/why-ai-isnt-replacing-radiologists
+  - desc: Naviday Health's AI-guided platform transforming menopause care with personalized
+      support.
+    link: https://www.startuphealth.com/startup-health-blog/how-naviday-health-is-transforming-menopause-care-with-ai-guided-support
+  - desc: Joint Commission's comprehensive framework for implementing AI safely and
+      effectively in healthcare settings.
+    link: https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2
+  - desc: Analysis of the rapid growth and strategic importance of Special Needs Plans
+      in Medicare markets.
+    link: https://www.healthcarelabyrinth.com/the-meteoric-growth-of-special-needs-plans-snps/
+  - desc: TIME's ranking of the world's leading healthtech companies for 2025 based
+      on innovation and impact.
+    link: https://time.com/7318020/worlds-top-healthtech-companies-2025/
+  - desc: Forbes analysis of healthcare industry consolidation and the growing influence
+      of intermediary organizations.
+    link: https://www.forbes.com/sites/sachinjain/2023/08/22/the-changing-face-of-healthcare-the-rise-of-the-middlemen/
 - date: '2025-09-19'
   news-items:
   - desc: HL7 Connectathon demonstrates significant progress in conversational interoperability
