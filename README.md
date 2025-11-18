@@ -1,7 +1,11 @@
 # About
 Homepage of Vaibhav Bhandari
 
-# Next Item Todo List [Updated 05/29/2025]
+# Next Item Todo List [Updated 11/18/2025]
+
+## BUG FIXES
+- [ ] The personal.vitraag.com link is broken and not working in nav bar, because link should be https://legacy.vitraag.com/cse/index.html
+
 
 ## High Priority Technical Improvements
 [x] **Remove Unused Build Tools**: Eliminate webpack, babel, and React dependencies since React is only used for a single unused finance component. The webpack bundle.js is only loaded in report.html but no React mount point exists.
