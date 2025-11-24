@@ -1,24 +1,24 @@
-last_updated: '2025-11-23T01:30:40.615232+00:00'
+last_updated: '2025-11-24T01:30:33.388837+00:00'
 posts:
-- pageviews: 1435
+- pageviews: 1439
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 115
+- pageviews: 105
   path: /posts-by-year/
   title: Posts By Year!
-- pageviews: 77
+- pageviews: 76
   path: /2024/02/02/7-powers/
   title: Business Strategy - "7 Powers" by Hamilton Helmer
 - pageviews: 71
   path: /2023/11/27/happy-reliving-a-year-to-live/
   title: Happy Reliving! A Review of Stephen Levine's "A Year to Live"
-- pageviews: 67
+- pageviews: 68
   path: /security-news
   title: Security News
 - pageviews: 66
   path: /2024/12/31/a-year-in-review/
   title: A Year In Review
-- pageviews: 61
+- pageviews: 62
   path: /bookmarks
   title: bookmarks
 - pageviews: 57
@@ -28,5 +28,5 @@ posts:
   path: /2025/07/20/door-wide-ai/
   title: 'Door Wide AI: The 64 Million Users McDonald''s Left Behind'
 - pageviews: 38
-  path: /newsletter/
-  title: The Vitraag Digest
+  path: /index.html
+  title: Vaibhav Bhandari Homepage
