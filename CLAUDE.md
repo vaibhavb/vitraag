@@ -1,5 +1,41 @@
 - For news (security-news, pm-news, finance-news and digitalhealth-news) get the appropriate tagged news from obsidian server and update the news items in \_data directory in YAML format. Do this on a weekly basis.
 
+## Seasonal Theme Switching
+
+### Available Themes
+The website supports four seasonal themes with dedicated color palettes:
+- **Winter** (`theme-winter.scss`) - Cool, frost-inspired colors with Meadow Blue primary
+- **Spring** (`theme-spring.scss`) - Fresh blooms palette
+- **Summer** (`theme-summer.scss`) - Tropical vibes palette
+- **Fall** (`theme-fall.scss`) - Harvest colors palette
+
+### Manual Theme Switching
+
+**Current theme**: Winter (as of 2025-12-22)
+
+**To switch themes manually:**
+1. Edit `assets/sass/mybulma.scss` at line 3
+2. Change the import statement to desired theme:
+   ```scss
+   @use "./theme-winter.scss" as theme;  // Winter
+   @use "./theme-spring.scss" as theme;  // Spring
+   @use "./theme-summer.scss" as theme;  // Summer
+   @use "./theme-fall.scss" as theme;    // Fall
+   ```
+3. Rebuild the site for changes to take effect
+
+### Theme Files Location
+All theme files are located in: `assets/sass/theme-*.scss`
+
+Each theme defines:
+- Primary color palette (primary, info, success, warning, danger, link)
+- Background and text colors
+- Component-specific overrides
+- Border and shadow styles
+
+### Future Enhancement
+Consider implementing automatic seasonal theme switching based on current date or adding UI controls for manual theme selection.
+
 ## Weekly News Update Workflow
 
 ### Command: `update-news`

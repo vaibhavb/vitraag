@@ -21562,35 +21562,35 @@ has-background-danger.is-hoverable:active {
 }
 
 :root {
-  --bulma-primary-h: 174deg;
-  --bulma-primary-s: 72.0720720721%;
-  --bulma-primary-l: 56.4705882353%;
-  --bulma-primary-invert-l: #bf1f2f;
-  --bulma-info-h: 197.4deg;
-  --bulma-info-s: 71.4285714286%;
-  --bulma-info-l: 72.5490196078%;
-  --bulma-info-invert-l: 27.4509803922%;
-  --bulma-success-h: 120deg;
-  --bulma-success-s: 60.7843137255%;
-  --bulma-success-l: 50%;
-  --bulma-success-invert-l: 50%;
-  --bulma-warning-h: 50.5882352941deg;
-  --bulma-warning-s: 100%;
-  --bulma-warning-l: 50%;
-  --bulma-warning-invert-l: 50%;
+  --bulma-primary-h: 167.3684210526deg;
+  --bulma-primary-s: 44.1860465116%;
+  --bulma-primary-l: 66.2745098039%;
+  --bulma-primary-invert-l: #7c3040;
+  --bulma-info-h: 206deg;
+  --bulma-info-s: 100%;
+  --bulma-info-l: 82.3529411765%;
+  --bulma-info-invert-l: 17.6470588235%;
+  --bulma-success-h: 102.6168224299deg;
+  --bulma-success-s: 49.7674418605%;
+  --bulma-success-l: 57.8431372549%;
+  --bulma-success-invert-l: 42.1568627451%;
+  --bulma-warning-h: 42.2641509434deg;
+  --bulma-warning-s: 83.2460732984%;
+  --bulma-warning-l: 62.5490196078%;
+  --bulma-warning-invert-l: 37.4509803922%;
   --bulma-danger-h: 0deg;
   --bulma-danger-s: 100%;
-  --bulma-danger-l: 74.9019607843%;
-  --bulma-danger-invert-l: 25.0980392157%;
-  --bulma-link-h: 32.9411764706deg;
-  --bulma-link-s: 100%;
-  --bulma-link-l: 50%;
-  --bulma-link-invert-l: 50%;
-  --bulma-body-background-color: #FFFEF7;
-  --footer-background: rgb(29.5337837838, 181.9662162162, 166.722972973);
-  --footer-text: #FFFEF7;
-  --footer-link: rgb(178.7142857143, 223.85, 242.2857142857);
-  --footer-link-hover: rgb(222.4285714286, 241.7, 249.5714285714);
+  --bulma-danger-l: 74.7058823529%;
+  --bulma-danger-invert-l: 25.2941176471%;
+  --bulma-link-h: 37.4074074074deg;
+  --bulma-link-s: 88.0434782609%;
+  --bulma-link-l: 63.9215686275%;
+  --bulma-link-invert-l: 36.0784313725%;
+  --bulma-body-background-color: #FDFAF6;
+  --footer-background: rgb(75.8488372093, 185.6511627907, 162.5348837209);
+  --footer-text: #FDFAF6;
+  --footer-link: rgb(216, 238.1, 255);
+  --footer-link-hover: hsl(206, 100%, 102.3529411765%);
 }
 
 a.button.is-link {
@@ -21607,11 +21607,11 @@ a.button.is-link {
 
 body {
   padding-top: 3.25rem;
-  border-top: 0px solid #FFFEF7;
-  border-bottom: 0px solid #FFFEF7;
+  border-top: 0px solid #A5D8FF;
+  border-bottom: 0px solid #A5D8FF;
   border-left: 0;
   border-right: 0;
-  border-image: linear-gradient(to right, #F4A460, #FFFEF7) 1 stretch;
+  border-image: linear-gradient(to right, #FFDBDA, #A5D8FF) 1 stretch;
 }
 
 body, html {

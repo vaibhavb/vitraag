@@ -1,6 +1,6 @@
 @charset "utf-8";
 @use "sass:color";
-@use "./theme-summer.scss" as theme;
+@use "./theme-winter.scss" as theme;
 @use "bulma/bulma";
 
 $border-color: theme.$border-color;
