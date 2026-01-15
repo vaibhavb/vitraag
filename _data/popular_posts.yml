@@ -1,24 +1,24 @@
-last_updated: '2026-01-14T01:30:53.681496+00:00'
+last_updated: '2026-01-15T01:30:39.830487+00:00'
 posts:
-- pageviews: 1637
+- pageviews: 1638
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 123
+- pageviews: 121
   path: /posts-by-year/
   title: Posts By Year!
+- pageviews: 110
+  path: /bookmarks
+  title: bookmarks
 - pageviews: 108
   path: /2024/12/31/a-year-in-review/
   title: A Year In Review
-- pageviews: 105
-  path: /bookmarks
-  title: bookmarks
-- pageviews: 101
+- pageviews: 103
   path: /security-news
   title: Security News
 - pageviews: 94
   path: /recipes/
   title: Recipes
-- pageviews: 91
+- pageviews: 92
   path: /2024/12/05/holiday-hacks/
   title: Holiday Hacks
 - pageviews: 81
