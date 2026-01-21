@@ -1,6 +1,6 @@
-last_updated: '2026-01-20T01:30:37.999619+00:00'
+last_updated: '2026-01-21T01:31:15.525989+00:00'
 posts:
-- pageviews: 1681
+- pageviews: 1684
   path: /
   title: Vaibhav Bhandari Homepage
 - pageviews: 124
@@ -12,7 +12,7 @@ posts:
 - pageviews: 110
   path: /2024/12/31/a-year-in-review/
   title: A Year In Review
-- pageviews: 107
+- pageviews: 108
   path: /security-news
   title: Security News
 - pageviews: 95
@@ -27,6 +27,6 @@ posts:
 - pageviews: 80
   path: /2024/05/20/may-motions-and-mysteries/
   title: May Motions And Mysteries
-- pageviews: 77
-  path: /2024/11/22/ai-healthcare/
-  title: AI Healthcare
+- pageviews: 78
+  path: /newsletter/
+  title: The Vitraag Digest
