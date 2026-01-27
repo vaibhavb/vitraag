@@ -1,340 +1,505 @@
-- date: '2025-11-15'
+- date: '2026-01-16'
   news-items:
-  - desc: Concept for building a public fantasy VC portfolio platform enabling users
-      to simulate venture investing.
-    link: https://x.com/nic_detommaso/status/1989112751470571546
-  - desc: Trelica's SaaS management platform offering IT spend visibility and control
-      for organizations.
+  - desc: The Palantir-ization of everything
+    link: https://www.a16z.news/p/the-palantirization-of-everything
+  - desc: The YouTube Moment for Software is happening What products to build?
+    link: https://www.a16z.news/p/softwares-youtube-moment-is-happening
+- date: '2026-01-14'
+  news-items:
+  - desc: 10 of the coolest tech products we saw at CES 2026 WiFiHaLow technology
+      at CES 2026
+    link: https://www.androidauthority.com/best-tech-products-ces-2026-3629913/
+- date: '2026-01-08'
+  news-items:
+  - desc: Convergent Research Eric Schmidt Non Profit working on world changing problems.
+    link: https://www.convergentresearch.org/
+- date: '2025-12-28'
+  news-items:
+  - desc: Template for Yearly Review — guide for annual review
+    link: https://fs.blog/brain-food/december-28-2025/
+- date: '2025-12-21'
+  news-items:
+  - desc: Investigating the GitHub `safe_sleep.sh` Bash Script Situation. Great video
+      on Bash features >/dev/null 2>&1
+    link: https://www.youtube.com/watch?v=47qrH5JZUUg
+  - desc: Coding patterns
+    link: https://dev.37signals.com/the-rails-delegated-type-pattern/
+- date: '2025-12-20'
+  news-items:
+  - desc: Mapping whats inside human brain with proteins
+    link: https://www.nytimes.com/2025/11/25/science/brain-neuroscience-interoception.html
+- date: '2025-12-15'
+  news-items:
+  - desc: 'Big Ideas 2026: Part 2'
+    link: https://www.a16z.news/p/big-ideas-2026-part-2
+  - desc: 'Big Ideas 2026: Part 3'
+    link: https://www.a16z.news/p/big-ideas-2026-part-3
+  - desc: The Bubble Is Labor Companies only hire people because they can't do all
+      the work themselves.
+    link: https://danielmiessler.com/blog/the-real-bubble-is-human-labor
+  - desc: Building Your Personal AI Infrastructure with Daniel Miessler Use these
+      tool for my personal Claude Skills.
+    link: https://www.youtube.com/watch?v=eT3BYmFk0kg&t=1s
+  - desc: Workout Tracker Vibe Coded Fitbod competition
+    link: https://strengthquest.lovable.app/
+  - desc: TIME's Top 100 Photos of 2025
+    link: https://time.com/7336112/top-100-photos-2025/
+  - desc: All in One Platform for Proxies and Web Scraping like this 2025 conference
+    link: https://brightdata.com/
+  - desc: All in One Platform for Proxies and Web Scraping like this 2025 conference
+    link: https://oxylabs.io/oxycon
+  - desc: Upwelling great model by ink and switch to come-up with new research ideas
+      for software.
+    link: https://www.inkandswitch.com/project/upwelling/
+  - desc: Automerge CRDTs in a product
+    link: https://automerge.org/docs/hello/
+- date: '2025-12-04'
+  news-items:
+  - desc: A case for only CSS Ask AI to use this approach when coding next
+    link: https://www.zolkos.com/2025/12/03/vanilla-css-is-all-you-need
+  - desc: Do you really need tailwindcss? A great way to learn and use modern CSS
+    link: https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/
+  - desc: You've (Likely) Been Playing The Game of Life Wrong Explaining Normal, Lognormal
+      and Powerlaw distribution Sandpile SimulationIsling ModelForest Fire Model
+    link: https://www.youtube.com/watch?v=HBluLfX2F_k
+  - desc: You've (Likely) Been Playing The Game of Life Wrong Explaining Normal, Lognormal
+      and Powerlaw distribution Sandpile SimulationIsling ModelForest Fire Model
+    link: https://www.veritasium.com/simulation3
+  - desc: You've (Likely) Been Playing The Game of Life Wrong Explaining Normal, Lognormal
+      and Powerlaw distribution Sandpile SimulationIsling ModelForest Fire Model
+    link: https://www.veritasium.com/simulation4
+  - desc: You've (Likely) Been Playing The Game of Life Wrong Explaining Normal, Lognormal
+      and Powerlaw distribution Sandpile SimulationIsling ModelForest Fire Model
+    link: https://www.veritasium.com/simulation5
+- date: '2025-12-03'
+  news-items:
+  - desc: Making Software Art for of a book
+    link: https://www.makingsoftware.com/
+- date: '2025-11-30'
+  news-items:
+  - desc: Ideas for AI agents to go build
+    link: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
+  - desc: Dynamic Programming Application of Dynamic programming to economics, finance
+      etal.
+    link: https://dp.quantecon.org/
+  - desc: QuantEcon OpenSource economic modeling - on Markov chains.
+    link: https://quantecon.org/
+- date: '2025-11-23'
+  news-items:
+  - desc: Developing Your Own Font
+    link: https://emilysneddon.com/fran-sans-essay
+- date: '2025-11-21'
+  news-items:
+  - desc: 'Generative UI: A rich, custom, visual interactive user experience for any
+      prompt Generative UI!'
+    link: https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/
+- date: '2025-11-14'
+  news-items:
+  - desc: Fantasy VC Portfolio use this outline to build an app which lets you play
+      being a VC publicly.
+    link: https://x.com/nic_detommaso/status/1989112751470571546?s=46
+- date: '2025-11-13'
+  news-items:
+  - desc: SaaS management free trial & pricing | Trelica IT Spend Management Solution
+      [[data/content/2025/Lib13]]
     link: https://www.trelica.com/pricing
-  - desc: Comprehensive report on the AI Product Management market trends, skills,
-      and career opportunities.
-    link: https://www.news.aakashg.com/p/the-state-of-ai-product-management
-  - desc: 'UV: modern Python package installer and resolver offering significantly
-      faster dependency management.'
-    link: https://emily.space/posts/251023-uv
-  - desc: Collection of frequently-used utility scripts for common development tasks
-      and workflow automation.
-    link: https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/
-  - desc: Coinbase's x402 protocol enabling standardized cryptocurrency transaction
-      requests across platforms.
-    link: https://www.x402.org/
-  - desc: a16z analysis predicting software industry consolidation toward sustainable
-      monetization models beyond Google dominance.
-    link: https://a16z.substack.com/p/the-future-of-the-web-is-the-history
-  - desc: Product manager's practical guide to evaluating AI agent performance using
-      n8n automation platform.
-    link: https://www.productcompass.pm/p/how-to-evaluate-ai-agents-n8n
-  - desc: Educational framework exploring the transformative power of teaching and
-      reaching students effectively.
-    link: https://hub.lexile.com/the-heart-of-a-teacher-the-power-of-treaching/
-  - desc: Comprehensive security framework for startups from Series B to Series E
-      funding stages.
-    link: https://theporkskewer.medium.com/startup-security-a-framework-from-zero-to-100m-arr-6809e74e1b2a
-  - desc: a16z's State of Crypto report analyzing the convergence of cryptocurrency
-      and artificial intelligence technologies.
-    link: https://stateofcrypto.a16zcrypto.com/
-  - desc: Product management framework for effective prioritization starting with
-      strategic alignment using seven core principles.
-    link: https://cutlefish.substack.com/p/tbm-384-prioritization-starts-with
-  - desc: 'Product management case study: diagnosing and resolving a 10% daily decline
-      in LinkedIn engagement.'
-    link: https://www.productmanagementexercises.com/12844/linkedins-engagement-falling-10%25-day-over-day-what-would-you
-  - desc: Qualcomm's acquisition of Arduino expanding embedded computing capabilities
-      for IoT development.
-    link: https://blog.arduino.cc/2025/10/07/a-new-chapter-for-arduino-with-qualcomm-uno-q-and-you/
-  - desc: Technical exploration of using Markov chains for browser fingerprinting
-      and user identification.
-    link: https://foxmoss.com/blog/markov/
-  - desc: Productivity experiment replacing digital apps with analog notebooks and
-      analyzing the results.
-    link: https://www.youtube.com/watch?v=S_LHZ8bFi_0
-  - desc: Analysis of how product management fundamentals enhance engineering and
-      program management capabilities.
-    link: https://theengineersetlist.substack.com/p/product-management-fundamentals-make
-  - desc: 'Ink: React framework for building interactive and beautiful command-line
-      applications.'
-    link: https://github.com/vadimdemedes/ink
-  - desc: Critical analysis of React's market dominance by default and its impact
-      on frontend innovation.
-    link: https://www.lorenstew.art/blog/react-won-by-default/
-  - desc: Exploration of link graph visualization techniques for knowledge management
-      and content discovery.
-    link: https://andregarzia.com/2025/09/linkgraphs-are-fun.html
-- date: '2025-09-19'
+- date: '2025-11-08'
   news-items:
-  - desc: Duolingo engineering team shares how AI tools reduced manual regression
-      testing by 70% while maintaining quality standards in production.
+  - desc: The Definitive Report on the AI PM Market
+    link: https://www.news.aakashg.com/p/the-state-of-ai-product-management
+- date: '2025-10-29'
+  news-items:
+  - desc: UV!
+    link: https://emily.space/posts/251023-uv
+  - desc: model my dot-files after these. Each is great to xargs
+    link: https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/
+- date: '2025-10-28'
+  news-items:
+  - desc: x402.org Coinbase's x402
+    link: https://www.x402.org/
+  - desc: The future of the web is the history of YouTube Will software reach net
+      zero and will Google-zero happen?
+    link: https://a16z.substack.com/p/the-future-of-the-web-is-the-history
+- date: '2025-10-27'
+  news-items:
+  - desc: A PM's Guide to Evaluating AI Agents Using n8n to evaluate AI Agents.
+    link: https://www.productcompass.pm/p/how-to-evaluate-ai-agents-n8n
+- date: '2025-10-24'
+  news-items:
+  - desc: 'The Heart of a Teacher: The Power of tREACHING - LEXILE HUB'
+    link: https://hub.lexile.com/the-heart-of-a-teacher-the-power-of-treaching/
+- date: '2025-10-23'
+  news-items:
+  - desc: 'Startup Security: A Framework From Series B to Series E Funding Startup
+      Security'
+    link: https://theporkskewer.medium.com/startup-security-a-framework-from-zero-to-100m-arr-6809e74e1b2a
+  - desc: State of Crypto Crypto and AI are converging? really?
+    link: https://stateofcrypto.a16zcrypto.com/
+  - desc: 'TBM 384: Prioritization Starts With Strategic Prioritization 7 Powers of
+      Prioritization!'
+    link: https://cutlefish.substack.com/p/tbm-384-prioritization-starts-with
+- date: '2025-10-10'
+  news-items:
+  - desc: LinkedIn’s engagement is falling by 10% day over day. What would you do?
+      | PM Exercises LinkedIn's engagement is falling 10%, what would you do as a
+      product manager?
+    link: https://www.productmanagementexercises.com/12844/linkedins-engagement-falling-10%25-day-over-day-what-would-you
+- date: '2025-10-08'
+  news-items:
+  - desc: Qualcomm Buys Arduino
+    link: https://blog.arduino.cc/2025/10/07/a-new-chapter-for-arduino-with-qualcomm-uno-q-and-you/
+- date: '2025-10-07'
+  news-items:
+  - desc: 'Apple shelves Vision Pro overhaul to focus on AI glasses They''re building
+      two versions: basic iPhone-paired glasses coming 2027, and display-equipped
+      ones to rival Meta''s Ray-Ban Display.'
+    link: https://techcrunch.com/2025/10/02/apple-shelves-vision-pro-overhaul-to-focus-on-ai-glasses/
+  - desc: User fingerprinting with Markov chains
+    link: https://foxmoss.com/blog/markov/
+- date: '2025-10-04'
+  news-items:
+  - desc: The TikTok Trend of Writing in Margins Is Based on Real Neuroscience
+    link: https://www.scientificamerican.com/article/go-ahead-write-in-the-margins-its-good-for-your-brain/
+- date: '2025-09-30'
+  news-items:
+  - desc: She Replaced Her Productivity Apps with 4 Notebooks - Here's What Happened
+    link: https://www.youtube.com/watch?v=S_LHZ8bFi_0
+- date: '2025-09-29'
+  news-items:
+  - desc: Product Management Fundamentals Make Better Engineers and Program Managers
+    link: https://theengineersetlist.substack.com/p/product-management-fundamentals-make
+- date: '2025-09-27'
+  news-items:
+  - desc: 'vadimdemedes/ink: 🌈 React for interactive command-line apps'
+    link: https://github.com/vadimdemedes/ink
+  - desc: React Won by Default – And It's Killing Frontend Innovation
+    link: https://www.lorenstew.art/blog/react-won-by-default/
+  - desc: Linkgraphs are fun • AndreGarzia.com
+    link: https://andregarzia.com/2025/09/linkgraphs-are-fun.html
+- date: '2025-09-18'
+  news-items:
+  - desc: How we reduced manual regression tests by 70% using AI tools
     link: https://blog.duolingo.com/reduced-regression-testing/
-  - desc: O'Reilly Media identifies key technology trends and emerging patterns in
-      AI, cloud computing, data engineering, and software development for September
-      2025.
+- date: '2025-09-09'
+  news-items:
+  - desc: 'Radar Trends to Watch: September 2025 Readable summary'
     link: https://www.oreilly.com/radar/radar-trends-to-watch-september-2025/
-  - desc: Tutorial series demonstrates ray tracing implementation in Rust programming
-      language for computer graphics rendering and 3D visualization.
+- date: '2025-09-06'
+  news-items:
+  - desc: Ray Tracing in One Weekend - in Rust (Part 1) Learning Rust with Peter Shirley's
+      learning RayTracing in one weekend
     link: https://www.youtube.com/watch?v=1ZhIWonhTGM
-  - desc: Practical guide for implementing customer-centric OKRs in product management,
-      providing frameworks for aligning organizational goals with customer value.
+  - desc: Ray Tracing in One Weekend - in Rust (Part 1) Learning Rust with Peter Shirley's
+      learning RayTracing in one weekend
+    link: https://raytracing.github.io/books/RayTracingInOneWeekend.html
+  - desc: 'Amazon.com: Who Does What By How Much?: A Practical Guide to Customer-Centric
+      OKRs eBook : Gothelf, Jeff, Seiden, Josh: Kindle Store'
     link: https://www.amazon.com/Who-Does-What-Much-Customer-Centric-ebook/dp/B0CYDH8R71/
-  - desc: Comprehensive resource on API design principles, best practices, REST architecture,
-      versioning strategies, and user experience considerations.
-    link: https://www.seangoedecke.com/good-api-design/
-  - desc: Peter Thiel's fellowship program offers $100,000 grants to young entrepreneurs
-      pursuing innovative projects outside traditional education paths.
+  - desc: The Cloud 100 Benchmarks Report 2025
+    link: https://www.bvp.com/atlas/the-cloud-100-benchmarks-report
+- date: '2025-09-03'
+  news-items:
+  - desc: Thiel Fellowship
     link: https://thielfellowship.org/
-  - desc: Engineering leader Will Larson shares his 2025 workspace setup, productivity
-      tools, and ergonomic considerations for remote technical work.
+- date: '2025-09-02'
+  news-items:
+  - desc: Everything I know about good API design Is REST the BEST?
+    link: https://www.seangoedecke.com/good-api-design/
+  - desc: My desk setup in 2025.
     link: https://lethain.com/desk-setup-2025/
-  - desc: Educational video explores how classic video game DOOM teaches fundamental
-      computer science concepts often missed in formal education.
+  - desc: How DOOM Will Teach You What CS Degrees Miss Here is the source for DOOM,
+      this a great video on using BSP (Constructing Good Partition Trees) to show
+      3D (with 2.5D) world. The Black book of DOOM and Masters of DOOM
     link: https://www.youtube.com/watch?v=cqL3jvlU61c
+  - desc: How DOOM Will Teach You What CS Degrees Miss Here is the source for DOOM,
+      this a great video on using BSP (Constructing Good Partition Trees) to show
+      3D (with 2.5D) world. The Black book of DOOM and Masters of DOOM
+    link: https://github.com/id-Software/DOOM
+  - desc: How DOOM Will Teach You What CS Degrees Miss Here is the source for DOOM,
+      this a great video on using BSP (Constructing Good Partition Trees) to show
+      3D (with 2.5D) world. The Black book of DOOM and Masters of DOOM
+    link: https://graphicsinterface.org/wp-content/uploads/gi1993-27.pdf
+  - desc: How DOOM Will Teach You What CS Degrees Miss Here is the source for DOOM,
+      this a great video on using BSP (Constructing Good Partition Trees) to show
+      3D (with 2.5D) world. The Black book of DOOM and Masters of DOOM
+    link: https://fabiensanglard.net/gebbdoom/
+  - desc: How DOOM Will Teach You What CS Degrees Miss Here is the source for DOOM,
+      this a great video on using BSP (Constructing Good Partition Trees) to show
+      3D (with 2.5D) world. The Black book of DOOM and Masters of DOOM
+    link: https://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155
 - date: '2025-08-26'
   news-items:
-  - desc: Technical demonstration shows how to create a complete web server using
-      only pure Bash scripting without external networking tools. The tutorial covers
-      socket programming, HTTP protocol implementation, and response handling entirely
-      within shell scripting.
-    link: https://www.youtube.com/watch?v=L967hYylZuc&t=2287s
-  - desc: Travel productivity video demonstrates effective notebook-based organization
-      system that transforms travel planning and experience documentation. The method
-      covers practical techniques for analog capture and organization during trips.
-    link: https://www.youtube.com/watch?v=PaAHkIYF9rY
-  - desc: The Beautiful Mess newsletter discusses strategic priorities for product
-      teams, outlining activities to increase and decrease for better outcomes. The
-      framework helps teams focus effort on high-impact initiatives while eliminating
-      low-value work.
-    link: https://cutlefish.substack.com/p/tbm-273-what-to-do-more-and-less
-  - desc: Analysis identifies Master Builder as the most valuable developer relations
-      role, combining technical expertise with community building skills. The article
-      explains why this hybrid role is increasingly important for developer-focused
-      companies.
-    link: https://dx.tips/master-builder
-  - desc: Forbes article argues that PhD degrees are becoming the new MBA for business
-      leadership, especially in technology and data-driven industries. The analysis
-      covers changing skill requirements and educational trends in executive hiring.
+  - desc: 'Roadmap: AI systems of action Systems of Action vs Systems of Record.'
+    link: https://www.bvp.com/atlas/roadmap-ai-systems-of-action?
+  - desc: Observable Notebooks 2.0 Technology Preview | Observable
+    link: https://observablehq.com/notebook-kit/
+- date: '2025-08-25'
+  news-items:
+  - desc: The PhD is the New MBA
     link: https://www.forbes.com/sites/shivaramrajgopal/2025/08/24/the-phd-is-the-new-mba/
-  - desc: Uber Engineering introduces uReview, a scalable generative AI system for
-      automated code review processes. The platform provides trustworthy code analysis
-      at enterprise scale with integrated feedback mechanisms.
+- date: '2025-08-23'
+  news-items:
+  - desc: Can You Write A Web Server in PURE BASH?! (no socat, no netcat, no external
+      tools)
+    link: https://www.youtube.com/watch?v=L967hYylZuc&t=2287s
+- date: '2025-08-19'
+  news-items:
+  - desc: Using a Notebook (This Way) Changed How I Travel Summer Travel
+    link: https://www.youtube.com/watch?v=PaAHkIYF9rY
+  - desc: 'TBM 273: What To Do More (And Less) Of'
+    link: https://cutlefish.substack.com/p/tbm-273-what-to-do-more-and-less
+  - desc: The Master Builder is the most valuable type of DevRel right now
+    link: https://dx.tips/master-builder
+- date: '2025-08-15'
+  news-items:
+  - desc: 'uReview: Scalable, Trustworthy GenAI for Code Review at Uber GenAI Code
+      Review.'
     link: https://www.uber.com/en-IN/blog/ureview/
-  - desc: ProjectionLab offers comprehensive financial and retirement planning tools
-      with modern interfaces and advanced modeling capabilities. The platform provides
-      sophisticated analysis for personal financial planning and goal tracking.
+  - desc: Modern Financial & Retirement Planning Tools Simulate your life!
     link: https://projectionlab.com/
 - date: '2025-08-14'
   news-items:
-  - desc: Shopify CEO Tobi Lütke shares leadership principles including first principles
-      thinking, infinite games, and maximizing human potential.
+  - desc: 'Tobi Lütke''s leadership playbook: First principles, infinite games, and
+      maximizing human potential . Today is dystopia of tomorrow.'
     link: https://www.youtube.com/watch?v=tq6vdDJQXvs
-  - desc: Curated list of valuable newsletters for product managers and technology
-      professionals to stay informed on industry trends.
+- date: '2025-08-13'
+  news-items:
+  - desc: Newsletters I read - Newsletters to follow.
     link: https://hamatti.org/posts/newsletters-i-read/
-  - desc: Analysis of forward deployed engineers role and why they're becoming increasingly
-      valuable in technology organizations.
+- date: '2025-08-12'
+  news-items:
+  - desc: 5 books that changed my engineering career forever Best Software Books?
+    link: https://newsletter.techworld-with-milan.com/p/5-books-behind-my-growth-as-a-cto
+  - desc: What are Forward Deployed Engineers, and why are they so in demand?
     link: https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers
-- date: '2025-08-03'
+- date: '2025-08-10'
   news-items:
-  - desc: Byrne's Euclid provides a template for product managers to showcase classic
-      literature in modern digital formats.
+  - desc: 'TBM 271: Diagnosing Your Company''s Strategy Problem You needs a strategy
+      but how to think of it? The key issue is situational awareness.'
+    link: https://cutlefish.substack.com/p/tbm-271-diagnosing-your-companys
+  - desc: '🐴 Fusion: Imagine Cursor and Figma have a baby'
+    link: https://designwithai.substack.com/p/fusion-imagine-cursor-and-figma-have-a-baby
+- date: '2025-08-08'
+  news-items:
+  - desc: Issue
+    link: https://pointerio.beehiiv.com/p/issue-639
+- date: '2025-08-07'
+  news-items:
+  - desc: AI is a Floor Raiser, Not a Ceiling Raiser
+    link: https://elroy.bot/blog/2025/07/29/ai-is-a-floor-raiser-not-a-ceiling-raiser.html
+- date: '2025-08-05'
+  news-items:
+  - desc: Leadership co-processing with LLMs
+    link: https://theengineeringmanager.substack.com/p/leadership-co-processing-with-llms
+  - desc: 'jarulraj/periodic-table: A Periodic Table of System Design Principles'
+    link: https://github.com/jarulraj/periodic-table
+- date: '2025-08-01'
+  news-items:
+  - desc: Byrne's Euclid A template for making product which showcases old literature
+      in a new light.
     link: https://c82.net/euclid/
-- date: '2025-07-28'
-  news-items:
-  - desc: NFX releases updated comprehensive go-to-market playbook with enhanced strategies
-      for product launches.
-    link: https://www.nfx.com/post/upgraded-gtm-playbook
-  - desc: Strategic roadmap for product management and AI mastery focused on creating
-      compelling user engagement.
-    link: https://www.joanwestenberg.com/p/how-to-make-people-give-a-damn-92e3af37926932efd
 - date: '2025-07-21'
   news-items:
-  - desc: NFX releases comprehensive upgraded go-to-market playbook featuring modern
-      strategies for product launches and customer acquisition in today's competitive
-      landscape.
+  - desc: 'Free PM MBA: Roadmap to PM & AI Mastery'
+    link: https://www.news.aakashg.com/p/roadmap-to-pm-and-ai-mastery-free
+- date: '2025-07-17'
+  news-items:
+  - desc: The Upgraded Go-to-Market Playbook
     link: https://www.nfx.com/post/upgraded-gtm-playbook
-- date: '2025-07-09'
+- date: '2025-06-30'
   news-items:
-  - desc: John Cutler explores how real work behaves more like a fabric than a cascade,
-      with strategy and feedback moving in all directions rather than following traditional
-      top-down hierarchies.
+  - desc: 'TBM 365: The Problem With Value Hierarchies (Video) Real Work Behaves More
+      Like a Fabric Than a Cascade Work, strategy, and feedback move in all directions—not
+      just top-down'
     link: https://cutlefish.substack.com/p/tbm-365-the-problem-with-value-hierarchies
-  - desc: Alex Ewerlof discusses how Wardley maps serve as GPS for technology decisions
-      and how pace layering helps understand different rates of change in complex
-      systems.
-    link: https://blog.alexewerlof.com/p/wardley-maps-and-pace-layering-for?_bhlid=ed6f0b480d615bc24f81f9c878f80f4784e75491
-  - desc: Martin Fowler examines the concept of expert generalists and their unique
-      value in bridging specialized knowledge across different domains.
-    link: https://martinfowler.com/articles/expert-generalist.html?&aid=rec6zLGCmWGqATFA4&_bhlid=dff37b3d2021d2b59df1dc8ea918bccf3a2047fe
-  - desc: An interactive visualization tool that maps GitHub repositories and their
-      relationships, providing insights into the open source ecosystem.
-    link: https://anvaka.github.io/map-of-github/#2/0/0
-  - desc: A guide on building strong professional relationships with senior leaders
-      through small, consistent, and genuine 'micro-impressions' rather than grand
-      gestures.
-    link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
-  - desc: Product Compass explores the evolving role of AI Product Managers and discusses
-      how product success is attributed to team effort while failures often fall on
-      the PM.
-    link: https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email
-  - desc: Miqdad Jaffer from OpenAI shares a comprehensive AI PRD template with key
-      questions and frameworks for building AI products effectively.
-    link: https://www.productcompass.pm/p/ai-prd-template
-- date: '2025-06-12'
+- date: '2025-06-20'
   news-items:
-  - desc: 'What Successful Product Organizations Have in Common: Emphasizes that ''doing
-      the work'' is a real superpower.'
-    link: https://www.petra-wille.com/blog/what-successful-product-organizations-have-in-common
-  - desc: 'Treat your company as a product: Focuses on treating aspects like meetings
-      as products, highlighting the importance of being result-oriented.'
-    link: https://members.outcomeedge.com/p/treat-your-company-as-a-product
-  - desc: 'Designing Frameworks with Clarity: Explores the art of framework design,
-      encouraging personal framework creation.'
-    link: https://www.franziskabeeler.com/post/designing-frameworks-with-clarity
-  - desc: Intelligence on Earth Evolved Independently at Least Twice.
+  - desc: Wardley maps GPS of Tech, Pace layering — rate of change
+    link: https://blog.alexewerlof.com/p/wardley-maps-and-pace-layering-for?_bhlid=ed6f0b480d615bc24f81f9c878f80f4784e75491
+  - desc: world of expert generalist — message on LinkedIn
+    link: https://martinfowler.com/articles/expert-generalist.html?&aid=rec6zLGCmWGqATFA4&_bhlid=dff37b3d2021d2b59df1dc8ea918bccf3a2047fe
+- date: '2025-06-19'
+  news-items:
+  - desc: Map of GitHub
+    link: https://anvaka.github.io/map-of-github/#2/0/0
+- date: '2025-06-04'
+  news-items:
+  - desc: 'The Art of the Micro-Impression: Forging Genuine Rapport with Senior Leaders
+      Building strong professional relationships with senior leaders is achieved through
+      small, consistent, and genuine "micro-impressions" rather than grand gestures.
+      It offers practical strategies such as asking unique, well-researched questions
+      and effectively managing interaction loops to make these brief encounters meaningful
+      and memorable.'
+    link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
+- date: '2025-06-03'
+  news-items:
+  - desc: WTF is an AI Product Manager? We often say that when the product fails,
+      it's the Product Manager's fault. But when it succeeds, it's thanks to the team
+      effort
+    link: https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email
+  - desc: A Proven AI PRD Template by Miqdad Jaffer (Product Lead @ OpenAI) An Amazing
+      AI PRD Template with key questions and answers.
+    link: https://www.productcompass.pm/p/ai-prd-template
+- date: '2025-05-30'
+  news-items:
+  - desc: Link
+    link: https://gopractice.io/course/ml/
+- date: '2025-05-19'
+  news-items:
+  - desc: How to Write a Product Strategy in 1 Day / 1 Week / 1 Month
+    link: https://www.news.aakashg.com/p/strategy-in-1-day-week-month
+  - desc: Your Guide to AI Product Strategy
+    link: https://www.news.aakashg.com/p/ai-product-strategy
+- date: '2025-05-13'
+  news-items:
+  - desc: Intelligence on Earth Evolved Independently at Least Twice
     link: https://www.wired.com/story/intelligence-evolved-at-least-twice-in-vertebrate-animals/
-  - desc: 'The #1 AI Copilot for Product Managers.'
+  - desc: The AI Copilot for Product Managers
     link: https://www.chatprd.ai/
-  - desc: 'AI Junior PM: A pitch deck illustrating an AI product management startup.'
+  - desc: AI Junior PM pitch deck illustrated
     link: https://www.businessinsider.com/pitch-deck-ai-product-management-startup-thriveai-preseed-round-2025-5
   - desc: 'The effect of ChatGPT on students’ learning performance, learning perception,
-      and higher-order thinking: A meta-analysis suggesting AI is a multiplier, enhancing
-      good outcomes and worsening bad ones.'
+      and higher-order thinking: insights from a meta-analysis - Humanities and Social
+      Sciences Communications - AI is a multiplier. Worse - worsens, Good - greatifies.'
     link: https://www.nature.com/articles/s41599-025-04787-y
-  - desc: How to Write a Product Strategy in 1 Day / 1 Week / 1 Month.
-    link: https://www.news.aakashg.com/p/strategy-in-1-day-week-month
-  - desc: Your Guide to AI Product Strategy.
-    link: https://www.news.aakashg.com/p/ai-product-strategy
-  - desc: 'WTF is an AI Product Manager?: Discusses the responsibility of Product
-      Managers for product failures and team effort for successes.'
-    link: https://www.productcompass.pm/p/what-is-an-ai-product-manager?utm_source=substack&utm_medium=email
-  - desc: 'A Proven AI PRD Template by Miqdad Jaffer (Product Lead @ OpenAI): An excellent
-      AI Product Requirements Document template with key questions and answers.'
-    link: https://www.productcompass.pm/p/ai-prd-template
-  - desc: 'The Art of the Micro-Impression: Forging Genuine Rapport with Senior Leaders:
-      Highlights building professional relationships through small, consistent ''micro-impressions''
-      with practical strategies.'
-    link: https://alifeengineered.substack.com/p/the-art-of-the-micro-impression-forging
-- date: '2025-05-05'
+- date: '2025-05-08'
   news-items:
+  - desc: What Successful Product Organizations Have in Common Doing the work is real
+      superpower
+    link: https://www.petra-wille.com/blog/what-successful-product-organizations-have-in-common
+  - desc: Treat your company as a product The article doesnt talk much about company
+      as product but does mention meeting as a product. Being result oriented helps!
+    link: https://members.outcomeedge.com/p/treat-your-company-as-a-product
+  - desc: Designing Frameworks with Clarity The art of framework design -- you can
+      design your own framework as well!
+    link: https://www.franziskabeeler.com/post/designing-frameworks-with-clarity
+- date: '2025-05-02'
+  news-items:
+  - desc: 🛠️ How to Turn Company OKRs into Product OKRs
+    link: https://newsletter.herbig.co/posts/307?ck_subscriber_id=3048755342&utm_source=convertkit&utm_medium=email&utm_campaign=The%20Missing%20Link%20Between%20North%20Star%20Metrics%20and%20Revenue%20-%2017472807
+  - desc: (3) How to Use GenAI with OKRs (Without Letting It Think for You) | LinkedIn
+    link: https://www.linkedin.com/pulse/how-use-genai-okrs-without-letting-think-you-christina-wodtke-bwbac/
+  - desc: 'FAQ: OKR Not Working in My Company'
+    link: https://itamargilad.com/okr-faq/?ck_subscriber_id=3048755342&utm_source=convertkit&utm_medium=email&utm_campaign=The%20Missing%20Link%20Between%20North%20Star%20Metrics%20and%20Revenue%20-%2017472807
+- date: '2025-04-25'
+  news-items:
+  - desc: 'Shape Up: Stop Running in Circles and Ship Work that Matters'
+    link: https://basecamp.com/shapeup
   - desc: Product Discovery with Internal Customers - All Things Product with Teresa
       & Petra
     link: https://www.youtube.com/watch?v=l3TBt1DacVY
-  - desc: How to Turn Company OKRs into Product OKRs
-    link: https://newsletter.herbig.co/posts/307?ck_subscriber_id=3048755342
-  - desc: How to Use GenAI with OKRs (Without Letting It Think for You) | LinkedIn
-    link: https://www.linkedin.com/pulse/how-use-genai-okrs-without-letting-think-you-christina-wodtke-bwbac/
-  - desc: 'FAQ: OKR Not Working in My Company'
-    link: https://itamargilad.com/okr-faq/?ck_subscriber_id=3048755342
-- date: '2025-04-24'
+- date: '2025-04-21'
   news-items:
-  - desc: Strategy Mapping with Simon Wardley - Define Tomorrow 2018 Sent link to
-      lunchclub
-    link: https://www.youtube.com/watch?v=JMlFv2Sod54
+  - desc: Link
+    link: https://open.substack.com/pub/cutlefish/p/tbm-352-funding-planning-and-context?r=1xgaxy&utm_medium=ios
+  - desc: Link
+    link: https://www.subbu.org/articles/2024/twenty-tiny-leadership-lessons/?&aid=recYrsFRhUO7HOwP7&_bhlid=037ced93c6e50ae562bf213d6f93abcbd59c12b4
+- date: '2025-04-17'
+  news-items:
+  - desc: Why Your Child Can’t Stop Using That App (A Game Designer’s Warning)
+    link: https://medium.com/design-bootcamp/why-your-child-cant-stop-using-that-app-a-game-designer-s-warning-f5116c06e0b9
+- date: '2025-04-15'
+  news-items:
+  - desc: AI Agent to create and send newsletters A good use case for building this
+      in Gensh -- its has capabilities of actions, integrations, context and services.
+      Gensh can perhaps use a similar terminology. [[05.Q1 Gensh]]
+    link: https://www.reddit.com/r/aiagents/comments/1jwunte/i_built_an_ai_agent_that_creates_and_sends
+- date: '2025-04-11'
+  news-items:
+  - desc: why user's dont care about product strategy? Sushi Pizza syndrome
+    link: https://newsletter.herbig.co/posts/358
+- date: '2025-04-08'
+  news-items:
+  - desc: Activation, retention, and abandonment funnel analysis — Reforge
+    link: https://www.reforge.com/artifacts/activation-retention-and-abandonment-funnel-analysis
+- date: '2025-04-07'
+  news-items:
+  - desc: Y-Combinator backed French startup Parallel raises $3.5M for AI healthcare
+      agent Parallel’s AI agent reads clinical documentation, identifies the appropriate
+      codes, and inputs them directly into hospital systems. This enables hospitals
+      to streamline operations while improving accuracy and freeing up medical staff
+      for more valuable work.
+    link: https://tech.eu/2025/04/03/y-combinator-backed-french-startup-parallel-raises-35m-for-ai-healthcare-agent/
+  - desc: What to Do Take care of people and the world, and make good new things!
+      Be like Archimedes, Cicero, Raymond Chandler -- good new science or art. Make
+      amazing things like Newton did, even if its doesn't have any immediate practical
+      effect. .
+    link: https://www.paulgraham.com/do.html
+- date: '2025-04-03'
+  news-items:
+  - desc: Isomorphic Labs, Google’s A.I. Drug Business, Raises $600 Million Drug Discovery
+      and Cursor raising $105 million
+    link: https://www.nytimes.com/2025/03/31/business/dealbook/isomorphic-google-thrive-investment.html
+  - desc: Isomorphic Labs, Google’s A.I. Drug Business, Raises $600 Million Drug Discovery
+      and Cursor raising $105 million
+    link: https://www.nytimes.com/2025/01/14/business/dealbook/anysphere-cursor-25-billion-valuation.html
+  - desc: Taxo - Automate Healthcare Administration Fastest and most accurate data
+      extraction for healthcare, raises $5million from YC.
+    link: https://www.taxo.ai/
+  - desc: The Security Research Product Function [[06.Q2 CIS-60]]
+    link: https://www.detectionengineering.net/p/the-security-research-product-function-e18
+- date: '2025-04-02'
+  news-items:
+  - desc: How can engineers and PMs collaborate effectively?
+    link: https://newsletter.eng-leadership.com/p/how-can-engineers-and-pms-collaborate?
+- date: '2025-03-28'
+  news-items:
+  - desc: 'Moving To Higher Ground: Product Management In The Age of AI'
+    link: https://www.reforge.com/blog/ai-impact-product-management
+  - desc: Uizard Autodesigner 2.0 | AI UI Design Generator | Uizard Design with AI
+    link: https://uizard.io/autodesigner/
+- date: '2025-03-27'
+  news-items:
+  - desc: OpenAI.fm
+    link: https://www.openai.fm/
+  - desc: Sword Health, the Hinge Health S1, and me – The Health Care Blog
+    link: https://thehealthcareblog.com/blog/2025/03/21/sword-health-the-hinge-health-s1-and-me/
+- date: '2025-03-18'
+  news-items:
   - desc: Which companies produce the best product managers
     link: https://www.lennysnewsletter.com/p/which-companies-produce-the-best
   - desc: Which companies accelerate PM careers most
     link: https://www.lennysnewsletter.com/p/which-companies-accelerate-your-pm
-  - desc: OpenAI.fm
-    link: https://openai.fm/
-  - desc: 'Sword Health, the Hinge Health S1, and me – The Health Care Blog #healthtech'
-    link: https://thehealthcareblog.com/blog/2025/03/21/sword-health-the-hinge-health-s1-and-me/
-  - desc: 'Moving To Higher Ground: Product Management In The Age of AI'
-    link: https://www.mindtheproduct.com/moving-to-higher-ground-product-management-in-the-age-of-ai/
-  - desc: Uizard Autodesigner 2.0 | AI UI Design Generator | Uizard Design with AI
-    link: https://uizard.io/autodesigner/
-  - desc: Isomorphic Labs, Google’s A.I. Drug Business, Raises $600 Million Drug Discovery
-      and Cursor raising $105 million
-    link: https://www.bloomberg.com/news/articles/2021-11-04/google-s-ai-drug-discovery-unit-isomorphic-labs-raises-225m
-  - desc: 'Taxo - Automate Healthcare Administration Fastest and most accurate data
-      extraction for healthcare, raises $5million from YC. #healthtech'
-    link: https://www.ycombinator.com/companies/taxo
-  - desc: How can engineers and PMs collaborate effectively?
-    link: https://www.quora.com/How-can-engineers-and-PMs-collaborate-effectively
-  - desc: Activation, retention, and abandonment funnel analysis — Reforge
-    link: https://www.reforge.com/blog/activation-retention-abandonment-funnel-analysis
-  - desc: Y-Combinator backed French startup Parallel raises $3.5M for AI healthcare
-      agent Parallel’s AI agent reads clinical documentation, identifies the appropriate
-      codes, and inputs them directly into hospital systems.
-    link: https://tech.eu/2024/04/17/parallel-raises-3-5m-for-ai-healthcare-agent/
-  - desc: What to do -- Paul Graham
-    link: https://www.paulgraham.com/do.html
-  - desc: why user's dont care about product strategy? Sushi Pizza syndrome
-    link: https://newsletter.herbig.co/posts/358
-  - desc: AI Agent to create and send newsletters A good use case for building this
-      in Gensh -- its has capabilities of actions, integrations, context and services.
-    link: https://www.reddit.com/r/aiagents/comments/1jwunte/i_built_an_ai_agent_that_creates_and_sends
-  - desc: Why Your Child Can’t Stop Using That App (A Game Designer’s Warning)
-    link: https://medium.com/design-bootcamp/why-your-child-cant-stop-using-that-app-a-game-designer-s-warning-f5116c06e0b9
+- date: '2025-03-17'
+  news-items:
+  - desc: Strategy Mapping with Simon Wardley - Define Tomorrow 2018 Sent link to
+      lunchclub
+    link: https://www.youtube.com/watch?v=JMlFv2Sod54
 - date: '2025-03-13'
   news-items:
-  - desc: A guide to dealing with the five most difficult types of employees, offering
-      practical strategies for managers.
+  - desc: The 5 Most Difficult Employees (And How To Actually Handle Them) Managing
+      people is hard, some tips from the field in this blog.
     link: https://newsletter.canopy.is/p/the-5-most-difficult-employees-and
-  - desc: Latest insights from the product management world, covering trends and best
-      practices.
+  - desc: Link
     link: https://newsletter.herbig.co/posts/354
-  - desc: Jeff Patton explores a new approach to managing backlogs, challenging traditional
-      product development workflows.
+  - desc: Link
     link: https://jpattonassociates.com/the-new-backlog/
-  - desc: Walgreens is considering going private in a $10 billion deal, a major move
-      in the healthcare and retail space.
+- date: '2025-03-11'
+  news-items:
+  - desc: HealthTechNerd Reports - Walgreens Going Private for 10 billion!
     link: https://www.healthtechnerds.com/p/weekly-health-tech-reads-3-9-25
-- date: '2025-03-07'
+- date: '2025-02-26'
   news-items:
-  - desc: AI is proving beneficial in product strategy, helping creators enhance content,
-      streamline workflows, and build audiences.
-    link: https://creatoreconomy.so/p/ai-is-actually-really-good-at-product-strategy
-- date: '2025-02-12'
+  - desc: AI blurring lines between PMs and Engineers - Humanloop insights
+    link: https://humanloop.com/blog/ai-is-blurring-the-lines-between-pms-and-engineers
+- date: '2025-02-25'
   news-items:
-  - desc: HealthCare AI Startups a compilation
-    link: https://x.com/zbruhnke/status/1882252978616521057?mx=2
-  - desc: Google PM Questions
-    link: https://x.com/aakashg0/status/1881431763651620952
-  - desc: How to build trust as an engineering leader. The trust equation -- delegate
+  - desc: How do product strategy?
+    link: https://www.lennysnewsletter.com/p/strategy-blocks-an-operators-guide
+- date: '2025-02-06'
+  news-items:
+  - desc: How to build trust as an engineering leader The trust equation -- delegate
       after active listening!
     link: https://newsletter.eng-leadership.com/p/how-to-build-trust-as-an-engineering
-- date: '2024-12-31'
+- date: '2025-01-22'
   news-items:
-  - desc: An article explores how to rethink decision-making frameworks for prioritizing
-      problems, helping teams focus on impactful and strategic solutions.
-    link: https://www.svpg.com/changing-how-you-decide-which-problems-to-solve/
-  - desc: The Product Leader’s Ultimate Guide offers insights into managing and implementing
-      process changes effectively, with strategies tailored for product managers.
-    link: https://www.news.aakashg.com/p/pm-process-changes
-- date: '2024-12-11'
+  - desc: Thread by @Austen "All of us humans are going to be glorified PMs"
+    link: https://x.com/zbruhnke/status/1882252978616521057
+- date: '2025-01-21'
   news-items:
-  - desc: YC Request for Startups
-    link: https://www.ycombinator.com/rfs
-  - desc: NYTimes VP of Product, Sneha Rao, discusses the journey of evolving from
-      a print-first company to a powerful digital platform.
-    link: https://www.youtube.com/watch?v=AIJjTv37voU
-  - desc: A bold perspective on how product management can be reformed by empowering
-      engineers to take a larger role.
-    link: https://newsletter.posthog.com/p/product-management-is-broken-engineers
-  - desc: Harvard Business Review explores the skills and steps necessary for those
-      considering a career as a product manager.
-    link: https://hbr.org/2024/11/so-you-want-to-be-a-product-manager
-  - desc: Andreessen Horowitz shares key trends and innovations shaping the tech landscape
-      in 2025.
-    link: https://a16z.com/big-ideas-in-tech-2025/
-  - desc: Effort Justification explains the psychology behind consumer decisions and
-      what motivates people to buy.
-    link: https://ckarchive.com/b/38uphkh2668m0u37xxl75f4kz0onns7?utm_source=tldrfounders
-- date: '2024-12-07'
+  - desc: Thread by @aakashg0 Google PM Questions
+    link: https://x.com/aakashg0/status/1881431763651620952
+- date: '2025-01-20'
   news-items:
-  - desc: PM Coaching platform offers new resources for product managers to improve
-      their skills and career growth.
-    link: https://coachpms.com/
-  - desc: Exploration of Product Strategy Stack vs. Decision Stack emphasizes the
-      importance of actionable strategies beyond documentation.
-    link: https://newsletter.herbig.co/posts/344
-  - desc: Tidal and AppLovin eliminate their entire product management teams to adopt
-      leaner, engineering-led approaches.
-    link: https://fortune.com/2024/10/30/jack-dorsey-layoffs-streaming-music-app-tidal-block-leaked-email/
-  - desc: The rise of the Chief Product and Technology Officer (CPTO) role highlights
-      a strategic shift, alongside an 11% decline in product roles.
-    link: https://thebacklog.beehiiv.com/p/the-state-of-product-jobs-report-december-2024
-  - desc: A pre-interview prediction exercise is suggested to uncover deeper insights
-      and improve learning during customer discovery.
-    link: https://www.lennysnewsletter.com/p/finding-your-bullseye-customer-michael-margolis
-  - desc: Bent Flyvbjerg’s 'How Big Things Get Done' advocates for meticulous planning
-      followed by decisive action to reduce risks in project management.
-    link: https://cutlefish.substack.com/p/tbm-325-skeptoptimism-thinking-slow
+  - desc: HealthCare AI Startups
+    link: https://airtable.com/appoTEyxCq0DrWbQl/shrK5kiF7AO6NZacC/tblhpn5STEDWiyndw

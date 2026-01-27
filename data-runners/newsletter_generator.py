@@ -78,31 +78,33 @@ def calculate_top_sources(all_stories):
 
 
 def get_issue_number_for_date(target_date):
-    """Calculate issue number based on existing newsletters in _newsletters/ directory"""
+    """Calculate issue number based on chronological ordering of newsletters.
+
+    If the target date doesn't exist yet, we compute where it would fall in the
+    sorted list and return that 1-indexed position. This avoids incorrect issue
+    numbers when backfilling older newsletters after newer ones already exist.
+    """
     newsletters_dir = Path('../_newsletters')
-    
-    # Get all existing newsletter files
+
     existing_newsletters = []
     if newsletters_dir.exists():
         for file_path in newsletters_dir.glob('*.md'):
-            # Extract date from filename (format: YYYY-MM-DD.md)
             date_str = file_path.stem
             try:
-                # Validate date format and add to list
                 datetime.strptime(date_str, '%Y-%m-%d')
                 existing_newsletters.append(date_str)
             except ValueError:
                 continue
-    
-    # Sort dates chronologically
+
     existing_newsletters.sort()
-    
-    # Check if target date already exists
+
     if target_date in existing_newsletters:
         return existing_newsletters.index(target_date) + 1
-    else:
-        # Return next issue number (total existing + 1)
-        return len(existing_newsletters) + 1
+
+    # Insert target date in sorted order and return its position
+    inserted = existing_newsletters + [target_date]
+    inserted.sort()
+    return inserted.index(target_date) + 1
 
 
 def generate_newsletter(target_date=None, days_back=7, force=False):

@@ -1,296 +1,406 @@
-- date: '2026-01-27'
+- date: '2026-01-21'
   news-items:
   - desc: Posts - Community - Remo Health Consider making a community like this for
       care management.
     link: https://remo.health/app/community
   - desc: Ambience Healthcare AI Scribe Platform has 50 customers
     link: https://www.ambiencehealthcare.com/
-- date: '2025-11-15'
+- date: '2026-01-14'
   news-items:
-  - desc: Analysis of Obamacare premium increases for 2026 coverage and their impact
-      on enrollees.
-    link: https://www.cnn.com/2025/10/28/politics/obamacare-premiums-increase-2026-coverage
-  - desc: Critical examination of health insurance value proposition in current healthcare
-      marketplace.
+  - desc: Lume Health We should just have Standard Time
+    link: https://www.lumehealth.io/science/the-cost-of-daylight-savings-time
+- date: '2026-01-13'
+  news-items:
+  - desc: Comparing OpenAI Health with a bespoke flow by Josh Mandel on youtube
+    link: https://www.youtube.com/watch?v=C1Btp2CLfHo
+- date: '2026-01-02'
+  news-items:
+  - desc: Medical AI intelligence test
+    link: https://bench.arise-ai.org/
+- date: '2025-12-28'
+  news-items:
+  - desc: Caregiving Moonshot - Caregiving moonshot
+    link: https://www.startuphealth.com/startup-health-blog/inside-the-caregiving-moonshot-richard-lui-is-calling-innovators-to-build-for-the-backbone-of-health
+- date: '2025-12-22'
+  news-items:
+  - desc: HealthIT Deregulation Innovation
+    link: https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-astponc-deregulatory-actions-unleash-prosperity
+- date: '2025-12-21'
+  news-items:
+  - desc: Over 300,000 Individuals Impacted by Vitas Hospice Data Breach
+    link: https://www.securityweek.com/over-300000-individuals-impacted-by-vitas-hospice-data-breach/?utm_source=tldrinfosec
+- date: '2025-12-04'
+  news-items:
+  - desc: How It Works v2 HealthCare replacement.
+    link: https://www.joincrowdhealth.com/how-it-works-v2
+  - desc: Why Am I Paying $40,000 for the Birth of My Child? Super true story
+    link: https://aaronstannard.com/40k-baby/
+- date: '2025-12-03'
+  news-items:
+  - desc: AI Healthcare Vision
+    link: https://www.8vc.com/resources/ai-healthcare-vision
+- date: '2025-12-02'
+  news-items:
+  - desc: 'Trilliant Health Delivers on the Promise of Hospital Price Transparency
+      Regulation: Easily Accessible Data chatbot'
+    link: https://www.businesswire.com/news/home/20251118598871/en/Trilliant-Health-Delivers-on-the-Promise-of-Hospital-Price-Transparency-Regulation-Easily-Accessible-Data
+  - desc: 'Trilliant Health Delivers on the Promise of Hospital Price Transparency
+      Regulation: Easily Accessible Data chatbot'
+    link: https://oria.trillianthealth.com/
+- date: '2025-11-24'
+  news-items:
+  - desc: 'Dr. Bot: Why Doctors Can Fail Us―and How AI Could Save Lives: Blease, Charlotte:
+      9780300247145: Amazon.com: Books'
+    link: https://www.amazon.com/Dr-Bot-Doctors-Us_and-Could/dp/0300247141
+  - desc: TELOS like Life advise
+    link: https://x.com/Camp4/status/1992958445885198805
+- date: '2025-11-18'
+  news-items:
+  - desc: How AI is already playing a role at the country's largest for-profit hospital
+      chain HCA is partnering with Google to overhaul the 400,000 weekly nurse shift
+      handoffs by using AI to synthesize charts and reduce one of nursing’s riskiest
+      workflows. It is also working with GE Healthcare on an FDA-submitted model that
+      reads fetal heart monitoring strips in labor and delivery.
+    link: https://www.fiercehealthcare.com/ai-and-machine-learning/ai-already-playing-role-countrys-largest-profit-hospital-chain
+- date: '2025-11-17'
+  news-items:
+  - desc: Marketplaces in the Age of AI good example is counsel -- get free info before
+      talking to a doctor.
+    link: https://www.a16z.news/p/marketplaces-in-the-age-of-ai
+- date: '2025-11-05'
+  news-items:
+  - desc: Is Health Insurance Even Worth It Anymore? (church.substack.com)
     link: https://news.ycombinator.com/item?id=45798896
-  - desc: University of Cincinnati's online Associate degree program in Cancer Registry
-      Management curriculum.
-    link: https://online.uc.edu/associate-programs/aas-cancer-registry-management/curriculum/
-  - desc: CB Insights Digital Health 50 highlighting the most promising digital health
-      startups of 2025 with focus on AI agents.
+- date: '2025-11-04'
+  news-items:
+  - desc: Grieving family uses AI chatbot to cut hospital bill from $195,000 to $33,000
+      — family says Claude highlighted duplicative charges, improper coding, and other
+      violations
+    link: https://www.tomshardware.com/tech-industry/artificial-intelligence/grieving-family-uses-ai-chatbot-to-cut-hospital-bill-from-usd195-000-to-usd33-000-family-says-claude-highlighted-duplicative-charges-improper-coding-and-other-violations
+- date: '2025-11-03'
+  news-items:
+  - desc: Obamacare enrollees get first look at 2026 prices as premiums soar | CNN
+      Politics
+    link: https://www.cnn.com/2025/10/28/politics/obamacare-premiums-increase-2026-coverage
+- date: '2025-10-28'
+  news-items:
+  - desc: Associate of Applied Science - Cancer Registry Management
+    link: https://online.uc.edu/associate-programs/aas-cancer-registry-management/curriculum/#program-content
+  - desc: 'Digital Health 50: The most promising digital health startups of 2025 -
+      CB Insights Research More than 12,000 healthcare leaders gathered in Las Vegas
+      for HLTH 2025, where AI and automation took center stage again, but this year’s
+      focus was on how “agents” are beginning to take action across workflows vs just
+      assisting with them. covered by Healthcareaiguy'
     link: https://www.cbinsights.com/research/report/top-digital-health-startups-2025/
-  - desc: Exploration of implementing concierge care models for broader populations
-      using AI and automation.
+  - desc: 'Digital Health 50: The most promising digital health startups of 2025 -
+      CB Insights Research More than 12,000 healthcare leaders gathered in Las Vegas
+      for HLTH 2025, where AI and automation took center stage again, but this year’s
+      focus was on how “agents” are beginning to take action across workflows vs just
+      assisting with them. covered by Healthcareaiguy'
+    link: https://www.healthcareaiguy.com/p/healthcare-ai-guy-weekly-10-28
+- date: '2025-10-27'
+  news-items:
+  - desc: 'Concierge Care for all: What would it look like? – The Health Care Blog
+      Use this to implement an open source agent for concierge care.'
     link: https://thehealthcareblog.com/blog/2025/10/20/concierge-care-for-all-what-would-it-look-like/
-  - desc: Analysis of preventable medical errors and patient safety lessons from a
-      cabinet secretary's tragic loss.
+  - desc: Lessons From The Medical Error That Orphaned A Cabinet Secretary – The Health
+      Care Blog What was the real patient safety error? Is there a database of these?
     link: https://thehealthcareblog.com/blog/2025/09/25/lessons-from-the-medical-error-that-orphaned-a-cabinet-secretary/
-  - desc: Vision for unified copilot architecture integrating AI assistance across
-      healthcare workflows.
+- date: '2025-10-26'
+  news-items:
+  - desc: The Real Time Medical Systems v. PointClickCare Casebook
+    link: https://healthapiguy.substack.com/p/the-real-time-medical-systems-v-pointclickcare
+- date: '2025-10-23'
+  news-items:
+  - desc: One Copilot to Rule Them All Co-pilot Blocks!
     link: https://healthapiguy.substack.com/p/one-copilot-to-rule-them-all
-  - desc: Ageless Evolution Summit exploring longevity medicine and age-related healthcare
-      innovations.
+- date: '2025-10-20'
+  news-items:
+  - desc: Verily rolls out consumer app for free health guidance, AI agent
+    link: https://www.fiercehealthcare.com/health-tech/verily-rolls-out-consumer-app-free-health-guidance-ai-agent
+- date: '2025-10-07'
+  news-items:
+  - desc: Link
     link: https://agelessevolutionsummit.com/
-  - desc: Analysis of why AI models like CheXNet struggle in real-world radiology
-      despite outperforming humans on benchmarks.
+  - desc: Koda Health, which provides software to help patients plan for future care
+      in case of serious illnesses or injuries, has raised $7 million in Series …
+    link: https://www.kodahealthcare.com/
+  - desc: AI isn't replacing radiologists AI models like CheXNet and those from Annalise.ai
+      or Aidoc can outperform humans on narrow imaging benchmarks, yet they still
+      struggle in real-world hospital settings.
     link: https://www.worksinprogress.news/p/why-ai-isnt-replacing-radiologists
-  - desc: Naviday Health's AI-guided platform transforming menopause care with personalized
-      support.
+- date: '2025-10-04'
+  news-items:
+  - desc: How Naviday Health Is Transforming Menopause Care With AI-Guided Support
     link: https://www.startuphealth.com/startup-health-blog/how-naviday-health-is-transforming-menopause-care-with-ai-guided-support
-  - desc: Joint Commission's comprehensive framework for implementing AI safely and
-      effectively in healthcare settings.
-    link: https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2
-  - desc: Analysis of the rapid growth and strategic importance of Special Needs Plans
-      in Medicare markets.
-    link: https://www.healthcarelabyrinth.com/the-meteoric-growth-of-special-needs-plans-snps/
-  - desc: TIME's ranking of the world's leading healthtech companies for 2025 based
-      on innovation and impact.
+- date: '2025-10-02'
+  news-items:
+  - desc: AI in Healthcare
+    link: https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2?utm_source=www.healthcareaiguy.com&utm_medium=newsletter&utm_campaign=healthcare-ai-guy-weekly-9-30&_bhlid=89031a8dd363249434e5da1902ce22b074f7e100
+- date: '2025-09-29'
+  news-items:
+  - desc: The Meteoric Growth of Special Needs Plans (SNPs)
+    link: https://www.healthcarelabyrinth.com/the-meteoric-growth-of-special-needs-plans-snps/?_bhlid=0f598073612732989495fdae5119bd38568f4964
+- date: '2025-09-27'
+  news-items:
+  - desc: World’s Top HealthTech Companies of 2025
     link: https://time.com/7318020/worlds-top-healthtech-companies-2025/
-  - desc: Forbes analysis of healthcare industry consolidation and the growing influence
-      of intermediary organizations.
+- date: '2025-09-22'
+  news-items:
+  - desc: 'The Changing Face Of Healthcare: The Rise Of The Middlemen'
     link: https://www.forbes.com/sites/sachinjain/2023/08/22/the-changing-face-of-healthcare-the-rise-of-the-middlemen/
-- date: '2025-09-19'
+- date: '2025-09-15'
   news-items:
-  - desc: HL7 Connectathon demonstrates significant progress in conversational interoperability
-      standards for healthcare data exchange and natural system communication.
+  - desc: 'Conversational Interoperability Takes Shape: A Read-Out from the HL7 Connectathon
+      | LinkedIn Conversation Interoperability.'
     link: https://www.linkedin.com/pulse/conversational-interoperability-takes-shape-read-out-from-mandel-md-379fc/
-  - desc: New England Journal of Medicine publishes comprehensive study on acute health
-      effects of coffee consumption among ambulatory adults.
+  - desc: Acute Effects of Coffee Consumption on Health among Ambulatory Adults |
+      NEJM Ask AI to summarize this Trial Design.
     link: https://www.nejm.org/doi/full/10.1056/NEJMoa2204737
-  - desc: Leading neurosurgeon Edward Chang discusses breakthrough approaches in glioblastoma
-      treatment and research for aggressive brain cancer therapy.
+- date: '2025-09-10'
+  news-items:
+  - desc: Glioblastoma - Edward Chang
     link: https://x.com/PeterAttiaMD/status/1965415141123477634
-  - desc: Wall Street Journal investigates how billionaire investors are funding longevity
-      research and life extension technologies to extend human lifespan.
+- date: '2025-09-09'
+  news-items:
+  - desc: The Billionaires Fueling the Quest for Longer Life
     link: https://www.wsj.com/health/wellness/billionaires-longevity-health-04dd205c
-  - desc: Epic Systems launches Comet, a new AI platform designed to predict patient
-      health trajectories and help providers proactively manage care.
+- date: '2025-09-08'
+  news-items:
+  - desc: 'Epic Launches Comet: A New AI Platform to Predict Patient Health Journeys'
     link: https://hitconsultant.net/2025/09/03/epic-launches-comet-a-new-ai-platform-to-predict-patient-health-journeys/
-  - desc: ProPublica investigation reveals lack of transparency in health insurance
-      claim denial rates across the industry, highlighting coverage issues.
+- date: '2025-09-06'
+  news-items:
+  - desc: How Often Do Health Insurers Say No to Patients? No One Knows.
     link: https://www.propublica.org/article/how-often-do-health-insurers-deny-patients-claims
-  - desc: PitchBook releases comprehensive analysis of Q2 2025 healthtech venture
-      capital investment trends, funding patterns, and market dynamics.
+- date: '2025-09-02'
+  news-items:
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
     link: https://pitchbook.com/news/reports/q2-2025-healthtech-vc-trends
-  - desc: OpenAI recruits executives from Instagram and Doximity to spearhead healthcare
-      AI initiatives and develop specialized medical industry solutions.
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://transcarent.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.abridge.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.functionhealth.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.commure.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.uii-ai.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.tennr.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.kakehashi.life/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.coherehealth.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://akidolabs.com/
+  - desc: Q2 2025 Healthtech VC Trends | PitchBook Top companies in 2025 VC deals
+      so far -- Transcarent, Abridge, Function Health, Commure, United Imaging Intelligence,
+      Tennr, Kakehashi, Cohere Health, Akido Labs, Nabla
+    link: https://www.nabla.com/
+  - desc: OpenAI taps Instagram and Doximity execs to lead its next AI healthcare
+      push
     link: https://www.businessinsider.com/openai-taps-doximity-cofounder-to-lead-its-next-healthcare-push-2025-8
-  - desc: London researchers develop AI-powered stethoscope capable of detecting major
-      heart conditions within 15 seconds for revolutionary cardiac screening.
+  - desc: Doctors develop AI stethoscope that can detect major heart conditions in
+      15 seconds Neat Idea.
     link: https://www.theguardian.com/technology/2025/aug/30/doctors-ai-stethoscope-heart-disease-london
-  - desc: ALIGNMT AI secures $6.5M in funding to develop AI governance solutions for
-      healthcare organizations addressing regulatory compliance challenges.
+  - desc: Challenge.gov - Ask [[Pallav]]
+    link: https://www.challenge.gov/?challenge=crushing-fraud-chili-cook-off-competition&tab=overview
+  - desc: ALIGNMT AI Raises $6.5M to Deliver AI Governance for Healthcare
     link: https://hitconsultant.net/2025/08/28/alignmt-ai-raises-6-5m-to-deliver-ai-governance-for-healthcare/
-- date: '2025-08-26'
+- date: '2025-08-25'
   news-items:
-  - desc: Highmark Health partners with Abridge to develop real-time prior authorization
-      systems using artificial intelligence technology. The collaboration aims to
-      streamline healthcare approval processes and reduce administrative delays for
-      patient care.
-    link: https://www.fiercehealthcare.com/health-tech/highmark-health-taps-abridge-build-real-time-prior-authorization-using-ai
-  - desc: A Lancet study reveals that AI assistance actually reduced doctors' cancer
-      detection accuracy when the AI was subsequently removed. The research highlights
-      potential deskilling effects of AI dependency in medical diagnostics.
-    link: https://time.com/7309274/ai-lancet-study-artificial-intelligence-colonoscopy-cancer-detection-medicine-deskilling/
-  - desc: Stedi secures $70 million Series B funding to build the healthcare industry's
-      first AI-enabled clearinghouse for medical transactions. The platform aims to
-      modernize healthcare payment processing and administrative workflows.
-    link: https://www.stedi.com/blog/series-b
-  - desc: Korean researchers develop an AI system that analyzes medical malpractice
-      lawsuits to help healthcare providers identify and avoid common legal pitfalls.
-      The tool provides proactive risk assessment for medical practice management.
-    link: https://www.koreabiomed.com/news/articleView.htm
-  - desc: Citizen Health raises $30 million Series A to build AI-powered patient advocacy
-      platform focused on accelerating rare disease treatments. The company aims to
-      provide personalized support and navigation for complex medical conditions.
-    link: https://www.citizen.health/citizen-health-announces-series-a-funding
-  - desc: STAT News argues that expanding primary care access requires reducing bureaucratic
-      barriers similar to housing reform movements. The article advocates for eliminating
-      regulatory obstacles that prevent new primary care practices from opening.
-    link: https://www.statnews.com/2025/08/11/new-primary-care-practice-bureaucracy-insurance-providers-red-tape/
-  - desc: Rock Health publishes comprehensive roadmap for implementing AI in primary
-      care settings, outlining shared vision and strategic priorities. The Starfield
-      Signal initiative provides framework for healthcare AI adoption and best practices.
-    link: https://rockhealth.com/insights/the-starfield-signal-a-shared-vision-and-roadmap-for-ai-in-primary-care/
-  - desc: Health Tech Nerds interviews Sina Haeri, CEO of Ouma Health, discussing
-      innovative approaches to maternal healthcare delivery models. The conversation
-      covers strategies for improving maternity care accessibility and outcomes.
-    link: https://www.healthtechnerds.com/p/sina-haeri-ceo-of-ouma-health-on-building-a-new-maternity-model
-  - desc: Epic Systems announces major AI feature releases including AI-powered charting,
-      Microsoft Cosmos integration, AI risk prediction, and revenue cycle management
-      tools. The comprehensive AI suite aims to enhance clinical workflows and administrative
-      efficiency.
+  - desc: Epic Unveils Major AI Features
     link: https://www.fiercehealthcare.com/health-tech/epic-unveils-major-ai-features-ai-charting-microsoft-cosmos-ai-risk-prediction-and-rcm
-  - desc: Healthcare blogger chronicles personal investigation into mysterious $34.94
-      lab test charge, revealing complex insurance billing practices. The detailed
-      analysis exposes opacity and inefficiencies in healthcare payment systems.
+  - desc: Hunting down my $34.94 lab test. An journey into the bowels of insurance
+      billing – The Health Care Blog
     link: https://thehealthcareblog.com/blog/2025/08/18/hunting-down-my-34-94-lab-test-an-journey-into-the-bowels-of-insurance-billing/
-  - desc: Analysis examines the quantifiable return on investment of regular exercise,
-      covering health outcomes, productivity gains, and healthcare cost savings. The
-      data-driven approach demonstrates measurable benefits of physical activity programs.
+  - desc: The ROI of exercise Discussion
     link: https://herman.bearblog.dev/exercise/
-  - desc: Tidemark Capital provides comprehensive analysis of healthcare as the ultimate
-      vertical market, examining industry dynamics and investment opportunities. The
-      report covers healthcare's unique characteristics that make it attractive for
-      specialized solutions.
+  - desc: The ROI of exercise Discussion
+    link: https://news.ycombinator.com/item?id=44993692
+- date: '2025-08-19'
+  news-items:
+  - desc: Highmark Health taps Abridge to build 'real-time' prior authorization using
+      AI
+    link: https://www.fiercehealthcare.com/health-tech/highmark-health-taps-abridge-build-real-time-prior-authorization-using-ai
+  - desc: Using AI Made Doctors Worse at Spotting Cancer Without Assistance Idea of
+      actually developing AI who's main goal is skill the humans involved.
+    link: https://time.com/7309274/ai-lancet-study-artificial-intelligence-colonoscopy-cancer-detection-medicine-deskilling/
+  - desc: Announcing Stedi’s $70 million Series B to build the only AI-enabled clearinghouse
+      70m for AI Enabled clearinghouse
+    link: https://www.stedi.com/blog/series-b
+  - desc: AI system summarizes medical lawsuits to help doctors avoid legal pitfalls
+    link: https://www.koreabiomed.com/news/articleView.htm
+  - desc: Citizen Health Raises $30M Series A to Build AI Advocate for Every Patient
+      | Accelerating Rare Disease Cures AI Advocate for Everyone.
+    link: https://www.citizen.health/citizen-health-announces-series-a-funding
+  - desc: If Americans want abundant primary care, health care needs a YIMBY moment
+    link: https://www.statnews.com/2025/08/11/new-primary-care-practice-bureaucracy-insurance-providers-red-tape/
+  - desc: 'The Starfield Signal: A Shared Vision and Roadmap for AI in Primary Care
+      | Rock Health AI In primary care.'
+    link: https://rockhealth.com/insights/the-starfield-signal-a-shared-vision-and-roadmap-for-ai-in-primary-care/
+  - desc: Sina Haeri, CEO of Ouma Health, on building a new maternity model A new
+      maternity model
+    link: https://www.healthtechnerds.com/p/sina-haeri-ceo-of-ouma-health-on-building-a-new-maternity-model
+- date: '2025-08-15'
+  news-items:
+  - desc: Healthcare – The Ultimate Vertical Market (Part 1) | Tidemark
     link: https://www.tidemarkcap.com/vskp-chapter/healthcare-the-ultimate-vertical-market-part-1
-  - desc: Healthcare API expert analyzes the evolving landscape of healthcare SaaS
-      solutions and Epic Systems' strategic positioning. The analysis covers market
-      trends and competitive dynamics in healthcare technology platforms.
+  - desc: The Shape of Healthcare SaaS and Epic’s Strategy
     link: https://healthapiguy.substack.com/p/the-shape-of-healthcare-saas-and
-- date: '2025-08-14'
+- date: '2025-08-12'
   news-items:
-  - desc: Charta Health launches AI-powered chart review platform to streamline medical
-      record analysis and clinical workflows.
+  - desc: 'Charta Health: AI-Powered Chart Review'
     link: https://www.chartahealth.com/
-  - desc: Research explores how large language models transform clinician-patient
-      relationships as a third agent in healthcare delivery.
+  - desc: 'Generative AI as Third Agent: Large Language Models and the Transformation
+      of the Clinician-Patient Relationship'
     link: https://jopm.jmir.org/2025/1/e68146
-  - desc: Bain Capital-backed HeartFlow achieves $2.27 billion valuation in successful
-      Nasdaq debut for cardiac imaging technology.
-    link: https://www.reuters.com/business/healthcare-pharmaceuticals/bain-capital-backed-heartflow-valued-227-billion-solid-nasdaq-debut-2025-08-08/
-  - desc: August Health secures $29 million Series B funding to advance their electronic
-      health record platform for women's healthcare.
-    link: https://pulse2.com/august-health-29-million-series-b-funding-raised-to-advance-her-platform/
-  - desc: Illinois becomes first state to ban AI systems from providing therapy services,
-      establishing regulatory precedent for AI healthcare applications.
-    link: https://www.axios.com/local/chicago/2025/08/06/illinois-ai-therapy-ban-mental-health-regulation
-  - desc: Stanford Medicine develops virtual scientist AI system to accelerate medical
-      research and scientific discovery processes.
-    link: https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html
-- date: '2025-08-03'
+- date: '2025-08-11'
   news-items:
-  - desc: The Momentum AI Healthcare Masterclass provides comprehensive training on
-      implementing AI solutions in healthcare settings.
+  - desc: Bain Capital-backed Heartflow valued at $2.27 billion in solid Nasdaq debut
+    link: https://www.reuters.com/business/healthcare-pharmaceuticals/bain-capital-backed-heartflow-valued-227-billion-solid-nasdaq-debut-2025-08-08/
+  - desc: 'August Health: $29 Million Series B Funding Raised To Advance HER Platform'
+    link: https://pulse2.com/august-health-29-million-series-b-funding-raised-to-advance-her-platform/
+  - desc: Illinois just banned AI from acting like a therapist
+    link: https://www.axios.com/local/chicago/2025/08/06/illinois-ai-therapy-ban-mental-health-regulation
+- date: '2025-08-08'
+  news-items:
+  - desc: Agenda
+    link: https://www.rockhealthsummit.com/agenda
+  - desc: 'July Monthly Review: OpenAI Builds a PHR?'
+    link: https://healthapiguy.substack.com/p/july-monthly-review-openai-builds
+- date: '2025-08-07'
+  news-items:
+  - desc: 'Stanford Medicine: Virtual Scientist AI Research'
+    link: https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html
+- date: '2025-08-05'
+  news-items:
+  - desc: Washington takes on interop (Again)
+    link: https://mailchi.mp/rockhealth/washington-takes-on-interop-again?e=6084365d9f
+  - desc: Sword Health launches new AI agents for payers, providers as it expands
+      beyond MSK care
+    link: https://www.fiercehealthcare.com/ai-and-machine-learning/sword-health-launches-new-ai-assistant-payers-providers-it-expands-beyond
+  - desc: 'Enterprise innovation in action: Sutter Health’s three-lane approach to
+      transforming care | Rock Health'
+    link: https://rockhealth.com/insights/enterprise-innovation-in-action-sutter-healths-three-lane-approach-to-transforming-care/
+  - desc: 'Staqc: Track and Analyze Your Health Data Innovative company'
+    link: https://staqc.com/
+  - desc: Healthcare AI Guy Weekly | 8/5 Sword Health big on AI
+    link: https://www.healthcareaiguy.com/p/healthcare-ai-guy-weekly-8-5?utm_campaign=healthcare-ai-guy-weekly-8-5&utm_medium=newsletter&utm_source=www.healthcareaiguy.com
+- date: '2025-07-30'
+  news-items:
+  - desc: AI in Healthcare Masterclass | Momentum
     link: https://www.themomentum.ai/masterclass
-  - desc: OpenAI partners with Penda Health to develop AI clinical copilot technology
-      for improved patient care in Africa.
+  - desc: Pioneering an AI clinical copilot with Penda Health
     link: https://openai.com/index/ai-clinical-copilot-penda-health/
-  - desc: Charta Health secures $22M Series A funding to advance its AI-powered healthcare
-      operations platform.
+  - desc: Charta Health raises $22M for AI healthcare operations platform
     link: https://www.mobihealthnews.com/news/charta-health-raises-22m-ai-healthcare-operations-platform
 - date: '2025-07-28'
   news-items:
-  - desc: Medical consultation guidance for coronary calcium score CT scan interpretation
-      and clinical applications.
+  - desc: Coronary Calcium Score CT Scan consult | General Medicine
     link: https://generalmedicine.co/s/coronary-calcium-score-ct-scan-consult/300464
-  - desc: Medical AI company Aidoc raises $150 million in funding to expand its radiology
-      AI platform.
+  - desc: Aidoc adds $150M to coffers
     link: https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15751324/aidoc-aidoc-adds-150m-to-coffers
-  - desc: One Biosciences secures €15 million funding to advance its single-cell oncology
-      research platform.
-    link: https://pharmatimes.com/news/one-biosciences-raises-e15-million-to-advance-single-cell-oncology-platform/
-  - desc: HL7 International announces development of new AI standards leveraging FHIR
-      for healthcare interoperability.
-    link: https://www.fiercehealthcare.com/ai-and-machine-learning/hl7-international-develop-standards-ai-leveraging-fhir
-  - desc: SmarterDx shares journey from medical residency program to successful healthcare
-      AI company.
+- date: '2025-07-26'
+  news-items:
+  - desc: From residency to rocketship—how SmarterDx became a healthcare AI success
+      story
     link: https://www.bvp.com/atlas/from-residency-to-rocketship-how-smarterdx-became-a-healthcare-ai-success-story
+- date: '2025-07-25'
+  news-items:
+  - desc: One Biosciences raises €15 million to advance single-cell oncology platform
+    link: https://pharmatimes.com/news/one-biosciences-raises-e15-million-to-advance-single-cell-oncology-platform/
+  - desc: HL7 International to develop standards for AI, leveraging FHIR
+    link: https://www.fiercehealthcare.com/ai-and-machine-learning/hl7-international-develop-standards-ai-leveraging-fhir
 - date: '2025-07-21'
   news-items:
-  - desc: CB Insights releases comprehensive AI readiness analysis ranking the 50
-      largest pharmaceutical companies by market capitalization and their artificial
-      intelligence adoption strategies.
+  - desc: Link
+    link: https://secondopinion.media/p/digital-health-has-a-new-strategy-first-get-in-network-1a9a
+- date: '2025-07-17'
+  news-items:
+  - desc: 'Pharma AI readiness: How the 50 largest companies by market cap stack up
+      - CB Insights Research'
     link: https://www.cbinsights.com/research/ai-readiness-index-pharma-2025/
-  - desc: Google introduces MedGemma, their most capable open-source models specifically
-      designed for health AI development and medical applications.
+  - desc: 'MedGemma: Our most capable open models for health AI development'
     link: https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/
-  - desc: Investment bankers and industry experts identify nine healthcare startups
-      positioned as prime candidates for initial public offerings in the near term.
+  - desc: These are the 9 healthcare startups next in line to go public, according
+      to bankers and investors
     link: https://www.businessinsider.com/healthcare-startups-in-line-go-public-according-to-bankers-2025-7
-  - desc: Healthcare technology builders analyze venture capital-backable total addressable
-      market opportunities in healthtech, examining key challengers and enabling factors.
+  - desc: 'VC-Backable TAM in Healthtech: Challengers and Enablers'
     link: https://healthtechbuilders.substack.com/p/vc-backable-tam-in-healthtech-challengers
-  - desc: Carrot Fertility launches innovative Sprints program specifically targeting
-      the connection between metabolic health and fertility outcomes for comprehensive
-      patient care.
+- date: '2025-07-15'
+  news-items:
+  - desc: One Big Beautiful Bill brings changes for employee benefit plans
+    link: https://global.lockton.com/us/en/news-insights/one-big-beautiful-bill-brings-changes-for-employee-benefit-plans?mc_cid=7251b5ea18&mc_eid=6084365d9f
+  - desc: Carrot Fertility Launches Sprints Program Targeting Metabolic-Fertility
+      Connections | Femtech Insider
     link: https://femtechinsider.com/carrot-fertility-launches-sprints-program-targeting-metabolic-fertility-connections/
 - date: '2025-07-09'
   news-items:
-  - desc: Microsoft unveils pathway to medical superintelligence through AI diagnostic
-      orchestrator, advancing automated clinical decision support systems.
+  - desc: Link
+    link: https://www.fiercehealthcare.com/ai-and-machine-learning/duke-proposes-evaluation-framework-ai-scribes-vc-dollars-pour
+  - desc: Link
+    link: https://x.com/HealthcareAIGuy/status/1941854652519092226
+- date: '2025-07-06'
+  news-items:
+  - desc: Microsoft AI Diagnostic Orchestraitor
     link: https://microsoft.ai/new/the-path-to-medical-superintelligence/
-  - desc: Arine Healthcare secures $30 million in funding to expand AI-powered clinical
-      decision support and medication management platforms.
+  - desc: Arine raises 30m.
     link: https://www.arine.io/
-  - desc: JAMA study demonstrates effectiveness of open-source AI models for radiology
-      image analysis and diagnostic support in clinical settings.
+  - desc: using open source models for radiology
     link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2834943
-  - desc: Healthcare Advisory guide outlines strategies for proving care cost reduction
-      value to payers through data-driven metrics and outcomes measurement.
+  - desc: You’ve figured out a way to reduce care costs. Now, prove it to payers.
     link: https://www.advisory.com/topics/population-health/prove-reduce-care-costs
-  - desc: Amazon reorganizes healthcare business unit following executive departures,
-      signaling strategic shift in digital health approach.
+- date: '2025-06-17'
+  news-items:
+  - desc: Link
     link: https://www.cnbc.com/2025/06/13/amazon-reorganizes-its-health-care-business-after-executive-departures.html
-- date: '2025-06-12'
+  - desc: New AI can improve non-derma’s ability to diagnose skin conditions
+    link: https://www.mobihealthnews.com/news/anz/new-ai-can-improve-non-derma-s-ability-diagnose-skin-conditions
+  - desc: Nabla Raises $70M Series C to Deliver Agentic AI to the Heart of Clinical
+      Workflows, Bringing Total Funding to $120M
+    link: https://www.prnewswire.com/news-releases/nabla-raises-70m-series-c-to-deliver-agentic-ai-to-the-heart-of-clinical-workflows-bringing-total-funding-to-120m-302483646.html
+- date: '2025-06-10'
   news-items:
   - desc: Omada Health shares rise in Nasdaq debut as digital health IPO market reopens
     link: https://www.fiercehealthcare.com/digital-health/omada-health-shares-rise-nasdaq-debut-digital-health-ipo-market-reopens
   - desc: Clinicians can ‘chat’ with medical records through new AI software, ChatEHR
     link: https://med.stanford.edu/news/all-news/2025/06/chatehr.html
-  - desc: 'AI Drug Startup Touts Promising Advance in Treating Lung Disease: Insilico
+  - desc: 'AI Drug Startup Touts Promising Advance in Treating Lung Disease Insilico
       Medicine, has achieved a clinical first: a drug developed using artificial intelligence'
     link: https://www.bloomberg.com/news/articles/2025-06-03/ai-drug-startup-touts-promising-advance-in-treating-lung-disease
-  - desc: 'Exclusive look at Nourish''s new suite of AI tools for patients and providers:
-      Billion Dollar Valuation of Nourish'
+  - desc: Exclusive look at Nourish's new suite of AI tools for patients and providers
+      Billion Dollar Valuation of Nourish
     link: https://www.fiercehealthcare.com/digital-health/exclusive-look-nourishs-latest-suite-ai-tools-patients-providers
-- date: '2025-05-27'
+- date: '2025-06-03'
   news-items:
-  - desc: data from HealthKit
-    link: https://x.com/alexkehr/status/1922042462471958665?s=46
-  - desc: Health AI Developer Foundations
-    link: https://developers.google.com/health-ai-developer-foundations
-  - desc: Databricks
-    link: https://dbc-d28534c6-a138.cloud.databricks.com/ingestion/add?o=3735721368224484
-  - desc: 'SuperDial - Automate Healthcare Phone Calls -- Epic debuts AI assistant
-      for appointment scheduling via text:, Relatient rolls out Dash Voice AI to automate
-      patient scheduling calls, Limbic rolls out voice AI to support behavioral health
-      intake calls:'
-    link: https://www.thesuperbill.com/
-  - desc: Introducing HealthBench Expertise-tailored communication, Responding under
-      uncertainty, Response depth, Global health, Context seeking.
-    link: https://openai.com/index/healthbench/
-  - desc: Requests for Startups Healthcare AI
-    link: https://www.ycombinator.com/rfs
-  - desc: 'OOP Gen AI Hackathon: Official Page for Hackers'
-    link: https://magnificent-methane-496.notion.site/OOP-Gen-AI-Hackathon-Official-Page-for-Hackers-1bad8b31ab4480b2b35ef54e79bc0691
-  - desc: 'ŌURA Redefines Metabolic Health Tracking with Two New AI-Driven Features:
-      Meals and Glucose AI with Oura'
-    link: https://www.businesswire.com/news/home/20250506997981/en/URA-Redefines-Metabolic-Health-Tracking-with-Two-New-AI-Driven-Features-Meals-and-Glucose
-  - desc: 'AI''s Trillion-Dollar Opportunity: Sequoia AI Ascent 2025 Keynote'
-    link: https://www.youtube.com/watch?v=v9JBMnxuPX8
-  - desc: ACS Cancer Patient Navigator Training, and data they receive from a (learner
-      handbook), it doesnt have content but probably can be found. It has Oncology
-      PONT standards.
-    link: https://www.cancer.org/health-care-professionals/resources-for-professionals/patient-navigator-training.html
-  - desc: The only API-first healthcare clearinghouse
-    link: https://portal.stedi.com/app/healthcare/eligibility
-  - desc: 'PhenoML/phenoml_oop_hackathon: hackathon repo'
-    link: https://github.com/PhenoML/phenoml_oop_hackathon
-  - desc: Healthcare Software Development Services | MindK.com
-    link: https://www.mindk.com/industries/healthcare/
-  - desc: PseudoPatient
-    link: https://ambience-healthcare.github.io/pseudopatient/editor
-  - desc: Bring everyone together with data | Hex
-    link: https://hex.tech/
-  - desc: Synthea
-    link: https://synthetichealth.github.io/synthea/
-  - desc: 'Artificial Intelligence in Cancer Care: Addressing Challenges and Health
-      Equity'
-    link: https://www.cancernetwork.com/view/artificial-intelligence-in-cancer-care-addressing-challenges-and-health-equity
-  - desc: Protege's Healthcare AI Market Map
-    link: https://withprotege.substack.com/p/proteges-healthcare-ai-market-map
-  - desc: The Healthcare AI Adoption Index
-    link: https://www.bvp.com/atlas/the-healthcare-ai-adoption-index
-  - desc: AI tool assists doctors in sharing lab results Product to communicate lab
-      results to patients.
-    link: https://med.stanford.edu/news/all-news/2025/01/ai-test-results.html
-  - desc: Brellium Raises $16.7 Million to Build Healthcare’s AI-Powered Clinical
-      Compliance Platform - Brellium Blog Chart review use cases like session length
-      discrepencies, flagging decrease in patient condition, contraindicated prescription
-      medications. etal.
-    link: https://brellium.com/resources/blog/brellium-raises-17-million-to-build-healthcares-ai-powered-clinical-payor-compliance-platform
-  - desc: caremap is a tool for a caregiver to figure out the caremap for a patient.
-    link: https://atlasofcaregiving.com/caremap/
-  - desc: MedGemma | Health AI Developer Foundations
-    link: https://developers.google.com/health-ai-developer-foundations/medgemma
+  - desc: Generative AI for Clinical Conversations | Abridge Kaiser uses Abridge,
+      and its an Epic shop which introduced AI launched genai
+    link: https://www.abridge.com/
+  - desc: Generative AI for Clinical Conversations | Abridge Kaiser uses Abridge,
+      and its an Epic shop which introduced AI launched genai
+    link: https://www.fiercehealthcare.com/ai-and-machine-learning/epic-introduces-launchpad-fuel-faster-generative-ai-adoption-among
+  - desc: OpenEvidence Surfaces clinical answers from trusted research
+    link: https://www.openevidence.com/
