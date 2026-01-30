@@ -1,3 +1,23 @@
+- date: '2026-01-30'
+  news-items:
+  - desc: Claroty secures $150 million in Series F funding to advance protection of
+      mission-critical infrastructure
+    link: https://claroty.com/press-releases/claroty-secures-150-million-in-series-f-funding-to-lead-charge-on-securing-the-worlds-mission-critical-infrastructure
+  - desc: Objective-See publishes comprehensive analysis of Mac malware discovered
+      in 2025
+    link: https://objective-see.org/blog/blog_0x84.html
+  - desc: Analysis of how LLMs are industrializing exploit generation and its implications
+      for security
+    link: https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/
+  - desc: Trail of Bits releases Burp Suite project parser skill for security testing
+      automation
+    link: https://github.com/trailofbits/skills/tree/main/plugins/burpsuite-project-parser
+  - desc: Daniel Miessler's Personal AI Infrastructure includes reconnaissance skill
+      pack for security research
+    link: https://github.com/danielmiessler/Personal_AI_Infrastructure/tree/main/Packs/pai-recon-skill
+  - desc: AWS discovers that automated reasoning improves system efficiency and maintainability
+      in security applications
+    link: https://aws.amazon.com/blogs/security/an-unexpected-discovery-automated-reasoning-often-makes-systems-more-efficient-and-easier-to-maintain/
 - date: '2026-01-16'
   news-items:
   - desc: Claude Cowork Exfiltrates Files
