@@ -1,3 +1,8 @@
+- date: '2026-02-06'
+  news-items:
+  - desc: ClawCon conference highlights key developments and discussions in the AI
+      and technology space
+    link: https://www.claw-con.com/
 - date: '2026-01-30'
   news-items:
   - desc: The browser emerges as the natural sandbox environment for AI applications
