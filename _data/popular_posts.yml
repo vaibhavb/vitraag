@@ -1,18 +1,18 @@
-last_updated: '2026-02-08T01:32:22.075174+00:00'
+last_updated: '2026-02-09T01:32:27.744586+00:00'
 posts:
-- pageviews: 1817
+- pageviews: 1825
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 134
+- pageviews: 136
   path: /posts-by-year/
   title: Posts By Year!
-- pageviews: 125
+- pageviews: 128
   path: /bookmarks
   title: bookmarks
-- pageviews: 118
+- pageviews: 123
   path: /2024/12/31/a-year-in-review/
   title: A Year In Review
-- pageviews: 117
+- pageviews: 115
   path: /security-news
   title: Security News
 - pageviews: 104
@@ -28,5 +28,5 @@ posts:
   path: /2024/11/22/ai-healthcare/
   title: AI Healthcare
 - pageviews: 83
-  path: /newsletter/
-  title: The Vitraag Digest
+  path: /2021/09/09/listen-in-to-your-inner-kindness/
+  title: Listen In To Your Inner Kindness
