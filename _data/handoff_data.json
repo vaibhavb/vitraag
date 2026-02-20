@@ -1,52 +1,76 @@
 {
-  "target_date": "2026-02-06",
+  "target_date": "2026-02-20",
   "categories": {
     "security-news": {
       "items": [
         {
-          "desc": "Upwind secures $250 million in funding to expand its cloud security platform and customer capabilities",
-          "link": "https://www.upwind.io/feed/what-250m-means-for-our-customers-and-the-future-of-cloud-security"
+          "desc": "Aisle Security researchers demonstrate responsible AI vulnerability disclosure, detailing what effective AI security research methodology looks like in practice.",
+          "link": "https://aisle.com/blog/what-ai-security-research-looks-like-when-it-works"
         },
         {
-          "desc": "fwd:cloudsec North America 2026 conference opens its call for papers for cloud security practitioners",
-          "link": "https://fwdcloudsec.org/conference/north-america/cfp.html"
+          "desc": "Security researcher Connor McGarr reveals a privilege escalation technique in Windows via ETW's SecurityTrace flag, exposing nuanced internals of Windows privilege management.",
+          "link": "https://connormcgarr.github.io/securitytrace-etw-ppl/"
+        },
+        {
+          "desc": "Researchers discover that Claude's internal refusal 'magic string' can be exploited to disrupt LLM-powered workflows, highlighting a novel AI denial-of-service attack vector.",
+          "link": "https://hackingthe.cloud/ai-llm/exploitation/claude_magic_string_denial_of_service/"
+        },
+        {
+          "desc": "Coinbase details how it uses Multi-Party Computation (MPC) encryption to protect personally identifiable information, offering a technical deep dive into consumer data security.",
+          "link": "https://www.coinbase.com/en-gb/blog/consumer-protection-tuesday-how-coinbase-safeguards-pii-using-mpc-encryption"
+        },
+        {
+          "desc": "Proofpoint acquires Acuvity to address emerging security risks posed by agentic AI systems, expanding its enterprise security portfolio.",
+          "link": "https://cyberscoop.com/proofpoint-acuvity-deal-agentic-ai-security/"
+        },
+        {
+          "desc": "Palo Alto Networks acquires Koi Security to strengthen its agentic AI endpoint protection capabilities as AI-driven threats accelerate.",
+          "link": "https://securityboulevard.com/2026/02/palo-alto-networks-moves-to-secure-agentic-endpoints-with-koi-deal/"
+        },
+        {
+          "desc": "Reports reveal a senior Saudi official implicated in a Twitter espionage plot is included in the delegation accompanying Crown Prince Mohammed bin Salman on a US visit.",
+          "link": "https://www.theguardian.com/world/2025/nov/18/saudi-leader-mohammed-bin-salman-entourage-includes-official-implicated-in-twitter-spy-plot"
         }
       ]
     },
     "digitalhealth-news": {
       "items": [
         {
-          "desc": "CB Insights publishes comprehensive State of Digital Health 2025 report analyzing trends and investment patterns",
-          "link": "https://www.cbinsights.com/research/report/digital-health-trends-2025/"
-        },
-        {
-          "desc": "Bessemer Venture Partners releases State of Health AI 2026 report exploring AI adoption in healthcare",
-          "link": "https://www.bvp.com/atlas/state-of-health-ai-2026"
+          "desc": "Isomorphic Labs unveils its Drug Design Engine, a breakthrough AI platform that goes beyond AlphaFold to accelerate drug discovery and molecular design.",
+          "link": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier"
         }
       ]
+    },
+    "finance-news": {
+      "items": []
     },
     "pm-news": {
       "items": [
         {
-          "desc": "Y Combinator publishes updated Request for Startups outlining high-priority areas for new ventures",
-          "link": "https://www.ycombinator.com/rfs"
+          "desc": "Lenny Rachitsky's newsletter explores how product managers can develop AI product intuition, covering frameworks for evaluating AI-driven product decisions.",
+          "link": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2"
+        },
+        {
+          "desc": "Dream Launch Studio offers a rapid prototyping platform for product teams, with pricing models designed to accelerate early-stage product development.",
+          "link": "https://www.dreamlaunch.studio/#pricing"
         }
       ]
     },
     "ai-news": {
       "items": [
         {
-          "desc": "ClawCon conference highlights key developments and discussions in the AI and technology space",
-          "link": "https://www.claw-con.com/"
+          "desc": "comma.ai shares the technical and financial journey of building and owning a $5M data center, offering rare insight into self-hosted AI infrastructure at scale.",
+          "link": "https://blog.comma.ai/datacenter/"
+        },
+        {
+          "desc": "Hadrian Security open-sources Subwiz, a lightweight GPT-based model fine-tuned specifically for automated subdomain discovery in attack surface management.",
+          "link": "https://github.com/hadriansecurity/subwiz"
         }
       ]
-    },
-    "finance-news": {
-      "items": []
     }
   },
   "summary": {
-    "total_items": 6,
+    "total_items": 12,
     "categories_updated": ["security-news", "digitalhealth-news", "pm-news", "ai-news"]
   }
 }

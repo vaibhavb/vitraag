@@ -1,3 +1,11 @@
+- date: '2026-02-20'
+  news-items:
+  - desc: Lenny Rachitsky's newsletter explores how product managers can develop AI
+      product intuition, covering frameworks for evaluating AI-driven product decisions.
+    link: https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2
+  - desc: Dream Launch Studio offers a rapid prototyping platform for product teams,
+      with pricing models designed to accelerate early-stage product development.
+    link: https://www.dreamlaunch.studio/#pricing
 - date: '2026-02-06'
   news-items:
   - desc: Y Combinator publishes updated Request for Startups outlining high-priority

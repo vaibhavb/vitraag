@@ -1,3 +1,12 @@
+- date: '2026-02-20'
+  news-items:
+  - desc: comma.ai shares the technical and financial journey of building and owning
+      a $5M data center, offering rare insight into self-hosted AI infrastructure
+      at scale.
+    link: https://blog.comma.ai/datacenter/
+  - desc: Hadrian Security open-sources Subwiz, a lightweight GPT-based model fine-tuned
+      specifically for automated subdomain discovery in attack surface management.
+    link: https://github.com/hadriansecurity/subwiz
 - date: '2026-02-06'
   news-items:
   - desc: ClawCon conference highlights key developments and discussions in the AI

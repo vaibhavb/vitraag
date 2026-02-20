@@ -1,3 +1,8 @@
+- date: '2026-02-20'
+  news-items:
+  - desc: Isomorphic Labs unveils its Drug Design Engine, a breakthrough AI platform
+      that goes beyond AlphaFold to accelerate drug discovery and molecular design.
+    link: https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier
 - date: '2026-02-06'
   news-items:
   - desc: CB Insights publishes comprehensive State of Digital Health 2025 report
