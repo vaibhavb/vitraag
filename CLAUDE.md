@@ -38,11 +38,60 @@ Consider implementing automatic seasonal theme switching based on current date o
 
 ## Weekly News Update Workflow
 
-### Command: `update-news`
+### Automated Sync (preferred)
+
+**Script**: `data-runners/obsidian_news_auto.py`
+**Cron**: Every Sunday at 10:00 AM (`0 10 * * 0 ~/.config/me/vitraag_news_sync.sh`)
+**Log**: `~/vitraag_news_sync.log`
+
+The automated sync reads Obsidian daily notes directly — no manual handoff needed.
+
+**Tag → YAML mapping:**
+| Obsidian tag | YAML file |
+|---|---|
+| `#security-news` | `security-news.yml` |
+| `#ai-news` | `ai-news.yml` |
+| `#digitalhealth-news` | `digitalhealth-news.yml` |
+| `#finance-news` | `finance-news.yml` |
+| `#product-news` or `#product` | `pm-news.yml` |
+
+**Obsidian vault sources:**
+- 2025 notes: `Personal-Archive/2025/daily/`
+- 2026+ notes: `Personal-Data/2026/daily/`
+
+**Manual run:**
+```bash
+cd data-runners
+
+# Auto-detect start dates from YAML files (recommended)
+.venv/bin/python3 obsidian_news_auto.py
+
+# Override start date
+.venv/bin/python3 obsidian_news_auto.py --start 2026-02-20
+
+# Preview without writing
+.venv/bin/python3 obsidian_news_auto.py --dry-run --verbose
+```
+
+**How it works:**
+1. Reads last date from each `_data/*.yml` → computes per-category start date (day after)
+2. Scans daily notes for lines containing the category tag
+3. Extracts `[Title](URL)` links; builds desc from title + surrounding context
+4. Writes `_data/handoff_data.json`
+5. Runs `news_updater.py` which prepends/merges into YAML (deduplicates by link URL)
+6. Cron wrapper commits and pushes only if YAML files changed
+
+---
+
+### Manual Workflow (Claude Code assisted)
+
+Use when you want AI-polished descriptions or need to review before committing.
+
+**Command: `update-news`**
 
 **Three-Phase Workflow:**
 1. **Phase 1 (Claude Code)**: MCP search + AI formatting
-2. **Phase 2 (User Review)**: Approve/modify results  
+2. **Phase 2 (User Review)**: Approve/modify results
 3. **Phase 3 (Python Script)**: File operations + YAML updates
 
 ### Phase 1: Claude Code Processing
