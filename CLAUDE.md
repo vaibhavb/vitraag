@@ -288,124 +288,36 @@ cd data-runners
 
 ## Newsletter Generation Workflow
 
-### Command: `generate-newsletter`
+**Script**: `data-runners/newsletter_generator.py`
+**Trigger**: Run manually after `update-news` completes (no dedicated cron — newsletter is a deliberate weekly act)
+**Output**: `_newsletters/YYYY-MM-DD.md` → accessible at `https://vitraag.com/newsletter/YYYY-MM-DD`
 
-**Purpose**: Generate newsletter using updated news data after completing news update workflow
+**Prerequisite**: `_data/*.yml` files must be updated first (run news sync).
 
-**Prerequisites**: 
-- Must have completed `update-news` workflow successfully
-- All YAML files should be updated and committed to git
-- Newsletter generator script available at `data-runners/newsletter_generator.py`
-
-**Workflow Steps:**
-1. **Auto-detect target date** from most recent YAML entries across all categories
-2. **Calculate next issue number** by examining existing newsletters in `_newsletters/` directory
-3. **Determine optimal date range** based on last newsletter's end date to avoid gaps/overlaps
-4. **Validate data availability** and ensure minimum content thresholds
-5. **Generate newsletter** with rich formatting, metadata, and category organization
-6. **Validate output** for completeness and proper structure
-7. **Stage and commit** newsletter file with descriptive git message
-
-**Command Execution:**
+**Manual run:**
 ```bash
-# Navigate to data-runners directory
 cd data-runners
 
-# Execute newsletter generator with auto-detection
-python newsletter_generator.py --date [AUTO_DETECTED_DATE] --days [CALCULATED_RANGE] --force
+# Auto-detect date, issue number, and date range (recommended)
+.venv/bin/python3 newsletter_generator.py --date $(date +%Y-%m-%d) --days 7 --force
+
+# Override lookback window
+.venv/bin/python3 newsletter_generator.py --date 2026-02-27 --days 14 --force
 ```
 
-**Auto-Detection Logic:**
-- **Target Date**: Read first date from each `_data/*.yml` file, use most recent date found
-- **Issue Number**: Scan all existing `.md` files in `_newsletters/` directory, sort chronologically, increment by 1
-- **Date Range**: Calculate days since last newsletter's end date to ensure complete coverage without gaps
-- **Validation**: Verify minimum 20 total stories across all categories before generation
+**How it works:**
+1. Auto-detects issue number by counting existing files in `_newsletters/`
+2. Reads stories from all `_data/*.yml` files within the date window
+3. Requires minimum 20 total stories across at least 3 categories
+4. Generates `_newsletters/YYYY-MM-DD.md` with Jekyll frontmatter, featured stories per category, and top sources
+5. Commit and push manually after review:
 
-**Issue Number Calculation:**
-- Dynamically counts all existing newsletter files in `_newsletters/` directory
-- Sorts by date to ensure chronological ordering
-- Returns `total_existing_newsletters + 1` for new newsletters
-- Handles existing dates by returning their chronological position
-
-**Validation Steps:**
-1. **Data Validation**:
-   - Minimum 20 total stories required across all categories
-   - At least 3 categories must have content
-   - All story links must be valid URLs
-   - No duplicate stories within date range
-
-2. **Output Validation**:
-   - Newsletter file successfully created in `_newsletters/` directory
-   - Proper Jekyll frontmatter with all required fields
-   - Issue number increments correctly from last newsletter
-   - Story counts match between YAML sources and newsletter output
-
-3. **Content Quality**:
-   - Featured stories selected for each category
-   - Top news sources calculated and included
-   - Category descriptions and metadata populated
-   - Date ranges and issue numbering consistent
-
-**Git Operations:**
-After successful newsletter generation:
-1. **Stage newsletter file**: `git add _newsletters/[DATE].md`
-2. **Commit with metadata**: 
 ```bash
-git commit -m "Generate Newsletter #[ISSUE] for [DATE]: [TOTAL] stories across [CATEGORIES] categories
-
-Featured content:
-- Security: [COUNT] stories 
-- AI/ML: [COUNT] stories
-- Digital Health: [COUNT] stories  
-- Product Management: [COUNT] stories
-- Finance: [COUNT] stories
-
-🗞️ Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>"
-```
-3. **Sync with remote**: `git pull && git push`
-
-**Error Handling:**
-- **Insufficient Stories**: Skip generation, request more content via `update-news`
-- **Missing YAML Files**: Report which categories are missing, suggest running `update-news`
-- **Newsletter Exists**: Use `--force` flag or increment date to avoid conflicts
-- **Git Conflicts**: Manual resolution required, preserve newsletter file
-- **Validation Failures**: Detailed error reporting with specific issues and suggestions
-
-**Success Metrics:**
-- Newsletter file created with proper naming convention (`YYYY-MM-DD.md`)
-- Issue number increments sequentially from previous newsletter
-- All categories with available content are represented
-- Story counts and metadata are accurate
-- Git commit includes newsletter with descriptive message
-- Generated newsletter is accessible at `https://vitraag.com/newsletter/[DATE]`
-
-**Output Example:**
-```
-📰 NEWSLETTER GENERATION COMPLETE
-✅ Newsletter #5 created: _newsletters/2025-08-26.md
-📊 Content: 67 stories across 5 categories
-📅 Date Range: 2025-08-15 to 2025-08-26 (12 days)
-🌐 Top Sources: github.com (8), youtube.com (6), techcrunch.com (4)
-📁 Git: Committed and pushed to remote repository
-🔗 View: https://vitraag.com/newsletter/2025-08-26
+git add _newsletters/YYYY-MM-DD.md
+git commit -m "Weekly news update and Newsletter #N (YYYY-MM-DD): X items across Y categories"
+git pull && git push
 ```
 
-**Usage Examples:**
-```bash
-# Auto-detect everything (recommended)
-generate-newsletter
-
-# Override target date if needed
-generate-newsletter --date 2025-08-26
-
-# Custom lookback period  
-generate-newsletter --days 14
-
-# Force regeneration of existing newsletter
-generate-newsletter --force
-
-# Dry run to preview without creating files
-generate-newsletter --preview
-```
+**Error handling:**
+- `--force` overwrites an existing newsletter file for the same date
+- If fewer than 20 stories exist, generation is skipped — run news sync first
