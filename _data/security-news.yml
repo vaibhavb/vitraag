@@ -1,3 +1,41 @@
+- date: '2026-02-27'
+  news-items:
+  - desc: TetrisBench pits LLMs against Tetris in a novel benchmark that illuminates
+      AI capabilities and competitive coding—an intriguing lens on AI model performance
+      that could extend to security automation use cases.
+    link: https://www.a16z.news/p/i-built-tetrisbench-where-llms-compete
+  - desc: Analysis argues that OpenClaw's security weaknesses stem from fundamental
+      architectural decisions rather than implementation flaws, offering a framework
+      for evaluating secure AI agent design.
+    link: https://www.vulnu.com/p/the-problem-isnt-openclaw-its-the-architecture
+  - desc: The Open Compliance Trust Exchange Protocol introduces a verifiable compliance
+      framework, enabling organizations to demonstrate regulatory adherence through
+      cryptographic proofs and standardized trust signals.
+    link: https://grcorsair.com/how-it-works
+  - desc: Anthropic publishes research on detecting and preventing model distillation
+      attacks, where adversaries extract a model's capabilities by repeatedly querying
+      it to train a smaller, unauthorized replica.
+    link: https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks
+  - desc: A security researcher remotely accessed thousands of DJI Romo robovacs due
+      to critical MQTT protocol vulnerabilities, exposing users to unauthorized camera
+      access and remote control of home devices.
+    link: https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt
+  - desc: A researcher leverages AI-assisted fuzzing to discover over 100 Linux kernel
+      bugs in 30 days, demonstrating how agentic AI can dramatically accelerate vulnerability
+      discovery at the OS level.
+    link: https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days
+  - desc: Qualys releases a comprehensive 2026 guide on cloud credential misuse, detailing
+      how attackers exploit legitimate security tools to compromise cloud environments
+      with detection and prevention strategies.
+    link: https://blog.qualys.com/qualys-insights/2026/02/19/how-security-tool-misuse-is-reshaping-cloud-compromise
+  - desc: CarGurus discloses a data breach affecting 12.5 million user accounts, highlighting
+      ongoing vulnerabilities in automotive marketplace platforms and the importance
+      of robust data protection measures.
+    link: https://techcrunch.com/2026/02/24/cargurus-data-breach-affects-12-5-million-accounts/
+  - desc: Security researchers uncover vulnerabilities in Anthropic's Claude Code
+      CLI tool that could expose developers' machines to unauthorized access, raising
+      concerns about AI coding assistant security.
+    link: https://www.darkreading.com/application-security/flaws-claude-code-developer-machines-risk
 - date: '2026-02-20'
   news-items:
   - desc: Aisle Security researchers demonstrate responsible AI vulnerability disclosure,

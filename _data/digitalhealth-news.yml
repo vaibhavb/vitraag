@@ -1,3 +1,17 @@
+- date: '2026-02-27'
+  news-items:
+  - desc: Researchers argue the next major cancer breakthrough lies in prevention—tracking
+      genetic mutations, pre-cancerous lesions, and clonal cell groups to enable early
+      interventional strategies before tumors form.
+    link: https://theconversation.com/the-next-cancer-breakthrough-may-be-stopping-it-before-it-starts-275453
+  - desc: A landmark Nature study advances rare disease differential diagnosis by
+      leveraging AI and genomic data to identify novel disease associations and improve
+      diagnostic accuracy for understudied conditions.
+    link: https://www.nature.com/articles/s41586-025-10097-9
+  - desc: Hims & Hers Health announces a $1.15 billion acquisition of Eucalyptus,
+      an Australian telehealth startup, signaling aggressive expansion into international
+      digital health markets and prescription services.
+    link: https://www.wsj.com/business/deals/hims-hers-to-acquire-eucalyptus-in-1-15-billion-deal-3149d69a
 - date: '2026-02-20'
   news-items:
   - desc: Isomorphic Labs unveils its Drug Design Engine, a breakthrough AI platform

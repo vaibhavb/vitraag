@@ -1,3 +1,29 @@
+- date: '2026-02-27'
+  news-items:
+  - desc: TetrisBench is a novel benchmark where language models compete at Tetris,
+      providing fresh insights into AI spatial reasoning, planning capabilities, and
+      comparative model performance across LLMs.
+    link: https://www.a16z.news/p/i-built-tetrisbench-where-llms-compete
+  - desc: A developer demonstrates that the core functionality of Claude Code can
+      be replicated in just 200 lines of Python, demystifying AI coding assistants
+      and offering insights into tool-call architectures.
+    link: https://www.mihaileric.com/The-Emperor-Has-No-Clothes/
+  - desc: OpenClaw emerges as an AI-powered tool that consolidates thousands of hours
+      of video editing knowledge, enabling creators to produce professional content
+      through AI-assisted automation.
+    link: https://www.youtube.com/watch?v=Yt6imPC1FhA
+  - desc: Anthropic shares research on distillation attack detection methods, addressing
+      a growing threat where adversaries clone commercial AI models by mining their
+      outputs to train unauthorized replicas.
+    link: https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks
+  - desc: HumanLayer's Dex Horthy introduces the 12 Factor Agents framework, a principled
+      approach to building reliable AI agents in complex codebases that moves beyond
+      intuitive vibe coding toward systematic engineering.
+    link: https://www.youtube.com/watch?v=rmvDxxNubIg&t=706s
+  - desc: Demonstrating AI's growing impact on security research, a developer discovers
+      over 100 kernel bugs in 30 days using AI-assisted fuzzing tools, pointing to
+      a new era of automated vulnerability research.
+    link: https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days
 - date: '2026-02-20'
   news-items:
   - desc: comma.ai shares the technical and financial journey of building and owning
