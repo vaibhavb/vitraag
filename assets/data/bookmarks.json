@@ -1,5 +1,1295 @@
 [
   {
+    "date": "2026-02-27",
+    "title": "CarGurus data breach affects 12.5 million accounts",
+    "url": "https://techcrunch.com/2026/02/24/cargurus-data-breach-affects-12-5-million-accounts/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-27",
+    "title": "Flaws in Claude Code Put Developers' Machines at Risk",
+    "url": "https://www.darkreading.com/application-security/flaws-claude-code-developer-machines-risk"
+  },
+  {
+    "date": "2026-02-27",
+    "title": "OSINT Newsletter CTF",
+    "url": "https://ctf.osintnewsletter.com/challenges"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Development Environment and Tools",
+    "url": "https://missing.csail.mit.edu/2026/development-environment/"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "How to ask good questions",
+    "url": "https://jvns.ca/blog/good-questions/"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "The Emperor Has No Clothes: How to Code Claude Code in 200 Lines of Code",
+    "url": "https://www.mihaileric.com/The-Emperor-Has-No-Clothes/"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "OpenClaw Just Replaced 1,000 Hours of Video Editing Tutorials",
+    "url": "https://www.youtube.com/watch?v=Yt6imPC1FhA"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Detecting and preventing distillation attacks",
+    "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "The DJI Romo robovac had security so poor, this man remotely accessed thousands of them",
+    "url": "https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer",
+    "url": "https://www.youtube.com/watch?v=rmvDxxNubIg&t=706s"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "100+ Kernel Bugs in 30 Days",
+    "url": "https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Cloud Credential Misuse: Detection & Prevention Guide 2026 | Qualys",
+    "url": "https://blog.qualys.com/qualys-insights/2026/02/19/how-security-tool-misuse-is-reshaping-cloud-compromise"
+  },
+  {
+    "date": "2026-02-24",
+    "title": "Hims & Hers to Acquire Eucalyptus in $1.15 Billion Deal",
+    "url": "https://www.wsj.com/business/deals/hims-hers-to-acquire-eucalyptus-in-1-15-billion-deal-3149d69a"
+  },
+  {
+    "date": "2026-02-24",
+    "title": "the problem isn’t OpenClaw. it’s the architecture.",
+    "url": "https://www.vulnu.com/p/the-problem-isnt-openclaw-its-the-architecture?utm_campaign=security-funded-232-paper-hand-tourist-investors&utm_medium=referral&utm_source=www.returnonsecurity.com"
+  },
+  {
+    "date": "2026-02-24",
+    "title": "Open Compliance Trust Exchange Protocol",
+    "url": "https://grcorsair.com/how-it-works"
+  },
+  {
+    "date": "2026-02-23",
+    "title": "I Built TetrisBench, Where LLMs Compete at Playing Tetris",
+    "url": "https://www.a16z.news/p/i-built-tetrisbench-where-llms-compete"
+  },
+  {
+    "date": "2026-02-21",
+    "title": "The next cancer breakthrough may be stopping it before it starts",
+    "url": "https://theconversation.com/the-next-cancer-breakthrough-may-be-stopping-it-before-it-starts-275453"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "Real-World Use Cases | OpenClaw Docs",
+    "url": "https://clawdocs.org/guides/use-cases/"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "OpenClaw Use Cases — What People Build with AI Agents | MyClaw.ai",
+    "url": "https://myclaw.ai/use-cases"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody",
+    "url": "https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "RISE USA OSINT CTF",
+    "url": "https://osint-odyssey.ctfd.io/challenges"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "DEF CON 33 - Unmasking the Snitch Puck: IoT surveillance tech in the school bathroom",
+    "url": "https://youtu.be/WCnojaEpF2I?si=xYUz0Erh6kXaw4Jc"
+  },
+  {
+    "date": "2026-02-19",
+    "title": "Safer Schools Together",
+    "url": "https://saferschoolstogether.com/"
+  },
+  {
+    "date": "2026-02-19",
+    "title": "Saudi entourage for US visit may include official implicated in Twitter spy plot",
+    "url": "https://www.theguardian.com/world/2025/nov/18/saudi-leader-mohammed-bin-salman-entourage-includes-official-implicated-in-twitter-spy-plot"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Proofpoint acquires Acuvity to tackle the security risks of agentic AI",
+    "url": "https://cyberscoop.com/proofpoint-acuvity-deal-agentic-ai-security/"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Book Cost Calculator",
+    "url": "https://www.lulu.com/pricing"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Palo Alto Networks Moves to Secure Agentic Endpoints with Koi Deal",
+    "url": "https://securityboulevard.com/2026/02/palo-alto-networks-moves-to-secure-agentic-endpoints-with-koi-deal/"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "hadriansecurity/subwiz: A lightweight GPT model, trained to discover subdomains.",
+    "url": "https://github.com/hadriansecurity/subwiz"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold - Isomorphic Labs",
+    "url": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Consumer Protection Tuesday: How Coinbase Safeguards PII Using MPC Encryption",
+    "url": "https://www.coinbase.com/en-gb/blog/consumer-protection-tuesday-how-coinbase-safeguards-pii-using-mpc-encryption"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Presidential AI Challenge",
+    "url": "https://www.ai.gov/initiatives/presidential-challenge"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Dvuln",
+    "url": "https://dvuln.com/blog"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "myCalSTRS",
+    "url": "https://my.calstrs.com/NeospinMSSPRD/LoginPages/wfmLoginError.aspx"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "microgpt",
+    "url": "https://karpathy.ai/microgpt.html"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "sjpiper145/MakerSkillTree: A repository of Maker Skill Trees and templates to make your own.",
+    "url": "https://github.com/sjpiper145/MakerSkillTree"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "The Timetables of History: A Horizontal Linkage of People and Events: Grun, Bernard, Simpson, Eva: 9780743270038: Amazon.com: Books",
+    "url": "https://www.amazon.com/Timetables-History-Horizontal-Linkage-People/dp/0743270037/"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "San José Bike Party: Building Community Through Cycling",
+    "url": "https://www.sjbikeparty.org/"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "Multi-Agent Routing",
+    "url": "https://docs.openclaw.ai/concepts/multi-agent"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "Break LLM Workflows with Claude's Refusal Magic String - Hacking The Cloud",
+    "url": "https://hackingthe.cloud/ai-llm/exploitation/claude_magic_string_denial_of_service/"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "Free AI Doctor | Get Health Answers Instantly",
+    "url": "https://www.pranadoc.com/ai-doctor"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Windows Internals: Check Your Privilege - The Curious Case of ETW’s SecurityTrace Flag",
+    "url": "https://connormcgarr.github.io/securitytrace-etw-ppl/"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "What AI Security Research Looks Like When It Works",
+    "url": "https://aisle.com/blog/what-ai-security-research-looks-like-when-it-works"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Owning a $5M data center",
+    "url": "https://blog.comma.ai/datacenter/"
+  },
+  {
+    "date": "2026-02-08",
+    "title": "10x Your Business with AI",
+    "url": "https://varickagents.com/case-studies"
+  },
+  {
+    "date": "2026-02-08",
+    "title": "Fiscal Sponsorship",
+    "url": "https://hackclub.com/fiscal-sponsorship/"
+  },
+  {
+    "date": "2026-02-06",
+    "title": "Anygen",
+    "url": "https://www.anygen.io"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Super Design Skill",
+    "url": "https://github.com/superdesigndev/superdesign-skill"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Claw Install",
+    "url": "https://clawdbody.com/"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Review the topics discussed in clawcon",
+    "url": "https://www.claw-con.com/"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Interesting coding project",
+    "url": "https://hackaday.com/2026/01/30/writing-an-optimizing-tensor-compiler-from-scratch/"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "What I learned building an opinionated and minimal coding agent",
+    "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "Agent Design Is Still Hard",
+    "url": "https://lucumr.pocoo.org/2025/11/21/agents-are-hard/"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "What $250M Means for Our Customers and the Future of Cloud Security - Upwind",
+    "url": "https://www.upwind.io/feed/what-250m-means-for-our-customers-and-the-future-of-cloud-security"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "State of Digital Health 2025 Report - CB Insights Research",
+    "url": "https://www.cbinsights.com/research/report/digital-health-trends-2025/"
+  },
+  {
+    "date": "2026-02-01",
+    "title": "State of Health AI 2026",
+    "url": "https://www.bvp.com/atlas/state-of-health-ai-2026"
+  },
+  {
+    "date": "2026-02-01",
+    "title": "ProjectDiscovery",
+    "url": "https://github.com/projectdiscovery"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Our approach to age prediction",
+    "url": "https://openai.com/index/our-approach-to-age-prediction/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "January, 2026 – PyTorch",
+    "url": "https://pytorch.org/newsletter/january-2026/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Application Security: Getting More out of Your Pen Tests",
+    "url": "https://bishopfox.wistia.com/live/events/jw2m90l4i6"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "An unexpected discovery: Automated reasoning often makes systems more efficient and easier to maintain",
+    "url": "https://aws.amazon.com/blogs/security/an-unexpected-discovery-automated-reasoning-often-makes-systems-more-efficient-and-easier-to-maintain/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Retail AI Lead Generation & Lead Management Software",
+    "url": "https://www.podium.com/experience/retail"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Six JavaScript zero-day bugs lead to fears of supply chain attack",
+    "url": "https://www.scworld.com/news/six-javascript-zero-day-bugs-lead-to-fears-of-supply-chain-attack?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "New sandbox escape flaw exposes n8n instances to RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/new-sandbox-escape-flaw-exposes-n8n-instances-to-rce-attacks/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "East Bay Summer Camp Guide",
+    "url": "https://www.510families.com/east-bay-summer-camp/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Super Bowl 60 arrives in the Bay Area. What's in it for kids?",
+    "url": "https://www.510families.com/family-friendly-san-franciscos-super-bowl/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Where to Take Bay Area Kids to Experience the Snow",
+    "url": "https://www.510families.com/skiing-with-kids/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Giddy-up! Lunar New Year at Fairyland",
+    "url": "https://www.510families.com/giddy-up-lunar-new-year-at-fairyland/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "How rep+ Helped Me Identify a Critical Supabase JWT Exposure",
+    "url": "https://bour.ch/how-rep-helped-me-identify-a-critical-supabase-jwt-exposure/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Claude finds 353 zero-days on Packagist",
+    "url": "https://sansec.io/research/claude-finds-353-zero-days-packagist"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "A Brief Deep-Dive into Attacking and Defending Kubernetes",
+    "url": "https://heilancoos.github.io/research/2025/12/16/kubernetes.html"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Thread by @",
+    "url": "https://x.com/theonejvo/article/2016510190464675980"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Speaker Portal",
+    "url": "https://cfp.sched.com/speaker/qOfYCadUA8/event"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "Entropy Tax",
+    "url": "https://trails.pieterma.es/trail/entropy-tax/"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "this",
+    "url": "https://www.thehowtolivenewsletter.org/p/alonealone"
+  },
+  {
+    "date": "2026-01-28",
+    "title": "Regional Tech Hubs",
+    "url": "https://techeast.com/regional-tech-hubs/"
+  },
+  {
+    "date": "2026-01-28",
+    "title": "Reading across books with Claude Code | Pieter Maes",
+    "url": "https://pieterma.es/syntopic-reading-claude/"
+  },
+  {
+    "date": "2026-01-27",
+    "title": "skills/plugins/burpsuite-project-parser at main · trailofbits/skills",
+    "url": "https://github.com/trailofbits/skills/tree/main/plugins/burpsuite-project-parser"
+  },
+  {
+    "date": "2026-01-27",
+    "title": "Personal_AI_Infrastructure/Packs/pai-recon-skill at main · danielmiessler/Personal_AI_Infrastructure",
+    "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure/tree/main/Packs/pai-recon-skill"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Thread by @HealthcareAIGuy",
+    "url": "https://x.com/HealthcareAIGuy/status/2015829643618877572"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "the browser is the sandbox",
+    "url": "https://aifoc.us/the-browser-is-the-sandbox/"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Removing Belly Fat",
+    "url": "https://x.com/coachdango/status/2015820528385142798?s=12"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Claroty Secures $150 Million in Series F Funding to Lead Charge on Securing the World’s Mission Critical Infrastructure",
+    "url": "https://claroty.com/press-releases/claroty-secures-150-million-in-series-f-funding-to-lead-charge-on-securing-the-worlds-mission-critical-infrastructure"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "The Mac Malware of 2025 👾",
+    "url": "https://objective-see.org/blog/blog_0x84.html"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "On the Coming Industrialisation of Exploit Generation with LLMs",
+    "url": "https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Posts - Community - Remo Health",
+    "url": "https://remo.health/app/community"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Ambience Healthcare",
+    "url": "https://www.ambiencehealthcare.com/"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Demystifying evals for AI agents",
+    "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Programming Language for AIs",
+    "url": "https://github.com/jordanhubbard/nanolang"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Oneleet | Security-First Compliance (SOC 2, ISO 27001 & More)",
+    "url": "https://www.oneleet.com/"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Metriport | Open-Source API for Healthcare Data",
+    "url": "https://www.metriport.com/"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "EXG Experiment Bundle",
+    "url": "https://shop.openbci.com/products/exg-experiment-bundle"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Claude Cowork Exfiltrates Files",
+    "url": "https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Superhuman AI Exfiltrates Emails",
+    "url": "https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis",
+    "url": "https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Introducing Cowork | Claude",
+    "url": "https://claude.com/blog/cowork-research-preview"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Participants | SF Art Week",
+    "url": "https://sfartweek.com/participants/"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "#JPMorgan Healthcare+Koios Recap | Koios Medical, Inc.",
+    "url": "https://wefunder.com/feed/244632-jpmorgan-healthcare-koios-recap"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "The Palantir-ization of everything",
+    "url": "https://www.a16z.news/p/the-palantirization-of-everything"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "AGI is here…",
+    "url": "https://prodfolks.substack.com/p/agi-is-here"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "The YouTube Moment for Software is happening",
+    "url": "https://www.a16z.news/p/softwares-youtube-moment-is-happening"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "bentossell/ralph-loop-ui",
+    "url": "https://github.com/bentossell/ralph-loop-ui"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Scaling long-running autonomous coding",
+    "url": "https://cursor.com/blog/scaling-agents?utm_source=substack&utm_medium=email"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "AWS Ends SSE-C Encryption, and a Ransomware Vector | CSA",
+    "url": "https://cloudsecurityalliance.org/blog/2026/01/05/aws-ends-sse-c-encryption-and-a-ransomware-vector"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "The Cloud-Native Detection Engineering Handbook",
+    "url": "https://cloudnativedetection.substack.com/p/the-cloud-native-detection-engineering"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning",
+    "url": "https://arxiv.org/abs/2512.15943?utm_source=substack&utm_medium=email"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Cybersecurity Changes I Expect in 2026",
+    "url": "https://danielmiessler.com/blog/cybersecurity-ai-changes-2026?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "ESXi Exploitation in the Wild",
+    "url": "https://www.huntress.com/blog/esxi-vm-escape-exploit"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Thread by @ProfTomYeh",
+    "url": "https://x.com/ProfTomYeh/status/2011457118591672522"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "10 of the coolest tech products we saw at CES 2026",
+    "url": "https://www.androidauthority.com/best-tech-products-ces-2026-3629913/"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "CrowdStrike acquires just-in-time access startup SGNL for $740M",
+    "url": "https://siliconangle.com/2026/01/08/crowdstrike-acquires-just-time-access-startup-sgnl-740m/"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Lume Health",
+    "url": "https://www.lumehealth.io/science/the-cost-of-daylight-savings-time"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Apollo House",
+    "url": "https://www.startuphealth.com/apollo-house"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "JPM26: Daiichi's ADC optimism after safety flag",
+    "url": "https://firstwordpharma.com/story/7064917"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "BIOTECH 2026 Predictions",
+    "url": "https://lifescivc.com/2026/01/chaos-is-a-ladder-predictions-for-2026/"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Matt Holt launching Thoreau",
+    "url": "https://www.reuters.com/business/holt-leaves-new-mountain-leads-30-billion-takeover-its-assets-sources-say-2025-12-19/"
+  },
+  {
+    "date": "2026-01-13",
+    "title": "youtube",
+    "url": "https://www.youtube.com/watch?v=C1Btp2CLfHo"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "Convergent Research",
+    "url": "https://www.convergentresearch.org/"
+  },
+  {
+    "date": "2026-01-06",
+    "title": "Cybersecurity skills matter more than headcount in the AI era",
+    "url": "https://www.csoonline.com/article/4108270/cybersecurity-skills-matter-more-than-headcount-in-the-ai-era.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-04",
+    "title": "Machine Learning Zero to Hero Lessons",
+    "url": "https://karpathy.ai/zero-to-hero.html"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Changes to Medi-Cal coming",
+    "url": "http://alamedahealthsystem.org/medi-cal"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "DROP - Launching January 1",
+    "url": "https://consumer.drop.privacy.ca.gov/coming-soon.html"
+  },
+  {
+    "date": "2025-12-28",
+    "title": "Caregiving Moonshot",
+    "url": "https://www.startuphealth.com/startup-health-blog/inside-the-caregiving-moonshot-richard-lui-is-calling-innovators-to-build-for-the-backbone-of-health"
+  },
+  {
+    "date": "2025-12-28",
+    "title": "Browser Prompt Injections is inevitable",
+    "url": "https://techcrunch.com/2025/12/22/openai-says-ai-browsers-may-always-be-vulnerable-to-prompt-injection-attacks"
+  },
+  {
+    "date": "2025-12-28",
+    "title": "Observability for your prompts",
+    "url": "https://simonwillison.net/2025/Dec/25/claude-code-transcripts/"
+  },
+  {
+    "date": "2025-12-28",
+    "title": "Machine Learning Advent Calendar",
+    "url": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-23-cnn-in-excel/"
+  },
+  {
+    "date": "2025-12-28",
+    "title": "Template for Yearly Review",
+    "url": "https://fs.blog/brain-food/december-28-2025/"
+  },
+  {
+    "date": "2025-12-26",
+    "title": "AI Business 2026: 6 Lazy Ways To Profit Fast (Before It's Too Late)",
+    "url": "https://www.aifire.co/p/ai-business-2026-6-lazy-ways-to-profit-fast-before-it-s-too-late"
+  },
+  {
+    "date": "2025-12-26",
+    "title": "AI Evals for Everyone",
+    "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide/tree/main/free_courses/ai_evals_for_everyone"
+  },
+  {
+    "date": "2025-12-26",
+    "title": "Summary slide",
+    "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/free_courses/ai_evals_for_everyone/chapters/09_case_studies.md"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "how to hack discord, vercel and more with one easy trick - eva's site",
+    "url": "https://kibty.town/blog/mintlify/"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Modernizing LinkedIn’s Static Application Security Testing Capabilities to protect our members",
+    "url": "https://www.linkedin.com/blog/engineering/security/modernizing-linkedins-static-application-security-testing-capabilities"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Anna’s Archive: LibGen (Library Genesis), Sci-Hub, Z-Library in one place - Anna’s Archive",
+    "url": "https://annas-archive.org/"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "The state of AI in 2025: Agents, innovation, and transformation",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "OpenAI overindexes on in its report",
+    "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report/"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Mini Thermal Receipt Printers",
+    "url": "https://learn.adafruit.com/mini-thermal-receipt-printer/circuitpython"
+  },
+  {
+    "date": "2025-12-22",
+    "title": "AI, low-code tools fuel Charlotte junk removal startup",
+    "url": "https://www.axios.com/local/charlotte/2025/12/19/ai-junk-removal-boxmow-low-code-startups-charlotte"
+  },
+  {
+    "date": "2025-12-22",
+    "title": "2026 Cybersecurity Predictions",
+    "url": "https://www.paloaltonetworks.com/perspectives/2026-cyber-predictions"
+  },
+  {
+    "date": "2025-12-22",
+    "title": "SCP Wish I Knew",
+    "url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.instagram.com%2Fseo%2Fgoogle_widget%2Fcrawler%2F%3Fmedia_id%3D3792173107528947792&tbnid=MMvxohcXyJof5M&vet=1&imgrefurl=https%3A%2F%2Fwww.instagram.com%2Freel%2FDSggVl5DVhQ%2F&docid=vEEhQ3j0-38fiM&w=640&h=1136&hl=en-us&source=sh%2Fx%2Fim%2Fm4%2F0&kgs=bd82a9c90fb53697"
+  },
+  {
+    "date": "2025-12-22",
+    "title": "Rave Gloves",
+    "url": "https://glofx.com/rave-gloves/"
+  },
+  {
+    "date": "2025-12-22",
+    "title": "HealthIT Deregulation Innovation",
+    "url": "https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-astponc-deregulatory-actions-unleash-prosperity"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Yoko Ono’s 22 Instructions for Paintings | Magazine | MoMA",
+    "url": "https://www.moma.org/magazine/articles/61"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "3/26/26, 4:30-7:00pm - FUSD Student Job & Internship Fair - Fremont Unified",
+    "url": "https://fremontunified.org/post/studentjobfair/"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Year In Review for LLMs by Karpathy",
+    "url": "https://karpathy.bearblog.dev/year-in-review-2025/"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "The Shape of AI: Jaggedness, Bottlenecks and Salients",
+    "url": "https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Holiday Hack Cybersecurity Challenge 2025",
+    "url": "https://www.sans.org/cyber-ranges/holiday-hack-challenge"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "2026 Predictions",
+    "url": "https://www.profgalloway.com/2026-predictions/"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Full Tutorial: Automate Your Life with Claude Code in 50 Min | Teresa Torres",
+    "url": "https://www.youtube.com/watch?v=uBJdwRPO1QE"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "The 26 Most Important Ideas For 2026",
+    "url": "https://www.derekthompson.org/p/the-26-most-important-ideas-for-2026"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Gated Attention ~ NeurIPS 2025 Best Paper",
+    "url": "https://www.byhand.ai/p/gated-attention-neurips-2025-best"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Winning the AI Cyber Race: Verifiability is All You Need",
+    "url": "https://sergejepp.substack.com/p/winning-the-ai-cyber-race-verifiability #security-news #ai-news"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "State of Consumer AI 2025",
+    "url": "https://www.a16z.news/p/state-of-consumer-ai-2025"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Over 300,000 Individuals Impacted by Vitas Hospice Data Breach",
+    "url": "https://www.securityweek.com/over-300000-individuals-impacted-by-vitas-hospice-data-breach/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "A look at an Android ITW DNG exploit - Project Zero",
+    "url": "https://projectzero.google/2025/12/android-itw-dng.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Full Tutorial: Automate Your Life with Claude Code in 50 Min | Teresa Torres",
+    "url": "https://www.youtube.com/watch?v=s3Lk5JJdnjQ"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "ruby/doc/language/box.md at master · ruby/ruby",
+    "url": "https://github.com/ruby/ruby/blob/master/doc/language/box.md"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Investigating the GitHub `safe_sleep.sh` Bash Script Situation.",
+    "url": "https://www.youtube.com/watch?v=47qrH5JZUUg"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Claude code training",
+    "url": "https://www.aiforswes.com/p/you-dont-need-to-spend-100mo-on-claude"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Coding patterns",
+    "url": "https://dev.37signals.com/the-rails-delegated-type-pattern/"
+  },
+  {
+    "date": "2025-12-20",
+    "title": "Performance hints by Jeff & Sanjay from Google",
+    "url": "https://abseil.io/fast/hints.html"
+  },
+  {
+    "date": "2025-12-20",
+    "title": "Minimalism and Yoko Ono 1960",
+    "url": "https://loose-lips-cast.com/2021/12/25/minimalism-and-yoko-ono/"
+  },
+  {
+    "date": "2025-12-20",
+    "title": "Mapping whats inside human brain with proteins",
+    "url": "https://www.nytimes.com/2025/11/25/science/brain-neuroscience-interoception.html"
+  },
+  {
+    "date": "2025-12-19",
+    "title": "Prompt caching: 10x cheaper LLM tokens, but how?",
+    "url": "https://ngrok.com/blog/prompt-caching/"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Toad is a unified experience for AI in the terminal",
+    "url": "https://willmcgugan.github.io/toad-released/"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Year in Review 2025",
+    "url": "https://www.bvp.com/year-in-review-2025"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Collaborators",
+    "url": "https://www.midwintermagickfestival.com/collaborators"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Linear Albebra explained",
+    "url": "https://stanford.edu/~dkim04/writings/LinAlg.pdf"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Deck",
+    "url": "https://www.canva.com/design/DAGVLhTJrjQ/jzZXD7h5ZnKt24YoPtGvig/view"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
+    "url": "https://simonwillison.net/2025/Dec/12/openai-skills/"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "InfoSecMap – Mapping out the best InfoSec events & groups!",
+    "url": "https://infosecmap.com/"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "BenefitsCal - Home",
+    "url": "https://benefitscal.com/Help/program/medical/HCPDE"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "a16z",
+    "url": "https://a16z.com/announcement/investing-in-leona/"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "Leona",
+    "url": "https://www.leona.health/en"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "stephencwelch/ai_book: Supporting code for Welch Labs AI Book",
+    "url": "https://github.com/stephencwelch/ai_book"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "here",
+    "url": "https://static1.squarespace.com/static/54b90461e4b0ad6fb5e05581/t/693244ae46302e6eeea7f18e/1764902062946/exercises_rev_12_nov_14_1.pdf"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "Inspirit AI Projects Catalog",
+    "url": "https://independent-project-mentorship.netlify.app/index.html"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "RiskResponse/google-workspace-hipaa-guide",
+    "url": "https://github.com/RiskResponse/google-workspace-hipaa-guide"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Big Ideas 2026: Part 2",
+    "url": "https://www.a16z.news/p/big-ideas-2026-part-2"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Big Ideas 2026: Part 3",
+    "url": "https://www.a16z.news/p/big-ideas-2026-part-3"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Automation of the NIST Cryptographic Module Validation Program — Automated Cryptographic Module Validation Project  documentation",
+    "url": "https://pages.nist.gov/ACMVPDocs/index.html#"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "The Bubble Is Labor",
+    "url": "https://danielmiessler.com/blog/the-real-bubble-is-human-labor"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "gadievron/raptor: Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.",
+    "url": "https://github.com/gadievron/raptor"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "How We Caught Lazarus's IT Workers Scheme Live on Camera",
+    "url": "https://any.run/cybersecurity-blog/lazarus-group-it-workers-investigation/"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Building Your Personal AI Infrastructure with Daniel Miessler",
+    "url": "https://www.youtube.com/watch?v=eT3BYmFk0kg&t=1s"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Thread by @justin_hart",
+    "url": "https://x.com/justin_hart/status/1919372017079669122"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "CaMeL",
+    "url": "https://arxiv.org/pdf/2503.18813"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+    "url": "https://karpathy.bearblog.dev/auto-grade-hn/"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Prediction: AI will make formal verification go mainstream — Martin Kleppmann’s blog",
+    "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Workout Tracker",
+    "url": "https://strengthquest.lovable.app/"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "React2Shell (CVE-2025-55182): Critical React Vulnerability | Wiz Blog",
+    "url": "https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "LinkPro: eBPF rootkit analysis",
+    "url": "https://www.synacktiv.com/en/publications/linkpro-ebpf-rootkit-analysis"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Why the MITRE ATT&CK Framework Actually Works",
+    "url": "https://levelup.gitconnected.com/why-the-mitre-att-ck-framework-actually-works-29ac26d2d20c"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "TIME's Top 100 Photos of 2025",
+    "url": "https://time.com/7336112/top-100-photos-2025/"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "All in One Platform for Proxies and Web Scraping",
+    "url": "https://brightdata.com/"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "2025 conference",
+    "url": "https://oxylabs.io/oxycon"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Upwelling",
+    "url": "https://www.inkandswitch.com/project/upwelling/"
+  },
+  {
+    "date": "2025-12-15",
+    "title": "Automerge",
+    "url": "https://automerge.org/docs/hello/"
+  },
+  {
+    "date": "2025-12-11",
+    "title": "The trusted source for open source | Chainguard",
+    "url": "https://www.chainguard.dev/"
+  },
+  {
+    "date": "2025-12-11",
+    "title": "DevArmor - Automated security reviews, threat modeling, and requirements enforcement.",
+    "url": "https://www.devarmor.com/"
+  },
+  {
+    "date": "2025-12-11",
+    "title": "ngrok | API Gateway, Kubernetes Ingress, Webhook Gateway",
+    "url": "https://ngrok.com/"
+  },
+  {
+    "date": "2025-12-10",
+    "title": "The Platform for Private Tutors",
+    "url": "https://www.superprof.com/"
+  },
+  {
+    "date": "2025-12-08",
+    "title": "Bipartisan health care cybersecurity legislation returns to address a cornucopia of issues",
+    "url": "https://cyberscoop.com/bipartisan-health-care-cybersecurity-legislation-returns-to-address-a-cornucopia-of-issues/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-12-06",
+    "title": "AGI House: NeurIPS Takeaways, Building with Gemini 3, and the SLM Thesis",
+    "url": "https://agihousecommunity.beehiiv.com/p/agi-house-neurips-takeaways-building-with-gemini-3-and-the-slm-thesis"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "A case for only CSS",
+    "url": "https://www.zolkos.com/2025/12/03/vanilla-css-is-all-you-need"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Do you really need tailwindcss?",
+    "url": "https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Sha1-Hulud 2.0 Supply Chain Attack: 25K+ Repos Exposed | Wiz Blog",
+    "url": "https://www.wiz.io/blog/shai-hulud-2-0-ongoing-supply-chain-attack"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Part 2",
+    "url": "https://www.wiz.io/blog/shai-hulud-2-0-aftermath-ongoing-supply-chain-attack"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "How It Works v2",
+    "url": "https://www.joincrowdhealth.com/how-it-works-v2"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Why Am I Paying $40,000 for the Birth of My Child?",
+    "url": "https://aaronstannard.com/40k-baby/"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Researchers Capture Lazarus APT's Remote-Worker Scheme Live on Camera",
+    "url": "https://thehackernews.com/2025/12/researchers-capture-lazarus-apts-remote.html"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "You've (Likely) Been Playing The Game of Life Wrong",
+    "url": "https://www.youtube.com/watch?v=HBluLfX2F_k"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Sandpile Simulation",
+    "url": "https://www.veritasium.com/simulation3"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Isling Model",
+    "url": "https://www.veritasium.com/simulation4"
+  },
+  {
+    "date": "2025-12-04",
+    "title": "Forest Fire Model",
+    "url": "https://www.veritasium.com/simulation5"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "How to do music with strudel",
+    "url": "https://terryds.notion.site/Learning-Music-with-Strudel-2ac98431b24180deb890cc7de667ea92"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "AI Healthcare Vision",
+    "url": "https://www.8vc.com/resources/ai-healthcare-vision"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "TabPFN",
+    "url": "https://www.nature.com/articles/s41586-024-08328-6.pdf"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "Making Software",
+    "url": "https://www.makingsoftware.com/"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "Toward a Working Definition of Paperclip-Punk",
+    "url": "https://www.a16z.news/p/toward-a-working-definition-of-paperclip"
+  },
+  {
+    "date": "2025-12-02",
+    "title": "Trilliant Health Delivers on the Promise of Hospital Price Transparency Regulation: Easily Accessible Data",
+    "url": "https://www.businesswire.com/news/home/20251118598871/en/Trilliant-Health-Delivers-on-the-Promise-of-Hospital-Price-Transparency-Regulation-Easily-Accessible-Data"
+  },
+  {
+    "date": "2025-12-02",
+    "title": "chatbot",
+    "url": "https://oria.trillianthealth.com/"
+  },
+  {
+    "date": "2025-12-01",
+    "title": "This Art will be available in public domain soon",
+    "url": "https://publicdomainreview.org/features/entering-the-public-domain/2026/"
+  },
+  {
+    "date": "2025-12-01",
+    "title": "How to use AI as a student and teacher?",
+    "url": "https://beej.us/guide/bglcs/html/split/"
+  },
+  {
+    "date": "2025-11-30",
+    "title": "Ideas for AI agents to go build",
+    "url": "https://github.com/Divide-By-0/ideas-for-projects-people-would-use"
+  },
+  {
+    "date": "2025-11-30",
+    "title": "Voices for benches",
+    "url": "https://open.substack.com/pub/elisejoshi/p/the-people-yearn-for-benches?utm_campaign=post&utm_medium=web"
+  },
+  {
+    "date": "2025-11-30",
+    "title": "System Administrators Advent Calendar",
+    "url": "https://sadservers.com/advent"
+  },
+  {
+    "date": "2025-11-30",
+    "title": "Dynamic Programming",
+    "url": "https://dp.quantecon.org/"
+  },
+  {
+    "date": "2025-11-30",
+    "title": "QuantEcon",
+    "url": "https://quantecon.org/"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Installing macOS 13 Ventura on Proxmox 7.2",
+    "url": "https://www.nicksherlock.com/2022/10/installing-macos-13-ventura-on-proxmox/"
+  },
+  {
+    "date": "2025-11-28",
+    "title": "CUDA Programming Course – High-Performance Computing with GPUs",
+    "url": "https://www.youtube.com/watch?v=86FAWCzIe_4&t=1s"
+  },
+  {
+    "date": "2025-11-26",
+    "title": "Jobs",
+    "url": "https://www.anthropic.com/jobs?team=4002063008"
+  },
+  {
+    "date": "2025-11-26",
+    "title": "compounding-engineering-plugin/plugins/compounding-engineering/skills/gemini-imagegen at main · EveryInc/compounding-engineering-plugin",
+    "url": "https://github.com/EveryInc/compounding-engineering-plugin/blob/main/plugins/compounding-engineering/skills/gemini-imagegen/SKILL.md"
+  },
+  {
+    "date": "2025-11-26",
+    "title": "op",
+    "url": "https://x.com/DanielMiessler/status/1992435933707395365"
+  },
+  {
+    "date": "2025-11-26",
+    "title": "Measuring political bias in Claude",
+    "url": "https://www.anthropic.com/news/political-even-handedness"
+  },
+  {
+    "date": "2025-11-26",
+    "title": "Thread by @Kangwook_Lee",
+    "url": "https://x.com/Kangwook_Lee/status/1993438649963164121"
+  },
+  {
+    "date": "2025-11-26",
+    "title": "Appliance like virtualization",
+    "url": "https://www.virtualizationhowto.com/2025/11/incusos-is-the-new-minimal-hypervisor-os-changing-home-labs-in-2025/"
+  },
+  {
+    "date": "2025-11-25",
+    "title": "Failing to Understand the Exponential, Again",
+    "url": "https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/"
+  },
+  {
+    "date": "2025-11-25",
+    "title": "0x90n/InfoSec-Black-Friday: All the deals for InfoSec related software/tools this Black Friday",
+    "url": "https://github.com/0x90n/InfoSec-Black-Friday"
+  },
+  {
+    "date": "2025-11-25",
+    "title": "A Reverse Engineer’s Anatomy of the macOS Boot Chain & Security Architecture",
+    "url": "https://stack.int.mov/a-reverse-engineers-anatomy-of-the-macos-boot-chain-security-architecture/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "Dr. Bot: Why Doctors Can Fail Us―and How AI Could Save Lives: Blease, Charlotte: 9780300247145: Amazon.com: Books",
+    "url": "https://www.amazon.com/Dr-Bot-Doctors-Us_and-Could/dp/0300247141"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "From code to boardroom: A GenAI GRC approach to supply chain risk",
+    "url": "https://www.csoonline.com/article/4094519/from-code-to-boardroom-a-genai-grc-approach-to-supply-chain-risk.html"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "CTM",
+    "url": "https://arxiv.org/abs/2505.05522"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "\"I Invented the Transformer. Now I'm Replacing It.\"",
+    "url": "https://www.youtube.com/watch?v=DtePicx_kFY"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "Tensor Flow Playground",
+    "url": "https://playground.tensorflow.org/"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "GPT3 to Gemini",
+    "url": "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "AI Futures Fund",
+    "url": "https://blog.google/technology/google-labs/accel-atoms-ai-futures-fund/"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "TELOS like Life advise",
+    "url": "https://x.com/Camp4/status/1992958445885198805"
+  },
+  {
+    "date": "2025-11-23",
+    "title": "Developing Your Own Font",
+    "url": "https://emilysneddon.com/fran-sans-essay"
+  },
+  {
+    "date": "2025-11-23",
+    "title": "Thanksgiving Vegeterian Recipes",
+    "url": "https://healthygirlkitchen.com/recipes/plant-based-thanksgiving-recipe-roundup-2025/"
+  },
+  {
+    "date": "2025-11-22",
+    "title": "Finance App",
+    "url": "https://tiller.com/how-tiller-works/"
+  },
+  {
+    "date": "2025-11-22",
+    "title": "Wealthfolio",
+    "url": "https://wealthfolio.app/"
+  },
+  {
+    "date": "2025-11-22",
+    "title": "eLearning Platform",
+    "url": "https://elearning.securityblue.team/home/courses/free-courses/introduction-to-osint#content#course-capstone#course-capstone#osint-challenge-brief"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+    "url": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Evidence Gathering And Chain Custody: Informative Content About Gathering Of Evidence",
+    "url": "https://financialcrimeacademy.org/evidence-gathering-and-chain-custody/"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "Using Claude for Atomic Red Teaming",
+    "url": "https://youtu.be/cFdOvrwxAwQ?si=5wP88N1pgoaeatR1"
+  },
+  {
+    "date": "2025-11-18",
+    "title": "How AI is already playing a role at the country's largest for-profit hospital chain",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ai-already-playing-role-countrys-largest-profit-hospital-chain"
+  },
+  {
+    "date": "2025-11-18",
+    "title": "From tasks to systems: A practical playbook for operationalizing AI",
+    "url": "https://www.bvp.com/atlas/from-tasks-to-systems-a-practical-playbook-for-operationalizing-ai"
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Marketplaces in the Age of AI",
+    "url": "https://www.a16z.news/p/marketplaces-in-the-age-of-ai"
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Counsel",
+    "url": "https://www.counselhealth.com/"
+  },
+  {
     "date": "2025-11-15",
     "title": "Details of RLHF #ai-news",
     "url": "https://huyenchip.com/2023/05/02/rlhf.html"
@@ -100,6 +1390,11 @@
     "url": "https://github.com/jacobdjwilson/awesome-annual-security-reports"
   },
   {
+    "date": "2025-11-14",
+    "title": "website",
+    "url": "https://www.longangle.com/holiday-gift-guide-2025"
+  },
+  {
     "date": "2025-11-13",
     "title": "SaaS management free trial & pricing | Trelica #product-news",
     "url": "https://www.trelica.com/pricing"
@@ -193,6 +1488,11 @@
     "date": "2025-11-10",
     "title": "Yuktibhāṣā - Wikipedia #science-news",
     "url": "https://en.wikipedia.org/wiki/Yuktibh%C4%81%E1%B9%A3%C4%81"
+  },
+  {
+    "date": "2025-11-10",
+    "title": "The Book of Indian Mathematics",
+    "url": "https://www.amazon.com/Mathematics-India-Concepts-Connections-Physical/dp/9811317739/"
   },
   {
     "date": "2025-11-08",
