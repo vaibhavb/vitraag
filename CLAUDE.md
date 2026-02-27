@@ -194,6 +194,65 @@ git pull && git push
 - Backup files automatically cleaned after successful updates
 - Git operations complete successfully with proper commit messages
 
+## Bookmarks Sync Workflow
+
+### Command: `sync-bookmarks`
+
+**Purpose**: Extract markdown links from Obsidian daily notes and merge them into `assets/data/bookmarks.json`, which powers the `/bookmarks` page.
+
+**Obsidian Vault Locations:**
+- **2025 notes**: `$OBS_DIR/../Personal-Archive/2025/daily/` (Personal-Archive vault)
+- **2026+ notes**: `$OBS_DIR/2026/daily/` (Personal-Data vault, i.e. `$OBS_DIR`)
+
+**What gets extracted**: Only `[Title](URL)` markdown links. Bare URLs are skipped by default (use `--fetch-bare-urls` to include them with fetched page titles).
+
+**Script**: `data-runners/obsidian_bookmarks_sync.py`
+
+**Weekly Usage:**
+```bash
+cd data-runners
+
+# Standard run (incremental from last sync date)
+python obsidian_bookmarks_sync.py --start YYYY-MM-DD
+
+# Dry run to preview without writing
+python obsidian_bookmarks_sync.py --start YYYY-MM-DD --dry-run --verbose
+
+# Include bare URLs (fetches page titles via HTTP)
+python obsidian_bookmarks_sync.py --start YYYY-MM-DD --fetch-bare-urls
+```
+
+**Initial / Full Backfill** (Week 46 2025 onwards):
+```bash
+python obsidian_bookmarks_sync.py --start 2025-11-10
+```
+
+**How it works:**
+1. Scans Personal-Archive 2025 daily notes from `--start` to 2025-12-31
+2. Scans Personal-Data 2026 daily notes from 2026-01-01 to today
+3. Extracts `[Title](URL)` links from each note
+4. Deduplicates against existing `bookmarks.json` by URL
+5. Merges new entries and sorts descending by date
+6. Writes updated `assets/data/bookmarks.json`
+
+**Output format** (matches existing Notion-sourced entries):
+```json
+{"date": "2026-02-27", "title": "Article Title #tag", "url": "https://..."}
+```
+
+**Git Operations:**
+```bash
+git add assets/data/bookmarks.json
+git commit -m "Sync Obsidian bookmarks YYYY-MM-DD: +N new bookmarks"
+git pull && git push
+```
+
+**Success Metrics:**
+- Net new bookmark count reported (deduplication working correctly)
+- No duplicate URLs in output file
+- Date range spans both vault directories seamlessly
+- `bookmarks.json` total count increases by expected amount
+
 ## Newsletter Generation Workflow
 
 ### Command: `generate-newsletter`
