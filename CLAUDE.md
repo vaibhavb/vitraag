@@ -286,6 +286,16 @@ cd data-runners
 {"date": "2026-02-27", "title": "Article Title #tag", "url": "https://..."}
 ```
 
+**GitHub Actions conflict note:**
+`update_bookmarks.yml` runs daily at 12:00 UTC and calls `update_bookmarks.py` to sync from Notion. This script previously overwrote `bookmarks.json` entirely, destroying Obsidian entries. It was fixed (2026-03-06) to load the existing file first and only append Notion entries whose URL is not already present — so both sources coexist safely.
+
+If Obsidian entries disappear again, run a full backfill:
+```bash
+cd data-runners
+.venv/bin/python3 obsidian_bookmarks_sync.py --start 2025-11-10
+git add assets/data/bookmarks.json && git commit -m "Restore Obsidian bookmarks" && git push
+```
+
 ## Newsletter Generation Workflow
 
 **Script**: `data-runners/newsletter_generator.py`
