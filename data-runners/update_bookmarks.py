@@ -133,21 +133,31 @@ def get_notion_links(numdays=7, datesince=None, db=None, json_file="../assets/da
                                (date, name, url))
             conn.commit()
         print(f"Data saved to SQLite database: {db}")
-    elif save_as_json: 
-        bookmarks = []
-        # Sort bookmarks by date (most recent first)
+    elif save_as_json:
+        # Load existing bookmarks to preserve non-Notion entries (e.g. Obsidian)
+        existing_bookmarks = []
+        if os.path.exists(json_file):
+            with open(json_file, 'r', encoding='utf-8') as f:
+                existing_bookmarks = json.load(f)
+        existing_urls = {b['url'] for b in existing_bookmarks}
+
+        # Only add Notion entries whose URL isn't already present
+        new_count = 0
         for date, name, url in links_data:
-            bookmarks.append({
-                "date": date,
-                "title": name,
-                "url": url
-            })
-        bookmarks.sort(key=lambda x: x['date'], reverse=True)
+            if url not in existing_urls:
+                existing_bookmarks.append({
+                    "date": date,
+                    "title": name,
+                    "url": url
+                })
+                existing_urls.add(url)
+                new_count += 1
+
+        existing_bookmarks.sort(key=lambda x: x['date'], reverse=True)
         os.makedirs(os.path.dirname(json_file), exist_ok=True)
-        # Write data to JSON file
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(bookmarks, f, ensure_ascii=False, indent=2)
-        print(f"Data saved to JSON file: {json_file}")
+            json.dump(existing_bookmarks, f, ensure_ascii=False, indent=2)
+        print(f"Data saved to JSON file: {json_file} ({new_count} new, {len(existing_bookmarks)} total)")
     else:
         # Print the sorted results
         for date, name, url in links_data:
