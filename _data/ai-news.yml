@@ -1,3 +1,10 @@
+- date: '2026-03-06'
+  news-items:
+  - desc: Eval skills by Hamel Husain
+    link: https://github.com/hamelsmu/evals-skills
+  - desc: 'ArtemXTech/personal-os-skills: Claude Code skills for Obsidian | Claude
+      Code Lab starts Mar 17 — Implement /recall from this.'
+    link: https://github.com/ArtemXTech/personal-os-skills
 - date: '2026-02-27'
   news-items:
   - desc: TetrisBench is a novel benchmark where language models compete at Tetris,

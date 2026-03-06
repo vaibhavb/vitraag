@@ -1,5 +1,675 @@
 [
   {
+    "date": "2026-03-05",
+    "title": "How to Rack 30 Petabytes of Storage",
+    "url": "https://si.inc/posts/the-heap/"
+  },
+  {
+    "date": "2026-03-05",
+    "title": "ArtemXTech/personal-os-skills: Claude Code skills for Obsidian | Claude Code Lab starts Mar 17",
+    "url": "https://github.com/ArtemXTech/personal-os-skills"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Google addresses actively exploited Qualcomm zero-day in fresh batch of 129 Android vulnerabilities",
+    "url": "https://cyberscoop.com/android-security-update-march-2026/"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Redesign Spark | Redesign Health",
+    "url": "https://spark.redesignhealth.com/"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. ◆ Truffle Security Co.",
+    "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Building an AI Vishing Solution in 7 Days",
+    "url": "https://labs.reversec.com/posts/2026/02/building-an-ai-vishing-solution-in-7-days"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Dutch cops back Odido as ShinyHunters leaks continue",
+    "url": "https://www.theregister.com/2026/02/27/odido_shinyhunters_leaks/"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "1Password | AlphaSOC",
+    "url": "https://docs.alphasoc.com/data_origins/1password/"
+  },
+  {
+    "date": "2026-03-02",
+    "title": "Grep Is Dead: How I Made Claude Code Actually Remember Things",
+    "url": "https://x.com/ArtemXTech/status/2028330693659332615"
+  },
+  {
+    "date": "2026-03-02",
+    "title": "Nestwell: Home health assessment",
+    "url": "https://www.gonestwell.com/"
+  },
+  {
+    "date": "2026-03-02",
+    "title": "lighworkhome",
+    "url": "https://www.lightworkhome.com/"
+  },
+  {
+    "date": "2026-03-02",
+    "title": "djadmin/awesome-bug-bounty: A comprehensive curated list of available Bug Bounty & Disclosure Programs and Write-ups.",
+    "url": "https://github.com/djadmin/awesome-bug-bounty"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "How a Hidden Prompt Can Steal Your SSH Keys | grith",
+    "url": "https://grith.ai/blog/your-ai-agent-has-broad-access?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-518&_bhlid=8c47b4b6836a41623f8e67a27d811ead5d65d8ed"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "AI's Impact on Software and Bug Bounty · Joseph Thacker",
+    "url": "https://josephthacker.com/ai/2026/02/24/ai-s-impact-on-bug-bounty.html?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-518&_bhlid=823a9b26b14be37bf889fddbdd116bf7c75102e3"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "Get Relief from Hospital Bills – Dollar For",
+    "url": "https://dollarfor.org/"
+  },
+  {
+    "date": "2026-02-27",
+    "title": "CarGurus data breach affects 12.5 million accounts",
+    "url": "https://techcrunch.com/2026/02/24/cargurus-data-breach-affects-12-5-million-accounts/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-27",
+    "title": "Flaws in Claude Code Put Developers' Machines at Risk",
+    "url": "https://www.darkreading.com/application-security/flaws-claude-code-developer-machines-risk"
+  },
+  {
+    "date": "2026-02-27",
+    "title": "OSINT Newsletter CTF",
+    "url": "https://ctf.osintnewsletter.com/challenges"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Development Environment and Tools",
+    "url": "https://missing.csail.mit.edu/2026/development-environment/"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "How to ask good questions",
+    "url": "https://jvns.ca/blog/good-questions/"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "The Emperor Has No Clothes: How to Code Claude Code in 200 Lines of Code",
+    "url": "https://www.mihaileric.com/The-Emperor-Has-No-Clothes/"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "OpenClaw Just Replaced 1,000 Hours of Video Editing Tutorials",
+    "url": "https://www.youtube.com/watch?v=Yt6imPC1FhA"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Detecting and preventing distillation attacks",
+    "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "The DJI Romo robovac had security so poor, this man remotely accessed thousands of them",
+    "url": "https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer",
+    "url": "https://www.youtube.com/watch?v=rmvDxxNubIg&t=706s"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "100+ Kernel Bugs in 30 Days",
+    "url": "https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Cloud Credential Misuse: Detection & Prevention Guide 2026 | Qualys",
+    "url": "https://blog.qualys.com/qualys-insights/2026/02/19/how-security-tool-misuse-is-reshaping-cloud-compromise"
+  },
+  {
+    "date": "2026-02-24",
+    "title": "Hims & Hers to Acquire Eucalyptus in $1.15 Billion Deal",
+    "url": "https://www.wsj.com/business/deals/hims-hers-to-acquire-eucalyptus-in-1-15-billion-deal-3149d69a"
+  },
+  {
+    "date": "2026-02-24",
+    "title": "the problem isn’t OpenClaw. it’s the architecture.",
+    "url": "https://www.vulnu.com/p/the-problem-isnt-openclaw-its-the-architecture?utm_campaign=security-funded-232-paper-hand-tourist-investors&utm_medium=referral&utm_source=www.returnonsecurity.com"
+  },
+  {
+    "date": "2026-02-24",
+    "title": "Open Compliance Trust Exchange Protocol",
+    "url": "https://grcorsair.com/how-it-works"
+  },
+  {
+    "date": "2026-02-23",
+    "title": "I Built TetrisBench, Where LLMs Compete at Playing Tetris",
+    "url": "https://www.a16z.news/p/i-built-tetrisbench-where-llms-compete"
+  },
+  {
+    "date": "2026-02-21",
+    "title": "The next cancer breakthrough may be stopping it before it starts",
+    "url": "https://theconversation.com/the-next-cancer-breakthrough-may-be-stopping-it-before-it-starts-275453"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "Real-World Use Cases | OpenClaw Docs",
+    "url": "https://clawdocs.org/guides/use-cases/"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "OpenClaw Use Cases — What People Build with AI Agents | MyClaw.ai",
+    "url": "https://myclaw.ai/use-cases"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody",
+    "url": "https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "RISE USA OSINT CTF",
+    "url": "https://osint-odyssey.ctfd.io/challenges"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "DEF CON 33 - Unmasking the Snitch Puck: IoT surveillance tech in the school bathroom",
+    "url": "https://youtu.be/WCnojaEpF2I?si=xYUz0Erh6kXaw4Jc"
+  },
+  {
+    "date": "2026-02-19",
+    "title": "Safer Schools Together",
+    "url": "https://saferschoolstogether.com/"
+  },
+  {
+    "date": "2026-02-19",
+    "title": "Saudi entourage for US visit may include official implicated in Twitter spy plot",
+    "url": "https://www.theguardian.com/world/2025/nov/18/saudi-leader-mohammed-bin-salman-entourage-includes-official-implicated-in-twitter-spy-plot"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Proofpoint acquires Acuvity to tackle the security risks of agentic AI",
+    "url": "https://cyberscoop.com/proofpoint-acuvity-deal-agentic-ai-security/"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Book Cost Calculator",
+    "url": "https://www.lulu.com/pricing"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Palo Alto Networks Moves to Secure Agentic Endpoints with Koi Deal",
+    "url": "https://securityboulevard.com/2026/02/palo-alto-networks-moves-to-secure-agentic-endpoints-with-koi-deal/"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "hadriansecurity/subwiz: A lightweight GPT model, trained to discover subdomains.",
+    "url": "https://github.com/hadriansecurity/subwiz"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold - Isomorphic Labs",
+    "url": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Consumer Protection Tuesday: How Coinbase Safeguards PII Using MPC Encryption",
+    "url": "https://www.coinbase.com/en-gb/blog/consumer-protection-tuesday-how-coinbase-safeguards-pii-using-mpc-encryption"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Presidential AI Challenge",
+    "url": "https://www.ai.gov/initiatives/presidential-challenge"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Dvuln",
+    "url": "https://dvuln.com/blog"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "myCalSTRS",
+    "url": "https://my.calstrs.com/NeospinMSSPRD/LoginPages/wfmLoginError.aspx"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "microgpt",
+    "url": "https://karpathy.ai/microgpt.html"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "sjpiper145/MakerSkillTree: A repository of Maker Skill Trees and templates to make your own.",
+    "url": "https://github.com/sjpiper145/MakerSkillTree"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "The Timetables of History: A Horizontal Linkage of People and Events: Grun, Bernard, Simpson, Eva: 9780743270038: Amazon.com: Books",
+    "url": "https://www.amazon.com/Timetables-History-Horizontal-Linkage-People/dp/0743270037/"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "San José Bike Party: Building Community Through Cycling",
+    "url": "https://www.sjbikeparty.org/"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "Multi-Agent Routing",
+    "url": "https://docs.openclaw.ai/concepts/multi-agent"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "Break LLM Workflows with Claude's Refusal Magic String - Hacking The Cloud",
+    "url": "https://hackingthe.cloud/ai-llm/exploitation/claude_magic_string_denial_of_service/"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "Free AI Doctor | Get Health Answers Instantly",
+    "url": "https://www.pranadoc.com/ai-doctor"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Windows Internals: Check Your Privilege - The Curious Case of ETW’s SecurityTrace Flag",
+    "url": "https://connormcgarr.github.io/securitytrace-etw-ppl/"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "What AI Security Research Looks Like When It Works",
+    "url": "https://aisle.com/blog/what-ai-security-research-looks-like-when-it-works"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Owning a $5M data center",
+    "url": "https://blog.comma.ai/datacenter/"
+  },
+  {
+    "date": "2026-02-08",
+    "title": "10x Your Business with AI",
+    "url": "https://varickagents.com/case-studies"
+  },
+  {
+    "date": "2026-02-08",
+    "title": "Fiscal Sponsorship",
+    "url": "https://hackclub.com/fiscal-sponsorship/"
+  },
+  {
+    "date": "2026-02-06",
+    "title": "Anygen",
+    "url": "https://www.anygen.io"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Super Design Skill",
+    "url": "https://github.com/superdesigndev/superdesign-skill"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Claw Install",
+    "url": "https://clawdbody.com/"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Review the topics discussed in clawcon",
+    "url": "https://www.claw-con.com/"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Interesting coding project",
+    "url": "https://hackaday.com/2026/01/30/writing-an-optimizing-tensor-compiler-from-scratch/"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "What I learned building an opinionated and minimal coding agent",
+    "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "Agent Design Is Still Hard",
+    "url": "https://lucumr.pocoo.org/2025/11/21/agents-are-hard/"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "What $250M Means for Our Customers and the Future of Cloud Security - Upwind",
+    "url": "https://www.upwind.io/feed/what-250m-means-for-our-customers-and-the-future-of-cloud-security"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "State of Digital Health 2025 Report - CB Insights Research",
+    "url": "https://www.cbinsights.com/research/report/digital-health-trends-2025/"
+  },
+  {
+    "date": "2026-02-01",
+    "title": "State of Health AI 2026",
+    "url": "https://www.bvp.com/atlas/state-of-health-ai-2026"
+  },
+  {
+    "date": "2026-02-01",
+    "title": "ProjectDiscovery",
+    "url": "https://github.com/projectdiscovery"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Our approach to age prediction",
+    "url": "https://openai.com/index/our-approach-to-age-prediction/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "January, 2026 – PyTorch",
+    "url": "https://pytorch.org/newsletter/january-2026/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Application Security: Getting More out of Your Pen Tests",
+    "url": "https://bishopfox.wistia.com/live/events/jw2m90l4i6"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "An unexpected discovery: Automated reasoning often makes systems more efficient and easier to maintain",
+    "url": "https://aws.amazon.com/blogs/security/an-unexpected-discovery-automated-reasoning-often-makes-systems-more-efficient-and-easier-to-maintain/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Retail AI Lead Generation & Lead Management Software",
+    "url": "https://www.podium.com/experience/retail"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Six JavaScript zero-day bugs lead to fears of supply chain attack",
+    "url": "https://www.scworld.com/news/six-javascript-zero-day-bugs-lead-to-fears-of-supply-chain-attack?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "New sandbox escape flaw exposes n8n instances to RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/new-sandbox-escape-flaw-exposes-n8n-instances-to-rce-attacks/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "East Bay Summer Camp Guide",
+    "url": "https://www.510families.com/east-bay-summer-camp/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Super Bowl 60 arrives in the Bay Area. What's in it for kids?",
+    "url": "https://www.510families.com/family-friendly-san-franciscos-super-bowl/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Where to Take Bay Area Kids to Experience the Snow",
+    "url": "https://www.510families.com/skiing-with-kids/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Giddy-up! Lunar New Year at Fairyland",
+    "url": "https://www.510families.com/giddy-up-lunar-new-year-at-fairyland/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "How rep+ Helped Me Identify a Critical Supabase JWT Exposure",
+    "url": "https://bour.ch/how-rep-helped-me-identify-a-critical-supabase-jwt-exposure/"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Claude finds 353 zero-days on Packagist",
+    "url": "https://sansec.io/research/claude-finds-353-zero-days-packagist"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "A Brief Deep-Dive into Attacking and Defending Kubernetes",
+    "url": "https://heilancoos.github.io/research/2025/12/16/kubernetes.html"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Thread by @",
+    "url": "https://x.com/theonejvo/article/2016510190464675980"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Speaker Portal",
+    "url": "https://cfp.sched.com/speaker/qOfYCadUA8/event"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "Entropy Tax",
+    "url": "https://trails.pieterma.es/trail/entropy-tax/"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "this",
+    "url": "https://www.thehowtolivenewsletter.org/p/alonealone"
+  },
+  {
+    "date": "2026-01-28",
+    "title": "Regional Tech Hubs",
+    "url": "https://techeast.com/regional-tech-hubs/"
+  },
+  {
+    "date": "2026-01-28",
+    "title": "Reading across books with Claude Code | Pieter Maes",
+    "url": "https://pieterma.es/syntopic-reading-claude/"
+  },
+  {
+    "date": "2026-01-27",
+    "title": "skills/plugins/burpsuite-project-parser at main · trailofbits/skills",
+    "url": "https://github.com/trailofbits/skills/tree/main/plugins/burpsuite-project-parser"
+  },
+  {
+    "date": "2026-01-27",
+    "title": "Personal_AI_Infrastructure/Packs/pai-recon-skill at main · danielmiessler/Personal_AI_Infrastructure",
+    "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure/tree/main/Packs/pai-recon-skill"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Thread by @HealthcareAIGuy",
+    "url": "https://x.com/HealthcareAIGuy/status/2015829643618877572"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "the browser is the sandbox",
+    "url": "https://aifoc.us/the-browser-is-the-sandbox/"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Removing Belly Fat",
+    "url": "https://x.com/coachdango/status/2015820528385142798?s=12"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Claroty Secures $150 Million in Series F Funding to Lead Charge on Securing the World’s Mission Critical Infrastructure",
+    "url": "https://claroty.com/press-releases/claroty-secures-150-million-in-series-f-funding-to-lead-charge-on-securing-the-worlds-mission-critical-infrastructure"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "The Mac Malware of 2025 👾",
+    "url": "https://objective-see.org/blog/blog_0x84.html"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "On the Coming Industrialisation of Exploit Generation with LLMs",
+    "url": "https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Posts - Community - Remo Health",
+    "url": "https://remo.health/app/community"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Ambience Healthcare",
+    "url": "https://www.ambiencehealthcare.com/"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Demystifying evals for AI agents",
+    "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Programming Language for AIs",
+    "url": "https://github.com/jordanhubbard/nanolang"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Oneleet | Security-First Compliance (SOC 2, ISO 27001 & More)",
+    "url": "https://www.oneleet.com/"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Metriport | Open-Source API for Healthcare Data",
+    "url": "https://www.metriport.com/"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "EXG Experiment Bundle",
+    "url": "https://shop.openbci.com/products/exg-experiment-bundle"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Claude Cowork Exfiltrates Files",
+    "url": "https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Superhuman AI Exfiltrates Emails",
+    "url": "https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis",
+    "url": "https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Introducing Cowork | Claude",
+    "url": "https://claude.com/blog/cowork-research-preview"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Participants | SF Art Week",
+    "url": "https://sfartweek.com/participants/"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "#JPMorgan Healthcare+Koios Recap | Koios Medical, Inc.",
+    "url": "https://wefunder.com/feed/244632-jpmorgan-healthcare-koios-recap"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "The Palantir-ization of everything",
+    "url": "https://www.a16z.news/p/the-palantirization-of-everything"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "AGI is here…",
+    "url": "https://prodfolks.substack.com/p/agi-is-here"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "The YouTube Moment for Software is happening",
+    "url": "https://www.a16z.news/p/softwares-youtube-moment-is-happening"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "bentossell/ralph-loop-ui",
+    "url": "https://github.com/bentossell/ralph-loop-ui"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Scaling long-running autonomous coding",
+    "url": "https://cursor.com/blog/scaling-agents?utm_source=substack&utm_medium=email"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "AWS Ends SSE-C Encryption, and a Ransomware Vector | CSA",
+    "url": "https://cloudsecurityalliance.org/blog/2026/01/05/aws-ends-sse-c-encryption-and-a-ransomware-vector"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "The Cloud-Native Detection Engineering Handbook",
+    "url": "https://cloudnativedetection.substack.com/p/the-cloud-native-detection-engineering"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning",
+    "url": "https://arxiv.org/abs/2512.15943?utm_source=substack&utm_medium=email"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "Cybersecurity Changes I Expect in 2026",
+    "url": "https://danielmiessler.com/blog/cybersecurity-ai-changes-2026?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-16",
+    "title": "ESXi Exploitation in the Wild",
+    "url": "https://www.huntress.com/blog/esxi-vm-escape-exploit"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Thread by @ProfTomYeh",
+    "url": "https://x.com/ProfTomYeh/status/2011457118591672522"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "10 of the coolest tech products we saw at CES 2026",
+    "url": "https://www.androidauthority.com/best-tech-products-ces-2026-3629913/"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "CrowdStrike acquires just-in-time access startup SGNL for $740M",
+    "url": "https://siliconangle.com/2026/01/08/crowdstrike-acquires-just-time-access-startup-sgnl-740m/"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Lume Health",
+    "url": "https://www.lumehealth.io/science/the-cost-of-daylight-savings-time"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Apollo House",
+    "url": "https://www.startuphealth.com/apollo-house"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "JPM26: Daiichi's ADC optimism after safety flag",
+    "url": "https://firstwordpharma.com/story/7064917"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "BIOTECH 2026 Predictions",
+    "url": "https://lifescivc.com/2026/01/chaos-is-a-ladder-predictions-for-2026/"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Matt Holt launching Thoreau",
+    "url": "https://www.reuters.com/business/holt-leaves-new-mountain-leads-30-billion-takeover-its-assets-sources-say-2025-12-19/"
+  },
+  {
+    "date": "2026-01-13",
+    "title": "youtube",
+    "url": "https://www.youtube.com/watch?v=C1Btp2CLfHo"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "Convergent Research",
+    "url": "https://www.convergentresearch.org/"
+  },
+  {
+    "date": "2026-01-06",
+    "title": "Cybersecurity skills matter more than headcount in the AI era",
+    "url": "https://www.csoonline.com/article/4108270/cybersecurity-skills-matter-more-than-headcount-in-the-ai-era.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-01-04",
+    "title": "Machine Learning Zero to Hero Lessons",
+    "url": "https://karpathy.ai/zero-to-hero.html"
+  },
+  {
     "date": "2025-11-15",
     "title": "Details of RLHF #ai-news",
     "url": "https://huyenchip.com/2023/05/02/rlhf.html"

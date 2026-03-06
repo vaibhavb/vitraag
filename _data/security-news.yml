@@ -1,3 +1,17 @@
+- date: '2026-03-06'
+  news-items:
+  - desc: Google addresses actively exploited Qualcomm zero-day in fresh batch of
+      129 Android vulnerabilities
+    link: https://cyberscoop.com/android-security-update-march-2026/
+  - desc: Google API Keys Weren't Secrets. But then Gemini Changed the Rules. ◆ Truffle
+      Security Co.
+    link: https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules
+  - desc: Building an AI Vishing Solution in 7 Days
+    link: https://labs.reversec.com/posts/2026/02/building-an-ai-vishing-solution-in-7-days
+  - desc: Dutch cops back Odido as ShinyHunters leaks continue
+    link: https://www.theregister.com/2026/02/27/odido_shinyhunters_leaks/
+  - desc: 1Password | AlphaSOC
+    link: https://docs.alphasoc.com/data_origins/1password/
 - date: '2026-02-27'
   news-items:
   - desc: TetrisBench pits LLMs against Tetris in a novel benchmark that illuminates

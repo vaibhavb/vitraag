@@ -1,24 +1,73 @@
 {
-  "target_date": "2026-02-27",
+  "target_date": "2026-03-06",
   "categories": {
     "security-news": {
-      "items": []
+      "items": [
+        {
+          "desc": "Google addresses actively exploited Qualcomm zero-day in fresh batch of 129 Android vulnerabilities",
+          "link": "https://cyberscoop.com/android-security-update-march-2026/"
+        },
+        {
+          "desc": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. ◆ Truffle Security Co.",
+          "link": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules"
+        },
+        {
+          "desc": "Building an AI Vishing Solution in 7 Days",
+          "link": "https://labs.reversec.com/posts/2026/02/building-an-ai-vishing-solution-in-7-days"
+        },
+        {
+          "desc": "Dutch cops back Odido as ShinyHunters leaks continue",
+          "link": "https://www.theregister.com/2026/02/27/odido_shinyhunters_leaks/"
+        },
+        {
+          "desc": "1Password | AlphaSOC",
+          "link": "https://docs.alphasoc.com/data_origins/1password/"
+        }
+      ]
     },
     "ai-news": {
-      "items": []
+      "items": [
+        {
+          "desc": "Eval skills by Hamel Husain",
+          "link": "https://github.com/hamelsmu/evals-skills"
+        },
+        {
+          "desc": "ArtemXTech/personal-os-skills: Claude Code skills for Obsidian | Claude Code Lab starts Mar 17 — Implement /recall from this.",
+          "link": "https://github.com/ArtemXTech/personal-os-skills"
+        }
+      ]
     },
     "digitalhealth-news": {
-      "items": []
+      "items": [
+        {
+          "desc": "Redesign Spark | Redesign Health — Incubator from Redesign Health.",
+          "link": "https://spark.redesignhealth.com/"
+        }
+      ]
     },
     "finance-news": {
       "items": []
     },
     "pm-news": {
-      "items": []
+      "items": [
+        {
+          "desc": "Nestwell: Home health assessment — Similar to",
+          "link": "https://www.gonestwell.com/"
+        },
+        {
+          "desc": "Nestwell: Home health assessment — Similar to",
+          "link": "https://www.lightworkhome.com/"
+        }
+      ]
     }
   },
   "summary": {
-    "total_items": 0,
-    "categories_updated": []
+    "total_items": 10,
+    "categories_updated": [
+      "security-news",
+      "ai-news",
+      "digitalhealth-news",
+      "pm-news"
+    ]
   }
 }
