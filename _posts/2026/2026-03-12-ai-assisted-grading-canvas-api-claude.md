@@ -197,7 +197,7 @@ I still reviewed every submission and heard every student present in class. The 
 
 ## The Code
 
-The full pipeline — Canvas client, extractor, grader, uploader, rubric YAMLs, tests, Docker setup, and Makefile — will be available as a public repository shortly. Watch this space.
+The full pipeline — Canvas client, extractor, grader, uploader, rubric YAMLs, tests, Docker setup, and Makefile — is available at **[cyberdefendersprogram/canvas-ai-assisted-grader](https://github.com/cyberdefendersprogram/canvas-ai-assisted-grader)**.
 
 If you're a Canvas instructor and you've read this far: your personal API token is waiting in Account → Settings → New Access Token. The activation energy is lower than you think.
 
