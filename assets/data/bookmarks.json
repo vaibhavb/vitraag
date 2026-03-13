@@ -1,5 +1,110 @@
 [
   {
+    "date": "2026-03-12",
+    "title": "AI agent cracks McKinsey internal chatbot in two hours​ | Cybernews",
+    "url": "https://cybernews.com/security/ai-agent-cracked-mckinsey-chatbot/"
+  },
+  {
+    "date": "2026-03-12",
+    "title": "Your AI Copilot Is the Newest Attack Surface | Barrack AI",
+    "url": "https://blog.barrack.ai/ai-copilot-attack-surface/"
+  },
+  {
+    "date": "2026-03-12",
+    "title": "Institutional AI vs Individual AI",
+    "url": "https://www.a16z.news/p/institutional-ai-vs-individual-ai"
+  },
+  {
+    "date": "2026-03-12",
+    "title": "Community-powered security with AI: an open source framework for security research",
+    "url": "https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-03-12",
+    "title": "The world needs an AI lab — for Data",
+    "url": "https://www.a16z.news/p/the-world-needs-an-ai-lab-for-data"
+  },
+  {
+    "date": "2026-03-12",
+    "title": "Can world models unlock general purpose robotics?",
+    "url": "https://www.bvp.com/atlas/can-world-models-unlock-general-purpose-robotics"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "Large Language Models in Oncology: Navigating Promise and Prudence in a Rapidly Evolving Landscape | JCO Clinical Cancer Informatics",
+    "url": "https://ascopubs.org/doi/10.1200/CCI-26-00019"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "Review of Large Language Models for Patient and Caregiver Support in Cancer Care Delivery - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41213099/"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "LTR101 - Getting into Industry in 2026",
+    "url": "https://blog.zsec.uk/ltr101-getting-into-industry-in-2026/"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Show HN: DenchClaw – Local CRM on Top of OpenClaw | Hacker News",
+    "url": "https://news.ycombinator.com/item?id=47309953"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "AI's Impact on Software and Bug Bounty · Joseph Thacker",
+    "url": "https://josephthacker.com/ai/2026/02/24/ai-s-impact-on-bug-bounty.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "AWS launches Amazon Connect Health to reduce administrative burden in health care",
+    "url": "https://www.aboutamazon.com/news/aws/amazon-connect-health-ai-healthcare?utm_source=www.healthcareaiguy.com&utm_medium=newsletter&utm_campaign=healthcare-ai-guy-weekly-3-10&_bhlid=ac2f926f4a8294df3d5070f46882893651ca784c"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Kali & LLM: Completely local with Ollama & 5ire | Kali Linux Blog",
+    "url": "https://www.kali.org/blog/kali-llm-ollama-5ire/"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Mathematics is undergoing the biggest change in its history | New Scientist",
+    "url": "https://www.newscientist.com/article/2518526-mathematics-is-undergoing-the-biggest-change-in-its-history/"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "AI Security Handbook",
+    "url": "https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "page agent",
+    "url": "https://github.com/alibaba/page-agent"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "CyberStrikeAI tool adopted by hackers for AI-powered attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cyberstrikeai-tool-adopted-by-hackers-for-ai-powered-attacks/"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "Prompt Engineering Is Dead. Long Live DSPy.",
+    "url": "https://dzone.com/articles/prompt-engineering-is-dead-long-live-dspy"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "A Race Within A Race: Exploiting CVE-2025-38617 in Linux Packet Sockets",
+    "url": "https://blog.calif.io/p/a-race-within-a-race-exploiting-cve"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "Datasets — Open Health Data Hub",
+    "url": "https://www.openhealthdatahub.com/datasets"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "Bhagavad Gita by Swami Chinmayananda | Grand Old Books",
+    "url": "https://grandoldbooks.com/books/bhagavad-gita"
+  },
+  {
     "date": "2026-03-07",
     "title": "New LexisNexis Data Breach Confirmed After Hackers Leak Files",
     "url": "https://www.securityweek.com/new-lexisnexis-data-breach-confirmed-after-hackers-leak-files/"
