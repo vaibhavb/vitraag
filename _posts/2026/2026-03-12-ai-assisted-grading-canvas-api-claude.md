@@ -167,6 +167,24 @@ What stood out was the speed of the feedback loop. Instead of reading API docs a
 
 ---
 
+## Where It Mattered Most: The Capstone
+
+The most valuable use of the system turned out to be the final capstone project — and it's worth describing separately because the stakes and complexity were higher than the weekly labs.
+
+The capstone gave students three different paths to choose from, each testing a different depth of skill. Submissions were largely written reports paired with in-class verbal presentations. That combination — a document you read before class and a live presentation you sit through — is exactly where grading fatigue compounds fastest. You're evaluating the same student twice, across two different media, against a rubric that has to flex across three distinct project types.
+
+The AI tool helped on three specific dimensions:
+
+**AI-assisted writing detection.** With 36 students submitting written work, spotting AI-generated content by eye alone is unreliable and exhausting. The `AI_GENERATED_SUSPECTED` flag gave me a structured signal to check — not a verdict, but a prompt to look harder. Cross-referencing the written submission against what the student said aloud in their presentation made the assessment much more grounded.
+
+**Rubric adherence across three tracks.** Because students chose different project types, the rubric had to be applied differently depending on which path they took. Encoding each track as its own YAML rubric meant Claude evaluated submissions against the right criteria automatically, rather than me mentally context-switching between rubrics for every other student.
+
+**Depth of evidence.** The written sections varied enormously in specificity — some students showed every command, every screenshot, every step; others described what they did in general terms. The AI feedback reliably flagged thin evidence with `REVIEW_NEEDED`, which surfaced the submissions that needed a harder look before the presentation.
+
+I still reviewed every submission and heard every student present in class. The presentations are irreplaceable — you learn things in five minutes of live Q&A that a written report would never reveal. But walking into those presentations having already read AI-generated first-pass feedback meant I arrived with specific questions, not a blank slate. That made the conversations sharper.
+
+---
+
 ## What I'd Do Differently
 
 **Grade calibration.** The AI scores are internally consistent but not necessarily calibrated to how I grade. A few more examples of "this is a 90 in my class" in the rubric's `extra_instructions` would help anchor the scoring.
@@ -185,4 +203,4 @@ If you're a Canvas instructor and you've read this far: your personal API token 
 
 ---
 
-*Vaibhav Bhandari teaches CIS-55 Hacker Techniques & Exploits at Peralta College. He is also a security practitioner and AI tinkerer.*
+* Vaibhav teaches CIS-55 Hacker Techniques & Exploits (among other courses) at Merritt College (Peralta System). He is also a security practitioner and AI tinkerer.*
