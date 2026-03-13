@@ -1,3 +1,18 @@
+- date: '2026-03-12'
+  news-items:
+  - desc: 'A Race Within A Race: Exploiting CVE-2025-38617 in Linux Packet Sockets'
+    link: https://blog.calif.io/p/a-race-within-a-race-exploiting-cve
+  - desc: LTR101 - Getting into Industry in 2026
+    link: https://blog.zsec.uk/ltr101-getting-into-industry-in-2026/
+  - desc: 'Kali & LLM: Completely local with Ollama & 5ire | Kali Linux Blog'
+    link: https://www.kali.org/blog/kali-llm-ollama-5ire/
+  - desc: AI Security Handbook — must review!!
+    link: https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection
+  - desc: Your AI Copilot Is the Newest Attack Surface | Barrack AI
+    link: https://blog.barrack.ai/ai-copilot-attack-surface/
+  - desc: 'Community-powered security with AI: an open source framework for security
+      research'
+    link: https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/?utm_source=tldrinfosec
 - date: '2026-03-08'
   news-items:
   - desc: New LexisNexis Data Breach Confirmed After Hackers Leak Files

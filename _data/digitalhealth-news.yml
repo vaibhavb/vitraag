@@ -1,3 +1,16 @@
+- date: '2026-03-12'
+  news-items:
+  - desc: Datasets — Open Health Data Hub
+    link: https://www.openhealthdatahub.com/datasets
+  - desc: AWS launches Amazon Connect Health to reduce administrative burden in health
+      care
+    link: https://www.aboutamazon.com/news/aws/amazon-connect-health-ai-healthcare?utm_source=www.healthcareaiguy.com&utm_medium=newsletter&utm_campaign=healthcare-ai-guy-weekly-3-10&_bhlid=ac2f926f4a8294df3d5070f46882893651ca784c
+  - desc: 'Large Language Models in Oncology: Navigating Promise and Prudence in a
+      Rapidly Evolving Landscape | JCO Clinical Cancer Informatics'
+    link: https://ascopubs.org/doi/10.1200/CCI-26-00019
+  - desc: Review of Large Language Models for Patient and Caregiver Support in Cancer
+      Care Delivery - PubMed
+    link: https://pubmed.ncbi.nlm.nih.gov/41213099/
 - date: '2026-03-06'
   news-items:
   - desc: Redesign Spark | Redesign Health — Incubator from Redesign Health.

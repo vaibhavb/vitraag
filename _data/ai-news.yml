@@ -1,3 +1,18 @@
+- date: '2026-03-12'
+  news-items:
+  - desc: Mathematics is undergoing the biggest change in its history | New Scientist
+    link: https://www.newscientist.com/article/2518526-mathematics-is-undergoing-the-biggest-change-in-its-history/
+  - desc: AI Security Handbook — must review!!
+    link: https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection
+  - desc: page agent — Try
+    link: https://github.com/alibaba/page-agent
+  - desc: Institutional AI vs Individual AI
+    link: https://www.a16z.news/p/institutional-ai-vs-individual-ai
+  - desc: The world needs an AI lab — for Data — AI lab for Data?
+    link: https://www.a16z.news/p/the-world-needs-an-ai-lab-for-data
+  - desc: Can world models unlock general purpose robotics? — World knowledge how
+      objects behave, how gravity works, how liquids pour and fabrics drape is universal.
+    link: https://www.bvp.com/atlas/can-world-models-unlock-general-purpose-robotics
 - date: '2026-03-08'
   news-items:
   - desc: try to learn and write a note on
