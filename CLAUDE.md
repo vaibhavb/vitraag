@@ -36,6 +36,21 @@ Each theme defines:
 ### Future Enhancement
 Consider implementing automatic seasonal theme switching based on current date or adding UI controls for manual theme selection.
 
+## Cron Script Notes
+
+### git -C instead of cd
+All cron scripts use `git -C "$REPO" <command>` rather than `cd "$REPO" && git <command>`. This avoids `fatal: Unable to read current working directory: Operation not permitted`, which occurs when the macOS cron daemon lacks Full Disk Access to `~/Documents` and git internally calls `getcwd()`.
+
+Scripts: `~/.config/me/vitraag_bookmarks_sync.sh`, `~/.config/me/vitraag_news_sync.sh`
+
+### GitHub credential
+Git pushes use `gh auth git-credential`. The active account must be `vaibhavb` (not `vaibhav-hellojasper` or `vaibhav-startree`). If pushes fail with 403:
+```bash
+gh auth switch --user vaibhavb
+```
+
+---
+
 ## Weekly News Update Workflow
 
 ### Automated Sync (preferred)
