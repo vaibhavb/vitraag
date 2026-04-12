@@ -1,12 +1,12 @@
-last_updated: '2026-04-11T01:32:03.984391+00:00'
+last_updated: '2026-04-12T01:32:17.668724+00:00'
 posts:
-- pageviews: 2082
+- pageviews: 2086
   path: /
   title: Vaibhav Bhandari Homepage
 - pageviews: 165
   path: /bookmarks
   title: bookmarks
-- pageviews: 141
+- pageviews: 140
   path: /posts-by-year/
   title: Posts By Year!
 - pageviews: 138
@@ -22,11 +22,11 @@ posts:
   path: /2024/12/31/a-year-in-review/
   title: A Year In Review
 - pageviews: 101
-  path: /2024/11/22/ai-healthcare/
-  title: AI Healthcare
-- pageviews: 100
   path: /2024/05/20/may-motions-and-mysteries/
   title: May Motions And Mysteries
+- pageviews: 101
+  path: /2024/11/22/ai-healthcare/
+  title: AI Healthcare
 - pageviews: 97
   path: /2024/03/17/slow-fast-march/
   title: Slow Fast March!
