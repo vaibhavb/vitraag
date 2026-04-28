@@ -1,3 +1,22 @@
+- date: '2026-04-05'
+  news-items:
+  - desc: A foundation model of vision, audition, and language for in-silico neuroscience
+      | Research - AI at Meta — Cognitive neuroscience is fragmented into specialized
+      models, each tailored to specific experimental paradigms, hence preventing a
+      unified model of...
+    link: https://ai.meta.com/research/publications/a-foundation-model-of-vision-audition-and-language-for-in-silico-neuroscience/
+- date: '2026-03-22'
+  news-items:
+  - desc: The internet ruined customer service. AI could save it. — Alex Danco identifies
+      it correctly as the Jevons paradox. When the cost of something drops dramatically,
+      if demand for that good is sufficiently elastic, then we don’t just consume
+      the same amount of that thing and pocket the savings. We consume vastly more
+      of it.
+    link: https://www.a16z.news/p/the-internet-ruined-customer-service
+  - desc: Tech boss uses AI and ChatGPT to make his dog a cancer vaccine — 🤖 @Clawd
+      I want you to find exact technical details on how this was achieved and make
+      sure we make a note out of this.
+    link: https://www.thestreet.com/health/tech-boss-uses-ai-and-chatgpt-to-make-his-dog-a-cancer-vaccine
 - date: '2026-03-12'
   news-items:
   - desc: Mathematics is undergoing the biggest change in its history | New Scientist

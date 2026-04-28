@@ -1,3 +1,15 @@
+- date: '2026-04-19'
+  news-items:
+  - desc: 'AI to Help Assess Clinical Quality: Example (potential) Darth Vecdor Use
+      Case + Configs — Darth Vecdor is open source, freely available software to create
+      knowledge bases using LLMs (like ChatGPT). With some trepidation, I share a
+      set of example Darth Vedor configurations that may facilitate clinical quality
+      measurment and improvement in healthcare.'
+    link: https://zeroeffectors.com/2026/04/14/ai-to-help-assess-clinical-quality-example-potential-darth-vecdor-use-case-configs/
+- date: '2026-03-22'
+  news-items:
+  - desc: HIMSS 2026 Recap and Major Announcements — HIMSS annoucements.
+    link: https://digitalhealthwire.com/himss-2026-recap-and-major-announcements/
 - date: '2026-03-12'
   news-items:
   - desc: Datasets — Open Health Data Hub

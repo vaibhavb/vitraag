@@ -1,3 +1,19 @@
+- date: '2026-04-12'
+  news-items:
+  - desc: 'Harness Engineering Explained: What the Claude Leak Means for AI Products
+      — The Claude Code leak revealed why harness engineering not models drives reliable
+      AI products. Learn what it means for product managers and AI strategy.'
+    link: https://www.productboard.com/blog/what-the-claude-clode-leak-means-for-product-managers/
+- date: '2026-04-05'
+  news-items:
+  - desc: 50 startups transforming industries with physical AI — After decades of
+      promise, autonomous systems and robotics are moving from labs to factory floors
+      and households powered by breakthroughs in AI and hardware.
+    link: https://www.bvp.com/atlas/50-startups-transforming-industries-with-physical-ai
+  - desc: 'Securing AI agents: the defining cybersecurity challenge of 2026 — The
+      agentic workforce is pushing CISOs to reimagine the security stack as they navigate
+      an evolving threat landscape.'
+    link: https://www.bvp.com/atlas/securing-ai-agents-the-defining-cybersecurity-challenge-of-2026
 - date: '2026-03-06'
   news-items:
   - desc: 'Nestwell: Home health assessment — Similar to'

@@ -1,81 +1,14 @@
 {
-  "target_date": "2026-03-12",
+  "target_date": "2026-04-28",
   "categories": {
     "security-news": {
-      "items": [
-        {
-          "desc": "A Race Within A Race: Exploiting CVE-2025-38617 in Linux Packet Sockets",
-          "link": "https://blog.calif.io/p/a-race-within-a-race-exploiting-cve"
-        },
-        {
-          "desc": "LTR101 - Getting into Industry in 2026",
-          "link": "https://blog.zsec.uk/ltr101-getting-into-industry-in-2026/"
-        },
-        {
-          "desc": "Kali & LLM: Completely local with Ollama & 5ire | Kali Linux Blog",
-          "link": "https://www.kali.org/blog/kali-llm-ollama-5ire/"
-        },
-        {
-          "desc": "AI Security Handbook — must review!!",
-          "link": "https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection"
-        },
-        {
-          "desc": "Your AI Copilot Is the Newest Attack Surface | Barrack AI",
-          "link": "https://blog.barrack.ai/ai-copilot-attack-surface/"
-        },
-        {
-          "desc": "Community-powered security with AI: an open source framework for security research",
-          "link": "https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/?utm_source=tldrinfosec"
-        }
-      ]
+      "items": []
     },
     "ai-news": {
-      "items": [
-        {
-          "desc": "Mathematics is undergoing the biggest change in its history | New Scientist",
-          "link": "https://www.newscientist.com/article/2518526-mathematics-is-undergoing-the-biggest-change-in-its-history/"
-        },
-        {
-          "desc": "AI Security Handbook — must review!!",
-          "link": "https://github.com/anmolksachan/AI-ML-Free-Resources-for-Security-and-Prompt-Injection"
-        },
-        {
-          "desc": "page agent — Try",
-          "link": "https://github.com/alibaba/page-agent"
-        },
-        {
-          "desc": "Institutional AI vs Individual AI",
-          "link": "https://www.a16z.news/p/institutional-ai-vs-individual-ai"
-        },
-        {
-          "desc": "The world needs an AI lab — for Data — AI lab for Data?",
-          "link": "https://www.a16z.news/p/the-world-needs-an-ai-lab-for-data"
-        },
-        {
-          "desc": "Can world models unlock general purpose robotics? — World knowledge how objects behave, how gravity works, how liquids pour and fabrics drape is universal.",
-          "link": "https://www.bvp.com/atlas/can-world-models-unlock-general-purpose-robotics"
-        }
-      ]
+      "items": []
     },
     "digitalhealth-news": {
-      "items": [
-        {
-          "desc": "Datasets — Open Health Data Hub",
-          "link": "https://www.openhealthdatahub.com/datasets"
-        },
-        {
-          "desc": "AWS launches Amazon Connect Health to reduce administrative burden in health care",
-          "link": "https://www.aboutamazon.com/news/aws/amazon-connect-health-ai-healthcare?utm_source=www.healthcareaiguy.com&utm_medium=newsletter&utm_campaign=healthcare-ai-guy-weekly-3-10&_bhlid=ac2f926f4a8294df3d5070f46882893651ca784c"
-        },
-        {
-          "desc": "Large Language Models in Oncology: Navigating Promise and Prudence in a Rapidly Evolving Landscape | JCO Clinical Cancer Informatics",
-          "link": "https://ascopubs.org/doi/10.1200/CCI-26-00019"
-        },
-        {
-          "desc": "Review of Large Language Models for Patient and Caregiver Support in Cancer Care Delivery - PubMed",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41213099/"
-        }
-      ]
+      "items": []
     },
     "finance-news": {
       "items": []
@@ -85,11 +18,7 @@
     }
   },
   "summary": {
-    "total_items": 16,
-    "categories_updated": [
-      "security-news",
-      "ai-news",
-      "digitalhealth-news"
-    ]
+    "total_items": 0,
+    "categories_updated": []
   }
 }

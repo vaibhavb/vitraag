@@ -1,3 +1,51 @@
+- date: '2026-04-19'
+  news-items:
+  - desc: FBI Recovers Deleted Signal Messages Through iPhone Notifications — Signal
+      messages may persist in iPhone notification data, enabling FBI access even after
+      deletion, a court case reveals. Here's how to disable this!
+    link: https://hackread.com/fbi-recover-deleted-signal-messages-iphone-notifications/
+  - desc: Google rolls out Gmail end-to-end encryption on mobile devices — Google
+      says Gmail end to end encryption (E2EE) is now available on all Android and
+      iOS devices, allowing enterprise users to read and compose emails without additional
+      tools.
+    link: https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/?utm_source=tldrinfosec
+  - desc: I've Completely Changed How I Work — Sharing the motivation, approaches,
+      and what it means for the future of staff engineering
+    link: https://theengineersetlist.substack.com/p/ive-completely-changed-how-i-work
+- date: '2026-04-05'
+  news-items:
+  - desc: 'Securing AI agents: the defining cybersecurity challenge of 2026 — The
+      agentic workforce is pushing CISOs to reimagine the security stack as they navigate
+      an evolving threat landscape.'
+    link: https://www.bvp.com/atlas/securing-ai-agents-the-defining-cybersecurity-challenge-of-2026
+  - desc: Pentesting a pentest agent - Here’s what I’ve found in AWS Security Agent
+      — Richard’s blogs on Cloud Security
+    link: https://blog.richardfan.xyz/2026/03/14/pentesting-a-pentest-agent-heres-what-ive-found-in-aws-security-agent.html
+  - desc: Designing AI agents to resist prompt injection — How ChatGPT defends against
+      prompt injection and social engineering by constraining risky actions and protecting
+      sensitive data in agent workflows.
+    link: https://openai.com/index/designing-agents-to-resist-prompt-injection/?utm_source=tldrinfosec
+  - desc: Security Analysis of the Official White House iOS App — We reverse engineered
+      the official White House iOS app (gov.whitehouse.app) and found concerning security
+      and privacy issues, including a Russian origin company executing live JavaScript,
+      GPS tracking with a false privacy manifest, and minimal security hardening.
+    link: https://www.atomic.computer/blog/white-house-app-security-analysis/?utm_source=tldrinfosec
+- date: '2026-03-22'
+  news-items:
+  - desc: 'FancyBear Exposed: Major OPSEC Blunder Inside Russian Espionage Ops — Exemplar
+      security report'
+    link: https://ctrlaltintel.com/threat%20research/FancyBear/
+  - desc: Everyone is finding vulns. The hard part is proving them. — ProjectDiscovery
+      Blog — LLMs are a genuine leap forward for vulnerability discovery. Anthropic
+      reported 500+ zero days from Opus 4.6 and OpenAI's Codex Security discovered
+      14 CVEs across projects like OpenSSH and GnuTLS. If you've experimented with
+      LLMs for security testing, you've probably been impressed too.
+    link: https://projectdiscovery.io/blog/everyone-is-finding-vulns-the-hard-part-is-proving-them
+  - desc: Twenty Years of Cloud Security Research | Wiz Blog — This post will look
+      at the past 20 years of cloud security research, separating the two decades
+      into eras with important milestones defined that resulted in the change of one
+      era to the next.
+    link: https://www.wiz.io/blog/twenty-years-of-cloud-security-research?
 - date: '2026-03-12'
   news-items:
   - desc: 'A Race Within A Race: Exploiting CVE-2025-38617 in Linux Packet Sockets'
