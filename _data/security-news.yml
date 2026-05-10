@@ -1,3 +1,27 @@
+- date: '2026-05-08'
+  news-items:
+  - desc: Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats —
+      Edtech company Instructure says names, email addresses, ID numbers, and messages
+      were stolen in a cyberattack.
+    link: https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/
+  - desc: Seven Queries to Audit the Sentinel Detections Your SOC May Have Missed.
+      — More
+    link: https://medium.com/@rohitashokgowd/seven-queries-to-audit-the-sentinel-detections-your-soc-may-have-missed-8e9c73fc2522
+  - desc: Anthropic Mythos shaping up as nothingburger — Hackpocalypse deferred
+    link: https://www.theregister.com/security/2026/04/22/anthropic-mythos-shaping-up-as-nothingburger/5225649
+  - desc: CTFs in the AI Era — The Include Security team attended the BSides 2026
+      CTF competition and observed how effective frontier models have become at solving
+      a variety of CTF challenges. Our team gives a first hand account of how the
+      winning strategy has recently shifted to prioritizing efficient solve times
+      and orchestration pipelines that can combine the speed of lighter weight models
+      on easier challenges with a heavy hitting model's reasoning capabilities. We
+      also highlight why the success of LLMs in CTFs does not translate as effectively
+      in the arena of professional security assessments.
+    link: https://blog.includesecurity.com/2026/04/ctfs-in-the-ai-era/
+  - desc: 'Introducing AIMap: Security Testing For AI Agent Infrastructure — AIMap
+      is Bishop Fox''s open source tool for discovering and testing exposed AI infrastructure,
+      giving defenders the visibility attackers already have.'
+    link: https://bishopfox.com/blog/introducing-aimap-security-testing-for-ai-agent-infrastructure
 - date: '2026-04-19'
   news-items:
   - desc: FBI Recovers Deleted Signal Messages Through iPhone Notifications — Signal

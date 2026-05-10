@@ -1,3 +1,9 @@
+- date: '2026-05-08'
+  news-items:
+  - desc: Recursion Is The Next Scaling Law In AI — A 7 million parameter model outperforming
+      models a thousand times its size on tasks like ARC Prize. That's what recursive
+      reasoning unlocks.In this episode o...
+    link: https://www.youtube.com/watch?v=DGtUUMNYLcc
 - date: '2026-04-05'
   news-items:
   - desc: A foundation model of vision, audition, and language for in-silico neuroscience
