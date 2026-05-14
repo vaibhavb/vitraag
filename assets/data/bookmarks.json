@@ -1,5 +1,200 @@
 [
   {
+    "date": "2026-05-14",
+    "title": "CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale",
+    "url": "https://www.cybergym.io/"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations, and Initial Access",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Hackers accessed BWH Hotels reservation system for months",
+    "url": "https://securityaffairs.com/192038/data-breach/hackers-accessed-bwh-hotels-reservation-system-for-months.html"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "https://github.com/0xSteph/pentest-ai-agents",
+    "url": "https://github.com/0xSteph/pentest-ai-agents"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "https://youtu.be/KrKk8BGPeQA",
+    "url": "https://youtu.be/KrKk8BGPeQA"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "https://crawshaw.io/blog/building-a-cloud",
+    "url": "https://crawshaw.io/blog/building-a-cloud"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Nomad",
+    "url": "https://nomadsculpt.com/"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Teardrop Camper From Canada - DROPLET Trailer",
+    "url": "https://droplet-trailer.com/the-trailer/"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Open AI Position Paper",
+    "url": "https://cdn.openai.com/pdf/keeping-patients-first.pdf"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+    "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "AI-powered honeypots: Turning the tables on malicious AI agents",
+    "url": "https://blog.talosintelligence.com/ai-powered-honeypots-turning-the-tables-on-malicious-ai-agents/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Microsoft Cybersecurity and Certification Scholarship - Women in Cloud",
+    "url": "https://womenincloud.com/cybersecurity/"
+  },
+  {
+    "date": "2026-05-08",
+    "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview – Mozilla Hacks - the Web developer blog",
+    "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Sultana's Dream",
+    "url": "https://en.wikipedia.org/wiki/Sultana's_Dream"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Building an AI Cyber Threat Intelligence Dashboard | Atlanta",
+    "url": "https://atlanta.aitinkerers.org/talks/rsvp_N1oUwQ-s0Q8"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Tracking the Expansion of ShinyHunters-Branded SaaS Data Theft",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Exclusive: Vanta hits $300 million ARR as ‘shadow AI’ explodes across corporate America",
+    "url": "https://fortune.com/2026/04/29/exclusive-vanta-arr-300-million-sequoia-shadow-ai-claude-cursor/"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "How an AI Bill Becomes a Law",
+    "url": "https://www.a16z.news/p/how-an-ai-bill-becomes-a-law"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "clearbluejar/pyghidra-mcp: Python Command-Line Ghidra MCP",
+    "url": "https://github.com/clearbluejar/pyghidra-mcp?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats",
+    "url": "https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "ridgelinecyberdefence/vanguard",
+    "url": "https://github.com/ridgelinecyberdefence/vanguard?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Seven Queries to Audit the Sentinel Detections Your SOC May Have Missed.",
+    "url": "https://medium.com/@rohitashokgowd/seven-queries-to-audit-the-sentinel-detections-your-soc-may-have-missed-8e9c73fc2522"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Anthropic Mythos shaping up as nothingburger",
+    "url": "https://www.theregister.com/security/2026/04/22/anthropic-mythos-shaping-up-as-nothingburger/5225649"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Mayo Clinic AI helps specialists detect pancreatic cancer up to 3 years before diagnosis in landmark validation study",
+    "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study/"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "CTFs in the AI Era",
+    "url": "https://blog.includesecurity.com/2026/04/ctfs-in-the-ai-era/"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Recursion Is The Next Scaling Law In AI",
+    "url": "https://www.youtube.com/watch?v=DGtUUMNYLcc"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Stories Daniel Rated Worth a Take",
+    "url": "https://news.thesurface.ai/"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Introducing AIMap: Security Testing For AI Agent Infrastructure",
+    "url": "https://bishopfox.com/blog/introducing-aimap-security-testing-for-ai-agent-infrastructure"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Senderos, Level 3",
+    "url": "https://vistahigherlearning.com/store/senderos-level-3.html"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Redis array type: short story of a long development",
+    "url": "https://antirez.com/news/164"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Amp",
+    "url": "https://ampcode.com/"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Jon Sarriugarte | The People's Artist presented by Johnny Depp",
+    "url": "https://peoplesartist.org/2026/jon-sarriugarte?fbclid=IwdGRleARlv8tjbGNrBGW5pWV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHsAdK1ZXECkjEfzqBGscVbCMXVBUBsGfKR8JlBRRGJbjfdAaakFBc0RV1o5S_aem_CxL7a8TpUbvmae4JWLxGhw"
+  },
+  {
+    "date": "2026-05-04",
+    "title": "Content for Content’s Sake | Armin Ronacher's Thoughts and Writings",
+    "url": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Portfolio Review - April 2026",
+    "url": "https://www.thewolfofharcourtstreet.com/p/portfolio-review-april-2026?utm_source=post-email-title&publication_id=158009&post_id=194084914&utm_campaign=email-post-title&isFreemail=true&r=1xgaxy&triedRedirect=true&utm_medium=email"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Unsupervised Learning NO. 527",
+    "url": "https://newsletter.danielmiessler.com/p/unsupervised-learning-no-527?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=unsupervised-learning-no-527"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Outreach",
+    "url": "https://www.fbi.gov/how-we-can-help-you/outreach"
+  },
+  {
+    "date": "2026-04-30",
+    "title": "Hyperscribe: AI Clinical Copilot for EMR",
+    "url": "https://www.canvasmedical.com/extensions/hyperscribe"
+  },
+  {
+    "date": "2026-04-30",
+    "title": "Weeks of work. Overnight.",
+    "url": "https://www.hyperagent.com/"
+  },
+  {
+    "date": "2026-04-30",
+    "title": "AppSec Village - DEF CON 34: Call for Proposals",
+    "url": "https://sessionize.com/appsec-village-def-con-34/?mc_cid=a7770912c6"
+  },
+  {
     "date": "2026-04-28",
     "title": "AI-powered scanner vulnerabilities | Web Security Academy",
     "url": "https://portswigger.net/web-security/llm-attacks/ai-powered-scanner-vulnerabilities"
