@@ -1,3 +1,23 @@
+- date: '2026-05-21'
+  news-items:
+  - desc: Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations,
+      and Initial Access — Explore GTIG's 2026 report on how adversaries leverage
+      AI for zero day exploits, autonomous malware, and industrial scale cyber operations.
+    link: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access?utm_source=tldrinfosec
+  - desc: Hackers accessed BWH Hotels reservation system for months — BWH Hotels says
+      hackers accessed guest reservation data, including names and contacts, for over
+      six months across multiple hotel brands.
+    link: https://securityaffairs.com/192038/data-breach/hackers-accessed-bwh-hotels-reservation-system-for-months.html
+- date: '2026-05-17'
+  news-items:
+  - desc: Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations,
+      and Initial Access — Explore GTIG's 2026 report on how adversaries leverage
+      AI for zero day exploits, autonomous malware, and industrial scale cyber operations.
+    link: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access?utm_source=tldrinfosec
+  - desc: Hackers accessed BWH Hotels reservation system for months — BWH Hotels says
+      hackers accessed guest reservation data, including names and contacts, for over
+      six months across multiple hotel brands.
+    link: https://securityaffairs.com/192038/data-breach/hackers-accessed-bwh-hotels-reservation-system-for-months.html
 - date: '2026-05-08'
   news-items:
   - desc: Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats —
