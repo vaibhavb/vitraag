@@ -24,34 +24,95 @@
             border-bottom: 1px solid #eee;
         }
 
-        /* Left Column (Stocks & Navigation) Styles Sticky Behavior*/
-        .left-sidebar-column { /* Renamed for clarity */
+        /* ---- Vitraag Index Table ---- */
+        .stock-index-section {
+            margin-bottom: 40px;
+            padding: 25px 30px;
+            background: #fafafa;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+        }
+        .stock-index-title {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #111;
+            text-align: center;
+            margin-bottom: 4px;
+        }
+        .stock-index-subtitle {
+            text-align: center;
+            font-size: 0.72em;
+            letter-spacing: 0.1em;
+            color: #999;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .stock-index-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+        .stock-index-table thead th {
+            font-size: 0.72em;
+            letter-spacing: 0.1em;
+            color: #999;
+            text-align: right;
+            padding: 6px 12px 10px;
+            border-bottom: 2px solid #ddd;
+            text-transform: uppercase;
+        }
+        .stock-index-table thead th:first-child { text-align: left; }
+        .stock-index-table .group-header td {
+            padding: 14px 12px 5px;
+            font-size: 0.72em;
+            font-weight: 700;
+            letter-spacing: 0.13em;
+            color: #777;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ddd;
+        }
+        .stock-index-table .stock-row td {
+            padding: 9px 12px;
+            border-bottom: 1px solid #f2f2f2;
+            text-align: right;
+        }
+        .stock-index-table .stock-row td:first-child {
+            text-align: left;
+            font-weight: 600;
+            color: #111;
+        }
+        .stock-index-table .stock-row td.mkt-cap { color: #666; }
+        .stock-index-table .stock-row td.close-price { font-variant-numeric: tabular-nums; color: #222; }
+        .change-positive { color: #28a745; font-weight: 600; }
+        .change-negative { color: #dc3545; font-weight: 600; }
+        .change-neutral  { color: #999; }
+        /* ---- End Index Table ---- */
+
+        /* Left Column (Stocks & Navigation) Sticky Behavior */
+        .left-sidebar-column {
             padding-right: 25px;
-            border-right: 1px solid #eee; 
-            position: -webkit-sticky; /* For Safari compatibility */
+            border-right: 1px solid #eee;
+            position: -webkit-sticky;
             position: sticky;
-            top: 20px; /* Adjust this value based on your header height or desired spacing from the top */
-            align-self: flex-start; /* Helps in flex layouts like Bulma columns */
-            max-height: calc(100vh - 40px); /* Example: 100% viewport height minus top (20px) and some bottom space (20px) */
-            overflow-y: auto; /* Adds a scrollbar WITHIN the sidebar if its content exceeds max-height */
+            top: 20px;
+            align-self: flex-start;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
         }
 
-        .left-sidebar-column h2, .left-sidebar-column h3 { /* Common styling for headings in left bar */
+        .left-sidebar-column h2, .left-sidebar-column h3 {
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bold;
             color: #111;
-            margin-bottom: 15px; /* Adjusted margin */
+            margin-bottom: 15px;
             padding-bottom: 10px;
             border-bottom: 1px solid #e0e0e0;
         }
-        .left-sidebar-column h2 { /* For "Market Watch" */
-            font-size: 1.5em;
-        }
-        .left-sidebar-column h3 { /* For "Jump to Date" */
-            font-size: 1.3em;
-            margin-top: 30px; /* Space above Jump to Date if stocks are present */
-        }
+        .left-sidebar-column h2 { font-size: 1.5em; }
+        .left-sidebar-column h3 { font-size: 1.3em; margin-top: 30px; }
 
+        /* Legacy flat stock list */
         .stock-item {
             display: flex;
             justify-content: space-between;
@@ -59,25 +120,12 @@
             border-bottom: 1px solid #f5f5f5;
             font-size: 0.95em;
         }
-        .stock-item:last-child {
-            border-bottom: none;
-        }
-        .stock-name {
-            font-weight: 600;
-            color: #333;
-        }
-        .stock-price {
-            color: #222;
-        }
-        .stock-change {
-            margin-left: 10px;
-        }
-        .stock-change.positive {
-            color: #28a745;
-        }
-        .stock-change.negative {
-            color: #dc3545;
-        }
+        .stock-item:last-child { border-bottom: none; }
+        .stock-name { font-weight: 600; color: #333; }
+        .stock-price { color: #222; }
+        .stock-change { margin-left: 10px; }
+        .stock-change.positive { color: #28a745; }
+        .stock-change.negative { color: #dc3545; }
 
         #news-group-nav-list {
             list-style: none;
@@ -86,38 +134,31 @@
         }
         #news-group-nav-list li a {
             display: block;
-            padding: 8px 5px; /* Added some horizontal padding */
+            padding: 8px 5px;
             text-decoration: none;
             color: #007bff;
-            border-bottom: 1px solid #f9f9f9; /* Very light separator */
+            border-bottom: 1px solid #f9f9f9;
             font-size: 0.9em;
-            border-radius: 3px; /* Slightly rounded for modern feel */
+            border-radius: 3px;
         }
-        #news-group-nav-list li:last-child a {
-            border-bottom: none;
-        }
+        #news-group-nav-list li:last-child a { border-bottom: none; }
         #news-group-nav-list li a:hover {
             text-decoration: none;
-            background-color: #f0f0f0; /* Hover background */
+            background-color: #f0f0f0;
             color: #0056b3;
         }
 
-
-        /* News Column (Right) Styles */
-        .news-main-column { /* Renamed for clarity */
+        /* News Column */
+        .news-main-column {
             padding-left: 25px;
             border-left: 1px solid #eee;
         }
-
         .news-group {
             margin-bottom: 30px;
             border-bottom: 1px solid #f0f0f0;
             padding-bottom: 20px;
         }
-        .news-group:last-child {
-            border-bottom: none;
-        }
-
+        .news-group:last-child { border-bottom: none; }
         .news-date {
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 1.6em;
@@ -125,34 +166,15 @@
             color: #222;
             margin-bottom: 20px;
         }
-
         .news-item {
             margin-bottom: 25px;
             padding-bottom: 25px;
             border-bottom: 1px solid #f5f5f5;
         }
-        .news-item:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-
-        .news-desc {
-            font-size: 1em;
-            line-height: 1.7;
-            color: #444;
-            margin-bottom: 10px;
-        }
-
-        .read-more {
-            font-size: 0.9em;
-            font-weight: 600;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .read-more:hover {
-            text-decoration: underline;
-        }
+        .news-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .news-desc { font-size: 1em; line-height: 1.7; color: #444; margin-bottom: 10px; }
+        .read-more { font-size: 0.9em; font-weight: 600; color: #007bff; text-decoration: none; }
+        .read-more:hover { text-decoration: underline; }
 
         /* Domain Cards */
         .domain-cards-section {
@@ -166,19 +188,9 @@
             box-shadow: none;
             background-color: #fff;
         }
-        .card-summary .card-content {
-            padding: 15px;
-        }
-        .card-summary-title {
-            font-size: 1em;
-            font-weight: 600;
-            color: #333;
-        }
-        .card-summary-count {
-            font-size: 0.9em;
-            color: #555;
-        }
-
+        .card-summary .card-content { padding: 15px; }
+        .card-summary-title { font-size: 1em; font-weight: 600; color: #333; }
+        .card-summary-count { font-size: 0.9em; color: #555; }
     </style>
 </head>
 <body>
@@ -192,13 +204,22 @@
     {% capture news_key %}{{ page.news_key }}{% endcapture %}
     {% assign news_data_sorted = site.data[news_key] | sort: "date" | reverse %}
 
+    {% if page.stock_groups %}
+    <div class="stock-index-section">
+        <div class="stock-index-title">{{ page.index_title | default: "Vitraag Index" }}</div>
+        <div class="stock-index-subtitle">AS OF MARKETS CLOSE &middot; <span id="index-date-label"></span></div>
+        <div id="stock-index-container">
+            <p style="text-align:center;color:#aaa;padding:20px 0;">Loading market data&hellip;</p>
+        </div>
+    </div>
+    {% endif %}
+
     <div class="columns">
       <div class="column is-one-third left-sidebar-column">
-        {% if page.stocks %}
+        {% if page.stocks and page.stock_groups == nil %}
             <h2>Market Watch</h2>
             <div id="stocks-list">
-                <div id="dynamic-stocks-placeholder">
-                </div>
+                <div id="dynamic-stocks-placeholder"></div>
             </div>
         {% endif %}
 
@@ -206,9 +227,7 @@
         <div class="page-navigation">
             <h3>On This Page</h3>
             <ul id="news-group-nav-list">
-                <li>
-                    <a href="#source-domains-summary">News Sources Summary</a>
-                </li>
+                <li><a href="#source-domains-summary">News Sources Summary</a></li>
                 {% for group in news_data_sorted %}
                     <li>
                         <a href="#date-{{ group.date | date: "%Y-%m-%d" | slugify }}">
@@ -216,17 +235,17 @@
                         </a>
                     </li>
                 {% endfor %}
-                
             </ul>
         </div>
-        {% endif %} 
+        {% endif %}
       </div>
 
       <div class="column is-two-thirds news-main-column">
         <div class="content">
           {% for group in news_data_sorted %}
             <div class="news-group" id="date-{{ group.date | date: "%Y-%m-%d" | slugify }}">
-              <p class="news-date">{{ group.date | date: "%A, %B %e, %Y" }}</p> {% for item in group.news-items %}
+              <p class="news-date">{{ group.date | date: "%A, %B %e, %Y" }}</p>
+              {% for item in group.news-items %}
                 <div class="news-item">
                   <p class="news-desc">{{ item.desc }}</p>
                   <a href="{{ item.link }}" target="_blank" class="read-more">Read more &rarr;</a>
@@ -244,8 +263,7 @@
     {% if news_data_sorted.size > 0 %}
     <div class="domain-cards-section" id="source-domains-summary">
         <h2 class="subtitle is-4 has-text-centered">News Sources Summary</h2>
-        <div class="columns is-multiline is-centered" id="domain-cards">
-            </div>
+        <div class="columns is-multiline is-centered" id="domain-cards"></div>
     </div>
     {% endif %}
 
@@ -260,14 +278,9 @@
         const a = document.createElement("a");
         a.href = url;
         let domain = a.hostname;
-        if (domain.startsWith('www.')) {
-            domain = domain.substring(4);
-        }
+        if (domain.startsWith('www.')) domain = domain.substring(4);
         return domain;
-    } catch (e) {
-        console.warn("Could not parse URL:", url);
-        return "Invalid URL";
-    }
+    } catch (e) { return "Invalid URL"; }
   }
 
   const domainSummary = {};
@@ -285,14 +298,12 @@
   }
 
   function renderDomainCards(summary) {
-    const domainCardsContainer = document.getElementById("domain-cards");
-    if (!domainCardsContainer) return;
-    domainCardsContainer.innerHTML = ""; 
-
+    const container = document.getElementById("domain-cards");
+    if (!container) return;
+    container.innerHTML = "";
     Object.entries(summary).forEach(([domain, count]) => {
       const column = document.createElement("div");
       column.classList.add("column", "is-one-quarter-tablet", "is-one-fifth-desktop");
-
       const card = document.createElement("div");
       card.classList.add("card", "card-summary");
       const cardContent = document.createElement("div");
@@ -303,125 +314,211 @@
       const countText = document.createElement("p");
       countText.classList.add("card-summary-count");
       countText.textContent = `(${count} articles)`;
-
       cardContent.appendChild(title);
       cardContent.appendChild(countText);
       card.appendChild(cardContent);
       column.appendChild(card);
-      domainCardsContainer.appendChild(column);
+      container.appendChild(column);
     });
   }
 
-  if (Object.keys(domainSummary).length > 0) {
-    renderDomainCards(domainSummary);
-  }
-
-   // --- Finnhub Stock Data ---
+  // --- Finnhub ---
   const FINNHUB_API_KEY = 'd0r3uj1r01qn4tjgamggd0r3uj1r01qn4tjgamh0';
 
-  // Helper to create a stock item HTML element (remains the same)
-  function createStockElement(symbol, data) {
-      const stockItem = document.createElement('div');
-      stockItem.classList.add('stock-item');
-      const nameSpan = document.createElement('span');
-      nameSpan.classList.add('stock-name');
-      nameSpan.textContent = symbol;
-      const priceSpan = document.createElement('span');
-      priceSpan.classList.add('stock-price');
-      priceSpan.textContent = (data && data.c !== undefined && data.c !== null) ? `$${data.c.toFixed(2)}` : 'N/A';
-      const changeSpan = document.createElement('span');
-      changeSpan.classList.add('stock-change');
-      if (data && data.dp !== undefined && data.dp !== null) {
-          changeSpan.textContent = `${data.dp.toFixed(2)}%`;
-          if (data.dp > 0) changeSpan.classList.add('positive');
-          else if (data.dp < 0) changeSpan.classList.add('negative');
-      } else {
-          changeSpan.textContent = 'N/A';
-      }
-      stockItem.appendChild(nameSpan);
-      stockItem.appendChild(priceSpan);
-      stockItem.appendChild(changeSpan);
-      return stockItem;
+  // ---- Vitraag Index (grouped) ----
+  {% if page.stock_groups %}
+  const STOCK_GROUPS = {{ page.stock_groups | jsonify }};
+
+  async function fetchCandles(symbol, from, to) {
+    try {
+      const res = await fetch(
+        `https://finnhub.io/api/v1/stock/candle?symbol=${symbol}&resolution=D&from=${from}&to=${to}&token=${FINNHUB_API_KEY}`
+      );
+      if (!res.ok) return null;
+      const d = await res.json();
+      return (d.s === 'ok' && d.c && d.c.length > 0) ? d : null;
+    } catch { return null; }
   }
 
-  // Helper to create an error or general message item (remains the same)
-  function createMessageElement(message) {
-      const item = document.createElement('div');
-      item.classList.add('stock-item');
-      item.style.justifyContent = 'center';
-      item.textContent = message;
-      return item;
+  async function fetchProfile(symbol) {
+    try {
+      const res = await fetch(
+        `https://finnhub.io/api/v1/stock/profile2?symbol=${symbol}&token=${FINNHUB_API_KEY}`
+      );
+      if (!res.ok) return null;
+      return await res.json();
+    } catch { return null; }
   }
 
-  async function fetchAndDisplayStocks(apiKey, symbols) {
-      const stocksListContainer = document.getElementById('stocks-list');
-      if (!stocksListContainer) {
-          console.error('Stock list container (#stocks-list) not found.');
-          return;
-      }
-      stocksListContainer.innerHTML = ''; // Clear previous content or loading message
+  function formatMktCap(millions) {
+    if (!millions || millions <= 0) return '—';
+    if (millions >= 1000000) return `$${(millions / 1000000).toFixed(1)}T`;
+    if (millions >= 1000)    return `$${(millions / 1000).toFixed(1)}B`;
+    return `$${millions.toFixed(0)}M`;
+  }
 
-      if (!apiKey || apiKey === 'YOUR_FINNHUB_API_KEY' || apiKey.trim() === '') {
-          stocksListContainer.appendChild(createMessageElement('Finnhub API key not configured.'));
-          return;
-      }
-      if (!symbols || !Array.isArray(symbols) || symbols.length === 0) {
-          stocksListContainer.appendChild(createMessageElement('No stock symbols provided from page.'));
-          console.warn('Stock symbols (page.stocks) are missing or not in expected array format.');
-          return;
-      }
+  function formatChange(pct) {
+    if (pct === null || pct === undefined || isNaN(pct)) return { text: '—', cls: 'change-neutral' };
+    const sign = pct >= 0 ? '+' : '';
+    return {
+      text: `${sign}${pct.toFixed(2)}%`,
+      cls: pct > 0.001 ? 'change-positive' : pct < -0.001 ? 'change-negative' : 'change-neutral'
+    };
+  }
 
-      let itemsAdded = 0;
-      for (const symbol of symbols) {
-          try {
-              const response = await fetch(`https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${apiKey}`);
-              if (!response.ok) {
-                  console.error(`Error fetching data for ${symbol}: ${response.statusText} (${response.status})`);
-                  stocksListContainer.appendChild(createMessageElement(`Failed: ${symbol} (${response.status})`));
-                  continue;
-              }
-              const data = await response.json();
-              if (data.t !== 0 && data.c !== undefined) {
-                  stocksListContainer.appendChild(createStockElement(symbol, data));
-                  itemsAdded++;
-              } else {
-                  console.warn(`No valid quote data for ${symbol}:`, data);
-                  stocksListContainer.appendChild(createMessageElement(`No data: ${symbol}`));
-              }
-          } catch (error) {
-              console.error(`Exception fetching/processing data for ${symbol}:`, error);
-              stocksListContainer.appendChild(createMessageElement(`Error: ${symbol}`));
+  function renderIndexTable(candleMap, profileMap) {
+    const container = document.getElementById('stock-index-container');
+    if (!container) return;
+
+    const table = document.createElement('table');
+    table.classList.add('stock-index-table');
+
+    const thead = document.createElement('thead');
+    thead.innerHTML = `<tr>
+      <th></th>
+      <th>MKT CAP</th>
+      <th>CLOSE</th>
+      <th>WEEK &Delta;</th>
+      <th>YTD &Delta;</th>
+    </tr>`;
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+
+    STOCK_GROUPS.forEach(group => {
+      const groupRow = document.createElement('tr');
+      groupRow.classList.add('group-header');
+      groupRow.innerHTML = `<td colspan="5">${group.label}</td>`;
+      tbody.appendChild(groupRow);
+
+      group.stocks.forEach(symbol => {
+        const candle  = candleMap[symbol];
+        const profile = profileMap[symbol];
+        const tr = document.createElement('tr');
+        tr.classList.add('stock-row');
+
+        let currentPrice = null, weekChange = null, ytdChange = null;
+        if (candle && candle.c && candle.c.length > 0) {
+          currentPrice = candle.c[candle.c.length - 1];
+          const ytdBase = candle.c[0];
+          if (ytdBase) ytdChange = (currentPrice - ytdBase) / ytdBase * 100;
+          const weekIdx = Math.max(0, candle.c.length - 6);
+          const weekBase = candle.c[weekIdx];
+          if (weekBase && candle.c.length > 1) {
+            weekChange = (currentPrice - weekBase) / weekBase * 100;
           }
-      }
-      if (itemsAdded === 0 && stocksListContainer.children.length === 0 && symbols.length > 0) {
-          stocksListContainer.appendChild(createMessageElement('Could not load data for any symbols.'));
-      }
+        }
+
+        const mktCap  = formatMktCap(profile ? profile.marketCapitalization : null);
+        const priceStr = currentPrice !== null ? `$${currentPrice.toFixed(2)}` : '—';
+        const weekFmt  = formatChange(weekChange);
+        const ytdFmt   = formatChange(ytdChange);
+
+        tr.innerHTML = `
+          <td>${symbol}</td>
+          <td class="mkt-cap">${mktCap}</td>
+          <td class="close-price">${priceStr}</td>
+          <td class="${weekFmt.cls}">${weekFmt.text}</td>
+          <td class="${ytdFmt.cls}">${ytdFmt.text}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    });
+
+    table.appendChild(tbody);
+    container.innerHTML = '';
+    container.appendChild(table);
   }
-  // --- End of Finnhub Stock Data ---
+
+  async function fetchStockIndex() {
+    const dateEl = document.getElementById('index-date-label');
+    if (dateEl) {
+      const now = new Date();
+      dateEl.textContent = now.toLocaleDateString('en-US', {
+        month: 'long', day: 'numeric', year: 'numeric'
+      }).toUpperCase();
+    }
+
+    const ytdFrom = Math.floor(new Date('2026-01-01T00:00:00Z').getTime() / 1000);
+    const toTs    = Math.floor(Date.now() / 1000);
+
+    const allSymbols = STOCK_GROUPS.flatMap(g => g.stocks);
+
+    const [candles, profiles] = await Promise.all([
+      Promise.all(allSymbols.map(sym => fetchCandles(sym, ytdFrom, toTs))),
+      Promise.all(allSymbols.map(sym => fetchProfile(sym)))
+    ]);
+
+    const candleMap  = {};
+    const profileMap = {};
+    allSymbols.forEach((sym, i) => {
+      candleMap[sym]  = candles[i];
+      profileMap[sym] = profiles[i];
+    });
+
+    renderIndexTable(candleMap, profileMap);
+  }
+  {% endif %}
+
+  // ---- Legacy flat stock list ----
+  {% if page.stocks and page.stock_groups == nil %}
+  function createStockElement(symbol, data) {
+    const stockItem = document.createElement('div');
+    stockItem.classList.add('stock-item');
+    const nameSpan = document.createElement('span');
+    nameSpan.classList.add('stock-name');
+    nameSpan.textContent = symbol;
+    const priceSpan = document.createElement('span');
+    priceSpan.classList.add('stock-price');
+    priceSpan.textContent = (data && data.c !== undefined) ? `$${data.c.toFixed(2)}` : 'N/A';
+    const changeSpan = document.createElement('span');
+    changeSpan.classList.add('stock-change');
+    if (data && data.dp !== undefined) {
+      changeSpan.textContent = `${data.dp.toFixed(2)}%`;
+      changeSpan.classList.add(data.dp > 0 ? 'positive' : data.dp < 0 ? 'negative' : '');
+    } else { changeSpan.textContent = 'N/A'; }
+    stockItem.appendChild(nameSpan);
+    stockItem.appendChild(priceSpan);
+    stockItem.appendChild(changeSpan);
+    return stockItem;
+  }
+
+  function createMessageElement(message) {
+    const item = document.createElement('div');
+    item.classList.add('stock-item');
+    item.style.justifyContent = 'center';
+    item.textContent = message;
+    return item;
+  }
+
+  async function fetchAndDisplayStocks(symbols) {
+    const container = document.getElementById('stocks-list');
+    if (!container) return;
+    container.innerHTML = '';
+    for (const symbol of symbols) {
+      try {
+        const res = await fetch(`https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${FINNHUB_API_KEY}`);
+        if (!res.ok) { container.appendChild(createMessageElement(`Failed: ${symbol}`)); continue; }
+        const data = await res.json();
+        if (data.t !== 0 && data.c !== undefined) {
+          container.appendChild(createStockElement(symbol, data));
+        } else {
+          container.appendChild(createMessageElement(`No data: ${symbol}`));
+        }
+      } catch { container.appendChild(createMessageElement(`Error: ${symbol}`)); }
+    }
+  }
+  {% endif %}
 
   document.addEventListener('DOMContentLoaded', function() {
-      // Render domain cards if data exists
-      if (typeof domainSummary !== 'undefined' && Object.keys(domainSummary).length > 0) {
-          renderDomainCards(domainSummary);
-      }
+    if (Object.keys(domainSummary).length > 0) renderDomainCards(domainSummary);
 
-      // Get stock symbols from Liquid (Jekyll page variable)
-      let stockSymbolsFromPage = []; // Default to empty array
-      {% if page.stocks and page.stocks != empty %}
-          // The `jsonify` filter converts the Liquid array to a JS array string
-          stockSymbolsFromPage = {{ page.stocks | jsonify }};
-      {% else %}
-          console.log("page.stocks is not defined or is empty in front matter.");
-      {% endif %}
-
-      // Call to fetch stock data using symbols from Liquid
-      fetchAndDisplayStocks(FINNHUB_API_KEY, stockSymbolsFromPage);
-
-      // Optional: Refresh stock data periodically
-      // Be mindful of API rate limits with the free tier.
-      // setInterval(() => {
-      //     fetchAndDisplayStocks(FINNHUB_API_KEY, stockSymbolsFromPage);
-      // }, 300000); // e.g., 5 minutes
+    {% if page.stock_groups %}
+    fetchStockIndex();
+    {% elsif page.stocks %}
+    const stockSymbols = {{ page.stocks | jsonify }};
+    fetchAndDisplayStocks(stockSymbols);
+    {% endif %}
   });
 </script>
 

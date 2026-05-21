@@ -4,16 +4,14 @@ layout: news
 title: Security News
 permalink: /security-news
 news_key: security-news
-stocks:
-  - PANW
-  - CRWD
-  - ZS
-  - CHKP
-  - OKTA
-  - CYBR
-  - VRNS
-  - QLYS
-  - TENB
+index_title: "Vitraag Security Index"
+stock_groups:
+  - label: "Pure Cyber"
+    stocks: [PANW, CRWD, FTNT, ZS, OKTA, CHKP, S, CYBR, VRNS, QLYS, TENB, RPD]
+  - label: "Hybrid IT / Cyber"
+    stocks: [CSCO, NOW, DDOG, NET, RBRK, FSLY]
+  - label: "Index Benchmarks"
+    stocks: [SPY, QQQ]
 categories:
 - news
 ---
