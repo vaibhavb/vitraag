@@ -11,25 +11,25 @@ categories:
     - conference
 ---
 
-*Day 1 notes from [AI Engineer](https://www.ai.engineer/), where I went in expecting a model beauty pageant and left thinking about plumbing instead.*
+*Day 1 main stage talk things to try, from [AI Engineer](https://www.ai.engineer/).*
 
 ---
 
-I spent Day 1 of the conference bracing for the usual sport: which model wins this month's leaderboard, whose benchmark chart has the steepest line, who gets to say "SOTA" the most times per keynote. That's not what happened.
+The main stage on Day 1 was less about which model wins this month's leaderboard, and more about the systems around the model — orchestration, evals, retrieval, human review, cost control, debugging.
 
-Almost every talk that stuck with me was about the boring, unglamorous stuff *around* the model — orchestration, evals, retrieval, human review, cost control, debugging. Turns out agents are quietly becoming real software systems, and real software systems need the things software has always needed: interfaces, contracts, tests, and someone willing to say "no, you can't just YOLO this into prod."
+Agents are becoming real software systems. Real software systems need the things software has always needed: interfaces, contracts, tests, and review.
 
-Here's what I want to go build with, roughly in the order I'd reach for the coffee to start.
+Here's what I want to go build with, roughly in the order I'd start.
 
 ---
 
 ## 1. [BAML](https://boundaryml.com/) for structured AI workflows
 
-BAML's whole pitch is treating LLM calls like software interfaces instead of prompts you whisper hopefully into the void. If you've ever regex'd a model's output at 11pm because it decided today was the day to wrap JSON in a friendly little paragraph, you understand the appeal instantly.
+BAML treats LLM calls like software interfaces instead of loose prompts. That matters when the output needs to be reliable, not just plausible.
 
 This matters a lot when "close enough" isn't a valid grading criterion — SOC 2 evidence, HIPAA controls, vendor questionnaire answers. Free text is fine for a chatbot. It is not fine for a control mapping someone's auditor is going to read.
 
-**Experiment to try:** a security questionnaire assistant that takes a policy doc and returns something typed and boring on purpose:
+**Experiment to try:** a security questionnaire assistant that takes a policy doc and returns typed, structured output:
 
 ```json
 {
@@ -41,31 +41,31 @@ This matters a lot when "close enough" isn't a valid grading criterion — SOC 2
 }
 ```
 
-Boring is the feature.
+This feels immediately useful for compliance, security reviews, and risk work.
 
 ## 2. [Agent2Agent / A2A](https://github.com/a2aproject/A2A) for multi-agent systems
 
-Multi-agent systems have a discovery problem — right now most of them "communicate" via one enormous prompt that's basically five job descriptions duct-taped together, praying nobody drops their part.
+Multi-agent systems need a cleaner way for agents to discover each other and communicate.
 
-A2A's "agent card" idea is refreshingly unfancy: each agent publishes what it does, what it accepts, and how to talk to it. A contract instead of a group chat where everyone's guessing what everyone else meant.
+A2A's "agent card" idea is simple and useful: each agent describes what it does, what it can accept, and how other agents should interact with it. That creates a contract between agents instead of relying on one big brittle prompt.
 
-**Experiment to try:** a four-agent compliance chain — evidence finder, policy mapper, risk reviewer, final answer drafter — versus the equivalent single-prompt or MCP-tool-calling version. My money's on the agent cards being easier to debug at 2am, but I'd like to actually watch it fail before I say that with confidence.
+**Experiment to try:** a four-agent compliance chain — evidence finder, policy mapper, risk reviewer, final answer drafter — versus the equivalent single-prompt or MCP-tool-calling version.
 
 ## 3. [MiniMax M3](https://www.minimax.io/blog/minimax-m3) for long-context and multimodal work
 
-Real engineering work is not just code. It's screenshots of a dashboard someone forgot to caption, an architecture diagram from 2023 that's 40% aspirational, a ticket thread, some logs, a Slack screenshot of a Slack screenshot. A model that can actually reason across that pile — instead of just the code — is doing something closer to what a senior engineer does when they inherit a mess.
+Real engineering work is not just code. It includes screenshots, architecture diagrams, tickets, docs, logs, and transcripts. A model that can reason across more of that context could be useful for debugging and architecture review.
 
-**Experiment to try:** hand M3 a whole repo plus its surrounding docs and ask for an architecture map, risk areas, and refactor suggestions. Then run the same ask through Claude, Gemini, and Codex and see who actually read the diagrams versus who's confidently making it up.
+**Experiment to try:** hand M3 a whole repo plus its surrounding docs and ask for an architecture map, risk areas, and refactor suggestions. Then compare the result with Claude, Gemini, and Codex.
 
 ## 4. [GLM-5.2](https://huggingface.co/blog/zai-org/glm-52-blog) for open-weight coding agents
 
 Open-weight models being genuinely competitive at coding and agentic work matters for more than the bill. It's about who gets to say yes to using AI at all — teams in healthcare, security, or government where "just send it to a hosted API" is not a sentence legal will let you finish.
 
-**Experiment to try:** run GLM-5.2 through a gauntlet — Terraform security review, Python refactors, SOC 2 control mapping, long transcript summarization, malware-analysis helper prompts. For the security-flavored tasks specifically, I'll be reading every output like it's trying to sell me a timeshare. Trust, but verify, then verify again.
+**Experiment to try:** benchmark GLM-5.2 on practical tasks — Terraform security review, Python refactors, SOC 2 control mapping, long transcript summarization, malware-analysis helper prompts. For the security-flavored tasks specifically, I'd still test carefully and avoid blindly trusting outputs.
 
 ## 5. [HumanLayer](https://github.com/humanlayer) and control-loop coding
 
-This might be the most immediately useful idea from the whole day, mostly because it's not really a new idea — it's just "how good teams already work," pointed at an agent instead of a junior engineer:
+The control-loop idea may be one of the most practical patterns for coding agents. Instead of asking an agent to produce a giant unreadable PR, the better loop is:
 
 1. Measure the current state.
 2. Pick one small improvement.
@@ -74,19 +74,19 @@ This might be the most immediately useful idea from the whole day, mostly becaus
 5. Let a human review.
 6. Repeat.
 
-The alternative — an agent handing you an 1,800-line PR titled "fixes" — is not a workflow, it's an act of aggression.
+This is much closer to how real teams work. The agent should make code easier to review, not bypass review entirely.
 
-**Experiment to try:** a daily coding-agent loop that opens exactly one small, reviewable PR a day. Fix one lint class, improve one test, bump one dependency, migrate one route, document one thing that's been undocumented since the Obama administration. Small diffs, every day, forever. Compounding interest, but for code quality.
+**Experiment to try:** a daily coding-agent loop that opens one small PR a day. Good tasks: fix one lint class, improve one test, update one dependency, migrate one API route, add one missing documentation section. Small, reviewable diffs are the key.
 
 ## 6. [Agentcraft](https://www.getagentcraft.com/) for visual agent orchestration
 
-Agentcraft's pitch is basically an RTS game for your agent fleet, and it's making fun of a real problem: past a certain number of agents, the human becomes the bottleneck, squinting at seven terminal tabs trying to figure out which one is stuck and which one just quietly finished an hour ago.
+Agentcraft's game-inspired interface is compelling because it recognizes a real problem: humans become the bottleneck when too many agents are running at once. A visual map of agent activity makes sense — if agents are working across files, branches, tasks, and PRs, the human operator needs a way to see what's happening without reading endless logs.
 
-**Experiment to try:** even without Agentcraft itself, a lightweight dashboard tracking task, branch, last action, status, PR link, blocker, and "needs human approval" per agent. Nothing clever — just something that answers "which agent needs me right now" faster than tab-cycling does.
+**Experiment to try:** even without Agentcraft itself, a lightweight dashboard tracking task, branch, last action, status, PR link, blocker, and "needs human approval" per agent. That alone would make agent workflows easier to manage.
 
 ## 7. Production evals for agentic systems
 
-Benchmarks tell you the model is smart. They don't tell you the agent didn't quietly call the wrong tool, retrieve the wrong document, or burn 40,000 tokens deciding not to ask for help when it clearly should have. For agents, the final answer is maybe a third of the story — the path matters as much as the destination.
+Normal benchmarks don't tell you whether an agentic system works in production. For agents, the final answer is only part of the story. We also need to evaluate the path — did it retrieve the right context, call the right tool, recover from tool failure, ask for approval before a risky action, waste tokens, complete the task safely.
 
 **Experiment to try:** 20 scenario-based evals for a security or compliance agent, scored on the full trajectory, not just the final answer:
 
@@ -96,29 +96,29 @@ Benchmarks tell you the model is smart. They don't tell you the agent didn't qui
 * Identify whether this log contains PHI.
 * Draft a risk-register entry from this incident summary.
 
-This is the point where "AI engineering" stops sounding like a vibe and starts looking like actual engineering — the part with test plans and failure modes, not just demos.
+This is where AI engineering starts to look like real engineering.
 
 ## 8. Model routing and "AI Switzerland"
 
-The framing from the Notion talk stuck with me: optionality is leverage. Not everything needs the frontier model, in the same way not every trip needs a helicopter. Email triage, CSV munging, deterministic SQL, formatting — a lot of that doesn't need intelligence at all, let alone the expensive kind.
+The Notion talk had a useful framing: optionality is leverage. Not every task needs the most expensive frontier model. Some tasks need a top model. Many do not. Email triage, CSV conversion, deterministic SQL, formatting, and simple classification can often run on cheaper models or no model at all.
 
-**Experiment to try:** a router with tiers — cheap model for classification and formatting, strong model for real reasoning, local/open model for sensitive or low-stakes internal tasks, and "no LLM" for anything actually deterministic. The goal isn't cheapest-everywhere. It's matching intelligence to the job, the same discipline you'd apply to picking which employee handles which task.
+**Experiment to try:** a router with tiers — cheap model for classification and formatting, strong model for complex reasoning, local/open model for sensitive or low-risk internal tasks, and no LLM for deterministic tasks. The goal is not to use the cheapest model everywhere. The goal is to use the right level of intelligence for the task.
 
 ---
 
 ## Bonus: [Effect](https://effect.website/) for making TypeScript behave
 
-Not from the main stage, but it kept coming up in hallway-track conversations, and once someone shows you Effect you can't unsee the problem it's solving: TypeScript's type system is great at describing shapes and terrible at describing what happens when things go wrong. Untyped errors, silent async failures, retries bolted on with `try/catch` and vibes.
+Not from the main stage, but worth adding: TypeScript's type system is good at describing shapes and weak at describing what happens when things go wrong — untyped errors, silent async failures, retries bolted on with `try/catch`.
 
-Effect wraps all of that — errors, dependencies, concurrency, retries — into the type system itself, so the compiler actually knows what can fail and how. For agentic pipelines specifically, where a tool call can fail in six different ways and you'd like to know which six before it happens in production, that's not a nice-to-have, it's the whole point.
+Effect brings errors, dependencies, concurrency, and retries into the type system itself, so the compiler knows what can fail and how. For agentic pipelines, where a tool call can fail in several different ways, that's useful — you want to know the failure modes before they show up in production.
 
-**Experiment to try:** rebuild one leg of an agent pipeline — say, the tool-calling layer — in Effect and see how much of the "did this actually fail or did it just return something weird" debugging disappears. My guess is a lot of it, but I've been wrong about frameworks before.
+**Experiment to try:** rebuild one leg of an agent pipeline — say, the tool-calling layer — in Effect and see how much of the failure-mode debugging gets caught at compile time instead of runtime.
 
 ---
 
 ## Takeaway
 
-The theme of Day 1, if I had to compress it: AI engineering is graduating from demos to systems. The interesting work isn't prompting anymore — it's building the harness around the model:
+My main takeaway from Day 1 is that AI engineering is moving from demos to systems. The interesting work is no longer just prompting a model. It is building the harness around the model:
 
 * Typed outputs
 * Multi-agent protocols
@@ -129,4 +129,4 @@ The theme of Day 1, if I had to compress it: AI engineering is graduating from d
 * Better retrieval
 * Smarter model routing
 
-If I only get to try five of these before the novelty wears off, it's [BAML](https://boundaryml.com/), [A2A](https://github.com/a2aproject/A2A), [MiniMax M3](https://www.minimax.io/blog/minimax-m3), [GLM-5.2](https://huggingface.co/blog/zai-org/glm-52-blog), and [HumanLayer](https://github.com/humanlayer) — reliability, interoperability, model optionality, long-context reasoning, and not letting the robot merge to main unsupervised. That last one still feels like the whole ballgame.
+The tools I would try first are [BAML](https://boundaryml.com/), [A2A](https://github.com/a2aproject/A2A), [MiniMax M3](https://www.minimax.io/blog/minimax-m3), [GLM-5.2](https://huggingface.co/blog/zai-org/glm-52-blog), and [HumanLayer](https://github.com/humanlayer). Those cover the parts of the stack that seem most useful right now: reliability, interoperability, model optionality, long-context reasoning, and safe automation.
