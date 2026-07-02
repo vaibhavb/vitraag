@@ -8,6 +8,7 @@ title: "GEPA: Optimize the Words, Not the Weights"
 categories:
     - ai
     - conference
+    - aiengineer
 ---
 
 *Notes from Agent Engineering Day 2, on the talk [Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization](https://www.ai.engineer/worldsfair/schedule?q=gepa&session=asn_slot_2026_07_01_main_stage_0900_2026_06_03t09_49_39_605z).*
