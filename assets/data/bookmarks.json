@@ -1,5 +1,630 @@
 [
   {
+    "date": "2026-06-28",
+    "title": "Charts of the Week: Reflections from Sohn",
+    "url": "https://www.a16z.news/p/charts-of-the-week-reflections-from"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+    "url": "https://simonw.substack.com/p/porting-the-moebius-02b-image-inpainting"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "SIEM deployment unpacked",
+    "url": "https://www.cybersec-automation.com/p/siem-deployment-unpacked"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Rogo | Meet Felix",
+    "url": "https://x.com/rogoai/status/2059743405203480888?s=46"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "mikeroweWORKS Foundation",
+    "url": "https://mikeroweworks.org/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Take-Two Interactive Quick Pitch",
+    "url": "https://www.thewolfofharcourtstreet.com/p/take-two-interactive-quick-pitch"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Portfolio Review - May 2026",
+    "url": "https://www.thewolfofharcourtstreet.com/p/portfolio-review-may-2026"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Thursday Singles Events in San Jose",
+    "url": "https://www.instagram.com/p/DWFYKCWgcj2/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Figure Friends / Kukje Electronics Center Hobby Stores",
+    "url": "https://www.reddit.com/r/seoul/comments/14ammby/action_figure_hobby_shops_in_seoul/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Brutecat: Hacking Google with AI",
+    "url": "https://x.com/brutecat/status/2065014524642791668?s=46"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Formal Methods and the Future of Programming",
+    "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Prof Investor on SpaceX / IPO Pattern",
+    "url": "https://x.com/theprofinvestor/status/2064860268136673414?s=46"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Mario Zechner on Coding Agents",
+    "url": "https://x.com/badlogicgames/status/2065721051644932171?s=46"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "claude-bug-bounty",
+    "url": "https://github.com/shuvonsec/claude-bug-bounty"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Newsjack",
+    "url": "https://github.com/elvisun/newsjack"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "The New SDLC With Vibe Coding",
+    "url": "https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Sergio Paniego on Agentic Fine-Tuning",
+    "url": "https://x.com/sergiopaniego/status/2066498136273531363?s=46"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Plain Writing Skill",
+    "url": "https://github.com/shreyashankar/plain-writing-skill"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Cyber Brief Templates for Decision-Makers",
+    "url": "https://zeltser.com/cyber-brief-templates-for-decision-makers"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Needle in the Haystack: LLMs for Vulnerability Research",
+    "url": "https://devansh.bearblog.dev/needle-in-the-haystack/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "I Solved My Mystery Fatigue with AI",
+    "url": "https://metalearn.substack.com/p/i-solved-my-mystery-fatigue-with-ai"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Databricks LTAP Article",
+    "url": "https://www.forbes.com/sites/victordey/2026/06/16/databricks-ceo-says-hes-cracked-a-40-year-old-database-problem-with-ltap/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Headroom",
+    "url": "https://github.com/chopratejas/headroom"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "DBOS",
+    "url": "https://www.dbos.dev/about"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "AIRecon Penetration Testing Tool",
+    "url": "https://cybersecuritynews.com/airecon-penetration-testing-tool/amp/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Salesforce Data Thefts via Klue App Compromise",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Huntress Klue Breach Investigation",
+    "url": "https://www.huntress.com/blog/klue-breach-investigation"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Autonomous Vulnerability Hunting with MCP",
+    "url": "https://blog.zsec.uk/bullyingllms/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "The Notion of a Honeypot Persona",
+    "url": "https://zeltser.com/the-notion-of-a-honeypot-persona"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Awesome Cybersecurity Agentic AI",
+    "url": "https://github.com/raphabot/awesome-cybersecurity-agentic-ai"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Malware Analysis Report Template",
+    "url": "https://zeltser.com/malware-analysis-report"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "How I Use Every Claude Code Feature as a Security Engineer",
+    "url": "https://labs.secengai.com/p/how-i-use-every-claude-code-feature-as-a-security-engineer"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "LLM Teaching Resources",
+    "url": "https://x.com/arcane_bloom/status/2069010763017236740?s=46"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "OpenMed",
+    "url": "https://github.com/maziyarpanahi/openmed"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Ray Dalio: China, AI, and Productivity",
+    "url": "https://raydalio.substack.com/p/the-tribute-system-the-new-world"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Month of AI Bugs",
+    "url": "https://monthofaibugs.com/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Alex Ker on GLM-5.2",
+    "url": "https://x.com/thealexker/status/2069862539475714137?s=46"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Flounder",
+    "url": "http://flounders.xyz/"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Pentest Copilot",
+    "url": "https://github.com/bugbasesecurity/pentest-copilot"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Spaced Repetition Post",
+    "url": "https://x.com/heynavtoor/status/2069730505541693951?s=46"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "The Blueprint of a North Korean Attack on Open-Source",
+    "url": "https://casco.com/blog/the-blueprint-of-a-north-korean-attack-on-open-source"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "Skills lie. We stop that.",
+    "url": "https://labs.metano.ai/scanner"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "A list of awesome academic researches and industrial materials about Large Language Model (LLM) and Artificial Intelligence for IT Operations (AIOps).",
+    "url": "https://github.com/Jun-jie-Huang/awesome-LLM-AIOps"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "Novo Nordisk Breach: How a Leaked GitHub Token Exposed the Exact Ozempic Formula",
+    "url": "https://www.pentesty.co/blog/novo-nordisk-ozempic-fulcrumsec-breach-2026?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "visa/visa-vulnerability-agentic-harness: Visa Vulnerability Agentic Harness",
+    "url": "https://github.com/visa/visa-vulnerability-agentic-harness"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "Voted #1 Mobile Device Management Solution",
+    "url": "https://www.ninjaone.com/mdm/"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "About Addigy",
+    "url": "https://addigy.com/about-addigy/"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "MDR",
+    "url": "https://blackpointcyber.com/platform/managed-detection-and-response/"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "Automox Pricing | Automated Patching, Configuration, and Control",
+    "url": "https://www.automox.com/pricing"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "How It Works",
+    "url": "https://www.aryon.security/how-it-works"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "A Piece of the Pi",
+    "url": "https://www.pi.security/blog/a-piece-of-the-pi"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "AI Security Agent for Log Triage, Recon & Audits",
+    "url": "https://cyberrant.org/"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "Welcome To Forge - The Place To Buy And Sell Private Market Shares",
+    "url": "https://forgeglobal.com/"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "Kubera is the balance sheet for those who manage their own wealth",
+    "url": "https://www.kubera.com/"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "Aleta – A next-generation wealth management platform",
+    "url": "https://aleta.io/"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "Empower - Notifications",
+    "url": "https://home.personalcapital.com/page/login/app#/notifications"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "Korean Banana Milk Recipe",
+    "url": "https://mykoreankitchen.com/korean-banana-milk/"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "Mango Bingsu (Mango Shaved Ice)",
+    "url": "https://mykoreankitchen.com/mango-bingsu/"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "Schedule",
+    "url": "https://continuumcon.com/schedule/"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "ContinuumCon",
+    "url": "https://www.youtube.com/@ContinuumConOfficial/videos"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "Kids Build Like Entrepreneurs at UC Berkeley Summer Workshop",
+    "url": "https://www.510families.com/spotlight-bluerobins/"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "Watch the Wiz Code Product Demo",
+    "url": "https://www.wiz.io/recorded-demo/code"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Innovating AI-powered National & Cyber Security Solutions",
+    "url": "https://innefu.com/about-us/#Team"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "How to Secure AI Agents with Zero Trust",
+    "url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a1611a04085d7cd3dadc924_Claude-eBook-Zero-Trust-for-AI-Agents-05182026.pdf?utm_source=www.returnonsecurity.com&utm_medium=newsletter&utm_campaign=security-funded-247-cyera-you-later"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Open Source Security Scorecard",
+    "url": "https://scorecard.dev/"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Cyber Security Guidance Material",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/cybersecurity/index.html"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "🧙 Why I’m Joining Wiz",
+    "url": "https://ramimac.me/joining-wiz"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Post by @itsolelehmann on X",
+    "url": "https://x.com/itsolelehmann/status/2064315451631681634"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "The Teach Skill",
+    "url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/teach/SKILL.md"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Claude Code Prompts.",
+    "url": "https://github.com/Piebald-AI/claude-code-system-prompts"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+    "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "The sorry state of skill distribution",
+    "url": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "Apple Passwords Can Now Automatically Fix Weak and Compromised Passwords With Agentic AI",
+    "url": "https://www.macrumors.com/2026/06/08/apple-passwords-can-now-automatically-fix-passwords-with-agentic-ai/"
+  },
+  {
+    "date": "2026-06-01",
+    "title": "Introducing Breach Bums: A Cybersecurity Book Club",
+    "url": "https://medium.com/@sarcox/introducing-breach-bums-a-cybersecurity-book-club-de29548ec8c6?postPublishedType=initial"
+  },
+  {
+    "date": "2026-05-31",
+    "title": "Week 20: The Book 📖",
+    "url": "https://hrv4training.substack.com/p/week-20-the-book"
+  },
+  {
+    "date": "2026-05-30",
+    "title": "From Open Source Software to Open Source Strategy",
+    "url": "https://p3institute.substack.com/p/from-open-source-software-to-open"
+  },
+  {
+    "date": "2026-05-30",
+    "title": "Who Has the Hardest Fist in China's AI Valuation Race?",
+    "url": "https://crossingriver.substack.com/p/who-has-the-hardest-fist-in-chinas"
+  },
+  {
+    "date": "2026-05-30",
+    "title": "1517 Fund - Backing Dropouts, Students & SciFi Science",
+    "url": "https://www.1517fund.com/"
+  },
+  {
+    "date": "2026-05-29",
+    "title": "Stored XSS to Account Takeover: High-Severity CVE in pretalx Conference Software (CVE-2026-41241)",
+    "url": "https://novee.security/blog/pretalx-stored-xss-vulnerability-account-takeover/"
+  },
+  {
+    "date": "2026-05-28",
+    "title": "Post by @RoupenMD on X",
+    "url": "https://x.com/roupenmd/status/2059650192983355677?s=46"
+  },
+  {
+    "date": "2026-05-28",
+    "title": "High Frequency Trading Strategies",
+    "url": "https://stanford.edu/class/msande448/2021/Final_reports/gr1.pdf"
+  },
+  {
+    "date": "2026-05-28",
+    "title": "College Application and Essay Help",
+    "url": "https://www.collegeessayguy.com/"
+  },
+  {
+    "date": "2026-05-28",
+    "title": "Homepage",
+    "url": "https://redefinealliance.org/"
+  },
+  {
+    "date": "2026-05-28",
+    "title": "SMASH",
+    "url": "https://www.kaporcenter.org/smash/"
+  },
+  {
+    "date": "2026-05-28",
+    "title": "I AUTOMATED a Penetration Test!?",
+    "url": "https://www.youtube.com/watch?v=sQTGCs1DmrQ&feature=youtu.be"
+  },
+  {
+    "date": "2026-05-27",
+    "title": "How to Remove Censorship from LLM Models with Heretic",
+    "url": "https://apidog.com/blog/heretic-uncensoring-guide/"
+  },
+  {
+    "date": "2026-05-27",
+    "title": "Growth hormone for musculoskeletal system repair",
+    "url": "https://peterattiamd.com/growth-hormone-for-musculoskeletal-system-repair/"
+  },
+  {
+    "date": "2026-05-27",
+    "title": "Automating Security Operations with AI: Triaging Renovate PRs",
+    "url": "https://blog.marcolancini.it/2026/blog-automating-security-operations-with-ai-triage-renovate/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-05-27",
+    "title": "Charter confirms data breach after ShinyHunters extortion threat",
+    "url": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/"
+  },
+  {
+    "date": "2026-05-27",
+    "title": "This big university system is embracing AI. Students and faculty aren't all on board",
+    "url": "https://www.npr.org/2026/05/25/nx-s1-5772820/artificial-intelligence-education-technology-california-state-university"
+  },
+  {
+    "date": "2026-05-27",
+    "title": "Your Job Is Disappearing. I Watched Mine Disappear At Least Six Times.",
+    "url": "https://alifeengineered.substack.com/p/your-job-is-disappearing-i-watched"
+  },
+  {
+    "date": "2026-05-27",
+    "title": "Avoiding Death on the Yellow Brick Road",
+    "url": "https://www.a16z.news/p/avoiding-death-on-the-yellow-brick"
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Choosing to Stay Human",
+    "url": "https://www.oneusefulthing.org/p/choosing-to-stay-human"
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Everything, Everywhere is Compliance",
+    "url": "https://www.a16z.news/p/everything-everywhere-is-compliance"
+  },
+  {
+    "date": "2026-05-25",
+    "title": "Google leaks details for Chromium bug that can turn browsers into bots",
+    "url": "https://www.csoonline.com/article/4176504/google-leaks-details-for-chromium-bug-that-can-turn-browsers-into-bots.html?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-05-25",
+    "title": "sfr-development/WonderSuite-Ai-Bug-Bounty",
+    "url": "https://github.com/sfr-development/WonderSuite-Ai-Bug-Bounty?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "Plan for Retirement",
+    "url": "https://www.ssa.gov/retirement/plan-for-retirement"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "Frontier in AI Software Engineering — CU Boulder Summer 2026",
+    "url": "https://cu-frontier-swe-seminar.pages.dev/?utm_source=substack&utm_medium=email"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "Verify OpenAI-generated images",
+    "url": "https://openai.com/research/verify/"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "Agentic commerce: The rise of the delegated buyer",
+    "url": "https://www.bvp.com/atlas/agentic-commerce-the-rise-of-the-delegated-buyer"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "How a single image takes control of a Mac",
+    "url": "https://securelist.com/exiftool-compromise-mac/119866/"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector",
+    "url": "https://www.securityweek.com/verizon-dbir-2026-vulnerability-exploitation-overtakes-credential-theft-as-top-breach-vector/"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+    "url": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "Family Members and Caregivers",
+    "url": "https://www.nami.org/family-members-and-caregivers/"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "AI for Librarians",
+    "url": "https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf"
+  },
+  {
+    "date": "2026-05-22",
+    "title": "SaaS Security Solution - AI Data Protection Platform",
+    "url": "https://spin.ai./"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "cyber_rss/README.md at main",
+    "url": "https://github.com/mr-r3b00t/cyber_rss/blob/main/README.md"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "Post by @_JohnHammond on X",
+    "url": "https://x.com/_johnhammond/status/2056359414567780815?s=46"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "Project Glasswing: what Mythos showed us",
+    "url": "https://blog.cloudflare.com/cyber-frontier-models/"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "State of Clinical AI Report 2026",
+    "url": "https://arise-ai.org/report"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 574+ disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "Post by @ycombinator on X",
+    "url": "https://x.com/ycombinator/status/2056908727400423481?s=46"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Machine Speed: Mythos Special Edition",
+    "url": "https://velvethamm3r.substack.com/p/machine-speed-mythos-special-edition"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Methodology: 2k+ Vulnerabilities in Vibe-Coded Apps",
+    "url": "https://escape.tech/blog/methodology-how-we-discovered-vulnerabilities-apps-built-with-vibe-coding/"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Leandro von Werra",
+    "url": "https://www.lvwerra.com/"
+  },
+  {
+    "date": "2026-05-18",
+    "title": "Delphos-Labs/disclosures: Vulnerability disclosures and proof-of-concept exploits",
+    "url": "https://github.com/Delphos-Labs/disclosures"
+  },
+  {
+    "date": "2026-05-18",
+    "title": "Volunteer Opportunities",
+    "url": "https://aramsei.org/volunteer-now/"
+  },
+  {
+    "date": "2026-05-17",
+    "title": "Jay Rughani, Partner at Andreessen Horowitz",
+    "url": "https://a16z.com/author/jay-rughani/"
+  },
+  {
+    "date": "2026-05-17",
+    "title": "Super El Nino 2026 is coming: What is it, and why is India's monsoon at risk?",
+    "url": "https://www.indiatoday.in/science/story/super-el-nino-2026-explained-india-monsoon-forecast-rainfall-deficit-imd-wmo-2908669-2026-05-08"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "TBM 422: Exception, Presence, Delegation",
+    "url": "https://cutlefish.substack.com/p/tbm-422-exception-presence-delegation"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "From “System of Record” to “System of Intelligence”",
+    "url": "https://www.a16z.news/p/from-system-of-record-to-system-of"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "The Six Megatrends That Define 2026",
+    "url": "https://www.derekthompson.org/p/the-6-megatrends-of-2026"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Sweet Security: Cloud Security Built for Today's AI Era",
+    "url": "https://www.sweet.security/"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Google Cloud Rapid Agent Hackathon: Building Agents for Real-World Challenges",
+    "url": "https://rapid-agent.devpost.com/"
+  },
+  {
     "date": "2026-05-14",
     "title": "CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale",
     "url": "https://www.cybergym.io/"
