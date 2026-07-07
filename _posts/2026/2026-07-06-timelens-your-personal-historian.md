@@ -18,6 +18,14 @@ A few weeks ago I started a dumb little side project to fix that, and it turned 
 
 ---
 
+## Why "historian," specifically
+
+Here's the moment that actually got me hooked: standing at the Ferry Building, just looking at it, and realizing I had no idea what its story was — which bugged me way more than it should have. I like history. I like walking around cities and wondering what used to be where I'm standing. So I started digging, and it turns out there used to be an entire elevated freeway running right along the waterfront in front of the building — the Embarcadero Freeway — until it got cracked up badly enough in the 1989 earthquake that the city just tore the whole thing down instead of fixing it. I'd been standing where a highway used to be, for years, without a clue.
+
+And then it gets better: for a long stretch of the city's history, the ground I was standing on wasn't ground at all. Most of that stretch of the Financial District behind the Ferry Building is landfill — old piers, sunken Gold Rush-era ships, decades of junk paved over. The "land" is younger than the building on it.
+
+That's the itch TimeLens is actually scratching. Not just "here's an old photo of this spot" but "here's the actual story of the dirt under your feet" — a bridge that isn't there anymore, a bay that used to lap right up to where you're standing, a building that burned down and got rebuilt twice. I want that story available in five seconds on my phone instead of staying locked in some Wikipedia rabbit hole I never actually open. Hence: your personal historian.
+
 ## The idea
 
 Nothing fancy, I promise. Open the app, it figures out (roughly, we're not launching satellites here) what landmark you're near, and pulls up a timeline of archival photos for that spot. Tap through the years, pick one, and slide between the old photo and today's view.

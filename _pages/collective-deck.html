@@ -1,0 +1,330 @@
+---
+layout: null
+title: "Vitraag Collective — Pitch Deck"
+permalink: /collective/deck/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitraag Collective — July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Albert+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B3C49;        /* deep river teal */
+    --dark:#092E38;       /* dark slide bg */
+    --card-dark:#0F4453;
+    --teal:#12617A;
+    --marigold:#E8A020;
+    --paper:#FFFFFF;
+    --mist:#EEF5F7;
+    --slate:#51626B;
+    --fog:#CADCE2;
+    --line:#D5E2E7;
+    --disp:'Fraunces',Georgia,serif;
+    --body:'Albert Sans',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:var(--body);background:var(--dark);color:var(--ink);overflow:hidden}
+
+  .deck{position:relative;height:100dvh;width:100vw}
+  .slide{
+    position:absolute;inset:0;display:none;flex-direction:column;
+    padding:clamp(1.4rem,4.5vw,3.4rem) clamp(1.2rem,5.5vw,4.2rem);
+    overflow-y:auto;background:var(--paper);
+  }
+  .slide.active{display:flex}
+  @media (prefers-reduced-motion:no-preference){
+    .slide.active{animation:rise .45s cubic-bezier(.2,.7,.2,1)}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  }
+  .slide.dark{background:var(--dark);color:var(--paper)}
+
+  .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--marigold);margin-bottom:.6rem}
+  h1{font-family:var(--disp);font-weight:900;font-size:clamp(2.2rem,6.5vw,4.6rem);line-height:1.02;letter-spacing:.01em}
+  h2{font-family:var(--disp);font-weight:700;font-size:clamp(1.5rem,3.6vw,2.5rem);line-height:1.1;margin-bottom:.4rem}
+  .slide.dark h2{color:var(--paper)}
+  .kicker{font-style:italic;color:var(--teal);font-size:clamp(.95rem,1.7vw,1.15rem);margin-bottom:1.2rem}
+  .slide.dark .kicker{color:var(--fog)}
+  .grow{flex:1;display:flex;flex-direction:column;justify-content:center;min-height:0}
+
+  /* title slide circles — the river rising at Trimbakeshwar */
+  .flow{position:absolute;right:-4vw;bottom:-6vh;width:40vw;max-width:480px;aspect-ratio:1;pointer-events:none}
+  .flow i{position:absolute;border-radius:50%;display:block}
+  .flow .c1{width:62%;height:62%;left:0;bottom:0;background:rgba(18,97,122,.30)}
+  .flow .c2{width:36%;height:36%;left:52%;bottom:52%;background:rgba(18,97,122,.5)}
+  .flow .c3{width:18%;height:18%;left:82%;bottom:84%;background:var(--marigold)}
+
+  .tagline{font-family:var(--disp);font-style:italic;font-weight:500;font-size:clamp(1.05rem,2.4vw,1.5rem);color:var(--fog);margin:1rem 0 .8rem}
+  .strand{color:var(--marigold);font-weight:500;font-size:clamp(.85rem,1.6vw,1.05rem)}
+  .foot{margin-top:auto;font-size:.8rem;color:#8FAAB3;padding-top:1.5rem}
+
+  /* generic card grid */
+  .grid{display:grid;gap:clamp(.7rem,1.6vw,1.2rem)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  @media(max-width:760px){.g2,.g3{grid-template-columns:1fr}}
+  .card{background:var(--mist);border-radius:14px;padding:clamp(.9rem,2vw,1.4rem);box-shadow:0 4px 14px rgba(9,46,56,.08)}
+  .card h3{font-size:clamp(.95rem,1.8vw,1.15rem);margin-bottom:.4rem}
+  .card p{font-size:clamp(.82rem,1.5vw,.95rem);color:var(--slate);line-height:1.45}
+  .card.deep{background:var(--ink);color:var(--paper)}
+  .card.deep p{color:var(--fog)}
+  .card.mid{background:var(--teal);color:var(--paper)}
+  .card.mid p{color:#D9E8ED}
+  .lane-tag{font-size:.68rem;font-weight:700;letter-spacing:.22em;color:var(--marigold);text-transform:uppercase}
+  .ask{color:var(--marigold);font-weight:700;font-size:clamp(.8rem,1.5vw,.92rem);margin-top:.7rem}
+
+  /* bio rows */
+  .rows{display:flex;flex-direction:column;gap:clamp(.7rem,1.8vh,1.2rem)}
+  .row{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:start}
+  .dot{width:2.6rem;height:2.6rem;border-radius:50%;background:var(--mist);display:grid;place-items:center;font-size:1.2rem}
+  .row h3{font-size:clamp(1rem,1.9vw,1.2rem)}
+  .row p{font-size:clamp(.85rem,1.5vw,.98rem);color:var(--slate);line-height:1.45}
+
+  /* ladder */
+  .ladder{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(.6rem,1.4vw,1rem);align-items:end}
+  @media(max-width:760px){.ladder{grid-template-columns:repeat(2,1fr);align-items:stretch}}
+  .rung{border-radius:14px;background:var(--mist);padding:1rem;box-shadow:0 4px 14px rgba(9,46,56,.08)}
+  .rung .lvl{font-size:.66rem;font-weight:700;letter-spacing:.22em;color:var(--teal);text-transform:uppercase}
+  .rung h3{font-size:clamp(1rem,1.9vw,1.25rem);margin:.3rem 0 .35rem}
+  .rung p{font-size:clamp(.78rem,1.4vw,.9rem);color:var(--slate);line-height:1.4}
+  .rung.r2{margin-bottom:2.2rem}.rung.r3{margin-bottom:4.4rem}.rung.r4{margin-bottom:6.6rem}
+  @media(max-width:760px){.rung.r2,.rung.r3,.rung.r4{margin-bottom:0}}
+  .rung.top{background:var(--ink)}
+  .rung.top .lvl{color:var(--marigold)}
+  .rung.top h3{color:var(--paper)}
+  .rung.top p{color:var(--fog)}
+  .note{font-style:italic;color:var(--slate);font-size:clamp(.8rem,1.5vw,.95rem);margin-top:1rem}
+  .slide.dark .note{color:#8FAAB3}
+
+  /* numbered list (asks) */
+  .asks{display:flex;flex-direction:column;gap:clamp(.55rem,1.6vh,.95rem)}
+  .askrow{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:center}
+  .num{width:2.1rem;height:2.1rem;border-radius:50%;background:var(--marigold);color:var(--dark);font-weight:700;display:grid;place-items:center;font-size:1rem}
+  .askrow p{font-size:clamp(.95rem,1.9vw,1.15rem);color:#E4EEF1}
+
+  /* residency chips */
+  .chips{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem}
+  @media(max-width:760px){.chips{grid-template-columns:1fr 1fr}}
+  .chip{background:var(--card-dark);border-radius:12px;padding:.85rem 1rem;display:flex;gap:.7rem;align-items:center;color:var(--paper);font-weight:700;font-size:clamp(.82rem,1.5vw,.98rem)}
+  .chip span{width:2rem;height:2rem;flex:none;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-size:1rem}
+  .accent{color:var(--marigold);font-weight:700}
+
+  /* deal zero layout */
+  .dz{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(.8rem,2vw,1.4rem)}
+  @media(max-width:820px){.dz{grid-template-columns:1fr}}
+  .dz ul{list-style:none;display:flex;flex-direction:column;gap:.6rem;margin-top:.6rem}
+  .dz ul li{padding-left:1.1rem;position:relative;font-size:clamp(.82rem,1.5vw,.95rem);color:var(--slate);line-height:1.45}
+  .dz ul li::before{content:"";position:absolute;left:0;top:.5em;width:.42em;height:.42em;border-radius:50%;background:var(--marigold)}
+  .stack{display:flex;flex-direction:column;gap:.6rem}
+  .stack .card{padding:.75rem 1rem;display:grid;grid-template-columns:auto 1fr;gap:.8rem;align-items:center;background:var(--paper);border:1px solid var(--line)}
+  .stack .card.deep{border:none}
+  .stack h3{font-size:clamp(.88rem,1.6vw,1.02rem)}
+  .stack p{font-size:clamp(.75rem,1.35vw,.86rem)}
+
+  /* chrome */
+  .chrome{position:fixed;bottom:0;left:0;right:0;display:flex;align-items:center;gap:1rem;padding:.6rem 1.1rem;z-index:10;pointer-events:none}
+  .chrome button{pointer-events:auto;background:rgba(9,46,56,.85);color:var(--paper);border:1px solid rgba(255,255,255,.18);border-radius:999px;width:2.4rem;height:2.4rem;font-size:1.05rem;cursor:pointer}
+  .chrome button:hover{background:var(--teal)}
+  .chrome button:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+  .back{position:fixed;top:1rem;left:1rem;z-index:12;background:rgba(9,46,56,.85);color:var(--paper);border:1px solid rgba(255,255,255,.18);border-radius:999px;width:2.4rem;height:2.4rem;display:grid;place-items:center;font-size:1.1rem;text-decoration:none}
+  .back:hover{background:var(--teal)}
+  .back:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+  .counter{pointer-events:auto;font-size:.78rem;color:var(--paper);background:rgba(9,46,56,.85);border:1px solid rgba(255,255,255,.18);padding:.35rem .8rem;border-radius:999px}
+  .bar{position:fixed;top:0;left:0;height:4px;background:var(--marigold);z-index:11;transition:width .25s ease}
+  @media (prefers-reduced-motion:reduce){.bar{transition:none}}
+</style>
+</head>
+<body>
+<a href="/collective/" class="back" aria-label="Back to Vitraag Collective">←</a>
+<div class="bar" id="bar"></div>
+<div class="deck" id="deck">
+
+  <!-- 1 · Title -->
+  <section class="slide dark active">
+    <div class="flow" aria-hidden="true"><i class="c1"></i><i class="c2"></i><i class="c3"></i></div>
+    <div class="grow">
+      <p class="eyebrow">Draft for discussion · July 2026</p>
+      <h1>Vitraag<br>Collective</h1>
+      <p class="tagline">Backing Maharashtra's builders. Bridging the Bay Area.</p>
+      <p style="color:#8FAAB3;font-size:clamp(.8rem,1.5vw,.95rem);margin-bottom:.9rem"><em>Vitraag (vītarāga)</em> — clarity without attachment. Founders keep control; we don’t cling.</p>
+      <p class="strand">Angel capital &nbsp;·&nbsp; Venture studio &nbsp;·&nbsp; AI + Security Residency</p>
+    </div>
+    <p class="foot">Vaibhav Bhandari · Vitraag Collective</p>
+  </section>
+
+  <!-- 2 · Who -->
+  <section class="slide">
+    <h2>Who's behind this</h2>
+    <div class="grow"><div class="rows">
+      <div class="row"><div class="dot">🛡️</div><div><h3>20+ years in software security</h3><p>Microsoft, Shape Security, United Healthcare, Jasper Health. Startup consulting: pentests, SOC 2, HIPAA, cloud architecture.</p></div></div>
+      <div class="row"><div class="dot">🎓</div><div><h3>Educator</h3><p>College cybersecurity &amp; digital forensics faculty (Bay Area). Speaker at BSides and RSA Conference.</p></div></div>
+      <div class="row"><div class="dot">🌏</div><div><h3>The bridge</h3><p>Based in the San Francisco Bay Area. VESIT (Mumbai) alum. Roots in Nashik. Currently mentoring interns from India.</p></div></div>
+      <div class="row"><div class="dot">📈</div><div><h3>Skin in the game</h3><p>$500K personal commitment. 7+ year horizon. Impact-first, returns-aware.</p></div></div>
+    </div></div>
+  </section>
+
+  <!-- 3 · Why now -->
+  <section class="slide">
+    <h2>Why now — four doors just opened</h2>
+    <div class="grow"><div class="grid g2">
+      <div class="card"><h3>🧱 Open sovereign AI stack</h3><p>Indian foundation models are open-source (Apache 2.0), with $1B+ IndiaAI Mission behind compute. The application &amp; security layers are wide open.</p></div>
+      <div class="card"><h3>💸 Clean foreign angel money</h3><p>Angel tax abolished; the FDI automatic route makes direct US checks into Indian startups straightforward.</p></div>
+      <div class="card"><h3>📍 Tier-2 talent arbitrage</h3><p>The Nashik–Pune corridor has engineering talent and low burn — and almost zero early capital or mentorship.</p></div>
+      <div class="card"><h3>🔒 Compliance-driven demand</h3><p>DPDP Act, RBI AI mandates, CERT-In: regulation is creating demand Indian startups aren't yet serving with products.</p></div>
+    </div></div>
+  </section>
+
+  <!-- 4 · Thesis -->
+  <section class="slide">
+    <h2>The three-lane thesis</h2>
+    <div class="grow"><div class="grid g3">
+      <div class="card deep"><p class="lane-tag">Flagship</p><h3>AI Security</h3><p>India's AI security market is consulting, not products. We back or incubate product companies: LLM red-teaming, guardrails, compliance tooling — for BFSI, government, and the shop floor (OT/ICS security for MIDC-belt manufacturers).</p></div>
+      <div class="card mid"><p class="lane-tag">Impact</p><h3>AI for Bharat</h3><p>Vernacular AI in healthcare, agri, MSME — only with a proprietary dataset or a rural distribution moat. Never thin wrappers.</p></div>
+      <div class="card mid"><p class="lane-tag">Returns</p><h3>AI Infra Tooling</h3><p>Picks-and-shovels for the neocloud buildout: GPU orchestration, inference cost, AI ops. Watchlist: fabless edge-AI silicon, hardware security, vision-AI factory inspection &amp; MSME manufacturing SaaS.</p></div>
+    </div>
+    <p class="note">Every check ships with the US-Ready Package: SOC 2 / HIPAA / DPDP roadmap · first 3 US customer intros · enterprise sales coaching · Series A intros.</p></div>
+  </section>
+
+  <!-- 5 · Deal Zero -->
+  <section class="slide">
+    <h2>Deal Zero — where every advantage stacks</h2>
+    <p class="kicker">Secure vernacular derm-AI for tier-2 Maharashtra</p>
+    <div class="grow"><div class="dz">
+      <div class="card"><h3>🩺 The concept</h3>
+        <ul>
+          <li>A patient in Nashik photographs and describes a skin condition — in Marathi.</li>
+          <li>AI triages severity and routes to the right dermatologist.</li>
+          <li>Dermatology is the most AI-tractable specialty: visual, image-first, proven telederm models.</li>
+          <li>US teledermatology is the global expansion path.</li>
+        </ul>
+      </div>
+      <div class="stack">
+        <div class="card"><div class="dot">🩺</div><div><h3>Clinical network</h3><p>State dermatology leadership: validation + pilot sites</p></div></div>
+        <div class="card deep"><div class="dot" style="background:var(--marigold)">🛡️</div><div><h3>Security &amp; compliance</h3><p>DPDP / HIPAA-grade build, AI hardening — our craft</p></div></div>
+        <div class="card"><div class="dot">🗣️</div><div><h3>Vernacular AI</h3><p>Open Indian models, Marathi-first</p></div></div>
+        <div class="card"><div class="dot">🌉</div><div><h3>US market path</h3><p>Bay Area GTM and a Series A bridge</p></div></div>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- 6 · Residency -->
+  <section class="slide dark">
+    <p class="eyebrow">The signature program</p>
+    <h2>The Kumbh Residency — AI + Security</h2>
+    <p class="kicker">Most people build accelerators. We build talent: 8–15 exceptional Maharashtra engineers, an intensive residency in production-grade AI.</p>
+    <div class="grow"><div class="chips">
+      <div class="chip"><span>🧱</span>Enterprise AI architecture</div>
+      <div class="chip"><span>📟</span>Local &amp; edge AI deployment</div>
+      <div class="chip"><span>🛡️</span>AI security, red-teaming &amp; evals</div>
+      <div class="chip"><span>⌨️</span>Open-source contributions</div>
+      <div class="chip"><span>🧭</span>Customer discovery</div>
+      <div class="chip"><span>🚀</span>Startup formation</div>
+    </div>
+    <p style="margin-top:1.4rem;color:var(--fog);font-size:clamp(.95rem,1.8vw,1.1rem);line-height:1.5">Some residents found companies — fed straight into our studio and first checks. Others become the technical leaders the ecosystem needs. <span class="accent">Both outcomes win.</span></p>
+    <p class="note">~$30–40K per cohort · compute sponsored by neocloud &amp; model partners · the alumni network is the long-term moat</p></div>
+  </section>
+
+  <!-- 7 · Ladder -->
+  <section class="slide">
+    <h2>“Everyone here wants a job” — good. Here's the ladder.</h2>
+    <p class="kicker">We don't ask anyone to quit and gamble. Credentials first, stipends next, salary + equity when they're ready.</p>
+    <div class="grow"><div class="ladder">
+      <div class="rung"><p class="lvl">Rung 1</p><h3>🎓 Intern</h3><p>Academic-credit internship + certificate + Bay Area mentorship</p></div>
+      <div class="rung r2"><p class="lvl">Rung 2</p><h3>🌱 Resident</h3><p>Kumbh Residency stipend — build, learn, ship in cohort</p></div>
+      <div class="rung r3"><p class="lvl">Rung 3</p><h3>💼 Founding Engineer</h3><p>₹12–15L + 1–3% equity at a studio or portfolio company</p></div>
+      <div class="rung r4 top"><p class="lvl">Rung 4</p><h3>🚀 Founder</h3><p>Studio-backed: we co-build, fund, and open the US market</p></div>
+    </div>
+    <p class="note">Salary + title = family legitimacy in tier-2 India. Every rung from Resident up is paid; risk rises only with readiness. Already live: 3 India-based interns today.</p></div>
+  </section>
+
+  <!-- 8 · Programs -->
+  <section class="slide">
+    <h2>One engine, four programs</h2>
+    <div class="grow"><div class="grid g2">
+      <div class="card"><h3>💸 Angel Checks</h3><p>$20–25K first checks across 10–12 companies; ~50% reserved for follow-ons into breakouts.</p></div>
+      <div class="card"><h3>🚀 Venture Studio</h3><p>One build a year where we see a gap and no founder. Founder-in-residence + our security architecture. Deal Zero is first.</p></div>
+      <div class="card"><h3>🎓 Kumbh Residency</h3><p>The talent engine — feeds the studio, the portfolio, and the ecosystem.</p></div>
+      <div class="card"><h3>🌱 Micro-grants</h3><p>No-strings $2–5K to promising tier-2 builders. Fast, paperwork-free, reputation flywheel.</p></div>
+    </div></div>
+  </section>
+
+  <!-- 9 · Footprint & economics -->
+  <section class="slide">
+    <h2>Light on land, heavy online</h2>
+    <p class="kicker">No leases in year one. Anchors, not offices — the brand lives online and materializes four times a year.</p>
+    <div class="grow"><div class="grid g3">
+      <div class="card"><h3>📍 Nashik</h3><p>Residency hosted at a partner college — free venue, recruiting built in. MIDC factory network = pilot sites for OT-security deals.</p></div>
+      <div class="card"><h3>🏙️ Pune</h3><p>Flex seats at a partner coworking space: business address, founder meetings, operator interviews, meetup venue.</p></div>
+      <div class="card"><h3>🌐 Online</h3><p>Weekly build-in-public posts, monthly virtual office hours for Maharashtra founders, demo-day media as the brand engine.</p></div>
+    </div>
+    <div class="grid g2" style="margin-top:clamp(.7rem,1.6vw,1.2rem)">
+      <div class="card deep"><h3>Annual opex: ~$65–85K</h3><p>Residency cohort $25–35K · fellows &amp; grants $10–15K · legal, CPA, travel $20–25K · fractional chief-of-staff $8–10K. Venue free, compute sponsored.</p></div>
+      <div class="card"><h3>Corpus stays corpus</h3><p>Opex is funded by consulting income + a 2%-style partner contribution — it never eats investment capital.</p></div>
+    </div></div>
+  </section>
+
+  <!-- 10 · Partnering -->
+  <section class="slide">
+    <h2>What we bring — and what we ask</h2>
+    <div class="grow"><div class="grid g3">
+      <div class="card deep"><h3>🏛️ Colleges &amp; universities</h3><p>We bring: Bay Area curriculum, guest faculty, residency stipends, project sponsorship, a path to US exposure.</p><p class="ask">We ask: a host venue, a student pipeline, one faculty champion.</p></div>
+      <div class="card mid"><h3>🧑‍⚕️ Professional associations</h3><p>We bring: AI capability for members (pilots like derm-AI), free security education, global connections.</p><p class="ask">We ask: clinical/domain validation, pilot sites, credibility.</p></div>
+      <div class="card mid"><h3>🏭 Industry &amp; neoclouds</h3><p>We bring: trained AI + security engineers, startup deal flow, a Bay Area bridge for your customers.</p><p class="ask">We ask: compute credits, internships, cohort sponsorship.</p></div>
+    </div></div>
+  </section>
+
+  <!-- 11 · The ask -->
+  <section class="slide dark">
+    <h2>This trip: six conversations we want to have</h2>
+    <div class="grow"><div class="asks">
+      <div class="askrow"><div class="num">1</div><p>A college ready to host the first Kumbh Residency cohort (Nashik)</p></div>
+      <div class="askrow"><div class="num">2</div><p>A dermatology working session: would the association pilot AI triage?</p></div>
+      <div class="askrow"><div class="num">3</div><p>2–3 partner candidates — the India operator seat is priority #1</p></div>
+      <div class="askrow"><div class="num">4</div><p>Founders in Pune/Bangalore building AI security or vernacular AI</p></div>
+      <div class="askrow"><div class="num">5</div><p>A neocloud or model partner to sponsor residency compute</p></div>
+      <div class="askrow"><div class="num">6</div><p>Counsel &amp; CPA: cross-border structure, CCPS/iSAFE templates</p></div>
+    </div></div>
+    <p class="foot">Vaibhav Bhandari · Vitraag Collective · July 2026</p>
+  </section>
+</div>
+
+<div class="chrome">
+  <button id="prev" aria-label="Previous slide">‹</button>
+  <span class="counter" id="counter">1 / 10</span>
+  <button id="next" aria-label="Next slide">›</button>
+</div>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  let i=0;
+  const bar=document.getElementById('bar'),counter=document.getElementById('counter');
+  function go(n){
+    i=Math.max(0,Math.min(slides.length-1,n));
+    slides.forEach((s,k)=>s.classList.toggle('active',k===i));
+    counter.textContent=(i+1)+' / '+slides.length;
+    bar.style.width=((i+1)/slides.length*100)+'%';
+  }
+  document.getElementById('next').onclick=()=>go(i+1);
+  document.getElementById('prev').onclick=()=>go(i-1);
+  addEventListener('keydown',e=>{
+    if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(i+1);}
+    if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(i-1);}
+    if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
+  });
+  let x0=null;
+  addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
+  addEventListener('touchend',e=>{
+    if(x0===null)return;
+    const dx=e.changedTouches[0].clientX-x0;
+    if(Math.abs(dx)>60) go(i+(dx<0?1:-1));
+    x0=null;
+  },{passive:true});
+  go(0);
+</script>
+</body>
+</html>
