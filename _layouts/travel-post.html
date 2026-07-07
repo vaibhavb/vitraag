@@ -391,9 +391,24 @@
             center: [51.0, 10.0]
         },
         'frankfurt': {
-            bounds: [[49.9, 8.4], [50.3, 8.9]], 
+            bounds: [[49.9, 8.4], [50.3, 8.9]],
             zoom: 15,
             center: [50.11, 8.68]
+        },
+        'korea': {
+            bounds: [[33.0, 124.5], [38.7, 131.0]],
+            zoom: 7,
+            center: [36.5, 127.8]
+        },
+        'seoul': {
+            bounds: [[37.4, 126.8], [37.7, 127.15]],
+            zoom: 12,
+            center: [37.55, 126.98]
+        },
+        'busan': {
+            bounds: [[35.0, 128.95], [35.35, 129.25]],
+            zoom: 11,
+            center: [35.15, 129.09]
         }
     };
     
@@ -586,6 +601,9 @@
                 } else if (countryName === 'germany') {
                     debounceZoom(function() { zoomToRegion('germany'); }, 200)();
                     return;
+                } else if (countryName === 'korea' || countryName === 'south korea') {
+                    debounceZoom(function() { zoomToRegion('korea'); }, 200)();
+                    return;
                 }
             }
             
@@ -600,6 +618,12 @@
                     return;
                 } else if (cityName === 'frankfurt') {
                     debounceZoom(function() { zoomToRegionLocations('frankfurt'); }, 200)();
+                    return;
+                } else if (cityName === 'seoul') {
+                    debounceZoom(function() { zoomToRegionLocations('seoul'); }, 200)();
+                    return;
+                } else if (cityName === 'busan') {
+                    debounceZoom(function() { zoomToRegionLocations('busan'); }, 200)();
                     return;
                 }
                 
