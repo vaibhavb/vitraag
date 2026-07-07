@@ -648,23 +648,12 @@
                 }
             }
             
-            // Handle H3 headings (specific locations)
+            // Handle H3 headings (specific locations) — match by anchor id, which is
+            // set to the exact location title via kramdown's {#title} syntax
             else if (entry.target.tagName === 'H3') {
-                var headingText = entry.target.textContent.trim();
-                matchingLocation = locations.find(function(loc) {
-                    return loc.description && headingText.toLowerCase().includes(loc.description.toLowerCase());
-                });
-                
-                // Fallback: try to match key words in heading to location titles
-                if (!matchingLocation) {
+                if (entry.target.id) {
                     matchingLocation = locations.find(function(loc) {
-                        var headingWords = headingText.toLowerCase().split(/\s+/);
-                        var titleWords = loc.title.toLowerCase().replace(/[-_]/g, ' ').split(/\s+/);
-                        return titleWords.some(function(word) {
-                            return headingWords.some(function(headingWord) {
-                                return headingWord.includes(word) || word.includes(headingWord);
-                            });
-                        });
+                        return loc.title === entry.target.id;
                     });
                 }
             }

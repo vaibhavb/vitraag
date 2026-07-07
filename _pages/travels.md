@@ -3,21 +3,13 @@ date: 2022-10-17 05:06:00+00:00
 layout: default
 title: My Travels
 permalink: /travels/
-js: worldmap.js
 categories:
 - blog
 ---
-{% if page.js %}
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://unpkg.com/topojson@3"></script>
-  <script src="{{ base.url | prepend: site.url }}/assets/js/{{ page.js }}" defer></script>
-{% endif %}
 
 <div class="content" style="padding-top: 4rem;margin-left: 1rem;">
   <div>
   </div>
-  <!-- experimental worldmap-->
-  <div id="map" style="height: 400px;"></div>
 
 {% assign previous_year = "" %} <!-- Initialize as an empty string for comparison -->
 {% assign posts_counted = false %}
