@@ -1,3 +1,13 @@
+- date: '2026-07-05'
+  news-items:
+  - desc: “It’s Hard to Eval” Is a Product Smell — ** Hamel Husain argues that hard
+      to evaluate AI products are often hard for users to trust or verify. Useful
+      framing for AI product design, evals, and quality checks.
+    link: https://hamel.dev/blog/posts/eval-smell/
+- date: '2026-06-28'
+  news-items:
+  - desc: Engineering the Agentic SDLC
+    link: https://www.optiver.com/insights/technology-blog/engineering-the-agentic-sdlc/
 - date: '2026-04-12'
   news-items:
   - desc: 'Harness Engineering Explained: What the Claude Leak Means for AI Products

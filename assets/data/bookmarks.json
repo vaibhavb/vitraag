@@ -1,5 +1,145 @@
 [
   {
+    "date": "2026-07-06",
+    "title": "A Reading Guide to Chinese Biotech",
+    "url": "https://nikomc.com/china-guide/"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "The 2026 AI Engineering Report",
+    "url": "https://www.amplifypartners.com/blog-posts/the-2026-ai-engineering-report"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "PlatformLab/HomaModule: A Linux kernel module that implements the Homa transport protocol.",
+    "url": "https://github.com/PlatformLab/HomaModule"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "GEPA for Structured Information Extraction for Enterprise Tasks",
+    "url": "https://dspy.ai/tutorials/gepa_facilitysupportanalyzer/"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "url": "https://github.com/garrytan/gbrain"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "The Agent-Native Document Editor",
+    "url": "https://comment.io/"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "CoreWeave ARIA",
+    "url": "https://wandb.ai/site/agent/"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+    "url": "https://openai.com/index/mle-bench/"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "GEPA: Optimize Anything with LLMs",
+    "url": "https://gepa-ai.github.io/gepa/"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "Daybreak: Tools for securing every organization in the world",
+    "url": "https://openai.com/index/daybreak-securing-the-world/"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "FREE Resources – Dawid Czagan",
+    "url": "https://silesiasecuritylab.com/free-resources/"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "Agentic RE: Automating Reverse Engineering & Vulnerability Research with AI - John McIntosh",
+    "url": "https://training.defcon.org/collections/def-con-training-las-vegas-2026/products/agentic-re-automating-reverse-engineering-vulnerability-research-with-ai-john-mcintosh-dctlv2026"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "Reversing Apple Patches",
+    "url": "https://objectivebythesea.org/v8/talks.html#:~:text=Reverse%20Engineering%20Apple%20Security%20Updates"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "Test patches submitted for Mythos",
+    "url": "https://clearbluejar.github.io/posts/system-over-model-tested-mythos-freebsd-local-openweight/"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "AI Consulting Services & Pricing",
+    "url": "https://tannhausergatedigital.ai/services/"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "OpSec Course",
+    "url": "https://learn.justhacking.com/courses/79c56405-5f89-4533-a46c-f8de37300749/take/3-types-of-leakage"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "snarktank/ralph: Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+    "url": "https://github.com/snarktank/ralph"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "China’s CXMT Is Set to Challenge DRAM Incumbents",
+    "url": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "AI Security Newsletter — June 2026",
+    "url": "https://www.linkedin.com/pulse/ai-security-newsletter-june-2026-tal-eliyahu-rmpwf/"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Browser-BC",
+    "url": "https://github.com/Einsia/Browser-BC"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "AI Engineer World’s Fair — Local AI Track",
+    "url": "https://www.ai.engineer/worldsfair/schedule?view=list&track=Local+AI"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Building an Open-Source Robot Vacuum — Meet OOMWOO",
+    "url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Claude-Red",
+    "url": "https://github.com/SnailSploit/claude-red"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Transformer Explainer",
+    "url": "https://github.com/poloclub/transformer-explainer"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "“It’s Hard to Eval” Is a Product Smell",
+    "url": "https://hamel.dev/blog/posts/eval-smell/"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Dark-Moon",
+    "url": "https://github.com/ASCIT31/Dark-Moon"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Durable Execution Solutions | Temporal",
+    "url": "https://temporal.io/"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Malware Analysis Course",
+    "url": "https://class.malware.re/"
+  },
+  {
     "date": "2026-06-28",
     "title": "Charts of the Week: Reflections from Sohn",
     "url": "https://www.a16z.news/p/charts-of-the-week-reflections-from"
@@ -13,6 +153,36 @@
     "date": "2026-06-28",
     "title": "SIEM deployment unpacked",
     "url": "https://www.cybersec-automation.com/p/siem-deployment-unpacked"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "Engineering the Agentic SDLC",
+    "url": "https://www.optiver.com/insights/technology-blog/engineering-the-agentic-sdlc/"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "harshuljain13/llm-inference-at-scale: A Practitioner handbook for production llm serving.",
+    "url": "https://github.com/harshuljain13/llm-inference-at-scale"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "Writing",
+    "url": "https://www.shloked.com/writing?tag=Memory"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "Language Modeling from Scratch",
+    "url": "https://cs336.stanford.edu/"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "Dr. R. W. Hamming's Advice on Research",
+    "url": "https://www.cs.utexas.edu/~dahlin/bookshelf/hamming.html"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "AI Engineer World's Fair 2026 Day 1: Software Factories & Keynotes",
+    "url": "https://www.youtube.com/watch?v=htM02KMNZnk"
   },
   {
     "date": "2026-06-27",

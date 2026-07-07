@@ -1,3 +1,24 @@
+- date: '2026-06-30'
+  news-items:
+  - desc: 'Daybreak: Tools for securing every organization in the world'
+    link: https://openai.com/index/daybreak-securing-the-world/
+  - desc: FREE Resources – Dawid Czagan
+    link: https://silesiasecuritylab.com/free-resources/
+  - desc: 'Agentic RE: Automating Reverse Engineering & Vulnerability Research with
+      AI - John McIntosh'
+    link: https://training.defcon.org/collections/def-con-training-las-vegas-2026/products/agentic-re-automating-reverse-engineering-vulnerability-research-with-ai-john-mcintosh-dctlv2026
+  - desc: Reversing Apple Patches
+    link: https://objectivebythesea.org/v8/talks.html#:~:text=Reverse%20Engineering%20Apple%20Security%20Updates
+  - desc: Test patches submitted for Mythos
+    link: https://clearbluejar.github.io/posts/system-over-model-tested-mythos-freebsd-local-openweight/
+- date: '2026-06-29'
+  news-items:
+  - desc: AI Security Newsletter — June 2026
+    link: https://www.linkedin.com/pulse/ai-security-newsletter-june-2026-tal-eliyahu-rmpwf/
+  - desc: Claude-Red
+    link: https://github.com/SnailSploit/claude-red
+  - desc: Malware Analysis Course
+    link: https://class.malware.re/
 - date: '2026-05-21'
   news-items:
   - desc: Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations,

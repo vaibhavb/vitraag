@@ -1,3 +1,41 @@
+- date: '2026-07-03'
+  news-items:
+  - desc: The 2026 AI Engineering Report
+    link: https://www.amplifypartners.com/blog-posts/the-2026-ai-engineering-report
+  - desc: GEPA for Structured Information Extraction for Enterprise Tasks
+    link: https://dspy.ai/tutorials/gepa_facilitysupportanalyzer/
+  - desc: 'garrytan/gbrain: Garry''s Opinionated OpenClaw/Hermes Agent Brain'
+    link: https://github.com/garrytan/gbrain
+  - desc: The Agent-Native Document Editor
+    link: https://comment.io/
+- date: '2026-07-01'
+  news-items:
+  - desc: CoreWeave ARIA
+    link: https://wandb.ai/site/agent/
+  - desc: 'MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering'
+    link: https://openai.com/index/mle-bench/
+  - desc: 'GEPA: Optimize Anything with LLMs'
+    link: https://gepa-ai.github.io/gepa/
+- date: '2026-06-30'
+  news-items:
+  - desc: 'snarktank/ralph: Ralph is an autonomous AI agent loop that runs repeatedly
+      until all PRD items are complete.'
+    link: https://github.com/snarktank/ralph
+- date: '2026-06-29'
+  news-items:
+  - desc: AI Engineer World's Fair — Local AI Track
+    link: https://www.ai.engineer/worldsfair/schedule?view=list&track=Local+AI
+  - desc: Transformer Explainer
+    link: https://github.com/poloclub/transformer-explainer
+- date: '2026-06-28'
+  news-items:
+  - desc: 'harshuljain13/llm-inference-at-scale: A Practitioner handbook for production
+      llm serving.'
+    link: https://github.com/harshuljain13/llm-inference-at-scale
+  - desc: Language Modeling from Scratch
+    link: https://cs336.stanford.edu/
+  - desc: 'AI Engineer World''s Fair 2026 Day 1: Software Factories & Keynotes'
+    link: https://www.youtube.com/watch?v=htM02KMNZnk
 - date: '2026-05-08'
   news-items:
   - desc: Recursion Is The Next Scaling Law In AI — A 7 million parameter model outperforming
