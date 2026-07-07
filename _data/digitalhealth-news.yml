@@ -1,7 +1,18 @@
 - date: '2026-07-06'
   news-items:
-  - desc: A Reading Guide to Chinese Biotech
+  - desc: A Reading Guide to Chinese Biotech — A curated primer for understanding
+      China's fast-growing biotech sector and its key players.
     link: https://nikomc.com/china-guide/
+- date: '2026-06-27'
+  news-items:
+  - desc: OpenMed — An open collection of medical-domain AI models for tasks like
+      clinical NLP and diagnosis support.
+    link: https://github.com/maziyarpanahi/openmed
+- date: '2026-05-21'
+  news-items:
+  - desc: State of Clinical AI Report 2026 — An industry report tracking adoption,
+      trust, and outcomes of AI deployed in clinical settings.
+    link: https://arise-ai.org/report
 - date: '2026-05-08'
   news-items:
   - desc: Mayo Clinic AI helps specialists detect pancreatic cancer up to 3 years

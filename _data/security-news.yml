@@ -1,24 +1,186 @@
 - date: '2026-06-30'
   news-items:
-  - desc: 'Daybreak: Tools for securing every organization in the world'
+  - desc: 'Daybreak: Tools for securing every organization in the world — OpenAI''s
+      push to give under-resourced security teams AI-assisted tooling for detection
+      and defense.'
     link: https://openai.com/index/daybreak-securing-the-world/
-  - desc: FREE Resources – Dawid Czagan
+  - desc: FREE Resources – Dawid Czagan — A curated set of free training materials
+      for web and application security practitioners.
     link: https://silesiasecuritylab.com/free-resources/
   - desc: 'Agentic RE: Automating Reverse Engineering & Vulnerability Research with
-      AI - John McIntosh'
+      AI — A DEF CON training on using AI agents to speed up binary reverse engineering
+      and vuln discovery.'
     link: https://training.defcon.org/collections/def-con-training-las-vegas-2026/products/agentic-re-automating-reverse-engineering-vulnerability-research-with-ai-john-mcintosh-dctlv2026
-  - desc: Reversing Apple Patches
+  - desc: Reversing Apple Patches — An Objective by the Sea talk on reverse engineering
+      Apple's security patches to find what they actually fix.
     link: https://objectivebythesea.org/v8/talks.html#:~:text=Reverse%20Engineering%20Apple%20Security%20Updates
-  - desc: Test patches submitted for Mythos
+  - desc: Test patches submitted for Mythos — A writeup testing FreeBSD local patches
+      against an open-weight model in the Mythos research line.
     link: https://clearbluejar.github.io/posts/system-over-model-tested-mythos-freebsd-local-openweight/
 - date: '2026-06-29'
   news-items:
-  - desc: AI Security Newsletter — June 2026
+  - desc: AI Security Newsletter — June 2026 — A monthly roundup of AI-specific security
+      threats, tooling, and research.
     link: https://www.linkedin.com/pulse/ai-security-newsletter-june-2026-tal-eliyahu-rmpwf/
-  - desc: Claude-Red
+  - desc: Claude-Red — An open-source red-teaming toolkit for probing Claude and other
+      LLMs for unsafe behavior.
     link: https://github.com/SnailSploit/claude-red
-  - desc: Malware Analysis Course
+  - desc: Malware Analysis Course — A free, structured curriculum for learning reverse
+      engineering and malware analysis fundamentals.
     link: https://class.malware.re/
+- date: '2026-06-27'
+  news-items:
+  - desc: 'Brutecat: Hacking Google with AI — A researcher''s thread on using AI-assisted
+      techniques to find and chain bugs in Google products.'
+    link: https://x.com/brutecat/status/2065014524642791668?s=46
+  - desc: claude-bug-bounty — A community-run bug bounty program focused on finding
+      safety and security issues in Claude-powered agents.
+    link: https://github.com/shuvonsec/claude-bug-bounty
+  - desc: Cyber Brief Templates for Decision-Makers — Lenny Zeltser's reusable templates
+      for communicating security incidents and risk to executives clearly.
+    link: https://zeltser.com/cyber-brief-templates-for-decision-makers
+  - desc: 'Needle in the Haystack: LLMs for Vulnerability Research — An exploration
+      of how well LLMs can surface real vulnerabilities buried in large codebases.'
+    link: https://devansh.bearblog.dev/needle-in-the-haystack/
+  - desc: AIRecon Penetration Testing Tool — A new AI-assisted reconnaissance tool
+      aimed at speeding up the early phases of penetration tests.
+    link: https://cybersecuritynews.com/airecon-penetration-testing-tool/amp/
+  - desc: Salesforce Data Thefts via Klue App Compromise — Attackers used a compromised
+      third-party Salesforce app (Klue) to exfiltrate customer data across multiple
+      tenants.
+    link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - desc: Huntress Klue Breach Investigation — Huntress's own incident-response deep
+      dive into the Klue app supply-chain breach and its blast radius.
+    link: https://www.huntress.com/blog/klue-breach-investigation
+  - desc: Autonomous Vulnerability Hunting with MCP — A look at using the Model Context
+      Protocol to let AI agents autonomously chain tools and hunt for vulnerabilities.
+    link: https://blog.zsec.uk/bullyingllms/
+  - desc: The Notion of a Honeypot Persona — Lenny Zeltser on designing believable
+      fake personas to lure and study attackers.
+    link: https://zeltser.com/the-notion-of-a-honeypot-persona
+  - desc: Awesome Cybersecurity Agentic AI — A curated list of tools, papers, and
+      projects at the intersection of agentic AI and offensive/defensive security.
+    link: https://github.com/raphabot/awesome-cybersecurity-agentic-ai
+  - desc: Malware Analysis Report Template — A reusable template for writing clear,
+      consistent malware analysis reports.
+    link: https://zeltser.com/malware-analysis-report
+  - desc: How I Use Every Claude Code Feature as a Security Engineer — A practitioner's
+      tour of mapping every Claude Code capability onto real security engineering
+      workflows.
+    link: https://labs.secengai.com/p/how-i-use-every-claude-code-feature-as-a-security-engineer
+  - desc: Month of AI Bugs — A public disclosure initiative publishing one AI-related
+      security bug per day for a month.
+    link: https://monthofaibugs.com/
+  - desc: Pentest Copilot — An AI copilot that assists penetration testers with recon,
+      exploitation guidance, and reporting.
+    link: https://github.com/bugbasesecurity/pentest-copilot
+- date: '2026-06-25'
+  news-items:
+  - desc: The Blueprint of a North Korean Attack on Open-Source — A breakdown of DPRK-linked
+      tactics for infiltrating and compromising open-source supply chains.
+    link: https://casco.com/blog/the-blueprint-of-a-north-korean-attack-on-open-source
+  - desc: Skills lie. We stop that. — A scanner built to detect malicious or misrepresented
+      behavior hidden inside AI agent "skills" before they run.
+    link: https://labs.metano.ai/scanner
+- date: '2026-06-23'
+  news-items:
+  - desc: 'Novo Nordisk Breach: How a Leaked GitHub Token Exposed the Exact Ozempic
+      Formula — Researchers detail how an exposed credential in a public repo led
+      to sensitive pharmaceutical IP leaking.'
+    link: https://www.pentesty.co/blog/novo-nordisk-ozempic-fulcrumsec-breach-2026?utm_source=tldrinfosec
+  - desc: Visa Vulnerability Agentic Harness — Visa's open-source harness for using
+      AI agents to hunt vulnerabilities in its own codebase.
+    link: https://github.com/visa/visa-vulnerability-agentic-harness
+- date: '2026-06-15'
+  news-items:
+  - desc: How It Works — Aryon Security explains its approach to automated cloud identity
+      and access risk reduction.
+    link: https://www.aryon.security/how-it-works
+  - desc: A Piece of the Pi — Pi Security shares an inside look at its AI-driven security
+      engineering approach.
+    link: https://www.pi.security/blog/a-piece-of-the-pi
+  - desc: AI Security Agent for Log Triage, Recon & Audits — A tool pitching autonomous
+      AI agents for routine security operations work like log triage and recon.
+    link: https://cyberrant.org/
+- date: '2026-06-12'
+  news-items:
+  - desc: Watch the Wiz Code Product Demo — A recorded walkthrough of Wiz's code security
+      scanning product for catching vulnerabilities pre-deployment.
+    link: https://www.wiz.io/recorded-demo/code
+- date: '2026-06-11'
+  news-items:
+  - desc: How to Secure AI Agents with Zero Trust — An ebook applying zero-trust principles
+      — least privilege, continuous verification — to autonomous AI agent deployments.
+    link: https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a1611a04085d7cd3dadc924_Claude-eBook-Zero-Trust-for-AI-Agents-05182026.pdf?utm_source=www.returnonsecurity.com&utm_medium=newsletter&utm_campaign=security-funded-247-cyera-you-later
+  - desc: Open Source Security Scorecard — OpenSSF's automated tool that scores open-source
+      projects on security best practices to help consumers assess supply-chain risk.
+    link: https://scorecard.dev/
+  - desc: Cyber Security Guidance Material — HHS's official cybersecurity guidance
+      for healthcare organizations handling HIPAA-covered data.
+    link: https://www.hhs.gov/hipaa/for-professionals/security/guidance/cybersecurity/index.html
+  - desc: Why I'm Joining Wiz — A security researcher's reflection on why he's joining
+      the cloud security company Wiz.
+    link: https://ramimac.me/joining-wiz
+- date: '2026-06-10'
+  news-items:
+  - desc: One-Character Linux Kernel Flaw Enables Local Root Access — A single-character
+      typo in kernel code is shown to enable full local privilege escalation, with
+      public exploits now circulating.
+    link: https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html
+  - desc: The sorry state of skill distribution — Trail of Bits examines how loosely-vetted
+      "agent skills" are distributed and why that's a supply-chain risk waiting to
+      happen.
+    link: https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/
+  - desc: Apple Passwords Can Now Automatically Fix Weak and Compromised Passwords
+      With Agentic AI — Apple's Passwords app gains an agentic feature that detects
+      and rotates weak or breached credentials automatically.
+    link: https://www.macrumors.com/2026/06/08/apple-passwords-can-now-automatically-fix-passwords-with-agentic-ai/
+- date: '2026-06-01'
+  news-items:
+  - desc: 'Introducing Breach Bums: A Cybersecurity Book Club — A new community book
+      club dissecting security literature and breach case studies together.'
+    link: https://medium.com/@sarcox/introducing-breach-bums-a-cybersecurity-book-club-de29548ec8c6?postPublishedType=initial
+- date: '2026-05-29'
+  news-items:
+  - desc: 'Stored XSS to Account Takeover: CVE-2026-41241 in pretalx — A disclosed
+      high-severity stored XSS in the open-source conference platform that chains
+      to full account takeover.'
+    link: https://novee.security/blog/pretalx-stored-xss-vulnerability-account-takeover/
+- date: '2026-05-28'
+  news-items:
+  - desc: I AUTOMATED a Penetration Test!? — A demo of chaining AI agents to run recon,
+      exploitation, and reporting for a pentest end-to-end.
+    link: https://www.youtube.com/watch?v=sQTGCs1DmrQ&feature=youtu.be
+- date: '2026-05-27'
+  news-items:
+  - desc: 'Automating Security Operations with AI: Triaging Renovate PRs — A practical
+      walkthrough of using an LLM to triage and approve low-risk dependency-update
+      pull requests safely.'
+    link: https://blog.marcolancini.it/2026/blog-automating-security-operations-with-ai-triage-renovate/?utm_source=tldrinfosec
+  - desc: Charter confirms data breach after ShinyHunters extortion threat — The telecom
+      confirms customer data was accessed after the extortion group threatened to
+      leak it.
+    link: https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/
+- date: '2026-05-25'
+  news-items:
+  - desc: Google leaks details for Chromium bug that can turn browsers into bots —
+      Premature disclosure of a Chromium flaw that could be weaponized to hijack browsers
+      into a botnet.
+    link: https://www.csoonline.com/article/4176504/google-leaks-details-for-chromium-bug-that-can-turn-browsers-into-bots.html?utm_source=tldrinfosec
+  - desc: sfr-development/WonderSuite-Ai-Bug-Bounty
+    link: https://github.com/sfr-development/WonderSuite-Ai-Bug-Bounty?utm_source=tldrinfosec
+- date: '2026-05-22'
+  news-items:
+  - desc: How a single image takes control of a Mac — Kaspersky details a real-world
+      exiftool exploit chain that achieves code execution via a crafted image file.
+    link: https://securelist.com/exiftool-compromise-mac/119866/
+  - desc: Verizon DBIR 2026 — Verizon's annual breach report finds vulnerability exploitation
+      has overtaken stolen credentials as the top initial access vector.
+    link: https://www.securityweek.com/verizon-dbir-2026-vulnerability-exploitation-overtakes-credential-theft-as-top-breach-vector/
+  - desc: Microsoft Open-Sources RAMPART and Clarity — Two new open-source tools from
+      Microsoft aimed at hardening AI agents against prompt injection and unsafe tool
+      use during development.
+    link: https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html
 - date: '2026-05-21'
   news-items:
   - desc: Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations,
@@ -29,6 +191,15 @@
       hackers accessed guest reservation data, including names and contacts, for over
       six months across multiple hotel brands.
     link: https://securityaffairs.com/192038/data-breach/hackers-accessed-bwh-hotels-reservation-system-for-months.html
+  - desc: cyber_rss — A curated list of security-focused RSS feeds for staying current
+      on vulnerabilities and threat intel.
+    link: https://github.com/mr-r3b00t/cyber_rss/blob/main/README.md
+  - desc: 'Project Glasswing: what Mythos showed us — Cloudflare''s findings on how
+      frontier AI models are already being used to accelerate offensive cyber operations.'
+    link: https://blog.cloudflare.com/cyber-frontier-models/
+  - desc: Claude-BugHunter — A Claude Code skill bundle packaging 574+ disclosed bug-bounty
+      patterns across 24 vulnerability classes for automated bug hunting.
+    link: https://github.com/elementalsouls/Claude-BugHunter
 - date: '2026-05-17'
   news-items:
   - desc: Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations,
@@ -1165,7 +1336,8 @@
     link: https://arxiv.org/pdf/2502.06039
 - date: '2025-06-18'
   news-items:
-  - desc: Course Privacy Course for Security Professionals
+  - desc: OpSec Course — A hands-on module on the three common ways operational security
+      fails and leaks identity or intent.
     link: https://learn.justhacking.com/courses/79c56405-5f89-4533-a46c-f8de37300749/take/3-types-of-leakage
 - date: '2025-06-17'
   news-items:

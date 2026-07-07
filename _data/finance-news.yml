@@ -1,7 +1,51 @@
 - date: '2026-06-29'
   news-items:
-  - desc: China's CXMT Is Set to Challenge DRAM Incumbents
+  - desc: China's CXMT Is Set to Challenge DRAM Incumbents — SemiAnalysis on how China's
+      CXMT is closing the gap with Samsung, SK Hynix, and Micron in memory chips.
     link: https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram
+- date: '2026-06-27'
+  news-items:
+  - desc: Rogo | Meet Felix — A look at Rogo's AI agent built specifically for investment
+      banking and finance research workflows.
+    link: https://x.com/rogoai/status/2059743405203480888?s=46
+  - desc: Take-Two Interactive Quick Pitch — A concise investment thesis on Take-Two
+      Interactive's gaming portfolio and valuation.
+    link: https://www.thewolfofharcourtstreet.com/p/take-two-interactive-quick-pitch
+  - desc: Portfolio Review - May 2026 — A monthly recap of portfolio performance and
+      position changes.
+    link: https://www.thewolfofharcourtstreet.com/p/portfolio-review-may-2026
+  - desc: Prof Investor on SpaceX / IPO Pattern — A thread analyzing SpaceX's trajectory
+      against historical patterns of late-stage private companies heading toward IPO.
+    link: https://x.com/theprofinvestor/status/2064860268136673414?s=46
+  - desc: 'Ray Dalio: China, AI, and Productivity — Dalio connects historical great-power
+      dynamics to today''s AI-driven productivity race between the US and China.'
+    link: https://raydalio.substack.com/p/the-tribute-system-the-new-world
+- date: '2026-06-14'
+  news-items:
+  - desc: Forge — A marketplace for buying and selling private (pre-IPO) market shares.
+    link: https://forgeglobal.com/
+  - desc: Kubera — A net-worth tracking tool built as a real-time balance sheet for
+      people managing their own wealth across accounts and assets.
+    link: https://www.kubera.com/
+  - desc: Aleta — A next-generation wealth management platform aimed at modernizing
+      advisor and client workflows.
+    link: https://aleta.io/
+- date: '2026-05-30'
+  news-items:
+  - desc: Who Has the Hardest Fist in China's AI Valuation Race? — An analysis of
+      which Chinese AI companies are commanding the steepest valuations and why.
+    link: https://crossingriver.substack.com/p/who-has-the-hardest-fist-in-chinas
+- date: '2026-05-28'
+  news-items:
+  - desc: High Frequency Trading Strategies — A Stanford course report surveying common
+      high-frequency trading strategy designs.
+    link: https://stanford.edu/class/msande448/2021/Final_reports/gr1.pdf
+- date: '2026-05-22'
+  news-items:
+  - desc: 'Agentic commerce: The rise of the delegated buyer — Bessemer''s thesis
+      on AI agents taking over routine purchasing decisions on behalf of consumers
+      and businesses.'
+    link: https://www.bvp.com/atlas/agentic-commerce-the-rise-of-the-delegated-buyer
 - date: '2026-02-27'
   news-items:
   - desc: A Citrini Research analysis triggered a 7% drop in DoorDash's stock valuation,

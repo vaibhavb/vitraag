@@ -1,41 +1,105 @@
 - date: '2026-07-03'
   news-items:
-  - desc: The 2026 AI Engineering Report
+  - desc: The 2026 AI Engineering Report — Amplify Partners' survey of how AI engineering
+      teams are actually building, evaluating, and shipping models this year.
     link: https://www.amplifypartners.com/blog-posts/the-2026-ai-engineering-report
-  - desc: GEPA for Structured Information Extraction for Enterprise Tasks
+  - desc: GEPA for Structured Information Extraction for Enterprise Tasks — A DSPy
+      tutorial showing GEPA-based prompt optimization applied to a real enterprise
+      extraction task.
     link: https://dspy.ai/tutorials/gepa_facilitysupportanalyzer/
-  - desc: 'garrytan/gbrain: Garry''s Opinionated OpenClaw/Hermes Agent Brain'
+  - desc: gbrain — Garry Tan's opinionated agent "brain" configuration for OpenClaw/Hermes-style
+      autonomous agents.
     link: https://github.com/garrytan/gbrain
-  - desc: The Agent-Native Document Editor
+  - desc: The Agent-Native Document Editor — A document editor built from the ground
+      up for AI agents to read, edit, and collaborate on, not just humans.
     link: https://comment.io/
 - date: '2026-07-01'
   news-items:
-  - desc: CoreWeave ARIA
+  - desc: CoreWeave ARIA — Weights & Biases' agent framework built in partnership
+      with CoreWeave for building and evaluating production agents.
     link: https://wandb.ai/site/agent/
-  - desc: 'MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering'
+  - desc: MLE-bench — OpenAI's benchmark for evaluating how well AI agents perform
+      real machine learning engineering tasks end-to-end.
     link: https://openai.com/index/mle-bench/
-  - desc: 'GEPA: Optimize Anything with LLMs'
+  - desc: 'GEPA: Optimize Anything with LLMs — An open framework that uses reflective
+      prompt evolution to optimize arbitrary systems, not just prompts.'
     link: https://gepa-ai.github.io/gepa/
 - date: '2026-06-30'
   news-items:
-  - desc: 'snarktank/ralph: Ralph is an autonomous AI agent loop that runs repeatedly
-      until all PRD items are complete.'
+  - desc: Ralph — An autonomous AI agent loop that keeps running against a PRD until
+      every item on it is complete.
     link: https://github.com/snarktank/ralph
 - date: '2026-06-29'
   news-items:
-  - desc: AI Engineer World's Fair — Local AI Track
+  - desc: AI Engineer World's Fair — Local AI Track — Conference schedule for sessions
+      on running capable AI models locally instead of via cloud APIs.
     link: https://www.ai.engineer/worldsfair/schedule?view=list&track=Local+AI
-  - desc: Transformer Explainer
+  - desc: Transformer Explainer — An interactive visualization that walks through
+      how a transformer model processes input, token by token.
     link: https://github.com/poloclub/transformer-explainer
 - date: '2026-06-28'
   news-items:
-  - desc: 'harshuljain13/llm-inference-at-scale: A Practitioner handbook for production
-      llm serving.'
+  - desc: llm-inference-at-scale — A practitioner's handbook for running production-grade
+      LLM serving infrastructure.
     link: https://github.com/harshuljain13/llm-inference-at-scale
-  - desc: Language Modeling from Scratch
+  - desc: Language Modeling from Scratch — Stanford's CS336 course materials for building
+      a language model pipeline from first principles.
     link: https://cs336.stanford.edu/
-  - desc: 'AI Engineer World''s Fair 2026 Day 1: Software Factories & Keynotes'
+  - desc: 'AI Engineer World''s Fair 2026 Day 1: Software Factories & Keynotes — Recorded
+      keynotes from day one on treating AI-assisted development as a "software factory."'
     link: https://www.youtube.com/watch?v=htM02KMNZnk
+- date: '2026-06-27'
+  news-items:
+  - desc: Mario Zechner on Coding Agents — A developer's candid thread on what's actually
+      working (and not) when using AI coding agents day to day.
+    link: https://x.com/badlogicgames/status/2065721051644932171?s=46
+  - desc: Sergio Paniego on Agentic Fine-Tuning — A thread on techniques for fine-tuning
+      models specifically for agentic, multi-step tool-use tasks.
+    link: https://x.com/sergiopaniego/status/2066498136273531363?s=46
+  - desc: Databricks LTAP Article — Databricks' CEO claims a breakthrough on a decades-old
+      database performance problem, with implications for large-scale AI data pipelines.
+    link: https://www.forbes.com/sites/victordey/2026/06/16/databricks-ceo-says-hes-cracked-a-40-year-old-database-problem-with-ltap/
+  - desc: Alex Ker on GLM-5.2 — Early impressions and benchmarks from testing Zhipu's
+      GLM-5.2 model.
+    link: https://x.com/thealexker/status/2069862539475714137?s=46
+- date: '2026-06-23'
+  news-items:
+  - desc: awesome-LLM-AIOps — A curated list of academic research and industry tools
+      applying LLMs to IT operations (AIOps).
+    link: https://github.com/Jun-jie-Huang/awesome-LLM-AIOps
+- date: '2026-06-11'
+  news-items:
+  - desc: Claude Code Prompts — A collection of extracted Claude Code system prompts
+      for studying how the tool is instructed under the hood.
+    link: https://github.com/Piebald-AI/claude-code-system-prompts
+- date: '2026-05-27'
+  news-items:
+  - desc: How to Remove Censorship from LLM Models with Heretic — A guide to using
+      the Heretic tool to strip safety fine-tuning from open-weight models.
+    link: https://apidog.com/blog/heretic-uncensoring-guide/
+  - desc: This big university system is embracing AI. Students and faculty aren't
+      all on board — NPR reports on Cal State's system-wide AI rollout and the friction
+      it's causing on campus.
+    link: https://www.npr.org/2026/05/25/nx-s1-5772820/artificial-intelligence-education-technology-california-state-university
+- date: '2026-05-26'
+  news-items:
+  - desc: Choosing to Stay Human — Ethan Mollick on what deliberately staying "human
+      in the loop" looks like as AI capability keeps climbing.
+    link: https://www.oneusefulthing.org/p/choosing-to-stay-human
+- date: '2026-05-22'
+  news-items:
+  - desc: Frontier in AI Software Engineering — CU Boulder Summer 2026 — A university
+      seminar series on the state of the art in AI-assisted software engineering.
+    link: https://cu-frontier-swe-seminar.pages.dev/?utm_source=substack&utm_medium=email
+  - desc: Verify OpenAI-generated images — A new OpenAI tool to check whether an image
+      was generated by one of its models.
+    link: https://openai.com/research/verify/
+- date: '2026-05-21'
+  news-items:
+  - desc: An OpenAI model has disproved a central conjecture in discrete geometry
+      — OpenAI reports a model finding a counterexample to a long-standing open conjecture
+      in math.
+    link: https://openai.com/index/model-disproves-discrete-geometry-conjecture/
 - date: '2026-05-08'
   news-items:
   - desc: Recursion Is The Next Scaling Law In AI — A 7 million parameter model outperforming

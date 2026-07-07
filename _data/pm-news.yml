@@ -6,8 +6,33 @@
     link: https://hamel.dev/blog/posts/eval-smell/
 - date: '2026-06-28'
   news-items:
-  - desc: Engineering the Agentic SDLC
+  - desc: Engineering the Agentic SDLC — Optiver's engineering team on restructuring
+      their software development lifecycle around AI coding agents.
     link: https://www.optiver.com/insights/technology-blog/engineering-the-agentic-sdlc/
+- date: '2026-06-27'
+  news-items:
+  - desc: Formal Methods and the Future of Programming — Jane Street's index of posts
+      on how formal methods are shaping (and could reshape) day-to-day software engineering.
+    link: https://blog.janestreet.com/formal-methods-at-jane-street-index/
+  - desc: The New SDLC With Vibe Coding — A whitepaper examining how "vibe coding"
+      with AI assistants is changing the traditional software development lifecycle.
+    link: https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+- date: '2026-05-30'
+  news-items:
+  - desc: From Open Source Software to Open Source Strategy — An argument that open
+      source has evolved from a development model into a full corporate strategy.
+    link: https://p3institute.substack.com/p/from-open-source-software-to-open
+- date: '2026-05-27'
+  news-items:
+  - desc: Your Job Is Disappearing. I Watched Mine Disappear At Least Six Times. —
+      A veteran engineer's perspective on surviving repeated waves of job-displacing
+      technology.
+    link: https://alifeengineered.substack.com/p/your-job-is-disappearing-i-watched
+- date: '2026-05-26'
+  news-items:
+  - desc: Everything, Everywhere is Compliance — a16z on how compliance requirements
+      are becoming an inescapable design constraint across every product category.
+    link: https://www.a16z.news/p/everything-everywhere-is-compliance
 - date: '2026-04-12'
   news-items:
   - desc: 'Harness Engineering Explained: What the Claude Leak Means for AI Products
