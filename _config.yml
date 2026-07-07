@@ -14,6 +14,7 @@ include: [_pages, _kamals_kitchen]
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+timezone: UTC
 safe: false
 
 collections:

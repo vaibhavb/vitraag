@@ -3,20 +3,11 @@ date: 2022-10-17 05:06:00+00:00
 layout: default
 title: Posts By Year! 
 permalink: /posts-by-year/
-js: heatmap.js
 categories:
 - blog
 ---
-{% if page.js %}
-  <script src="/assets/js/{{ page.js }}"></script>
-{% endif %}
 
 <div class="content" style="padding-top: 4rem;margin-left: 1rem;">
-  <!-- experimental heatmap-->
-  <div class="heatmap">
-    <div id="commit-graph" class="grid"></div>
-  </div>
-
   <!-- feature: popular posts -->
   <h2>Popular Posts</h2>
     <p>Last updated: {{ site.data.popular_posts.last_updated | date: "%Y-%m-%d %H:%M:%S %Z" }}</p>
