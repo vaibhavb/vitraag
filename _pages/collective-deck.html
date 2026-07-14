@@ -145,7 +145,7 @@ sitemap: false
 <div class="deck" id="deck">
 
   <!-- 1 · Title -->
-  <section class="slide dark active">
+  <section class="slide dark active" id="title">
     <div class="flow" aria-hidden="true"><i class="c1"></i><i class="c2"></i><i class="c3"></i></div>
     <div class="grow">
       <p class="eyebrow">Draft for discussion · July 2026</p>
@@ -154,11 +154,11 @@ sitemap: false
       <p style="color:#8FAAB3;font-size:clamp(.8rem,1.5vw,.95rem);margin-bottom:.9rem"><em>Vitraag (vītarāga)</em> — clarity without attachment. Founders keep control; we don’t cling.</p>
       <p class="strand">Angel capital &nbsp;·&nbsp; Venture studio &nbsp;·&nbsp; AI + Security Residency</p>
     </div>
-    <p class="foot">Vaibhav Bhandari · Vitraag Collective · <a href="https://intern.cyberdefendersprogram.com/program" style="color:var(--fog)">Cyber Defenders Internship Program →</a> · v1.1 · updated 2026-07-13</p>
+    <p class="foot">Vaibhav Bhandari · Vitraag Collective · <a href="https://intern.cyberdefendersprogram.com/program" style="color:var(--fog)">Cyber Defenders Internship Program →</a> · v1.2 · updated 2026-07-13</p>
   </section>
 
   <!-- 2 · Who -->
-  <section class="slide">
+  <section class="slide" id="who">
     <h2>Who's behind this</h2>
     <div class="grow"><div class="rows">
       <div class="row"><div class="dot">🛡️</div><div><h3>20+ years in software security</h3><p>Microsoft, Shape Security, United Healthcare, Jasper Health. Startup consulting: pentests, SOC 2, HIPAA, cloud architecture.</p></div></div>
@@ -169,7 +169,7 @@ sitemap: false
   </section>
 
   <!-- 3 · Why now -->
-  <section class="slide">
+  <section class="slide" id="why-now">
     <h2>Why now — four doors just opened</h2>
     <div class="grow"><div class="grid g2">
       <div class="card"><h3>🧱 Open sovereign AI stack</h3><p>Indian foundation models are open-source (Apache 2.0), with $1B+ IndiaAI Mission behind compute. The application &amp; security layers are wide open.</p></div>
@@ -180,7 +180,7 @@ sitemap: false
   </section>
 
   <!-- 4 · Thesis -->
-  <section class="slide">
+  <section class="slide" id="thesis">
     <h2>The three-lane thesis</h2>
     <div class="grow"><div class="grid g3">
       <div class="card deep"><p class="lane-tag">Flagship</p><h3>AI Security</h3><p>India's AI security market is consulting, not products. We back or incubate product companies: LLM red-teaming, guardrails, compliance tooling — for BFSI, government, and the shop floor (OT/ICS security for MIDC-belt manufacturers).</p></div>
@@ -191,17 +191,18 @@ sitemap: false
   </section>
 
   <!-- 5 · Deal Zero -->
-  <section class="slide">
-    <h2>Deal Zero: History Lens — where every advantage stacks</h2>
+  <section class="slide" id="deal-zero">
+    <h2>Deal Zero: DermaLens — where every advantage stacks</h2>
     <p class="kicker">Secure vernacular derm-AI for tier-2 Maharashtra, built in the open</p>
     <div class="grow"><div class="dz">
       <div class="card"><h3>🩺 The concept</h3>
         <ul>
           <li>A patient in Nashik photographs and describes a skin condition — in Marathi.</li>
-          <li>History Lens captures structured patient history so AI can triage severity and route to the right dermatologist.</li>
+          <li>DermaLens captures structured patient history so AI can triage severity and route to the right dermatologist.</li>
           <li>Dermatology is the most AI-tractable specialty: visual, image-first, proven telederm models.</li>
           <li>US teledermatology is the global expansion path.</li>
           <li>Built and released open-source first — the residency's initial body of work, so the dermatology app has a foundation to develop on before any commercial layer is added.</li>
+          <li>The idea traces back to <a href="/2026/07/06/timelens-your-personal-historian/">TimeLens</a>, a personal side project — the "point your phone, see the layered history of a place" pattern is what pointed us toward "point your phone, see the layered history of a patient."</li>
         </ul>
       </div>
       <div class="stack">
@@ -214,7 +215,7 @@ sitemap: false
   </section>
 
   <!-- 6 · Residency -->
-  <section class="slide dark">
+  <section class="slide dark" id="residency">
     <p class="eyebrow">The signature program</p>
     <h2>The Kumbh Residency — AI + Security</h2>
     <p class="kicker">Most people build accelerators. We build talent: 8–15 exceptional Maharashtra engineers, an intensive residency in production-grade AI.</p>
@@ -231,7 +232,7 @@ sitemap: false
   </section>
 
   <!-- 7 · Ladder -->
-  <section class="slide">
+  <section class="slide" id="ladder">
     <h2>“Everyone here wants a job” — good. Here's the ladder.</h2>
     <p class="kicker">We don't ask anyone to quit and gamble. Credentials first, stipends next, salary + equity when they're ready.</p>
     <div class="grow"><div class="ladder">
@@ -244,7 +245,7 @@ sitemap: false
   </section>
 
   <!-- 8 · Programs -->
-  <section class="slide">
+  <section class="slide" id="programs">
     <h2>One engine, four programs</h2>
     <div class="grow"><div class="grid g2">
       <div class="card"><h3>💸 Angel Checks</h3><p>$20–25K first checks across 10–12 companies; ~50% reserved for follow-ons into breakouts.</p></div>
@@ -255,7 +256,7 @@ sitemap: false
   </section>
 
   <!-- 9 · Footprint & economics -->
-  <section class="slide">
+  <section class="slide" id="footprint">
     <h2>Light on land, heavy online</h2>
     <p class="kicker">No leases in year one. Anchors, not offices — the brand lives online and materializes four times a year.</p>
     <div class="grow"><div class="grid g3">
@@ -270,30 +271,30 @@ sitemap: false
   </section>
 
   <!-- 10 · Partnering -->
-  <section class="slide">
+  <section class="slide" id="partnering">
     <h2>What we bring — and what we ask</h2>
     <p class="kicker">Three distinct relationships, three distinct asks. Departments and Sponsors support in kind; Partners commit capital.</p>
     <div class="grow"><div class="grid g3">
-      <div class="card deep"><p class="lane-tag">Support ask</p><h3>🏛️ Departments</h3><p>Academic departments and professional associations (e.g. dermatology). We bring: Bay Area curriculum, guest faculty, residency stipends, project sponsorship, AI pilots (like History Lens), a path to US exposure.</p><p class="ask">We ask: a host venue, a student pipeline, one faculty champion, clinical/domain validation and pilot sites.</p></div>
+      <div class="card deep"><p class="lane-tag">Support ask</p><h3>🏛️ Departments</h3><p>Academic departments and professional associations (e.g. dermatology). We bring: Bay Area curriculum, guest faculty, residency stipends, project sponsorship, AI pilots (like DermaLens), a path to US exposure.</p><p class="ask">We ask: a host venue, a student pipeline, one faculty champion, clinical/domain validation and pilot sites.</p></div>
       <div class="card mid"><p class="lane-tag">Support ask</p><h3>🏭 Sponsors</h3><p>Industry, neoclouds, and model providers. We bring: trained AI + security engineers, startup deal flow, a Bay Area bridge for your customers and products.</p><p class="ask">We ask: compute credits, internships, cohort sponsorship — support, not capital.</p></div>
       <div class="card"><p class="lane-tag">Financial ask</p><h3>🤝 Partners</h3><p>Incubator and operating partners. We bring: deal flow, co-investment access, and a Bay Area/India bridge.</p><p class="ask">We ask: a financial commitment as LP or co-investor. Incubator partners specifically: help us find internal candidates, provide physical space, and open introductions/networking with IIT or department incubation programs.</p></div>
     </div></div>
   </section>
 
   <!-- 11 · The ask -->
-  <section class="slide dark">
+  <section class="slide dark" id="asks">
     <h2>This trip: the conversations we want to have</h2>
     <p class="kicker">Grouped by relationship — Departments and Sponsors give support, Partners commit capital.</p>
     <div class="grow"><div class="asks">
       <div class="askrow"><div class="num">1</div><p><strong>Department:</strong> a college ready to host the first Kumbh Residency cohort (Nashik)</p></div>
-      <div class="askrow"><div class="num">2</div><p><strong>Department:</strong> a dermatology working session — would the association pilot History Lens/AI triage?</p></div>
+      <div class="askrow"><div class="num">2</div><p><strong>Department:</strong> a dermatology working session — would the association pilot DermaLens/AI triage?</p></div>
       <div class="askrow"><div class="num">3</div><p><strong>Partner:</strong> 2–3 incubator/operating partner candidates — the India operator seat is priority #1</p></div>
       <div class="askrow"><div class="num">4</div><p><strong>Partner:</strong> incubator introductions — internal candidates, physical space, IIT or department networking</p></div>
       <div class="askrow"><div class="num">5</div><p>Founders in Pune/Bangalore building AI security or vernacular AI</p></div>
       <div class="askrow"><div class="num">6</div><p><strong>Sponsor:</strong> a neocloud or model partner to sponsor residency compute</p></div>
       <div class="askrow"><div class="num">7</div><p>Counsel &amp; CPA: cross-border structure, CCPS/iSAFE templates</p></div>
     </div></div>
-    <p class="foot">Vaibhav Bhandari · Vitraag Collective · July 2026 · <a href="https://intern.cyberdefendersprogram.com/program" style="color:var(--fog)">Cyber Defenders Internship Program →</a> · v1.1 · updated 2026-07-13</p>
+    <p class="foot">Vaibhav Bhandari · Vitraag Collective · July 2026 · <a href="https://intern.cyberdefendersprogram.com/program" style="color:var(--fog)">Cyber Defenders Internship Program →</a> · v1.2 · updated 2026-07-13</p>
   </section>
 </div>
 
@@ -307,11 +308,23 @@ sitemap: false
   const slides=[...document.querySelectorAll('.slide')];
   let i=0;
   const bar=document.getElementById('bar'),counter=document.getElementById('counter');
-  function go(n){
+  function go(n,fromHash){
     i=Math.max(0,Math.min(slides.length-1,n));
     slides.forEach((s,k)=>s.classList.toggle('active',k===i));
     counter.textContent=(i+1)+' / '+slides.length;
     bar.style.width=((i+1)/slides.length*100)+'%';
+    if(!fromHash){
+      const id=slides[i].id;
+      if(id) history.replaceState(null,'','#'+id);
+    }
+  }
+  function goToHash(){
+    const id=location.hash.slice(1);
+    if(!id) return false;
+    const idx=slides.findIndex(s=>s.id===id);
+    if(idx<0) return false;
+    go(idx,true);
+    return true;
   }
   document.getElementById('next').onclick=()=>go(i+1);
   document.getElementById('prev').onclick=()=>go(i-1);
@@ -328,7 +341,8 @@ sitemap: false
     if(Math.abs(dx)>60) go(i+(dx<0?1:-1));
     x0=null;
   },{passive:true});
-  go(0);
+  addEventListener('hashchange',goToHash);
+  if(!goToHash()) go(0);
 </script>
 </body>
 </html>
