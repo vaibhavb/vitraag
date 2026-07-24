@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Vitraag Collective seal">
+  <title>Vitraag Collective</title>
+  <circle cx="100" cy="107" r="94" fill="none" stroke="#0B3C49" stroke-width="2.4"/>
+  <circle cx="100" cy="107" r="86" fill="none" stroke="#0B3C49" stroke-width="1.2"/>
+  <polygon points="14,16 100,198 186,16 146,16 100,140 54,16" fill="#0B3C49"/>
+  <rect x="9" y="11" width="11" height="11" transform="rotate(45 14 16)" fill="#0B3C49"/>
+  <rect x="49" y="11" width="11" height="11" transform="rotate(45 54 16)" fill="#0B3C49"/>
+  <rect x="141" y="11" width="11" height="11" transform="rotate(45 146 16)" fill="#0B3C49"/>
+  <rect x="181" y="11" width="11" height="11" transform="rotate(45 186 16)" fill="#0B3C49"/>
+  <path d="M169.5,32.1 A100,100 0 1 0 169.5,175.9 L155.6,161.5 A80,80 0 1 1 155.6,46.5 Z" fill="#C6902B" stroke="#0B3C49" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle cx="169.5" cy="32.1" r="5" fill="#0B3C49"/>
+  <circle cx="169.5" cy="175.9" r="5" fill="#0B3C49"/>
+</svg>
