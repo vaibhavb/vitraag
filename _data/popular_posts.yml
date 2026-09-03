@@ -1,23 +1,23 @@
-last_updated: '2026-09-02T05:15:44.680673+00:00'
+last_updated: '2026-09-03T05:21:41.718263+00:00'
 posts:
-- pageviews: 2535
+- pageviews: 2538
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 229
+- pageviews: 232
   path: /bookmarks
   title: bookmarks
-- pageviews: 161
+- pageviews: 162
   path: /security-news
   title: Security News
 - pageviews: 124
   path: /recipes/
   title: Recipes
+- pageviews: 117
+  path: /2024/12/31/a-year-in-review/
+  title: A Year In Review
 - pageviews: 116
   path: /2024/12/05/holiday-hacks/
   title: Holiday Hacks
-- pageviews: 116
-  path: /2024/12/31/a-year-in-review/
-  title: A Year In Review
 - pageviews: 103
   path: /2024/05/20/may-motions-and-mysteries/
   title: May Motions And Mysteries
@@ -27,6 +27,6 @@ posts:
 - pageviews: 101
   path: /2024/03/17/slow-fast-march/
   title: Slow Fast March!
-- pageviews: 97
+- pageviews: 98
   path: /posts-by-year/
   title: Posts By Year!
