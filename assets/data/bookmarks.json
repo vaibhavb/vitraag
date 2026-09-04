@@ -1,5 +1,495 @@
 [
   {
+    "date": "2026-08-28",
+    "title": "Post by @biogerontology on X",
+    "url": "https://x.com/biogerontology/status/2092618817172357279"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "National Museum of Mathematics",
+    "url": "https://momath.org/"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Manjul Bhargava",
+    "url": "https://www.youtube.com/watch?v=1uJBf84R8r0"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Healthcare x Real Estate: What’s happening in between them?",
+    "url": "https://www.outofpocket.health/p/healthcare-x-real-estate"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "India by Motorcycle invites you to experience the adventure of a lifetime.",
+    "url": "https://www.indiabymotorcycle.com/"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing?",
+    "url": "https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat"
+  },
+  {
+    "date": "2026-08-25",
+    "title": "UsefulCharts Tree of Life Poster Series",
+    "url": "https://www.kickstarter.com/projects/usefulcharts/tree-of-life-poster-series"
+  },
+  {
+    "date": "2026-08-23",
+    "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+    "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-23",
+    "title": "The Defender's Window • Greg Brockman",
+    "url": "https://blog.gregbrockman.com/the-defenders-window?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-23",
+    "title": "Cyber Insurance for North America",
+    "url": "https://axaxl.com/insurance/products/cyber-insurance"
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Call For Proposals (CFP)",
+    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/cfp/?utm_campaign=18269725-KubeCon-EU-2026&utm_medium=email&_hsmi=434186153&utm_content=434186153&utm_source=hs_email"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "ChatGPT Computer History Logs Every Click and Keystroke on Your Mac",
+    "url": "https://hwbusters.com/news/chatgpt-computer-history-logs-every-click-and-keystroke-on-your-mac/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "The State of Ransomware Q2 2026",
+    "url": "https://research.checkpoint.com/2026/the-state-of-ransomware-q2-2026/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Autonomous Agent Safety: Hard Scoping and Guardrails",
+    "url": "https://xbow.com/blog/autonomous-agent-safety-guardrails?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "yc-software/qm: Multiplayer agent harness for work.",
+    "url": "https://github.com/yc-software/qm"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "jmandel/mychart-takeout: Export all of your own health data from an Epic MyChart patient portal — runs in your browser, data stays local. Bookmarklet + CDP CLI.",
+    "url": "https://github.com/jmandel/mychart-takeout"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "Gaussian splatting",
+    "url": "https://en.wikipedia.org/wiki/Gaussian_splatting"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "Everything we launched during Agents Week",
+    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "Post by @a16z on X",
+    "url": "https://x.com/a16z/status/2087638825589961152?ref=newsletter.myclaw.ai"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "A Practical Guide to Connecting Burp Suite to Claude Code via MCP",
+    "url": "https://medium.com/@Aacle/a-practical-guide-to-connecting-claude-code-to-burp-suite-via-bmcp-9a6a4a3a8302"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "A Security Analysis of Amazon S3 Vectors and Its Use in LLM Retrieval Pipelines",
+    "url": "https://www.offensai.com/blog/amazon-s3-vectors-security-llm-rag-poisoning?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Beyond Prompt Injection: Hacking Apple's Private Cloud Compute",
+    "url": "https://blog.sentry.security/beyond-prompt-injection-hacking-apples-private-cloud-compute/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "UK man tied to The Com sentenced for abusing 117 victims",
+    "url": "https://cyberscoop.com/uk-justin-swaddle-the-com-sentenced/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Some Simple Economics of Open versus Closed AI",
+    "url": "https://www.a16z.news/p/some-simple-economics-of-open-versus"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Corma launches with $60M in funding for defensive cybersecurity AI",
+    "url": "https://siliconangle.com/2026/08/10/corma-launches-60m-funding-defensive-cybersecurity-ai/?ref=bayarealetters.com"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "How Figma Stays Ahead of Vulnerabilities With Agents",
+    "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "DataDog/datadog-saist: AI-native SAST",
+    "url": "https://github.com/datadog/datadog-saist?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-08",
+    "title": "Black Hat USA 2026: The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "url": "https://www.youtube.com/watch?v=87DyyMV0kCY"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "Homeservice Plumbers - Bellevue, WA",
+    "url": "https://www.yelp.com/biz/homeservice-plumbers-bellevue"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "Application Security and AI Security, Unified",
+    "url": "https://www.mend.io/"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "Application Security + AI Security in One Platform",
+    "url": "https://www.mend.io/why-mend/"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Kimi K3: The Manos, The Mythos, The Legendos",
+    "url": "https://newsletter.semianalysis.com/p/kimi-k3-the-manos-the-mythos-the"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Journey Through Engaged Jain Studies: An Interview with Chaitanya Prakash",
+    "url": "https://www.arihantainstitute.org/blog/186-journey-through-engaged-jain-studies-an-interview-with-chaitanya-prakash"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Stateless MCP has recaptured my interest",
+    "url": "https://simonw.substack.com/p/stateless-mcp-has-recaptured-my-interest?utm_source=post-email-title&publication_id=1173386&post_id=209341912&utm_campaign=email-post-title&isFreemail=true&r=1xgaxy&triedRedirect=true&utm_medium=email"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "zoph-io/clickops-sentinel: Get notified, with AI-powered context, when someone changes your AWS account through the AWS Console instead of IaC. EventBridge + Bedrock Claude agent + Amazon Q Developer.",
+    "url": "https://github.com/zoph-io/clickops-sentinel?utm_source=tldrsec.com"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Discovering cryptographic weaknesses with Claude",
+    "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Consensus: AI for Research",
+    "url": "https://consensus.app/"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Free CNC Projects 〡Vectric",
+    "url": "https://www.vectric.com/vectric-community/free-projects/"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "Buckminster Fuller and the Sixty-Six-Year Experiment to Document His Existence",
+    "url": "https://www.thehowtolivenewsletter.org/p/buckminster"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "AI-Assisted Bug Hunt Uncovers Linux Kernel 0-Day in net/sched",
+    "url": "https://www.infosecurity-magazine.com/news/ai-linux-kernel-zero-day-net-sched/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "CISO's guide to agentic AI | Claude by Anthropic",
+    "url": "https://claude.com/blog/ciso-guide-to-agentic-ai"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "Comparing Open-Source AI Code Security Harnesses",
+    "url": "https://semgrep.dev/blog/2026/comparing-open-source-ai-code-security-harnesses/"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "Bee - Your new wearable personal AI",
+    "url": "https://bee.computer/"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "mastery-based homeschool for K–5",
+    "url": "https://rez0srascals.com/welcome"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "22580: From GPT2 to Kimi3, Explained",
+    "url": "https://x.com/waterloo_intern/status/2081762065392541951"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "Introducing MAI-Cyber-1-Flash inside MDASH",
+    "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "2027 AAD Annual Meeting",
+    "url": "https://www.aad.org/member/meetings-education/am27"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "badchars/darknet-mcp-server: 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain intel, exploit search, stealer logs",
+    "url": "https://github.com/badchars/darknet-mcp-server?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "We build cybersecurity models.",
+    "url": "https://www.empiricalsecurity.com/?utm_source=www.returnonsecurity.com&utm_medium=newsletter&utm_campaign=security-funded-254-three-unicorn-moon"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "What 239 Products Reveal About the Shape of AI Security",
+    "url": "https://zeltser.com/ai-security-market-shape"
+  },
+  {
+    "date": "2026-07-17",
+    "title": "Knossos: Procedurally Generated Decoy Environments",
+    "url": "https://www.praetorian.com/blog/knossos-decoy-environments?utm_source=tldrsec.com&utm_medium=newsletter&utm_campaign=tl-dr-sec-337-harnessing-harnesses-generate-decoy-environments-bug-bounty-singularity"
+  },
+  {
+    "date": "2026-07-17",
+    "title": "8 Classroom AI Policies Developed by Teachers",
+    "url": "https://www.edutopia.org/article/8-classroom-ai-policies-developed-by-teachers"
+  },
+  {
+    "date": "2026-07-17",
+    "title": "Soatok’s Informal Guide to Threat Models",
+    "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "OpenEvidence HugoScore profile",
+    "url": "https://hugoscore.org/tools/openevidence/"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "Health Record Skill",
+    "url": "https://health-skillz.joshuamandel.com/"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "Critical AI Health Literacy as Liberation Technology: A New Skill for Patient Empowerment",
+    "url": "https://nam.edu/perspectives/critical-ai-health-literacy-as-liberation-technology-a-new-skill-for-patient-empowerment/"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "Personal Science Week",
+    "url": "https://www.personalscience.com/p/personal-science-week-260514-magnesium"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "(Re)Building the Ultimate Homelab NUC Cluster",
+    "url": "https://blog.zsec.uk/homelab-clustering-pt1/"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "Invariants Rock!",
+    "url": "https://x.com/amandaorson/status/2075218531705037132?s=20"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "Features",
+    "url": "https://binary.ninja/features/"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "Inkling: Our open-weights model",
+    "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "The Memory Heist",
+    "url": "https://www.ayush.digital/blog/the-memory-heist"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "bench: make your agents better at computers",
+    "url": "https://cua.ai/cuabench"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "Boom Automations - AI-Powered Business Automation & Consulting",
+    "url": "https://boomautomations.com/"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "Stockton Home Warranty",
+    "url": "https://my.choicehomewarranty.com/profile/"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "2026 NVCA Yearbook 2026 NVCA Yearbook - National Venture Capital Association",
+    "url": "https://nvca.org/2026-nvca-yearbook/?utm_source=chatgpt.com"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Private Equity’s Reality Check: The GP Outlook for 2026",
+    "url": "https://www.bain.com/insights/private-equitys-reality-check-gp-outlook-2026/"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Introducing ASEF",
+    "url": "https://www.cybersec-automation.com/p/asef-ai-soc-evaluation-framework"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "KeygraphHQ/shannon: Shannon is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+    "url": "https://github.com/KeygraphHQ/shannon"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "AI prompts for CTI workflows | TI Essentials",
+    "url": "https://feedly.com/ti-essentials/posts/cti-prompt-library-volume-2"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "The Millennium Prize Problems",
+    "url": "https://www.claymath.org/millennium-problems/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Learning to Replicate Expert Judgment in Financial Tasks",
+    "url": "https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Security Context",
+    "url": "https://securitycontext.dev/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Cordelia Cruises",
+    "url": "https://www.cordeliacruises.com/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "How LLMs Are Changing Bug Bounty: Interview with Rhynorater",
+    "url": "https://www.yeswehack.com/community/llms-bug-bounty-interview-rhynorater"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Spectrum of Darkness, Agent of Light",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30087820/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Harnessing Harnesses",
+    "url": "https://blog.zsec.uk/harnessing-harnesses/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Scrutineer",
+    "url": "https://github.com/alpha-omega-security/scrutineer"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Kurt Vonnegut’s Life-Advice to His Children",
+    "url": "https://www.themarginalian.org/2013/11/11/kurt-vonnegut-advice-to-children/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Dawnguard for Engineers",
+    "url": "https://dawnguard.ai/solution/engineers"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Sec-Gemini",
+    "url": "https://github.com/google/sec-gemini"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Local AI for Penetration Testing & Research",
+    "url": "https://projectblack.io/blog/local-ai-for-cyber-security/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "preview.is RAG Search API",
+    "url": "https://rag.preview.is/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Year of Systems",
+    "url": "https://benmeer.com/yearofsystems/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Don’t Train the Model, Evolve the Harness",
+    "url": "https://huggingface.co/spaces/joelniklaus/harness-optimization#introduction"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Thomas Wolf on Open-Source Speech-to-Speech",
+    "url": "https://x.com/thom_wolf/status/2072825424800006350?s=46"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "CMU AI Agents Course",
+    "url": "https://www.cmu-agents.com/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Flock’s Surveillance Cameras Are Spreading Fast Across the US",
+    "url": "https://thenextweb.com/news/flock-surveillance-cameras-spread-us"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "The Fall of the Theorem Economy",
+    "url": "https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "100X.VC",
+    "url": "https://www.100x.vc/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "FluidVoice",
+    "url": "https://altic.dev/fluid"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "LLM Class Post",
+    "url": "https://x.com/wickedbrok/status/2073951354213597474"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "The AI Portfolios Post",
+    "url": "https://x.com/theaiportfolios/status/2074195013257273580?s=46"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+    "url": "https://arxiv.org/abs/1701.06538"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Pathways: Asynchronous Distributed Dataflow for ML",
+    "url": "https://arxiv.org/abs/2203.12533"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Marble Curriculum",
+    "url": "https://withmarble.com/curriculum/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Sashiko",
+    "url": "https://sashiko.dev/"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "From Temples to Technology — India’s Wealthy Are Giving to Science",
+    "url": "https://www.bbc.com/news/articles/cvg5388xpv9o"
+  },
+  {
     "date": "2026-07-06",
     "title": "A Reading Guide to Chinese Biotech",
     "url": "https://nikomc.com/china-guide/"

@@ -1,3 +1,42 @@
+- date: '2026-09-04'
+  news-items:
+  - desc: mastery-based homeschool for K–5 — A calm, mastery-based AI learning home
+      for K–5. Kids do a few focused hours with a Socratic AI coach who never just
+      hands over the answer — then close the tablet and go be kids.
+    link: https://rez0srascals.com/welcome
+  - desc: Zero Click Marketing — Amanda Natividad's talk on marketing without depending
+      on clicks back to your website. Argues for creating standalone, complete value
+      directly on the platforms where audiences already spend time.
+    link: https://youtu.be/MBxhzARQNeo
+  - desc: 'CS146S: The Modern Software Developer — Stanford''s first course dedicated
+      to AI-assisted software engineering, covering the full lifecycle from LLM fundamentals
+      to agent architectures and production operations. Uses Cursor, Claude Code,
+      and Warp; emphasizes human-AI collaboration over "vibe coding."'
+    link: https://github.com/georgestephenson/cs146s-modern-software-dev
+  - desc: How to turn your AI into a world-class designer — A three-step process (discover,
+      define, deliver) for pushing AI design output beyond predictable, generic choices.
+      Includes techniques like feeding random strings as inspiration and connecting
+      AI to your actual design system components.
+    link: https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world
+  - desc: codex-first-customer-finder-skill — A Codex skill aimed at helping find
+      a startup's first customers. Worth a look for anyone exploring agent skills
+      for early-stage GTM work.
+    link: https://github.com/Kappaemme-git/codex-first-customer-finder-skill
+  - desc: Boris Cherny tweet on CLAUDE.md and agent-ready docs — Argues every team
+      should write CLAUDE.md's, REVIEW.md's, skills, and docs so agents can work productively
+      in their codebase with zero extra context. A strong case for investing in agent-facing
+      documentation.
+    link: https://x.com/bcherny/status/2077460395279692197?s=20
+- date: '2026-07-19'
+  news-items:
+  - desc: preview.is RAG Search API — ** RAG/search API product concept for quickly
+      adding retrieval backed search to applications. Interesting product idea for
+      hosted RAG infrastructure and developer friendly search APIs.
+    link: https://rag.preview.is/
+  - desc: Year of Systems — ** Ben Meer’s course/book companion built around installing
+      one practical life system each week for a year. Useful for personal operations,
+      habit infrastructure, and productivity systems.
+    link: https://benmeer.com/yearofsystems/
 - date: '2026-07-05'
   news-items:
   - desc: “It’s Hard to Eval” Is a Product Smell — ** Hamel Husain argues that hard

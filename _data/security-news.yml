@@ -1,3 +1,209 @@
+- date: '2026-09-04'
+  news-items:
+  - desc: 'Introducing ASEF — Decode the AI SOC vendor landscape: Discover ASEF, a
+      vendor-neutral evaluation framework scoring platforms across detection, investigation,
+      response, and trust layers.'
+    link: https://www.cybersec-automation.com/p/asef-ai-soc-evaluation-framework
+  - desc: 'KeygraphHQ/shannon: Shannon is an autonomous, white-box AI pentester for
+      web applications and APIs. It analyzes your source code, identifies attack vectors,
+      and executes real exploits to prove vulnerabilities before they reach production.
+      — Shannon is an autonomous, white-box AI pentester for web applications and
+      APIs. It analyzes your source code, identifies attack vectors, and executes
+      real exploits to prove vulnerabilities before they reach production. - KeygraphHQ/shannon
+      -- run shannon on juice shop!'
+    link: https://github.com/KeygraphHQ/shannon
+  - desc: AI prompts for CTI workflows | TI Essentials
+    link: https://feedly.com/ti-essentials/posts/cti-prompt-library-volume-2
+  - desc: Autonomous Vulnerability Hunting with MCP — A practical deep dive into building
+      an autonomous vulnerability hunting system using Claude Code and MCP.
+    link: https://blog.zsec.uk/bullyingllms/
+  - desc: Features — Summary of high level features
+    link: https://binary.ninja/features/
+  - desc: The Memory Heist — How I tricked Claude into leaking your deepest, darkest
+      secrets
+    link: https://www.ayush.digital/blog/the-memory-heist
+  - desc: 'Knossos: Procedurally Generated Decoy Environments — Decoy environments
+      from Knossos mirror your real cloud, so attackers can''t tell they''re inside.
+      Every move becomes usable intelligence.'
+    link: https://www.praetorian.com/blog/knossos-decoy-environments?utm_source=tldrsec.com&utm_medium=newsletter&utm_campaign=tl-dr-sec-337-harnessing-harnesses-generate-decoy-environments-bug-bounty-singularity
+  - desc: Soatok’s Informal Guide to Threat Models — After a long day of exhausting
+      conversations about Hybrid Post-Quantum Cryptography, random jackasses trying
+      to play gotcha with endpoint attacks against end-to-end encrypted messaging
+      apps, and message board discussions in the wake of dumb politicians pushing
+      more "age verification" bullshit on us all, it's become abundantly clear to
+      me that the phrase "threat model" is…
+    link: https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/
+  - desc: 'badchars/darknet-mcp-server: 66-tool MCP server for dark web intelligence
+      — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain
+      intel, exploit search, stealer logs — 66-tool MCP server for dark web intelligence
+      — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain
+      intel, exploit search, stealer logs - badchars/darknet-mcp-server'
+    link: https://github.com/badchars/darknet-mcp-server?utm_source=tldrinfosec
+  - desc: We build cybersecurity models. — Empirical Security builds precision AI
+      tuned to your cybersecurity environment.
+    link: https://www.empiricalsecurity.com/?utm_source=www.returnonsecurity.com&utm_medium=newsletter&utm_campaign=security-funded-254-three-unicorn-moon
+  - desc: 'What 239 Products Reveal About the Shape of AI Security — The security-for-AI
+      market is young and lopsided. Incumbents quickly extended their products into
+      the AI versions of assets they already secured, while the more distinct AI assets
+      drew startups and incumbents alike into markets that stay active and contested.
+      #must-read'
+    link: https://zeltser.com/ai-security-market-shape
+  - desc: CISO's guide to agentic AI | Claude by Anthropic — Anthropic's Deputy CISO
+      shares a four-question framework for assessing agentic AI risk, and walks through
+      controls that keep agent deployments bounded and auditable.
+    link: https://claude.com/blog/ciso-guide-to-agentic-ai
+  - desc: Comparing Open-Source AI Code Security Harnesses — A guide to open-source
+      AI tools for finding code vulnerabilities, comparing exploit generation, skill-boosted
+      auditing, and SAST+LLM hybrid approaches.
+    link: https://semgrep.dev/blog/2026/comparing-open-source-ai-code-security-harnesses/
+  - desc: Introducing MAI-Cyber-1-Flash inside MDASH — We make responsible AI to empower
+      people's lives.
+    link: https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/
+  - desc: AI-Assisted Bug Hunt Uncovers Linux Kernel 0-Day in net/sched — AI-assisted
+      research uncovered Linux kernel use-after-free allowing root escalation
+    link: https://www.infosecurity-magazine.com/news/ai-linux-kernel-zero-day-net-sched/?utm_source=tldrinfosec
+  - desc: 'zoph-io/clickops-sentinel: Get notified, with AI-powered context, when
+      someone changes your AWS account through the AWS Console instead of IaC. EventBridge
+      + Bedrock Claude agent + Amazon Q Developer. — Get notified, with AI-powered
+      context, when someone changes your AWS account through the AWS Console instead
+      of IaC. EventBridge + Bedrock Claude agent + Amazon Q Developer. - zoph-io/clickops-sentinel'
+    link: https://github.com/zoph-io/clickops-sentinel?utm_source=tldrsec.com
+  - desc: Discovering cryptographic weaknesses with Claude — Anthropic researchers
+      find weaknesses in cryptographic algorithms with Claude Mythos Preview
+    link: https://www.anthropic.com/research/discovering-cryptographic-weaknesses
+  - desc: Application Security + AI Security in One Platform — Mend.io secures every
+      layer — code, open source, containers, and AI components — in one connected
+      platform. Three products. One lifecycle.
+    link: https://www.mend.io/why-mend/
+  - desc: Application Security and AI Security, Unified — Traditional application
+      security misses AI risk. Standalone AI security tools miss your code. Mend.io
+      closes the gap with unified security for AppSec and AI.
+    link: https://www.mend.io/
+  - desc: 'Black Hat USA 2026: The ''Breaking'' News: The OpenAI–Hugging Face Incident
+      — The ''Breaking'' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction
+      and Its Implications for AI. When AI Goes Rogue. The Incident That Changed Everything.
+      An OpenAI evaluation agent bro'
+    link: https://www.youtube.com/watch?v=87DyyMV0kCY
+  - desc: How Figma Stays Ahead of Vulnerabilities With Agents — For the past year,
+      agents at Figma have guarded code as it's written, reviewed every pull request,
+      and audited a decade-old monorepo, all on one policy.
+    link: https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/?utm_source=tldrinfosec
+  - desc: 'DataDog/datadog-saist: AI-native SAST — AI-native SAST. Contribute to DataDog/datadog-saist
+      development by creating an account on GitHub.'
+    link: https://github.com/datadog/datadog-saist?utm_source=tldrinfosec
+  - desc: 'Beyond Prompt Injection: Hacking Apple''s Private Cloud Compute — Drinor
+      was awarded $150,000 for CVE-2026-20685 targeting Apple''s Private Cloud Compute,
+      the inference backbone of Apple Intelligence capabilities.'
+    link: https://blog.sentry.security/beyond-prompt-injection-hacking-apples-private-cloud-compute/?utm_source=tldrinfosec
+  - desc: UK man tied to The Com sentenced for abusing 117 victims — Justin Swaddle
+      was sentenced to two years in prison for extorting 117 young victims worldwide
+      as part of the cybercrime network known as The Com.
+    link: https://cyberscoop.com/uk-justin-swaddle-the-com-sentenced/?utm_source=tldrinfosec
+  - desc: Corma launches with $60M in funding for defensive cybersecurity AI — Corma
+      launches with $60M in funding for defensive cybersecurity AI - SiliconANGLE
+    link: https://siliconangle.com/2026/08/10/corma-launches-60m-funding-defensive-cybersecurity-ai/?ref=bayarealetters.com
+  - desc: 'A Security Analysis of Amazon S3 Vectors and Its Use in LLM Retrieval Pipelines
+      — An analysis of the security model of Amazon S3 Vectors and of the considerations
+      that arise when it is used as the retrieval layer for LLM applications: access
+      control scope, input validation, metadata integrity, and audit coverage.'
+    link: https://www.offensai.com/blog/amazon-s3-vectors-security-llm-rag-poisoning?utm_source=tldrinfosec
+  - desc: A Practical Guide to Connecting Burp Suite to Claude Code via MCP — You're
+      reading for free via Abhishek meena's Friend Link. Upgrade to access the best
+      of Medium.
+    link: https://medium.com/@Aacle/a-practical-guide-to-connecting-claude-code-to-burp-suite-via-bmcp-9a6a4a3a8302
+  - desc: 'Security, Funded #256 - Return on Security — Weekly roundup of cybersecurity
+      venture funding rounds and notable M&A activity. Tracks where capital is flowing
+      across the security industry.'
+    link: https://www.returnonsecurity.com/p/security-funded-256
+  - desc: ChatGPT Computer History Logs Every Click and Keystroke on Your Mac — ChatGPT
+      Computer History records clicks, keystrokes and app switches on macOS, then
+      stores the summaries as unencrypted Markdown files on your own disk.
+    link: https://hwbusters.com/news/chatgpt-computer-history-logs-every-click-and-keystroke-on-your-mac/?utm_source=tldrinfosec
+  - desc: The State of Ransomware Q2 2026 — Latest Research by our Team
+    link: https://research.checkpoint.com/2026/the-state-of-ransomware-q2-2026/?utm_source=tldrinfosec
+  - desc: 'Autonomous Agent Safety: Hard Scoping and Guardrails — See how XBOW uses
+      hard scoping, egress controls, Guardian Models, health monitoring, and audit
+      trails to safely contain autonomous security agents.'
+    link: https://xbow.com/blog/autonomous-agent-safety-guardrails?utm_source=tldrinfosec
+  - desc: Grok exfiltrates user data when malicious instructions are encrypted — Cryptographic
+      Context Injection is only the latest way to break an LLM safety guardrail.
+    link: https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/?utm_source=tldrinfosec
+  - desc: The Defender's Window • Greg Brockman — The OpenAI-Hugging Face incident
+      was a watershed moment for cybersecurity because it gave a peek into how the
+      capabilities of a typical threat actor will evolve in upcoming months. I’ve
+      spoken with many organizations over the past few weeks, and... | Greg Brockman
+      | Svbtle
+    link: https://blog.gregbrockman.com/the-defenders-window?utm_source=tldrinfosec
+  - desc: disrobe — Malware analysis toolkit. Helps unpack, deobfuscate, and inspect
+      malicious binaries.
+    link: https://github.com/1-3-7/disrobe
+  - desc: Staying Ahead of Adversarial AI Through Agentic Source Code Review — Google
+      Cloud/Mandiant's Agentic Vulnerability Discovery Harness (AVDH) combines LLM
+      code analysis with skeptical validation steps and human expertise. Found 100+
+      true-positive critical vulnerabilities in two days during a real incident response
+      engagement.
+    link: https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review
+  - desc: What Happened to HackerOne? — Commentary on the state and direction of HackerOne
+      as AI reshapes bug bounty programs. Relevant background for the AI-run bug bounty
+      discussion below.
+    link: https://blog.teknogeek.io/posts/what-happened-to-hackerone/
+  - desc: 'Edition 3: Inside an AI-Run Bug Bounty Report — Anshuman Bhartiya''s report
+      on running a bug bounty program driven by AI triage and analysis. Third installment
+      in a series examining AI''s role in vulnerability disclosure.'
+    link: https://www.linkedin.com/pulse/edition-3-inside-ai-run-bug-bounty-report-anshuman-bhartiya-ch8rc
+  - desc: OpenRisk — Open-source risk management platform. Framework for tracking
+      and managing organizational risk.
+    link: https://github.com/opendefender/OpenRisk
+  - desc: Tata's B2B platform returned OTPs in API responses — A flaw in Tata Nexarc,
+      a B2B procurement platform, let attackers take over any account by knowing only
+      the victim's phone number. The API leaked the OTP in its response, decryptable
+      via a JavaScript breakpoint despite AES encryption.
+    link: https://eaton-works.com/2026/08/24/tata-nexarc-hack/
+  - desc: The coolest anti-surveillance tools at Defcon — Naomi Brockwell's Ludlow
+      Institute video on privacy and anti-surveillance tools showcased at Defcon.
+      Covers practical tech for protecting individual autonomy against pervasive surveillance.
+    link: https://youtu.be/-2uAsJ5EPAw?is=vlJ40jhWVY2jLD85
+  - desc: Security Conference Coverage — Deep-dive coverage of 61 security and AI
+      conferences — 4457 talks analyzed with reviews, video timestamps, and key takeaways.
+    link: https://greptalks.ai/
+  - desc: 'Amazon Kiro: AI Is Breaking Vulnerability Disclosure Processes — An Amazon
+      Kiro data-exfiltration finding shows how AI execution paths create technical
+      risks and expose gaps in vulnerability disclosure.'
+    link: https://mindgard.ai/blog/amazon-kiro-data-exfiltration?utm_source=tldrinfosec
+  - desc: 'Threat hunt AI: How we built an AI security analyst on AWS for under $500/month
+      — A look inside Grow Therapy''s Claude-powered threat hunting system: multi-phase
+      AI analysis, noise reduction, and a sub-$500/month AWS setup.'
+    link: https://engineering.growtherapy.com/post/threat-hunt-ai-how-we-built-an-ai-security-analyst-on-aws-for-under-500-month?utm_source=tldrinfosec
+  - desc: Adaptive Agentic Worms Are Here — I’ve read and listened to pretty much
+      everything I can get my hands on related to the Hugging Face attack. …
+    link: https://www.lesswrong.com/posts/fpLDjKg3ej49beqTC/adaptive-agentic-worms-are-here
+  - desc: Hackers Target AWS Root Accounts at 150+ Organizations With Password Spraying
+      Attacks — A newly disclosed password-spraying campaign targeting AWS root user
+      accounts at more than 150 organizations highlights the continued value of cloud
+      environments’ most privileged identities to attackers.
+    link: https://cyberpress.org/hackers-target-aws-root-accounts/?utm_source=tldrinfosec
+  - desc: Aaron Levie on X — Levie's take on why it's a great time to be in security,
+      with AI agents both raising the stakes for defenders and giving them new leverage.
+      Argues defense will increasingly rely on throwing AI compute at codebases and
+      networks at scale.
+    link: https://x.com/levie/status/2095024699441119612?s=46
+  - desc: 'CyberStrike — Open-source, autonomous AI agent for penetration testing:
+      install via `npm i -g @cyberstrike-io/cyberstrike@latest && cyberstrike`. Ships
+      13+ specialized agents and 120+ OWASP test cases across 15+ LLM providers.'
+    link: https://cyberstrike.io/
+  - desc: DoD Opens Applications for Long-Awaited Cyber Apprenticeship Program — The
+      Department of Defense has opened applications for its long-delayed cyber apprenticeship
+      program. Aims to build a pipeline of cyber talent into federal service.
+    link: https://federalnewsnetwork.com/workforce/2026/07/dod-opens-applications-for-long-awaited-cyber-apprenticeship-program/
+  - desc: 'Friendly Fire: Hijacking Defensive Cyber AI Agents for Remote Code Execution
+      - AI Now Institute — Research on hijacking defensive cyber AI agents to achieve
+      remote code execution. Highlights risks of trusting autonomous security agents
+      with elevated privileges.'
+    link: https://ainowinstitute.org/
+  - desc: The AI Supply Chain Problem - Semgrep Blog — Semgrep's take on emerging
+      supply-chain security risks introduced by AI tooling and AI-generated code.
+      Relevant to securing AI-assisted development pipelines.
+    link: https://semgrep.dev/blog/2026/ai-supply-chain-problem/
 - date: '2026-06-30'
   news-items:
   - desc: 'Daybreak: Tools for securing every organization in the world — OpenAI''s

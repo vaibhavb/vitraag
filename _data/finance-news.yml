@@ -1,3 +1,28 @@
+- date: '2026-09-04'
+  news-items:
+  - desc: 2026 NVCA Yearbook 2026 NVCA Yearbook - National Venture Capital Association
+      — NVCA 2026 Yearbook | The Venture Industry in Transition NVCA 2026 Yearbook
+      The Venture Industry in Transition $320 billion deployed. 65% in AI. 859 unicorns
+      waiting. The 2025 venture market was two markets stacked on top of each other.
+      Download Full Report Public Data Pack $320BCapital Deployed51% increase YoY
+      65.4%AI Share of Deal ValueUp from
+    link: https://nvca.org/2026-nvca-yearbook/?utm_source=chatgpt.com
+  - desc: 'Private Equity’s Reality Check: The GP Outlook for 2026 — What do general
+      partners expect in the year ahead? Bain and StepStone surveyed investment professionals
+      on multiples, margin assumptions, management fees, and more.'
+    link: https://www.bain.com/insights/private-equitys-reality-check-gp-outlook-2026/
+  - desc: Some Simple Economics of Open versus Closed AI — If the weights are free,
+      who pays for the next run, and who will keep us safe?
+    link: https://www.a16z.news/p/some-simple-economics-of-open-versus
+  - desc: 'AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing? —
+      $3 Million USD dataset open sourced, 1 Mil+ Context Length, Multiturn, Sub Agents
+      95%+ KVCache HitRate, GB300 NVL72, MI355, B200'
+    link: https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat
+  - desc: 'Patrick O''Shaughnessy on X: conversation with Neil Movva — A detailed,
+      401-level conversation on AI inference infrastructure with Neil Movva of Sail
+      Research, ex-Nvidia GPU/kernels engineer. Covers token factories, background
+      agents, chips, memory, and power infrastructure for AI data centers.'
+    link: https://x.com/patrick_oshag/status/2092226959711334544/video/1?s=46
 - date: '2026-06-29'
   news-items:
   - desc: China's CXMT Is Set to Challenge DRAM Incumbents — SemiAnalysis on how China's

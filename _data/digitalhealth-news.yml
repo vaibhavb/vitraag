@@ -1,3 +1,74 @@
+- date: '2026-09-04'
+  news-items:
+  - desc: OpenEvidence HugoScore profile — OpenEvidence is an AI medical knowledge
+      and clinical decision-support platform for healthcare professionals. It may
+      improve clinician access to evidence and…
+    link: https://hugoscore.org/tools/openevidence/
+  - desc: Health Record Skill
+    link: https://health-skillz.joshuamandel.com/
+  - desc: 'Critical AI Health Literacy as Liberation Technology: A New Skill for Patient
+      Empowerment — Critical AI Health Literacy addresses these risks by fostering
+      what the authors call algorithmic resistance: the deliberate and informed use
+      of AI to'
+    link: https://nam.edu/perspectives/critical-ai-health-literacy-as-liberation-technology-a-new-skill-for-patient-empowerment/
+  - desc: Personal Science Week — The internet is unanimous that magnesium helps you
+      sleep. That's not what I found.
+    link: https://www.personalscience.com/p/personal-science-week-260514-magnesium
+  - desc: 2027 AAD Annual Meeting — The 2027 AAD Annual Meeting is scheduled to take
+      place March 19-23, 2027, in San Francisco, California, bringing you the latest
+      developments in the field and the opportunities to connect with the best in
+      dermatology.
+    link: https://www.aad.org/member/meetings-education/am27
+  - desc: 'jmandel/mychart-takeout: Export all of your own health data from an Epic
+      MyChart patient portal — runs in your browser, data stays local. Bookmarklet
+      + CDP CLI. — Export all of your own health data from an Epic MyChart patient
+      portal — runs in your browser, data stays local. Bookmarklet + CDP CLI. - jmandel/mychart-takeout'
+    link: https://github.com/jmandel/mychart-takeout
+  - desc: 'Healthcare x Real Estate: What’s happening in between them? — Can two clunky
+      industries find something interesting in the middle?'
+    link: https://www.outofpocket.health/p/healthcare-x-real-estate
+  - desc: Limbic Becomes First AI-Led Mental Healthcare Company Selected for FDA TEMPO
+      — Limbic's clinician-supervised AI voice agent, Unpacked, joins the FDA's TEMPO
+      pilot to deliver CBT to Medicare patients with depression or anxiety. First
+      AI-led mental healthcare provider in the program.
+    link: https://www.hcinnovationgroup.com/analytics-ai/news/55398965/limbic-becomes-first-ai-led-mental-healthcare-company-selected-for-fda-tempo
+  - desc: FDA GenAI Framework — FDA guidance document on the use of generative AI
+      in regulated healthcare and medical contexts. Relevant reference for AI safety
+      and compliance work in health tech.
+    link: https://www.fda.gov/media/194242/
+  - desc: AI Reveals Hidden Patterns Inside Breast Cancer — Southampton researchers
+      built CenSegNet, an open-source AI tool analyzing 330,000+ centrosomes across
+      911 breast cancer tumor specimens. Found two previously conflated forms of centrosome
+      abnormality with implications for predicting tumor progression.
+    link: https://research.uhs.nhs.uk/news/ai-reveals-hidden-patterns-inside-breast-cancer
+  - desc: 'Rare Disease, Real Kid: The MVA Hackathon 2026 — Consider doing with Pallav.
+      Hugging Face and Sage Bio hackathon offering $50K in prizes from Anthropic and
+      AWS to analyze a real child''s genome for a rare disease diagnosis; submissions
+      close October 24.'
+    link: https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026
+  - desc: 'Post by @biogerontology on X — Tempus trained a foundation model on 1.67M
+      real cancer patients, fusing clinical trajectories with DNA, RNA, and H&E pathology
+      into one pati [Paper](arxiv.org/abs/2608.24688) #aarohi'
+    link: https://x.com/biogerontology/status/2092618817172357279
+  - desc: 3rd Annual Statewide CHA & SMP Conference Week — 3rd Annual Statewide CHA
+      & SMP Conference Week! Join our California Health Advocates Conference, Day
+      at the Capitol, and California SMP Conference in Sacramento, CA January 11-15,
+      2027! Come together to learn, collaborate, advocate, and lead for a stronger
+      Medicare system and a more secure future for all.
+    link: https://cahealthadvocates.org/conference/
+  - desc: Arintra banks $25M series B funding round for AI-driven revenue assurance
+      platform — Cofounder and CEO Nitesh Shroff told Fierce Arintra plans to use
+      the funds to broaden its platform, expand to more enterprise health systems
+      and more.
+    link: https://www.fiercehealthcare.com/finance/arintra-banks-25m-series-b-funding-round-ai-driven-revenue-assurance-platform
+  - desc: The data substrate for biological intelligence — AI-ready clinical data
+      infrastructure for pharma, biotech, frontier AI labs, RWE teams, CROs, and health
+      systems. 12.3M patients, five linked modalities, OMOP CDM normalized.
+    link: https://omicsbank.com/
+  - desc: 'Aesto healthcare data breach impacts 9.5 million people — Healthcare firm
+      Aesto has disclosed that a data breach announced earlier this year affected
+      9,540,683 individuals. #aws'
+    link: https://cyberinsider.com/aesto-healthcare-data-breach-impacts-9-5-million-people/
 - date: '2026-07-06'
   news-items:
   - desc: A Reading Guide to Chinese Biotech — A curated primer for understanding

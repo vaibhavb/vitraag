@@ -1,3 +1,112 @@
+- date: '2026-09-04'
+  news-items:
+  - desc: 'Inkling: Our open-weights model — Our first open-weights model: multimodal,
+      Mixture-of-Experts, with controllable reasoning effort. Available to fine-tune
+      on Tinker.'
+    link: https://thinkingmachines.ai/news/introducing-inkling/
+  - desc: 'bench: make your agents better at computers — A collection of desktop and
+      mobile tasks with a harness for evaluation and training to help agent makers
+      quantify their agents'' computer-use mastery.'
+    link: https://cua.ai/cuabench
+  - desc: Bee - Your new wearable personal AI — Bee is the personal wearable Ai that
+      understands you.
+    link: https://bee.computer/
+  - desc: '22580: From GPT2 to Kimi3, Explained — Twenty-two thousand five hundred
+      and eighty. That’s how many GPT-2 (2019) models fit inside KimiK3 (2026). We
+      scaled up by a factor of 22,58...'
+    link: https://x.com/waterloo_intern/status/2081762065392541951
+  - desc: 'Kimi K3: The Manos, The Mythos, The Legendos — Kimi K3’s architecture:
+      compressed memory, attention across depth, latent expert routing, and the inference
+      performance #mustread'
+    link: https://newsletter.semianalysis.com/p/kimi-k3-the-manos-the-mythos-the
+  - desc: Stateless MCP has recaptured my interest — Plus Opus 5, Kimi K3, DeepSeek-V4-Flash-0731,
+      and Anthropic got caught accidentally hacking other companies too!
+    link: https://simonw.substack.com/p/stateless-mcp-has-recaptured-my-interest?utm_source=post-email-title&publication_id=1173386&post_id=209341912&utm_campaign=email-post-title&isFreemail=true&r=1xgaxy&triedRedirect=true&utm_medium=email
+  - desc: 'Consensus: AI for Research — Consensus is an AI academic search engine
+      for peer-reviewed literature—your research OS for finding, organizing, and analyzing
+      science 10x faster.'
+    link: https://consensus.app/
+  - desc: 'Post by @a16z on X — Garry Tan says AI enables a single markdown file to
+      act like an employee: "If you really want to tokenmax, ..."'
+    link: https://x.com/a16z/status/2087638825589961152?ref=newsletter.myclaw.ai
+  - desc: Post by @cocoweixu on X — Wei Xu, NLP researcher, sharing a research update
+      or announcement. Worth a second look for the underlying paper or result referenced.
+    link: https://x.com/cocoweixu/status/2089386438848622768?s=46
+  - desc: Everything we launched during Agents Week — Our latest Agents Week has come
+      to a close. Here’s a recap of all the announcements we made, from Wallets to
+      Radar.
+    link: https://blog.cloudflare.com/agents-week-review-august-2026/
+  - desc: 'yc-software/qm: Multiplayer agent harness for work. — Multiplayer agent
+      harness for work. Contribute to yc-software/qm development by creating an account
+      on GitHub.'
+    link: https://github.com/yc-software/qm
+  - desc: Agentic AI Summit 2026 - Center for Responsible, Decentralized Intelligence
+      at Berkeley — UC Berkeley's RDI-hosted summit drew 5,000+ attendees and ~200
+      speakers across the AI agent stack. Speakers included Andrej Karpathy, Andrew
+      Ng, and Berkeley researchers Sergey Levine, Ion Stoica, and Dawn Song.
+    link: https://www.createwith.com/event/santiago-agentic-ai-summit-2026-center-for-responsible-decentralized--aug-2026
+  - desc: Harvey introduces Tenet — Harvey's first model post-trained specifically
+      for legal work, built on a Kimi K3 base. Post-training lifted its all-pass rate
+      82% on LAB and 22% on LAB Contracts versus the base model.
+    link: https://x.com/harvey/status/2090454750059958440?s=46
+  - desc: 'Puro-2B: Poor Lab''s Qwen2-1.5B Trained on RTX 5090 within $5090 — Abstract
+      page for arXiv paper 2608.27370: Puro-2B: Poor Lab''s Qwen2-1.5B Trained on
+      RTX 5090 within $5090'
+    link: https://arxiv.org/abs/2608.27370
+  - desc: 'Redesigning the Inference Chip: From Nvidia GPU''s Flaws to OpenAI Jalapeño
+      — Deep dive on OpenAI''s Jalapeño, a custom inference ASIC co-developed with
+      Broadcom targeting ~50% lower cost per token than Nvidia GPUs. Explains how
+      cutting L2 cache and wrapping HBM tightly around the compute die addresses inference''s
+      memory-bandwidth bottleneck.'
+    link: https://zartbot.github.io/blog/arch/jalapeno/en.html
+  - desc: AI Fluency for nonprofits — This course empowers nonprofit professionals
+      to develop AI fluency in order to increase organizational impact and efficiency
+      while staying true to their mission and values.
+    link: https://anthropic.skilljar.com/ai-fluency-for-nonprofits
+  - desc: The most cited paper of the century is a brilliant hack — Welch Labs explores
+      the technical breakthrough of residual networks and how skip connections solved
+      the shattered gradient problem in deep learning. Deep Residual Learning for
+      Image Recognition. This architectural innovation transformed neural networks,
+      enabling unprecedented depth and shifting the fundamental understanding of how
+      these models store and refine information during the learning process. Resource
+      from the paper [A _Nature_ analysis evaluating the top-ranked papers published
+      between 2000 and 2025](https://www.nature.com/articles/d41586-025-01125-9)
+    link: https://www.youtube.com/watch?v=QgH9sr7G13Q&t=656s
+  - desc: The Emergent Symbolic Structure of Artificial Neural Networks — McCoy, Soulos,
+      Linzen, and Smolensky's paper (8 years in the making) showing neural networks
+      implicitly learn structured, symbol-like representations resembling Tensor Product
+      Representations. They replace a network's entire representation process with
+      a closed-form symbolic equation and behavior stays largely unchanged.
+    link: https://arxiv.org/abs/2608.29530
+  - desc: Meta harness makes 10 times better Kimi K3 chip — A technical deep-dive
+      rebuilding Moonshot AI's Kimi K3 inference chip architecture to hit ~10x higher
+      clock frequency (100 MHz to 1047 MHz) using an open-source flow on Nangate45.
+      The redesigned chip targets a ~1M-parameter "nano model," not the full 2.8T-parameter
+      K3.
+    link: https://www.luoluo.ai/blog/kimi-k3
+  - desc: 'texts-to-transformer: Make Your Own Transformer — Must try. Train a small
+      LLM from scratch on your own iMessage data, then run the trained model locally
+      with MLX. Good candidate for writing a detailed junior-dev-style implementation
+      plan (files to touch, what needs fixing) before diving in.'
+    link: https://github.com/Doriandarko/texts-to-transformer
+  - desc: NVIDIA AI tweet — NVIDIA AI announcement/update shared on X. Check for latest
+      NVIDIA AI product or research news.
+    link: https://x.com/nvidiaai/status/2077061428998013279?s=46
+  - desc: Claude for Teachers - Anthropic — Anthropic's announcement of Claude for
+      Teachers. New offering aimed at supporting educators with AI tools.
+    link: https://www.anthropic.com/news/claude-for-teachers
+  - desc: Legibility for Agents — Blog post on "legibility" as a design property for
+      AI agents. Discusses making agent behavior and reasoning understandable to humans.
+    link: https://www.msquinn.com/blog/2026/07/03/legibility-agents/
+  - desc: Qwen3-TTS-12Hz-1.7B-CustomVoice — Qwen's 1.7B parameter text-to-speech model
+      with custom voice support at 12Hz. Open model on Hugging Face for TTS experimentation.
+    link: https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+  - desc: Artificial Analysis tweet — Update from Artificial Analysis, which tracks
+      and benchmarks AI model performance. Likely new model comparison data.
+    link: https://x.com/artificialanlys/status/2077832874183860404?s=46
+  - desc: openworker — Andrew Ng's open-source project for autonomous AI worker/agent
+      workflows. Worth exploring for agent orchestration patterns.
+    link: https://github.com/andrewyng/openworker
 - date: '2026-07-03'
   news-items:
   - desc: The 2026 AI Engineering Report — Amplify Partners' survey of how AI engineering
