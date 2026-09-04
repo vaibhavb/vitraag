@@ -14,9 +14,6 @@
     link: https://github.com/KeygraphHQ/shannon
   - desc: AI prompts for CTI workflows | TI Essentials
     link: https://feedly.com/ti-essentials/posts/cti-prompt-library-volume-2
-  - desc: Autonomous Vulnerability Hunting with MCP — A practical deep dive into building
-      an autonomous vulnerability hunting system using Claude Code and MCP.
-    link: https://blog.zsec.uk/bullyingllms/
   - desc: Features — Summary of high level features
     link: https://binary.ninja/features/
   - desc: The Memory Heist — How I tricked Claude into leaking your deepest, darkest
