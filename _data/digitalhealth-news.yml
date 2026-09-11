@@ -1,3 +1,13 @@
+- date: '2026-09-11'
+  news-items:
+  - desc: Large employers drop health benefits as costs rise — It's a sign that year
+      after year spikes in medical costs have real consequences.
+    link: https://www.axios.com/2026/09/04/employer-health-insurance-benefit-cut-costs
+  - desc: Smart ring maker Oura files to go public, pitching investors on AI-driven
+      preventive health — Oura frames itself as evolving from a smart ring company
+      into an AI powered health platform with a long term opportunity in preventive
+      healthcare.
+    link: https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health
 - date: '2026-09-04'
   news-items:
   - desc: OpenEvidence HugoScore profile — OpenEvidence is an AI medical knowledge

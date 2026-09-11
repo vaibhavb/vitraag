@@ -1,3 +1,24 @@
+- date: '2026-09-11'
+  news-items:
+  - desc: WindTunnel — the WebMCP benchmark — WindTunnel is an open source WebMCP
+      benchmark across 49 tasks, 8 real websites, and 16 browser agent configurations.
+    link: https://webmcp.com/benchmark
+  - desc: An Alien Mind — Jakub Pachocki reflects on increasingly capable AI and the
+      challenge of keeping it aligned. He calls for stronger safeguards and international
+      coordination.
+    link: https://openai.com/index/an-alien-mind/
+  - desc: portal-ai-plugins/plugins/shunt at add-shunt-claude — How to reduce claude
+      code token usage.
+    link: https://github.com/sorantis/portal-ai-plugins/tree/add-shunt-claude/plugins/shunt
+  - desc: Formalizing Fermat's Last Theorem — Anthropic is an AI safety and research
+      company that's working to build reliable, interpretable, and steerable AI systems.
+    link: https://www.anthropic.com/research/formalizing-fermats-last-theorem
+  - desc: Formalizing Fermat's Last Theorem — Anthropic is an AI safety and research
+      company that's working to build reliable, interpretable, and steerable AI systems.
+    link: https://www.bbc.co.uk/programmes/b0074rxx
+  - desc: A teardown of the Claude desktop app — Inside the Claude desktop app, from
+      Electron and native addons to its Linux VM and local MCP tools.
+    link: https://www.telkins.com/blog/a-teardown-of-the-claude-desktop-app
 - date: '2026-09-04'
   news-items:
   - desc: 'Inkling: Our open-weights model — Our first open-weights model: multimodal,
