@@ -1,15 +1,15 @@
-last_updated: '2026-09-04T05:14:56.444030+00:00'
+last_updated: '2026-09-11T05:26:14.734152+00:00'
 posts:
-- pageviews: 2541
+- pageviews: 2591
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 232
+- pageviews: 242
   path: /bookmarks
   title: bookmarks
-- pageviews: 162
+- pageviews: 160
   path: /security-news
   title: Security News
-- pageviews: 124
+- pageviews: 125
   path: /recipes/
   title: Recipes
 - pageviews: 117
@@ -24,9 +24,9 @@ posts:
 - pageviews: 102
   path: /2024/11/22/ai-healthcare/
   title: AI Healthcare
+- pageviews: 102
+  path: /posts-by-year/
+  title: Posts By Year!
 - pageviews: 101
   path: /2024/03/17/slow-fast-march/
   title: Slow Fast March!
-- pageviews: 99
-  path: /posts-by-year/
-  title: Posts By Year!
