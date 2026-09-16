@@ -7,8 +7,6 @@ slug: jain-magic-squares-a-meditation-on-thirty-four
 title: "Jain Magic Squares: A Meditation on Thirty-Four"
 categories:
     - jainism
-tags:
-    - jainism
     - paryushan
     - shyamapana
 ---
