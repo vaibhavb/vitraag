@@ -21562,35 +21562,35 @@ has-background-danger.is-hoverable:active {
 }
 
 :root {
-  --bulma-primary-h: 174deg;
-  --bulma-primary-s: 72.0720720721%;
-  --bulma-primary-l: 56.4705882353%;
-  --bulma-primary-invert-l: #bf1f2f;
-  --bulma-info-h: 197.4deg;
-  --bulma-info-s: 71.4285714286%;
-  --bulma-info-l: 72.5490196078%;
-  --bulma-info-invert-l: 27.4509803922%;
-  --bulma-success-h: 120deg;
-  --bulma-success-s: 60.7843137255%;
-  --bulma-success-l: 50%;
-  --bulma-success-invert-l: 50%;
-  --bulma-warning-h: 50.5882352941deg;
+  --bulma-primary-h: 25deg;
+  --bulma-primary-s: 75.9493670886%;
+  --bulma-primary-l: 30.9803921569%;
+  --bulma-primary-invert-l: #74baec;
+  --bulma-info-h: 82deg;
+  --bulma-info-s: 38.961038961%;
+  --bulma-info-l: 30.1960784314%;
+  --bulma-info-invert-l: 69.8039215686%;
+  --bulma-success-h: 29.5774647887deg;
+  --bulma-success-s: 58.6776859504%;
+  --bulma-success-l: 52.5490196078%;
+  --bulma-success-invert-l: 47.4509803922%;
+  --bulma-warning-h: 16.1142857143deg;
   --bulma-warning-s: 100%;
-  --bulma-warning-l: 50%;
-  --bulma-warning-invert-l: 50%;
-  --bulma-danger-h: 0deg;
+  --bulma-warning-l: 65.6862745098%;
+  --bulma-warning-invert-l: 34.3137254902%;
+  --bulma-danger-h: 345deg;
   --bulma-danger-s: 100%;
-  --bulma-danger-l: 74.9019607843%;
-  --bulma-danger-invert-l: 25.0980392157%;
-  --bulma-link-h: 32.9411764706deg;
-  --bulma-link-s: 100%;
-  --bulma-link-l: 50%;
-  --bulma-link-invert-l: 50%;
-  --bulma-body-background-color: #FFFEF7;
-  --footer-background: rgb(29.5337837838, 181.9662162162, 166.722972973);
-  --footer-text: #FFFEF7;
-  --footer-link: rgb(178.7142857143, 223.85, 242.2857142857);
-  --footer-link-hover: rgb(222.4285714286, 241.7, 249.5714285714);
+  --bulma-danger-l: 25.0980392157%;
+  --bulma-danger-invert-l: 74.9019607843%;
+  --bulma-link-h: 25deg;
+  --bulma-link-s: 75%;
+  --bulma-link-l: 47.0588235294%;
+  --bulma-link-invert-l: 52.9411764706%;
+  --bulma-body-background-color: #FDF5E6;
+  --footer-background: rgb(71.6993670886, 35.5917721519, 9.8006329114);
+  --footer-text: #FDF5E6;
+  --footer-link: rgb(113.1493506494, 142.4350649351, 62.5649350649);
+  --footer-link-hover: rgb(141.1948051948, 177.4805194805, 78.5194805195);
 }
 
 a.button.is-link {
@@ -21607,11 +21607,11 @@ a.button.is-link {
 
 body {
   padding-top: 3.25rem;
-  border-top: 0px solid #FFFEF7;
-  border-bottom: 0px solid #FFFEF7;
+  border-top: 0px solid #8B4513;
+  border-bottom: 0px solid #8B4513;
   border-left: 0;
   border-right: 0;
-  border-image: linear-gradient(to right, #F4A460, #FFFEF7) 1 stretch;
+  border-image: linear-gradient(to right, #DAA520, #8B4513) 1 stretch;
 }
 
 body, html {

@@ -11,7 +11,7 @@ The website supports four seasonal themes with dedicated color palettes:
 
 ### Manual Theme Switching
 
-**Current theme**: Summer (as of 2026-07-07)
+**Current theme**: Fall (as of 2026-09-15)
 
 **To switch themes manually:**
 1. Edit `assets/sass/mybulma.scss` at line 3
