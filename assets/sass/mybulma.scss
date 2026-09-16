@@ -15,7 +15,7 @@ $black: #000000 !default;
   --bulma-primary-h: #{color.channel(theme.$primary, "hue", $space: hsl)};
   --bulma-primary-s: #{color.channel(theme.$primary, "saturation", $space: hsl)};
   --bulma-primary-l: #{color.channel(theme.$primary, "lightness", $space: hsl)};
-  --bulma-primary-invert-l: #{color.invert(theme.$primary)};
+  --bulma-primary-invert-l: 97%;
   
   // Info color HSL components  
   --bulma-info-h: #{color.channel(theme.$info, "hue", $space: hsl)};
