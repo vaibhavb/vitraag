@@ -13,9 +13,9 @@ categories:
     - shyamapana
 ---
 
-[![Micchami Dukkadam, alongside the Bhaktamar walking-practice app](/assets/images/2026/2026-bhaktamar-hero.png)](/assets/images/2026/2026-bhaktamar-hero.png)
+[![Micchami Dukkadam](/assets/images/2026/2026-micchami-dukkadam.png)](/assets/images/2026/2026-micchami-dukkadam.png)
 
-*Micchami Dukkadam — forgiveness as a return to friendship and coexistence — next to [Bhaktamar Walk Practice](https://bhaktambar-memory.vitraag.com/), a small app I built this Paryushan to help memorize the opening verses of the Bhaktamar Stotra.*
+*Micchami Dukkadam — forgiveness as a return to friendship and coexistence.*
 
 Today is Samvatsari, the culmination of Paryushan and the Jain day of forgiveness.
 
@@ -35,10 +35,15 @@ Forgiveness is easy to say and hard to practice — it asks us to lower the ego,
 
 ## Verse one: bow
 
-> भक्तामर-प्रणत-मौलि-मणि-प्रभाणा-मुद्योतकं दलित-पाप-तमो-वितानम् ।
-> सम्यक् प्रणम्य जिन-पाद-युगं युगादा-वालम्बनं भव-जले पततां जनानाम् ॥१॥
+> भक्तामर-प्रणत-मौलि-मणि-प्रभाणा-  
+> मुद्योतकं दलित-पाप-तमो-वितानम् ।  
+> सम्यक् प्रणम्य जिन-पाद-युगं युगादा-  
+> वालम्बनं भव-जले पततां जनानाम् ॥१॥
 
-*bhaktāmara-praṇata-mauli-maṇi-prabhāṇām udyotakaṁ dalita-pāpa-tamo-vitānam / samyak praṇamya jina-pāda-yugaṁ yugādāv ālambanaṁ bhava-jale patatāṁ janānām*
+*bhaktāmara-praṇata-mauli-maṇi-prabhāṇām*  
+*udyotakaṁ dalita-pāpa-tamo-vitānam*  
+*samyak praṇamya jina-pāda-yugaṁ yugādāv*  
+*ālambanaṁ bhava-jale patatāṁ janānām*
 
 A bow to the Jina's feet, which light up the jewels on devotees' bowed heads, disperse the darkness of wrongdoing, and support those falling into the ocean of worldly existence.
 
@@ -46,10 +51,15 @@ Before Manatunga says anything grand, he bows. Samvatsari asks the same posture:
 
 ## Verse two: speak
 
-> यः संस्तुतः सकल-वाङ्मय-तत्त्व-बोधा-दुद्भूत-बुद्धि-पटुभिः सुर-लोक-नाथैः ।
-> स्तोत्रैर्जगत्-त्रितय-चित्त-हरैरुदारैः स्तोष्ये किलाहमपि तं प्रथमं जिनेन्द्रम् ॥२॥
+> यः संस्तुतः सकल-वाङ्मय-तत्त्व-बोधा-  
+> दुद्भूत-बुद्धि-पटुभिः सुर-लोक-नाथैः ।  
+> स्तोत्रैर्जगत्-त्रितय-चित्त-हरैरुदारैः  
+> स्तोष्ये किलाहमपि तं प्रथमं जिनेन्द्रम् ॥२॥
 
-*yaḥ saṁstutaḥ sakala-vāṅmaya-tattva-bodhād udbhūta-buddhi-paṭubhiḥ sura-loka-nāthaiḥ / stotrair jagat-tritaya-citta-harair udāraiḥ stoṣye kilāham api taṁ prathamaṁ jinendram*
+*yaḥ saṁstutaḥ sakala-vāṅmaya-tattva-bodhād*  
+*udbhūta-buddhi-paṭubhiḥ sura-loka-nāthaiḥ*  
+*stotrair jagat-tritaya-citta-harair udāraiḥ*  
+*stoṣye kilāham api taṁ prathamaṁ jinendram*
 
 Greater beings, with far deeper knowledge, have already praised the first Jina with magnificent hymns — and still Manatunga says: I too will praise him.
 
@@ -57,10 +67,15 @@ Sincerity isn't made unnecessary by inadequacy. No one else can perform my act o
 
 ## Verse three: reach
 
-> बुद्ध्या विनापि विबुधार्चित-पाद-पीठ! स्तोतुं समुद्यत-मतिर्विगत-त्रपोऽहम् ।
-> बालं विहाय जल-संस्थितमिन्दु-बिम्ब-मन्यः क इच्छति जनः सहसा ग्रहीतुम् ॥३॥
+> बुद्ध्या विनापि विबुधार्चित-पाद-पीठ!  
+> स्तोतुं समुद्यत-मतिर्विगत-त्रपोऽहम् ।  
+> बालं विहाय जल-संस्थितमिन्दु-बिम्ब-  
+> मन्यः क इच्छति जनः सहसा ग्रहीतुम् ॥३॥
 
-*buddhyā vināpi vibudhārcita-pāda-pīṭha stotuṁ samudyata-matir vigata-trapo'ham / bālaṁ vihāya jala-saṁsthitam indu-bimbam anyaḥ ka icchati janaḥ sahasā grahītum*
+*buddhyā vināpi vibudhārcita-pāda-pīṭha*  
+*stotuṁ samudyata-matir vigata-trapo'ham*  
+*bālaṁ vihāya jala-saṁsthitam indu-bimbam*  
+*anyaḥ ka icchati janaḥ sahasā grahītum*
 
 Manatunga admits he may lack the ability for what he's begun, yet proceeds without shame — like a child who sees the moon reflected in water and reaches out to grasp it. An adult knows the reflection can't be held; the child reaches anyway, and wonder overcomes self-consciousness.
 
@@ -69,6 +84,10 @@ This may be my favorite of the three, because it gives dignity to the imperfect 
 ## From reading to reciting
 
 Memorizing Sanskrit has been humbling — I can understand the meaning and still lose the next line while walking. So I built a small [Bhaktamar Walk Practice](https://bhaktambar-memory.vitraag.com/) app: it presents the first three verses one line at a time, lets me hide the line and speak it aloud while walking, and moves forward when the browser recognizes enough of it. Nothing is stored; the speech recognition is deliberately forgiving. There's something fitting about imperfect software helping with imperfect recitation — the score was never the point. Returning to the line is.
+
+[![Bhaktamar Walk Practice app](/assets/images/projects/bhaktamar-memory-screenshot.jpg)](/assets/images/projects/bhaktamar-memory-screenshot.jpg)
+
+*Bhaktamar Walk Practice — a line-by-line walking and recitation companion.*
 
 The three verses now form a small sequence for me: **bow** — put the ego down and find a handhold; **speak** — add your voice even when greater voices already exist; **reach** — make the sincere attempt without waiting to become perfect. It's also a useful sequence for Samvatsari: bow enough to recognize the harm, speak the apology in your own words, reach toward reconciliation without controlling the result.
 
