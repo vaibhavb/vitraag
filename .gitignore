@@ -72,3 +72,4 @@ node_modules
 .envrc
 .aider*
 .claude*
+tasks.md
