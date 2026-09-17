@@ -5,6 +5,11 @@ function activateBurger() {
         return;
     }
 
+    if (burger.dataset.burgerActivated) {
+        return;
+    }
+    burger.dataset.burgerActivated = 'true';
+
     const menuId = burger.dataset.target;
     const menu = document.getElementById(menuId);
     if (!menu) {
@@ -18,8 +23,11 @@ function activateBurger() {
         menu.classList.toggle('is-active');
     }
 
+    // Only listen for 'click' - modern touch browsers already fire a click
+    // event after tap, so also binding 'touchstart' caused the menu to open
+    // and immediately close again (touchstart opens it, the synthesized
+    // click that follows toggles it shut).
     burger.addEventListener('click', toggleMenu);
-    burger.addEventListener('touchstart', toggleMenu);
 
     console.log('Burger menu activated');
 }

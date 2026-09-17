@@ -11,3 +11,51 @@
   blog_label:
   tags:
     - Game
+
+- title: "While It Matters"
+  subtitle: "a gentle countdown for money and time"
+  image: while-it-matters-screenshot.jpg
+  description: >
+    A small app built after reading *Die With Zero*. It turns the years, weekends, and summers
+    you have left into a gentle countdown, and puts three lenses from the book always in view —
+    time buckets, memory dividends, and net fulfillment — so "someday" has to compete with an
+    actual number.
+  link: https://while-it-matters.vitraag.com
+  link_label: "Open While It Matters"
+  blog_link: /2026/09/12/die-with-zero/
+  blog_label: "Read the book review"
+  tags:
+    - App
+    - Finance
+
+- title: "Beyond Stoicism"
+  subtitle: "a digital companion workbook"
+  image: beyond-stoicism-notebook-screenshot.jpg
+  description: >
+    A chapter-by-chapter reflection guide built alongside reading *Beyond Stoicism*. It walks
+    through each philosophical school in the book — Stoicism, Epicureanism, Cynicism, Socratic
+    inquiry, and more — with original prompts you can write or dictate answers to, so the ideas
+    get tested against your own life instead of staying on the page.
+  link: https://beyond-stoicism-notebook.vitraag.com
+  link_label: "Open the Workbook"
+  blog_link: /2026/09/14/beyond-stoicism/
+  blog_label: "Read the book review"
+  tags:
+    - App
+    - Philosophy
+
+- title: "Bhaktamar Walk Practice"
+  subtitle: "a walking companion for Sanskrit memorization"
+  image: bhaktamar-memory-screenshot.jpg
+  description: >
+    Built this Paryushan to memorize the opening verses of the Bhaktamar Stotra. It shows one
+    line at a time, lets you hide the text and recite it aloud while walking, and advances when
+    your browser's speech recognition hears enough of it. Nothing is stored — the point isn't a
+    perfect score, it's returning to the line.
+  link: https://bhaktambar-memory.vitraag.com/
+  link_label: "Open the App"
+  blog_link: /2026/09/16/bhaktamar-a-samvatsari-reflection/
+  blog_label: "Read the reflection"
+  tags:
+    - App
+    - Jainism
