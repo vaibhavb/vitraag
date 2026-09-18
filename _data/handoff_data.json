@@ -1,45 +1,11 @@
 {
-  "target_date": "2026-09-11",
+  "target_date": "2026-09-18",
   "categories": {
     "security-news": {
-      "items": [
-        {
-          "desc": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI — This AI threat update provides GTIG’s findings on adversarial misuse of AI including Gemini and other non Google tools.",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai"
-        },
-        {
-          "desc": "Beyond Lazarus: How North Korea Organizes Its Cyber Operations — Co authored by Sekoia and Kudelski Security, this report maps North Korea’s cyber ecosystem, from state institutions and APT clusters to IT worker operations.",
-          "link": "https://www.sekoia.com/blog/beyond-lazarus-organization-of-dprk-cyber-capabilities"
-        },
-        {
-          "desc": "gadievron/raptor — Raptor turns Claude Code into a general purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations. gadievron/raptor",
-          "link": "https://github.com/gadievron/raptor?utm_source=tldrinfosec"
-        },
-        {
-          "desc": "Countering misuse of AI: September 2026 — Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse.",
-          "link": "https://www.anthropic.com/threat-intelligence-report-september-2026"
-        },
-        {
-          "desc": "Post by @lordx64 on X — In just 5 days of work (during the hacker summer camp week) we are almost reaching Mythos level capabilities and we already beat any open we",
-          "link": "https://x.com/lordx64/status/2086477470799446218"
-        },
-        {
-          "desc": "we have a year to fix security everywhere — consumer grade hardware can run an LLM that hacks the planet. we can stop it, but we don't have much time.",
-          "link": "https://jyn.dev/a-year-to-fix-security/"
-        }
-      ]
+      "items": []
     },
     "digitalhealth-news": {
-      "items": [
-        {
-          "desc": "Large employers drop health benefits as costs rise — It's a sign that year after year spikes in medical costs have real consequences.",
-          "link": "https://www.axios.com/2026/09/04/employer-health-insurance-benefit-cut-costs"
-        },
-        {
-          "desc": "Smart ring maker Oura files to go public, pitching investors on AI-driven preventive health — Oura frames itself as evolving from a smart ring company into an AI powered health platform with a long term opportunity in preventive healthcare.",
-          "link": "https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health"
-        }
-      ]
+      "items": []
     },
     "finance-news": {
       "items": []
@@ -48,40 +14,11 @@
       "items": []
     },
     "ai-news": {
-      "items": [
-        {
-          "desc": "WindTunnel — the WebMCP benchmark — WindTunnel is an open source WebMCP benchmark across 49 tasks, 8 real websites, and 16 browser agent configurations.",
-          "link": "https://webmcp.com/benchmark"
-        },
-        {
-          "desc": "An Alien Mind — Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-          "link": "https://openai.com/index/an-alien-mind/"
-        },
-        {
-          "desc": "portal-ai-plugins/plugins/shunt at add-shunt-claude — How to reduce claude code token usage.",
-          "link": "https://github.com/sorantis/portal-ai-plugins/tree/add-shunt-claude/plugins/shunt"
-        },
-        {
-          "desc": "Formalizing Fermat's Last Theorem — Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-          "link": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
-        },
-        {
-          "desc": "Formalizing Fermat's Last Theorem — Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-          "link": "https://www.bbc.co.uk/programmes/b0074rxx"
-        },
-        {
-          "desc": "A teardown of the Claude desktop app — Inside the Claude desktop app, from Electron and native addons to its Linux VM and local MCP tools.",
-          "link": "https://www.telkins.com/blog/a-teardown-of-the-claude-desktop-app"
-        }
-      ]
+      "items": []
     }
   },
   "summary": {
-    "total_items": 14,
-    "categories_updated": [
-      "security-news",
-      "digitalhealth-news",
-      "ai-news"
-    ]
+    "total_items": 0,
+    "categories_updated": []
   }
 }

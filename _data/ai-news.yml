@@ -1,3 +1,17 @@
+- date: '2026-09-18'
+  news-items:
+  - desc: 'Rubin NVL72 Agentic Inference: 67x better Performance per Dollar — Jensen
+      Sandbagging Performance Again, 2x more Annual Profit Per GigaWatt, The More
+      you Buy, The More you Earn, AgentX, InferenceX, Extreme Co Design'
+    link: https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference
+  - desc: RLCD — TypeSafe AI's Jev, a "System One Model" trained with Reinforcement
+      Learning for Calibrated Decisions that outputs type safe structured values with
+      calibrated probabilities instead of free text.
+    link: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+  - desc: Live Online, Sep 22 & 24, 2026 — Attacking AI a live online course by Jason
+      Haddix on hacking LLM applications, agents, and the infrastructure around them.
+      September 22nd and 24th, 2026.
+    link: https://arcanum-sec.com/training/attacking-ai/
 - date: '2026-09-11'
   news-items:
   - desc: WindTunnel — the WebMCP benchmark — WindTunnel is an open source WebMCP

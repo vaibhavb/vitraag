@@ -1,3 +1,34 @@
+- date: '2026-09-18'
+  news-items:
+  - desc: Proxy tool, not Burp — HuntProxy (BehiSecc), a web security workbench built
+      for AI agents, pitched as a faster alternative to Burp for hacking by typing.
+    link: https://x.com/behi_sec/status/2098831081831067748?s=46
+  - desc: 'Writing More Secure Code with LLMs: Why "Make No Mistakes" Falls Short
+      — Holding the task and model fixed and changing only the prompt, a generic secure
+      coding checklist barely helped, while an app specific threat model cut validated
+      vulnerability findings by about 43%.'
+    link: https://monad.xyz/blog/writing-secure-code-with-llms
+  - desc: Skill Poisioning turning AI agents into malware droppers - warns China's
+      National CERT — National Computer Virus Emergency Response Center warns that
+      fake plugins for popular AI agents can steal files and open a back door and
+      the problem is growing fast. Several IOCs of skill poisoning were also published
+      in the advisory.
+    link: https://ministryofcyberaffairs.com/news/skill-poisioning-turning-ai-agents-into-malware-droppers-warns-china-s-national-cert-66b8bba4-9ffd-4583-a6c7-122e8149e0e8
+  - desc: 'PentHertz/RF-Swift: 🚀 A powerful multi-platform RF toolbox — 🚀 A powerful
+      multi platform RF toolbox that deploys specialized radio, hardware, and other
+      security tools in seconds on Linux, Windows, and macOS supporting x86_64, ARM64
+      (Raspberry Pi, Apple Silicon), and RISC V architectures without disrupting your
+      primary OS. 📡✨ PentHertz/RF Swift'
+    link: https://github.com/PentHertz/RF-Swift
+  - desc: Can AI do novel security research? Meet the HTTP Terminator — Abstract We
+      all know AI can find bugs. After a decade of research, I asked a harder question
+      can an autonomous system invent new attack techniques, and use them to hack
+      live websites at scale? Buildi
+    link: https://portswigger.net/research/can-ai-do-novel-security-research
+  - desc: Cybersecurity’s Future Belongs to Startups — Startups, not incumbents, are
+      driving the future of cybersecurity as the battleground shifts from OS defenses
+      to the application layer.
+    link: https://www.nfx.com/post/cybersecurity-belongs-to-startups
 - date: '2026-09-11'
   news-items:
   - desc: 'GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial

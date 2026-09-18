@@ -1,8 +1,468 @@
 [
   {
+    "date": "2026-09-17",
+    "title": "Ternary Bonsai",
+    "url": "https://x.com/prismml/status/2100692248480596348?s=46"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Can AI do novel security research? Meet the HTTP Terminator",
+    "url": "https://portswigger.net/research/can-ai-do-novel-security-research"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Cybersecurity’s Future Belongs to Startups",
+    "url": "https://www.nfx.com/post/cybersecurity-belongs-to-startups"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "How AI Companies Will Build Real Defensibility",
+    "url": "https://www.nfx.com/post/ai-defensibility"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "what changed on the ground",
+    "url": "https://www.geowhisperer.org/?utm_source=substack&utm_medium=email"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "how it works?",
+    "url": "https://www.geowhisperer.org/how-it-works/"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Live Online, Sep 22 & 24, 2026",
+    "url": "https://arcanum-sec.com/training/attacking-ai/"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "RSI review",
+    "url": "https://x.com/schmidhuberai/status/2100347054127976637?s=46"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "PentHertz/RF-Swift: 🚀 A powerful multi-platform RF toolbox",
+    "url": "https://github.com/PentHertz/RF-Swift"
+  },
+  {
+    "date": "2026-09-15",
+    "title": "RLCD",
+    "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Writing More Secure Code with LLMs: Why \"Make No Mistakes\" Falls Short",
+    "url": "https://monad.xyz/blog/writing-secure-code-with-llms"
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Skill Poisioning turning AI agents into malware droppers - warns China's National CERT",
+    "url": "https://ministryofcyberaffairs.com/news/skill-poisioning-turning-ai-agents-into-malware-droppers-warns-china-s-national-cert-66b8bba4-9ffd-4583-a6c7-122e8149e0e8"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Rubin NVL72 Agentic Inference: 67x better Performance per Dollar",
+    "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference"
+  },
+  {
+    "date": "2026-09-13",
+    "title": "PaperRoute Devlog",
+    "url": "https://www.paperroute.lol/devlog/"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Proxy tool, not Burp",
+    "url": "https://x.com/behi_sec/status/2098831081831067748?s=46"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Distillation attack on reasoning traces",
+    "url": "https://stolen-thoughts.com/"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "GPT-Live-1",
+    "url": "https://x.com/openaidevs/status/2098099269551149398?s=46"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Vibe Hardware",
+    "url": "https://atech.dev/"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Countering misuse of AI: September 2026",
+    "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Post by @lordx64 on X",
+    "url": "https://x.com/lordx64/status/2086477470799446218"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "we have a year to fix security everywhere",
+    "url": "https://jyn.dev/a-year-to-fix-security/"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "A teardown of the Claude desktop app",
+    "url": "https://www.telkins.com/blog/a-teardown-of-the-claude-desktop-app"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "a16z Speedrun Alpha",
+    "url": "https://speedrun.a16z.com/alpha/apply"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "GPU lexer model",
+    "url": "https://x.com/shuding/status/2097348783415939541?s=46"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Drug Discovery Benchmark",
+    "url": "https://dddbench.insilico.com/"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Mixture of Block Attention",
+    "url": "https://arxiv.org/pdf/2502.13189"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Beyond Lazarus: How North Korea Organizes Its Cyber Operations",
+    "url": "https://www.sekoia.com/blog/beyond-lazarus-organization-of-dprk-cyber-capabilities"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "portal-ai-plugins/plugins/shunt at add-shunt-claude",
+    "url": "https://github.com/sorantis/portal-ai-plugins/tree/add-shunt-claude/plugins/shunt"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Gradio",
+    "url": "https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "gadievron/raptor",
+    "url": "https://github.com/gadievron/raptor?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Formalizing Fermat's Last Theorem",
+    "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Documentary on the proof",
+    "url": "https://www.bbc.co.uk/programmes/b0074rxx"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "The Defense Factory",
+    "url": "https://openai.com/the-defense-factory/"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "local ai (DeepSeek-V4-Flash DSpark 2x DGX Spark)",
+    "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Large employers drop health benefits as costs rise",
+    "url": "https://www.axios.com/2026/09/04/employer-health-insurance-benefit-cut-costs"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Smart ring maker Oura files to go public, pitching investors on AI-driven preventive health",
+    "url": "https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Post by @andrewaiginin on X",
+    "url": "https://x.com/andrewaiginin/status/2096998783351664993"
+  },
+  {
+    "date": "2026-09-06",
+    "title": "An Alien Mind",
+    "url": "https://openai.com/index/an-alien-mind/"
+  },
+  {
+    "date": "2026-09-06",
+    "title": "CVE MCP Server",
+    "url": "https://github.com/mukul975/cve-mcp-server"
+  },
+  {
+    "date": "2026-09-06",
+    "title": "Offensive Security Model",
+    "url": "https://x.com/huggingmodels/status/2096360229219062174?s=46"
+  },
+  {
+    "date": "2026-09-06",
+    "title": "Bartosz Ciechanowski",
+    "url": "https://ciechanow.ski"
+  },
+  {
+    "date": "2026-09-06",
+    "title": "Sandbox for agents (bromure)",
+    "url": "https://github.com/rderaison/bromure"
+  },
+  {
+    "date": "2026-09-05",
+    "title": "WindTunnel — the WebMCP benchmark",
+    "url": "https://webmcp.com/benchmark"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "texts-to-transformer: Make Your Own Transformer",
+    "url": "https://github.com/Doriandarko/texts-to-transformer"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "DoD Opens Applications for Long-Awaited Cyber Apprenticeship Program",
+    "url": "https://federalnewsnetwork.com/workforce/2026/07/dod-opens-applications-for-long-awaited-cyber-apprenticeship-program/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "You Don't Know Jack About Formal Verification - ACM Queue",
+    "url": "https://queue.acm.org/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Friendly Fire: Hijacking Defensive Cyber AI Agents for Remote Code Execution - AI Now Institute",
+    "url": "https://ainowinstitute.org/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Union Machine Works",
+    "url": "https://www.google.com/maps/search/?api=1&query=Union+Machine+Works+534+2nd+Street+Oakland+CA"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Events | The Krenov School of Fine Furniture",
+    "url": "https://thekrenovschool.org/events/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "codex-first-customer-finder-skill",
+    "url": "https://github.com/Kappaemme-git/codex-first-customer-finder-skill"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "NVIDIA AI tweet",
+    "url": "https://x.com/nvidiaai/status/2077061428998013279?s=46"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "The AI Supply Chain Problem - Semgrep Blog",
+    "url": "https://semgrep.dev/blog/2026/ai-supply-chain-problem/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Claude for Teachers - Anthropic",
+    "url": "https://www.anthropic.com/news/claude-for-teachers"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Legibility for Agents",
+    "url": "https://www.msquinn.com/blog/2026/07/03/legibility-agents/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Boris Cherny tweet on CLAUDE.md and agent-ready docs",
+    "url": "https://x.com/bcherny/status/2077460395279692197?s=20"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "johnwhereareu tweet",
+    "url": "https://x.com/johnwhereareu/status/2077603117928153169?s=46"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "0xwhrrari video tweet",
+    "url": "https://x.com/0xwhrrari/status/2078224372561502494/video/1?s=46"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Artificial Analysis tweet",
+    "url": "https://x.com/artificialanlys/status/2077832874183860404?s=46"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "openship - Selfhost deployment platform",
+    "url": "https://github.com/oblien/openship"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Family Campground | Olema Campground",
+    "url": "https://olemacampground.net/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Del Valle Regional Park | East Bay Regional Park District",
+    "url": "https://www.ebparks.org/parks/del-valle"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "openworker",
+    "url": "https://github.com/andrewyng/openworker"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Caltech Mathathon",
+    "url": "https://mathathonchallenge.com/"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Training frontier knowledge work agents: A 397B RL training guide with SkyRL",
+    "url": "https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/"
+  },
+  {
+    "date": "2026-09-03",
+    "title": "Rosetta Stone",
+    "url": "https://taxonomy-editor.yellowbush-aeda037d.eastus.azurecontainerapps.io/#debate-window?id=932a5bf8-eeed-488a-87ed-95664cd1b857&source=community"
+  },
+  {
+    "date": "2026-09-03",
+    "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+    "url": "https://arxiv.org/abs/2608.29530"
+  },
+  {
+    "date": "2026-09-03",
+    "title": "Meta harness makes 10 times better Kimi K3 chip",
+    "url": "https://www.luoluo.ai/blog/kimi-k3"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Hackers Target AWS Root Accounts at 150+ Organizations With Password Spraying Attacks",
+    "url": "https://cyberpress.org/hackers-target-aws-root-accounts/?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Aesto healthcare data breach impacts 9.5 million people",
+    "url": "https://cyberinsider.com/aesto-healthcare-data-breach-impacts-9-5-million-people/"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "CS146S: The Modern Software Developer",
+    "url": "https://github.com/georgestephenson/cs146s-modern-software-dev"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "How to turn your AI into a world-class designer",
+    "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Aaron Levie on X",
+    "url": "https://x.com/levie/status/2095024699441119612?s=46"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "CyberStrike",
+    "url": "https://cyberstrike.io/"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "The Wolf Of Harcourt Street",
+    "url": "https://www.thewolfofharcourtstreet.com/p/portfolio-review-august-2026"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "AI Fluency for nonprofits",
+    "url": "https://anthropic.skilljar.com/ai-fluency-for-nonprofits"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "The most cited paper of the century is a brilliant hack",
+    "url": "https://www.youtube.com/watch?v=QgH9sr7G13Q&t=656s"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "A _Nature_ analysis evaluating the top-ranked papers published between 2000 and 2025",
+    "url": "https://www.nature.com/articles/d41586-025-01125-9"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "ICM 2026 Public Lecture - Manjul Bhargava",
+    "url": "https://www.youtube.com/watch?v=of8Maaq1Fsg&t=1593s"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Arintra banks $25M series B funding round for AI-driven revenue assurance platform",
+    "url": "https://www.fiercehealthcare.com/finance/arintra-banks-25m-series-b-funding-round-ai-driven-revenue-assurance-platform"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "The data substrate for biological intelligence",
+    "url": "https://omicsbank.com/"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "3rd Annual Statewide CHA & SMP Conference Week",
+    "url": "https://cahealthadvocates.org/conference/"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Amazon Kiro: AI Is Breaking Vulnerability Disclosure Processes",
+    "url": "https://mindgard.ai/blog/amazon-kiro-data-exfiltration?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Threat hunt AI: How we built an AI security analyst on AWS for under $500/month",
+    "url": "https://engineering.growtherapy.com/post/threat-hunt-ai-how-we-built-an-ai-security-analyst-on-aws-for-under-500-month?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Adaptive Agentic Worms Are Here",
+    "url": "https://www.lesswrong.com/posts/fpLDjKg3ej49beqTC/adaptive-agentic-worms-are-here"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+    "url": "https://arxiv.org/abs/2608.27370"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Redesigning the Inference Chip: From Nvidia GPU's Flaws to OpenAI Jalapeño",
+    "url": "https://zartbot.github.io/blog/arch/jalapeno/en.html"
+  },
+  {
+    "date": "2026-08-30",
+    "title": "The Principles of Learning Faster.",
+    "url": "https://x.com/0xHvdes/status/2094075106096009695"
+  },
+  {
+    "date": "2026-08-30",
+    "title": "Blog about things you don't understand yet",
+    "url": "https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/"
+  },
+  {
+    "date": "2026-08-30",
+    "title": "Security Conference Coverage",
+    "url": "https://greptalks.ai/"
+  },
+  {
     "date": "2026-08-28",
     "title": "Post by @biogerontology on X",
     "url": "https://x.com/biogerontology/status/2092618817172357279"
+  },
+  {
+    "date": "2026-08-28",
+    "title": "The coolest anti-surveillance tools at Defcon",
+    "url": "https://youtu.be/-2uAsJ5EPAw?is=vlJ40jhWVY2jLD85"
   },
   {
     "date": "2026-08-27",
@@ -13,6 +473,56 @@
     "date": "2026-08-27",
     "title": "Manjul Bhargava",
     "url": "https://www.youtube.com/watch?v=1uJBf84R8r0"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "disrobe",
+    "url": "https://github.com/1-3-7/disrobe"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Staying Ahead of Adversarial AI Through Agentic Source Code Review",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "What Happened to HackerOne?",
+    "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Edition 3: Inside an AI-Run Bug Bounty Report",
+    "url": "https://www.linkedin.com/pulse/edition-3-inside-ai-run-bug-bounty-report-anshuman-bhartiya-ch8rc"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "OpenRisk",
+    "url": "https://github.com/opendefender/OpenRisk"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Tata's B2B platform returned OTPs in API responses",
+    "url": "https://eaton-works.com/2026/08/24/tata-nexarc-hack/"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Limbic Becomes First AI-Led Mental Healthcare Company Selected for FDA TEMPO",
+    "url": "https://www.hcinnovationgroup.com/analytics-ai/news/55398965/limbic-becomes-first-ai-led-mental-healthcare-company-selected-for-fda-tempo"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "FDA GenAI Framework",
+    "url": "https://www.fda.gov/media/194242/download"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "AI Reveals Hidden Patterns Inside Breast Cancer",
+    "url": "https://research.uhs.nhs.uk/news/ai-reveals-hidden-patterns-inside-breast-cancer"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Rare Disease, Real Kid: The MVA Hackathon 2026",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026"
   },
   {
     "date": "2026-08-26",
@@ -28,6 +538,11 @@
     "date": "2026-08-26",
     "title": "AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing?",
     "url": "https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Patrick O'Shaughnessy on X: conversation with Neil Movva",
+    "url": "https://x.com/patrick_oshag/status/2092226959711334544/video/1?s=46"
   },
   {
     "date": "2026-08-25",
@@ -50,9 +565,24 @@
     "url": "https://axaxl.com/insurance/products/cyber-insurance"
   },
   {
+    "date": "2026-08-23",
+    "title": "Playa Set Library 2026 · Burning Man",
+    "url": "https://playasetlibrary.com/"
+  },
+  {
+    "date": "2026-08-22",
+    "title": "Harvey introduces Tenet",
+    "url": "https://x.com/harvey/status/2090454750059958440?s=46"
+  },
+  {
     "date": "2026-08-21",
     "title": "Call For Proposals (CFP)",
     "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/cfp/?utm_campaign=18269725-KubeCon-EU-2026&utm_medium=email&_hsmi=434186153&utm_content=434186153&utm_source=hs_email"
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Agentic AI Summit 2026 - Center for Responsible, Decentralized Intelligence at Berkeley",
+    "url": "https://www.createwith.com/event/santiago-agentic-ai-summit-2026-center-for-responsible-decentralized--aug-2026"
   },
   {
     "date": "2026-08-20",
@@ -88,6 +618,21 @@
     "date": "2026-08-19",
     "title": "Everything we launched during Agents Week",
     "url": "https://blog.cloudflare.com/agents-week-review-august-2026/"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "Zero Click Marketing",
+    "url": "https://youtu.be/MBxhzARQNeo"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Post by @cocoweixu on X",
+    "url": "https://x.com/cocoweixu/status/2089386438848622768?s=46"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "Security, Funded #256 - Return on Security",
+    "url": "https://www.returnonsecurity.com/p/security-funded-256"
   },
   {
     "date": "2026-08-13",
