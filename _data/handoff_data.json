@@ -1,5 +1,5 @@
 {
-  "target_date": "2026-09-18",
+  "target_date": "2026-09-20",
   "categories": {
     "security-news": {
       "items": []
@@ -8,17 +8,30 @@
       "items": []
     },
     "finance-news": {
-      "items": []
+      "items": [
+        {
+          "desc": "Charts of the Week: So Many Apps, So Little Time — New Breed of Unicorn; Citrini Called the Bottom; MA and CA Make it Very Expensive to Start a Business",
+          "link": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so"
+        }
+      ]
     },
     "pm-news": {
       "items": []
     },
     "ai-news": {
-      "items": []
+      "items": [
+        {
+          "desc": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness — Abstract page for arXiv paper 2609.20519 SoL Pi Recursively Scaling Auto Research Loops for Efficient Agent Harness",
+          "link": "https://arxiv.org/abs/2609.20519"
+        }
+      ]
     }
   },
   "summary": {
-    "total_items": 0,
-    "categories_updated": []
+    "total_items": 2,
+    "categories_updated": [
+      "finance-news",
+      "ai-news"
+    ]
   }
 }

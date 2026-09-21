@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-19",
+    "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+    "url": "https://arxiv.org/abs/2609.20519"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Bring Your Own EDR: How to Turn a Commercial EDR into a Trojan Horse",
+    "url": "https://www.akamai.com/blog/security-research/bring-your-own-edr-turn-commercial-edr-trojan-horse"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "sunlife3/needre: Self-made toy EDR project using AYA the Rust eBPF library",
+    "url": "https://github.com/sunlife3/needre?utm_source=tldrinfosec"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Charts of the Week: So Many Apps, So Little Time",
+    "url": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so"
+  },
+  {
     "date": "2026-09-17",
     "title": "Ternary Bonsai",
     "url": "https://x.com/prismml/status/2100692248480596348?s=46"

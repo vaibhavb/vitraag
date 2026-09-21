@@ -1,3 +1,9 @@
+- date: '2026-09-20'
+  news-items:
+  - desc: 'SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness
+      — Abstract page for arXiv paper 2609.20519 SoL Pi Recursively Scaling Auto Research
+      Loops for Efficient Agent Harness'
+    link: https://arxiv.org/abs/2609.20519
 - date: '2026-09-18'
   news-items:
   - desc: 'Rubin NVL72 Agentic Inference: 67x better Performance per Dollar — Jensen
