@@ -41,6 +41,8 @@ Consider implementing automatic seasonal theme switching based on current date o
 ### git -C instead of cd
 All cron scripts use `git -C "$REPO" <command>` rather than `cd "$REPO" && git <command>`. This avoids `fatal: Unable to read current working directory: Operation not permitted`, which occurs when the macOS cron daemon lacks Full Disk Access to `~/Documents` and git internally calls `getcwd()`.
 
+`git -C` alone wasn't enough (2026-09-20/21): git still probes `getcwd()` internally at process startup even with `-C`, and that probe fails when cron's own inherited cwd is unreadable — so commits/pushes still failed silently after a successful data sync. Fix: each script now runs `cd /tmp || exit 1` near the top, before any git call, so the probe has a readable cwd to return.
+
 Scripts: `~/.config/me/vitraag_bookmarks_sync.sh`, `~/.config/me/vitraag_news_sync.sh`
 
 ### GitHub credential
