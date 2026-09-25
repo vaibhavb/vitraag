@@ -1,3 +1,26 @@
+- date: '2026-09-25'
+  news-items:
+  - desc: 'Amazon Blocks Meta: The Agentic Wars Have Started — Meta stock is surging,
+      Muse is taking off, and now Amazon is fighting back. In this episode, I break
+      down Meta’s massive move higher, why sentiment around the company has shifted
+      so quickly, and why…'
+    link: https://www.youtube.com/watch?v=rQJMySrmw5E
+  - desc: Zero-click RCE vulnerability hit four major AI coding agents, two remain
+      unpatched — Four major AI coding agents, Claude Code, Codex, Copilot and Gemini
+      CLI, all share the same zero click remote code execution vulnerability
+    link: https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/?utm_source=tldrinfosec
+  - desc: Agentic Reality — The Ramifications of Agentic Consumer Adoption
+    link: https://www.citriniresearch.com/p/agentic-reality
+  - desc: Post by @HamelHusain on X — Hamel Husain (LLM evals / applied AI practitioner)
+      post; revisit for the specific takeaway.
+    link: https://x.com/hamelhusain/status/2102807203967365549?s=46
+  - desc: 'Stanford CS336: Language Modeling from Scratch — Stanford course on building
+      LLMs end to end tokenization, transformer architecture, training, scaling laws,
+      data, and alignment.'
+    link: https://cs336.stanford.edu/
+  - desc: Bypassing EDR with Local AI — Project Black blog post on bypassing endpoint
+      detection and response (EDR) using locally run AI.
+    link: https://projectblack.io/blog/bypassing-edr-with-local-ai/
 - date: '2026-09-20'
   news-items:
   - desc: 'SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness

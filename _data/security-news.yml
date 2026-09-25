@@ -1,3 +1,19 @@
+- date: '2026-09-25'
+  news-items:
+  - desc: I Visited IIT Bombay's Secret Student-Run Semiconductor Fab — The HackerFab
+      at IIT Bombay is a first of its kind student run semiconductor fab in India.
+      Around the world, only a handful of these hackerfabs exist. The first one began
+      at Carnegie Mellon…
+    link: https://www.youtube.com/watch?v=UWHMm4Qjpmo
+  - desc: CrowdStrike Mentorship Application — NCL and CrowdStrike have partnered
+      to provide career mentorship to college students who are passionate about cybersecurity
+      and eager to jumpstart their career in this field.
+    link: https://docs.google.com/forms/d/e/1FAIpQLSd5si-Wezt1w8kR3CcoHtCLMINQhSzuMWOot-WCkSoVhUfHhw/viewform
+  - desc: 'How Google infiltrated a notorious hacking gang with an undercover analyst:
+      Report — Google’s undercover operation against TeamPCP exposed stolen credentials,
+      a potential zero day exploit and identifying clues that ultimately helped law
+      enforcement arrest an alleged hacker.'
+    link: https://www.firstpost.com/tech/how-google-infiltrated-a-notorious-hacking-gang-with-an-undercover-analyst-report-14047160.html
 - date: '2026-09-18'
   news-items:
   - desc: Proxy tool, not Burp — HuntProxy (BehiSecc), a web security workbench built
