@@ -433,10 +433,10 @@
         scrollWheelZoom: false
     });
 
-    // Add default tile layer (voyager)
-    var tileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '© OpenStreetMap contributors © CARTO',
-        subdomains: 'abcd',
+    // Add default tile layer (OpenStreetMap standard — no API key required)
+    var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors',
+        subdomains: 'abc',
         maxZoom: 19
     });
     tileLayer.addTo(map);
