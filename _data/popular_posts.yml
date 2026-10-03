@@ -1,9 +1,9 @@
-last_updated: '2026-10-02T06:28:04.442337+00:00'
+last_updated: '2026-10-03T05:54:36.109305+00:00'
 posts:
-- pageviews: 2719
+- pageviews: 2725
   path: /
   title: Vaibhav Bhandari Homepage
-- pageviews: 253
+- pageviews: 252
   path: /bookmarks
   title: bookmarks
 - pageviews: 167
@@ -15,12 +15,12 @@ posts:
 - pageviews: 119
   path: /2024/12/31/a-year-in-review/
   title: A Year In Review
-- pageviews: 116
-  path: /posts-by-year/
-  title: Posts By Year!
 - pageviews: 115
   path: /2024/12/05/holiday-hacks/
   title: Holiday Hacks
+- pageviews: 115
+  path: /posts-by-year/
+  title: Posts By Year!
 - pageviews: 105
   path: /2024/11/22/ai-healthcare/
   title: AI Healthcare
