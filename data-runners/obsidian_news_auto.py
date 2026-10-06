@@ -62,6 +62,16 @@ CATEGORIES = [
 ]
 TAG_TO_CATEGORY = {tag: cat["out"] for cat in CATEGORIES for tag in cat["tags"]}
 
+# Type tags mark a link as keep-but-don't-publish. An explicit news tag
+# overrides them; #no-news always excludes.
+TYPE_TAGS = ["#youtube", "#reference", "#shopping"]
+NO_NEWS_TAG = "#no-news"
+
+
+def has_tag(line: str, tag: str) -> bool:
+    """Whole-tag match, so '#product' does not match '#productivity'."""
+    return re.search(re.escape(tag) + r"(?![\w\-/])", line, re.IGNORECASE) is not None
+
 # Specificity order used both for tie-breaking and for output iteration.
 CATEGORY_ORDER = ["security-news", "digitalhealth-news", "finance-news", "pm-news", "ai-news"]
 
@@ -246,11 +256,23 @@ def scan_dir(
         text = p.read_text(encoding="utf-8", errors="ignore")
         for line in extract_notes_lines(text):
             # Explicit tag wins over content classification (back-compat).
+            if has_tag(line, NO_NEWS_TAG):
+                if verbose:
+                    print(f"    [{d}] SKIP (#no-news): {line.strip()[:70]}")
+                continue
+
             category = None
             for tag, cat in TAG_TO_CATEGORY.items():
-                if tag in line:
+                if has_tag(line, tag):
                     category = cat
                     break
+
+            # Type-tagged links without an explicit news tag never reach the
+            # keyword classifier (e.g. the YouTube dump).
+            if category is None and any(has_tag(line, tt) for tt in TYPE_TAGS):
+                if verbose:
+                    print(f"    [{d}] SKIP (type tag): {line.strip()[:70]}")
+                continue
 
             urls = [m.group(2) for m in MD_LINK_RE.finditer(line)]
             if not urls:
