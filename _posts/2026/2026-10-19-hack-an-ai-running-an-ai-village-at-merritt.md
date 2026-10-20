@@ -31,6 +31,10 @@ I didn't want an API bill, or student chats going to an AI company. So the AIs r
 
 The part I enjoyed most was the receipt printer. It's the same little thermal printer I have been using at home to print poems: Rumi, Kabir, Ghalib, verses from the Bhaktamar. It talks through an old parallel port and a USB adapter, and it kept printing garbage until I sent it the image in small strips with a pause in between. For one day it printed hacker receipts instead: a hacker number, a checklist of rooms and labs, and a box for every CTF flag.
 
+[![The souvenir receipt](/assets/images/2026/2026-aivillage-receipt.jpg)](/assets/images/2026/2026-aivillage-receipt.jpg)
+
+*Hacker #001. Students were more curious about the receipt than I expected: a printer at a job fair that prints you a hacker badge, a reward and a to-do list.*
+
 [![The AI Village booth](/assets/images/2026/2026-aivillage-booth.jpg)](/assets/images/2026/2026-aivillage-booth.jpg)
 
 *The booth: receipt printer, table tent, and three laptops for TryHackMe, the AI Labs and the CTF.*
