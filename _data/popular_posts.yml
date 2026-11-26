@@ -1,12 +1,12 @@
-last_updated: '2026-11-25T09:24:02.765287+00:00'
+last_updated: '2026-11-26T09:01:47.208886+00:00'
 posts:
-- pageviews: 2554
+- pageviews: 2546
   path: /
   title: Vaibhav Bhandari Homepage
 - pageviews: 248
   path: /bookmarks
   title: bookmarks
-- pageviews: 154
+- pageviews: 153
   path: /security-news
   title: Security News
 - pageviews: 134
@@ -16,11 +16,11 @@ posts:
   path: /recipes/
   title: Recipes
 - pageviews: 108
-  path: /posts-by-year/
-  title: Posts By Year!
-- pageviews: 107
   path: /2025/08/28/tattvartha-sutra/
   title: Tattvartha Sutra
+- pageviews: 108
+  path: /posts-by-year/
+  title: Posts By Year!
 - pageviews: 99
   path: /2024/02/02/7-powers/
   title: Business Strategy - "7 Powers" by Hamilton Helmer
